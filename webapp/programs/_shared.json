@@ -1,0 +1,63 @@
+{
+  "_comment": "Reusable requirement fragments. A program requirement of the form {\"$include\": \"name\"} is replaced by the matching block below when programs are loaded. Keeps common Purdue sequences (calculus, university core) in one place.",
+  "blocks": {
+    "calc_1": {
+      "id": "calc_1",
+      "name": "Calculus I",
+      "kind": "one_of",
+      "courses": ["MA 16100", "MA 16500", "MA 16700"]
+    },
+    "calc_2": {
+      "id": "calc_2",
+      "name": "Calculus II",
+      "kind": "one_of",
+      "courses": ["MA 16200", "MA 16600", "MA 16800"]
+    },
+    "calc_3": {
+      "id": "calc_3",
+      "name": "Multivariate Calculus",
+      "kind": "one_of",
+      "courses": ["MA 26100", "MA 27101"]
+    },
+    "linear_algebra": {
+      "id": "linear_algebra",
+      "name": "Linear Algebra",
+      "kind": "one_of",
+      "courses": ["MA 26500", "MA 35100"]
+    },
+    "differential_equations": {
+      "id": "differential_equations",
+      "name": "Differential Equations",
+      "kind": "one_of",
+      "courses": ["MA 26600", "MA 36600"]
+    },
+    "university_core_science": {
+      "id": "university_core",
+      "name": "University Core Curriculum & College of Science Core",
+      "kind": "credits",
+      "credits": 30,
+      "placeholder": true,
+      "note": "Written/oral communication, Great Issues, STS, lab science, language & culture, and general-education selectives. Verify the exact remaining categories with your College of Science advisor or myPurduePlan."
+    },
+    "university_core_engineering": {
+      "id": "university_core",
+      "name": "University Core Curriculum & College of Engineering Core",
+      "kind": "credits",
+      "credits": 30,
+      "placeholder": true,
+      "note": "First-year engineering, written/oral communication, general education, and free electives. Verify remaining categories with your College of Engineering advisor or myPurduePlan."
+    },
+    "first_year_engineering": {
+      "id": "first_year_engineering",
+      "name": "First-Year Engineering",
+      "kind": "all_of",
+      "courses": ["ENGR 13100", "ENGR 13200"]
+    },
+    "engineering_physics_sequence": {
+      "id": "physics_sequence",
+      "name": "Engineering Physics",
+      "kind": "all_of",
+      "courses": ["PHYS 17200", "PHYS 27200"]
+    }
+  }
+}

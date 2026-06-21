@@ -1,0 +1,45 @@
+{
+  "program": "Finance minor",
+  "credits_required": 15,
+  "assumptions": [
+    "Finance minor courses are treated as 3 credits each unless catalog data says otherwise.",
+    "The prompt listed finance courses under MGMT; the term 202710 catalog checks FIN subject-code candidates for the same course numbers."
+  ],
+  "required": [
+    "MGMT 30400",
+    "MGMT 41100",
+    "MGMT 41300"
+  ],
+  "electives": {
+    "choose": 2,
+    "preferred": [
+      "MGMT 41150",
+      "MGMT 41650"
+    ],
+    "options": [
+      "MGMT 41150",
+      "MGMT 41200",
+      "MGMT 41220",
+      "MGMT 41250",
+      "MGMT 41310",
+      "MGMT 41350",
+      "MGMT 41500",
+      "MGMT 41601",
+      "MGMT 41650"
+    ],
+    "catalog_alias_candidates": {
+      "MGMT 30400": "FIN 30400",
+      "MGMT 41100": "FIN 41100",
+      "MGMT 41150": "FIN 41150",
+      "MGMT 41200": "FIN 41200",
+      "MGMT 41220": "FIN 41220",
+      "MGMT 41250": "FIN 41250",
+      "MGMT 41300": "FIN 41300",
+      "MGMT 41310": "FIN 41310",
+      "MGMT 41350": "FIN 41350",
+      "MGMT 41500": "FIN 41500",
+      "MGMT 41601": "FIN 41601",
+      "MGMT 41650": "FIN 41650"
+    }
+  }
+}

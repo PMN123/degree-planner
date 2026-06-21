@@ -1,0 +1,140 @@
+{
+  "program": "Statistics: Math Emphasis, BS",
+  "location": "West Lafayette",
+  "degree_total_credits": 120,
+  "major_credit_requirement": "30-31",
+  "assumptions": [
+    "This file encodes the Statistics: Math Emphasis BS requirements pasted by the user.",
+    "Course can only be used once to meet a Statistics major requirement.",
+    "Cross-program overlap with CS, Math, and Finance is reported but not rejected by this starter audit unless a program-specific rule forbids it.",
+    "MA 26500 satisfies the Statistics BS elementary linear algebra requirement; MA 35100 is not needed.",
+    "The scraped MA 35100 catalog text says it is not open to students with credit in MA 26500, which is consistent with using MA 26500 instead.",
+    "STAT 35500 is listed as an option only for Data Science majors, so STAT 35000 is preferred for this plan."
+  ],
+  "unmodeled_requirements": [
+    "Exact College of Science core category completion for Composition and Presentation, Computing, Language and Culture, General Education, Great Issues in Science, Laboratory Science, Mathematics, STS, Statistics, and Teambuilding and Collaboration.",
+    "2.00 average GPA in required Statistics major courses.",
+    "C or better recommendations for probability courses marked with plus signs.",
+    "CODO/change-of-major requirements and availability of the Statistics Math Emphasis plan for the student's catalog term."
+  ],
+  "required_major_courses": [
+    {
+      "id": "elementary_linear_algebra",
+      "label": "MA 35100 or MA 26500",
+      "one_of": ["MA 26500", "MA 35100"],
+      "note": "MA 26500 is treated as satisfying this requirement."
+    },
+    {
+      "id": "linear_algebra_ii",
+      "label": "MA 35301",
+      "one_of": ["MA 35301"]
+    },
+    {
+      "id": "stochastic_processes",
+      "label": "MA 43200",
+      "one_of": ["MA 43200"]
+    },
+    {
+      "id": "applied_regression",
+      "label": "STAT 51200",
+      "one_of": ["STAT 51200"]
+    },
+    {
+      "id": "intro_statistics",
+      "label": "STAT 35000 or STAT 35500",
+      "one_of": ["STAT 35000", "STAT 35500"]
+    },
+    {
+      "id": "probability",
+      "label": "MA 41600, STAT 41600, or STAT 51600",
+      "one_of": ["MA 41600", "STAT 41600", "STAT 51600"]
+    },
+    {
+      "id": "statistical_theory",
+      "label": "STAT 41700 or STAT 51700",
+      "one_of": ["STAT 41700", "STAT 51700"]
+    },
+    {
+      "id": "analysis",
+      "label": "MA 34100 or MA 44000",
+      "one_of": ["MA 34100", "MA 44000"]
+    }
+  ],
+  "advanced_math_selective": {
+    "choose": 1,
+    "options": [
+      "MA 34900",
+      "MA 36600",
+      "MA 37400",
+      "MA 37500",
+      "MA 42100",
+      "MA 42500",
+      "MA 42800",
+      "MA 44000",
+      "MA 44200",
+      "MA 45000",
+      "MA 45300",
+      "MA 45401",
+      "MA 49500"
+    ],
+    "minimum_credits": 3,
+    "notes": [
+      "Any MA 49500 title is acceptable only if the course is at least 3 credits."
+    ]
+  },
+  "statistics_selective": {
+    "choose": 1,
+    "options": [
+      "CS 37300",
+      "IE 53000",
+      "MA 37400",
+      "STAT 42000",
+      "STAT 51300",
+      "STAT 51400"
+    ],
+    "tdm_combination": {
+      "credits_required": 3,
+      "courses": [
+        "TDM 10100",
+        "TDM 10200",
+        "TDM 20100",
+        "TDM 20200",
+        "TDM 30100",
+        "TDM 30200",
+        "TDM 40100",
+        "TDM 40200"
+      ]
+    }
+  },
+  "pre_requisite_courses": [
+    {
+      "id": "calculus_iii",
+      "label": "MA 26100 or MA 27101",
+      "one_of": ["MA 26100", "MA 27101"]
+    }
+  ],
+  "college_of_science_core": {
+    "composition_and_presentation": {
+      "written_communication": "3-4 credits from University Core Written Communication list",
+      "technical_writing_and_presentation": "0-6 credits from approved TWTP courses or experiences",
+      "teambuilding_and_collaboration": "0-3 credits from approved list; transfer credit does not meet this requirement"
+    },
+    "language_and_culture": "1-9 credits from approved options",
+    "great_issues_in_science": "3 credits from approved list",
+    "science_technology_and_society": "1-3 credits from University Core STS list",
+    "general_education": "9 credits across General Education Options I, II, and III",
+    "computing": {
+      "one_of": ["CS 15900", "CS 17600", "CS 17700", "CS 18000"]
+    },
+    "laboratory_science": "6-8 credits as a one-year approved laboratory science sequence",
+    "mathematics": {
+      "sequence": [["MA 16100", "MA 16500"], ["MA 16200", "MA 16600"]]
+    },
+    "statistics": "Met with required major courses"
+  },
+  "university_requirements": [
+    "University Core Requirements",
+    "Civics Literacy Proficiency Requirement",
+    "At least two semesters of Purdue resident study and at least 32 approved upper-level Purdue credits for degree completion"
+  ]
+}

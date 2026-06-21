@@ -1,0 +1,61 @@
+{
+  "id": "artificial-intelligence-bs",
+  "name": "Artificial Intelligence",
+  "degree": "BS",
+  "type": "major",
+  "college": "College of Science",
+  "catalog_year": "2024-2025",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=18",
+  "notes": [
+    "Encoded as a starter for the AI BS. Includes machine-learning, reasoning, and ethics pillars.",
+    "Confirm the exact pillar selective lists with the College of Science advising office."
+  ],
+  "requirements": [
+    {
+      "id": "ai_cs_core",
+      "name": "Computing Core",
+      "kind": "all_of",
+      "courses": ["CS 18000", "CS 18200", "CS 24000", "CS 25100", "CS 38100"]
+    },
+    {
+      "id": "ai_core",
+      "name": "Artificial Intelligence Core",
+      "kind": "all_of",
+      "courses": ["CS 37300", "CS 47100"]
+    },
+    {
+      "id": "ai_math",
+      "name": "Mathematics & Statistics Foundation",
+      "kind": "all_of",
+      "children": [
+        { "$include": "calc_1" },
+        { "$include": "calc_2" },
+        { "$include": "calc_3" },
+        { "$include": "linear_algebra" },
+        { "id": "ai_prob", "name": "Probability", "kind": "one_of", "courses": ["STAT 41600", "MA 41600", "STAT 51200"] }
+      ]
+    },
+    {
+      "id": "ai_ml_pillar",
+      "name": "Machine Learning Pillar (choose 2)",
+      "kind": "choose",
+      "choose": 2,
+      "options": ["CS 47300", "CS 57700", "CS 57800", "CS 54300", "STAT 51400", "CS 43900"]
+    },
+    {
+      "id": "ai_reasoning_pillar",
+      "name": "Reasoning & Decision-Making Pillar (choose 1)",
+      "kind": "choose",
+      "choose": 1,
+      "options": ["CS 48300", "CS 47300", "CS 45800", "PHIL 32200"]
+    },
+    {
+      "id": "ai_ethics",
+      "name": "Ethics of AI",
+      "kind": "one_of",
+      "courses": ["PHIL 20700", "PHIL 32200", "ILS 23000"]
+    },
+    { "$include": "university_core_science" }
+  ]
+}

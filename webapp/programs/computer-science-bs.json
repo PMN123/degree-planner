@@ -1,0 +1,111 @@
+{
+  "id": "computer-science-bs",
+  "name": "Computer Science",
+  "degree": "BS",
+  "type": "major",
+  "college": "College of Science",
+  "catalog_year": "2024-2025",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=18&poid=33524",
+  "notes": [
+    "Encoded as a starter from the Purdue CS BS plan of study. The same course may count across CS tracks and toward Math/Stats when both programs allow it.",
+    "Pick one concentration (track). Within a track a course cannot count as both a required and a selective course."
+  ],
+  "requirements": [
+    {
+      "id": "cs_core",
+      "name": "Computer Science Core",
+      "kind": "all_of",
+      "courses": ["CS 18000", "CS 18200", "CS 24000", "CS 25000", "CS 25100", "CS 25200"]
+    },
+    {
+      "id": "math_foundation",
+      "name": "Mathematics Foundation",
+      "kind": "all_of",
+      "children": [
+        { "$include": "calc_1" },
+        { "$include": "calc_2" },
+        { "$include": "calc_3" },
+        { "$include": "linear_algebra" },
+        {
+          "id": "statistics",
+          "name": "Probability / Statistics",
+          "kind": "one_of",
+          "courses": ["STAT 35000", "STAT 51100", "MA 41600", "STAT 41600"]
+        }
+      ]
+    },
+    {
+      "id": "concentration",
+      "name": "Concentration (choose one track)",
+      "kind": "track_select",
+      "choose": 1,
+      "tracks": [
+        {
+          "id": "machine_intelligence",
+          "name": "Machine Intelligence Track",
+          "kind": "all_of",
+          "children": [
+            { "id": "mi_dm", "name": "Data Mining", "kind": "one_of", "courses": ["CS 37300"] },
+            { "id": "mi_algo", "name": "Algorithms", "kind": "one_of", "courses": ["CS 38100"] },
+            { "id": "mi_ai", "name": "AI / Web Search", "kind": "one_of", "courses": ["CS 47100", "CS 47300"] },
+            { "id": "mi_prob", "name": "Probability", "kind": "one_of", "courses": ["MA 41600", "STAT 41600", "STAT 51200"] },
+            {
+              "id": "mi_selectives",
+              "name": "MI Selectives (choose 2)",
+              "kind": "choose",
+              "choose": 2,
+              "options": ["CS 31400", "CS 34800", "CS 35200", "CS 44800", "CS 45600", "CS 45800", "CS 47100", "CS 47300", "CS 48300", "CS 57700", "CS 57800"]
+            }
+          ]
+        },
+        {
+          "id": "algorithmic_foundations",
+          "name": "Algorithmic Foundations Track",
+          "kind": "all_of",
+          "children": [
+            { "id": "af_algo", "name": "Analysis of Algorithms", "kind": "one_of", "courses": ["CS 38100"] },
+            { "id": "af_sys", "name": "Compilers or Operating Systems", "kind": "one_of", "courses": ["CS 35200", "CS 35400"] },
+            { "id": "af_app", "name": "Data Mining or AI", "kind": "one_of", "courses": ["CS 37300", "CS 47100"] },
+            {
+              "id": "af_selectives",
+              "name": "AF Selectives (choose 3)",
+              "kind": "choose",
+              "choose": 3,
+              "constraints": { "max_by_subject": { "MA": 1 } },
+              "options": ["CS 31400", "CS 33400", "CS 35300", "CS 35500", "CS 44800", "CS 45600", "CS 45800", "CS 48300", "MA 34100", "MA 35301", "MA 36200", "MA 36600", "MA 38500", "MA 42100", "MA 45300"]
+            }
+          ]
+        },
+        {
+          "id": "software_engineering",
+          "name": "Software Engineering Track",
+          "kind": "all_of",
+          "children": [
+            { "id": "se_se", "name": "Software Engineering", "kind": "one_of", "courses": ["CS 30700"] },
+            { "id": "se_test", "name": "Testing", "kind": "one_of", "courses": ["CS 40800"] },
+            { "id": "se_compiler", "name": "Compilers or Operating Systems", "kind": "one_of", "courses": ["CS 35200", "CS 35400"] },
+            { "id": "se_senior", "name": "Senior Project", "kind": "one_of", "courses": ["CS 40700"] },
+            { "id": "se_algo", "name": "Algorithms", "kind": "one_of", "courses": ["CS 38100"] },
+            {
+              "id": "se_selectives",
+              "name": "SE Selectives (choose 1)",
+              "kind": "choose",
+              "choose": 1,
+              "options": ["CS 34800", "CS 35100", "CS 35300", "CS 42200", "CS 44800", "CS 45600", "CS 47300", "CS 48900"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science_core",
+      "name": "Science Core (lab science sequence)",
+      "kind": "credits",
+      "credits": 9,
+      "placeholder": true,
+      "note": "Approved one-year laboratory science sequence plus additional science selectives."
+    },
+    { "$include": "university_core_science" }
+  ]
+}

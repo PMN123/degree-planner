@@ -1,0 +1,68 @@
+{
+  "program": "BS Mathematics",
+  "major_credit_requirement": 28,
+  "assumptions": [
+    "MA 26500 satisfies the Mathematics BS elementary linear algebra requirement.",
+    "The same courses may count across CS requirements and Math requirements when allowed by the programs.",
+    "Only one math selective may be used from each listed selective group."
+  ],
+  "required": [
+    {
+      "id": "elementary_linear_algebra",
+      "label": "MA 35100 or equivalent",
+      "one_of": ["MA 26500", "MA 35100"]
+    },
+    {
+      "id": "linear_algebra_ii",
+      "label": "MA 35301",
+      "one_of": ["MA 35301"]
+    },
+    {
+      "id": "ordinary_differential_equations",
+      "label": "MA 36600",
+      "one_of": ["MA 36600"]
+    },
+    {
+      "id": "complex_analysis",
+      "label": "MA 42500",
+      "one_of": ["MA 42500"]
+    },
+    {
+      "id": "analysis",
+      "label": "MA 34100 or MA 44000",
+      "one_of": ["MA 34100", "MA 44000"]
+    },
+    {
+      "id": "algebra",
+      "label": "MA 45300 or MA 45000",
+      "one_of": ["MA 45300", "MA 45000"]
+    }
+  ],
+  "selectives": {
+    "credits_required": 9,
+    "one_per_group": true,
+    "preferred": ["CS 38100", "CS 31400", "MA 41600", "STAT 41600"],
+    "groups": [
+      {
+        "id": "computer_science",
+        "label": "Computer Science group",
+        "courses": ["CS 24000", "CS 25100", "MA 37400", "MA 34900"]
+      },
+      {
+        "id": "discrete_foundations",
+        "label": "Discrete Mathematics / Foundations group",
+        "courses": ["CS 38100", "CS 48300", "MA 37500", "MA 38500"]
+      },
+      {
+        "id": "numerical_analysis",
+        "label": "Numerical Analysis group",
+        "courses": ["CS 31400", "CS 51500", "CS 52000", "MA 42100"]
+      },
+      {
+        "id": "statistics_probability",
+        "label": "Statistics / Probability group",
+        "courses": ["MA 41600", "MA 43200", "STAT 41600", "STAT 41700", "STAT 51600", "STAT 51700", "STAT 51900"]
+      }
+    ]
+  }
+}

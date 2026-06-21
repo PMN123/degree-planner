@@ -1,0 +1,29 @@
+{
+  "id": "computer-science-minor",
+  "name": "Computer Science",
+  "degree": "Minor",
+  "type": "minor",
+  "college": "College of Science",
+  "catalog_year": "2024-2025",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=18",
+  "notes": [
+    "Encoded as a starter. CS minor is typically the first three CS core courses plus two upper-division CS electives.",
+    "Verify the approved elective list and minimum-grade rules with the CS undergraduate office."
+  ],
+  "requirements": [
+    {
+      "id": "csm_core",
+      "name": "Required Courses",
+      "kind": "all_of",
+      "courses": ["CS 18000", "CS 18200", "CS 25100"]
+    },
+    {
+      "id": "csm_electives",
+      "name": "Upper-Division CS Electives (choose 2)",
+      "kind": "choose",
+      "choose": 2,
+      "options": ["CS 25000", "CS 25200", "CS 34800", "CS 35200", "CS 35400", "CS 37300", "CS 38100", "CS 44800", "CS 47100", "CS 48300"]
+    }
+  ]
+}

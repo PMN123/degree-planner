@@ -1,0 +1,66 @@
+# Example semester plan — generic Computer Science + Mathematics double major.
+# Ships NO personal data. Copy this file, edit the semesters, and re-run the audit.
+target_graduation: Fall 2028
+student_profile:
+  programs:
+    - Computer Science-BS
+    - Mathematics-BS
+  majors:
+    - Computer Science
+    - Mathematics
+  minors: []
+  fields_of_study:
+    - Computer Science
+    - Mathematics
+assumptions:
+  - Course overlap across majors is allowed when both programs allow it.
+  - College of Science core categories are placeholders until verified with advising.
+semesters:
+  - term: Fall 2026
+    credits: 10
+    courses:
+      - code: CS 18200
+        title: Foundations of Computer Science
+        credits: 3
+      - code: CS 24000
+        title: Programming in C
+        credits: 3
+      - code: MA 36600
+        title: Ordinary Differential Equations
+        credits: 4
+  - term: Spring 2027
+    credits: 10
+    courses:
+      - code: CS 25000
+        title: Computer Architecture
+        credits: 4
+      - code: CS 25100
+        title: Data Structures and Algorithms
+        credits: 3
+      - code: MA 34100
+        title: Foundations of Analysis
+        credits: 3
+  - term: Fall 2027
+    credits: 10
+    courses:
+      - code: CS 25200
+        title: Systems Programming
+        credits: 4
+      - code: CS 38100
+        title: Analysis of Algorithms
+        credits: 3
+      - code: MA 42500
+        title: Elements of Complex Analysis
+        credits: 3
+  - term: Spring 2028
+    credits: 9
+    courses:
+      - code: CS 37300
+        title: Data Mining and Machine Learning
+        credits: 3
+      - code: CS 47100
+        title: Introduction to Artificial Intelligence
+        credits: 3
+      - code: MA 45300
+        title: Elements of Algebra I
+        credits: 3

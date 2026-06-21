@@ -1,0 +1,356 @@
+{
+  "program": "BS Computer Science",
+  "degree_total_credits": 120,
+  "assumptions": [
+    "The same course can count across different CS tracks.",
+    "The same course can count across a CS track and the Mathematics major when allowed.",
+    "A course cannot count as both required and selective within the same CS track.",
+    "MA 26100 and MA 26500 are already satisfied by transfer/test credit.",
+    "CS 18200 is still required despite undistributed discrete structures credit."
+  ],
+  "unmodeled_requirements": [
+    "Exact College of Science core distribution requirements, including STS, Great Issues, technical writing/presentation, oral communication, civics, and other gen ed categories.",
+    "Official resident-credit and upper-level resident-credit rules.",
+    "Actual term-by-term section availability and enrollment permissions."
+  ],
+  "math_requirements": [
+    {
+      "id": "multivariate_calculus",
+      "label": "MA 26100 or MA 27101",
+      "one_of": ["MA 26100", "MA 27101"]
+    },
+    {
+      "id": "linear_algebra",
+      "label": "MA 26500 or MA 35100",
+      "one_of": ["MA 26500", "MA 35100"]
+    }
+  ],
+  "core": [
+    "CS 18000",
+    "CS 18200",
+    "CS 24000",
+    "CS 25000",
+    "CS 25100",
+    "CS 25200"
+  ],
+  "tracks": [
+    {
+      "id": "algorithmic_foundations",
+      "label": "Algorithmic Foundations",
+      "priority": 1,
+      "required": [
+        {
+          "id": "analysis_of_algorithms",
+          "label": "CS 38100",
+          "one_of": ["CS 38100"]
+        },
+        {
+          "id": "systems_or_compilers",
+          "label": "CS 35200 or CS 35400",
+          "one_of": ["CS 35400", "CS 35200"]
+        },
+        {
+          "id": "data_mining_or_ai",
+          "label": "CS 37300 or CS 47100",
+          "one_of": ["CS 37300", "CS 47100"]
+        }
+      ],
+      "selectives": {
+        "choose": 3,
+        "exclude_courses_used_by_required": true,
+        "max_by_category": {
+          "math": 1
+        },
+        "options": [
+          {
+            "label": "MA 35301",
+            "courses": ["MA 35301"],
+            "category": "math"
+          },
+          {
+            "label": "CS 31400",
+            "courses": ["CS 31400"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 44800",
+            "courses": ["CS 44800"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 31100 + CS 41100",
+            "courses": ["CS 31100", "CS 41100"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 33400",
+            "courses": ["CS 33400"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 35300",
+            "courses": ["CS 35300"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 35500",
+            "courses": ["CS 35500"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 45600",
+            "courses": ["CS 45600"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 45800",
+            "courses": ["CS 45800"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 48300",
+            "courses": ["CS 48300"],
+            "category": "cs"
+          },
+          {
+            "label": "MA 34100",
+            "courses": ["MA 34100"],
+            "category": "math"
+          },
+          {
+            "label": "MA 36200",
+            "courses": ["MA 36200"],
+            "category": "math"
+          },
+          {
+            "label": "MA 36600",
+            "courses": ["MA 36600"],
+            "category": "math"
+          },
+          {
+            "label": "MA 38500",
+            "courses": ["MA 38500"],
+            "category": "math"
+          },
+          {
+            "label": "MA 42100",
+            "courses": ["MA 42100"],
+            "category": "math"
+          },
+          {
+            "label": "MA 45300",
+            "courses": ["MA 45300"],
+            "category": "math"
+          }
+        ]
+      }
+    },
+    {
+      "id": "machine_intelligence",
+      "label": "Machine Intelligence",
+      "priority": 2,
+      "required": [
+        {
+          "id": "data_mining",
+          "label": "CS 37300",
+          "one_of": ["CS 37300"]
+        },
+        {
+          "id": "analysis_of_algorithms",
+          "label": "CS 38100",
+          "one_of": ["CS 38100"]
+        },
+        {
+          "id": "ai_or_search",
+          "label": "CS 47100 or CS 47300",
+          "one_of": ["CS 47100", "CS 47300"]
+        },
+        {
+          "id": "probability",
+          "label": "MA 41600, STAT 41600, or STAT 51200",
+          "one_of": ["MA 41600", "STAT 41600", "STAT 51200"]
+        }
+      ],
+      "selectives": {
+        "choose": 2,
+        "exclude_courses_used_by_required": true,
+        "options": [
+          {
+            "label": "CS 31400",
+            "courses": ["CS 31400"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 44800",
+            "courses": ["CS 44800"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 34800",
+            "courses": ["CS 34800"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 35200",
+            "courses": ["CS 35200"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 45600",
+            "courses": ["CS 45600"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 45800",
+            "courses": ["CS 45800"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 47100",
+            "courses": ["CS 47100"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 47300",
+            "courses": ["CS 47300"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 48300",
+            "courses": ["CS 48300"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 57700",
+            "courses": ["CS 57700"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 57800",
+            "courses": ["CS 57800"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 31100 + CS 41100",
+            "courses": ["CS 31100", "CS 41100"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 44000 / CS 43900 / CS 47500 option",
+            "courses": ["CS 44000"],
+            "alternatives": ["CS 43900", "CS 47500"],
+            "category": "cs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "computational_science_and_engineering",
+      "label": "Computational Science and Engineering",
+      "priority": 3,
+      "credits_required": 21,
+      "minimum_cs_courses": 4,
+      "required": [
+        {
+          "id": "numerical_methods",
+          "label": "CS 31400",
+          "one_of": ["CS 31400"]
+        },
+        {
+          "id": "analysis_of_algorithms",
+          "label": "CS 38100",
+          "one_of": ["CS 38100"]
+        },
+        {
+          "id": "differential_equations",
+          "label": "MA 26600 or MA 36600",
+          "one_of": ["MA 36600", "MA 26600"]
+        },
+        {
+          "id": "application",
+          "label": "One CSE application course",
+          "one_of": ["CS 37300", "CS 47300", "CS 47800", "ECE 30100", "IE 33600"]
+        },
+        {
+          "id": "systems",
+          "label": "One CSE systems course",
+          "one_of": ["CS 35400", "CS 35300", "CS 35200"]
+        }
+      ],
+      "selectives": {
+        "choose": 2,
+        "exclude_courses_used_by_required": true,
+        "options": [
+          {
+            "label": "MA 34100",
+            "courses": ["MA 34100"],
+            "category": "math"
+          },
+          {
+            "label": "CS 52000",
+            "courses": ["CS 52000"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 51500",
+            "courses": ["CS 51500"],
+            "category": "cs"
+          },
+          {
+            "label": "IE 33500",
+            "courses": ["IE 33500"],
+            "category": "ie"
+          },
+          {
+            "label": "CS 51400",
+            "courses": ["CS 51400"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 52500",
+            "courses": ["CS 52500"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 30700",
+            "courses": ["CS 30700"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 42200",
+            "courses": ["CS 42200"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 45600",
+            "courses": ["CS 45600"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 45800",
+            "courses": ["CS 45800"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 47100",
+            "courses": ["CS 47100"],
+            "category": "cs"
+          },
+          {
+            "label": "CS 48300",
+            "courses": ["CS 48300"],
+            "category": "cs"
+          },
+          {
+            "label": "MA 44000",
+            "courses": ["MA 44000"],
+            "category": "math"
+          }
+        ]
+      },
+      "notes": [
+        "MA 42100 is listed in the student prompt as a backup, but it is not included in the CSE selective list encoded from the same prompt."
+      ]
+    }
+  ]
+}

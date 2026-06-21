@@ -1,0 +1,63 @@
+{
+  "id": "statistics-math-emphasis-bs",
+  "name": "Statistics (Mathematics Emphasis)",
+  "degree": "BS",
+  "type": "major",
+  "college": "College of Science",
+  "catalog_year": "2024-2025",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=18&poid=33700",
+  "notes": [
+    "Encoded as a starter from the Statistics: Math Emphasis plan of study.",
+    "A course may be used only once to meet a Statistics major requirement; cross-program overlap with CS/Math is allowed.",
+    "MA 26500 is treated as satisfying elementary linear algebra; MA 35100 is not separately required."
+  ],
+  "requirements": [
+    {
+      "id": "stat_required",
+      "name": "Required Major Courses",
+      "kind": "all_of",
+      "children": [
+        { "id": "lin_alg", "name": "Elementary Linear Algebra", "kind": "one_of", "courses": ["MA 26500", "MA 35100"] },
+        { "id": "lin_alg_2", "name": "Linear Algebra II", "kind": "one_of", "courses": ["MA 35301"] },
+        { "id": "stochastic", "name": "Stochastic Processes", "kind": "one_of", "courses": ["MA 43200"] },
+        { "id": "regression", "name": "Applied Regression", "kind": "one_of", "courses": ["STAT 51200"] },
+        { "id": "intro_stat", "name": "Intro Statistics", "kind": "one_of", "courses": ["STAT 35000", "STAT 35500"] },
+        { "id": "probability", "name": "Probability", "kind": "one_of", "courses": ["MA 41600", "STAT 41600", "STAT 51600"] },
+        { "id": "theory", "name": "Statistical Theory", "kind": "one_of", "courses": ["STAT 41700", "STAT 51700"] },
+        { "id": "analysis", "name": "Analysis", "kind": "one_of", "courses": ["MA 34100", "MA 44000"] }
+      ]
+    },
+    {
+      "id": "advanced_math_selective",
+      "name": "Advanced Mathematics Selective (choose 1)",
+      "kind": "choose",
+      "choose": 1,
+      "options": ["MA 34900", "MA 36600", "MA 37400", "MA 37500", "MA 42100", "MA 42500", "MA 42800", "MA 44000", "MA 44200", "MA 45000", "MA 45300", "MA 45401"]
+    },
+    {
+      "id": "statistics_selective",
+      "name": "Statistics Selective (choose 1)",
+      "kind": "choose",
+      "choose": 1,
+      "options": ["CS 37300", "IE 53000", "MA 37400", "STAT 42000", "STAT 51300", "STAT 51400"]
+    },
+    {
+      "id": "calc_sequence",
+      "name": "Calculus Sequence",
+      "kind": "all_of",
+      "children": [
+        { "$include": "calc_1" },
+        { "$include": "calc_2" },
+        { "$include": "calc_3" }
+      ]
+    },
+    {
+      "id": "computing",
+      "name": "Computing Requirement",
+      "kind": "one_of",
+      "courses": ["CS 15900", "CS 17600", "CS 17700", "CS 18000"]
+    },
+    { "$include": "university_core_science" }
+  ]
+}

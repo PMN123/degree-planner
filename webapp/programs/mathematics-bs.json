@@ -1,0 +1,52 @@
+{
+  "id": "mathematics-bs",
+  "name": "Mathematics",
+  "degree": "BS",
+  "type": "major",
+  "college": "College of Science",
+  "catalog_year": "2024-2025",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=18&poid=33600",
+  "notes": [
+    "Encoded as a starter. Only one math selective may be used from each listed selective group.",
+    "Courses may overlap with CS / Statistics when both programs allow it."
+  ],
+  "requirements": [
+    {
+      "id": "math_core",
+      "name": "Mathematics Core",
+      "kind": "all_of",
+      "children": [
+        { "$include": "calc_1" },
+        { "$include": "calc_2" },
+        { "$include": "calc_3" },
+        { "id": "lin_alg", "name": "Elementary Linear Algebra", "kind": "one_of", "courses": ["MA 26500", "MA 35100"] },
+        { "id": "lin_alg_2", "name": "Linear Algebra II", "kind": "one_of", "courses": ["MA 35301"] },
+        { "id": "odes", "name": "Ordinary Differential Equations", "kind": "one_of", "courses": ["MA 36600", "MA 26600"] },
+        { "id": "analysis", "name": "Analysis", "kind": "one_of", "courses": ["MA 34100", "MA 44000"] },
+        { "id": "complex", "name": "Complex Analysis", "kind": "one_of", "courses": ["MA 42500"] },
+        { "id": "algebra", "name": "Abstract Algebra", "kind": "one_of", "courses": ["MA 45300", "MA 45000"] }
+      ]
+    },
+    {
+      "id": "math_selectives",
+      "name": "Mathematics Selectives (9 credits, one per group)",
+      "kind": "choose",
+      "choose_credits": 9,
+      "constraints": { "max_by_subject": {} },
+      "options": [
+        { "kind": "one_of", "name": "Computer Science group", "courses": ["CS 24000", "CS 25100", "MA 37400", "MA 34900"] },
+        { "kind": "one_of", "name": "Discrete / Foundations group", "courses": ["CS 38100", "CS 48300", "MA 37500", "MA 38500"] },
+        { "kind": "one_of", "name": "Numerical Analysis group", "courses": ["CS 31400", "CS 51500", "CS 52000", "MA 42100"] },
+        { "kind": "one_of", "name": "Statistics / Probability group", "courses": ["MA 41600", "MA 43200", "STAT 41600", "STAT 41700", "STAT 51600", "STAT 51700", "STAT 51900"] }
+      ]
+    },
+    {
+      "id": "computing",
+      "name": "Computing Requirement",
+      "kind": "one_of",
+      "courses": ["CS 15900", "CS 17700", "CS 18000", "CS 24000"]
+    },
+    { "$include": "university_core_science" }
+  ]
+}

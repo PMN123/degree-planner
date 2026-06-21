@@ -1,0 +1,50 @@
+{
+  "id": "computer-engineering-bs",
+  "name": "Computer Engineering",
+  "degree": "BS",
+  "type": "major",
+  "college": "College of Engineering",
+  "catalog_year": "2024-2025",
+  "total_credits": 128,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=18",
+  "notes": [
+    "Encoded as a starter for ECE Computer Engineering. Demonstrates an engineering-college program in the same engine.",
+    "Verify ENGR first-year, physics, and the upper-division selective lists against myPurduePlan."
+  ],
+  "requirements": [
+    { "$include": "first_year_engineering" },
+    {
+      "id": "ece_math",
+      "name": "Mathematics Foundation",
+      "kind": "all_of",
+      "children": [
+        { "$include": "calc_1" },
+        { "$include": "calc_2" },
+        { "$include": "calc_3" },
+        { "$include": "differential_equations" },
+        { "$include": "linear_algebra" }
+      ]
+    },
+    { "$include": "engineering_physics_sequence" },
+    {
+      "id": "ece_core",
+      "name": "ECE Core",
+      "kind": "all_of",
+      "courses": ["ECE 20001", "ECE 20002", "ECE 20875", "ECE 26400", "ECE 27000", "ECE 30100", "ECE 36200", "ECE 36800"]
+    },
+    {
+      "id": "ece_digital",
+      "name": "Digital Systems & Architecture",
+      "kind": "all_of",
+      "courses": ["ECE 33700", "ECE 43700"]
+    },
+    {
+      "id": "ece_selectives",
+      "name": "ECE Selectives (choose 3)",
+      "kind": "choose",
+      "choose": 3,
+      "options": ["ECE 40800", "ECE 43800", "ECE 46900", "ECE 47700", "ECE 49500", "CS 35400", "CS 50300"]
+    },
+    { "$include": "university_core_engineering" }
+  ]
+}

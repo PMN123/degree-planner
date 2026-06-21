@@ -1,0 +1,53 @@
+{
+  "id": "data-science-bs",
+  "name": "Data Science",
+  "degree": "BS",
+  "type": "major",
+  "college": "College of Science",
+  "catalog_year": "2024-2025",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=18&poid=33543",
+  "notes": [
+    "Encoded as a starter from the interdisciplinary Data Science BS (CS + Statistics).",
+    "Verify the exact ethics, capstone, and selective lists against myPurduePlan before registering."
+  ],
+  "requirements": [
+    {
+      "id": "ds_core",
+      "name": "Data Science Core",
+      "kind": "all_of",
+      "courses": ["CS 18000", "CS 18200", "CS 25100", "CS 37300", "CS 38003", "STAT 24200", "STAT 35500", "STAT 41600", "STAT 41700"]
+    },
+    {
+      "id": "ds_math",
+      "name": "Mathematics Foundation",
+      "kind": "all_of",
+      "children": [
+        { "$include": "calc_1" },
+        { "$include": "calc_2" },
+        { "$include": "calc_3" },
+        { "$include": "linear_algebra" }
+      ]
+    },
+    {
+      "id": "ds_capstone",
+      "name": "Data Science Capstone / Seminar",
+      "kind": "all_of",
+      "courses": ["STAT 49000", "CS 44000"]
+    },
+    {
+      "id": "ds_ethics",
+      "name": "Data Science Ethics & Society",
+      "kind": "one_of",
+      "courses": ["ILS 23000", "PHIL 20700"]
+    },
+    {
+      "id": "ds_selectives",
+      "name": "Data Science Selectives (choose 3)",
+      "kind": "choose",
+      "choose": 3,
+      "options": ["CS 34800", "CS 44800", "CS 47100", "CS 47300", "CS 43900", "STAT 42000", "STAT 50600", "STAT 51200", "STAT 51400", "IE 33600"]
+    },
+    { "$include": "university_core_science" }
+  ]
+}

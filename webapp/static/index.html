@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boiler Degree Planner</title>
+  <meta name="description" content="Code-backed Purdue graduation planner — audit any major and any plan against encoded degree requirements." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">P</div>
+      <div class="brand-text">
+        <h1>Boiler Degree Planner</h1>
+        <p class="tagline">Code-backed graduation audit for <span class="accent">any</span> Purdue major</p>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <span class="meta-chip" id="catalog-meta" title="Scraped Purdue catalog">…</span>
+      <button class="ghost-btn" id="load-example" type="button">Load example</button>
+      <button class="ghost-btn" id="reset-plan" type="button">Reset</button>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle light / dark">
+        <span class="theme-icon">◑</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- LEFT: plan builder -->
+    <section class="builder">
+      <div class="card setup-card">
+        <div class="card-head">
+          <h2>Your degrees</h2>
+          <span class="hint">Pick one or more — overlap is allowed</span>
+        </div>
+        <div class="program-picker" id="program-picker"></div>
+        <div class="setup-row">
+          <label class="field">
+            <span>Target graduation</span>
+            <input type="text" id="grad-target" placeholder="Fall 2028" autocomplete="off" />
+          </label>
+        </div>
+      </div>
+
+      <div class="card completed-card">
+        <div class="card-head">
+          <h2>Completed &amp; transfer credit</h2>
+          <span class="hint">AP / test / prior courses</span>
+        </div>
+        <div class="course-chips" id="completed-list"></div>
+        <div class="add-course-row" data-bucket="completed">
+          <div class="course-search">
+            <input type="text" class="course-input" placeholder="Add a completed course (e.g. CS 18000)" autocomplete="off" />
+            <div class="search-pop" hidden></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="semesters" id="semesters"></div>
+
+      <button class="add-semester-btn" id="add-semester" type="button">+ Add semester</button>
+    </section>
+
+    <!-- RIGHT: live audit -->
+    <aside class="results">
+      <div class="card summary-card" id="summary-card">
+        <div class="feasibility" id="feasibility">
+          <span class="status-dot"></span>
+          <span class="status-text">Build a plan to audit</span>
+        </div>
+        <div class="credit-ring-wrap">
+          <svg class="credit-ring" viewBox="0 0 120 120" aria-hidden="true">
+            <circle class="ring-track" cx="60" cy="60" r="52"></circle>
+            <circle class="ring-value" cx="60" cy="60" r="52"></circle>
+          </svg>
+          <div class="ring-center">
+            <strong id="ring-credits">0</strong>
+            <span id="ring-target">/ 120 cr</span>
+          </div>
+        </div>
+        <div class="credit-legend" id="credit-legend"></div>
+      </div>
+
+      <div class="card" id="programs-card">
+        <div class="card-head"><h2>Degree coverage</h2></div>
+        <div id="program-coverage" class="program-coverage"></div>
+      </div>
+
+      <div class="card" id="prereq-card">
+        <div class="card-head"><h2>Prerequisite checks</h2><span class="hint" id="prereq-count"></span></div>
+        <div id="prereq-list" class="issue-list"></div>
+      </div>
+
+      <div class="card" id="loads-card">
+        <div class="card-head"><h2>Semester loads</h2></div>
+        <div id="loads-list" class="loads-list"></div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Requirement-tree modal -->
+  <div class="modal-backdrop" id="modal" hidden>
+    <div class="modal-panel" role="dialog" aria-modal="true">
+      <div class="modal-head">
+        <div>
+          <h2 id="modal-title">Program</h2>
+          <p id="modal-sub" class="hint"></p>
+        </div>
+        <button class="icon-btn" id="modal-close" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" hidden></div>
+
+  <footer class="footer">
+    <span>Starter requirement data — <strong>always verify with myPurduePlan / Purdue advising</strong> before registering.</span>
+  </footer>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

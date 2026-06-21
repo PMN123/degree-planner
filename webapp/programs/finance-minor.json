@@ -1,0 +1,29 @@
+{
+  "id": "finance-minor",
+  "name": "Finance",
+  "degree": "Minor",
+  "type": "minor",
+  "college": "Daniels School of Business",
+  "catalog_year": "2024-2025",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=18",
+  "notes": [
+    "Encoded as a starter. Finance courses moved from the legacy MGMT subject code to FIN; verify current subject codes.",
+    "Finance minor courses for non-business students may require registration overrides/permits."
+  ],
+  "requirements": [
+    {
+      "id": "fin_required",
+      "name": "Required Finance Courses",
+      "kind": "all_of",
+      "courses": ["FIN 30400", "FIN 41100", "FIN 41300"]
+    },
+    {
+      "id": "fin_electives",
+      "name": "Finance Electives (choose 2)",
+      "kind": "choose",
+      "choose": 2,
+      "options": ["FIN 41150", "FIN 41200", "FIN 41220", "FIN 41250", "FIN 41310", "FIN 41350", "FIN 41500", "FIN 41601", "FIN 41650"]
+    }
+  ]
+}

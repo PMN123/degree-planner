@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Scraper cache (regenerable raw HTML)
+cache/
+
+# Personal plans & generated outputs — keep these out of the public repo
+plan.yaml
+completed_courses.json
+audit_report.json
+graduation_plan.xlsx
+plan_variants.yaml
+plan_variants.xlsx
+plan_variants_report.md
+plan_*.yaml
+*_plan.xlsx
+ai_chinese_*
+!examples/plan.example.yaml
+!examples/completed.example.json

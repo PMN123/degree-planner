@@ -1,0 +1,13 @@
+{
+  "notes": [
+    "Example completed/transfer credit for a generic incoming Computer Science + Mathematics student.",
+    "Replace with your own AP / test / transfer / prior-Purdue credit. This file ships no personal data."
+  ],
+  "courses": [
+    { "code": "CS 18000", "title": "Problem Solving & Object-Oriented Programming", "credits": 4, "term": "Year 1", "source": "Purdue" },
+    { "code": "MA 16100", "title": "Plane Analytic Geometry & Calculus I", "credits": 5, "term": "AP", "source": "AP" },
+    { "code": "MA 16200", "title": "Plane Analytic Geometry & Calculus II", "credits": 5, "term": "AP", "source": "AP" },
+    { "code": "MA 26100", "title": "Multivariate Calculus", "credits": 4, "term": "Year 1", "source": "Purdue" },
+    { "code": "MA 26500", "title": "Linear Algebra", "credits": 3, "term": "Year 1", "source": "Purdue" }
+  ]
+}
