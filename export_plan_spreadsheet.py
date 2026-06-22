@@ -318,11 +318,13 @@ def write_xlsx(path: Path, sheets: list[dict[str, Any]]) -> None:
             )
 
 
-def make_workbook(output: Path) -> None:
-    plan = load_yaml(ROOT / "plan.yaml")
-    audit = load_json(ROOT / "audit_report.json")
+def make_workbook(output: Path, data_dir: Path = ROOT) -> None:
+    # plan.yaml, audit_report.json and completed_courses.json are personal and live
+    # in data_dir; the catalog is repo-shipped and read from ROOT.
+    plan = load_yaml(data_dir / "plan.yaml")
+    audit = load_json(data_dir / "audit_report.json")
     catalog = load_json(ROOT / "course_catalog.json").get("courses", {})
-    completed = load_json(ROOT / "completed_courses.json")
+    completed = load_json(data_dir / "completed_courses.json")
     usage = build_usage(audit)
     prereq_checks = check_map(audit, "prerequisite_checks")
     restriction_checks = check_map(audit, "restriction_checks")
@@ -554,12 +556,22 @@ def make_workbook(output: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--data-dir",
+        default=None,
+        help=(
+            "Directory holding plan.yaml, audit_report.json and completed_courses.json, "
+            "and where graduation_plan.xlsx is written. Defaults to the script directory. "
+            "Point at a plan folder kept outside this repo, e.g. ../my-plan"
+        ),
+    )
     parser.add_argument("--output", default="graduation_plan.xlsx")
     args = parser.parse_args()
+    data_dir = Path(args.data_dir).resolve() if args.data_dir else ROOT
     output = Path(args.output)
     if not output.is_absolute():
-        output = ROOT / output
-    make_workbook(output)
+        output = data_dir / output
+    make_workbook(output, data_dir)
     print(output)
     return 0
 

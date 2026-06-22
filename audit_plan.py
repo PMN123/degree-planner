@@ -1182,8 +1182,11 @@ def merge_usage(*usage_maps: dict[str, list[str]]) -> dict[str, list[str]]:
 
 
 def build_audit(args: argparse.Namespace) -> dict[str, Any]:
-    completed = load_completed(ROOT / args.completed)
-    plan, planned, plan_warnings = load_plan(ROOT / args.plan)
+    # Personal plan inputs live in --data-dir (defaults to this repo dir); the
+    # catalog and requirements/ are repo-shipped and always read from ROOT.
+    data_dir = Path(args.data_dir).resolve() if getattr(args, "data_dir", None) else ROOT
+    completed = load_completed(data_dir / args.completed)
+    plan, planned, plan_warnings = load_plan(data_dir / args.plan)
     catalog_path = ROOT / args.catalog
     catalog = load_json(catalog_path) if catalog_path.exists() else {"courses": {}}
     all_courses = completed + planned
@@ -1407,6 +1410,15 @@ def print_audit(audit: dict[str, Any]) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--data-dir",
+        default=None,
+        help=(
+            "Directory holding the personal plan files (plan.yaml, completed_courses.json) "
+            "and where the audit JSON is written. Defaults to the script directory. "
+            "Use this to point at a plan folder kept outside this repo, e.g. ../my-plan"
+        ),
+    )
     parser.add_argument("--completed", default="completed_courses.json")
     parser.add_argument("--plan", default="plan.yaml")
     parser.add_argument("--catalog", default="course_catalog.json")
@@ -1424,9 +1436,10 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     print_audit(audit)
     if args.json_output:
+        data_dir = Path(args.data_dir).resolve() if args.data_dir else ROOT
         output_path = Path(args.json_output)
         if not output_path.is_absolute():
-            output_path = ROOT / output_path
+            output_path = data_dir / output_path
         output_path.write_text(json.dumps(audit, indent=2, sort_keys=True), encoding="utf-8")
     return 0
 

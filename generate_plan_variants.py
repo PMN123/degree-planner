@@ -7,6 +7,7 @@ audit_plan.py. They do not prove future section availability.
 
 from __future__ import annotations
 
+import argparse
 import json
 from copy import deepcopy
 from datetime import date
@@ -748,7 +749,21 @@ def make_report(data: dict[str, Any]) -> str:
 
 
 def main() -> int:
-    completed = load_completed(ROOT / "completed_courses.json")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--data-dir",
+        default=None,
+        help=(
+            "Directory holding completed_courses.json and where the generated variants "
+            "(plan_variants.yaml/.md, plan_cs_algorithms.yaml) are written. Defaults to the "
+            "script directory. Point at a plan folder kept outside this repo, e.g. ../my-plan"
+        ),
+    )
+    args = parser.parse_args()
+    # completed_courses.json is personal (lives in --data-dir); the catalog and
+    # requirements/ are repo-shipped and always read from ROOT.
+    data_dir = Path(args.data_dir).resolve() if args.data_dir else ROOT
+    completed = load_completed(data_dir / "completed_courses.json")
     catalog = load_json(ROOT / "course_catalog.json")
     requirements = {
         "cs": load_json(ROOT / "requirements" / "cs.json"),
@@ -807,11 +822,11 @@ def main() -> int:
         "variants": variants,
     }
 
-    (ROOT / "plan_variants.yaml").write_text(yaml.safe_dump(data, sort_keys=False, width=140), encoding="utf-8")
-    (ROOT / "plan_variants_report.md").write_text(make_report(data), encoding="utf-8")
+    (data_dir / "plan_variants.yaml").write_text(yaml.safe_dump(data, sort_keys=False, width=140), encoding="utf-8")
+    (data_dir / "plan_variants_report.md").write_text(make_report(data), encoding="utf-8")
 
     baseline = next(variant for variant in variants if variant["id"] == "cs_algorithms")
-    (ROOT / "plan_cs_algorithms.yaml").write_text(yaml.safe_dump(build_plan_dict(baseline), sort_keys=False, width=120), encoding="utf-8")
+    (data_dir / "plan_cs_algorithms.yaml").write_text(yaml.safe_dump(build_plan_dict(baseline), sort_keys=False, width=120), encoding="utf-8")
 
     print(json.dumps({"variants": len(variants), "failed": failed, "baseline_target": baseline["target_graduation"]}, indent=2))
     return 0

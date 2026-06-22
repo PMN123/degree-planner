@@ -640,10 +640,11 @@ def validation_sheet(data: dict[str, Any], anchors: dict[str, int]) -> dict[str,
     return {"name": "Validation", "rows": rows, "widths": [14, 54, 24, 12, 100], "row_styles": row_styles}
 
 
-def make_workbook(output: Path) -> None:
-    variants_path = ROOT / "plan_variants.yaml"
+def make_workbook(output: Path, data_dir: Path = ROOT) -> None:
+    # plan_variants.yaml is a personal, generated artifact and lives in data_dir.
+    variants_path = data_dir / "plan_variants.yaml"
     if not variants_path.exists():
-        raise FileNotFoundError("plan_variants.yaml not found. Run generate_plan_variants.py first.")
+        raise FileNotFoundError(f"plan_variants.yaml not found in {data_dir}. Run generate_plan_variants.py first.")
     data = load_yaml(variants_path)
     anchors, plans = build_plan_rows(data)
     balanced_anchors, balanced_plans = build_balanced_plan_rows(data)
@@ -662,12 +663,22 @@ def make_workbook(output: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--data-dir",
+        default=None,
+        help=(
+            "Directory holding plan_variants.yaml and where plan_variants.xlsx is written. "
+            "Defaults to the script directory. Point at a plan folder kept outside this repo, "
+            "e.g. ../my-plan"
+        ),
+    )
     parser.add_argument("--output", default="plan_variants.xlsx")
     args = parser.parse_args()
+    data_dir = Path(args.data_dir).resolve() if args.data_dir else ROOT
     output = Path(args.output)
     if not output.is_absolute():
-        output = ROOT / output
-    make_workbook(output)
+        output = data_dir / output
+    make_workbook(output, data_dir)
     print(output)
     return 0
 

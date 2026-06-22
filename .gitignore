@@ -22,5 +22,6 @@ plan_variants_report.md
 plan_*.yaml
 *_plan.xlsx
 ai_chinese_*
+courses_to_scrape.csv
 !examples/plan.example.yaml
 !examples/completed.example.json
