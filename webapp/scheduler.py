@@ -499,15 +499,28 @@ def _reconcile_with_tree(semesters, program, completed_set, cc, max_credits, sta
     Conservative on purpose: a sample plan already lays out selectives (as named slots), so
     re-adding the tree's ``choose`` slots would double up. We only add what a sample plan
     reliably omits — a ``track_select`` concentration (usually buried as a generic
-    'selective') and any flat-out required course the plan skipped entirely."""
+    'selective') and any flat-out required course the plan skipped entirely.
+
+    Budget-bounded: the sample plan IS the authoritative ~``total_credits`` layout, so we never
+    let reconcile push the plan far past that total. Auto-scraped requirement trees routinely
+    over-mark courses as "required" (a "choose one of these 5 intro sequences" parsed as
+    all_of); without this ceiling those bogus extras balloon a 4-year plan to 7+ years."""
     courses, slots = program_cards(program, cc, completed_set)
     placed = {engine.normalize_code(c["code"]) for s in semesters for c in s["courses"] if c.get("code")}
     has_track = any(c.get("slotKind") == "track" for s in semesters for c in s["courses"])
 
+    planned = sum(_term_credits(s) for s in semesters)
+    total = float(program.get("total_credits") or 0)
+    ceiling = total * 1.1 if total > 0 else float("inf")
+
     add: list[dict] = []
     for c in courses:
-        if engine.normalize_code(c["code"]) not in placed:
-            add.append(c)
+        if engine.normalize_code(c["code"]) in placed:
+            continue
+        if planned + float(c.get("credits") or 0) > ceiling:
+            continue  # sample plan already covers the degree — don't pile on mis-parsed "requireds"
+        add.append(c)
+        planned += float(c.get("credits") or 0)
     if not has_track:
         add.extend(s for s in slots if s.get("slotKind") == "track")
     if add:

@@ -39,7 +39,6 @@ interface State {
   pickTrack: (uid: string, trackId: string) => void;
   fixCourse: (uid: string) => void;
   autoFix: () => Promise<void>;
-  deferLeaves: () => void;
   addCourseToTerm: (term: string, c: Omit<Course, "uid">) => void;
   addSemester: () => void;
   removeSemester: (term: string) => void;
@@ -68,7 +67,6 @@ const SUMMER_MAX_CREDITS = 9;
 function termCap(term: string, max: number): number {
   return /summer/i.test(term) ? Math.min(max, SUMMER_MAX_CREDITS) : max;
 }
-const termCredits = (s: Semester) => s.courses.reduce((a, c) => a + (c.credits || 0), 0);
 
 let auditTimer: number | undefined;
 
@@ -133,10 +131,6 @@ export const useStore = create<State>((set, get) => ({
       const codes = res.semesters.flatMap((s) => s.courses.map((c) => c.code).filter(Boolean) as string[]);
       try { await api.ensureBatch(codes); } catch { /* offline catalog is fine */ }
       await get().autoFix();
-      // Push electives / non-prerequisite "leaf" courses toward the end so the prerequisite
-      // spine (math, core sequences) takes the early terms — feedback: PHYS 272 was landing
-      // far too early because the packer filled the first open slot it found.
-      get().deferLeaves();
     } catch (e) {
       set({ busy: false, toast: "Could not generate a plan." });
     }
@@ -244,115 +238,109 @@ export const useStore = create<State>((set, get) => ({
   },
 
   fixCourse: (u) => {
-    const { semesters, audit } = get();
+    const { semesters, audit, constraints } = get();
     const course = semesters.flatMap((s) => s.courses).find((c) => c.uid === u);
     if (!course?.code || !audit) return;
+    const max = constraints.max_credits || 16;
     const prereqs = audit.edges.filter((e) => e.to === course.code && e.type === "prereq").map((e) => e.from);
-    const termIndex = (term: string) => semesters.findIndex((s) => s.term === term);
-    let earliest = 0;
+    let floor = 0;
     for (const p of prereqs) {
       const idx = semesters.findIndex((s) => s.courses.some((c) => c.code === p));
-      if (idx >= 0) earliest = Math.max(earliest, idx + 1);
+      if (idx >= 0) floor = Math.max(floor, idx + 1);
     }
-    const curIdx = semesters.findIndex((s) => s.courses.some((c) => c.uid === u));
-    if (earliest >= semesters.length) { get().addSemester(); }
-    const targetTerm = get().semesters[Math.min(earliest, get().semesters.length - 1)].term;
-    if (earliest !== curIdx) get().moveCourse(u, targetTerm, 99);
+    // earliest term at/after the prereq floor that still has room for this course
+    const load = (s: Semester) => s.courses.reduce((a, c) => a + (c.credits || 0), 0);
+    let targetIdx = -1;
+    for (let i = floor; i < semesters.length; i++) {
+      if (load(semesters[i]) + (course.credits || 0) <= termCap(semesters[i].term, max)) { targetIdx = i; break; }
+    }
+    if (targetIdx < 0) { get().addSemester(); targetIdx = get().semesters.length - 1; }
+    const targetTerm = get().semesters[targetIdx].term;
+    get().moveCourse(u, targetTerm, 99);
     set({ toast: `Moved ${course.code} to ${targetTerm}` });
   },
 
-  // What clicking "Fix" on every flagged course would do, run automatically until stable:
-  // re-audit, push each prereq-violating course to the earliest term its prerequisites allow,
-  // repeat. Bounded passes guard against prereq-data cycles.
+  // Re-pack the whole plan so it respects BOTH prerequisites and per-term credit caps (16,
+  // or 9 in summer), keeping required courses early and electives/slots in the leftover room.
+  // Replaces the old "nudge violators later" pass, which ignored capacity and produced
+  // 23-credit terms next to half-empty ones. Used after generation and by the ⚖ button.
   autoFix: async () => {
-    const MAX_PASSES = 6;
-    let totalMoved = 0;
-    for (let pass = 0; pass < MAX_PASSES; pass++) {
-      const { majors, minors, completed } = get();
-      const semesters = get().semesters;
-      let audit: Audit;
-      try { audit = await api.audit([...majors, ...minors], completed, semesters); }
-      catch { break; }
-      set({ audit });
-
-      const moves: { uid: string; toIdx: number }[] = [];
-      for (let si = 0; si < semesters.length; si++) {
-        for (const c of semesters[si].courses) {
-          if (!c.code) continue;
-          const failed = audit.prerequisites.checks.some((ck) => ck.code === c.code && ck.term === semesters[si].term && !ck.ok);
-          const violated = audit.edges.some((e) => e.to === c.code && !e.satisfied);
-          if (!failed && !violated) continue;
-          const prereqs = audit.edges.filter((e) => e.to === c.code && e.type === "prereq").map((e) => e.from);
-          let earliest = 0;
-          for (const p of prereqs) {
-            const idx = semesters.findIndex((s) => s.courses.some((x) => x.code === p));
-            if (idx >= 0) earliest = Math.max(earliest, idx + 1);
-          }
-          if (earliest > si) moves.push({ uid: c.uid, toIdx: earliest });
-        }
-      }
-      if (!moves.length) break;
-
-      const next = get().semesters.map((s) => ({ ...s, courses: [...s.courses] }));
-      for (const mv of moves) {
-        while (mv.toIdx >= next.length) {
-          const last = next[next.length - 1].term;
-          next.push({ term: nextTermAfter(last, get().constraints.use_summers), courses: [] });
-        }
-        for (const s of next) {
-          const i = s.courses.findIndex((c) => c.uid === mv.uid);
-          if (i >= 0) { const [card] = s.courses.splice(i, 1); next[mv.toIdx].courses.push(card); break; }
-        }
-      }
-      set({ semesters: next });
-      totalMoved += moves.length;
-    }
-    persist(get());
-    if (totalMoved) set({ toast: `Auto-arranged ${totalMoved} course${totalMoved > 1 ? "s" : ""} to satisfy prerequisites` });
-    get().runAudit();
-  },
-
-  // Move every "leaf" card (an elective/open slot, or a course nothing else depends on) as
-  // late as it can go without breaking its own prerequisites or overflowing a term. Leaves the
-  // prerequisite spine untouched. Runs once after generation, not on every edit.
-  deferLeaves: () => {
-    const { audit, constraints } = get();
-    if (!audit) return;
+    const { majors, minors, completed, constraints } = get();
     const max = constraints.max_credits || 16;
-    const isPrereqForSomething = (code?: string) =>
-      !!code && audit.edges.some((e) => e.from === code && e.type === "prereq");
+    const useSummers = constraints.use_summers;
+    let audit: Audit;
+    try { audit = await api.audit([...majors, ...minors], completed, get().semesters); }
+    catch { return; }
+    set({ audit });
 
-    const semesters = get().semesters.map((s) => ({ ...s, courses: [...s.courses] }));
-    const earliestAllowed = (course: Course): number => {
-      // a leaf course must still sit after its own prerequisites
-      if (!course.code) return 0;
-      const prereqs = audit.edges.filter((e) => e.to === course.code && e.type === "prereq").map((e) => e.from);
-      let earliest = 0;
-      for (const p of prereqs) {
-        const idx = semesters.findIndex((s) => s.courses.some((c) => c.code === p));
-        if (idx >= 0) earliest = Math.max(earliest, idx + 1);
-      }
-      return earliest;
+    // If the plan already respects caps and prerequisites, leave it as-is — repacking a clean
+    // official sample plan would only churn Purdue's curated ordering.
+    const overCap = get().semesters.some((s) => s.courses.reduce((a, c) => a + (c.credits || 0), 0) > termCap(s.term, max) + 0.01);
+    const prereqBad = audit.edges.some((e) => e.type === "prereq" && !e.satisfied)
+      || audit.prerequisites.checks.some((c) => !c.ok);
+    if (!overCap && !prereqBad) { get().runAudit(); return; }
+
+    // prereq adjacency among courses actually present in the plan
+    const prereqOf = new Map<string, string[]>();
+    for (const e of audit.edges) {
+      if (e.type !== "prereq") continue;
+      const arr = prereqOf.get(e.to) ?? [];
+      arr.push(e.from);
+      prereqOf.set(e.to, arr);
+    }
+    const cards = get().semesters.flatMap((s) => s.courses);
+    const codePresent = new Set(cards.map((c) => c.code).filter(Boolean) as string[]);
+
+    // depth = longest in-plan prerequisite chain ending at this course (topological rank)
+    const depthMemo = new Map<string, number>();
+    const depthOf = (code: string, seen: Set<string> = new Set()): number => {
+      if (depthMemo.has(code)) return depthMemo.get(code)!;
+      if (seen.has(code)) return 0;
+      seen.add(code);
+      let d = 0;
+      for (const p of prereqOf.get(code) ?? []) if (codePresent.has(p)) d = Math.max(d, depthOf(p, seen) + 1);
+      depthMemo.set(code, d);
+      return d;
     };
 
-    let moved = 0;
-    // walk terms front-to-back; for each leaf, try to slide it to the latest term with room
-    for (let si = 0; si < semesters.length; si++) {
-      for (const card of [...semesters[si].courses]) {
-        const leaf = card.slot || !isPrereqForSomething(card.code);
-        if (!leaf || card.locked) continue;
-        const lo = Math.max(si + 1, earliestAllowed(card));
-        let dest = -1;
-        for (let tj = semesters.length - 1; tj >= lo; tj--) {
-          if (termCredits(semesters[tj]) + (card.credits || 0) <= termCap(semesters[tj].term, max)) { dest = tj; break; }
-        }
-        if (dest > si) {
-          const i = semesters[si].courses.findIndex((c) => c.uid === card.uid);
-          if (i >= 0) { semesters[si].courses.splice(i, 1); semesters[dest].courses.push(card); moved++; }
-        }
+    // Place the prerequisite spine first (courses, by depth), then fill leftover room with
+    // slots/electives — so required courses never get crowded into overflowing terms.
+    const order = [...cards].sort((a, b) => {
+      const sa = a.slot ? 1 : 0, sb = b.slot ? 1 : 0;
+      if (sa !== sb) return sa - sb;
+      const da = a.code ? depthOf(a.code) : 0, db = b.code ? depthOf(b.code) : 0;
+      if (da !== db) return da - db;
+      return (b.credits || 0) - (a.credits || 0);
+    });
+
+    const terms: Semester[] = get().semesters.map((s) => ({ term: s.term, courses: [] }));
+    const load = (i: number) => terms[i].courses.reduce((s, c) => s + (c.credits || 0), 0);
+    const placedAt = new Map<string, number>();
+    for (const card of order) {
+      let floor = 0;
+      if (card.code) for (const p of prereqOf.get(card.code) ?? []) {
+        const pi = placedAt.get(p);
+        if (pi != null) floor = Math.max(floor, pi + 1);
       }
+      let dest = -1;
+      for (let i = Math.max(0, floor); i < terms.length; i++) {
+        if (load(i) + (card.credits || 0) <= termCap(terms[i].term, max)) { dest = i; break; }
+      }
+      while (dest < 0) {
+        terms.push({ term: nextTermAfter(terms[terms.length - 1].term, useSummers), courses: [] });
+        const i = terms.length - 1;
+        // a fresh empty term always accepts the card (even an oversized one that fits nowhere),
+        // which also guarantees this loop terminates
+        if (i >= floor && (terms[i].courses.length === 0 || load(i) + (card.credits || 0) <= termCap(terms[i].term, max))) dest = i;
+      }
+      terms[dest].courses.push(card);
+      if (card.code && !placedAt.has(card.code)) placedAt.set(card.code, dest);
     }
-    if (moved) { set({ semesters }); persist(get()); get().runAudit(); }
+    while (terms.length > 1 && !terms[terms.length - 1].courses.length) terms.pop();
+
+    set({ semesters: terms, toast: "Auto-arranged to satisfy prerequisites & credit caps" });
+    persist(get());
+    get().runAudit();
   },
 
   // Manually drop a course into a term after the plan exists. It is audited like any other

@@ -45,8 +45,9 @@ function ProgramPicker({ kind, label, hint }: { kind: "majors" | "minors"; label
             <span className="prog-name">{p.name}</span>
             <span className="prog-tags">
               {p.degree && <span className="deg">{p.degree}</span>}
-              {!p.verified && p.has_requirements && <span className="badge draft" title="Auto-scraped, unverified">draft</span>}
-              {p.verified && <span className="badge ok" title="Hand-verified">✓</span>}
+              {p.has_requirements && (
+                <span className="badge ok" title={p.verified ? "Hand-verified requirements" : "Auto-generated from the catalog & normalized — confirm with advising"}>✓</span>
+              )}
               {!p.has_requirements && <span className="badge none" title="Requirements not scraped yet">no data</span>}
             </span>
           </button>

@@ -21,6 +21,8 @@ import json
 from pathlib import Path
 from typing import Any
 
+import normalize
+
 HERE = Path(__file__).resolve().parent
 PROGRAMS_DIR = HERE / "programs"
 SHARED_PATH = PROGRAMS_DIR / "_shared.json"
@@ -112,6 +114,12 @@ class ProgramStore:
                 slug = program.get("id") or path.stem
                 program["id"] = slug
                 program["verified"] = verified
+                # Generated trees are best-effort parses — repair mis-parsed "choose N from a
+                # menu" requirements the scraper flattened into all_of (else a 15-credit minor
+                # schedules ~96 "required" courses → an impossible plan). Verified files are
+                # hand-correct and left untouched.
+                if not verified:
+                    program = normalize.normalize_program(program)
                 self._full[slug] = program
                 self._meta[slug] = _meta_from_program(program, verified=verified)
 
