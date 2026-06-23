@@ -1,0 +1,17 @@
+.git
+**/node_modules
+**/__pycache__
+*.pyc
+.venv/
+webapp/static/dist
+webapp/frontend/dist
+*.tsbuildinfo
+cache/
+scrape/waf_session.json
+.DS_Store
+# personal plan data never belongs in the image (also outside this repo already)
+plan.yaml
+completed_courses.json
+audit_report.json
+*_plan.xlsx
+plan_variants.*

@@ -75,6 +75,18 @@ any completed credit, and hit **Generate my 4-year plan**. Drag cards between te
 fill the dashed selective/elective slots, and watch the audit react live. Your plan
 auto-saves to the browser (`localStorage`) — nothing is sent anywhere.
 
+### Deploy it live (one click)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/PMN123/degree-planner)
+
+The repo ships a [`Dockerfile`](Dockerfile) + [`render.yaml`](render.yaml) that build
+the React bundle and run the Python server, so a fresh host serves the full app. On
+[Render](https://render.com)'s free tier: click the button (or **New ＋ → Web Service →**
+connect this repo — the Dockerfile is auto-detected), accept the defaults, and Render
+gives you a public `https://…onrender.com` URL. `$PORT` is injected automatically; no
+config needed. (Free instances sleep after ~15 min idle, so the first visit waits a few
+seconds while it wakes.) The same image runs on Railway, Fly.io, or any Docker host.
+
 ### Developing the frontend
 
 The UI lives in [`webapp/frontend/`](webapp/frontend/) (React + TS + Vite). Rebuild

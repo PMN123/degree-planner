@@ -294,10 +294,13 @@ class Handler(BaseHTTPRequestHandler):
 
 def main():
     import argparse
+    import os
 
+    # Host/port default from the environment so the same command works on a PaaS
+    # (Render/Railway/Fly inject $PORT; the Dockerfile sets HOST=0.0.0.0). CLI flags win.
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--host", default="127.0.0.1")
-    parser.add_argument("--port", type=int, default=8000)
+    parser.add_argument("--host", default=os.environ.get("HOST", "127.0.0.1"))
+    parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8000")))
     args = parser.parse_args()
 
     server = ThreadingHTTPServer((args.host, args.port), Handler)
