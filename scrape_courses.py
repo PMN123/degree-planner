@@ -302,12 +302,21 @@ def scrape(args: argparse.Namespace) -> dict:
     session = requests.Session()
     session.headers.update(HEADERS)
 
+    # Merge with whatever's already in the output (on-demand scrapes add courses that aren't in
+    # the CSV; a plain rewrite would drop them). --no-merge restores the old overwrite behavior.
+    existing_courses: dict = {}
+    if output_path.exists() and not getattr(args, "no_merge", False):
+        try:
+            existing_courses = json.loads(output_path.read_text(encoding="utf-8")).get("courses", {})
+        except (json.JSONDecodeError, OSError):
+            existing_courses = {}
+
     catalog = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "term": args.term,
         "source_base_url": BASE_URL,
         "input": str(input_path),
-        "courses": {},
+        "courses": dict(existing_courses),
         "failures": [],
     }
 
@@ -392,6 +401,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--output", default="course_catalog.json", help="Output JSON path")
     parser.add_argument("--cache-dir", default="cache", help="Directory for raw HTML cache")
     parser.add_argument("--refresh", action="store_true", help="Ignore existing cache and re-fetch")
+    parser.add_argument("--no-merge", action="store_true", help="Overwrite output instead of merging into existing courses")
     parser.add_argument("--delay", type=float, default=0.15, help="Delay between network requests")
     parser.add_argument("--timeout", type=int, default=25, help="HTTP timeout in seconds")
     return parser

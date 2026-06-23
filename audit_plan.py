@@ -852,8 +852,13 @@ def audit_prerequisites(
     completed: list[CourseInstance],
     planned: list[CourseInstance],
     student_attributes: set[str] | None = None,
+    expand_available=None,
 ) -> dict[str, Any]:
+    # ``expand_available`` (optional) maps a set of held codes to everything they also satisfy,
+    # so an interchangeable course (MA 16500 for MA 16100) counts as its equivalents when
+    # checking prerequisites. Defaults to identity to keep the CLI auditor self-contained.
     student_attributes = student_attributes or set()
+    expand = expand_available or (lambda codes: set(codes))
     records = catalog.get("courses", {})
     completed_before_term = {course.code for course in completed if not course.is_placeholder}
     checks: list[dict[str, Any]] = []
@@ -910,7 +915,9 @@ def audit_prerequisites(
 
             tokens, tokenize_warnings = tokenize_prerequisite_text(prereq_text, course.code)
             expr, parse_warnings = parse_prerequisite_tokens(tokens, and_precedence="Rule:" in prereq_text)
-            evaluation = evaluate_prerequisite_expression(expr, completed_before_term, same_term_codes, student_attributes)
+            evaluation = evaluate_prerequisite_expression(
+                expr, expand(completed_before_term), expand(same_term_codes), student_attributes
+            )
             checks.append(
                 {
                     "term": term,

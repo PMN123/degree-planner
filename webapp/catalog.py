@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 import audit_plan as legacy  # noqa: E402  (reuse the proven prereq/restriction engine)
+import equivalence  # noqa: E402  (course interchangeability — MA 16500 counts as MA 16100, …)
 
 CATALOG_PATH = ROOT / "course_catalog.json"
 DEFAULT_TERM = "202710"
@@ -256,4 +257,6 @@ def audit_prerequisites(
     planned_inst: list[legacy.CourseInstance] = []
     for sem in semesters:
         planned_inst.extend(_course_instances(sem.get("courses", []), sem.get("term", "Term"), "Planned"))
-    return legacy.audit_prerequisites(catalog._data, completed_inst, planned_inst)
+    return legacy.audit_prerequisites(
+        catalog._data, completed_inst, planned_inst, expand_available=equivalence.expand
+    )

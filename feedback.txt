@@ -1,0 +1,64 @@
+you should make it such that 1xxx credit count to the 120 total
+
+it refuses MA 262 in transfer for some reason
+
+when i type up an ib credit for engl it wouldnt let me
+
+you should scrape more
+use the 2026-2027 catalg
+since new UCC:AI req came out
+and some new courses were added
+like cs173
+
+also no CHM courses pop up for transfer/apo
+r BIOL or HIST
+
+
+this is just a very clean UI to view major and minor requirements unlike the purdue catalog
+
+drag drop ux is nice
+
+
+oh also it really hates math/engr double major
+it has me taking both MA 266/MA 366 and MA 351/MA 265
+which is physically impossible
+its just really really weird
+cus 266/366 and 265/351 are mutually exclusive
+but math wants the 3XX
+while engr wants the 2XX
+
+also (i swear im not trying to be annoying), it doesnt seem like transfer does anything
+even for MA 165/MA 166 which it found
+once i generate
+it still has me taking them
+
+
+yeah its telling me to take 161
+if i have 165
+161/165 and 162/166
+should be treated equivalent?
+
+i believe we need to tune the logic
+of its sorting
+i think cuz its trying to fit in all the science core shit
+or like the electgives
+like assume ma should take higher priority
+over elective
+maybe core classes take higher priority
+
+one suggestion i have, you might wanna have it push classes that are not pre requisites for anything else to the end
+cus for me its trying to have me take phys 272 early which is very suboptimal in my situation
+
+it doesnt know summer has half the credit limit (9)
+
+also we need to make sure that we dont allow courses to be in semesters where it isnt offered. so we would need to scrapt that data also
+
+one thing i will say
+is in its current state
+its already useful
+the easy visualization of pre req
+is goated
+cus if u see a chain going backwards you know you fucked up
+no for its current state its useful to see pre req and overall major requiremetns
+
+is there a way to manually add classes in the plan once it makes one for you? it should still check for prereques and autopopopulate or give error if there is somethign up with that

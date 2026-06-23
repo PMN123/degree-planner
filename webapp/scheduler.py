@@ -34,9 +34,11 @@ import re
 from typing import Any
 
 import engine
+import equivalence
 
 SEASON_NEXT = {"Fall": ("Spring", 1), "Spring": ("Fall", 0), "Summer": ("Fall", 0)}
 DEFAULT_MAX_CREDITS = 16.0
+SUMMER_MAX_CREDITS = 9.0  # Purdue summer terms are short — about half a normal load
 OPEN_SLOT_CHUNK = 3.0  # split big gen-ed credit buckets into slots of this many credits
 
 
@@ -312,7 +314,12 @@ def scaffold(
     start = constraints.get("start_term") or "Fall 2026"
     max_credits = float(constraints.get("max_credits") or DEFAULT_MAX_CREDITS)
     use_summers = bool(constraints.get("use_summers"))
-    completed_set = {engine.normalize_code(c["code"]) for c in completed}
+    # Expand completed credit through equivalences so a held MA 16500 satisfies a plan that
+    # lists MA 16100, and MA 26200 covers both MA 26500 and MA 26600 — i.e. transfer credit
+    # actually removes the courses it fulfils instead of scheduling them anyway.
+    completed_set = equivalence.expand(
+        engine.normalize_code(c["code"]) for c in completed if c.get("code")
+    )
 
     programs = [p for p in (store.get(pid) for pid in program_ids) if p]
     if not programs:
@@ -347,13 +354,102 @@ def scaffold(
         if extra_courses or extra_slots:
             notes.append(f"Added {len(extra_courses)} course(s) + {len(extra_slots)} selective slot(s) from {prog['name']}.")
 
+    removed = _dedupe_equivalents(semesters)
+    if removed:
+        notes.append(f"Removed {len(removed)} redundant course(s) — an equivalent is already in the plan ({', '.join(sorted(removed))}).")
+
+    trimmed = _trim_open_slots_for_completed(semesters, programs, completed, completed_set, cc)
+    if trimmed > 0:
+        notes.append(f"Trimmed ~{round(trimmed)} cr of open elective slots already covered by your transfer/AP credit.")
+
     _tag_shared(semesters, programs)
     return {"semesters": semesters, "source": source, "notes": notes, "programs": program_ids}
 
 
+def _trim_open_slots_for_completed(semesters, programs, completed, completed_set, cc) -> float:
+    """Make transfer/AP credit *shrink the plan*, not just drop named courses.
+
+    Completed credit that maps to a specific required course already removed that course from
+    the plan. Whatever's left over (generic 1xxx / elective / IB / AP that doesn't map to a
+    named requirement) should instead cancel out open elective slots, so plan credits + prior
+    credits land near the degree total — feedback: "transfer doesn't seem to do anything" and
+    "1xxx credit should count toward the 120." Removes open slots from the latest terms first.
+    """
+    countable: set[str] = set()
+    for p in programs:
+        countable |= countable_codes(p)
+    leftover = 0.0
+    for c in completed:
+        code = engine.normalize_code(c.get("code", "")) if c.get("code") else ""
+        if not code:
+            continue
+        credit = float(c.get("credits") or cc.get(code) or 3.0)
+        # Credit that satisfies a named requirement already pulled its course; don't double-count.
+        if equivalence.expand([code]) & countable:
+            continue
+        leftover += credit
+    if leftover <= 0:
+        return 0.0
+
+    trimmed = 0.0
+    for sem in reversed(semesters):
+        if leftover - trimmed <= 0:
+            break
+        keep: list[dict] = []
+        # walk this term's cards back-to-front so we peel electives off the end
+        for card in reversed(sem["courses"]):
+            cr = float(card.get("credits") or 0)
+            if card.get("slotKind") == "open" and (leftover - trimmed) >= cr - 0.01:
+                trimmed += cr
+                continue
+            keep.append(card)
+        sem["courses"] = list(reversed(keep))
+    return trimmed
+
+
+def _dedupe_equivalents(semesters: list[dict]) -> list[str]:
+    """Drop a scheduled course when an interchangeable one is already in the plan.
+
+    A math+engineering double major otherwise gets *both* MA 26500 and MA 35100 (same
+    requirement, mutually exclusive for credit) — feedback called this out as physically
+    impossible. The first-scheduled member is kept; ``_tag_shared`` re-attributes the survivor
+    to every program it now counts toward. Also drops a course a combined course covers
+    (MA 26500 when MA 26200 is present)."""
+    all_codes = {engine.normalize_code(c["code"]) for s in semesters for c in s["courses"] if c.get("code")}
+    covered_redundant: set[str] = set()
+    for code in all_codes:
+        for cov in equivalence._COVERS_NORM.get(code, []):
+            if cov in all_codes:
+                covered_redundant.add(cov)
+
+    seen_groups: set[str] = set()
+    removed: list[str] = []
+    for sem in semesters:
+        kept: list[dict] = []
+        for c in sem["courses"]:
+            code = c.get("code")
+            if not code:
+                kept.append(c)
+                continue
+            code = engine.normalize_code(code)
+            gkey = equivalence.group_key(code)
+            duplicate_group = gkey in seen_groups and len(equivalence.equivalents(code)) > 1
+            if code in covered_redundant or duplicate_group:
+                removed.append(code)
+                continue
+            seen_groups.add(gkey)
+            kept.append(c)
+        sem["courses"] = kept
+    return removed
+
+
 def _from_official(program, completed_set, start, use_summers, cc) -> list[dict]:
     seq = program["recommended_sequence"]
-    cal = term_sequence(start, len(seq), use_summers)
+    # Official sample plans are laid out in Fall/Spring terms only, so map them onto a pure
+    # Fall→Spring calendar even when summers are enabled — otherwise a regular ~15-credit term
+    # lands on a summer slot, blowing past the 9-credit summer ceiling. Summers are still used
+    # by the overlay/bin-packer to absorb extra courses.
+    cal = term_sequence(start, len(seq), use_summers=False)
     req = required_codes(program)
     choice_index = _tree_choice_index(program)
     semesters: list[dict] = []
@@ -469,12 +565,18 @@ def _term_credits(sem: dict) -> float:
     return sum(float(c.get("credits") or 0) for c in sem["courses"])
 
 
+def _term_cap(term: str, max_credits: float) -> float:
+    """Per-term credit ceiling — summer terms carry roughly half a normal load."""
+    season, _ = parse_term(term)
+    return min(max_credits, SUMMER_MAX_CREDITS) if season == "Summer" else max_credits
+
+
 def _bin_pack(semesters: list[dict], cards: list[dict], max_credits: float, start: str, use_summers: bool) -> None:
     """Greedily drop cards into the earliest term with room, extending the plan as needed."""
     for card in cards:
         placed = False
         for sem in semesters:
-            if _term_credits(sem) + float(card.get("credits") or 0) <= max_credits:
+            if _term_credits(sem) + float(card.get("credits") or 0) <= _term_cap(sem["term"], max_credits):
                 sem["courses"].append(card)
                 placed = True
                 break
@@ -500,8 +602,8 @@ def _tag_shared(semesters: list[dict], programs: list[dict]) -> None:
         for c in sem["courses"]:
             if not c.get("code"):
                 continue
-            code = engine.normalize_code(c["code"])
-            owners = [pid for pid, codes in countable_by_prog.items() if code in codes]
+            code_exp = equivalence.expand([engine.normalize_code(c["code"])])
+            owners = [pid for pid, codes in countable_by_prog.items() if code_exp & codes]
             if owners:
                 merged = list(dict.fromkeys((c.get("satisfies") or []) + owners))
                 c["satisfies"] = merged

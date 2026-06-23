@@ -85,14 +85,17 @@ def available_codes(plan: dict) -> set[str]:
 def semester_loads(plan: dict) -> list[dict]:
     loads = []
     for sem in plan.get("semesters", []):
+        term = sem.get("term", "Term")
+        is_summer = term.lower().startswith("summer")
         courses = sem.get("courses", [])
         credits = sum(float(c.get("credits", 0) or 0) for c in courses)
         flag = None
-        if credits > 18:
+        # Summer terms are short (≈9-credit ceiling); flag a normal-looking load as too heavy.
+        if (is_summer and credits > 9) or (not is_summer and credits > 18):
             flag = "heavy"
-        elif 0 < credits < 12:
+        elif not is_summer and 0 < credits < 12:
             flag = "light"
-        loads.append({"term": sem.get("term", "Term"), "credits": round(credits, 1), "count": len(courses), "flag": flag})
+        loads.append({"term": term, "credits": round(credits, 1), "count": len(courses), "flag": flag})
     return loads
 
 

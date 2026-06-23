@@ -32,6 +32,8 @@ from __future__ import annotations
 import re
 from typing import Any
 
+import equivalence
+
 # ---------------------------------------------------------------------------
 # Course-code normalisation (kept identical to audit_plan.normalize_code so the
 # generic engine and the legacy auditor agree on what "CS 18000" means).
@@ -64,14 +66,21 @@ def code_number(code: str) -> int | None:
 
 
 class Context:
-    """Read-only view of what the student has, shared across one evaluation."""
+    """Read-only view of what the student has, shared across one evaluation.
+
+    ``available`` is the *real* set of held/planned codes (used to accumulate credit buckets so
+    interchangeable courses aren't double-counted). ``_satisfies`` additionally includes every
+    code those real courses are equivalent to / cover, so a requirement naming MA 16100 is met
+    by a held MA 16500. See equivalence.py.
+    """
 
     def __init__(self, available: set[str], credits: dict[str, float]):
         self.available = available
+        self._satisfies = equivalence.expand(available)
         self.credits = credits
 
     def has(self, code: str) -> bool:
-        return normalize_code(code) in self.available
+        return normalize_code(code) in self._satisfies
 
     def credit(self, code: str) -> float:
         return float(self.credits.get(normalize_code(code), 3.0))
@@ -82,7 +91,7 @@ def _course_result(code: str, ctx: Context) -> dict[str, Any]:
     return {
         "type": "course",
         "code": code,
-        "satisfied": code in ctx.available,
+        "satisfied": ctx.has(code),
         "credits": ctx.credit(code),
     }
 
@@ -95,7 +104,7 @@ def _option_satisfied(option: Any, ctx: Context) -> tuple[bool, list[str], dict[
     """
     if isinstance(option, str):
         code = normalize_code(option)
-        sat = code in ctx.available
+        sat = ctx.has(code)
         return sat, ([code] if sat else []), {
             "type": "course",
             "code": code,
@@ -332,6 +341,9 @@ def evaluate_program(
     credits: dict[str, float],
 ) -> dict[str, Any]:
     """Evaluate a full program. Returns a serialisable result tree."""
+    # Expand for interchangeable courses (MA 16500 also counts as MA 16100, MA 26200 covers
+    # MA 26500 + MA 26600, …) so a requirement that names one is met by an equivalent the
+    # student actually has. See equivalence.py.
     ctx = Context({normalize_code(c) for c in available}, credits)
     requirement_results = [evaluate_node(req, ctx) for req in program.get("requirements", [])]
 

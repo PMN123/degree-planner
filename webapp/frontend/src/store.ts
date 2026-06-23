@@ -39,6 +39,8 @@ interface State {
   pickTrack: (uid: string, trackId: string) => void;
   fixCourse: (uid: string) => void;
   autoFix: () => Promise<void>;
+  deferLeaves: () => void;
+  addCourseToTerm: (term: string, c: Omit<Course, "uid">) => void;
   addSemester: () => void;
   removeSemester: (term: string) => void;
   setHover: (uid: string | null) => void;
@@ -60,6 +62,13 @@ function nextTermAfter(term: string, useSummers: boolean): string {
   if (/spring/i.test(season)) return useSummers ? `Summer ${year}` : `Fall ${year}`;
   return `Fall ${year}`;
 }
+
+const SUMMER_MAX_CREDITS = 9;
+// Per-term credit ceiling — summer is short, so cap it lower than the user's normal max.
+function termCap(term: string, max: number): number {
+  return /summer/i.test(term) ? Math.min(max, SUMMER_MAX_CREDITS) : max;
+}
+const termCredits = (s: Semester) => s.courses.reduce((a, c) => a + (c.credits || 0), 0);
 
 let auditTimer: number | undefined;
 
@@ -124,6 +133,10 @@ export const useStore = create<State>((set, get) => ({
       const codes = res.semesters.flatMap((s) => s.courses.map((c) => c.code).filter(Boolean) as string[]);
       try { await api.ensureBatch(codes); } catch { /* offline catalog is fine */ }
       await get().autoFix();
+      // Push electives / non-prerequisite "leaf" courses toward the end so the prerequisite
+      // spine (math, core sequences) takes the early terms — feedback: PHYS 272 was landing
+      // far too early because the packer filled the first open slot it found.
+      get().deferLeaves();
     } catch (e) {
       set({ busy: false, toast: "Could not generate a plan." });
     }
@@ -296,6 +309,61 @@ export const useStore = create<State>((set, get) => ({
     }
     persist(get());
     if (totalMoved) set({ toast: `Auto-arranged ${totalMoved} course${totalMoved > 1 ? "s" : ""} to satisfy prerequisites` });
+    get().runAudit();
+  },
+
+  // Move every "leaf" card (an elective/open slot, or a course nothing else depends on) as
+  // late as it can go without breaking its own prerequisites or overflowing a term. Leaves the
+  // prerequisite spine untouched. Runs once after generation, not on every edit.
+  deferLeaves: () => {
+    const { audit, constraints } = get();
+    if (!audit) return;
+    const max = constraints.max_credits || 16;
+    const isPrereqForSomething = (code?: string) =>
+      !!code && audit.edges.some((e) => e.from === code && e.type === "prereq");
+
+    const semesters = get().semesters.map((s) => ({ ...s, courses: [...s.courses] }));
+    const earliestAllowed = (course: Course): number => {
+      // a leaf course must still sit after its own prerequisites
+      if (!course.code) return 0;
+      const prereqs = audit.edges.filter((e) => e.to === course.code && e.type === "prereq").map((e) => e.from);
+      let earliest = 0;
+      for (const p of prereqs) {
+        const idx = semesters.findIndex((s) => s.courses.some((c) => c.code === p));
+        if (idx >= 0) earliest = Math.max(earliest, idx + 1);
+      }
+      return earliest;
+    };
+
+    let moved = 0;
+    // walk terms front-to-back; for each leaf, try to slide it to the latest term with room
+    for (let si = 0; si < semesters.length; si++) {
+      for (const card of [...semesters[si].courses]) {
+        const leaf = card.slot || !isPrereqForSomething(card.code);
+        if (!leaf || card.locked) continue;
+        const lo = Math.max(si + 1, earliestAllowed(card));
+        let dest = -1;
+        for (let tj = semesters.length - 1; tj >= lo; tj--) {
+          if (termCredits(semesters[tj]) + (card.credits || 0) <= termCap(semesters[tj].term, max)) { dest = tj; break; }
+        }
+        if (dest > si) {
+          const i = semesters[si].courses.findIndex((c) => c.uid === card.uid);
+          if (i >= 0) { semesters[si].courses.splice(i, 1); semesters[dest].courses.push(card); moved++; }
+        }
+      }
+    }
+    if (moved) { set({ semesters }); persist(get()); get().runAudit(); }
+  },
+
+  // Manually drop a course into a term after the plan exists. It is audited like any other
+  // card, so a missing prerequisite shows the same ⚠ flag + Fix button (feedback request).
+  addCourseToTerm: (term, c) => {
+    const semesters = get().semesters.map((s) =>
+      s.term === term ? { ...s, courses: [...s.courses, { ...c, uid: uid() }] } : s
+    );
+    set({ semesters, toast: `Added ${c.code} to ${term}` });
+    persist(get());
+    if (c.code) api.ensureBatch([c.code]).then(() => get().runAudit()).catch(() => {});
     get().runAudit();
   },
 

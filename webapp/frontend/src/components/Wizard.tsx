@@ -66,6 +66,7 @@ export function Wizard() {
   const busy = useStore((s) => s.busy);
   const majors = useStore((s) => s.majors);
   const minors = useStore((s) => s.minors);
+  const [transferCr, setTransferCr] = useState(3);
 
   return (
     <main className="wizard">
@@ -91,7 +92,7 @@ export function Wizard() {
           </label>
         </div>
         <div className="completed-block">
-          <span className="hint">Completed / AP / transfer credit</span>
+          <span className="hint">Completed / AP / transfer credit — type any code, even one not in the catalog (MA 26200, ENGL IB, CHM…)</span>
           <div className="chip-row">
             {completed.map((c) => (
               <span key={c.uid} className="course-chip" onClick={() => removeCompleted(c.uid)}>
@@ -99,7 +100,19 @@ export function Wizard() {
               </span>
             ))}
           </div>
-          <CourseSearch placeholder="Add a completed course (e.g. CS 18000)" onPick={(c) => addCompleted(c)} />
+          <div className="completed-add">
+            <CourseSearch
+              placeholder="Add a completed/transfer course (e.g. CS 18000, MA 26200)"
+              allowFreeform
+              defaultCredits={transferCr}
+              onPick={(c) => addCompleted(c)}
+            />
+            <label className="field cr-field">
+              <span>cr (for transfer)</span>
+              <input type="number" min={0} max={20} step={1} value={transferCr}
+                onChange={(e) => setTransferCr(Number(e.target.value))} />
+            </label>
+          </div>
         </div>
       </div>
 
