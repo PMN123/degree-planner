@@ -29,7 +29,7 @@ from bs4 import BeautifulSoup
 DEFAULT_TERM = "202710"
 BASE_URL = "https://selfservice.mypurdue.purdue.edu/prod/bwckctlg.p_disp_course_detail"
 HEADERS = {
-    "User-Agent": "degree-planner/0.1 (+local academic planning script)"
+    "User-Agent": "boilerplanner/0.1 (+local academic planning script)"
 }
 
 

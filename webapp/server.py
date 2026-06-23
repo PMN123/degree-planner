@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Zero-dependency web server for the Boiler Degree Planner.
+"""Zero-dependency web server for the BoilerPlanner.
 
 Built entirely on the Python standard library (``http.server``) so the whole app
 runs with ``python webapp/server.py`` — no Flask, no npm, no build step. It serves
@@ -308,7 +308,7 @@ def main():
 
     server = ThreadingHTTPServer((args.host, args.port), Handler)
     url = f"http://{args.host}:{args.port}/"
-    print("\n  Boiler Degree Planner")
+    print("\n  BoilerPlanner")
     print(f"  Catalog: {CATALOG.count()} courses (term {CATALOG.term}) · {len(PROGRAMS.list())} programs")
     print(f"  Serving at {url}")
     print("  Press Ctrl+C to stop.\n")

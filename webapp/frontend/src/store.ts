@@ -7,7 +7,7 @@ const uid = () => `c${_uid++}`;
 const withUids = (sems: Semester[]): Semester[] =>
   sems.map((s) => ({ term: s.term, courses: s.courses.map((c) => ({ ...c, uid: uid() })) }));
 
-const STORAGE_KEY = "boiler-degree-planner.v2";
+const STORAGE_KEY = "boilerplanner.v2";
 
 interface State {
   ready: boolean;

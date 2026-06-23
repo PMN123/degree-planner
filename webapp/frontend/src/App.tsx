@@ -20,7 +20,7 @@ export function App() {
         <div className="brand">
           <div className="brand-mark">P</div>
           <div className="brand-text">
-            <h1>Boiler Degree Planner</h1>
+            <h1>BoilerPlanner</h1>
             <p className="tagline">Auto-scaffolded, drag-and-drop plan for <span className="accent">any</span> Purdue major + minor</p>
           </div>
         </div>

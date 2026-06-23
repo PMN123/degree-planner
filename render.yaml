@@ -1,12 +1,12 @@
-# Render Blueprint — one-click deploy of the Boiler Degree Planner.
+# Render Blueprint — one-click deploy of the BoilerPlanner.
 # Render builds the Dockerfile (which compiles the React bundle and runs the Python
 # server) and injects $PORT automatically; $HOST=0.0.0.0 is set in the Dockerfile.
 #
-# Deploy: https://render.com/deploy?repo=https://github.com/PMN123/degree-planner
+# Deploy: https://render.com/deploy?repo=https://github.com/PMN123/BoilerPlanner
 # (or: New + > Web Service > connect this repo > Render auto-detects the Dockerfile.)
 services:
   - type: web
-    name: boiler-degree-planner
+    name: boilerplanner
     runtime: docker
     plan: free
     dockerfilePath: ./Dockerfile

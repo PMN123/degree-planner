@@ -19,7 +19,7 @@ import threading
 from pathlib import Path
 from typing import Any
 
-# The web app lives in degree-planner/webapp; data + scripts live one level up.
+# The web app lives in boilerplanner/webapp; data + scripts live one level up.
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
@@ -202,7 +202,7 @@ class Catalog:
         term = term or self.term
         request = scraper.CourseRequest(subject=subject, number=number)
         session = requests.Session()
-        session.headers.update({"User-Agent": "boiler-degree-planner/1.0"})
+        session.headers.update({"User-Agent": "boilerplanner/1.0"})
         cache_dir = ROOT / "cache"
         try:
             html, status, url, from_cache, fetch_error = scraper.fetch_html(

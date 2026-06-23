@@ -1,4 +1,4 @@
-# Boiler Degree Planner
+# BoilerPlanner
 
 A **code-backed Purdue graduation planner**. Search **any** Purdue major and
 minor (separately), and the app **auto-builds a recommended 4-year schedule** from
@@ -21,7 +21,7 @@ and serves a prebuilt React bundle, so end users still launch it with one comman
 The richer UI is a **React + TypeScript + Vite** app (`webapp/frontend/`) — rebuild
 it with `npm` only when you change the frontend.
 
-![Boiler Degree Planner — dark theme](docs/screenshot-dark.png)
+![BoilerPlanner — dark theme](docs/screenshot-dark.png)
 
 > ⚠️ The bundled requirement data is an encoded **starter**. Always verify against
 > [myPurduePlan](https://www.purdue.edu/registrar/) and your academic advisor
@@ -61,8 +61,8 @@ Most planners are spreadsheets. This one actually *understands* the rules:
 ## Quick start (web app)
 
 ```bash
-git clone https://github.com/PMN123/degree-planner.git
-cd degree-planner
+git clone https://github.com/PMN123/BoilerPlanner.git
+cd BoilerPlanner
 
 # The server needs nothing beyond Python 3.10+ and serves the prebuilt React
 # bundle in webapp/static/dist. (requests + beautifulsoup4 enable scraping.)
@@ -77,7 +77,7 @@ auto-saves to the browser (`localStorage`) — nothing is sent anywhere.
 
 ### Deploy it live (one click)
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/PMN123/degree-planner)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/PMN123/BoilerPlanner)
 
 The repo ships a [`Dockerfile`](Dockerfile) + [`render.yaml`](render.yaml) that build
 the React bundle and run the Python server, so a fresh host serves the full app. On
