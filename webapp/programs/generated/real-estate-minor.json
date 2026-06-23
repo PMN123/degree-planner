@@ -1,0 +1,94 @@
+{
+  "id": "real-estate-minor",
+  "poid": "35725",
+  "name": "Real Estate Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35725",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.403777+00:00",
+  "course_credits": {
+    "ECON 25100": 3.0,
+    "ECON 21000": 3.0,
+    "AGEC 21700": 3.0,
+    "FIN 31000": 3.0,
+    "FIN 30400": 3.0,
+    "AGEC 42400": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "HTM 14100": 3.0,
+    "REAL 37000": 3.0,
+    "REAL 43901": 3.0,
+    "REAL 37500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Business & Economics Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "ECON 25100 / ECON 21000 / AGEC 21700",
+          "courses": [
+            "ECON 25100",
+            "ECON 21000",
+            "AGEC 21700"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "FIN 31000 / FIN 30400 / AGEC 42400",
+          "courses": [
+            "FIN 31000",
+            "FIN 30400",
+            "AGEC 42400"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "ACCT 20000 / ACCT 21200 / HTM 14100",
+          "courses": [
+            "ACCT 20000",
+            "ACCT 21200",
+            "HTM 14100"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Required Real Estate Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "REAL 37000",
+        "REAL 43901",
+        "REAL 37500"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 21700",
+    "AGEC 42400",
+    "DSB 2XXXX",
+    "ECON 21000",
+    "ECON 25100",
+    "FIN 30400",
+    "FIN 31000",
+    "HELP 02026",
+    "HTM 14100",
+    "IN 47907",
+    "REAL 37000",
+    "REAL 37500",
+    "REAL 43901",
+    "STRT 30000"
+  ]
+}

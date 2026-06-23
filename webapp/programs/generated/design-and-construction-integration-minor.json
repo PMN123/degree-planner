@@ -1,0 +1,90 @@
+{
+  "id": "design-and-construction-integration-minor",
+  "poid": "35750",
+  "name": "Design and Construction Integration Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 17,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35750",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.472067+00:00",
+  "course_credits": {
+    "CM 10000": 3.0,
+    "CM 33000": 6.0,
+    "CM 33200": 3.0,
+    "CM 43300": 2.0,
+    "ANTH 20500": 3.0,
+    "ARAB 20100": 3.0,
+    "ASL 20100": 3.0,
+    "CHNS 20100": 4.0,
+    "EDPS 31600": 3.0,
+    "FR 20100": 3.0,
+    "GER 20100": 3.0,
+    "HEBR 20100": 3.0,
+    "ITAL 20100": 3.0,
+    "JPNS 20100": 3.0,
+    "PTGS 20100": 3.0,
+    "RUSS 20100": 4.0,
+    "SPAN 20100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Design and Construction Minor Required Courses",
+      "credit_target": 14.0,
+      "kind": "all_of",
+      "courses": [
+        "CM 10000",
+        "CM 33000",
+        "CM 33200",
+        "CM 43300"
+      ]
+    },
+    {
+      "name": "Cross Cultural Experience Selective",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "ANTH 20500",
+        "ARAB 20100",
+        "ASL 20100",
+        "CHNS 20100",
+        "EDPS 31600",
+        "FR 20100",
+        "GER 20100",
+        "HEBR 20100",
+        "ITAL 20100",
+        "JPNS 20100",
+        "PTGS 20100",
+        "RUSS 20100",
+        "SPAN 20100"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ANTH 20500",
+    "ARAB 20100",
+    "ASL 20100",
+    "CHNS 20100",
+    "CM 10000",
+    "CM 33000",
+    "CM 33200",
+    "CM 43300",
+    "EDPS 31600",
+    "FR 20100",
+    "GER 20100",
+    "HEBR 20100",
+    "HELP 02026",
+    "IN 47907",
+    "ITAL 20100",
+    "JPNS 20100",
+    "PTGS 20100",
+    "RUSS 20100",
+    "SPAN 20100"
+  ]
+}

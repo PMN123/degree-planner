@@ -1,0 +1,75 @@
+{
+  "id": "turf-management-minor",
+  "poid": "35086",
+  "name": "Turf Management Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 13,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35086",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.358205+00:00",
+  "course_credits": {
+    "AGRY 25500": 3.0,
+    "AGRY 51000": 3.0,
+    "HORT 21000": 3.0,
+    "HORT 21100": 1.0,
+    "AGRY 36500": 3.0,
+    "AGRY 51200": 3.0,
+    "BTNY 30100": 3.0,
+    "BTNY 30400": 3.0,
+    "ENTM 20600": 2.0,
+    "ENTM 20700": 1.0,
+    "ENTM 41000": 2.0,
+    "ENTM 41002": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 10.0,
+      "kind": "all_of",
+      "courses": [
+        "AGRY 25500",
+        "AGRY 51000",
+        "HORT 21000",
+        "HORT 21100"
+      ]
+    },
+    {
+      "name": "Selective Course",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "AGRY 36500",
+        "AGRY 51200",
+        "BTNY 30100",
+        "BTNY 30400",
+        "ENTM 20600",
+        "ENTM 20700",
+        "ENTM 41000",
+        "ENTM 41002"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AGRY 25500",
+    "AGRY 36500",
+    "AGRY 51000",
+    "AGRY 51200",
+    "BTNY 30100",
+    "BTNY 30400",
+    "ENTM 20600",
+    "ENTM 20700",
+    "ENTM 41000",
+    "ENTM 41002",
+    "HELP 02026",
+    "HORT 21000",
+    "HORT 21100",
+    "IN 47907"
+  ]
+}

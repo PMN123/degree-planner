@@ -1,0 +1,401 @@
+{
+  "id": "web-programming-and-design-bs",
+  "poid": "35069",
+  "name": "Web Programming & Design, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35069",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.236959+00:00",
+  "course_credits": {
+    "CGT 11505": 3.0,
+    "CGT 11800": 3.0,
+    "CGT 14100": 3.0,
+    "CGT 17208": 3.0,
+    "CGT 25001": 1.0,
+    "CGT 25300": 3.0,
+    "CGT 35300": 3.0,
+    "CGT 35600": 3.0,
+    "CGT 37000": 3.0,
+    "CGT 37700": 3.0,
+    "CGT 41101": 2.0,
+    "CGT 41201": 2.0,
+    "CGT 45001": 1.0,
+    "CGT 45600": 3.0,
+    "CNIT 11000": 1.0,
+    "ECON 21000": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "STRT 45500": 3.0,
+    "PHYS 22000": 4.0,
+    "SCLA 10100": 3.0,
+    "SCLA 10200": 3.0,
+    "ENGL 20500": 3.0,
+    "ENGL 30400": 3.0,
+    "ENGL 41900": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "IET 31600": 3.0,
+    "PSY 20100": 3.0,
+    "STAT 22500": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 35000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 43.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 37.0,
+          "kind": "all_of",
+          "courses": [
+            "CGT 11505",
+            "CGT 11800",
+            "CGT 14100",
+            "CGT 17208",
+            "CGT 25001",
+            "CGT 25300",
+            "CGT 35300",
+            "CGT 35600",
+            "CGT 37000",
+            "CGT 37700",
+            "CGT 41101",
+            "CGT 41201",
+            "CGT 45001",
+            "CGT 45600",
+            "CNIT 11000"
+          ]
+        },
+        {
+          "name": "Major Selectives* - Choose three courses",
+          "credit_target": 6.0,
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        13.0,
+        18.0
+      ],
+      "kind": "credits",
+      "credits": 13.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CGT 11800",
+          "title": "Fundamentals Of Imaging Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 14100",
+          "title": "Internet Foundations Technologies And Development",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "SCLA 10100",
+          "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 11000",
+          "title": "AI Fundamentals: Literacy, Applications And Responsible Use (UCC: AI)",
+          "credits": 1.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 11505",
+          "title": "Scripting And Computational Thinking",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 17208",
+          "title": "User Experience Design Studio I: Fundamentals (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "SCLA 10200",
+          "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "CGT 25300",
+          "title": "Front-End Web Development",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "CGT 25001",
+          "title": "Computer Graphics Professional Practices I",
+          "credits": 1.0
+        },
+        {
+          "code": "CGT 35300",
+          "title": "Principles Of Interactive And Dynamic Media",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON 21000",
+          "title": "Principles Of Economics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "CGT Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Selective (200 Level or Higher)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 35600",
+          "title": "Web Programming, Development And Data Integration",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 37700",
+          "title": "Scientific Visualization",
+          "credits": 3.0
+        },
+        {
+          "label": "Advanced English Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 37000",
+          "title": "Interactive Data Visualization",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 45600",
+          "title": "Advanced Web Programming, Development And Data Integration",
+          "credits": 3.0
+        },
+        {
+          "label": "Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Globalization Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Management Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "CGT 41101",
+          "title": "Contemporary Problems In Applied Computer Graphics I",
+          "credits": 2.0
+        },
+        {
+          "code": "STRT 45500",
+          "title": "Legal Background For Business I",
+          "credits": 3.0
+        },
+        {
+          "label": "Humanities Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "CGT 41201",
+          "title": "Contemporary Problems In Applied Computer Graphics II",
+          "credits": 2.0
+        },
+        {
+          "code": "CGT 45001",
+          "title": "Computer Graphics Professional Practices II",
+          "credits": 1.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CGT 11505",
+    "CGT 11800",
+    "CGT 14100",
+    "CGT 17208",
+    "CGT 25001",
+    "CGT 25300",
+    "CGT 35300",
+    "CGT 35600",
+    "CGT 37000",
+    "CGT 37700",
+    "CGT 41101",
+    "CGT 41201",
+    "CGT 45001",
+    "CGT 45600",
+    "CNIT 11000",
+    "ECON 21000",
+    "ENGL 20500",
+    "ENGL 30400",
+    "ENGL 41900",
+    "ENGL 42000",
+    "ENGL 42100",
+    "HEA 01348",
+    "HELP 02026",
+    "IET 31600",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "PHYS 22000",
+    "PSY 20100",
+    "SCLA 10100",
+    "SCLA 10200",
+    "STAT 22500",
+    "STAT 30100",
+    "STAT 35000",
+    "STRT 45500"
+  ]
+}

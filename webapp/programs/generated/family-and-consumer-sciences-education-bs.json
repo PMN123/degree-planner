@@ -1,0 +1,507 @@
+{
+  "id": "family-and-consumer-sciences-education-bs",
+  "poid": "34800",
+  "name": "Family and Consumer Sciences Education, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": null,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34800",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.879415+00:00",
+  "course_credits": {
+    "AD 12500": 3.0,
+    "AD 28000": 3.0,
+    "CHM 11200": 3.0,
+    "CSR 10300": 3.0,
+    "CSR 28200": 3.0,
+    "EDCI 20700": 3.0,
+    "HDFS 10000": 1.0,
+    "HDFS 20100": 3.0,
+    "HDFS 21000": 3.0,
+    "HDFS 28000": 3.0,
+    "HDFS 31000": 3.0,
+    "HDFS 31100": 3.0,
+    "HDFS 31300": 3.0,
+    "HDFS 33000": 3.0,
+    "HDFS 33100": 3.0,
+    "HDFS 34800": 3.0,
+    "HTM 29001": 3.0,
+    "HTM 29101": 2.0,
+    "NUTR 20500": 3.0,
+    "NUTR 31500": 3.0,
+    "NUTR 36500": 3.0,
+    "PUBH 23000": 3.0,
+    "EDCI 20001": 1.0,
+    "EDCI 20500": 2.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 30900": 1.0,
+    "EDCI 37001": 2.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26501": 2.0,
+    "EDPS 32700": 1.0,
+    "EDPS 36201": 0.0,
+    "EDPS 43010": 1.0,
+    "EDST 20010": 1.0,
+    "EDCI 25000": 0.0,
+    "EDCI 35000": 1.0,
+    "EDCI 35600": 3.0,
+    "EDCI 36000": 3.0,
+    "EDCI 44400": 4.0,
+    "EDCI 49800": 6.0,
+    "CHM 11100": 3.0,
+    "ENTR 20000": 3.0,
+    "POL 12000": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "MA 13800": 3.0,
+    "EDCI 22200": 3.0,
+    "MA 15555": 3.0,
+    "EAPS 12000": 3.0,
+    "FS 16100": 3.0,
+    "HIST 30305": 3.0,
+    "LA 16100": 1.0,
+    "STAT 11300": 3.0,
+    "SYS 30000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Major Courses",
+      "credit_target": 109.0,
+      "kind": "all_of",
+      "courses": [
+        "AD 12500",
+        "AD 28000",
+        "CHM 11200",
+        "CSR 10300",
+        "CSR 28200",
+        "EDCI 20700",
+        "HDFS 10000",
+        "HDFS 20100",
+        "HDFS 21000",
+        "HDFS 28000",
+        "HDFS 31000",
+        "HDFS 31100",
+        "HDFS 31300",
+        "HDFS 33000",
+        "HTM 29001",
+        "HTM 29101",
+        "NUTR 20500",
+        "NUTR 31500",
+        "NUTR 36500",
+        "PUBH 23000"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "HDFS 33100 / HDFS 34800",
+          "courses": [
+            "HDFS 33100",
+            "HDFS 34800"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Professional Education Requirements",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Foundational Courses",
+          "kind": "all_of",
+          "courses": [
+            "EDCI 20001",
+            "EDCI 20500",
+            "EDCI 27000",
+            "EDCI 28550",
+            "EDCI 30900",
+            "EDCI 37001",
+            "EDPS 23500",
+            "EDPS 24001",
+            "EDPS 26501",
+            "EDPS 32700",
+            "EDPS 36201",
+            "EDPS 43010",
+            "EDST 20010"
+          ]
+        },
+        {
+          "name": "Family & Consumer Sciences Education",
+          "kind": "all_of",
+          "courses": [
+            "EDCI 25000",
+            "EDCI 35000",
+            "EDCI 35600",
+            "EDCI 36000",
+            "EDCI 44400",
+            "EDCI 49800"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AD 12500",
+          "title": "Introduction To Interior Design (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 10300",
+          "title": "Introduction To Personal Finance",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 25000",
+          "title": "Professional Development In Family And Consumer Sciences Education",
+          "credits": 0.0
+        },
+        {
+          "code": "HDFS 10000",
+          "title": "Orientation To Current Issues In Human Development And Family Science (UCC: AI)",
+          "credits": 1.0
+        },
+        {
+          "code": "HDFS 20100",
+          "title": "Introduction To Relationship And Family Science (UCC: BSS)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "AD 28000",
+          "title": "Human Behavior And Designed Environment",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 25000",
+          "title": "Professional Development In Family And Consumer Sciences Education",
+          "credits": 0.0
+        },
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "code": "HDFS 21000",
+          "title": "Introduction To Human Development (UCC: BSS)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "EDCI 20700",
+          "title": "Construction And Textile Lab Management",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 35600",
+          "title": "Career Education In Family And Consumer Sciences",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "code": "POL 12000",
+          "title": "Introduction To Public Policy And Public Administration (UCC: BSS)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17-18 Credits",
+      "items": [
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "EDCI 20001",
+          "title": "Special Populations Seminar: Focus On Students With Disabilities And Differentiation Approaches",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 26501",
+          "title": "The Inclusive Classroom",
+          "credits": 2.0
+        },
+        {
+          "code": "HDFS 31100",
+          "title": "Child Development",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 29001",
+          "title": "Food And Beverage Management",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 31500",
+          "title": "Fundamentals Of Nutrition",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "EDCI 30900",
+          "title": "Reading In Middle And Secondary Schools: Methods And Problems",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 35000",
+          "title": "Community Issues & Applications For Educators",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "ENTR 20000",
+          "title": "Introduction To Entrepreneurship And Innovation",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 33000",
+          "title": "Sexuality And Family Life",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 29101",
+          "title": "The John Purdue Room Restaurant Experience",
+          "credits": 2.0
+        },
+        {
+          "code": "NUTR 20500",
+          "title": "Food Science I",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "CSR 28200",
+          "title": "Customer Relations Management",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 28000",
+          "title": "Diversity In Individual And Family Life (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 31000",
+          "title": "Guidance In Early Childhood",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 31300",
+          "title": "Adolescent Development",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 36000",
+          "title": "Curriculum And Instruction In Family And Consumer Sciences: Middle School",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 36500",
+          "title": "Physiology And Nutrition During The Life Cycle",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "EDCI 44400",
+          "title": "Methods For Teaching Family And Consumer Sciences",
+          "credits": 4.0
+        },
+        {
+          "label": "Science, Technology, and Society Core",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "PUBH 23000",
+          "title": "Social Factors In Public Health",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 33100",
+          "title": "Skills For Helping Professionals In Individual, Family And Group Settings",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HDFS 34800",
+              "title": "Administration Of Social Service Not-For-Profit Organizations",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "EDPS 43010",
+          "title": "Secondary Creating And Managing Learning Environments",
+          "credits": 1.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDCI 49800",
+          "title": "Supervised Teaching (UCC: OC)",
+          "credits": 6.0
+        },
+        {
+          "label": "Middle School",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 12500",
+    "AD 28000",
+    "CHM 11100",
+    "CHM 11200",
+    "CSR 10300",
+    "CSR 28200",
+    "EAPS 12000",
+    "EDCI 20001",
+    "EDCI 20500",
+    "EDCI 20700",
+    "EDCI 22200",
+    "EDCI 25000",
+    "EDCI 27000",
+    "EDCI 28550",
+    "EDCI 30900",
+    "EDCI 35000",
+    "EDCI 35600",
+    "EDCI 36000",
+    "EDCI 37001",
+    "EDCI 44400",
+    "EDCI 49800",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26501",
+    "EDPS 32700",
+    "EDPS 36201",
+    "EDPS 43010",
+    "EDST 20010",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENTR 20000",
+    "FS 16100",
+    "HDFS 10000",
+    "HDFS 20100",
+    "HDFS 21000",
+    "HDFS 28000",
+    "HDFS 31000",
+    "HDFS 31100",
+    "HDFS 31300",
+    "HDFS 33000",
+    "HDFS 33100",
+    "HDFS 34800",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 30305",
+    "HTM 29001",
+    "HTM 29101",
+    "IN 47907",
+    "LA 16100",
+    "MA 13800",
+    "MA 15555",
+    "NUTR 20500",
+    "NUTR 31500",
+    "NUTR 36500",
+    "POL 12000",
+    "PUBH 23000",
+    "STAT 11300",
+    "SYS 30000"
+  ]
+}

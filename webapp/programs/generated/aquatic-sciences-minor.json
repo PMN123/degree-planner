@@ -1,0 +1,120 @@
+{
+  "id": "aquatic-sciences-minor",
+  "poid": "35583",
+  "name": "Aquatic Sciences Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 16,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35583",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.087709+00:00",
+  "course_credits": {
+    "FNR 20100": 3.0,
+    "FNR 24150": 3.0,
+    "FNR 24250": 1.0,
+    "FNR 31300": 1.0,
+    "FNR 38500": 4.0,
+    "FNR 45200": 3.0,
+    "FNR 45300": 3.0,
+    "FNR 45600": 4.0,
+    "FNR 45700": 2.0,
+    "EAPS 10400": 3.0,
+    "FNR 37800": 3.0,
+    "FNR 40100": 3.0,
+    "FNR 45800": 3.0,
+    "AGRY 33700": 3.0,
+    "EAPS 20000": 3.0,
+    "ENTM 24200": 3.0,
+    "ENTM 30100": 3.0,
+    "FNR 35100": 3.0,
+    "FNR 37500": 3.0,
+    "FNR 52800": 2.0,
+    "FNR 52900": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 7.0,
+      "kind": "all_of",
+      "courses": [
+        "FNR 20100",
+        "FNR 24150",
+        "FNR 24250"
+      ]
+    },
+    {
+      "name": "Selectives",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Fisheries and Aquaculture Focus",
+          "kind": "all_of",
+          "courses": [
+            "FNR 31300",
+            "FNR 38500",
+            "FNR 45200",
+            "FNR 45300",
+            "FNR 45600",
+            "FNR 45700"
+          ]
+        },
+        {
+          "name": "B. Marine and Freshwater Biology",
+          "kind": "all_of",
+          "courses": [
+            "EAPS 10400",
+            "FNR 37800",
+            "FNR 40100",
+            "FNR 45800"
+          ]
+        },
+        {
+          "name": "Selective",
+          "kind": "choose",
+          "options": [
+            "AGRY 33700",
+            "EAPS 20000",
+            "ENTM 24200",
+            "ENTM 30100",
+            "FNR 35100",
+            "FNR 37500",
+            "FNR 52800",
+            "FNR 52900"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AGRY 33700",
+    "EAPS 10400",
+    "EAPS 20000",
+    "ENTM 24200",
+    "ENTM 30100",
+    "FNR 20100",
+    "FNR 24150",
+    "FNR 24250",
+    "FNR 31300",
+    "FNR 35100",
+    "FNR 37500",
+    "FNR 37800",
+    "FNR 38500",
+    "FNR 40100",
+    "FNR 45200",
+    "FNR 45300",
+    "FNR 45600",
+    "FNR 45700",
+    "FNR 45800",
+    "FNR 49800",
+    "FNR 52800",
+    "FNR 52900",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

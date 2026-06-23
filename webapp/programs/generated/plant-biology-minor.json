@@ -1,0 +1,84 @@
+{
+  "id": "plant-biology-minor",
+  "poid": "34729",
+  "name": "Plant Biology Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34729",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.806388+00:00",
+  "course_credits": {
+    "BTNY 11000": 4.0,
+    "BTNY 12000": 4.0,
+    "BTNY 12100": 4.0,
+    "BTNY 20700": 3.0,
+    "BTNY 28500": 3.0,
+    "BTNY 30100": 3.0,
+    "BTNY 30200": 3.0,
+    "BTNY 30400": 3.0,
+    "BTNY 30500": 3.0,
+    "BTNY 42000": 3.0,
+    "BTNY 49800": 1.0,
+    "BTNY 55000": 3.0,
+    "HORT 30100": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": [
+        4.0,
+        8.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "BTNY 11000",
+        "BTNY 12000",
+        "BTNY 12100"
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": [
+        7.0,
+        11.0
+      ],
+      "kind": "choose",
+      "options": [
+        "BTNY 20700",
+        "BTNY 28500",
+        "BTNY 30100",
+        "BTNY 30200",
+        "BTNY 30400",
+        "BTNY 30500",
+        "BTNY 42000",
+        "BTNY 49800",
+        "BTNY 55000",
+        "HORT 30100"
+      ],
+      "choose_credits": 7.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "BTNY 11000",
+    "BTNY 12000",
+    "BTNY 12100",
+    "BTNY 20700",
+    "BTNY 28500",
+    "BTNY 30100",
+    "BTNY 30200",
+    "BTNY 30400",
+    "BTNY 30500",
+    "BTNY 42000",
+    "BTNY 49800",
+    "BTNY 55000",
+    "HELP 02026",
+    "HORT 30100",
+    "IN 47907"
+  ]
+}

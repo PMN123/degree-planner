@@ -1,0 +1,166 @@
+{
+  "id": "atmospheric-science-minor",
+  "poid": "35860",
+  "name": "Atmospheric Science Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35860",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.902708+00:00",
+  "course_credits": {
+    "EAPS 22100": 3.0,
+    "EAPS 22500": 3.0,
+    "AGRY 33500": 3.0,
+    "EAPS 23001": 2.0,
+    "EAPS 22700": 3.0,
+    "EAPS 36700": 3.0,
+    "EAPS 42100": 3.0,
+    "EAPS 42200": 3.0,
+    "EAPS 42300": 3.0,
+    "EAPS 42501": 3.0,
+    "EAPS 43100": 1.0,
+    "EAPS 43200": 1.0,
+    "EAPS 43300": 1.0,
+    "EAPS 43400": 3.0,
+    "EAPS 43500": 3.0,
+    "EAPS 50700": 3.0,
+    "EAPS 51000": 3.0,
+    "EAPS 52000": 3.0,
+    "EAPS 52100": 3.0,
+    "EAPS 52300": 3.0,
+    "EAPS 53000": 3.0,
+    "EAPS 53200": 3.0,
+    "EAPS 53300": 3.0,
+    "EAPS 53400": 3.0,
+    "EAPS 53600": 3.0,
+    "EAPS 53900": 3.0,
+    "AGRY 53500": 3.0,
+    "EAPS 52500": 3.0,
+    "AT 32501": 3.0,
+    "EAPS 32500": 3.0,
+    "EAPS 32700": 3.0,
+    "EAPS 36000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "EAPS 22100 / EAPS 22500",
+          "courses": [
+            "EAPS 22100",
+            "EAPS 22500"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Additional EAPS Coursework",
+      "credit_target": 12.0,
+      "kind": "choose",
+      "options": [
+        "AGRY 33500",
+        "EAPS 23001",
+        "EAPS 22700",
+        "EAPS 36700",
+        "EAPS 42100",
+        "EAPS 42200",
+        "EAPS 42300",
+        "EAPS 42501",
+        "EAPS 43100",
+        "EAPS 43200",
+        "EAPS 43300",
+        "EAPS 43400",
+        "EAPS 43500",
+        "EAPS 50700",
+        "EAPS 51000",
+        "EAPS 52000",
+        "EAPS 52100",
+        "EAPS 52300",
+        "EAPS 53000",
+        "EAPS 53200",
+        "EAPS 53300",
+        "EAPS 53400",
+        "EAPS 53600",
+        "EAPS 53900",
+        {
+          "kind": "one_of",
+          "name": "AGRY 53500 / EAPS 52500",
+          "courses": [
+            "AGRY 53500",
+            "EAPS 52500"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "AT 32501 / EAPS 32500",
+          "courses": [
+            "AT 32501",
+            "EAPS 32500"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "EAPS 32700 / EAPS 36000",
+          "courses": [
+            "EAPS 32700",
+            "EAPS 36000"
+          ]
+        }
+      ],
+      "choose_credits": 12.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AGRY 33500",
+    "AGRY 53500",
+    "AT 32501",
+    "EAPS 20000",
+    "EAPS 22100",
+    "EAPS 22500",
+    "EAPS 22700",
+    "EAPS 23001",
+    "EAPS 29999",
+    "EAPS 30000",
+    "EAPS 32500",
+    "EAPS 32700",
+    "EAPS 36000",
+    "EAPS 36700",
+    "EAPS 39100",
+    "EAPS 42100",
+    "EAPS 42200",
+    "EAPS 42300",
+    "EAPS 42501",
+    "EAPS 43100",
+    "EAPS 43200",
+    "EAPS 43300",
+    "EAPS 43400",
+    "EAPS 43500",
+    "EAPS 49700",
+    "EAPS 50700",
+    "EAPS 51000",
+    "EAPS 52000",
+    "EAPS 52100",
+    "EAPS 52300",
+    "EAPS 52500",
+    "EAPS 53000",
+    "EAPS 53200",
+    "EAPS 53300",
+    "EAPS 53400",
+    "EAPS 53600",
+    "EAPS 53900",
+    "EAPS 59100",
+    "EAPS 59999",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

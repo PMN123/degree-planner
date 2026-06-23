@@ -1,0 +1,64 @@
+{
+  "id": "mathematical-economics-minor",
+  "poid": "35342",
+  "name": "Mathematical Economics Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 16,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35342",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.517705+00:00",
+  "course_credits": {
+    "ECON 34000": 3.0,
+    "ECON 35200": 3.0,
+    "ECON 36000": 3.0,
+    "MA 26100": 4.0,
+    "ECON 37300": 3.0,
+    "ECON 45100": 3.0,
+    "ECON 46300": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 13.0,
+      "kind": "all_of",
+      "courses": [
+        "ECON 34000",
+        "ECON 35200",
+        "ECON 36000",
+        "MA 26100"
+      ]
+    },
+    {
+      "name": "Additional Course",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "ECON 37300",
+        "ECON 45100",
+        "ECON 46300"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ECON 2XXXX",
+    "ECON 34000",
+    "ECON 35200",
+    "ECON 36000",
+    "ECON 37300",
+    "ECON 45100",
+    "ECON 46300",
+    "ECON 51100",
+    "ECON 51200",
+    "ECON 56200",
+    "HELP 02026",
+    "IN 47907",
+    "MA 26100"
+  ]
+}

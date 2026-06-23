@@ -1,0 +1,455 @@
+{
+  "id": "computer-and-information-technology-bs",
+  "poid": "34801",
+  "name": "Computer and Information Technology, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34801",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.108485+00:00",
+  "course_credits": {
+    "CGT 14100": 3.0,
+    "CGT 17208": 3.0,
+    "CGT 25300": 3.0,
+    "CNIT 11000": 1.0,
+    "CNIT 17600": 3.0,
+    "CNIT 18000": 3.0,
+    "CNIT 24200": 3.0,
+    "CNIT 25501": 3.0,
+    "CNIT 27000": 3.0,
+    "CNIT 27200": 3.0,
+    "CNIT 28000": 3.0,
+    "CNIT 32000": 3.0,
+    "CNIT 34400": 3.0,
+    "CNIT 38000": 3.0,
+    "CNIT 48000": 3.0,
+    "CNIT 37200": 3.0,
+    "CNIT 39200": 3.0,
+    "CNIT 48700": 3.0,
+    "CNIT 10500": 3.0,
+    "CNIT 15501": 3.0,
+    "CS 15900": 3.0,
+    "CS 17700": 4.0,
+    "CS 18000": 4.0,
+    "CNIT 31500": 3.0,
+    "CNIT 32500": 3.0,
+    "TECH 12000": 3.0,
+    "TLI 15200": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16020": 3.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "COM 31500": 3.0,
+    "COM 32000": 3.0,
+    "COM 32500": 3.0,
+    "COM 41500": 3.0,
+    "ENGL 30400": 3.0,
+    "ENGL 41900": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ENGL 42400": 3.0,
+    "ENGL 43300": 3.0,
+    "STAT 22500": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 50100": 3.0,
+    "STAT 51100": 3.0,
+    "CNIT 39000": 1.0,
+    "TDM 11100": 3.0,
+    "TDM 11200": 3.0,
+    "TDM 21100": 3.0,
+    "TDM 21200": 3.0,
+    "TDM 31100": 3.0,
+    "TDM 31200": 3.0,
+    "TDM 41100": 3.0,
+    "TDM 41200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        61.0,
+        62.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Computer and Information Technology Required Major Courses",
+          "credit_target": [
+            61.0,
+            62.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "CGT 14100",
+            "CGT 17208",
+            "CGT 25300",
+            "CNIT 11000",
+            "CNIT 17600",
+            "CNIT 18000",
+            "CNIT 24200",
+            "CNIT 25501",
+            "CNIT 27000",
+            "CNIT 27200",
+            "CNIT 28000",
+            "CNIT 32000",
+            "CNIT 34400",
+            "CNIT 38000",
+            "CNIT 48000",
+            "CNIT 37200",
+            "CNIT 39200",
+            "CNIT 48700",
+            "CNIT 10500",
+            "CNIT 15501",
+            "CS 15900",
+            "CS 17700",
+            "CS 18000",
+            "CNIT 31500",
+            "CNIT 32500"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "CGT 14100",
+          "title": "Internet Foundations Technologies And Development",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 11000",
+          "title": "AI Fundamentals: Literacy, Applications And Responsible Use (UCC: AI)",
+          "credits": 1.0
+        },
+        {
+          "code": "CNIT 17600",
+          "title": "Information Technology Architectures",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 18000",
+          "title": "Introduction To Systems Development",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CGT 17208",
+          "title": "User Experience Design Studio I: Fundamentals (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 27000",
+          "title": "Cybersecurity Fundamentals I",
+          "credits": 3.0
+        },
+        {
+          "label": "Introductory Programming Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Accounting Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "CGT 25300",
+          "title": "Front-End Web Development",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 27200",
+          "title": "Database Fundamentals",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 28000",
+          "title": "Systems Analysis And Design Methods",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 25501",
+          "title": "Object-Oriented Programming Introduction",
+          "credits": 3.0
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "13-20 Credits",
+      "items": [
+        {
+          "code": "CNIT 24200",
+          "title": "System Administration",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 15200",
+          "title": "Business Principles For Organizational Leadership",
+          "credits": 3.0
+        },
+        {
+          "label": "Calculus I Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CNIT 32000",
+          "title": "Policy, Regulation, And Globalization In Information Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 38000",
+          "title": "Advanced Analysis And Design",
+          "credits": 3.0
+        },
+        {
+          "label": "Calculus II Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Database Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "label": "Professional Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Computing Selectives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Programming Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CNIT 48000",
+          "title": "Managing Information Technology Projects",
+          "credits": 3.0
+        },
+        {
+          "label": "Computing Selectives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Professional Speaking Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CNIT 34400",
+          "title": "Network Engineering Fundamentals",
+          "credits": 3.0
+        },
+        {
+          "label": "Computing Selectives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 21700",
+    "CGT 14100",
+    "CGT 17208",
+    "CGT 25300",
+    "CNIT 10500",
+    "CNIT 11000",
+    "CNIT 15501",
+    "CNIT 17600",
+    "CNIT 18000",
+    "CNIT 24200",
+    "CNIT 25501",
+    "CNIT 27000",
+    "CNIT 27200",
+    "CNIT 28000",
+    "CNIT 31500",
+    "CNIT 32000",
+    "CNIT 32500",
+    "CNIT 34400",
+    "CNIT 37200",
+    "CNIT 38000",
+    "CNIT 39000",
+    "CNIT 39200",
+    "CNIT 48000",
+    "CNIT 48700",
+    "COM 20000",
+    "COM 31400",
+    "COM 31500",
+    "COM 32000",
+    "COM 32500",
+    "COM 41500",
+    "CS 15900",
+    "CS 17700",
+    "CS 18000",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "ENGL 30400",
+    "ENGL 41900",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGL 42400",
+    "ENGL 43300",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "STAT 22500",
+    "STAT 30100",
+    "STAT 50100",
+    "STAT 51100",
+    "TDM 11100",
+    "TDM 11200",
+    "TDM 21100",
+    "TDM 21200",
+    "TDM 31100",
+    "TDM 31200",
+    "TDM 41100",
+    "TDM 41200",
+    "TECH 12000",
+    "TLI 15200"
+  ]
+}

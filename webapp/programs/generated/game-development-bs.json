@@ -1,0 +1,395 @@
+{
+  "id": "game-development-bs",
+  "poid": "35721",
+  "name": "Game Development, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35721",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.185008+00:00",
+  "course_credits": {
+    "CGT 10501": 3.0,
+    "CGT 11505": 3.0,
+    "CGT 11600": 3.0,
+    "CGT 11800": 3.0,
+    "CGT 20501": 1.0,
+    "CGT 24500": 3.0,
+    "CGT 25500": 3.0,
+    "CGT 30501": 1.0,
+    "CGT 36500": 3.0,
+    "CGT 40501": 1.0,
+    "CGT 41101": 2.0,
+    "CGT 41201": 2.0,
+    "CNIT 11000": 1.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "PHYS 22000": 4.0,
+    "TECH 12000": 3.0,
+    "ENGL 20500": 3.0,
+    "ENGL 30400": 3.0,
+    "ENGL 41900": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "IET 31600": 3.0,
+    "PSY 20100": 3.0,
+    "STAT 22500": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 35000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 50.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 32.0,
+          "kind": "all_of",
+          "courses": [
+            "CGT 10501",
+            "CGT 11505",
+            "CGT 11600",
+            "CGT 11800",
+            "CGT 20501",
+            "CGT 24500",
+            "CGT 25500",
+            "CGT 30501",
+            "CGT 36500",
+            "CGT 40501",
+            "CGT 41101",
+            "CGT 41201",
+            "CNIT 11000"
+          ]
+        },
+        {
+          "name": "CGT Entertainment Selectives",
+          "credit_target": 18.0,
+          "kind": "credits",
+          "credits": 18.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        15.0,
+        21.0
+      ],
+      "kind": "credits",
+      "credits": 15.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 10501",
+          "title": "Introduction To Games (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 11600",
+          "title": "Geometric Modeling For Visualization And Communication",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 11800",
+          "title": "Fundamentals Of Imaging Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 24500",
+          "title": "Game Development I: Core Skills And Technologies",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CGT 11505",
+          "title": "Scripting And Computational Thinking",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 20501",
+          "title": "Portfolio Review",
+          "credits": 1.0
+        },
+        {
+          "code": "CGT 25500",
+          "title": "Game Development II: Design And Psychology",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 11000",
+          "title": "AI Fundamentals: Literacy, Applications And Responsible Use (UCC: AI)",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Entertainment Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Entertainment Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "CGT Entertainment Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Entertainment Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "CGT 36500",
+          "title": "Game Development Practicum",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Entertainment Selective:",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CGT 30501",
+          "title": "Portfolio Review",
+          "credits": 1.0
+        },
+        {
+          "code": "CGT 36500",
+          "title": "Game Development Practicum",
+          "credits": 3.0
+        },
+        {
+          "label": "CGT Entertainment Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Globalization Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CGT 41101",
+          "title": "Contemporary Problems In Applied Computer Graphics I",
+          "credits": 2.0
+        },
+        {
+          "label": "Humanities Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CGT 40501",
+          "title": "Senior Portfolio Review",
+          "credits": 1.0
+        },
+        {
+          "code": "CGT 41201",
+          "title": "Contemporary Problems In Applied Computer Graphics II",
+          "credits": 2.0
+        },
+        {
+          "label": "Advanced English Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CGT 10501",
+    "CGT 11505",
+    "CGT 11600",
+    "CGT 11800",
+    "CGT 20500",
+    "CGT 20501",
+    "CGT 24500",
+    "CGT 25500",
+    "CGT 30501",
+    "CGT 36500",
+    "CGT 40501",
+    "CGT 41101",
+    "CGT 41201",
+    "CNIT 11000",
+    "ENGL 20500",
+    "ENGL 30400",
+    "ENGL 41900",
+    "ENGL 42000",
+    "ENGL 42100",
+    "HEA 01348",
+    "HELP 02026",
+    "IET 31600",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "PHYS 22000",
+    "PSY 20100",
+    "STAT 22500",
+    "STAT 30100",
+    "STAT 35000",
+    "TECH 12000"
+  ]
+}

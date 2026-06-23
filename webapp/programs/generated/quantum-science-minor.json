@@ -1,0 +1,131 @@
+{
+  "id": "quantum-science-minor",
+  "poid": "36047",
+  "name": "Quantum Science Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 19,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=36047",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:32.261623+00:00",
+  "course_credits": {
+    "PHYS 34202": 3.0,
+    "PHYS 34400": 4.0,
+    "QSCI 34202": 3.0,
+    "QSCI 34400": 4.0,
+    "PHYS 34000": 2.0,
+    "QSCI 34000": 2.0,
+    "PHYS 36000": 3.0,
+    "QSCI 36000": 3.0,
+    "CHM 37400": 3.0,
+    "QSCI 34900": 3.0,
+    "PHYS 34900": 3.0,
+    "MA 26100": 4.0,
+    "MA 27101": 5.0,
+    "MA 26200": 4.0,
+    "MA 26500": 3.0,
+    "MA 35100": 3.0,
+    "MA 26600": 3.0,
+    "MA 36600": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 11.0,
+      "kind": "all_of",
+      "courses": [
+        "QSCI 34900",
+        "PHYS 34900"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "PHYS 34202 / PHYS 34400 / QSCI 34202 / QSCI 34400",
+          "courses": [
+            "PHYS 34202",
+            "PHYS 34400",
+            "QSCI 34202",
+            "QSCI 34400"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "PHYS 34000 / QSCI 34000",
+          "courses": [
+            "PHYS 34000",
+            "QSCI 34000"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "PHYS 36000 / QSCI 36000 / CHM 37400",
+          "courses": [
+            "PHYS 36000",
+            "QSCI 36000",
+            "CHM 37400"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Additional Courses",
+      "credit_target": 8.0,
+      "kind": "choose",
+      "options": [
+        {
+          "kind": "one_of",
+          "name": "MA 26100 / MA 27101",
+          "courses": [
+            "MA 26100",
+            "MA 27101"
+          ]
+        },
+        "MA 26200",
+        {
+          "kind": "one_of",
+          "name": "MA 26500 / MA 35100",
+          "courses": [
+            "MA 26500",
+            "MA 35100"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "MA 26600 / MA 36600",
+          "courses": [
+            "MA 26600",
+            "MA 36600"
+          ]
+        }
+      ],
+      "choose_credits": 8.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CHM 37400",
+    "HELP 02026",
+    "IN 47907",
+    "MA 26100",
+    "MA 26200",
+    "MA 26500",
+    "MA 26600",
+    "MA 27101",
+    "MA 35100",
+    "MA 36600",
+    "PHYS 34000",
+    "PHYS 34202",
+    "PHYS 34400",
+    "PHYS 34900",
+    "PHYS 36000",
+    "QSCI 34000",
+    "QSCI 34202",
+    "QSCI 34400",
+    "QSCI 34900",
+    "QSCI 36000"
+  ]
+}

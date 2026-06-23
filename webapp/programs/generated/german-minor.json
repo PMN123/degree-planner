@@ -1,0 +1,107 @@
+{
+  "id": "german-minor",
+  "poid": "34905",
+  "name": "German Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34905",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.236443+00:00",
+  "course_credits": {
+    "GER 30100": 3.0,
+    "GER 30200": 3.0,
+    "GER 32300": 3.0,
+    "GER 24100": 3.0,
+    "GER 34100": 3.0,
+    "GER 34200": 3.0,
+    "GER 40100": 3.0,
+    "GER 40200": 3.0,
+    "GER 42400": 3.0,
+    "GER 48000": 3.0,
+    "GER 49800": 3.0,
+    "GER 52400": 3.0,
+    "GER 56100": 3.0,
+    "GER 56200": 3.0,
+    "GER 56300": 3.0,
+    "GER 58100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. German Language Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "GER 30100"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "GER 30200 / GER 32300",
+          "courses": [
+            "GER 30200",
+            "GER 32300"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B. German Literature Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "GER 24100"
+      ]
+    },
+    {
+      "name": "C. German Electives",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "GER 32300",
+        "GER 34100",
+        "GER 34200",
+        "GER 40100",
+        "GER 40200",
+        "GER 42400",
+        "GER 48000",
+        "GER 49800",
+        "GER 52400",
+        "GER 56100",
+        "GER 56200",
+        "GER 56300",
+        "GER 58100"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "GER 20200",
+    "GER 20500",
+    "GER 22300",
+    "GER 22400",
+    "GER 24100",
+    "GER 30100",
+    "GER 30200",
+    "GER 32300",
+    "GER 34100",
+    "GER 34200",
+    "GER 40100",
+    "GER 40200",
+    "GER 42400",
+    "GER 48000",
+    "GER 49800",
+    "GER 52400",
+    "GER 56100",
+    "GER 56200",
+    "GER 56300",
+    "GER 58100",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "african-american-studies-minor",
+  "poid": "34919",
+  "name": "African American Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34919",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.620834+00:00",
+  "course_credits": {
+    "AAS 27100": 3.0,
+    "AAS 37100": 3.0,
+    "AAS 37300": 3.0,
+    "AAS 37000": 3.0,
+    "AAS 37500": 3.0,
+    "AAS 37600": 3.0,
+    "AAS 47300": 3.0,
+    "AAS 47400": 3.0,
+    "AAS 49000": 3.0,
+    "AAS 49100": 1.0,
+    "POL 32600": 3.0,
+    "SOC 51400": 3.0,
+    "AAS 39200": 3.0,
+    "HIST 39600": 3.0,
+    "HIST 39800": 3.0,
+    "HIST 44100": 3.0,
+    "HIST 46900": 3.0,
+    "AAS 35900": 3.0,
+    "ENGL 35900": 3.0,
+    "ENGL 25700": 3.0,
+    "ENGL 35800": 3.0,
+    "AAS 27700": 3.0,
+    "MUS 37800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Foundation Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. African American Studies Foundation Courses",
+          "kind": "all_of",
+          "courses": [
+            "AAS 27100",
+            "AAS 37100",
+            "AAS 37300"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Select from B, C, D, or E",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "B. Social Science Courses Related to Africa or the African Diaspora",
+          "kind": "all_of",
+          "courses": [
+            "AAS 37000",
+            "AAS 37500",
+            "AAS 37600",
+            "AAS 47300",
+            "AAS 47400",
+            "AAS 49000",
+            "AAS 49100",
+            "POL 32600",
+            "SOC 51400"
+          ]
+        },
+        {
+          "name": "C. History Courses Related to Africa or the African Diaspora",
+          "kind": "all_of",
+          "courses": [
+            "AAS 37000",
+            "AAS 37500",
+            "AAS 37600",
+            "AAS 39200",
+            "AAS 47300",
+            "AAS 49000",
+            "AAS 49100",
+            "HIST 44100",
+            "HIST 46900"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "HIST 39600 / HIST 39800",
+              "courses": [
+                "HIST 39600",
+                "HIST 39800"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D. English Courses Related to Africa or the African Diaspora",
+          "kind": "all_of",
+          "courses": [
+            "AAS 37000",
+            "AAS 37600",
+            "AAS 49000",
+            "AAS 49100",
+            "ENGL 25700",
+            "ENGL 35800"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AAS 35900 / ENGL 35900",
+              "courses": [
+                "AAS 35900",
+                "ENGL 35900"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E. Visual and Performing Arts Courses Related to Africa or the African Diaspora",
+          "kind": "all_of",
+          "courses": [
+            "AAS 27700",
+            "AAS 47300",
+            "AAS 49000",
+            "AAS 49100",
+            "MUS 37800"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AAS 27100",
+    "AAS 27700",
+    "AAS 35900",
+    "AAS 37000",
+    "AAS 37100",
+    "AAS 37300",
+    "AAS 37500",
+    "AAS 37600",
+    "AAS 39200",
+    "AAS 47300",
+    "AAS 47400",
+    "AAS 49000",
+    "AAS 49100",
+    "ENGL 25700",
+    "ENGL 35800",
+    "ENGL 35900",
+    "HELP 02026",
+    "HIST 39600",
+    "HIST 39800",
+    "HIST 44100",
+    "HIST 46900",
+    "IN 47907",
+    "MUS 37800",
+    "POL 32600",
+    "SOC 51400"
+  ]
+}

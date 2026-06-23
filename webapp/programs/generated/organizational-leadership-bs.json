@@ -1,0 +1,489 @@
+{
+  "id": "organizational-leadership-bs",
+  "poid": "34795",
+  "name": "Organizational Leadership, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34795",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.852421+00:00",
+  "course_credits": {
+    "TLI 10000": 1.0,
+    "TLI 11200": 3.0,
+    "TLI 15200": 3.0,
+    "TLI 20000": 1.0,
+    "TLI 21300": 3.0,
+    "TLI 30000": 1.0,
+    "TLI 45800": 3.0,
+    "OLS 34600": 3.0,
+    "OLS 37500": 3.0,
+    "OLS 37800": 3.0,
+    "OLS 38600": 3.0,
+    "OLS 38800": 3.0,
+    "OLS 45000": 3.0,
+    "OLS 45400": 3.0,
+    "OLS 47700": 3.0,
+    "OLS 48400": 3.0,
+    "OLS 48700": 3.0,
+    "OLS 58300": 3.0,
+    "ACCT 20100": 3.0,
+    "FIN 30400": 3.0,
+    "MIS 38200": 3.0,
+    "MKTG 32300": 3.0,
+    "SCOM 36100": 3.0,
+    "STRT 33200": 3.0,
+    "STRT 45500": 3.0,
+    "TECH 34000": 3.0,
+    "TLI 31400": 3.0,
+    "TLI 31500": 3.0,
+    "ENGL 42100": 3.0,
+    "TCM 42500": 3.0,
+    "MA 15800": 3.0,
+    "PSY 12000": 3.0,
+    "PSY 27200": 3.0,
+    "STAT 11300": 3.0,
+    "STAT 30100": 3.0,
+    "TECH 12000": 3.0,
+    "TECH 22000": 3.0,
+    "TECH 33000": 3.0,
+    "COM 11400": 3.0,
+    "SCLA 10200": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Department/Program Major Courses",
+      "credit_target": 54.0,
+      "kind": "choose",
+      "options": [
+        "TLI 10000",
+        "TLI 11200",
+        "TLI 15200",
+        "TLI 20000",
+        "TLI 21300",
+        "TLI 30000",
+        "TLI 45800",
+        "OLS 34600",
+        "OLS 37500",
+        "OLS 37800",
+        "OLS 38600",
+        "OLS 38800",
+        "OLS 45000",
+        "OLS 45400",
+        "OLS 47700",
+        "OLS 48400",
+        "OLS 48700",
+        "OLS 58300",
+        "ACCT 20100",
+        "FIN 30400",
+        "MIS 38200",
+        "MKTG 32300",
+        "SCOM 36100",
+        "STRT 33200",
+        "STRT 45500",
+        "TECH 34000",
+        "TLI 31400",
+        "TLI 31500"
+      ],
+      "choose_credits": 54.0
+    },
+    {
+      "name": "Other Departmental Courses",
+      "credit_target": [
+        51.0,
+        63.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "MA 15800",
+        "PSY 12000",
+        "PSY 27200",
+        "STAT 11300",
+        "STAT 30100",
+        "TECH 12000",
+        "TECH 22000",
+        "TECH 33000",
+        "ACCT 20000",
+        "ACCT 21200",
+        "AGEC 21700",
+        "ECON 21000",
+        "ECON 25100",
+        "ECON 25200"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "ENGL 42100 / TCM 42500",
+          "courses": [
+            "ENGL 42100",
+            "TCM 42500"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "COM 11400 / SCLA 10200",
+          "courses": [
+            "COM 11400",
+            "SCLA 10200"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        3.0,
+        15.0
+      ],
+      "kind": "credits",
+      "credits": 3.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-17 Credits",
+      "items": [
+        {
+          "code": "TLI 10000",
+          "title": "Organizational Leadership Career Orientation",
+          "credits": 1.0
+        },
+        {
+          "code": "TLI 11200",
+          "title": "Foundations Of Organizational Leadership",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-21 Credits",
+      "items": [
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 11300",
+          "title": "Statistics And Society (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 15200",
+          "title": "Business Principles For Organizational Leadership",
+          "credits": 3.0
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SCLA 10200",
+              "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "PSY 27200",
+          "title": "Introduction To Industrial-Organizational Psychology",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 22000",
+          "title": "Designing Technology For People",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "TLI 20000",
+          "title": "Organization Leadership Career Exploration",
+          "credits": 1.0
+        },
+        {
+          "code": "OLS 38600",
+          "title": "Leadership For Organizational Change",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 21300",
+          "title": "Project Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Accounting Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "TLI 30000",
+          "title": "Organizational Leadership Career Transition",
+          "credits": 1.0
+        },
+        {
+          "code": "OLS 37500",
+          "title": "Training Methods",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 33000",
+          "title": "Technology And The Global Society",
+          "credits": 3.0
+        },
+        {
+          "code": "OLS 34600",
+          "title": "Critical Thinking And Ethics",
+          "credits": 3.0
+        },
+        {
+          "label": "Specialization Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Innovation Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "OLS 37800",
+          "title": "Labor And Management Relations",
+          "credits": 3.0
+        },
+        {
+          "code": "OLS 38800",
+          "title": "Leadership Through Teams",
+          "credits": 3.0
+        },
+        {
+          "code": "OLS 45400",
+          "title": "Gender And Diversity In Management",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 42100",
+          "title": "Technical Writing",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "TCM 42500",
+              "title": "Technical Writing For STEM Professionals",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "OLS 47700",
+          "title": "Conflict Management",
+          "credits": 3.0
+        },
+        {
+          "code": "OLS 48700",
+          "title": "Leadership Philosophy",
+          "credits": 3.0
+        },
+        {
+          "code": "OLS 58300",
+          "title": "Coaching And Mentoring In Organizations",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Specialization Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "OLS 48400",
+          "title": "Leadership Strategies For Quality And Productivity",
+          "credits": 3.0
+        },
+        {
+          "code": "OLS 45000",
+          "title": "Advanced Project Management",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 45800",
+          "title": "Leading Sustainable Organizations (OL Capstone)",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Advanced Management & Analytics Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "ACCT 21200",
+    "AGEC 21700",
+    "COM 11400",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "ENGL 42100",
+    "FIN 30400",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 15800",
+    "MIS 38200",
+    "MKTG 32300",
+    "OLS 34600",
+    "OLS 37500",
+    "OLS 37800",
+    "OLS 38600",
+    "OLS 38800",
+    "OLS 45000",
+    "OLS 45400",
+    "OLS 47700",
+    "OLS 48400",
+    "OLS 48700",
+    "OLS 58300",
+    "PSY 12000",
+    "PSY 27200",
+    "SCLA 10200",
+    "SCOM 36100",
+    "STAT 11300",
+    "STAT 30100",
+    "STRT 33200",
+    "STRT 45500",
+    "TCM 42500",
+    "TECH 12000",
+    "TECH 22000",
+    "TECH 33000",
+    "TECH 34000",
+    "TLI 10000",
+    "TLI 11200",
+    "TLI 15200",
+    "TLI 20000",
+    "TLI 21300",
+    "TLI 30000",
+    "TLI 31400",
+    "TLI 31500",
+    "TLI 45800"
+  ]
+}

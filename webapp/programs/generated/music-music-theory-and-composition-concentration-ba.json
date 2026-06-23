@@ -1,0 +1,605 @@
+{
+  "id": "music-music-theory-and-composition-concentration-ba",
+  "poid": "36013",
+  "name": "Music: Music Theory & Composition Concentration, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=36013",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.735830+00:00",
+  "course_credits": {
+    "MUS 13200": 3.0,
+    "MUS 13300": 3.0,
+    "MUS 16100": 3.0,
+    "MUS 16200": 3.0,
+    "MUS 27000": 3.0,
+    "MUS 10100": 0.0,
+    "MUS 38100": 3.0,
+    "MUS 38200": 3.0,
+    "MUS 35100": 2.0,
+    "MUS 35200": 2.0,
+    "MUS 35300": 2.0,
+    "MUS 35400": 2.0,
+    "BAND 11000": 2.0,
+    "BAND 12100": 2.0,
+    "BAND 11300": 2.0,
+    "BAND 11500": 2.0,
+    "BAND 11600": 2.0,
+    "BAND 11700": 2.0,
+    "BAND 11800": 2.0,
+    "BAND 11900": 2.0,
+    "BAND 33000": 2.0,
+    "BAND 33100": 2.0,
+    "BAND 34100": 2.0,
+    "BAND 35000": 2.0,
+    "BAND 36000": 2.0,
+    "MUS 23200": 3.0,
+    "MUS 23300": 3.0,
+    "MUS 34100": 3.0,
+    "MUS 32100": 3.0,
+    "MUS 32800": 3.0,
+    "MUS 34200": 3.0,
+    "MUS 29200": 3.0,
+    "MUS 37000": 3.0,
+    "MUS 37600": 3.0,
+    "MUS 37800": 3.0,
+    "MUS 38400": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        42.0,
+        46.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": [
+            24.0,
+            28.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Foundational Studies",
+              "credit_target": 15.0,
+              "kind": "all_of",
+              "courses": [
+                "MUS 13200",
+                "MUS 13300",
+                "MUS 16100",
+                "MUS 16200",
+                "MUS 27000"
+              ]
+            },
+            {
+              "name": "Discovery Forum",
+              "credit_target": 0.0,
+              "kind": "all_of",
+              "courses": [
+                "MUS 10100"
+              ]
+            },
+            {
+              "name": "Music History",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "MUS 38100",
+                "MUS 38200"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Music Making Studies",
+              "credit_target": [
+                6.0,
+                10.0
+              ],
+              "kind": "choose",
+              "options": [
+                "MUS 35100",
+                "MUS 35200",
+                "MUS 35300",
+                "MUS 35400",
+                "BAND 11000",
+                "BAND 12100",
+                "BAND 11300",
+                "BAND 11500",
+                "BAND 11600",
+                "BAND 11700",
+                "BAND 11800",
+                "BAND 11900",
+                "BAND 33000",
+                "BAND 33100",
+                "BAND 34100",
+                "BAND 35000",
+                "BAND 36000"
+              ],
+              "choose_credits": 6.0
+            }
+          ]
+        },
+        {
+          "name": "Music Theory and Composition Concentration",
+          "credit_target": 18.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Music Theory and Composition Required Courses",
+              "credit_target": 9.0,
+              "kind": "all_of",
+              "courses": [
+                "MUS 23200",
+                "MUS 23300",
+                "MUS 34100"
+              ]
+            },
+            {
+              "name": "Music Studies I",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "MUS 32100",
+                "MUS 32800",
+                "MUS 34200"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Music History and Literature",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "MUS 38100",
+                "MUS 38200"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Music Studies II",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "MUS 29200",
+                "MUS 32100",
+                "MUS 32800",
+                "MUS 37000",
+                "MUS 37600",
+                "MUS 37800",
+                "MUS 38400"
+              ],
+              "choose_credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Music Courses 30000+",
+      "kind": "all_of",
+      "courses": [
+        "BAND 35000",
+        "BAND 36000",
+        "MUS 34100",
+        "MUS 34200",
+        "MUS 35100",
+        "MUS 37600",
+        "MUS 37800",
+        "MUS 38100",
+        "MUS 38200"
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For BFA, Professional, & Education",
+      "credit_target": [
+        28.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "LA Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            20.0,
+            39.0
+          ],
+          "kind": "credits",
+          "credits": 20.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        19.0,
+        50.0
+      ],
+      "kind": "credits",
+      "credits": 19.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "MUS 10100",
+          "title": "Discovery Forum",
+          "credits": 0.0
+        },
+        {
+          "code": "MUS 13200",
+          "title": "Music Theory I (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "MUS 16100",
+          "title": "Class Piano And Musicianship I",
+          "credits": 3.0
+        },
+        {
+          "code": "MUS 23200",
+          "title": "Music Theory III",
+          "credits": 3.0
+        },
+        {
+          "label": "Ensemble (see University Bands and Orchestras, PMO)",
+          "credits": 0.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "MUS 10100",
+          "title": "Discovery Forum",
+          "credits": 0.0
+        },
+        {
+          "code": "MUS 13300",
+          "title": "Music Theory II",
+          "credits": 3.0
+        },
+        {
+          "code": "MUS 16200",
+          "title": "Class Piano And Musicianship II",
+          "credits": 3.0
+        },
+        {
+          "code": "MUS 23300",
+          "title": "Music Theory IV: Contemporary Music",
+          "credits": 3.0
+        },
+        {
+          "label": "Ensemble (see University Bands and Orchestras, PMO)",
+          "credits": 0.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-21 Credits",
+      "items": [
+        {
+          "code": "MUS 10100",
+          "title": "Discovery Forum",
+          "credits": 0.0
+        },
+        {
+          "code": "MUS 34100",
+          "title": "Music Composition I",
+          "credits": 3.0
+        },
+        {
+          "code": "MUS 35100",
+          "title": "Studio Piano",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "MUS 35200",
+              "title": "Studio Voice",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "code": "MUS 38100",
+          "title": "Music History I: Antiquity To Mozart",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MUS 38200",
+              "title": "Music History II: Beethoven To The Present",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "MUS 10100",
+          "title": "Discovery Forum",
+          "credits": 0.0
+        },
+        {
+          "code": "MUS 27000",
+          "title": "Computer Skills In Music",
+          "credits": 3.0
+        },
+        {
+          "code": "MUS 35100",
+          "title": "Studio Piano",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "MUS 35200",
+              "title": "Studio Voice",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level IV (CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "13-22 Credits",
+      "items": [
+        {
+          "code": "MUS 10100",
+          "title": "Discovery Forum",
+          "credits": 0.0
+        },
+        {
+          "code": "MUS 37800",
+          "title": "Jazz History UC-Humanities",
+          "credits": 3.0
+        },
+        {
+          "code": "MUS 35100",
+          "title": "Studio Piano",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "MUS 35200",
+              "title": "Studio Voice",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "MUS 10100",
+          "title": "Discovery Forum",
+          "credits": 0.0
+        },
+        {
+          "code": "MUS 37600",
+          "title": "World Music (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "MUS 38100",
+          "title": "Music History I: Antiquity To Mozart",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MUS 38200",
+              "title": "Music History II: Beethoven To The Present",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "MUS 29200",
+          "title": "Music, Media, And Technology",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "BAND 11000",
+    "BAND 11300",
+    "BAND 11500",
+    "BAND 11600",
+    "BAND 11700",
+    "BAND 11800",
+    "BAND 11900",
+    "BAND 12100",
+    "BAND 33000",
+    "BAND 33100",
+    "BAND 34100",
+    "BAND 35000",
+    "BAND 36000",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MUS 10100",
+    "MUS 13200",
+    "MUS 13300",
+    "MUS 16100",
+    "MUS 16200",
+    "MUS 23200",
+    "MUS 23300",
+    "MUS 27000",
+    "MUS 29200",
+    "MUS 32100",
+    "MUS 32800",
+    "MUS 34100",
+    "MUS 34200",
+    "MUS 35100",
+    "MUS 35200",
+    "MUS 35300",
+    "MUS 35400",
+    "MUS 37000",
+    "MUS 37600",
+    "MUS 37800",
+    "MUS 38100",
+    "MUS 38200",
+    "MUS 38400"
+  ]
+}

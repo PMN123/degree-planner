@@ -1,0 +1,81 @@
+{
+  "id": "korean-studies-minor",
+  "poid": "35921",
+  "name": "Korean Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35921",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.268589+00:00",
+  "course_credits": {
+    "KOR 30100": 3.0,
+    "KOR 30200": 3.0,
+    "KOR 24100": 3.0,
+    "KOR 28200": 3.0,
+    "KOR 33000": 3.0,
+    "KOR 38000": 3.0,
+    "KOR 38100": 3.0,
+    "KOR 40100": 3.0,
+    "KOR 48000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Korean Language Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "KOR 30100",
+        "KOR 30200"
+      ]
+    },
+    {
+      "name": "B. Literature and Culture",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "KOR 24100 / KOR 28200",
+          "courses": [
+            "KOR 24100",
+            "KOR 28200"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C. Selectives",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "KOR 24100",
+        "KOR 28200",
+        "KOR 33000",
+        "KOR 38000",
+        "KOR 38100",
+        "KOR 40100",
+        "KOR 48000"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "KOR 24100",
+    "KOR 28200",
+    "KOR 30100",
+    "KOR 30200",
+    "KOR 33000",
+    "KOR 38000",
+    "KOR 38100",
+    "KOR 40100",
+    "KOR 48000"
+  ]
+}

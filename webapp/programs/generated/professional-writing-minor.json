@@ -1,0 +1,113 @@
+{
+  "id": "professional-writing-minor",
+  "poid": "35243",
+  "name": "Professional Writing Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35243",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.434495+00:00",
+  "course_credits": {
+    "ENGL 20300": 3.0,
+    "ENGL 28000": 3.0,
+    "ENGL 30600": 3.0,
+    "ENGL 30900": 3.0,
+    "ENGL 41900": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ENGL 42201": 3.0,
+    "ENGL 42400": 3.0,
+    "ENGL 33000": 3.0,
+    "ENGL 33200": 3.0,
+    "ENGL 40600": 3.0,
+    "ENGL 43201": 3.0,
+    "ENGL 43300": 3.0,
+    "ENGL 43400": 3.0,
+    "ENGL 47000": 3.0,
+    "ENGL 48800": 3.0,
+    "ENGL 49000": 1.0,
+    "ENGL 51500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Research, Introduction, Digital Publishing",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "ENGL 20300",
+        "ENGL 28000",
+        "ENGL 30600",
+        "ENGL 30900"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "B. General Education Professional Writing",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "ENGL 41900",
+        "ENGL 42000",
+        "ENGL 42100",
+        "ENGL 42201",
+        "ENGL 42400"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "C. Advanced Professional Writing Classes",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "ENGL 33000",
+        "ENGL 33200",
+        "ENGL 40600",
+        "ENGL 43201",
+        "ENGL 43300",
+        "ENGL 43400",
+        "ENGL 47000",
+        "ENGL 48800",
+        "ENGL 49000",
+        "ENGL 51500"
+      ],
+      "choose_credits": 6.0
+    },
+    {
+      "name": "D. Additional Professional Writing Course",
+      "credit_target": 3.0,
+      "kind": "credits",
+      "credits": 3.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ENGL 20300",
+    "ENGL 28000",
+    "ENGL 30600",
+    "ENGL 30900",
+    "ENGL 33000",
+    "ENGL 33200",
+    "ENGL 40600",
+    "ENGL 41900",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGL 42201",
+    "ENGL 42400",
+    "ENGL 43201",
+    "ENGL 43300",
+    "ENGL 43400",
+    "ENGL 47000",
+    "ENGL 48800",
+    "ENGL 49000",
+    "ENGL 51500",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

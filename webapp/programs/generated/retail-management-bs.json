@@ -1,0 +1,463 @@
+{
+  "id": "retail-management-bs",
+  "poid": "34772",
+  "name": "Retail Management, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34772",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.780199+00:00",
+  "course_credits": {
+    "CSR 10000": 1.0,
+    "CSR 10300": 3.0,
+    "CSR 34200": 3.0,
+    "CSR 20000": 1.0,
+    "ENTR 46000": 1.0,
+    "HTM 20000": 1.0,
+    "DSB 29500": 1.0,
+    "CSR 20100": 3.0,
+    "AGEC 33100": 3.0,
+    "CSR 20900": 3.0,
+    "CSR 28200": 3.0,
+    "CSR 30900": 3.0,
+    "CSR 31000": 3.0,
+    "CSR 32300": 3.0,
+    "CSR 33100": 3.0,
+    "CSR 34100": 3.0,
+    "CSR 34400": 3.0,
+    "CSR 36300": 3.0,
+    "CSR 40400": 3.0,
+    "CSR 40600": 3.0,
+    "CSR 41600": 3.0,
+    "CSR 30000": 1.0,
+    "CNIT 13600": 3.0,
+    "COM 25600": 3.0,
+    "HTM 25501": 3.0,
+    "PSY 12000": 3.0,
+    "STRT 45500": 3.0,
+    "STRT 25400": 3.0,
+    "ANTH 10000": 3.0,
+    "SOC 10000": 3.0,
+    "ACCT 20100": 3.0,
+    "HTM 24100": 3.0,
+    "HTM 23100": 3.0,
+    "MKTG 32300": 3.0,
+    "MKTG 32400": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "ACCT 21200": 3.0,
+    "ACCT 20000": 3.0,
+    "HTM 14100": 3.0,
+    "STAT 22500": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 30301": 3.0,
+    "MA 15300": 3.0,
+    "MA 15555": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "CSR 10000",
+          "title": "Introduction To CSR",
+          "credits": 1.0
+        },
+        {
+          "code": "CSR 20900",
+          "title": "Introduction To Retail Management",
+          "credits": 3.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "CNIT 13600",
+          "title": "Personal Computing Technology And Applications",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 28200",
+          "title": "Customer Relations Management",
+          "credits": 3.0
+        },
+        {
+          "code": "ANTH 10000",
+          "title": "Being Human: Introduction To Anthropology (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SOC 10000",
+              "title": "Introductory Sociology (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "CSR 20000",
+          "title": "Career Exploration And Development Seminar",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "DSB 29500",
+              "title": "Business Professional Development & Career Strategies",
+              "credits": 1.0
+            },
+            {
+              "code": "ENTR 46000",
+              "title": "Internship And Career Preparation Seminar",
+              "credits": 1.0
+            },
+            {
+              "code": "HTM 20000",
+              "title": "Career Exploration And Development Seminar",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "CSR 33100",
+          "title": "Consumer Behavior",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 10300",
+          "title": "Introduction To Personal Finance",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CSR 34200",
+              "title": "Personal Finance",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "HTM 25501",
+          "title": "Fundamentals Of Excel And Data Analytics In Service Industries",
+          "credits": 3.0
+        },
+        {
+          "label": "Science Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Accounting Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "18-19 Credits",
+      "items": [
+        {
+          "code": "COM 25600",
+          "title": "Introduction To Advertising",
+          "credits": 3.0
+        },
+        {
+          "code": "ACCT 20100",
+          "title": "Management Accounting I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HTM 24100",
+              "title": "Managerial Accounting In Service Industries",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "International Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Economic Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Statistic Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Marketing Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "CSR 20100",
+          "title": "Introduction To Professional Sales",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 33100",
+              "title": "Principles Of Industrial Selling",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CSR 31000",
+          "title": "Buying Of Merchandise",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 32300",
+          "title": "Visual Merchandising",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 34100",
+          "title": "Luxury Brand Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "12-15 Credits",
+      "items": [
+        {
+          "code": "CSR 30900",
+          "title": "Leadership Strategies",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 34400",
+          "title": "Fundamentals Of Negotiations",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 36300",
+          "title": "Retail Technology: Category Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Summer 3rd Year",
+      "credit_hint": "1 Credits",
+      "items": [
+        {
+          "code": "CSR 30000",
+          "title": "Field Experience In Retail Management",
+          "credits": 1.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13-16 Credits",
+      "items": [
+        {
+          "code": "CSR 40600",
+          "title": "E-Retailing",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 45500",
+          "title": "Legal Background For Business I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STRT 25400",
+              "title": "Legal Foundations Of Business I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "ENGL/COM Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12-15 Credits",
+      "items": [
+        {
+          "code": "CSR 40400",
+          "title": "Strategic Management For Service Industries",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 41600",
+          "title": "Retail Supply Chain Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Science, Technology, & Society",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "ACCT 21200",
+    "AGEC 21700",
+    "AGEC 33100",
+    "ANTH 10000",
+    "CNIT 13600",
+    "COM 25600",
+    "CSR 10000",
+    "CSR 10300",
+    "CSR 20000",
+    "CSR 20100",
+    "CSR 20900",
+    "CSR 28200",
+    "CSR 30000",
+    "CSR 30900",
+    "CSR 31000",
+    "CSR 32300",
+    "CSR 33100",
+    "CSR 34100",
+    "CSR 34200",
+    "CSR 34400",
+    "CSR 36300",
+    "CSR 40400",
+    "CSR 40600",
+    "CSR 41600",
+    "DSB 29500",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "ENTR 46000",
+    "HEA 01348",
+    "HELP 02026",
+    "HTM 14100",
+    "HTM 20000",
+    "HTM 23100",
+    "HTM 24100",
+    "HTM 25501",
+    "IN 47907",
+    "MA 15300",
+    "MA 15555",
+    "MA 15800",
+    "MA 16010",
+    "MA 16100",
+    "MA 16500",
+    "MKTG 32300",
+    "MKTG 32400",
+    "PSY 12000",
+    "SOC 10000",
+    "STAT 22500",
+    "STAT 30100",
+    "STAT 30301",
+    "STRT 25400",
+    "STRT 45500"
+  ]
+}

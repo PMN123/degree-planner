@@ -1,0 +1,586 @@
+{
+  "id": "biochemistry-bs",
+  "poid": "34728",
+  "name": "Biochemistry, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34728",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.717198+00:00",
+  "course_credits": {
+    "BCHM 10000": 2.0,
+    "BCHM 22100": 3.0,
+    "BCHM 29000": 2.0,
+    "BCHM 32200": 2.0,
+    "BCHM 36100": 3.0,
+    "BCHM 39000": 1.0,
+    "BCHM 46200": 3.0,
+    "BCHM 46500": 2.0,
+    "BCHM 49000": 1.0,
+    "BCHM 49800": 1.0,
+    "ABE 30100": 3.0,
+    "BCHM 42100": 3.0,
+    "BCHM 61200": 3.0,
+    "BIOL 47800": 3.0,
+    "BIOL 56310": 3.0,
+    "CHM 57900": 3.0,
+    "CS 47800": 3.0,
+    "HORT 53000": 3.0,
+    "HORT 53100": 2.0,
+    "BCHM 42200": 3.0,
+    "BCHM 43400": 3.0,
+    "BCHM 49500": 1.0,
+    "BCHM 53600": 3.0,
+    "BCHM 61000": 3.0,
+    "BCHM 62000": 2.0,
+    "BIOL 42000": 3.0,
+    "BIOL 51600": 3.0,
+    "CHM 34800": 3.0,
+    "CHM 37200": 4.0,
+    "CHM 43800": 3.0,
+    "MCMP 54400": 3.0,
+    "PHSC 42200": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "AGR 10100": 0.5,
+    "AGR 11500": 0.5,
+    "AGRY 32000": 3.0,
+    "BIOL 24100": 3.0,
+    "AGRY 32100": 1.0,
+    "BIOL 24200": 2.0,
+    "BIOL 11000": 4.0,
+    "BIOL 12100": 2.0,
+    "BIOL 11100": 4.0,
+    "BIOL 13100": 3.0,
+    "BIOL 23100": 3.0,
+    "BIOL 23200": 2.0,
+    "CHM 12901": 5.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 25500": 3.0,
+    "CHM 25501": 1.0,
+    "CHM 25600": 3.0,
+    "CHM 25601": 1.0,
+    "MA 16010": 3.0,
+    "MA 16020": 3.0,
+    "PHYS 22000": 4.0,
+    "PHYS 22100": 4.0,
+    "STAT 30100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        50.0,
+        54.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": [
+            26.0,
+            29.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "BCHM 10000",
+            "BCHM 22100",
+            "BCHM 29000",
+            "BCHM 32200",
+            "BCHM 36100",
+            "BCHM 39000",
+            "BCHM 46200",
+            "BCHM 46500",
+            "BCHM 49000",
+            "BCHM 49800",
+            "ABE 30100",
+            "BCHM 42100",
+            "BCHM 61200",
+            "BIOL 47800",
+            "BIOL 56310",
+            "CHM 57900",
+            "CS 47800",
+            "HORT 53000",
+            "HORT 53100",
+            "BCHM 42200",
+            "BCHM 43400",
+            "BCHM 49500",
+            "BCHM 53600",
+            "BCHM 61000",
+            "BCHM 62000",
+            "BIOL 42000",
+            "BIOL 51600",
+            "CHM 34800",
+            "CHM 37200",
+            "CHM 43800",
+            "MCMP 54400",
+            "PHSC 42200"
+          ]
+        },
+        {
+          "name": "Biochemistry Selective Courses",
+          "credit_target": [
+            44.0,
+            50.0
+          ],
+          "kind": "choose",
+          "options": [
+            "AGEC 20300",
+            "AGEC 20400",
+            "AGEC 21700",
+            "ECON 21000",
+            "ECON 25100",
+            "ECON 25200"
+          ],
+          "choose_credits": 44.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11500",
+          "title": "Introduction To Biochemistry Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "BCHM 10000",
+          "title": "Introduction To Biochemistry (UCC: STS)",
+          "credits": 2.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 12901",
+          "title": "General Chemistry With A Biological Focus (UCC: SCI)",
+          "credits": 5.0
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "CHM 11510",
+              "title": "General Chemistry I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BIOL 12100",
+              "title": "Biology I: Diversity, Ecology, And Behavior (UCC: SCI/STS)",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BIOL 13100",
+              "title": "Biology II: Development, Structure, And Function Of Organisms (UCC: SCI)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "label": "Elective",
+              "credits": 4.0,
+              "slot": true
+            }
+          ]
+        },
+        {
+          "code": "MA 16020",
+          "title": "Applied Calculus II (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Humanities or Social Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "BCHM 22100",
+          "title": "Analytical Biochemistry",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 23100",
+          "title": "Biology III: Cell Structure And Function",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 23200",
+          "title": "Laboratory In Biology III: Cell Structure And Function",
+          "credits": 2.0
+        },
+        {
+          "code": "CHM 25500",
+          "title": "Organic Chemistry For The Life Sciences I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25501",
+          "title": "Organic Chemistry For The Life Sciences Laboratory I",
+          "credits": 1.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Humanities or Social Science Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "AGRY 32000",
+          "title": "Genetics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "BIOL 24100",
+              "title": "Biology IV: Genetics And Molecular Biology",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "AGRY 32100",
+          "title": "Genetics Laboratory",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "BIOL 24200",
+              "title": "Laboratory In Biology IV: Genetics And Molecular Biology",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "code": "BCHM 29000",
+          "title": "Experimental Design Seminar",
+          "credits": 2.0
+        },
+        {
+          "code": "BCHM 36100",
+          "title": "Molecules",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25600",
+          "title": "Organic Chemistry For The Life Sciences II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25601",
+          "title": "Organic Chemistry For The Life Sciences Laboratory II",
+          "credits": 1.0
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "BCHM 32200",
+          "title": "Analytical Biochemistry II",
+          "credits": 2.0
+        },
+        {
+          "code": "BCHM 39000",
+          "title": "Professional Development Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "BCHM 46200",
+          "title": "Metabolism",
+          "credits": 3.0
+        },
+        {
+          "code": "BCHM 49800",
+          "title": "Research In Biochemistry",
+          "credits": 1.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "BCHM 49800",
+          "title": "Research In Biochemistry",
+          "credits": 1.0
+        },
+        {
+          "code": "PHYS 22100",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities or Social Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "BCHM 49800",
+          "title": "Research In Biochemistry",
+          "credits": 1.0
+        },
+        {
+          "label": "Bioinformatics Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12-18 Credits",
+      "items": [
+        {
+          "code": "BCHM 46500",
+          "title": "Biochemistry Of Life Processes",
+          "credits": 2.0
+        },
+        {
+          "code": "BCHM 49000",
+          "title": "Undergraduate Seminar",
+          "credits": 1.0
+        },
+        {
+          "label": "Advanced Biochemistry Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities or Social Science Selective (30000+ level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ABE 30100",
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 21700",
+    "AGR 10100",
+    "AGR 11500",
+    "AGRY 32000",
+    "AGRY 32100",
+    "BCHM 00100",
+    "BCHM 10000",
+    "BCHM 22100",
+    "BCHM 29000",
+    "BCHM 32200",
+    "BCHM 36100",
+    "BCHM 39000",
+    "BCHM 42100",
+    "BCHM 42200",
+    "BCHM 43400",
+    "BCHM 46200",
+    "BCHM 46500",
+    "BCHM 49000",
+    "BCHM 49500",
+    "BCHM 49800",
+    "BCHM 53600",
+    "BCHM 61000",
+    "BCHM 61200",
+    "BCHM 62000",
+    "BIOL 00231",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BIOL 12100",
+    "BIOL 13100",
+    "BIOL 23100",
+    "BIOL 23200",
+    "BIOL 24100",
+    "BIOL 24200",
+    "BIOL 42000",
+    "BIOL 47800",
+    "BIOL 51600",
+    "BIOL 56310",
+    "CHM 00115",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 12901",
+    "CHM 25500",
+    "CHM 25501",
+    "CHM 25600",
+    "CHM 25601",
+    "CHM 34800",
+    "CHM 37200",
+    "CHM 43800",
+    "CHM 57900",
+    "CS 47800",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "HEA 01348",
+    "HELP 02026",
+    "HORT 53000",
+    "HORT 53100",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MCMP 54400",
+    "PHSC 42200",
+    "PHYS 22000",
+    "PHYS 22100",
+    "STAT 30100"
+  ]
+}

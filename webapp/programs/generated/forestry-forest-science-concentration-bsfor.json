@@ -1,0 +1,623 @@
+{
+  "id": "forestry-forest-science-concentration-bsfor",
+  "poid": "35367",
+  "name": "Forestry: Forest Science Concentration, BSFOR",
+  "degree": "BSFOR",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 124,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35367",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.038272+00:00",
+  "course_credits": {
+    "FNR 12500": 3.0,
+    "FNR 21000": 3.0,
+    "FNR 22500": 3.0,
+    "FNR 33100": 3.0,
+    "FNR 35300": 3.0,
+    "FNR 35700": 3.0,
+    "FNR 37010": 1.0,
+    "FNR 37050": 1.0,
+    "FNR 37200": 4.0,
+    "FNR 37500": 3.0,
+    "FNR 40700": 3.0,
+    "FNR 43400": 3.0,
+    "FNR 43900": 3.0,
+    "POL 22300": 3.0,
+    "FNR 24150": 3.0,
+    "FNR 25150": 3.0,
+    "FNR 30110": 3.0,
+    "FNR 35500": 3.0,
+    "FNR 38400": 3.0,
+    "ENTM 30100": 3.0,
+    "FNR 40910": 3.0,
+    "FNR 49900": 1.0,
+    "BTNY 30100": 3.0,
+    "BTNY 52500": 3.0,
+    "BTNY 53500": 3.0,
+    "BTNY 55800": 3.0,
+    "ENTM 20600": 2.0,
+    "ENTM 20700": 1.0,
+    "ENTM 41000": 2.0,
+    "BIOL 58210": 3.0,
+    "STAT 50300": 3.0,
+    "STAT 51200": 3.0,
+    "STAT 51400": 3.0,
+    "AGRY 34900": 3.0,
+    "BIOL 48300": 3.0,
+    "BIOL 59100": 0.0,
+    "FNR 53500": 3.0,
+    "FNR 53600": 2.0,
+    "FNR 53601": 1.0,
+    "FNR 54300": 3.0,
+    "ASM 21600": 1.0,
+    "AT 20900": 3.0,
+    "AGRY 32000": 3.0,
+    "AGRY 32100": 1.0,
+    "AGRY 48000": 3.0,
+    "AGRY 52000": 3.0,
+    "AGRY 52500": 3.0,
+    "BIOL 24100": 3.0,
+    "BIOL 39500": 0.0,
+    "BIOL 41500": 3.0,
+    "BIOL 47800": 3.0,
+    "BTNY 30200": 3.0,
+    "BTNY 30500": 3.0,
+    "BTNY 35000": 3.0,
+    "BTNY 42000": 3.0,
+    "BTNY 55200": 3.0,
+    "CHM 25500": 3.0,
+    "CHM 53300": 3.0,
+    "FNR 30500": 3.0,
+    "AGR 10100": 0.5,
+    "AGR 11900": 0.5,
+    "AGRY 27000": 3.0,
+    "BTNY 12000": 4.0,
+    "BTNY 12100": 4.0,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0,
+    "MA 16010": 3.0,
+    "MA 16500": 4.0,
+    "STAT 30100": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "ECON 25100": 3.0,
+    "PHIL 11100": 3.0,
+    "PHIL 28000": 3.0,
+    "PHIL 29000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 70.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 36.0,
+          "kind": "all_of",
+          "courses": [
+            "FNR 12500",
+            "FNR 21000",
+            "FNR 22500",
+            "FNR 33100",
+            "FNR 35300",
+            "FNR 35700",
+            "FNR 37010",
+            "FNR 37050",
+            "FNR 37200",
+            "FNR 37500",
+            "FNR 40700",
+            "FNR 43400",
+            "FNR 43900"
+          ]
+        },
+        {
+          "name": "Forest Science Concentration Courses",
+          "credit_target": 34.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Forest Science Concentration Required Courses",
+              "credit_target": 22.0,
+              "kind": "all_of",
+              "courses": [
+                "POL 22300",
+                "FNR 30110",
+                "FNR 35500",
+                "FNR 40910",
+                "FNR 49900"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "FNR 24150 / FNR 25150",
+                  "courses": [
+                    "FNR 24150",
+                    "FNR 25150"
+                  ]
+                },
+                {
+                  "kind": "one_of",
+                  "name": "FNR 38400 / ENTM 30100",
+                  "courses": [
+                    "FNR 38400",
+                    "ENTM 30100"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Forest Health Selectives",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "BTNY 30100",
+                "BTNY 52500",
+                "BTNY 53500",
+                "BTNY 55800",
+                "ENTM 20600",
+                "ENTM 20700",
+                "ENTM 41000"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Forest Science Selectives",
+              "credit_target": 9.0,
+              "kind": "choose",
+              "options": [
+                "BIOL 58210",
+                "STAT 50300",
+                "STAT 51200",
+                "STAT 51400",
+                "AGRY 34900",
+                "BIOL 48300",
+                "BIOL 59100",
+                "FNR 53500",
+                "FNR 53600",
+                "FNR 53601",
+                "FNR 54300",
+                "ASM 21600",
+                "AT 20900",
+                "AGRY 32000",
+                "AGRY 32100",
+                "AGRY 48000",
+                "AGRY 52000",
+                "AGRY 52500",
+                "BIOL 24100",
+                "BIOL 39500",
+                "BIOL 41500",
+                "BIOL 47800",
+                "BTNY 30200",
+                "BTNY 30500",
+                "BTNY 35000",
+                "BTNY 42000",
+                "BTNY 55200",
+                "CHM 25500",
+                "CHM 53300",
+                "FNR 30500"
+              ],
+              "choose_credits": 9.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        1.0,
+        5.0
+      ],
+      "kind": "credits",
+      "credits": 1.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11900",
+          "title": "Introduction To Forestry And Natural Resources Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "BTNY 12000",
+          "title": "Principles Of Plant Biology I",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "BTNY 12100",
+          "title": "Principles Of Plant Biology II",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 12500",
+          "title": "Environmental Science And Conservation (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGEC 20300",
+          "title": "Introductory Microeconomics For Food And Agribusiness (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 20400",
+              "title": "Introduction To Resource Economics And Environmental Policy (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "ECON 25100",
+              "title": "Microeconomics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "POL 22300",
+          "title": "Introduction To Environmental Policy (UCC: BSS/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 22500",
+          "title": "Dendrology",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGRY 27000",
+          "title": "Forest Soils",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 21000",
+          "title": "Natural Resource Information Management",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 35300",
+          "title": "Natural Resources Measurement",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 24150",
+          "title": "Ecology And Systematics Of Fishes, Amphibians And Reptiles",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "FNR 25150",
+              "title": "Ecology And Systematics Of Mammals And Birds",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "FNR 30110",
+          "title": "Sustainable Wood Products Manufacturing",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 33100",
+          "title": "Forest Ecosystems",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 35700",
+          "title": "Fundamental Remote Sensing",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 43400",
+          "title": "Tree Physiology",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL 11100",
+          "title": "Introduction To Ethics (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHIL 28000",
+              "title": "Ethics And Animals (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "PHIL 29000",
+              "title": "Environmental Ethics (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "FNR 35500",
+          "title": "Quantitative Methods For Resource Management",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 37500",
+          "title": "Human Dimensions Of Natural Resource Management",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 40700",
+          "title": "Forest Economics",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 49900",
+          "title": "Thesis",
+          "credits": 1.0
+        },
+        {
+          "code": "FNR 38400",
+          "title": "Statistics For Natural Resources",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENTM 30100",
+              "title": "Experimentation And Analysis",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Forest Science Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "ENGL 42000",
+          "title": "Business Writing",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 42100",
+              "title": "Technical Writing",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "FNR 43900",
+          "title": "Silviculture",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 49900",
+          "title": "Thesis",
+          "credits": 1.0
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Forest Science Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "FNR 40910",
+          "title": "Forest Resources Management",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 49900",
+          "title": "Thesis",
+          "credits": 1.0
+        },
+        {
+          "label": "Forest Health Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Forest Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGR 10100",
+    "AGR 11900",
+    "AGRY 27000",
+    "AGRY 32000",
+    "AGRY 32100",
+    "AGRY 34900",
+    "AGRY 48000",
+    "AGRY 52000",
+    "AGRY 52500",
+    "ASM 21600",
+    "AT 20900",
+    "BIOL 24100",
+    "BIOL 39500",
+    "BIOL 41500",
+    "BIOL 47800",
+    "BIOL 48300",
+    "BIOL 58210",
+    "BIOL 59100",
+    "BTNY 12000",
+    "BTNY 12100",
+    "BTNY 30100",
+    "BTNY 30200",
+    "BTNY 30500",
+    "BTNY 35000",
+    "BTNY 42000",
+    "BTNY 52500",
+    "BTNY 53500",
+    "BTNY 55200",
+    "BTNY 55800",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 25500",
+    "CHM 53300",
+    "ECON 25100",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENTM 20600",
+    "ENTM 20700",
+    "ENTM 30100",
+    "ENTM 41000",
+    "FNR 12500",
+    "FNR 21000",
+    "FNR 22500",
+    "FNR 24150",
+    "FNR 25150",
+    "FNR 30110",
+    "FNR 30500",
+    "FNR 33100",
+    "FNR 35300",
+    "FNR 35500",
+    "FNR 35700",
+    "FNR 37010",
+    "FNR 37050",
+    "FNR 37200",
+    "FNR 37500",
+    "FNR 38400",
+    "FNR 40700",
+    "FNR 40910",
+    "FNR 43400",
+    "FNR 43900",
+    "FNR 49900",
+    "FNR 53500",
+    "FNR 53600",
+    "FNR 53601",
+    "FNR 54300",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "MA 16500",
+    "PHIL 11100",
+    "PHIL 28000",
+    "PHIL 29000",
+    "POL 22300",
+    "STAT 30100",
+    "STAT 50300",
+    "STAT 51200",
+    "STAT 51400"
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "id": "interdisciplinary-science-bs-physics",
+  "poid": "35102",
+  "name": "Interdisciplinary Science, BS (Physics)",
+  "degree": "BS (Physics)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35102",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.003962+00:00",
+  "course_credits": {
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "BIOL 12100": 2.0,
+    "BIOL 13100": 3.0,
+    "BIOL 13500": 2.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 11630": 1.0,
+    "CHM 12500": 5.0,
+    "CHM 12600": 5.0,
+    "CHM 12901": 5.0,
+    "CHM 13600": 4.0,
+    "CS 15900": 3.0,
+    "CS 17600": 3.0,
+    "CS 17700": 4.0,
+    "CS 18000": 4.0,
+    "EAPS 10000": 3.0,
+    "EAPS 10900": 3.0,
+    "EAPS 11100": 3.0,
+    "EAPS 22100": 3.0,
+    "EAPS 23000": 2.0,
+    "EAPS 22500": 3.0,
+    "MA 16010": 3.0,
+    "MA 16020": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "PHYS 23300": 4.0,
+    "PHYS 23400": 4.0,
+    "PHYS 22000": 4.0,
+    "PHYS 22100": 4.0,
+    "PHYS 17200": 4.0,
+    "PHYS 27200": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 25200": 1.0,
+    "STAT 30100": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 35500": 3.0,
+    "STAT 50300": 3.0,
+    "STAT 51100": 3.0,
+    "MA 26100": 4.0,
+    "PHYS 34400": 4.0,
+    "COM 21700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses: Interdisciplinary Science",
+      "credit_target": [
+        34.0,
+        47.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Biology Courses",
+          "credit_target": [
+            7.0,
+            8.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "BIOL 11000",
+            "BIOL 11100",
+            "BIOL 12100",
+            "BIOL 13100",
+            "BIOL 13500"
+          ]
+        },
+        {
+          "name": "Required Chemistry Courses",
+          "credit_target": [
+            4.0,
+            10.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "CHM 11510",
+            "CHM 11610",
+            "CHM 12500",
+            "CHM 12600",
+            "CHM 12901",
+            "CHM 13600"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CHM 11620 / CHM 11630",
+              "courses": [
+                "CHM 11620",
+                "CHM 11630"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Required Computing Option",
+          "credit_target": [
+            3.0,
+            4.0
+          ],
+          "kind": "choose",
+          "options": [
+            "CS 15900",
+            "CS 17600",
+            "CS 17700",
+            "CS 18000"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Required Earth, Atmospheric, and Planetary Science Option",
+          "credit_target": [
+            3.0,
+            4.0
+          ],
+          "kind": "choose",
+          "options": [
+            "EAPS 10000",
+            "EAPS 10900",
+            "EAPS 11100",
+            "EAPS 22100",
+            "EAPS 23000",
+            "EAPS 22500"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Required Mathematics Courses",
+          "credit_target": [
+            6.0,
+            10.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "MA 16010",
+            "MA 16020"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Required Physics Courses",
+          "credit_target": 8.0,
+          "kind": "all_of",
+          "courses": [
+            "PHYS 23300",
+            "PHYS 23400",
+            "PHYS 22000",
+            "PHYS 22100",
+            "PHYS 17200",
+            "PHYS 27200",
+            "PHYS 24100",
+            "PHYS 25200"
+          ]
+        },
+        {
+          "name": "Required Statistics Course",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "STAT 30100",
+            "STAT 35000",
+            "STAT 35500",
+            "STAT 50300",
+            "STAT 51100"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Departmental/Program Major Courses: Areas",
+      "credit_target": [
+        31.0,
+        32.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Physics Primary Area Courses",
+          "credit_target": [
+            13.0,
+            14.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "MA 26100",
+            "PHYS 34400"
+          ]
+        },
+        {
+          "name": "Required Supporting Area Courses",
+          "credit_target": 18.0,
+          "kind": "credits",
+          "credits": 18.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "College of Science Additional Requirements",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Computing",
+          "credit_target": [
+            3.0,
+            4.0
+          ],
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Laboratory Science",
+          "credit_target": [
+            6.0,
+            8.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Mathematics",
+          "credit_target": [
+            8.0,
+            10.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Statistics",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        1.0,
+        37.0
+      ],
+      "kind": "credits",
+      "credits": 1.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 17200",
+          "title": "Modern Mechanics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 27200",
+          "title": "Electric And Magnetic Interactions (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 24100",
+              "title": "Electricity And Optics (UCC: SCI)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "PHYS 34400",
+          "title": "Introduction To Quantum Science",
+          "credits": 4.0
+        },
+        {
+          "label": "Supporting Area Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "CS 15900",
+          "title": "C Programming",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CS 17600",
+              "title": "Data Engineering In Python",
+              "credits": 3.0
+            },
+            {
+              "code": "CS 17700",
+              "title": "Programming With Multimedia Objects",
+              "credits": 4.0
+            },
+            {
+              "code": "CS 18000",
+              "title": "Problem Solving And Object-Oriented Programming",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "PHYS 30000+ Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Supporting Area Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "COM 21700",
+          "title": "Science Writing And Presentation (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "label": "PHYS 30000+",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Supporting Area Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Chemistry Selective I",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "label": "EAPS Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Supporting Area Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Chemistry Selective II or Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 35000",
+              "title": "Introduction To Statistics",
+              "credits": 3.0
+            },
+            {
+              "code": "STAT 35500",
+              "title": "Statistics For Data Science",
+              "credits": 3.0
+            },
+            {
+              "code": "STAT 50300",
+              "title": "Statistical Methods For Biology",
+              "credits": 3.0
+            },
+            {
+              "code": "STAT 51100",
+              "title": "Statistical Methods",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Biology Selective I",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Supporting Area Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Great Issues Option",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "label": "Supporting Area Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Biology Selective II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Biology Selective II or Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "BIOL 11000",
+    "BIOL 11100",
+    "BIOL 12100",
+    "BIOL 13100",
+    "BIOL 13500",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 11630",
+    "CHM 12500",
+    "CHM 12600",
+    "CHM 12901",
+    "CHM 13600",
+    "COM 21700",
+    "CS 15900",
+    "CS 17600",
+    "CS 17700",
+    "CS 18000",
+    "EAPS 10000",
+    "EAPS 10900",
+    "EAPS 11100",
+    "EAPS 22100",
+    "EAPS 22500",
+    "EAPS 23000",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "PHYS 17200",
+    "PHYS 22000",
+    "PHYS 22100",
+    "PHYS 23300",
+    "PHYS 23400",
+    "PHYS 24100",
+    "PHYS 25200",
+    "PHYS 27200",
+    "PHYS 30000",
+    "PHYS 34400",
+    "STAT 30100",
+    "STAT 35000",
+    "STAT 35500",
+    "STAT 50300",
+    "STAT 51100"
+  ]
+}

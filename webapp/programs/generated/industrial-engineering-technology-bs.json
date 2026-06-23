@@ -1,0 +1,398 @@
+{
+  "id": "industrial-engineering-technology-bs",
+  "poid": "35384",
+  "name": "Industrial Engineering Technology, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35384",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.610164+00:00",
+  "course_credits": {
+    "ENGT 18200": 4.0,
+    "IET 21400": 3.0,
+    "IET 23500": 3.0,
+    "IET 31600": 3.0,
+    "IET 33400": 3.0,
+    "IET 33520": 3.0,
+    "IET 33620": 3.0,
+    "IET 43530": 3.0,
+    "IET 43540": 3.0,
+    "IET 43630": 3.0,
+    "IET 43640": 3.0,
+    "IET 48001": 3.0,
+    "ENGT 48100": 3.0,
+    "ECET 22400": 3.0,
+    "MET 24500": 3.0,
+    "STAT 30100": 3.0,
+    "TECH 12000": 3.0,
+    "TLI 11200": 3.0,
+    "TLI 21300": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "MET 28400": 3.0,
+    "MFET 34400": 3.0,
+    "MET 14300": 3.0,
+    "MET 14400": 3.0,
+    "MFET 10301": 3.0,
+    "CGT 11000": 3.0,
+    "MFET 16300": 2.0,
+    "ENGT 10500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Department/Program Major Courses",
+      "credit_target": 40.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Department Courses",
+          "credit_target": 40.0,
+          "kind": "all_of",
+          "courses": [
+            "ENGT 18200",
+            "IET 21400",
+            "IET 23500",
+            "IET 31600",
+            "IET 33400",
+            "IET 33520",
+            "IET 33620",
+            "IET 43530",
+            "IET 43540",
+            "IET 43630",
+            "IET 43640",
+            "IET 48001",
+            "ENGT 48100"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental Courses",
+      "credit_target": [
+        65.0,
+        80.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "ECET 22400",
+        "MET 24500",
+        "STAT 30100",
+        "TECH 12000",
+        "TLI 11200",
+        "TLI 21300",
+        "ECON 21000",
+        "ECON 25100",
+        "ECON 25200",
+        "MET 28400",
+        "MFET 34400",
+        "MET 14300",
+        "MET 14400",
+        "MFET 10301",
+        "CGT 11000",
+        "MFET 16300",
+        "ENGT 10500"
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "17-20 Credits",
+      "items": [
+        {
+          "code": "ENGT 18200",
+          "title": "Gateway To Engineering Technology",
+          "credits": 4.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Mathematics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Computer Programming Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "TLI 11200",
+          "title": "Foundations Of Organizational Leadership",
+          "credits": 3.0
+        },
+        {
+          "code": "IET 21400",
+          "title": "Introduction To Supply Chain Management Technology",
+          "credits": 3.0
+        },
+        {
+          "label": "Materials & Processes Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Graphics Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "code": "ECET 22400",
+          "title": "Electronic Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "IET 23500",
+          "title": "Introduction To Systems Thinking And Process Improvement",
+          "credits": 3.0
+        },
+        {
+          "code": "MET 24500",
+          "title": "Manufacturing Systems And Processes",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 21300",
+          "title": "Project Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "IET 31600",
+          "title": "Statistical Quality Control",
+          "credits": 3.0
+        },
+        {
+          "code": "IET 33400",
+          "title": "Economic Analysis For Technology Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "IET 33620",
+          "title": "Total Productive Maintenance",
+          "credits": 3.0
+        },
+        {
+          "label": "Advanced Written Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "IET 33520",
+          "title": "Human Factors For Technology Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "IET 43630",
+          "title": "Design Of Experiments",
+          "credits": 3.0
+        },
+        {
+          "code": "IET 43640",
+          "title": "Lean Six Sigma",
+          "credits": 3.0
+        },
+        {
+          "label": "Advanced Oral Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Industrial Automation & Robotics Systems Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "IET 43530",
+          "title": "Operations Planning And Management",
+          "credits": 3.0
+        },
+        {
+          "code": "IET 48001",
+          "title": "Engineering Technology Capstone I",
+          "credits": 3.0
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ENGT 48100",
+          "title": "Engineering Technology Capstone II",
+          "credits": 3.0
+        },
+        {
+          "code": "IET 43540",
+          "title": "Facilities Planning And Material Handling",
+          "credits": 3.0
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CGT 11000",
+    "ECET 22400",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "ENGT 10500",
+    "ENGT 18200",
+    "ENGT 48100",
+    "HEA 01348",
+    "HELP 02026",
+    "IET 21400",
+    "IET 23500",
+    "IET 31600",
+    "IET 33400",
+    "IET 33520",
+    "IET 33620",
+    "IET 43530",
+    "IET 43540",
+    "IET 43630",
+    "IET 43640",
+    "IET 48001",
+    "IN 47907",
+    "MET 14300",
+    "MET 14400",
+    "MET 24500",
+    "MET 28400",
+    "MFET 10301",
+    "MFET 16300",
+    "MFET 34400",
+    "STAT 30100",
+    "TECH 12000",
+    "TLI 11200",
+    "TLI 21300"
+  ]
+}

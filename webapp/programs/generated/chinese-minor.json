@@ -1,0 +1,83 @@
+{
+  "id": "chinese-minor",
+  "poid": "34923",
+  "name": "Chinese Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34923",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.184819+00:00",
+  "course_credits": {
+    "CHNS 30100": 3.0,
+    "CHNS 30200": 3.0,
+    "CHNS 24100": 3.0,
+    "CHNS 28000": 3.0,
+    "CHNS 28100": 3.0,
+    "CHNS 31300": 3.0,
+    "CHNS 34100": 3.0,
+    "CHNS 34200": 3.0,
+    "CHNS 40100": 3.0,
+    "CHNS 40200": 3.0,
+    "CHNS 59400": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Chinese Language",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "CHNS 30100",
+        "CHNS 30200"
+      ]
+    },
+    {
+      "name": "B. Chinese Literature",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "CHNS 24100",
+        "CHNS 28000"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "C. Chinese Electives",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "CHNS 24100",
+        "CHNS 28000",
+        "CHNS 28100",
+        "CHNS 31300",
+        "CHNS 34100",
+        "CHNS 34200",
+        "CHNS 40100",
+        "CHNS 40200",
+        "CHNS 59400"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CHNS 20200",
+    "CHNS 24100",
+    "CHNS 28000",
+    "CHNS 28100",
+    "CHNS 30100",
+    "CHNS 30200",
+    "CHNS 31300",
+    "CHNS 34100",
+    "CHNS 34200",
+    "CHNS 40100",
+    "CHNS 40200",
+    "CHNS 59400",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

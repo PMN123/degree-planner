@@ -1,0 +1,73 @@
+{
+  "id": "theatre-design-and-production-minor",
+  "poid": "34900",
+  "name": "Theatre Design and Production Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34900",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.999959+00:00",
+  "course_credits": {
+    "THTR 16500": 3.0,
+    "THTR 20100": 3.0,
+    "THTR 16001": 1.0,
+    "THTR 16101": 1.0,
+    "THTR 16201": 1.0,
+    "THTR 16301": 1.0,
+    "THTR 16401": 1.0,
+    "DANC 36800": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Theatre Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "THTR 16500",
+        "THTR 20100"
+      ]
+    },
+    {
+      "name": "B. Theatre Selective",
+      "credit_target": 2.0,
+      "kind": "choose",
+      "options": [
+        "THTR 16001",
+        "THTR 16101",
+        "THTR 16201",
+        "THTR 16301",
+        "THTR 16401"
+      ],
+      "choose_credits": 2.0
+    },
+    {
+      "name": "C. Theatre Design and Production Selectives",
+      "credit_target": 7.0,
+      "kind": "choose",
+      "options": [
+        "DANC 36800"
+      ],
+      "choose_credits": 7.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "DANC 36800",
+    "HELP 02026",
+    "IN 47907",
+    "THTR 16001",
+    "THTR 16101",
+    "THTR 16201",
+    "THTR 16301",
+    "THTR 16401",
+    "THTR 16500",
+    "THTR 20000",
+    "THTR 20100",
+    "THTR 36800"
+  ]
+}

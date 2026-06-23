@@ -1,0 +1,452 @@
+{
+  "id": "comparative-literature-ba",
+  "poid": "34933",
+  "name": "Comparative Literature, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34933",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.924280+00:00",
+  "course_credits": {
+    "CMPL 23700": 3.0,
+    "LC 23700": 3.0,
+    "CMPL 26600": 3.0,
+    "ENGL 26600": 3.0,
+    "CMPL 26700": 3.0,
+    "ENGL 26700": 3.0,
+    "COM 11400": 3.0,
+    "SCLA 10200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Required Courses",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Gateway Course",
+              "credit_target": 3.0,
+              "kind": "all_of",
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "CMPL 23700 / LC 23700",
+                  "courses": [
+                    "CMPL 23700",
+                    "LC 23700"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "World Literature Surveys",
+              "credit_target": 6.0,
+              "kind": "all_of",
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "CMPL 26600 / ENGL 26600",
+                  "courses": [
+                    "CMPL 26600",
+                    "ENGL 26600"
+                  ]
+                },
+                {
+                  "kind": "one_of",
+                  "name": "CMPL 26700 / ENGL 26700",
+                  "courses": [
+                    "CMPL 26700",
+                    "ENGL 26700"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Selectives",
+          "credit_target": 21.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "C. Literature and Culture Courses in English",
+              "credit_target": 3.0,
+              "kind": "credits",
+              "credits": 3.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            },
+            {
+              "name": "D. Film Studies",
+              "credit_target": 3.0,
+              "kind": "credits",
+              "credits": 3.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        14.0,
+        55.0
+      ],
+      "kind": "credits",
+      "credits": 14.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "code": "CMPL 23700",
+          "title": "Our Common Bond: Languages And Cultures In A Global Context",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "LC 23700",
+              "title": "Our Common Bond: Languages And Cultures In A Global Context",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "CLA Core I: 1 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "12-13 Credits",
+      "items": [
+        {
+          "code": "CMPL 26600",
+          "title": "World Literature: From The Beginnings To 1700 A D (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 26600",
+              "title": "World Literature: From The Beginnings To 1700 A.D. (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SCLA 10200",
+              "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "CLA Core I: 3 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CMPL 26700",
+          "title": "World Literature: From 1700 A D To The Present (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 26700",
+              "title": "World Literature: From 1700 A.D. To The Present (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "label": "Foreign Language Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "label": "Foreign Language Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Literature Course Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Behavior/Social Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "label": "Foreign Language Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Literature Course Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Literature Course Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "label": "Film Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12-17 Credits",
+      "items": [
+        {
+          "label": "Science, Technology and Society",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CMPL 23700",
+    "CMPL 26600",
+    "CMPL 26700",
+    "COM 11400",
+    "ENGL 26600",
+    "ENGL 26700",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "LC 23700",
+    "SCLA 10200"
+  ]
+}

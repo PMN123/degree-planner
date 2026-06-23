@@ -1,0 +1,427 @@
+{
+  "id": "human-resource-development-bs",
+  "poid": "35158",
+  "name": "Human Resource Development, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35158",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.834066+00:00",
+  "course_credits": {
+    "TLI 15500": 3.0,
+    "TLI 25500": 3.0,
+    "TLI 35510": 3.0,
+    "TLI 35520": 3.0,
+    "TLI 35530": 3.0,
+    "TLI 35560": 3.0,
+    "TLI 35570": 3.0,
+    "TLI 35580": 3.0,
+    "TLI 45560": 3.0,
+    "TLI 45570": 3.0,
+    "TLI 45580": 3.0,
+    "TLI 45590": 3.0,
+    "OBHR 33000": 3.0,
+    "OBHR 44301": 3.0,
+    "OBHR 44428": 3.0,
+    "OBHR 44430": 3.0,
+    "OBHR 44431": 3.0,
+    "OBHR 44690": 3.0,
+    "FIN 30400": 3.0,
+    "MA 15800": 3.0,
+    "PSY 12000": 3.0,
+    "SOC 10000": 3.0,
+    "STAT 30100": 3.0,
+    "TECH 12000": 3.0,
+    "TLI 11200": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "ENGL 42000": 3.0,
+    "TCM 42500": 3.0,
+    "TLI 21300": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Requirements",
+      "credit_target": 57.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 42.0,
+          "kind": "all_of",
+          "courses": [
+            "TLI 15500",
+            "TLI 25500",
+            "TLI 35510",
+            "TLI 35520",
+            "TLI 35530",
+            "TLI 35560",
+            "TLI 35570",
+            "TLI 35580",
+            "TLI 45560",
+            "TLI 45570",
+            "TLI 45580",
+            "TLI 45590"
+          ]
+        },
+        {
+          "name": "Human Resource Management Minor required",
+          "credit_target": 15.0,
+          "kind": "all_of",
+          "courses": [
+            "OBHR 33000",
+            "OBHR 44430",
+            "OBHR 44431",
+            "OBHR 44690"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "OBHR 44301 / OBHR 44428",
+              "courses": [
+                "OBHR 44301",
+                "OBHR 44428"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        9.0,
+        21.0
+      ],
+      "kind": "credits",
+      "credits": 9.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "HRD Professional Requirement",
+      "kind": "all_of",
+      "courses": [
+        "TLI 45560"
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 11200",
+          "title": "Foundations Of Organizational Leadership",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 15500",
+          "title": "Principles Of Learning In Human Resource Development",
+          "credits": 3.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-16 Credits",
+      "items": [
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "SOC 10000",
+          "title": "Introductory Sociology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "TLI 25500",
+          "title": "Foundations Of Human Resource Development",
+          "credits": 3.0
+        },
+        {
+          "label": "Advanced Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Human Resource Development Optional Concentration Area Selective or Elective \u2013 Credits: 3.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "OBHR 33000",
+          "title": "Introduction To Organizational Behavior",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 21300",
+          "title": "Project Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Sociology/Psychology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Resource Development Optional Concentration Area Selective or Elective \u2013 Credits Hours: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Elective \u2013 Credits Hours: 3.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "TLI 35510",
+          "title": "Training And Talent Development",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 35560",
+          "title": "Employment And Labor Law",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 35570",
+          "title": "Job Analysis And Design",
+          "credits": 3.0
+        },
+        {
+          "code": "FIN 30400",
+          "title": "Introduction To Financial Management",
+          "credits": 3.0
+        },
+        {
+          "code": "OBHR 44428",
+          "title": "Human Resources Management",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "OBHR 44301",
+              "title": "Management Of Human Resources",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Human Resource Development Optional Concentration Area Selective or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "TLI 35520",
+          "title": "Organization Development And Change",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 35530",
+          "title": "Strategic Human Resources",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 35580",
+          "title": "Performance Management",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "OBHR 44690",
+          "title": "Negotiation And Decision Making",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "TLI 45560",
+          "title": "Internship In HR",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 45570",
+          "title": "Global Human Resources",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 45580",
+          "title": "Human Resources Analytics And Information Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "OBHR 44430",
+          "title": "Staffing: Talent Acquisition",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ENGL 42000",
+          "title": "Business Writing",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "TCM 42500",
+              "title": "Technical Writing For STEM Professionals",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "TLI 45590",
+          "title": "Human Resources Capstone",
+          "credits": 3.0
+        },
+        {
+          "code": "OBHR 44431",
+          "title": "Compensation: Total Rewards",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 21700",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "ENGL 42000",
+    "FIN 30400",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 15800",
+    "OBHR 33000",
+    "OBHR 44301",
+    "OBHR 44428",
+    "OBHR 44430",
+    "OBHR 44431",
+    "OBHR 44690",
+    "PSY 12000",
+    "SOC 10000",
+    "STAT 30100",
+    "TCM 42500",
+    "TECH 12000",
+    "TLI 11200",
+    "TLI 15500",
+    "TLI 21300",
+    "TLI 25500",
+    "TLI 35510",
+    "TLI 35520",
+    "TLI 35530",
+    "TLI 35560",
+    "TLI 35570",
+    "TLI 35580",
+    "TLI 45560",
+    "TLI 45570",
+    "TLI 45580",
+    "TLI 45590"
+  ]
+}

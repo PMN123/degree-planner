@@ -1,0 +1,492 @@
+{
+  "id": "religious-studies-ba",
+  "poid": "34916",
+  "name": "Religious Studies, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34916",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.591808+00:00",
+  "course_credits": {
+    "REL 20000": 3.0,
+    "REL 23000": 3.0,
+    "PHIL 23000": 3.0,
+    "REL 23100": 3.0,
+    "PHIL 23100": 3.0,
+    "ENGL 26400": 3.0,
+    "JWST 33000": 3.0,
+    "REL 20300": 3.0,
+    "REL 24000": 3.0,
+    "REL 31700": 3.0,
+    "REL 31800": 3.0,
+    "REL 49100": 3.0,
+    "REL 20100": 3.0,
+    "ENGL 46300": 3.0,
+    "REL 20200": 3.0,
+    "ENGL 46200": 3.0,
+    "ANTH 37300": 3.0,
+    "HIST 24600": 3.0,
+    "HIST 31700": 3.0,
+    "HIST 31905": 3.0,
+    "HIST 40300": 3.0,
+    "HIST 59500": 3.0,
+    "PHIL 22700": 3.0,
+    "SOC 36700": 3.0,
+    "PHIL 20600": 3.0,
+    "PHIL 30200": 3.0,
+    "PHIL 40200": 3.0,
+    "PHIL 40600": 3.0,
+    "PHIL 50500": 3.0,
+    "PHIL 50600": 3.0,
+    "PHIL 52000": 3.0,
+    "REL 20400": 3.0,
+    "REL 25000": 3.0,
+    "REL 35100": 3.0,
+    "REL 45000": 3.0,
+    "REL 45100": 3.0,
+    "REL 45200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Required Courses",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "courses": [
+            "REL 20000"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "REL 23000 / PHIL 23000",
+              "courses": [
+                "REL 23000",
+                "PHIL 23000"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "REL 23100 / PHIL 23100",
+              "courses": [
+                "REL 23100",
+                "PHIL 23100"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B. Category I: Religious Traditions and Diversity",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "ENGL 26400",
+            "JWST 33000",
+            "REL 20300",
+            "REL 24000",
+            "REL 31700",
+            "REL 31800",
+            "REL 49100",
+            {
+              "kind": "one_of",
+              "name": "REL 20100 / ENGL 46300",
+              "courses": [
+                "REL 20100",
+                "ENGL 46300"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "REL 20200 / ENGL 46200",
+              "courses": [
+                "REL 20200",
+                "ENGL 46200"
+              ]
+            }
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "C. Category II: Religion, Society and the Public Square",
+          "credit_target": 9.0,
+          "kind": "choose",
+          "options": [
+            "ANTH 37300",
+            "HIST 24600",
+            "HIST 31700",
+            "HIST 31905",
+            "HIST 40300",
+            "HIST 59500",
+            "PHIL 22700",
+            "REL 49100",
+            "SOC 36700"
+          ],
+          "choose_credits": 9.0
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        11.0,
+        52.0
+      ],
+      "kind": "credits",
+      "credits": 11.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "label": "Written Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "REL 20000",
+          "title": "Introduction To The Study Of Religion (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavior/Social Sciences",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "REL 23000",
+          "title": "Religions Of The East (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHIL 23000",
+              "title": "Religions Of The East (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "CLA Core I: 2 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 3 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "REL 23100",
+          "title": "Religions Of The West (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHIL 23100",
+              "title": "Religions Of The West (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV (CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Religious Traditions & Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Religion, Society, and the Public Square Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Religious Traditions & Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Religion, Society, & the Public Square Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, and Society",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Religion, Society, & the Public Square Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Philosophy, Culture, & Intellectual History Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Philosophy, Culture, & Intellectual History Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Philosophy, Culture, & Intellectual History Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ANTH 37300",
+    "ENGL 26400",
+    "ENGL 46200",
+    "ENGL 46300",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 24600",
+    "HIST 31700",
+    "HIST 31905",
+    "HIST 40300",
+    "HIST 59500",
+    "IN 47907",
+    "JWST 33000",
+    "PHIL 20600",
+    "PHIL 22700",
+    "PHIL 23000",
+    "PHIL 23100",
+    "PHIL 30200",
+    "PHIL 40200",
+    "PHIL 40600",
+    "PHIL 50500",
+    "PHIL 50600",
+    "PHIL 52000",
+    "REL 20000",
+    "REL 20100",
+    "REL 20200",
+    "REL 20300",
+    "REL 20400",
+    "REL 23000",
+    "REL 23100",
+    "REL 24000",
+    "REL 25000",
+    "REL 31700",
+    "REL 31800",
+    "REL 35100",
+    "REL 45000",
+    "REL 45100",
+    "REL 45200",
+    "REL 49100",
+    "SOC 36700"
+  ]
+}

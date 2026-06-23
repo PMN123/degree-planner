@@ -1,0 +1,155 @@
+{
+  "id": "manufacturing-minor",
+  "poid": "34768",
+  "name": "Manufacturing Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34768",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.374795+00:00",
+  "course_credits": {
+    "IE 37000": 3.0,
+    "ME 36300": 3.0,
+    "MFET 34400": 3.0,
+    "MSE 23000": 3.0,
+    "ABE 50100": 3.0,
+    "IE 47000": 3.0,
+    "IE 57000": 3.0,
+    "ME 49200": 3.0,
+    "ME 55700": 3.0,
+    "MSE 33000": 3.0,
+    "IE 57400": 3.0,
+    "ME 57600": 3.0,
+    "ME 58800": 3.0,
+    "MET 28400": 3.0,
+    "MFET 34800": 3.0,
+    "MFET 37400": 3.0,
+    "ME 41200": 3.0,
+    "ME 50700": 3.0,
+    "MET 49000": 1.0,
+    "MSE 56800": 3.0,
+    "IE 47200": 3.0,
+    "ME 44400": 3.0,
+    "ME 48900": 3.0,
+    "ME 55300": 3.0,
+    "IE 53000": 3.0,
+    "MET 45100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Core Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "MFET 34400",
+        "MSE 23000"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "IE 37000 / ME 36300",
+          "courses": [
+            "IE 37000",
+            "ME 36300"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elective Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Manufacturing Processes, Systems and Planning",
+          "kind": "all_of",
+          "courses": [
+            "ABE 50100",
+            "IE 47000",
+            "IE 57000",
+            "ME 49200",
+            "ME 55700",
+            "MSE 33000"
+          ]
+        },
+        {
+          "name": "Automated Manufacturing and Integration",
+          "kind": "all_of",
+          "courses": [
+            "IE 57400",
+            "ME 57600",
+            "ME 58800",
+            "MET 28400",
+            "MFET 34800",
+            "MFET 37400"
+          ]
+        },
+        {
+          "name": "Advanced Manufacturing",
+          "kind": "all_of",
+          "courses": [
+            "ME 41200",
+            "ME 50700",
+            "MET 49000",
+            "MSE 56800"
+          ]
+        },
+        {
+          "name": "Computer-Aided Design in Manufacturing",
+          "kind": "all_of",
+          "courses": [
+            "IE 47200",
+            "ME 44400",
+            "ME 48900",
+            "ME 55300"
+          ]
+        },
+        {
+          "name": "Quality Control",
+          "kind": "all_of",
+          "courses": [
+            "IE 53000",
+            "MET 45100"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ABE 50100",
+    "HELP 02026",
+    "IE 37000",
+    "IE 47000",
+    "IE 47200",
+    "IE 53000",
+    "IE 57000",
+    "IE 57400",
+    "IN 47907",
+    "ME 36300",
+    "ME 41200",
+    "ME 44400",
+    "ME 48900",
+    "ME 49200",
+    "ME 50700",
+    "ME 55300",
+    "ME 55700",
+    "ME 57600",
+    "ME 58800",
+    "MEET 34400",
+    "MET 28400",
+    "MET 45100",
+    "MET 49000",
+    "MFET 34400",
+    "MFET 34800",
+    "MFET 37400",
+    "MSE 23000",
+    "MSE 33000",
+    "MSE 56800"
+  ]
+}

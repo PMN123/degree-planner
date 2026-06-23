@@ -1,0 +1,137 @@
+{
+  "id": "lgbtq-studies-minor",
+  "poid": "34926",
+  "name": "LGBTQ Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 12,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34926",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.721355+00:00",
+  "course_credits": {
+    "ANTH 28200": 3.0,
+    "WGSS 28200": 3.0,
+    "ANTH 48200": 3.0,
+    "HIST 48800": 3.0,
+    "WGSS 48200": 3.0,
+    "CLCS 23700": 3.0,
+    "PSY 24400": 3.0,
+    "SOC 35600": 3.0,
+    "WGSS 38000": 3.0,
+    "WGSS 38200": 3.0,
+    "WGSS 48000": 3.0,
+    "WGSS 49200": 2.0,
+    "ENGL 36000": 3.0,
+    "HIST 37500": 3.0,
+    "LC 23900": 3.0,
+    "POL 22200": 3.0,
+    "POL 52400": 3.0,
+    "SOC 42600": 3.0,
+    "SOC 45000": 3.0,
+    "WGSS 48300": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. LGBTQ Foundational Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "ANTH 28200 / WGSS 28200",
+          "courses": [
+            "ANTH 28200",
+            "WGSS 28200"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B. LGBTQ 40000-level Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "ANTH 48200 / HIST 48800 / WGSS 48200",
+          "courses": [
+            "ANTH 48200",
+            "HIST 48800",
+            "WGSS 48200"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C. LGBTQ Studies Electives",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "1. Category 1",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "ANTH 48200",
+            "CLCS 23700",
+            "HIST 48800",
+            "PSY 24400",
+            "SOC 35600",
+            "WGSS 38000",
+            "WGSS 38200",
+            "WGSS 48000",
+            "WGSS 48200",
+            "WGSS 49200"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "2. Category 2",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "ENGL 36000",
+            "HIST 37500",
+            "LC 23900",
+            "POL 22200",
+            "POL 52400",
+            "SOC 42600",
+            "SOC 45000",
+            "WGSS 48300"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ANTH 28200",
+    "ANTH 48200",
+    "CLCS 23700",
+    "ENGL 36000",
+    "HELP 02026",
+    "HIST 37500",
+    "HIST 48800",
+    "IN 47907",
+    "LC 23900",
+    "LGBTQ 40000",
+    "POL 22200",
+    "POL 52400",
+    "PSY 24400",
+    "SOC 35600",
+    "SOC 42600",
+    "SOC 45000",
+    "WGSS 28200",
+    "WGSS 38000",
+    "WGSS 38200",
+    "WGSS 48000",
+    "WGSS 48200",
+    "WGSS 48300",
+    "WGSS 49200"
+  ]
+}

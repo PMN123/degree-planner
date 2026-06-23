@@ -1,0 +1,385 @@
+{
+  "id": "interior-architecture-bs-indianapolis-only",
+  "poid": "35992",
+  "name": "Interior Architecture, BS (Indianapolis Only)",
+  "degree": "BS (Indianapolis Only)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35992",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.439942+00:00",
+  "course_credits": {
+    "ARCH 11700": 3.0,
+    "ARCH 12000": 3.0,
+    "ARCH 15500": 3.0,
+    "ARCH 21000": 3.0,
+    "ARCH 22200": 3.0,
+    "ARCH 22300": 3.0,
+    "ARCH 32300": 3.0,
+    "ARCH 32500": 3.0,
+    "INT 10300": 3.0,
+    "INT 12400": 3.0,
+    "INT 12500": 3.0,
+    "INT 15100": 3.0,
+    "INT 20200": 3.0,
+    "INT 20400": 3.0,
+    "INT 22400": 3.0,
+    "INT 22600": 3.0,
+    "INT 30200": 3.0,
+    "INT 30400": 3.0,
+    "INT 32400": 3.0,
+    "INT 32600": 3.0,
+    "INT 42600": 3.0,
+    "INT 42800": 3.0,
+    "INT 45200": 3.0,
+    "INT 45300": 3.0,
+    "INT 48000": 3.0,
+    "INT 49500": 3.0,
+    "AD 10500": 3.0,
+    "AD 11300": 3.0,
+    "AD 22700": 3.0,
+    "CGT 21100": 3.0,
+    "MA 15300": 3.0,
+    "OLS 37100": 3.0,
+    "TECH 12000": 3.0,
+    "TECH 39699": 0.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 78.0,
+      "kind": "all_of",
+      "courses": [
+        "ARCH 11700",
+        "ARCH 12000",
+        "ARCH 15500",
+        "ARCH 21000",
+        "ARCH 22200",
+        "ARCH 22300",
+        "ARCH 32300",
+        "ARCH 32500",
+        "INT 10300",
+        "INT 12400",
+        "INT 12500",
+        "INT 15100",
+        "INT 20200",
+        "INT 20400",
+        "INT 22400",
+        "INT 22600",
+        "INT 30200",
+        "INT 30400",
+        "INT 32400",
+        "INT 32600",
+        "INT 42600",
+        "INT 42800",
+        "INT 45200",
+        "INT 45300",
+        "INT 48000",
+        "INT 49500"
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "AD 10500",
+          "title": "Design I",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 10300",
+          "title": "Introduction To Interior Environments",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15300",
+          "title": "College Algebra (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AD 11300",
+          "title": "Basic Drawing (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "ARCH 11700",
+          "title": "Introduction To Construction Drafting With CAD",
+          "credits": 3.0
+        },
+        {
+          "code": "ARCH 12000",
+          "title": "Introduction To Construction Drafting With Building Information Modeling (BIM)",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 15100",
+          "title": "Textiles For Interiors",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "ARCH 15500",
+          "title": "Residential Construction",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 21100",
+          "title": "Creative Digital Imagery",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 12400",
+          "title": "Space Planning For Interiors",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 12500",
+          "title": "Color And Lighting Of Interiors",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 20200",
+          "title": "Interior Materials And Applications",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ARCH 21000",
+          "title": "History Of Architecture",
+          "credits": 3.0
+        },
+        {
+          "code": "ARCH 22200",
+          "title": "Commercial Construction",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 20400",
+          "title": "History Of Interiors And Furniture I",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 22400",
+          "title": "Residential I: Kitchen And Bath",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 22600",
+          "title": "Commercial Interiors I",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ARCH 22300",
+          "title": "Architectural Modeling I",
+          "credits": 3.0
+        },
+        {
+          "code": "ARCH 32500",
+          "title": "Building Science & Energy",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 30200",
+          "title": "Three-Dimensional Design",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 30400",
+          "title": "History Of Interiors And Furniture II",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 32400",
+          "title": "Residential II: Housing Design",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AD 22700",
+          "title": "History Of Art Since 1400 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "ARCH 32300",
+          "title": "Architectural Modeling II",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 32600",
+          "title": "Commercial Interiors II",
+          "credits": 3.0
+        },
+        {
+          "code": "OLS 37100",
+          "title": "Applied Project Management",
+          "credits": 3.0
+        },
+        {
+          "label": "IARC Additional Required Course",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "INT 42600",
+          "title": "Evidence-Based Design",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 45200",
+          "title": "Interior Building Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 48000",
+          "title": "Senior Portfolio",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 39699",
+          "title": "Professional Practice Internship",
+          "credits": 0.0
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "INT 42800",
+          "title": "Interior Design Capstone Design Project",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 45300",
+          "title": "Business Practices",
+          "credits": 3.0
+        },
+        {
+          "code": "INT 49500",
+          "title": "Sustainable Design",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 10500",
+    "AD 11300",
+    "AD 22700",
+    "ARCH 11700",
+    "ARCH 12000",
+    "ARCH 15500",
+    "ARCH 21000",
+    "ARCH 22200",
+    "ARCH 22300",
+    "ARCH 32300",
+    "ARCH 32500",
+    "CGT 21100",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "INT 10300",
+    "INT 12400",
+    "INT 12500",
+    "INT 15100",
+    "INT 20200",
+    "INT 20400",
+    "INT 22400",
+    "INT 22600",
+    "INT 30200",
+    "INT 30400",
+    "INT 32400",
+    "INT 32600",
+    "INT 42600",
+    "INT 42800",
+    "INT 45200",
+    "INT 45300",
+    "INT 48000",
+    "INT 49500",
+    "MA 15300",
+    "OLS 37100",
+    "TECH 12000",
+    "TECH 39699"
+  ]
+}

@@ -1,0 +1,628 @@
+{
+  "id": "interdisciplinary-engineering-studies-pre-medical-engineering-studies-concentration-bs",
+  "poid": "35288",
+  "name": "Interdisciplinary Engineering Studies/Pre-Medical Engineering Studies Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35288",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.145562+00:00",
+  "course_credits": {
+    "IDE 36000": 3.0,
+    "IE 23000": 3.0,
+    "IE 33000": 3.0,
+    "IE 34300": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "IDE 30100": 1.0,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "BIOL 13100": 3.0,
+    "BIOL 23100": 3.0,
+    "BIOL 23200": 2.0,
+    "BIOL 20300": 4.0,
+    "BIOL 20400": 4.0,
+    "CHM 25500": 3.0,
+    "CHM 25501": 1.0,
+    "CHM 25600": 3.0,
+    "CHM 25601": 1.0,
+    "CHM 33900": 3.0,
+    "BCHM 30700": 3.0,
+    "PHSC 20800": 3.0,
+    "BCHM 56100": 3.0,
+    "PSY 12000": 3.0,
+    "SOC 10000": 3.0,
+    "BIOL 39600": 0.0,
+    "CS 15900": 3.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "EPCS 11100": 1.0,
+    "EPCS 12100": 1.0,
+    "ENGR 13300": 2.0,
+    "VIP 17911": 1.0,
+    "VIP 17912": 1.0,
+    "ENGR 16100": 4.0,
+    "ENGR 16200": 4.0,
+    "ENGR 13000": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "MA 26100": 4.0,
+    "MA 26200": 4.0,
+    "MA 26500": 3.0,
+    "MA 26600": 3.0,
+    "PHYS 17200": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Interdisciplinary Engineering Studies Major Requirements",
+      "credit_target": [
+        60.0,
+        78.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Interdisciplinary Engineering Studies Major Courses",
+          "credit_target": [
+            10.0,
+            16.0
+          ],
+          "kind": "choose",
+          "options": [
+            "IDE 36000",
+            "IE 23000",
+            "IE 33000",
+            "IE 34300",
+            "ECON 25100",
+            "ECON 25200",
+            "IDE 30100"
+          ],
+          "choose_credits": 10.0
+        },
+        {
+          "name": "Pre-Med Concentration Requirements",
+          "credit_target": [
+            50.0,
+            62.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Engineering Selectives",
+              "credit_target": 20.0,
+              "kind": "credits",
+              "credits": 20.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            },
+            {
+              "name": "Area Selectives",
+              "credit_target": [
+                30.0,
+                39.0
+              ],
+              "kind": "choose",
+              "options": [
+                "BIOL 11000",
+                "BIOL 11100",
+                "BIOL 13100",
+                "BIOL 23100",
+                "BIOL 23200",
+                "BIOL 20300",
+                "BIOL 20400",
+                "CHM 25500",
+                "CHM 25501",
+                "CHM 25600",
+                "CHM 25601",
+                {
+                  "kind": "one_of",
+                  "name": "CHM 33900 / BCHM 30700 / PHSC 20800 / BCHM 56100",
+                  "courses": [
+                    "CHM 33900",
+                    "BCHM 30700",
+                    "PHSC 20800",
+                    "BCHM 56100"
+                  ]
+                },
+                "PSY 12000",
+                "SOC 10000",
+                "BIOL 39600"
+              ],
+              "choose_credits": 30.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Program/Departmental Requirements",
+      "credit_target": [
+        58.0,
+        64.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Other Departmental Requirements",
+          "credit_target": [
+            34.0,
+            39.0
+          ],
+          "kind": "choose",
+          "options": [
+            "CS 15900",
+            "ENGR 13100",
+            "ENGR 13200",
+            "EPCS 11100",
+            "EPCS 12100",
+            "ENGR 13300",
+            "VIP 17911",
+            "VIP 17912",
+            "ENGR 16100",
+            "ENGR 16200",
+            "ENGR 13000",
+            "CHM 11510",
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            },
+            "MA 26100",
+            "MA 26200",
+            "MA 26500",
+            "MA 26600",
+            "PHYS 17200"
+          ],
+          "choose_credits": 34.0
+        },
+        {
+          "name": "Engineering General Education Requirement",
+          "credit_target": [
+            24.0,
+            25.0
+          ],
+          "kind": "credits",
+          "credits": 24.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering I",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering II",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Physics I",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "code": "CS 15900",
+          "title": "C Programming",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CHM 25500",
+          "title": "Organic Chemistry For The Life Sciences I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25501",
+          "title": "Organic Chemistry For The Life Sciences Laboratory I",
+          "credits": 1.0
+        },
+        {
+          "code": "IDE 30100",
+          "title": "Professional Preparation In Interdisciplinary Engineering",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "label": "Engineering Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Sophomore Science Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "MA 26200",
+          "title": "Linear Algebra And Differential Equations (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "MA 26500",
+              "title": "Linear Algebra (UCC: QR)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "MA 26600",
+          "title": "Ordinary Differential Equations (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BIOL 13100",
+              "title": "Biology II: Development, Structure, And Function Of Organisms (UCC: SCI)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Biochemistry",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Engineering Selective (20000+ level)",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Engineering Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "BIOL 23100",
+              "title": "Biology III: Cell Structure And Function",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "BIOL 23200",
+          "title": "Laboratory In Biology III: Cell Structure And Function",
+          "credits": 2.0
+        },
+        {
+          "code": "BIOL 20300",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Engineering Selective (20000+level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education I (UCC:HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "IE 23000",
+          "title": "Probability And Statistics In Engineering I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "IDE 36000",
+              "title": "Multidisciplinary Engineering Statistics",
+              "credits": 3.0
+            },
+            {
+              "code": "IE 33000",
+              "title": "Probability And Statistics In Engineering II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "BIOL 20400",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Engineering Selective (20000+level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education II (UCC:BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education IV",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "IE 34300",
+          "title": "Engineering Economics",
+          "credits": 3.0
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "ECON 25100",
+              "title": "Microeconomics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 25600",
+          "title": "Organic Chemistry For The Life Sciences II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25601",
+          "title": "Organic Chemistry For The Life Sciences Laboratory II",
+          "credits": 1.0
+        },
+        {
+          "label": "Engineering Design Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education V",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "label": "Economics Selective Option",
+          "credits": 0.0,
+          "slot": true
+        },
+        {
+          "code": "ECON 25200",
+          "title": "Macroeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Engineering Selective 30000:59999",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Engineering Selective (30000+ level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Engineering Selective (30000+ level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education VI",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ANTH 30000",
+    "BCHM 30700",
+    "BCHM 56100",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BIOL 13100",
+    "BIOL 20300",
+    "BIOL 20400",
+    "BIOL 23100",
+    "BIOL 23200",
+    "BIOL 39600",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 25500",
+    "CHM 25501",
+    "CHM 25600",
+    "CHM 25601",
+    "CHM 33900",
+    "CS 15900",
+    "ECON 25100",
+    "ECON 25200",
+    "ENGL 10000",
+    "ENGR 13000",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 13300",
+    "ENGR 16100",
+    "ENGR 16200",
+    "EPCS 11100",
+    "EPCS 12100",
+    "HEA 01348",
+    "HELP 02026",
+    "IDE 30100",
+    "IDE 36000",
+    "IE 23000",
+    "IE 33000",
+    "IE 34300",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26200",
+    "MA 26500",
+    "MA 26600",
+    "PHSC 20800",
+    "PHYS 17200",
+    "PSY 12000",
+    "SOC 10000",
+    "SOC 30000",
+    "VIP 17911",
+    "VIP 17912"
+  ]
+}

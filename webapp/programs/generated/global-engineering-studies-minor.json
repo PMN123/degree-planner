@@ -1,0 +1,190 @@
+{
+  "id": "global-engineering-studies-minor",
+  "poid": "34754",
+  "name": "Global Engineering Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": null,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34754",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.892219+00:00",
+  "course_credits": {
+    "ENGR 29600": 0.0,
+    "ENGR 29701": 1.0,
+    "ENGR 39700": 1.0,
+    "ENGR 49700": 1.0,
+    "ENGR 31000": 3.0,
+    "ENE 55400": 3.0,
+    "HIST 21000": 3.0,
+    "HIST 44100": 3.0,
+    "ARAB 23900": 3.0,
+    "ARAB 28000": 3.0,
+    "HIST 24300": 3.0,
+    "HIST 24600": 3.0,
+    "CHNS 28000": 3.0,
+    "HIST 34000": 3.0,
+    "HIST 24100": 3.0,
+    "HIST 35900": 3.0,
+    "GREK 10200": 3.0,
+    "GREK 20200": 3.0,
+    "HIST 10300": 3.0,
+    "HIST 10400": 3.0,
+    "HIST 32900": 3.0,
+    "HIST 33700": 3.0,
+    "HIST 40300": 3.0,
+    "HIST 41300": 3.0,
+    "FR 33000": 3.0,
+    "HIST 40500": 3.0,
+    "GER 28000": 3.0,
+    "HIST 32300": 3.0,
+    "GER 32300": 3.0,
+    "ITAL 28100": 3.0,
+    "ITAL 33000": 3.0,
+    "ITAL 33300": 3.0,
+    "ITAL 33500": 3.0,
+    "JPNS 28000": 3.0,
+    "HIST 34300": 3.0,
+    "HIST 34400": 3.0,
+    "HIST 27100": 3.0,
+    "HIST 27200": 3.0,
+    "RUSS 33000": 3.0,
+    "SPAN 33000": 3.0,
+    "SPAN 39800": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Core Requirements",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "GEARE Students",
+          "kind": "all_of",
+          "courses": [
+            "ENGR 29600",
+            "ENGR 29701",
+            "ENGR 39700",
+            "ENGR 49700"
+          ]
+        },
+        {
+          "name": "NON-GEARE Students",
+          "kind": "all_of",
+          "courses": [
+            "ENGR 49700"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "ENGR 31000 / ENE 55400",
+              "courses": [
+                "ENGR 31000",
+                "ENE 55400"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Global Experience",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Appendix A: Cultural Knowledge Courses",
+          "kind": "all_of",
+          "courses": [
+            "HIST 21000",
+            "HIST 44100",
+            "ARAB 23900",
+            "ARAB 28000",
+            "HIST 24300",
+            "HIST 24600",
+            "CHNS 28000",
+            "HIST 34000",
+            "HIST 24100",
+            "HIST 35900",
+            "GREK 10200",
+            "GREK 20200",
+            "HIST 10300",
+            "HIST 10400",
+            "HIST 32900",
+            "HIST 33700",
+            "HIST 40300",
+            "HIST 41300",
+            "FR 33000",
+            "HIST 40500",
+            "GER 28000",
+            "HIST 32300",
+            "GER 32300",
+            "ITAL 28100",
+            "ITAL 33000",
+            "ITAL 33300",
+            "ITAL 33500",
+            "JPNS 28000",
+            "HIST 34300",
+            "HIST 34400",
+            "HIST 27100",
+            "HIST 27200",
+            "RUSS 33000",
+            "SPAN 33000",
+            "SPAN 39800"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ARAB 23900",
+    "ARAB 28000",
+    "CHNS 28000",
+    "ENE 55400",
+    "ENGR 29600",
+    "ENGR 29701",
+    "ENGR 31000",
+    "ENGR 39700",
+    "ENGR 49700",
+    "EPCS 10100",
+    "EPCS 41200",
+    "FR 33000",
+    "GEP 10000",
+    "GEP 40000",
+    "GER 28000",
+    "GER 32300",
+    "GREK 10200",
+    "GREK 20200",
+    "HELP 02026",
+    "HIST 10300",
+    "HIST 10400",
+    "HIST 21000",
+    "HIST 24100",
+    "HIST 24300",
+    "HIST 24600",
+    "HIST 27100",
+    "HIST 27200",
+    "HIST 32300",
+    "HIST 32900",
+    "HIST 33700",
+    "HIST 34000",
+    "HIST 34300",
+    "HIST 34400",
+    "HIST 35900",
+    "HIST 40300",
+    "HIST 40500",
+    "HIST 41300",
+    "HIST 44100",
+    "IN 47907",
+    "ITAL 28100",
+    "ITAL 33000",
+    "ITAL 33300",
+    "ITAL 33500",
+    "JPNS 28000",
+    "RUSS 33000",
+    "SPAN 33000",
+    "SPAN 39800"
+  ]
+}

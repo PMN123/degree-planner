@@ -1,0 +1,106 @@
+{
+  "id": "human-resource-management-minor",
+  "poid": "35920",
+  "name": "Human Resource Management Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35920",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.653289+00:00",
+  "course_credits": {
+    "OBHR 33000": 3.0,
+    "OBHR 44301": 3.0,
+    "OBHR 44428": 3.0,
+    "OBHR 42930": 3.0,
+    "OBHR 44362": 3.0,
+    "OBHR 44429": 3.0,
+    "OBHR 44430": 3.0,
+    "OBHR 44431": 3.0,
+    "OBHR 44433": 3.0,
+    "OBHR 44434": 3.0,
+    "OBHR 44690": 3.0,
+    "OBHR 55400": 2.0,
+    "OBHR 55500": 2.0,
+    "DSB 39000": 1.0,
+    "OBHR 49000": 1.0,
+    "STRT 39000": 1.0,
+    "STRT 49000": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "OBHR 33000"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "OBHR 44301 / OBHR 44428",
+          "courses": [
+            "OBHR 44301",
+            "OBHR 44428"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Advanced Topic Courses",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "OBHR 42930",
+        "OBHR 44362",
+        "OBHR 44429",
+        "OBHR 44430",
+        "OBHR 44431",
+        "OBHR 44433",
+        "OBHR 44434",
+        "OBHR 44690",
+        "OBHR 55400",
+        "OBHR 55500",
+        {
+          "kind": "one_of",
+          "name": "DSB 39000 / OBHR 49000 / STRT 39000 / STRT 49000",
+          "courses": [
+            "DSB 39000",
+            "OBHR 49000",
+            "STRT 39000",
+            "STRT 49000"
+          ]
+        }
+      ],
+      "choose_credits": 9.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "DSB 39000",
+    "ECON 2XXXX",
+    "HELP 02026",
+    "IN 47907",
+    "OBHR 33000",
+    "OBHR 42930",
+    "OBHR 44301",
+    "OBHR 44362",
+    "OBHR 44428",
+    "OBHR 44429",
+    "OBHR 44430",
+    "OBHR 44431",
+    "OBHR 44433",
+    "OBHR 44434",
+    "OBHR 44690",
+    "OBHR 49000",
+    "OBHR 55400",
+    "OBHR 55500",
+    "STRT 30000",
+    "STRT 39000",
+    "STRT 49000"
+  ]
+}

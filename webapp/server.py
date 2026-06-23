@@ -26,11 +26,15 @@ from pathlib import Path
 from urllib.parse import parse_qs, unquote, urlparse
 
 import engine
+import scheduler
 from catalog import Catalog, audit_prerequisites
 from programs_store import ProgramStore
 
 HERE = Path(__file__).resolve().parent
-STATIC_DIR = HERE / "static"
+# Serve the built React bundle (webapp/static/dist) when it exists; otherwise fall back
+# to the legacy vanilla app in webapp/static so the server runs even before a frontend build.
+_DIST = HERE / "static" / "dist"
+STATIC_DIR = _DIST if (_DIST / "index.html").exists() else HERE / "static"
 
 CATALOG = Catalog()
 PROGRAMS = ProgramStore()
@@ -55,24 +59,24 @@ CONTENT_TYPES = {
 def build_credit_lookup(plan: dict) -> dict[str, float]:
     extra: dict[str, float] = {}
     for row in plan.get("completed", []):
-        if row.get("credits"):
+        if row.get("code") and row.get("credits"):
             extra[engine.normalize_code(row["code"])] = float(row["credits"])
     for sem in plan.get("semesters", []):
         for row in sem.get("courses", []):
-            if row.get("credits"):
+            if row.get("code") and row.get("credits"):  # slots have no code
                 extra[engine.normalize_code(row["code"])] = float(row["credits"])
     return CATALOG.credit_lookup(extra)
 
 
 def available_codes(plan: dict) -> set[str]:
     codes: set[str] = set()
-    for row in plan.get("completed", []):
-        code = engine.normalize_code(row["code"])
-        if not code.startswith("PLACEHOLDER"):
-            codes.add(code)
+    rows = list(plan.get("completed", []))
     for sem in plan.get("semesters", []):
-        for row in sem.get("courses", []):
-            code = engine.normalize_code(row["code"])
+        rows.extend(sem.get("courses", []))
+    for row in rows:
+        code = row.get("code")  # unfilled slots have no code
+        if code:
+            code = engine.normalize_code(code)
             if not code.startswith("PLACEHOLDER"):
                 codes.add(code)
     return codes
@@ -110,6 +114,28 @@ def run_audit(plan: dict) -> dict:
     overlaps = {code: progs for code, progs in used_by.items() if len(progs) > 1}
 
     prereq = audit_prerequisites(CATALOG, plan.get("completed", []), plan.get("semesters", []))
+    # Developmental / placement "courses" (Purdue numbers < 10000, e.g. MATH 00670, ALEKS)
+    # aren't scheduled — assume the student placed past them rather than flagging Calc I etc.
+    def _placement_only(check: dict) -> bool:
+        miss = check.get("missing_best_alternative") or []
+        if not miss:
+            return False
+        return all((engine.code_number(m) or 99999) < 10000 for m in miss)
+
+    for c in prereq["checks"]:
+        if not c.get("ok") and _placement_only(c):
+            c["ok"] = True
+            c["status"] = "placement_assumed"
+    prereq["ok"] = all(c.get("ok") for c in prereq["checks"])
+
+    edges = CATALOG.dependency_edges(plan.get("completed", []), plan.get("semesters", []))
+    # Reconcile term-order edges with the concurrency- and AND/OR-aware legacy check:
+    # a backward edge is only a real violation if its target actually fails that check
+    # (this clears false positives where a prereq is allowed to be taken concurrently).
+    failed_codes = {c["code"] for c in prereq["checks"] if not c.get("ok")}
+    for e in edges:
+        if not e["satisfied"] and e["to"] not in failed_codes:
+            e["satisfied"] = True
 
     completed_credits = sum(float(c.get("credits", 0) or 0) for c in plan.get("completed", []))
     planned_credits = sum(
@@ -129,6 +155,7 @@ def run_audit(plan: dict) -> dict:
         "programs": program_results,
         "loads": semester_loads(plan),
         "overlaps": overlaps,
+        "edges": edges,
         "prerequisites": {
             "ok": prereq["ok"],
             "checks": prereq["checks"],
@@ -203,7 +230,11 @@ class Handler(BaseHTTPRequestHandler):
                 }
             )
         if path == "/api/programs":
-            return self._json({"programs": PROGRAMS.list()})
+            qs = parse_qs(parsed.query)
+            ptype = qs.get("type", [None])[0]
+            query = qs.get("q", [None])[0]
+            limit = int(qs.get("limit", ["0"])[0]) or None
+            return self._json({"programs": PROGRAMS.list(type=ptype, q=query, limit=limit)})
         m = re.match(r"^/api/programs/([^/]+)$", path)
         if m:
             program = PROGRAMS.get(unquote(m.group(1)))
@@ -239,6 +270,25 @@ class Handler(BaseHTTPRequestHandler):
             if not code:
                 return self._json({"error": "code required"}, 400)
             return self._json(CATALOG.ensure_course(code))
+        if path == "/api/courses/ensure-batch":
+            body = self._read_json()
+            codes = body.get("codes", [])
+            if not isinstance(codes, list):
+                return self._json({"error": "codes must be a list"}, 400)
+            return self._json(CATALOG.ensure_many(codes))
+        if path == "/api/plan/scaffold":
+            body = self._read_json()
+            try:
+                result = scheduler.scaffold(
+                    body.get("programs", []),
+                    body.get("completed", []),
+                    body.get("constraints", {}),
+                    PROGRAMS,
+                    CATALOG.credit_lookup(),
+                )
+                return self._json(result)
+            except Exception as exc:  # never 500 silently
+                return self._json({"error": f"scaffold failed: {exc}"}, 500)
         return self._json({"error": "not found"}, 404)
 
 

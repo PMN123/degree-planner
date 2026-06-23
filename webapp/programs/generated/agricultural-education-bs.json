@@ -1,0 +1,507 @@
+{
+  "id": "agricultural-education-bs",
+  "poid": "34693",
+  "name": "Agricultural Education, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 128,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34693",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.454660+00:00",
+  "course_credits": {
+    "ASEC 24000": 1.0,
+    "ASEC 31800": 2.0,
+    "ASEC 31900": 2.0,
+    "ASEC 34000": 2.0,
+    "ASEC 34100": 2.0,
+    "ASEC 44000": 3.0,
+    "EDCI 20500": 2.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 33300": 3.0,
+    "EDCI 37001": 2.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26500": 3.0,
+    "EDPS 32700": 1.0,
+    "EDPS 36201": 0.0,
+    "EDPS 43010": 1.0,
+    "EDST 20010": 1.0,
+    "EDCI 49800": 6.0,
+    "AGR 10100": 0.5,
+    "AGR 11300": 0.5,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "AGEC 31000": 3.0,
+    "AGEC 33000": 3.0,
+    "AGRY 25500": 3.0,
+    "AGRY 32000": 3.0,
+    "AGRY 37500": 3.0,
+    "ANSC 10200": 3.0,
+    "ANSC 10600": 3.0,
+    "ANSC 22100": 3.0,
+    "ASM 20100": 3.0,
+    "ASM 35000": 1.0,
+    "ASM 44100": 2.0,
+    "BIOL 11000": 4.0,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0,
+    "FNR 12500": 3.0,
+    "FS 16100": 3.0,
+    "NUTR 20500": 3.0,
+    "HORT 10100": 3.0,
+    "HORT 21200": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "STAT 30100": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0,
+    "AGR 12100": 0.5,
+    "EDCI 30900": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 50.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 12.0,
+          "kind": "all_of",
+          "courses": [
+            "ASEC 24000",
+            "ASEC 31800",
+            "ASEC 31900",
+            "ASEC 34000",
+            "ASEC 34100",
+            "ASEC 44000"
+          ]
+        },
+        {
+          "name": "Professional Education Requirements",
+          "credit_target": 38.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Professional Education Courses",
+              "credit_target": 23.0,
+              "kind": "all_of",
+              "courses": [
+                "EDCI 20500",
+                "EDCI 27000",
+                "EDCI 28550",
+                "EDCI 33300",
+                "EDCI 37001",
+                "EDPS 23500",
+                "EDPS 24001",
+                "EDPS 26500",
+                "EDPS 32700",
+                "EDPS 36201",
+                "EDPS 43010",
+                "EDST 20010"
+              ]
+            },
+            {
+              "name": "Professional Education Capstone Course",
+              "credit_target": 12.0,
+              "kind": "all_of",
+              "courses": [
+                "EDCI 49800"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 12100",
+          "title": "Introduction To Agricultural Sciences Education And Communication Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "ASEC 24000",
+          "title": "Seminar In Agricultural Education",
+          "credits": 1.0
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "code": "HORT 10100",
+          "title": "Fundamentals Of Horticulture (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "First-Year Composition Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGEC 21700",
+          "title": "Economics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "ANSC 10200",
+          "title": "Introduction To Animal Agriculture (UCC: STS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ANSC 10600",
+              "title": "Biology Companion Animal",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16010",
+              "title": "Applied Calculus I (UCC: QR)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Biological Sciences Selective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "AGRY 25500",
+          "title": "Soil Science",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 37500",
+          "title": "Crop Production Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "FNR 12500",
+          "title": "Environmental Science And Conservation (UCC: STS)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "ASEC 31800",
+          "title": "Coordination Of Supervised Agricultural Experience Programs",
+          "credits": 2.0
+        },
+        {
+          "code": "ASEC 31900",
+          "title": "Planning Agricultural Science And Business Programs",
+          "credits": 2.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 26500",
+          "title": "The Inclusive Classroom",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "code": "HORT 21200",
+          "title": "Greenhouse And Landscape Fundamentals For Educators",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "ANSC 22100",
+          "title": "Principles Of Animal Nutrition",
+          "credits": 3.0
+        },
+        {
+          "code": "ASEC 34000",
+          "title": "Laboratory Practices In Agricultural Education",
+          "credits": 2.0
+        },
+        {
+          "code": "ASM 20100",
+          "title": "Construction And Maintenance",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 30900",
+          "title": "Reading In Middle And Secondary Schools: Methods And Problems",
+          "credits": 1.0
+        },
+        {
+          "label": "Technical Agriculture Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "AGRY 32000",
+          "title": "Genetics",
+          "credits": 3.0
+        },
+        {
+          "code": "ASEC 34100",
+          "title": "Curriculum Development In Agricultural Education",
+          "credits": 2.0
+        },
+        {
+          "code": "ASM 35000",
+          "title": "Safety In Agriculture",
+          "credits": 1.0
+        },
+        {
+          "code": "ASM 44100",
+          "title": "Methods Of Teaching Agricultural Mechanics",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "label": "ASM 1XXXX Welding Transfer Credits",
+              "credits": 3.0,
+              "slot": true
+            }
+          ]
+        },
+        {
+          "code": "AGEC 31000",
+          "title": "Farm Organization",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 33000",
+              "title": "Management Methods For Agricultural Business",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Technical Agriculture Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "ASEC 44000",
+          "title": "Methods Of Teaching Agricultural Education",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 43010",
+          "title": "Secondary Creating And Managing Learning Environments",
+          "credits": 1.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "FS 16100",
+          "title": "Science Of Food (UCC: STS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "NUTR 20500",
+              "title": "Food Science I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Technical Agriculture Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDCI 49800",
+          "title": "Supervised Teaching (UCC: OC)",
+          "credits": 6.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 21700",
+    "AGEC 31000",
+    "AGEC 33000",
+    "AGR 10100",
+    "AGR 11300",
+    "AGR 12100",
+    "AGRY 25500",
+    "AGRY 32000",
+    "AGRY 37500",
+    "ANSC 10200",
+    "ANSC 10600",
+    "ANSC 22100",
+    "ASEC 24000",
+    "ASEC 31800",
+    "ASEC 31900",
+    "ASEC 34000",
+    "ASEC 34100",
+    "ASEC 44000",
+    "ASM 1XXXX",
+    "ASM 20100",
+    "ASM 35000",
+    "ASM 44100",
+    "BIOL 11000",
+    "CHM 11100",
+    "CHM 11200",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "EDCI 20500",
+    "EDCI 27000",
+    "EDCI 28550",
+    "EDCI 30900",
+    "EDCI 33300",
+    "EDCI 37001",
+    "EDCI 49800",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26500",
+    "EDPS 32700",
+    "EDPS 36201",
+    "EDPS 43010",
+    "EDST 20010",
+    "ENGL 10600",
+    "ENGL 10800",
+    "FNR 12500",
+    "FS 16100",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "HORT 10100",
+    "HORT 21200",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "NUTR 20500",
+    "STAT 30100"
+  ]
+}

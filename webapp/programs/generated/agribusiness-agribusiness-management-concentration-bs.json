@@ -1,0 +1,534 @@
+{
+  "id": "agribusiness-agribusiness-management-concentration-bs",
+  "poid": "34702",
+  "name": "Agribusiness: Agribusiness Management Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34702",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.271963+00:00",
+  "course_credits": {
+    "AGEC 20201": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "ECON 25100": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25200": 3.0,
+    "AGEC 22000": 3.0,
+    "AGEC 29800": 1.0,
+    "AGEC 32700": 3.0,
+    "AGEC 33000": 3.0,
+    "AGEC 42400": 3.0,
+    "AGEC 35200": 3.0,
+    "AGEC 45100": 3.0,
+    "AGEC 43000": 3.0,
+    "AGEC 45500": 3.0,
+    "STRT 45500": 3.0,
+    "OBHR 44301": 3.0,
+    "OBHR 44428": 3.0,
+    "OBHR 33000": 3.0,
+    "TLI 11200": 3.0,
+    "TLI 15200": 3.0,
+    "IET 21400": 3.0,
+    "IET 23500": 3.0,
+    "IET 31600": 3.0,
+    "IET 41400": 3.0,
+    "AGR 10100": 0.5,
+    "AGR 11200": 0.5,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0,
+    "MA 16010": 3.0,
+    "STAT 30100": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 57.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 25.0,
+          "kind": "all_of",
+          "courses": [
+            "AGEC 20201",
+            "AGEC 22000",
+            "AGEC 29800",
+            "AGEC 32700",
+            "AGEC 33000",
+            "AGEC 42400"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AGEC 20300 / AGEC 20400 / ECON 25100",
+              "courses": [
+                "AGEC 20300",
+                "AGEC 20400",
+                "ECON 25100"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AGEC 21700 / ECON 21000 / ECON 25200",
+              "courses": [
+                "AGEC 21700",
+                "ECON 21000",
+                "ECON 25200"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AGEC 35200 / AGEC 45100",
+              "courses": [
+                "AGEC 35200",
+                "AGEC 45100"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Agribusiness Management Concentration Courses",
+          "credit_target": 15.0,
+          "kind": "choose",
+          "options": [
+            "AGEC 43000",
+            {
+              "kind": "one_of",
+              "name": "AGEC 45500 / STRT 45500",
+              "courses": [
+                "AGEC 45500",
+                "STRT 45500"
+              ]
+            },
+            "OBHR 44301",
+            "OBHR 44428",
+            "OBHR 33000",
+            "TLI 11200",
+            "TLI 15200",
+            "IET 21400",
+            "IET 23500",
+            "IET 31600",
+            "IET 41400"
+          ],
+          "choose_credits": 15.0
+        },
+        {
+          "name": "Agricultural Economics Departmental Selectives",
+          "credit_target": 17.0,
+          "kind": "credits",
+          "credits": 17.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        15.0,
+        19.0
+      ],
+      "kind": "credits",
+      "credits": 15.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AGEC 29800",
+          "title": "Careers In Agribusiness",
+          "credits": 1.0
+        },
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11200",
+          "title": "Introduction To Agricultural Economics Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "AGEC Biological Sciences Selective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "AGEC 20300",
+          "title": "Introductory Microeconomics For Food And Agribusiness (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 20400",
+              "title": "Introduction To Resource Economics And Environmental Policy (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "ECON 25100",
+              "title": "Microeconomics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGEC 20201",
+          "title": "Introduction To Data Analytics For Agricultural Business",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 21700",
+          "title": "Economics (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ECON 21000",
+              "title": "Principles Of Economics (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "ECON 25200",
+              "title": "Macroeconomics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "AGEC Biological Sciences Selective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "AGEC 22000",
+          "title": "Economics Of Agricultural Markets",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGEC 33000",
+          "title": "Management Methods For Agricultural Business",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ACCT 21200",
+              "title": "Business Accounting",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Human Relations Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "OBHR 44301",
+          "title": "Management Of Human Resources",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "OBHR 44428",
+              "title": "Human Resources Management",
+              "credits": 3.0
+            },
+            {
+              "code": "OBHR 33000",
+              "title": "Introduction To Organizational Behavior",
+              "credits": 3.0
+            },
+            {
+              "code": "TLI 11200",
+              "title": "Foundations Of Organizational Leadership",
+              "credits": 3.0
+            },
+            {
+              "code": "TLI 15200",
+              "title": "Business Principles For Organizational Leadership",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGEC 32700",
+          "title": "Principles Of Food And Agribusiness Marketing",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 42400",
+          "title": "Financial Management Of Agricultural Business",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 35200",
+          "title": "Quantitative Techniques For Firm Decision Making",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 45100",
+              "title": "Applied Econometrics",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Industrial Technology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "IET 21400",
+          "title": "Introduction To Supply Chain Management Technology",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "IET 23500",
+              "title": "Introduction To Systems Thinking And Process Improvement",
+              "credits": 3.0
+            },
+            {
+              "code": "IET 31600",
+              "title": "Statistical Quality Control",
+              "credits": 3.0
+            },
+            {
+              "code": "IET 41400",
+              "title": "Financial Analysis For Technology Systems",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "AGEC 45500",
+          "title": "Agricultural Law",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STRT 45500",
+              "title": "Legal Background For Business I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "AGEC Food and Agribusiness Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Agricultural Economics Selective (AGEC 20300:59999)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AGEC Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities or Social Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "AGEC 43000",
+          "title": "Agricultural And Food Business Strategy",
+          "credits": 3.0
+        },
+        {
+          "label": "AGEC Food and Agribusiness Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 20201",
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 21700",
+    "AGEC 22000",
+    "AGEC 29800",
+    "AGEC 32700",
+    "AGEC 33000",
+    "AGEC 35200",
+    "AGEC 42400",
+    "AGEC 43000",
+    "AGEC 45100",
+    "AGEC 45500",
+    "AGR 10100",
+    "AGR 11200",
+    "CHM 11100",
+    "CHM 11200",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "HEA 01348",
+    "HELP 02026",
+    "IET 21400",
+    "IET 23500",
+    "IET 31600",
+    "IET 41400",
+    "IN 47907",
+    "MA 16010",
+    "OBHR 33000",
+    "OBHR 44301",
+    "OBHR 44428",
+    "STAT 30100",
+    "STRT 45500",
+    "TLI 11200",
+    "TLI 15200"
+  ]
+}

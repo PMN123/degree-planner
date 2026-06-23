@@ -1,0 +1,579 @@
+{
+  "id": "computer-science-algorithmic-foundations-bs",
+  "poid": "35691",
+  "name": "Computer Science: Algorithmic Foundations, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35691",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.616899+00:00",
+  "course_credits": {
+    "MA 26100": 4.0,
+    "MA 27101": 5.0,
+    "MA 26500": 3.0,
+    "MA 35100": 3.0,
+    "CS 18000": 4.0,
+    "CS 18200": 3.0,
+    "CS 24000": 3.0,
+    "CS 25000": 4.0,
+    "CS 25100": 3.0,
+    "CS 25200": 4.0,
+    "CS 38100": 3.0,
+    "CS 35200": 3.0,
+    "CS 35400": 3.0,
+    "CS 37300": 3.0,
+    "CS 47100": 3.0,
+    "CS 31100": 2.0,
+    "CS 41100": 2.0,
+    "CS 31400": 3.0,
+    "CS 33400": 3.0,
+    "CS 35300": 3.0,
+    "CS 35500": 3.0,
+    "CS 44800": 3.0,
+    "CS 45600": 3.0,
+    "CS 45800": 3.0,
+    "CS 48300": 3.0,
+    "MA 34100": 3.0,
+    "MA 35301": 3.0,
+    "MA 36200": 3.0,
+    "MA 38500": 3.0,
+    "MA 36600": 4.0,
+    "MA 42100": 3.0,
+    "MA 45300": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "STAT 35000": 3.0,
+    "STAT 51100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Computer Science Major Courses",
+      "credit_target": [
+        46.0,
+        47.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required CS Major Math Courses",
+          "credit_target": [
+            7.0,
+            8.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "MA 26100 / MA 27101",
+              "courses": [
+                "MA 26100",
+                "MA 27101"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 26500 / MA 35100",
+              "courses": [
+                "MA 26500",
+                "MA 35100"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Required CS Major Core Courses",
+          "credit_target": 21.0,
+          "kind": "all_of",
+          "courses": [
+            "CS 18000",
+            "CS 18200",
+            "CS 24000",
+            "CS 25000",
+            "CS 25100",
+            "CS 25200"
+          ]
+        },
+        {
+          "name": "Algorithmic Foundations Concentration",
+          "credit_target": 18.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Required Courses",
+              "kind": "all_of",
+              "courses": [
+                "CS 38100"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "CS 35200 / CS 35400",
+                  "courses": [
+                    "CS 35200",
+                    "CS 35400"
+                  ]
+                },
+                {
+                  "kind": "one_of",
+                  "name": "CS 37300 / CS 47100",
+                  "courses": [
+                    "CS 37300",
+                    "CS 47100"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Selectives",
+              "kind": "choose",
+              "options": [
+                "CS 31100",
+                "CS 41100",
+                "CS 31400",
+                "CS 33400",
+                "CS 35300",
+                "CS 35500",
+                "CS 44800",
+                "CS 45600",
+                "CS 45800",
+                "CS 48300",
+                "MA 34100",
+                "MA 35301",
+                "MA 36200",
+                "MA 38500",
+                "MA 36600",
+                "MA 42100",
+                "MA 45300"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Science Additional Requirements",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Computing",
+          "credit_target": [
+            3.0,
+            4.0
+          ],
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Laboratory Science",
+          "credit_target": [
+            6.0,
+            8.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Mathematics",
+          "credit_target": [
+            8.0,
+            10.0
+          ],
+          "kind": "choose",
+          "options": [
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            }
+          ],
+          "choose_credits": 8.0
+        },
+        {
+          "name": "Statistics",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "STAT 35000",
+            "STAT 51100"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        12.0,
+        39.0
+      ],
+      "kind": "credits",
+      "credits": 12.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "CS 18000",
+          "title": "Problem Solving And Object-Oriented Programming",
+          "credits": 4.0
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection: Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "CS 18200",
+          "title": "Foundations Of Computer Science",
+          "credits": 3.0
+        },
+        {
+          "code": "CS 24000",
+          "title": "Programming In C",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Langauge or Culture I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "code": "CS 25000",
+          "title": "Computer Architecture",
+          "credits": 4.0
+        },
+        {
+          "code": "CS 25100",
+          "title": "Data Structures And Algorithms",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "MA 27101",
+              "title": "Honors Multivariate Calculus (UCC: QR)",
+              "credits": 5.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection: Language or Culture II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "CS 25200",
+          "title": "Systems Programming",
+          "credits": 4.0
+        },
+        {
+          "code": "MA 26500",
+          "title": "Linear Algebra (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 35100",
+              "title": "Elementary Linear Algebra (UCC: QR)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection: Technical Writing & Presentation",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Language & Culture III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection:&nbsp;Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "STAT 35000",
+          "title": "Introduction To Statistics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 51100",
+              "title": "Statistical Methods",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Algorithmic Foundations Concentration course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Algorithmic Foundations Concentration course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: General Education I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "label": "Algorithmic Foundations Concentration course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Algorithmic Foundations Concentration course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Great Issues In Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: General Education II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "label": "Algorithmic Foundations Concentration course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: General Education III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Lab Science I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "label": "Algorithmic Foundations Concentration course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Lab Science II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "COM 21700",
+    "CS 18000",
+    "CS 18200",
+    "CS 19300",
+    "CS 24000",
+    "CS 25000",
+    "CS 25100",
+    "CS 25200",
+    "CS 29100",
+    "CS 31100",
+    "CS 31400",
+    "CS 33400",
+    "CS 35200",
+    "CS 35300",
+    "CS 35400",
+    "CS 35500",
+    "CS 37300",
+    "CS 38100",
+    "CS 39100",
+    "CS 41100",
+    "CS 44800",
+    "CS 45600",
+    "CS 45800",
+    "CS 47100",
+    "CS 48300",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26500",
+    "MA 27101",
+    "MA 34100",
+    "MA 35100",
+    "MA 35301",
+    "MA 36200",
+    "MA 36600",
+    "MA 38500",
+    "MA 42100",
+    "MA 45300",
+    "STAT 35000",
+    "STAT 51100"
+  ]
+}

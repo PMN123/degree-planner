@@ -1,0 +1,412 @@
+{
+  "id": "smart-manufacturing-industrial-informatics-bs",
+  "poid": "35635",
+  "name": "Smart Manufacturing Industrial Informatics, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35635",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.683624+00:00",
+  "course_credits": {
+    "ENGT 18200": 4.0,
+    "ENGT 48100": 3.0,
+    "MET 14300": 3.0,
+    "MET 14400": 3.0,
+    "MET 24500": 3.0,
+    "MET 28400": 3.0,
+    "MFET 23000": 3.0,
+    "MFET 23100": 3.0,
+    "MFET 24800": 3.0,
+    "MFET 25000": 3.0,
+    "MFET 34100": 3.0,
+    "MFET 34400": 3.0,
+    "MFET 35000": 3.0,
+    "MFET 35200": 3.0,
+    "MFET 36100": 3.0,
+    "MFET 36300": 3.0,
+    "MFET 36400": 3.0,
+    "MFET 41000": 3.0,
+    "MFET 44000": 3.0,
+    "MFET 48001": 3.0,
+    "CNIT 15501": 3.0,
+    "ECET 22400": 3.0,
+    "IET 21400": 3.0,
+    "MFET 10301": 3.0,
+    "STAT 30100": 3.0,
+    "TECH 12000": 3.0,
+    "COM 11400": 3.0,
+    "SCLA 10200": 3.0,
+    "COM 31500": 3.0,
+    "COM 32000": 3.0,
+    "COM 41500": 3.0,
+    "EDPS 31500": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0,
+    "SCLA 10100": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ENGL 42400": 3.0,
+    "AGEC 33000": 3.0,
+    "IE 34300": 3.0,
+    "IET 33400": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16020": 3.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "PHYS 17200": 4.0,
+    "PHYS 22000": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 64.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 64.0,
+          "kind": "all_of",
+          "courses": [
+            "ENGT 18200",
+            "ENGT 48100",
+            "MET 14300",
+            "MET 14400",
+            "MET 24500",
+            "MET 28400",
+            "MFET 23000",
+            "MFET 23100",
+            "MFET 24800",
+            "MFET 25000",
+            "MFET 34100",
+            "MFET 34400",
+            "MFET 35000",
+            "MFET 35200",
+            "MFET 36100",
+            "MFET 36300",
+            "MFET 36400",
+            "MFET 41000",
+            "MFET 44000",
+            "MFET 48001"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "ENGT 18200",
+          "title": "Gateway To Engineering Technology",
+          "credits": 4.0
+        },
+        {
+          "code": "MET 14300",
+          "title": "Materials And Processes I",
+          "credits": 3.0
+        },
+        {
+          "label": "Freshman Composition Selective +",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Lab Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Math Selective I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "CNIT 15501",
+          "title": "Introduction To Software Development Concepts",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 10301",
+          "title": "Geometric Modeling And Product Data Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Math Selective II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "ECET 22400",
+          "title": "Electronic Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 23000",
+          "title": "Industrial Internet Of Things, Networks, And Systems I",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 25000",
+          "title": "Smart Manufacturing Cloud Computing Applications",
+          "credits": 3.0
+        },
+        {
+          "label": "Technical Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Physics Selective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "MET 24500",
+          "title": "Manufacturing Systems And Processes",
+          "credits": 3.0
+        },
+        {
+          "code": "MET 28400",
+          "title": "Industrial Control Systems For Smart Manufacturing",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 23100",
+          "title": "Industrial Internet Of Things, Networks, And Systems II",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 24800",
+          "title": "Industrial Robot Programming And Applications",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "MET 14400",
+          "title": "Materials And Processes II",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 35000",
+          "title": "Smart Manufacturing Systems Modeling And Visualization",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 36100",
+          "title": "Machine Learning And Manufacturing Analytics",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "IET 21400",
+          "title": "Introduction To Supply Chain Management Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 34400",
+          "title": "CNC Programming And Machining",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 35200",
+          "title": "Smart Manufacturing Production Information Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 36300",
+          "title": "Intelligent Manufacturing Systems I",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "MFET 34100",
+          "title": "Process Control For Smart Manufacturing",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 36400",
+          "title": "Intelligent Manufacturing Systems II",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 44000",
+          "title": "Smart Manufacturing Autonomous Human Robot Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 48001",
+          "title": "Engineering Technology Capstone I",
+          "credits": 3.0
+        },
+        {
+          "label": "Business Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "ENGT 48100",
+          "title": "Engineering Technology Capstone II",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 41000",
+          "title": "Introduction To Additive Manufacturing",
+          "credits": 3.0
+        },
+        {
+          "label": "Advanced Oral Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 33000",
+    "CNIT 15501",
+    "COM 11400",
+    "COM 31500",
+    "COM 32000",
+    "COM 41500",
+    "ECET 22400",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGL 42400",
+    "ENGT 18200",
+    "ENGT 48100",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IE 34300",
+    "IET 21400",
+    "IET 33400",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MET 14300",
+    "MET 14400",
+    "MET 24500",
+    "MET 28400",
+    "MFET 10301",
+    "MFET 23000",
+    "MFET 23100",
+    "MFET 24800",
+    "MFET 25000",
+    "MFET 34100",
+    "MFET 34400",
+    "MFET 35000",
+    "MFET 35200",
+    "MFET 36100",
+    "MFET 36300",
+    "MFET 36400",
+    "MFET 41000",
+    "MFET 44000",
+    "MFET 48001",
+    "PHYS 17200",
+    "PHYS 22000",
+    "SCLA 10100",
+    "SCLA 10200",
+    "STAT 30100",
+    "TECH 12000"
+  ]
+}

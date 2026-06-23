@@ -1,0 +1,474 @@
+{
+  "id": "agricultural-systems-management-bs",
+  "poid": "34700",
+  "name": "Agricultural Systems Management, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34700",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.177627+00:00",
+  "course_credits": {
+    "ASM 10400": 3.0,
+    "ASM 10500": 3.0,
+    "ASM 21100": 3.0,
+    "ASM 22100": 1.0,
+    "ASM 22200": 3.0,
+    "ASM 33300": 3.0,
+    "ASM 35000": 1.0,
+    "ASM 42100": 1.0,
+    "ASM 49400": 1.0,
+    "ASM 49500": 3.0,
+    "AGEC 31000": 3.0,
+    "AGEC 33000": 3.0,
+    "ASM 23600": 3.0,
+    "ASM 24500": 3.0,
+    "ASM 34500": 3.0,
+    "ASM 42000": 3.0,
+    "AGR 10100": 0.5,
+    "AGR 11100": 0.5,
+    "AGEC 33100": 3.0,
+    "AGEC 35200": 3.0,
+    "AGRY 25500": 3.0,
+    "AGEC 45500": 3.0,
+    "STRT 45500": 3.0,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0,
+    "MA 16010": 3.0,
+    "PHYS 21400": 3.0,
+    "STAT 30100": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "AGEC 20300": 3.0,
+    "ECON 25100": 3.0,
+    "AGEC 22000": 3.0,
+    "AGEC 32100": 3.0,
+    "AGEC 32700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        50.0,
+        53.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 22.0,
+          "kind": "all_of",
+          "courses": [
+            "ASM 10400",
+            "ASM 10500",
+            "ASM 21100",
+            "ASM 22100",
+            "ASM 22200",
+            "ASM 33300",
+            "ASM 35000",
+            "ASM 42100",
+            "ASM 49400",
+            "ASM 49500"
+          ]
+        },
+        {
+          "name": "ASM (No Concentration) Courses",
+          "credit_target": [
+            28.0,
+            31.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "ASM Courses",
+              "credit_target": 12.0,
+              "kind": "all_of",
+              "courses": [
+                "ASM 34500",
+                "ASM 42000"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "AGEC 31000 / AGEC 33000",
+                  "courses": [
+                    "AGEC 31000",
+                    "AGEC 33000"
+                  ]
+                },
+                {
+                  "kind": "one_of",
+                  "name": "ASM 23600 / ASM 24500",
+                  "courses": [
+                    "ASM 23600",
+                    "ASM 24500"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ASM Selectives",
+              "credit_target": [
+                16.0,
+                19.0
+              ],
+              "kind": "credits",
+              "credits": 16.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11100",
+          "title": "Introduction To Agricultural And Biological Engineering Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "ASM 10400",
+          "title": "Introduction To Agricultural Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AGEC 20300",
+          "title": "Introductory Microeconomics For Food And Agribusiness (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ECON 25100",
+              "title": "Microeconomics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "ASM 10500",
+          "title": "Computing Technology With Applications (UCC: AI/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 21400",
+          "title": "The Nature Of Physics (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "ASM 22100",
+          "title": "Career Opportunities Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "ASM 22200",
+          "title": "Crop Production Equipment",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "ASM 23600",
+          "title": "Environmental Systems Management (UCC: STS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ASM 24500",
+              "title": "Materials Handling And Processing",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Biological Science Selective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "AGRY 25500",
+          "title": "Soil Science",
+          "credits": 3.0
+        },
+        {
+          "code": "ASM 21100",
+          "title": "Technical Graphic Communications",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 31000",
+          "title": "Farm Organization",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 33000",
+              "title": "Management Methods For Agricultural Business",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Biological Science Selective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGEC 33100",
+          "title": "Principles Of Industrial Selling",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 35200",
+          "title": "Quantitative Techniques For Firm Decision Making",
+          "credits": 3.0
+        },
+        {
+          "code": "ASM 33300",
+          "title": "Facilities Planning And Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Agricultural Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "ASM 34500",
+          "title": "Power Units And Power Trains",
+          "credits": 3.0
+        },
+        {
+          "code": "ASM 35000",
+          "title": "Safety In Agriculture",
+          "credits": 1.0
+        },
+        {
+          "code": "ASM 42000",
+          "title": "Electric Power And Controls",
+          "credits": 3.0
+        },
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "label": "Marketing Selective",
+              "credits": 3.0,
+              "slot": true
+            }
+          ]
+        },
+        {
+          "code": "ACCT 21200",
+          "title": "Business Accounting",
+          "credits": 3.0
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "ASM 42100",
+          "title": "Senior Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "ASM 49400",
+          "title": "Project Planning And Management",
+          "credits": 1.0
+        },
+        {
+          "code": "AGEC 45500",
+          "title": "Agricultural Law",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STRT 45500",
+              "title": "Legal Background For Business I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Agricultural Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Agricultural Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "ASM 49500",
+          "title": "Agricultural Systems Management Capstone Project",
+          "credits": 3.0
+        },
+        {
+          "label": "Agricultural Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Agricultural Selective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Agricultural Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "ASM Major Selective (any ASM course 40000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 20300",
+    "AGEC 22000",
+    "AGEC 31000",
+    "AGEC 32100",
+    "AGEC 32700",
+    "AGEC 33000",
+    "AGEC 33100",
+    "AGEC 35200",
+    "AGEC 45500",
+    "AGR 10100",
+    "AGR 11100",
+    "AGRY 25500",
+    "ASM 10400",
+    "ASM 10500",
+    "ASM 21100",
+    "ASM 22100",
+    "ASM 22200",
+    "ASM 23600",
+    "ASM 24500",
+    "ASM 33300",
+    "ASM 34500",
+    "ASM 35000",
+    "ASM 42000",
+    "ASM 42100",
+    "ASM 49400",
+    "ASM 49500",
+    "CHM 11100",
+    "CHM 11200",
+    "ECON 25100",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "PHYS 21400",
+    "STAT 30100",
+    "STRT 45500"
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "id": "public-health-bs",
+  "poid": "35732",
+  "name": "Public Health, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35732",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.098885+00:00",
+  "course_credits": {
+    "PUBH 10001": 3.0,
+    "PUBH 20500": 3.0,
+    "PUBH 23000": 3.0,
+    "PUBH 24000": 2.0,
+    "PUBH 29500": 1.0,
+    "PUBH 32000": 3.0,
+    "PUBH 32500": 3.0,
+    "PUBH 36500": 3.0,
+    "PUBH 38000": 3.0,
+    "PUBH 40500": 3.0,
+    "PUBH 48000": 9.0,
+    "BIOL 20300": 4.0,
+    "BIOL 20400": 4.0,
+    "PSY 12000": 3.0,
+    "SOC 10000": 3.0,
+    "CHM 11100": 3.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11200": 3.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "COM 11400": 3.0,
+    "COM 21700": 3.0,
+    "COM 37800": 3.0,
+    "COM 47800": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ENGL 42201": 3.0,
+    "HSCI 20200": 3.0,
+    "HSCI 34500": 3.0,
+    "MA 15300": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "MA 16020": 3.0,
+    "MA 16100": 5.0,
+    "STAT 30100": 3.0,
+    "STAT 35000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Electives",
+      "credit_target": [
+        17.0,
+        26.0
+      ],
+      "kind": "credits",
+      "credits": 17.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "BIOL 20300",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "COM 21700",
+              "title": "Science Writing And Presentation (UCC: OC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "MA 15300",
+          "title": "College Algebra (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 15800",
+              "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+              "credits": 3.0
+            },
+            {
+              "code": "MA 16010",
+              "title": "Applied Calculus I (UCC: QR)",
+              "credits": 3.0
+            },
+            {
+              "code": "MA 16020",
+              "title": "Applied Calculus II (UCC: QR)",
+              "credits": 3.0
+            },
+            {
+              "code": "MA 16100",
+              "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 5.0
+            }
+          ]
+        },
+        {
+          "code": "PUBH 10001",
+          "title": "Introduction To Public Health",
+          "credits": 3.0
+        },
+        {
+          "label": "Other Language 10100",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "BIOL 20400",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "PUBH 20500",
+          "title": "Basic Public Health Studies",
+          "credits": 3.0
+        },
+        {
+          "code": "PUBH 23000",
+          "title": "Social Factors In Public Health",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Other Language 10200",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 11510",
+              "title": "General Chemistry I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "PUBH 24000",
+          "title": "Global Health",
+          "credits": 2.0
+        },
+        {
+          "code": "SOC 10000",
+          "title": "Introductory Sociology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 11610",
+              "title": "General Chemistry II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 35000",
+              "title": "Introduction To Statistics",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "PUBH Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Ethics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "PUBH 29500",
+          "title": "Internship & Career Preparation",
+          "credits": 1.0
+        },
+        {
+          "code": "PUBH 32000",
+          "title": "Health Behavior And Health Promotion",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Anthropology, Psychology or Sociology Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "ENGL 42000",
+          "title": "Business Writing",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 42100",
+              "title": "Technical Writing",
+              "credits": 3.0
+            },
+            {
+              "code": "ENGL 42201",
+              "title": "Writing For The Health And Human Sciences",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "HSCI 20200",
+          "title": "Essentials Of Environmental, Occupational, And Radiological Health Sciences (UCC: STS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HSCI 34500",
+              "title": "Introduction To Occupational And Environmental Health Sciences",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "PUBH 40500",
+          "title": "Principles Of Epidemiology",
+          "credits": 3.0
+        },
+        {
+          "code": "PUBH 32500",
+          "title": "Methods Of Health Promotion And Education",
+          "credits": 3.0
+        },
+        {
+          "code": "COM 37800",
+          "title": "Introduction To Health Communication",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "COM 47800",
+              "title": "Health Communication Campaigns",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, & Society",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "12-15 Credits",
+      "items": [
+        {
+          "code": "PUBH 38000",
+          "title": "Public Health Policy",
+          "credits": 3.0
+        },
+        {
+          "code": "PUBH 36500",
+          "title": "Public Health Research Methods",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "PUBH 48000",
+          "title": "Internship For Public Health",
+          "credits": 9.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "BIOL 20300",
+    "BIOL 20400",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11610",
+    "CHM 11620",
+    "COM 11400",
+    "COM 21700",
+    "COM 37800",
+    "COM 47800",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGL 42201",
+    "HEA 01348",
+    "HELP 02026",
+    "HSCI 20200",
+    "HSCI 34500",
+    "IN 47907",
+    "MA 15300",
+    "MA 15800",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "PSY 12000",
+    "PUBH 10001",
+    "PUBH 20500",
+    "PUBH 23000",
+    "PUBH 24000",
+    "PUBH 29500",
+    "PUBH 32000",
+    "PUBH 32500",
+    "PUBH 36500",
+    "PUBH 38000",
+    "PUBH 40500",
+    "PUBH 48000",
+    "SOC 10000",
+    "STAT 30100",
+    "STAT 35000"
+  ]
+}

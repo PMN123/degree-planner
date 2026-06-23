@@ -1,0 +1,734 @@
+{
+  "id": "integrated-business-and-engineering-bs",
+  "poid": "35612",
+  "name": "Integrated Business & Engineering, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": null,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35612",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.381297+00:00",
+  "course_credits": {
+    "ACCT 20000": 3.0,
+    "ACCT 20100": 3.0,
+    "ECON 25100": 3.0,
+    "FIN 31000": 3.0,
+    "IBE 29150": 0.0,
+    "MIS 38200": 3.0,
+    "MKTG 32400": 3.0,
+    "OBHR 33000": 3.0,
+    "OBHR 49300": 2.0,
+    "QM 30500": 3.0,
+    "SCOM 36100": 3.0,
+    "STRT 35200": 3.0,
+    "STRT 49200": 2.0,
+    "ACCT 21000": 3.0,
+    "DSB 18700": 2.0,
+    "FIN 25800": 3.0,
+    "QM 30600": 3.0,
+    "QM 47200": 3.0,
+    "QM 47400": 3.0,
+    "SCOM 46600": 3.0,
+    "CS 18000": 4.0,
+    "MIS 38800": 3.0,
+    "ECON 30100": 3.0,
+    "ACCT 35300": 3.0,
+    "FIN 41100": 3.0,
+    "MKTG 42710": 3.0,
+    "OBHR 44362": 3.0,
+    "STRT 44810": 3.0,
+    "SCOM 46300": 3.0,
+    "QM 47300": 3.0,
+    "MIS 48800": 3.0,
+    "ENGR 13300": 2.0,
+    "EPCS 11100": 1.0,
+    "VIP 17911": 1.0,
+    "EPCS 12100": 1.0,
+    "VIP 17912": 1.0,
+    "CCE 29700": 3.0,
+    "ME 27000": 3.0,
+    "ABE 20500": 3.0,
+    "CCE 22200": 3.0,
+    "ECE 20001": 3.0,
+    "EEE 30000": 3.0,
+    "IE 23000": 3.0,
+    "IE 34300": 3.0,
+    "ME 20000": 3.0,
+    "MSE 23000": 3.0,
+    "NUCL 20000": 3.0,
+    "NUCL 30000": 3.0,
+    "SYS 30000": 3.0,
+    "SYS 35000": 3.0,
+    "IE 47200": 3.0,
+    "IBE 29110": 1.0,
+    "IBE 29120": 1.0,
+    "IBE 29130": 1.0,
+    "IBE 29140": 1.0,
+    "IBE 49400": 3.0,
+    "EPCS 30200": 2.0,
+    "VIP 37920": 2.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "MA 16500": 4.0,
+    "MA 16600": 4.0,
+    "MA 26100": 4.0,
+    "PHYS 17200": 4.0,
+    "STAT 35000": 3.0,
+    "STAT 30301": 3.0,
+    "COM 11400": 3.0,
+    "SCLA 10200": 3.0,
+    "COM 21700": 3.0,
+    "EDPS 31500": 3.0,
+    "SCLA 10100": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Department/Program Major Courses",
+      "credit_target": [
+        84.0,
+        90.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Business Courses",
+          "credit_target": 45.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Business Core Courses",
+              "credit_target": 36.0,
+              "kind": "choose",
+              "options": [
+                "ACCT 20000",
+                "ACCT 20100",
+                "ECON 25100",
+                "FIN 31000",
+                "IBE 29150",
+                "MIS 38200",
+                "MKTG 32400",
+                "OBHR 33000",
+                "OBHR 49300",
+                "QM 30500",
+                "SCOM 36100",
+                "STRT 35200",
+                "STRT 49200",
+                {
+                  "kind": "one_of",
+                  "name": "ACCT 21000 / DSB 18700 / FIN 25800",
+                  "courses": [
+                    "ACCT 21000",
+                    "DSB 18700",
+                    "FIN 25800"
+                  ]
+                }
+              ],
+              "choose_credits": 36.0
+            },
+            {
+              "name": "Business Method Selectives",
+              "credit_target": 6.0,
+              "kind": "choose",
+              "options": [
+                "QM 30600",
+                "QM 47200",
+                "QM 47400",
+                "SCOM 46600",
+                {
+                  "kind": "one_of",
+                  "name": "CS 18000 / MIS 38800",
+                  "courses": [
+                    "CS 18000",
+                    "MIS 38800"
+                  ]
+                }
+              ],
+              "choose_credits": 6.0
+            },
+            {
+              "name": "Business Depth Selective",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "ECON 30100",
+                "ACCT 35300",
+                "FIN 41100",
+                "MKTG 42710",
+                "OBHR 44362",
+                "STRT 44810",
+                "SCOM 46300",
+                "QM 47300",
+                "MIS 48800"
+              ],
+              "choose_credits": 3.0
+            }
+          ]
+        },
+        {
+          "name": "Engineering Courses",
+          "credit_target": 16.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Engineering Required Courses",
+              "credit_target": 7.0,
+              "kind": "all_of",
+              "courses": [
+                "ENGR 13300"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "EPCS 11100 / VIP 17911",
+                  "courses": [
+                    "EPCS 11100",
+                    "VIP 17911"
+                  ]
+                },
+                {
+                  "kind": "one_of",
+                  "name": "EPCS 12100 / VIP 17912",
+                  "courses": [
+                    "EPCS 12100",
+                    "VIP 17912"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Engineering IBE Core Selectives",
+              "credit_target": 6.0,
+              "kind": "choose",
+              "options": [
+                {
+                  "kind": "one_of",
+                  "name": "CCE 29700 / ME 27000",
+                  "courses": [
+                    "CCE 29700",
+                    "ME 27000"
+                  ]
+                },
+                "ABE 20500",
+                "CCE 22200",
+                "ECE 20001",
+                "EEE 30000",
+                "IE 23000",
+                "IE 34300",
+                "ME 20000",
+                "MSE 23000",
+                "NUCL 20000",
+                "NUCL 30000"
+              ],
+              "choose_credits": 6.0
+            },
+            {
+              "name": "Engineering Selectives",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "SYS 30000",
+                "SYS 35000",
+                "IE 47200"
+              ],
+              "choose_credits": 3.0
+            }
+          ]
+        },
+        {
+          "name": "Seminar & Innovation Lab Selectives",
+          "credit_target": 11.0,
+          "kind": "choose",
+          "options": [
+            "IBE 29110",
+            "IBE 29120",
+            "IBE 29130",
+            "IBE 29140",
+            "IBE 49400",
+            "EPCS 30200",
+            "VIP 37920"
+          ],
+          "choose_credits": 11.0
+        },
+        {
+          "name": "Specialtization",
+          "credit_target": [
+            12.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 12.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ENGR 13300",
+          "title": "Transforming Ideas To Innovation, EPICS/VIP (UCC: AI/IL)",
+          "credits": 2.0
+        },
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0
+        },
+        {
+          "code": "IBE 29110",
+          "title": "Integrated Business & Engineering Seminar I",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16500",
+          "title": "Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "EPCS 11100",
+          "title": "First Year Participation In EPICS I (UCC: STS)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "VIP 17911",
+              "title": "First Year Participation In Vertically Integrated Projects (VIP) I (UCC: STS)",
+              "credits": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "17-18 Credits",
+      "items": [
+        {
+          "code": "ECON 25100",
+          "title": "Microeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16600",
+          "title": "Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "PHYS 17200",
+          "title": "Modern Mechanics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "EPCS 12100",
+          "title": "First Year Participation In EPICS II (UCC: STS)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "VIP 17912",
+              "title": "First Year Participation In Vertically Integrated Projects (VIP) II",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "SCLA 10200",
+          "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "COM 11400",
+              "title": "Fundamentals Of Speech Communication (UCC: OC)",
+              "credits": 3.0
+            },
+            {
+              "code": "COM 21700",
+              "title": "Science Writing And Presentation (UCC: OC)",
+              "credits": 3.0
+            },
+            {
+              "code": "EDPS 31500",
+              "title": "Collaborative Leadership: Interpersonal Skills (UCC: OC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "ACCT 21000",
+          "title": "AI In Accounting",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "DSB 18700",
+              "title": "Intro To AI For Business (UCC:AI)",
+              "credits": 2.0
+            },
+            {
+              "code": "FIN 25800",
+              "title": "AI In Finance (UCC: AI)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "17-18 Credits",
+      "items": [
+        {
+          "code": "ACCT 20100",
+          "title": "Management Accounting I",
+          "credits": 3.0
+        },
+        {
+          "code": "IBE 29120",
+          "title": "Integrated Business & Engineering Seminar II",
+          "credits": 1.0
+        },
+        {
+          "code": "IBE 29150",
+          "title": "IBE Professional Development",
+          "credits": 0.0
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "STAT 35000",
+          "title": "Introduction To Statistics",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication Selective \u2666",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "SCLA 10100",
+          "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL 10800",
+          "title": "First Year Composition (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "code": "HONR 19903",
+          "title": "Interdisciplinary Approaches In Writing (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "label": "Engineering IBE Core Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "FIN 31000",
+          "title": "Financial Management",
+          "credits": 3.0
+        },
+        {
+          "code": "IBE 29130",
+          "title": "Integrated Business & Engineering Seminar III",
+          "credits": 1.0
+        },
+        {
+          "code": "IBE 29150",
+          "title": "IBE Professional Development",
+          "credits": 0.0
+        },
+        {
+          "code": "MIS 38800",
+          "title": "Python For Business",
+          "credits": 3.0
+        },
+        {
+          "code": "MKTG 32400",
+          "title": "Marketing Management",
+          "credits": 3.0
+        },
+        {
+          "code": "QM 30500",
+          "title": "Business Statistics",
+          "credits": 3.0
+        },
+        {
+          "label": "Engineering IBE Core Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "IBE 29150",
+          "title": "IBE Professional Development",
+          "credits": 0.0
+        },
+        {
+          "code": "SCOM 36100",
+          "title": "Operations Management",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 49200",
+          "title": "Intellectual Property Management",
+          "credits": 2.0
+        },
+        {
+          "label": "Business Method Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Specialties Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Team Based Design Selective (Innovative Lab)",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "IBE 29150",
+          "title": "IBE Professional Development",
+          "credits": 0.0
+        },
+        {
+          "code": "MIS 38200",
+          "title": "Management Information Systems",
+          "credits": 3.0
+        },
+        {
+          "label": "Business Method Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Engineering Expansion Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Engineering Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Team Based Design Selective (Innovative Lab)",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "IBE 29140",
+          "title": "Integrated Business & Engineering Seminar IV",
+          "credits": 1.0
+        },
+        {
+          "code": "OBHR 33000",
+          "title": "Introduction To Organizational Behavior",
+          "credits": 3.0
+        },
+        {
+          "code": "OBHR 49300",
+          "title": "Storytelling With Data",
+          "credits": 2.0
+        },
+        {
+          "code": "STRT 35200",
+          "title": "Strategic Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Specialties Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "IBE 49400",
+          "title": "IBE Capstone",
+          "credits": 3.0
+        },
+        {
+          "label": "Business Depth Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Specialties Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Specialties Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ABE 20500",
+    "ACCT 20000",
+    "ACCT 20100",
+    "ACCT 21000",
+    "ACCT 35300",
+    "CCE 22200",
+    "CCE 29700",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "COM 11400",
+    "COM 21700",
+    "CS 18000",
+    "DSB 18700",
+    "ECE 20001",
+    "ECON 25100",
+    "ECON 30100",
+    "EDPS 31500",
+    "EEE 30000",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGR 13300",
+    "EPCS 11100",
+    "EPCS 12100",
+    "EPCS 30200",
+    "FIN 25800",
+    "FIN 31000",
+    "FIN 41100",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IBE 29110",
+    "IBE 29120",
+    "IBE 29130",
+    "IBE 29140",
+    "IBE 29150",
+    "IBE 49400",
+    "IE 23000",
+    "IE 34300",
+    "IE 47200",
+    "IN 47907",
+    "MA 16010",
+    "MA 16100",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "ME 20000",
+    "ME 27000",
+    "MGMT 00352",
+    "MGMT 20000",
+    "MGMT 30500",
+    "MGMT 31000",
+    "MGMT 32400",
+    "MGMT 35000",
+    "MGMT 36100",
+    "MGMT 38200",
+    "MIS 38200",
+    "MIS 38800",
+    "MIS 48800",
+    "MKTG 32400",
+    "MKTG 42710",
+    "MSE 23000",
+    "NUCL 20000",
+    "NUCL 30000",
+    "OBHR 33000",
+    "OBHR 44362",
+    "OBHR 49300",
+    "PHYS 17200",
+    "QM 30500",
+    "QM 30600",
+    "QM 47200",
+    "QM 47300",
+    "QM 47400",
+    "SCLA 10100",
+    "SCLA 10200",
+    "SCOM 36100",
+    "SCOM 46300",
+    "SCOM 46600",
+    "STAT 30301",
+    "STAT 35000",
+    "STRT 35200",
+    "STRT 44810",
+    "STRT 49200",
+    "SYS 30000",
+    "SYS 35000",
+    "VIP 17911",
+    "VIP 17912",
+    "VIP 37920"
+  ]
+}

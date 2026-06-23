@@ -1,0 +1,606 @@
+{
+  "id": "interdisciplinary-performance-ba",
+  "poid": "35901",
+  "name": "Interdisciplinary Performance, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35901",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.659015+00:00",
+  "course_credits": {
+    "DANC 26000": 3.0,
+    "DANC 30000": 3.0,
+    "THTR 13300": 3.0,
+    "THTR 20100": 3.0,
+    "DANC 10100": 2.0,
+    "DANC 10200": 2.0,
+    "DANC 10300": 2.0,
+    "DANC 10400": 2.0,
+    "THTR 23300": 3.0,
+    "DANC 37800": 3.0,
+    "DANC 37900": 3.0,
+    "THTR 38000": 3.0,
+    "THTR 38100": 3.0,
+    "THTR 39000": 1.0,
+    "THTR 48400": 3.0,
+    "DANC 35000": 3.0,
+    "DANC 35100": 3.0,
+    "THTR 33300": 3.0,
+    "DANC 34500": 3.0,
+    "THTR 44000": 3.0,
+    "DANC 20100": 2.0,
+    "DANC 20200": 2.0,
+    "DANC 20300": 2.0,
+    "DANC 20400": 2.0,
+    "DANC 26100": 3.0,
+    "DANC 30100": 2.0,
+    "THTR 25600": 2.0,
+    "THTR 35400": 3.0,
+    "THTR 36000": 3.0,
+    "THTR 36100": 3.0,
+    "THTR 36200": 3.0,
+    "THTR 36300": 3.0,
+    "THTR 36800": 1.0,
+    "THTR 43300": 3.0,
+    "THTR 53600": 2.0,
+    "DANC 34600": 1.0,
+    "DANC 36800": 1.0,
+    "THTR 33600": 1.0,
+    "ECON 25100": 3.0,
+    "ECON 30100": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "OBHR 29300": 3.0,
+    "STRT 29400": 3.0,
+    "FIN 30400": 3.0,
+    "MKTG 32300": 3.0,
+    "OBHR 39100": 3.0,
+    "MKTG 43000": 3.0,
+    "STRT 45500": 3.0,
+    "ENTR 20000": 3.0,
+    "ENTR 31000": 3.0,
+    "ENTR 31500": 3.0,
+    "ENTR 32500": 3.0,
+    "THTR 49701": 3.0,
+    "THTR 47902": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        45.0,
+        46.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Foundation Studies",
+          "credit_target": [
+            23.0,
+            24.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "1. Foundation Courses",
+              "credit_target": 12.0,
+              "kind": "all_of",
+              "courses": [
+                "DANC 26000",
+                "DANC 30000",
+                "THTR 13300",
+                "THTR 20100"
+              ]
+            },
+            {
+              "name": "2. Foundation Selectives",
+              "credit_target": [
+                11.0,
+                12.0
+              ],
+              "kind": "choose",
+              "options": [
+                "DANC 10100",
+                "DANC 10200",
+                "DANC 10300",
+                "DANC 10400",
+                "THTR 23300",
+                "DANC 37800",
+                "DANC 37900",
+                "THTR 38000",
+                "THTR 38100",
+                "THTR 39000",
+                "THTR 48400",
+                "DANC 35000",
+                "DANC 35100",
+                "THTR 33300",
+                "DANC 34500",
+                "THTR 44000"
+              ],
+              "choose_credits": 11.0
+            }
+          ]
+        },
+        {
+          "name": "B. Performance and Production",
+          "credit_target": 10.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "1. Advanced Performance and Design Courses",
+              "credit_target": 6.0,
+              "kind": "choose",
+              "options": [
+                "DANC 20100",
+                "DANC 20200",
+                "DANC 20300",
+                "DANC 20400",
+                "DANC 26100",
+                "DANC 30100",
+                "THTR 25600",
+                "THTR 33300",
+                "THTR 35400",
+                "THTR 36000",
+                "THTR 36100",
+                "THTR 36200",
+                "THTR 36300",
+                "THTR 36800",
+                "THTR 43300",
+                "THTR 53600"
+              ],
+              "choose_credits": 6.0
+            },
+            {
+              "name": "2. Practicum Courses",
+              "credit_target": 4.0,
+              "kind": "all_of",
+              "courses": [
+                "DANC 34600",
+                "DANC 36800",
+                "THTR 33600",
+                "THTR 36800"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C. Marketing and Management or the Certificate in Entrepreneurship and Innovation",
+          "credit_target": 6.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "1. Marketing and Management",
+              "kind": "all_of",
+              "courses": [
+                "ECON 25100",
+                "ECON 30100",
+                "OBHR 29300",
+                "STRT 29400",
+                "FIN 30400",
+                "MKTG 32300",
+                "OBHR 39100",
+                "MKTG 43000",
+                "STRT 45500"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "ACCT 20000 / ACCT 21200",
+                  "courses": [
+                    "ACCT 20000",
+                    "ACCT 21200"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2. Certificate in Entrepreneurship and Innovation*",
+              "kind": "all_of",
+              "courses": [
+                "ENTR 20000",
+                "ENTR 31000",
+                "ENTR 31500",
+                "ENTR 32500"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D. Capstone Project",
+          "credit_target": 6.0,
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For BFA, Professional, & Education",
+      "credit_target": [
+        28.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "LA Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            20.0,
+            39.0
+          ],
+          "kind": "credits",
+          "credits": 20.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        19.0,
+        47.0
+      ],
+      "kind": "credits",
+      "credits": 19.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "code": "THTR 20100",
+          "title": "Theatre Appreciation (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "DANC 37800",
+              "title": "Survey Of Concert Dance History (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "DANC 26000",
+          "title": "Dance Improvisation",
+          "credits": 3.0
+        },
+        {
+          "code": "THTR 13300",
+          "title": "Acting I",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "17-19 Credits",
+      "items": [
+        {
+          "label": "Major Requirement A: Foundation Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "DANC 30000",
+          "title": "Performance Production",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "label": "Major Requirement A: Foundation Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement B.2: Performance and Production Practicum Courses",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement C: Marketing and Management OR Certificate of Entrepreneurship and Innovation",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "12-19 Credits",
+      "items": [
+        {
+          "label": "Major Requirement A: Foundation Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement B.1: Performance and Production Performance and Design Courses",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13-20 Credits",
+      "items": [
+        {
+          "label": "Major Requirement A: Foundation Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement B.1: Performance and Production Performance and Design Courses",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement B.2: Performance and Production Practicum Courses",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement C: Marketing and Management OR Certificate in Entrepreneurship and Innovation",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13-19 Credits",
+      "items": [
+        {
+          "code": "THTR 49701",
+          "title": "Capstone Preparation",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "THTR 47902",
+          "title": "Capstone Project",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "DANC 10100",
+    "DANC 10200",
+    "DANC 10300",
+    "DANC 10400",
+    "DANC 20100",
+    "DANC 20200",
+    "DANC 20300",
+    "DANC 20400",
+    "DANC 24500",
+    "DANC 26000",
+    "DANC 26100",
+    "DANC 30000",
+    "DANC 30100",
+    "DANC 34500",
+    "DANC 34600",
+    "DANC 35000",
+    "DANC 35100",
+    "DANC 36800",
+    "DANC 37800",
+    "DANC 37900",
+    "ECON 25100",
+    "ECON 30100",
+    "ENTR 20000",
+    "ENTR 31000",
+    "ENTR 31500",
+    "ENTR 32500",
+    "FIN 30400",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MKTG 32300",
+    "MKTG 43000",
+    "OBHR 29300",
+    "OBHR 39100",
+    "STRT 29400",
+    "STRT 45500",
+    "THTR 13300",
+    "THTR 20100",
+    "THTR 23300",
+    "THTR 25600",
+    "THTR 33300",
+    "THTR 33600",
+    "THTR 35400",
+    "THTR 36000",
+    "THTR 36100",
+    "THTR 36200",
+    "THTR 36300",
+    "THTR 36800",
+    "THTR 38000",
+    "THTR 38100",
+    "THTR 39000",
+    "THTR 43300",
+    "THTR 44000",
+    "THTR 47902",
+    "THTR 48400",
+    "THTR 49701",
+    "THTR 49702",
+    "THTR 53600"
+  ]
+}

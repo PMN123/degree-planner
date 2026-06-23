@@ -1,0 +1,512 @@
+{
+  "id": "social-studies-education-ba",
+  "poid": "34750",
+  "name": "Social Studies Education, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34750",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.789501+00:00",
+  "course_credits": {
+    "EDCI 20500": 2.0,
+    "EDCI 21610": 1.0,
+    "EDCI 21710": 1.0,
+    "EDCI 21810": 1.0,
+    "EDCI 21910": 1.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 33300": 3.0,
+    "EDCI 37001": 2.0,
+    "EDCI 42300": 3.0,
+    "EDCI 43300": 2.0,
+    "EDCI 49800": 6.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26500": 3.0,
+    "EDPS 32700": 1.0,
+    "EDPS 36201": 0.0,
+    "EDPS 43010": 1.0,
+    "EDST 20010": 1.0,
+    "HIST 10400": 3.0,
+    "HIST 10500": 3.0,
+    "HIST 15100": 3.0,
+    "HIST 15200": 3.0,
+    "POL 10100": 3.0,
+    "POL 37200": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "EAPS 12000": 3.0,
+    "EAPS 10500": 3.0,
+    "EAPS 11100": 3.0,
+    "EAPS 11200": 3.0,
+    "EAPS 11600": 3.0,
+    "EAPS 13800": 3.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 120.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Major: Required Education Courses",
+          "credit_target": 47.0,
+          "kind": "all_of",
+          "courses": [
+            "EDCI 20500",
+            "EDCI 21610",
+            "EDCI 21710",
+            "EDCI 21810",
+            "EDCI 21910",
+            "EDCI 27000",
+            "EDCI 28550",
+            "EDCI 33300",
+            "EDCI 37001",
+            "EDCI 42300",
+            "EDCI 43300",
+            "EDCI 49800",
+            "EDPS 23500",
+            "EDPS 24001",
+            "EDPS 26500",
+            "EDPS 32700",
+            "EDPS 36201",
+            "EDPS 43010",
+            "EDST 20010"
+          ]
+        },
+        {
+          "name": "Required Learner Specialty Pathway Concentration",
+          "credit_target": 9.0,
+          "kind": "credits",
+          "credits": 9.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Major: Social Studies Content",
+          "credit_target": 57.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Historical Perspectives",
+              "credit_target": 21.0,
+              "kind": "all_of",
+              "courses": [
+                "HIST 10400",
+                "HIST 10500",
+                "HIST 15100",
+                "HIST 15200"
+              ]
+            },
+            {
+              "name": "Civics and Government",
+              "credit_target": 15.0,
+              "kind": "all_of",
+              "courses": [
+                "POL 10100",
+                "POL 37200"
+              ]
+            },
+            {
+              "name": "Economics",
+              "credit_target": 9.0,
+              "kind": "all_of",
+              "courses": [
+                "ECON 25100",
+                "ECON 25200"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "AGEC 21700 / ECON 21000",
+                  "courses": [
+                    "AGEC 21700",
+                    "ECON 21000"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diversified",
+              "credit_target": 12.0,
+              "kind": "all_of",
+              "courses": [
+                "EAPS 12000"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "EAPS 10500 / EAPS 11100 / EAPS 11200 / EAPS 11600 / EAPS 13800",
+                  "courses": [
+                    "EAPS 10500",
+                    "EAPS 11100",
+                    "EAPS 11200",
+                    "EAPS 11600",
+                    "EAPS 13800"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "code": "HIST 15100",
+          "title": "American History To 1877 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "POL 10100",
+          "title": "American Government And Politics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 10800",
+          "title": "First Year Composition (UCC: IL/WC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HONR 19903",
+              "title": "Interdisciplinary Approaches In Writing (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "EDCI 21610",
+          "title": "Teaching History: Standards And Strategies",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "HIST 10400",
+          "title": "Introduction To The Modern World (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "HIST 15200",
+          "title": "United States Since 1877 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "POL 37200",
+          "title": "Indiana Government And Politics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 21700",
+          "title": "Economics (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ECON 21000",
+              "title": "Principles Of Economics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECON 25100",
+          "title": "Microeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 21910",
+          "title": "Teaching For Economic Literacy: Developing An Economic Way Of Thinking",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "label": "Psychological Sciences Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Historical Perspectives Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "EAPS 12000",
+          "title": "Introduction To Geography (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 21810",
+          "title": "Teaching Civics And Government: Standards And Strategies",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 26500",
+          "title": "The Inclusive Classroom",
+          "credits": 3.0
+        },
+        {
+          "code": "HIST 10500",
+          "title": "Survey Of Global History (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Civics and Government Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "ECON 25200",
+          "title": "Macroeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 21710",
+          "title": "Teaching Geography: Standards And Strategies",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 33300",
+          "title": "Reading In Our World: Disciplinary Literacy Development In The Content Areas",
+          "credits": 3.0
+        },
+        {
+          "code": "EAPS 10500",
+          "title": "The Planets (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EAPS 11100",
+              "title": "Physical Geology (UCC: SCI)",
+              "credits": 3.0
+            },
+            {
+              "code": "EAPS 11200",
+              "title": "Earth Through Time (UCC: SCI)",
+              "credits": 3.0
+            },
+            {
+              "code": "EAPS 11600",
+              "title": "Earthquakes And Volcanoes (UCC: SCI)",
+              "credits": 3.0
+            },
+            {
+              "code": "EAPS 13800",
+              "title": "Thunderstorms And Tornadoes (UCC: SCI)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Civics and Government Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Learner Pathway Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "EDCI 42300",
+          "title": "The Teaching Of Social Studies In Secondary Schools",
+          "credits": 3.0
+        },
+        {
+          "label": "Civics and Government Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Historical Perspectives Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Learner Pathway Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "EDCI 43300",
+          "title": "Advanced Social Studies Methods",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 43010",
+          "title": "Secondary Creating And Managing Learning Environments",
+          "credits": 1.0
+        },
+        {
+          "label": "Learner Pathway Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Historical Perspectives Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Sociology Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDCI 49800",
+          "title": "Supervised Teaching (UCC: OC)",
+          "credits": 6.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 21700",
+    "EAPS 10500",
+    "EAPS 11100",
+    "EAPS 11200",
+    "EAPS 11600",
+    "EAPS 12000",
+    "EAPS 13800",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "EDCI 20500",
+    "EDCI 21610",
+    "EDCI 21710",
+    "EDCI 21810",
+    "EDCI 21910",
+    "EDCI 27000",
+    "EDCI 28550",
+    "EDCI 33300",
+    "EDCI 37001",
+    "EDCI 42300",
+    "EDCI 43300",
+    "EDCI 49800",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26500",
+    "EDPS 32700",
+    "EDPS 36201",
+    "EDPS 43010",
+    "EDST 20010",
+    "ENGL 10800",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 10400",
+    "HIST 10500",
+    "HIST 15100",
+    "HIST 15200",
+    "HONR 19903",
+    "IN 47907",
+    "POL 10100",
+    "POL 37200"
+  ]
+}

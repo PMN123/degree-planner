@@ -1,0 +1,59 @@
+{
+  "id": "business-french-minor",
+  "poid": "35105",
+  "name": "Business French Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35105",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.173334+00:00",
+  "course_credits": {
+    "FR 30100": 3.0,
+    "FR 30200": 3.0,
+    "FR 22400": 3.0,
+    "FR 32300": 3.0,
+    "FR 32400": 3.0,
+    "FR 42400": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. French Language Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "FR 30100",
+        "FR 30200"
+      ]
+    },
+    {
+      "name": "B. Business French Courses",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "FR 22400",
+        "FR 32300",
+        "FR 32400",
+        "FR 42400"
+      ],
+      "choose_credits": 9.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "FR 20200",
+    "FR 20500",
+    "FR 22400",
+    "FR 30100",
+    "FR 30200",
+    "FR 32300",
+    "FR 32400",
+    "FR 42400",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

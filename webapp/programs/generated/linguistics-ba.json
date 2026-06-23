@@ -1,0 +1,481 @@
+{
+  "id": "linguistics-ba",
+  "poid": "34935",
+  "name": "Linguistics, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34935",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.575274+00:00",
+  "course_credits": {
+    "LING 20100": 3.0,
+    "ENGL 22700": 3.0,
+    "LC 26100": 3.0,
+    "SLHS 22700": 3.0,
+    "LING 31100": 3.0,
+    "ENGL 32900": 3.0,
+    "LC 36100": 3.0,
+    "LING 31500": 3.0,
+    "LC 37100": 3.0,
+    "SLHS 30600": 3.0,
+    "LING 32100": 3.0,
+    "ENGL 32800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Area A. Introduction to Linguistics",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "LING 20100",
+            "ENGL 22700",
+            "LC 26100",
+            "SLHS 22700"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Area B. General Linguistics",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "LING 31100 / ENGL 32900 / LC 36100",
+              "courses": [
+                "LING 31100",
+                "ENGL 32900",
+                "LC 36100"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "LING 31500 / LC 37100 / SLHS 30600",
+              "courses": [
+                "LING 31500",
+                "LC 37100",
+                "SLHS 30600"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "LING 32100 / ENGL 32800",
+              "courses": [
+                "LING 32100",
+                "ENGL 32800"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Area C. Linguistics of Particular Languages",
+          "credit_target": 6.0,
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Area D. Language Courses/Typological Diversity",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Area E. Linguistics Selective",
+          "credit_target": 12.0,
+          "kind": "credits",
+          "credits": 12.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        11.0,
+        52.0
+      ],
+      "kind": "credits",
+      "credits": 11.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "label": "Written Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 2 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "label": "Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 3 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "ENGL 22700",
+          "title": "Elements Of Linguistics (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "LC 26100",
+              "title": "Introduction To The Linguistic Study Of Foreign Languages (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "LING 20100",
+              "title": "Introduction To Linguistics (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "SLHS 22700",
+              "title": "Elements Of Linguistics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "LING 31100",
+          "title": "Fundamentals Of Phonology And Morphology",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 32900",
+              "title": "English Language III: Sound And Form",
+              "credits": 3.0
+            },
+            {
+              "code": "LC 36100",
+              "title": "Sound And Form In Language",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "LING 31500",
+          "title": "Elements Of Phonetics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "LC 37100",
+              "title": "Phonetics Of Foreign Languages",
+              "credits": 3.0
+            },
+            {
+              "code": "SLHS 30600",
+              "title": "Introduction To Phonetics",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "LING 32100",
+          "title": "Foundations Of Syntax And Semantics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 32800",
+              "title": "English Language II: Structure And Meaning",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Linguistics of Particular Languages Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavior/Social Sciences",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "label": "Linguistics of Particular Languages Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, and Society",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "label": "Language Courses/Typological Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Linguistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Linguistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "label": "Linguistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Language Courses/Typological Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ENGL 22700",
+    "ENGL 32800",
+    "ENGL 32900",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "LC 26100",
+    "LC 36100",
+    "LC 37100",
+    "LING 20100",
+    "LING 31100",
+    "LING 31500",
+    "LING 32100",
+    "SLHS 22700",
+    "SLHS 30600"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "music-history-and-theory-minor",
+  "poid": "34899",
+  "name": "Music History and Theory Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34899",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.989328+00:00",
+  "course_credits": {
+    "MUS 13200": 3.0,
+    "MUS 13300": 3.0,
+    "MUS 37600": 3.0,
+    "MUS 37800": 3.0,
+    "MUS 38100": 3.0,
+    "MUS 38200": 3.0,
+    "MUS 17100": 2.0,
+    "MUS 23200": 3.0,
+    "MUS 27000": 3.0,
+    "MUS 29200": 3.0,
+    "MUS 34100": 3.0,
+    "MUS 34200": 3.0,
+    "MUS 35100": 2.0,
+    "MUS 35200": 2.0,
+    "MUS 37500": 3.0,
+    "MUS 38300": 3.0,
+    "MUS 38400": 3.0,
+    "MUS 49000": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Theory Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "MUS 13200",
+        "MUS 13300"
+      ]
+    },
+    {
+      "name": "B. Required History Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "MUS 37600",
+        "MUS 37800",
+        "MUS 38100",
+        "MUS 38200"
+      ]
+    },
+    {
+      "name": "C. Music Selectives",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "MUS 17100",
+        "MUS 23200",
+        "MUS 27000",
+        "MUS 29200",
+        "MUS 34100",
+        "MUS 34200",
+        "MUS 35100",
+        "MUS 35200",
+        "MUS 37500",
+        "MUS 37600",
+        "MUS 37800",
+        "MUS 38300",
+        "MUS 38400",
+        "MUS 49000"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "MUS 13200",
+    "MUS 13300",
+    "MUS 17100",
+    "MUS 23200",
+    "MUS 27000",
+    "MUS 29200",
+    "MUS 34100",
+    "MUS 34200",
+    "MUS 35100",
+    "MUS 35200",
+    "MUS 37500",
+    "MUS 37600",
+    "MUS 37800",
+    "MUS 38100",
+    "MUS 38200",
+    "MUS 38300",
+    "MUS 38400",
+    "MUS 49000"
+  ]
+}

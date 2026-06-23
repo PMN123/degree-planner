@@ -1,0 +1,527 @@
+{
+  "id": "chemical-engineering-bsche",
+  "poid": "34758",
+  "name": "Chemical Engineering, BSCHE",
+  "degree": "BSCHE",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 130,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34758",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.971849+00:00",
+  "course_credits": {
+    "CHE 20000": 1.0,
+    "CHE 20500": 4.0,
+    "CHE 21100": 4.0,
+    "CHE 30000": 1.0,
+    "CHE 30600": 3.0,
+    "CHE 32000": 3.0,
+    "CHE 34800": 4.0,
+    "CHE 37700": 4.0,
+    "CHE 37800": 4.0,
+    "CHE 40000": 1.0,
+    "CHE 42000": 3.0,
+    "CHE 43500": 4.0,
+    "CHE 45000": 4.0,
+    "CHE 45600": 3.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "EPCS 11100": 1.0,
+    "EPCS 12100": 1.0,
+    "ENGR 13300": 2.0,
+    "VIP 17912": 1.0,
+    "VIP 17911": 1.0,
+    "ENGR 16100": 4.0,
+    "ENGR 16200": 4.0,
+    "ENGR 13000": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 26100": 3.0,
+    "CHM 26300": 1.0,
+    "CHM 26200": 3.0,
+    "CHM 26400": 1.0,
+    "CHM 37000": 3.0,
+    "PHYS 24100": 3.0,
+    "MA 26100": 4.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "BCHM 30700": 3.0,
+    "BCHM 56600": 4.0,
+    "CHM 33900": 3.0,
+    "CHM 43300": 3.0,
+    "PHYS 17200": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Chemical Engineering Major Requirements",
+      "credit_target": 46.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Chemical Engineering Required Major Courses",
+          "credit_target": 43.0,
+          "kind": "all_of",
+          "courses": [
+            "CHE 20000",
+            "CHE 20500",
+            "CHE 21100",
+            "CHE 30000",
+            "CHE 30600",
+            "CHE 32000",
+            "CHE 34800",
+            "CHE 37700",
+            "CHE 37800",
+            "CHE 40000",
+            "CHE 42000",
+            "CHE 43500",
+            "CHE 45000",
+            "CHE 45600"
+          ]
+        },
+        {
+          "name": "Chemical Engineering Selective",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Program Requirements",
+      "credit_target": [
+        87.0,
+        97.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Other Program Courses",
+          "credit_target": [
+            36.0,
+            40.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ENGR 13100",
+            "ENGR 13200",
+            "EPCS 11100",
+            "EPCS 12100",
+            "ENGR 13300",
+            "VIP 17912",
+            "VIP 17911",
+            "ENGR 16100",
+            "ENGR 16200",
+            "ENGR 13000",
+            "CHM 11510",
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            "CHM 11610",
+            "CHM 11620",
+            "CHM 26100",
+            "CHM 26300",
+            "CHM 26200",
+            "CHM 26400",
+            "CHM 37000",
+            "PHYS 24100",
+            "MA 26100",
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            },
+            "BCHM 30700",
+            "BCHM 56600",
+            "CHM 33900",
+            "CHM 43300",
+            "PHYS 17200"
+          ],
+          "choose_credits": 36.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering I",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "17-21 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering II",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Physics I",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CHE 20000",
+          "title": "Chemical Engineering Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "CHE 20500",
+          "title": "Chemical Engineering Calculations",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 26100",
+          "title": "Organic Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 26300",
+          "title": "Organic Chemistry Laboratory I",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "PHYS 24100",
+          "title": "Electricity And Optics (UCC: SCI)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "CHE 21100",
+          "title": "Introductory Chemical Engineering Thermodynamics",
+          "credits": 4.0
+        },
+        {
+          "code": "CHE 32000",
+          "title": "Statistical Modeling And Quality Enhancement",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 26200",
+          "title": "Organic Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 26400",
+          "title": "Organic Chemistry Laboratory II",
+          "credits": 1.0
+        },
+        {
+          "label": "Math Selective I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CHE 30600",
+          "title": "Design Of Staged Separation Processes",
+          "credits": 3.0
+        },
+        {
+          "code": "CHE 37700",
+          "title": "Momentum Transfer",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 37000",
+          "title": "Topics In Physical Chemistry",
+          "credits": 3.0
+        },
+        {
+          "label": "Math Selective II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Biology Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "CHE 30000",
+          "title": "Chemical Engineering Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "CHE 37800",
+          "title": "Heat And Mass Transfer",
+          "credits": 4.0
+        },
+        {
+          "code": "CHE 34800",
+          "title": "Chemical Reaction Engineering",
+          "credits": 4.0
+        },
+        {
+          "label": "Engineering Selective I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "CHE 40000",
+          "title": "Chemical Engineering Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "CHE 42000",
+          "title": "Process Safety Management And Analysis",
+          "credits": 3.0
+        },
+        {
+          "code": "CHE 43500",
+          "title": "Chemical Engineering Laboratory",
+          "credits": 4.0
+        },
+        {
+          "code": "CHE 45600",
+          "title": "Process Dynamics And Control",
+          "credits": 3.0
+        },
+        {
+          "label": "General Education III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education IV",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CHE 45000",
+          "title": "Design And Analysis Of Processing Systems",
+          "credits": 4.0
+        },
+        {
+          "label": "Chemical Engineering Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Engineering Selective II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education V",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education VI",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ABE 20100",
+    "ABE 21000",
+    "ABE 30800",
+    "ABE 37000",
+    "BCHM 30700",
+    "BCHM 56600",
+    "CHE 20000",
+    "CHE 20500",
+    "CHE 21100",
+    "CHE 30000",
+    "CHE 30600",
+    "CHE 32000",
+    "CHE 34800",
+    "CHE 37700",
+    "CHE 37800",
+    "CHE 40000",
+    "CHE 41100",
+    "CHE 41200",
+    "CHE 42000",
+    "CHE 43500",
+    "CHE 45000",
+    "CHE 45600",
+    "CHE 49800",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 26100",
+    "CHM 26200",
+    "CHM 26300",
+    "CHM 26400",
+    "CHM 33900",
+    "CHM 37000",
+    "CHM 43300",
+    "ENGR 13000",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 13300",
+    "ENGR 16100",
+    "ENGR 16200",
+    "EPCS 11100",
+    "EPCS 12100",
+    "HEA 01348",
+    "HELP 02026",
+    "IE 23000",
+    "IE 33000",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "ME 30900",
+    "ME 31500",
+    "PHYS 17200",
+    "PHYS 24100",
+    "VIP 17911",
+    "VIP 17912"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "animal-science-minor",
+  "poid": "34720",
+  "name": "Animal Science Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34720",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.697364+00:00",
+  "course_credits": {
+    "ANSC 22100": 3.0,
+    "ANSC 23000": 4.0,
+    "BIOL 20300": 4.0,
+    "BIOL 20400": 4.0,
+    "ANSC 31100": 4.0,
+    "BIOL 41500": 3.0,
+    "ANSC 30100": 2.0,
+    "ANSC 35100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Nutrition",
+      "kind": "all_of",
+      "courses": [
+        "ANSC 22100"
+      ]
+    },
+    {
+      "name": "B. Physiology",
+      "kind": "all_of",
+      "courses": [
+        "ANSC 23000",
+        "BIOL 20300",
+        "BIOL 20400"
+      ]
+    },
+    {
+      "name": "C. Genetics",
+      "kind": "all_of",
+      "courses": [
+        "ANSC 31100",
+        "BIOL 41500"
+      ]
+    },
+    {
+      "name": "D. Products",
+      "kind": "all_of",
+      "courses": [
+        "ANSC 30100",
+        "ANSC 35100"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ANSC 22100",
+    "ANSC 23000",
+    "ANSC 30100",
+    "ANSC 31100",
+    "ANSC 35100",
+    "ANSC 37000",
+    "ANSC 37100",
+    "ANSC 37200",
+    "ANSC 47000",
+    "ANSC 47100",
+    "ANSC 47200",
+    "BIOL 20300",
+    "BIOL 20400",
+    "BIOL 41500",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

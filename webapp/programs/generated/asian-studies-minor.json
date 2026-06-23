@@ -1,0 +1,221 @@
+{
+  "id": "asian-studies-minor",
+  "poid": "34922",
+  "name": "Asian Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 16,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34922",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.152684+00:00",
+  "course_credits": {
+    "JPNS 20200": 3.0,
+    "CHNS 20200": 4.0,
+    "KOR 20200": 4.0,
+    "CHNS 24100": 3.0,
+    "CHNS 28000": 3.0,
+    "CHNS 28100": 3.0,
+    "CHNS 28500": 1.0,
+    "CHNS 31300": 3.0,
+    "CHNS 33000": 3.0,
+    "CHNS 34100": 3.0,
+    "CHNS 34200": 3.0,
+    "CHNS 49000": 1.0,
+    "CHNS 59400": 1.0,
+    "JPNS 24100": 3.0,
+    "JPNS 28000": 3.0,
+    "JPNS 33000": 3.0,
+    "JPNS 34100": 3.0,
+    "JPNS 36100": 3.0,
+    "JPNS 36300": 3.0,
+    "JPNS 48500": 3.0,
+    "JPNS 49000": 1.0,
+    "JPNS 59400": 1.0,
+    "JPNS 59600": 1.0,
+    "KOR 24100": 3.0,
+    "KOR 28200": 3.0,
+    "KOR 33000": 3.0,
+    "KOR 38000": 3.0,
+    "KOR 38100": 3.0,
+    "KOR 48000": 3.0,
+    "LC 23500": 3.0,
+    "HIST 24000": 3.0,
+    "HIST 24100": 3.0,
+    "HIST 24300": 3.0,
+    "HIST 33900": 3.0,
+    "HIST 34000": 3.0,
+    "HIST 34300": 3.0,
+    "HIST 34400": 3.0,
+    "HIST 35900": 3.0,
+    "HIST 43900": 3.0,
+    "HIST 49200": 3.0,
+    "HIST 49500": 3.0,
+    "PHIL 23000": 3.0,
+    "PHIL 31000": 3.0,
+    "POL 34800": 3.0,
+    "POL 33500": 3.0,
+    "SOC 36900": 3.0,
+    "ANTH 39200": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Course",
+      "credit_target": 4.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "JPNS 20200 / CHNS 20200 / KOR 20200",
+          "courses": [
+            "JPNS 20200",
+            "CHNS 20200",
+            "KOR 20200"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B. Four Additional Courses",
+      "credit_target": 12.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "1. School of Languages and Cultures - Courses in Literature and Linguistics",
+          "kind": "all_of",
+          "courses": [
+            "CHNS 24100",
+            "CHNS 28000",
+            "CHNS 28100",
+            "CHNS 28500",
+            "CHNS 31300",
+            "CHNS 33000",
+            "CHNS 34100",
+            "CHNS 34200",
+            "CHNS 49000",
+            "CHNS 59400",
+            "JPNS 24100",
+            "JPNS 28000",
+            "JPNS 33000",
+            "JPNS 34100",
+            "JPNS 36100",
+            "JPNS 36300",
+            "JPNS 48500",
+            "JPNS 49000",
+            "JPNS 59400",
+            "JPNS 59600",
+            "KOR 24100",
+            "KOR 28200",
+            "KOR 33000",
+            "KOR 38000",
+            "KOR 38100",
+            "KOR 48000",
+            "LC 23500"
+          ]
+        },
+        {
+          "name": "2. Department of History",
+          "kind": "all_of",
+          "courses": [
+            "HIST 24000",
+            "HIST 24100",
+            "HIST 24300",
+            "HIST 33900",
+            "HIST 34000",
+            "HIST 34300",
+            "HIST 34400",
+            "HIST 35900",
+            "HIST 43900",
+            "HIST 49200",
+            "HIST 49500"
+          ]
+        },
+        {
+          "name": "3. Department of Philosophy",
+          "kind": "all_of",
+          "courses": [
+            "PHIL 23000",
+            "PHIL 31000"
+          ]
+        },
+        {
+          "name": "4. Department of Political Science",
+          "kind": "all_of",
+          "courses": [
+            "POL 34800",
+            "POL 33500"
+          ]
+        },
+        {
+          "name": "5. Department of Sociology",
+          "kind": "all_of",
+          "courses": [
+            "SOC 36900"
+          ]
+        },
+        {
+          "name": "6. Department of Anthropology",
+          "kind": "all_of",
+          "courses": [
+            "ANTH 39200"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ANTH 39200",
+    "CHNS 20200",
+    "CHNS 24100",
+    "CHNS 28000",
+    "CHNS 28100",
+    "CHNS 28500",
+    "CHNS 31300",
+    "CHNS 33000",
+    "CHNS 34100",
+    "CHNS 34200",
+    "CHNS 49000",
+    "CHNS 59400",
+    "HELP 02026",
+    "HIST 24000",
+    "HIST 24100",
+    "HIST 24300",
+    "HIST 33900",
+    "HIST 34000",
+    "HIST 34300",
+    "HIST 34400",
+    "HIST 35900",
+    "HIST 43900",
+    "HIST 49200",
+    "HIST 49500",
+    "IN 47907",
+    "JPNS 20200",
+    "JPNS 24100",
+    "JPNS 28000",
+    "JPNS 33000",
+    "JPNS 34100",
+    "JPNS 36100",
+    "JPNS 36300",
+    "JPNS 48500",
+    "JPNS 49000",
+    "JPNS 59400",
+    "JPNS 59600",
+    "KOR 20200",
+    "KOR 24100",
+    "KOR 28200",
+    "KOR 33000",
+    "KOR 38000",
+    "KOR 38100",
+    "KOR 48000",
+    "LC 23500",
+    "PHIL 23000",
+    "PHIL 31000",
+    "POL 33500",
+    "POL 34800",
+    "SOC 36900"
+  ]
+}

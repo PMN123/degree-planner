@@ -1,0 +1,104 @@
+{
+  "id": "astronomy-minor",
+  "poid": "34882",
+  "name": "Astronomy Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34882",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:32.239483+00:00",
+  "course_credits": {
+    "ASTR 36300": 3.0,
+    "ASTR 36400": 3.0,
+    "ASTR 37000": 3.0,
+    "PHYS 34202": 3.0,
+    "PHYS 34400": 4.0,
+    "ASTR 56000": 3.0,
+    "ASTR 56100": 3.0,
+    "ASTR 56300": 3.0,
+    "ASTR 56200": 3.0,
+    "ASTR 56700": 3.0,
+    "PHYS 56000": 3.0,
+    "PHYS 56100": 3.0,
+    "PHYS 56200": 3.0,
+    "PHYS 56300": 3.0,
+    "PHYS 56700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": [
+        12.0,
+        13.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "ASTR 36300",
+        "ASTR 36400",
+        "ASTR 37000"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "PHYS 34202 / PHYS 34400",
+          "courses": [
+            "PHYS 34202",
+            "PHYS 34400"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Additional Course",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "ASTR 56000",
+        "ASTR 56100",
+        "ASTR 56300",
+        "ASTR 56200",
+        "ASTR 56700",
+        "PHYS 56000",
+        "PHYS 56100",
+        "PHYS 56200",
+        "PHYS 56300",
+        "PHYS 56700"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ASTR 00500",
+    "ASTR 36300",
+    "ASTR 36400",
+    "ASTR 37000",
+    "ASTR 56000",
+    "ASTR 56100",
+    "ASTR 56200",
+    "ASTR 56300",
+    "ASTR 56700",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "PHYS 17200",
+    "PHYS 24100",
+    "PHYS 27200",
+    "PHYS 34200",
+    "PHYS 34202",
+    "PHYS 34400",
+    "PHYS 56000",
+    "PHYS 56100",
+    "PHYS 56200",
+    "PHYS 56300",
+    "PHYS 56700"
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "id": "multidisciplinary-engineering-general-engineering-concentration-bse",
+  "poid": "35593",
+  "name": "Multidisciplinary Engineering/General Engineering Concentration, BSE",
+  "degree": "BSE",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35593",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.241722+00:00",
+  "course_credits": {
+    "IDE 30100": 1.0,
+    "IDE 48700": 1.0,
+    "ABE 20100": 4.0,
+    "ABE 21000": 3.0,
+    "CCE 21100": 3.0,
+    "CHE 21100": 4.0,
+    "ME 20000": 3.0,
+    "MSE 26000": 3.0,
+    "AAE 20300": 3.0,
+    "CCE 29700": 3.0,
+    "CCE 29800": 3.0,
+    "ME 27000": 3.0,
+    "ME 27400": 3.0,
+    "ECE 20001": 3.0,
+    "AAE 33300": 3.0,
+    "CCE 34000": 3.0,
+    "CHE 37700": 4.0,
+    "ME 30800": 3.0,
+    "MSE 34000": 3.0,
+    "AAE 20400": 3.0,
+    "ME 32300": 3.0,
+    "MSE 23000": 3.0,
+    "NUCL 27300": 3.0,
+    "IDE 36000": 3.0,
+    "IE 33000": 3.0,
+    "IE 23000": 3.0,
+    "IE 34300": 3.0,
+    "IDE 48300": 1.0,
+    "EPCS 41200": 2.0,
+    "IDE 48400": 1.0,
+    "IDE 48500": 3.0,
+    "THTR 59700": 3.0,
+    "AAE 33400": 3.0,
+    "ABE 33000": 3.0,
+    "ABE 43500": 3.0,
+    "CCE 20300": 4.0,
+    "CCE 22200": 3.0,
+    "CCE 31100": 3.0,
+    "CCE 35500": 3.0,
+    "CCE 45600": 3.0,
+    "CCE 47000": 3.0,
+    "CHE 20500": 4.0,
+    "ECE 20875": 3.0,
+    "ECE 26400": 3.0,
+    "EEE 25000": 3.0,
+    "EEE 35000": 3.0,
+    "IE 37000": 3.0,
+    "IE 38600": 3.0,
+    "ME 26300": 3.0,
+    "ME 36500": 3.0,
+    "NUCL 20000": 3.0,
+    "AAE 33800": 3.0,
+    "CCE 44000": 3.0,
+    "CHE 37800": 4.0,
+    "ECE 20002": 3.0,
+    "ECE 30862": 3.0,
+    "ECE 32100": 3.0,
+    "IE 47000": 3.0,
+    "IE 48600": 3.0,
+    "ME 30000": 3.0,
+    "ME 31500": 4.0,
+    "ME 37500": 3.0,
+    "MSE 27000": 3.0,
+    "ENGR 30500": 3.0,
+    "ENGR 31000": 3.0,
+    "ENGR 49001": 3.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "EPCS 11100": 1.0,
+    "EPCS 12100": 1.0,
+    "ENGR 13300": 2.0,
+    "VIP 17911": 1.0,
+    "VIP 17912": 1.0,
+    "ENGR 16100": 4.0,
+    "ENGR 16200": 4.0,
+    "ENGR 13000": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CM 16400": 2.0,
+    "MFET 16300": 2.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "MA 26100": 4.0,
+    "MA 26200": 4.0,
+    "MA 26500": 3.0,
+    "MA 26600": 3.0,
+    "PHYS 17200": 4.0,
+    "ECE 20007": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Multidisciplinary Engineering Major Requirements",
+      "credit_target": 28.0,
+      "kind": "choose",
+      "options": [
+        "IDE 30100",
+        "IDE 48700",
+        "ABE 20100",
+        "ABE 21000",
+        "CCE 21100",
+        "CHE 21100",
+        "ME 20000",
+        "MSE 26000",
+        "AAE 20300",
+        "CCE 29700",
+        "CCE 29800",
+        "ME 27000",
+        "ME 27400",
+        "ECE 20001",
+        "AAE 33300",
+        "CCE 34000",
+        "CHE 37700",
+        "ME 30800",
+        "MSE 34000",
+        "AAE 20400",
+        "ME 32300",
+        "MSE 23000",
+        "NUCL 27300",
+        "IDE 36000",
+        "IE 33000",
+        "IE 23000",
+        "IE 34300",
+        "IDE 48300",
+        "EPCS 41200",
+        "IDE 48400",
+        "IDE 48500",
+        "THTR 59700"
+      ],
+      "choose_credits": 28.0
+    },
+    {
+      "name": "General Engineering Concentration",
+      "credit_target": 32.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Engineering Area",
+          "credit_target": 17.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Engineering Design Selective",
+              "credit_target": 3.0,
+              "kind": "credits",
+              "credits": 3.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            },
+            {
+              "name": "Beginning Engineering Selective",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "AAE 33400",
+                "ABE 33000",
+                "ABE 43500",
+                "CCE 20300",
+                "CCE 22200",
+                "CCE 31100",
+                "CCE 35500",
+                "CCE 45600",
+                "CCE 47000",
+                "CHE 20500",
+                "ECE 20875",
+                "ECE 26400",
+                "EEE 25000",
+                "EEE 35000",
+                "IE 37000",
+                "IE 38600",
+                "ME 26300",
+                "ME 36500",
+                "MSE 23000",
+                "NUCL 20000"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Follow-up Engineering Selective",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "AAE 33400",
+                "AAE 33800",
+                "ABE 43500",
+                "CCE 44000",
+                "CHE 37800",
+                "ECE 20002",
+                "ECE 30862",
+                "ECE 32100",
+                "IE 33000",
+                "IE 37000",
+                "IE 38600",
+                "IE 47000",
+                "IE 48600",
+                "ME 30000",
+                "ME 31500",
+                "ME 36500",
+                "ME 37500",
+                "MSE 27000",
+                "NUCL 27300"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Advanced Engineering Selective",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "ENGR 30500",
+                "ENGR 31000",
+                "ENGR 49001"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Engineering Selectives",
+              "credit_target": 5.0,
+              "kind": "credits",
+              "credits": 5.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        },
+        {
+          "name": "General Area",
+          "credit_target": 15.0,
+          "kind": "credits",
+          "credits": 15.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Other Departmental Requirements",
+          "credit_target": [
+            41.0,
+            56.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ENGR 13100",
+            "ENGR 13200",
+            "EPCS 11100",
+            "EPCS 12100",
+            "ENGR 13300",
+            "VIP 17911",
+            "VIP 17912",
+            "ENGR 16100",
+            "ENGR 16200",
+            "ENGR 13000",
+            "CHM 11510",
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CM 16400 / MFET 16300",
+              "courses": [
+                "CM 16400",
+                "MFET 16300"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            },
+            "MA 26100",
+            "MA 26200",
+            "MA 26500",
+            "MA 26600",
+            "PHYS 17200"
+          ],
+          "choose_credits": 41.0
+        },
+        {
+          "name": "General Education Requirement",
+          "credit_target": 18.0,
+          "kind": "credits",
+          "credits": 18.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "ECE 20001",
+          "title": "Electrical Engineering Fundamentals I",
+          "credits": 3.0
+        },
+        {
+          "code": "ECE 20007",
+          "title": "Electrical Engineering Fundamentals I Lab",
+          "credits": 1.0
+        },
+        {
+          "label": "Engineering Elective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Statics and Dynamics II (If AAE 20300 is taken in Fall 2nd, an Engineering Elective should be taken here)",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "CCE 29800",
+          "title": "Basic Mechanics II Dynamics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ME 27400",
+              "title": "Basic Mechanics II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Area Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "label": "Engineering Elective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Area Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Beginning Engineering Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education (Humanities)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Fluids",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "CCE 34000",
+          "title": "Hydraulics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AAE 33300",
+              "title": "Fluid Mechanics",
+              "credits": 3.0
+            },
+            {
+              "code": "CHE 37700",
+              "title": "Momentum Transfer",
+              "credits": 4.0
+            },
+            {
+              "code": "MSE 34000",
+              "title": "Transport Phenomena",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Engineering Materials",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "AAE 20400",
+          "title": "Aeromechanics II",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ME 32300",
+              "title": "Mechanics Of Materials",
+              "credits": 3.0
+            },
+            {
+              "code": "MSE 23000",
+              "title": "Structure And Properties Of Materials",
+              "credits": 3.0
+            },
+            {
+              "code": "NUCL 27300",
+              "title": "Mechanics Of Materials",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Statistics",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "IDE 36000",
+          "title": "Multidisciplinary Engineering Statistics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "IE 23000",
+              "title": "Probability And Statistics In Engineering I",
+              "credits": 3.0
+            },
+            {
+              "code": "IE 33000",
+              "title": "Probability And Statistics In Engineering II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Engineering Design Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Follow-up Engineering Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education (BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education (30000+ level/Non-Introductory)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "label": "Senior Capstone I",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "IDE 48400",
+          "title": "Multidisciplinary Engineering Design Methodology",
+          "credits": 1.0
+        },
+        {
+          "code": "IDE 48700",
+          "title": "Multidisciplinary Engineering Senior Professional Development",
+          "credits": 1.0
+        },
+        {
+          "label": "Engineering Economics",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "IDE 48300",
+          "title": "Multidisciplinary Engineering Analysis And Decision Making",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "IE 34300",
+              "title": "Engineering Economics",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Area Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Advanced Engineering Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education (STS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Senior Capstone II",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "IDE 48500",
+          "title": "Multidisciplinary Engineering Design Project",
+          "credits": 3.0
+        },
+        {
+          "label": "Area Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Engineering Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education (30000+ level/Non-Introductory)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AAE 20300",
+    "AAE 20400",
+    "AAE 30000",
+    "AAE 33300",
+    "AAE 33400",
+    "AAE 33800",
+    "ABE 20100",
+    "ABE 21000",
+    "ABE 30000",
+    "ABE 33000",
+    "ABE 43500",
+    "BME 30000",
+    "CCE 20300",
+    "CCE 21100",
+    "CCE 22200",
+    "CCE 29700",
+    "CCE 29800",
+    "CCE 30000",
+    "CCE 31100",
+    "CCE 34000",
+    "CCE 34300",
+    "CCE 35500",
+    "CCE 44000",
+    "CCE 45600",
+    "CCE 47000",
+    "CE 34300",
+    "CHE 20500",
+    "CHE 21100",
+    "CHE 30000",
+    "CHE 37700",
+    "CHE 37800",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CM 16400",
+    "ECE 20001",
+    "ECE 20002",
+    "ECE 20007",
+    "ECE 20875",
+    "ECE 26400",
+    "ECE 30000",
+    "ECE 30862",
+    "ECE 32100",
+    "EEE 25000",
+    "EEE 30000",
+    "EEE 35000",
+    "ENE 30000",
+    "ENGR 13000",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 13300",
+    "ENGR 16100",
+    "ENGR 16200",
+    "ENGR 30500",
+    "ENGR 31000",
+    "ENGR 49001",
+    "EPCS 11100",
+    "EPCS 12100",
+    "EPCS 30000",
+    "EPCS 41200",
+    "HEA 01348",
+    "HELP 02026",
+    "IDE 30000",
+    "IDE 30100",
+    "IDE 36000",
+    "IDE 48300",
+    "IDE 48400",
+    "IDE 48500",
+    "IDE 48700",
+    "IE 23000",
+    "IE 30000",
+    "IE 33000",
+    "IE 34300",
+    "IE 37000",
+    "IE 38600",
+    "IE 47000",
+    "IE 48600",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26200",
+    "MA 26500",
+    "MA 26600",
+    "ME 20000",
+    "ME 26300",
+    "ME 27000",
+    "ME 27400",
+    "ME 30000",
+    "ME 30800",
+    "ME 31500",
+    "ME 32300",
+    "ME 36500",
+    "ME 37500",
+    "MFET 16300",
+    "MSE 23000",
+    "MSE 26000",
+    "MSE 27000",
+    "MSE 30000",
+    "MSE 34000",
+    "NUCL 20000",
+    "NUCL 27300",
+    "NUCL 30000",
+    "PHYS 17200",
+    "THTR 59700",
+    "VIP 17911",
+    "VIP 17912",
+    "VIP 30000"
+  ]
+}

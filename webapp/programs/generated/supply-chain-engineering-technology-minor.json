@@ -1,0 +1,46 @@
+{
+  "id": "supply-chain-engineering-technology-minor",
+  "poid": "34811",
+  "name": "Supply Chain Engineering Technology Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34811",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.745044+00:00",
+  "course_credits": {
+    "IET 21400": 3.0,
+    "IET 23500": 3.0,
+    "IET 31600": 3.0,
+    "IET 34200": 3.0,
+    "IET 34300": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 15.0,
+      "kind": "all_of",
+      "courses": [
+        "IET 21400",
+        "IET 23500",
+        "IET 31600",
+        "IET 34200",
+        "IET 34300"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IET 21400",
+    "IET 23500",
+    "IET 31600",
+    "IET 34200",
+    "IET 34300",
+    "IN 47907"
+  ]
+}

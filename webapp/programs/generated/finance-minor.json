@@ -1,0 +1,88 @@
+{
+  "id": "finance-minor",
+  "poid": "35788",
+  "name": "Finance Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35788",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.547591+00:00",
+  "course_credits": {
+    "FIN 30400": 3.0,
+    "FIN 31000": 3.0,
+    "FIN 41100": 3.0,
+    "FIN 41300": 3.0,
+    "FIN 41150": 3.0,
+    "FIN 41200": 3.0,
+    "FIN 41220": 3.0,
+    "FIN 41250": 3.0,
+    "FIN 41310": 3.0,
+    "FIN 41350": 3.0,
+    "FIN 41500": 3.0,
+    "FIN 41601": 3.0,
+    "FIN 41650": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "FIN 41100",
+        "FIN 41300"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "FIN 30400 / FIN 31000",
+          "courses": [
+            "FIN 30400",
+            "FIN 31000"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Additional Courses",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "FIN 41150",
+        "FIN 41200",
+        "FIN 41220",
+        "FIN 41250",
+        "FIN 41310",
+        "FIN 41350",
+        "FIN 41500",
+        "FIN 41601",
+        "FIN 41650"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "DSB 2XXXX",
+    "FIN 30400",
+    "FIN 31000",
+    "FIN 41100",
+    "FIN 41150",
+    "FIN 41200",
+    "FIN 41220",
+    "FIN 41250",
+    "FIN 41300",
+    "FIN 41310",
+    "FIN 41350",
+    "FIN 41500",
+    "FIN 41601",
+    "FIN 41650",
+    "HELP 02026",
+    "IN 47907",
+    "OBHR 30000"
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "design-and-innovation-minor",
+  "poid": "35205",
+  "name": "Design and Innovation Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35205",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.866298+00:00",
+  "course_credits": {
+    "AD 10500": 3.0,
+    "ANTH 21000": 3.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "STRT 22000": 3.0,
+    "FIN 31000": 3.0,
+    "TECH 12000": 3.0,
+    "TLI 16100": 3.0,
+    "TECH 22000": 3.0,
+    "ANTH 38400": 3.0,
+    "TLI 36700": 3.0,
+    "TECH 34000": 3.0,
+    "OBHR 39100": 3.0,
+    "TLI 46000": 3.0,
+    "AD 39500": 3.0,
+    "ANTH 20500": 3.0,
+    "TECH 33000": 3.0,
+    "AD 10600": 3.0,
+    "AD 11300": 3.0,
+    "AD 22600": 3.0,
+    "AD 22700": 3.0,
+    "ANTH 38000": 3.0,
+    "IET 33400": 3.0,
+    "STRT 35200": 3.0,
+    "STRT 44810": 3.0,
+    "TLI 31400": 3.0,
+    "TLI 31500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Intro Design & Innovation",
+      "credit_target": [
+        3.0,
+        4.0
+      ],
+      "kind": "choose",
+      "options": [
+        {
+          "kind": "one_of",
+          "name": "AD 10500 / ANTH 21000 / ENGR 13100",
+          "courses": [
+            "AD 10500",
+            "ANTH 21000",
+            "ENGR 13100"
+          ]
+        },
+        "ENGR 13200",
+        {
+          "kind": "one_of",
+          "name": "STRT 22000 / FIN 31000 / TECH 12000 / TLI 16100",
+          "courses": [
+            "STRT 22000",
+            "FIN 31000",
+            "TECH 12000",
+            "TLI 16100"
+          ]
+        }
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "B. Core Design & Innovation",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "TECH 22000 / ANTH 38400 / TLI 36700",
+          "courses": [
+            "TECH 22000",
+            "ANTH 38400",
+            "TLI 36700"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "TECH 34000 / OBHR 39100 / TLI 46000",
+          "courses": [
+            "TECH 34000",
+            "OBHR 39100",
+            "TLI 46000"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C. Global/Cultural Experience",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "AD 39500",
+        "ANTH 20500",
+        "ANTH 21000",
+        "TECH 33000"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "D. Specialization",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "AD 10500",
+        "AD 10600",
+        "AD 11300",
+        "AD 22600",
+        "AD 22700",
+        "AD 39500",
+        "ANTH 21000",
+        "ANTH 38000",
+        "IET 33400",
+        "STRT 35200",
+        "STRT 44810",
+        "TECH 33000",
+        "TLI 16100",
+        "TLI 31400",
+        "TLI 31500"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AD 10500",
+    "AD 10600",
+    "AD 11300",
+    "AD 22600",
+    "AD 22700",
+    "AD 39500",
+    "ANTH 20500",
+    "ANTH 21000",
+    "ANTH 38000",
+    "ANTH 38400",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 16100",
+    "ENGR 16200",
+    "FIN 31000",
+    "HELP 02026",
+    "IET 33400",
+    "IN 47907",
+    "OBHR 39100",
+    "STRT 22000",
+    "STRT 35200",
+    "STRT 44810",
+    "TECH 12000",
+    "TECH 22000",
+    "TECH 33000",
+    "TECH 34000",
+    "TLI 16100",
+    "TLI 31400",
+    "TLI 31500",
+    "TLI 36700",
+    "TLI 46000"
+  ]
+}

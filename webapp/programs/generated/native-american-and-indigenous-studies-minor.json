@@ -1,0 +1,84 @@
+{
+  "id": "native-american-and-indigenous-studies-minor",
+  "poid": "34927",
+  "name": "Native American and Indigenous Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34927",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.749881+00:00",
+  "course_credits": {
+    "ANTH 37900": 3.0,
+    "HIST 37700": 3.0,
+    "ANTH 31300": 3.0,
+    "ANTH 37700": 3.0,
+    "ANTH 41800": 1.0,
+    "ENGL 35200": 3.0,
+    "HIST 39500": 3.0,
+    "HIST 47700": 3.0,
+    "HIST 49500": 3.0,
+    "LING 56000": 1.0,
+    "LING 57600": 3.0,
+    "LING 59800": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Foundational Course",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "ANTH 37900",
+        "HIST 37700"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "B. Selectives",
+      "credit_target": 12.0,
+      "kind": "choose",
+      "options": [
+        "ANTH 31300",
+        "ANTH 37700",
+        "ANTH 41800",
+        "ENGL 35200",
+        "HIST 39500",
+        "HIST 47700",
+        "HIST 49500",
+        "LING 56000",
+        "LING 57600",
+        "LING 59800",
+        {
+          "kind": "one_of",
+          "name": "ANTH 37900 / HIST 37700",
+          "courses": [
+            "ANTH 37900",
+            "HIST 37700"
+          ]
+        }
+      ],
+      "choose_credits": 12.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ANTH 31300",
+    "ANTH 37700",
+    "ANTH 37900",
+    "ANTH 41800",
+    "ENGL 35200",
+    "HELP 02026",
+    "HIST 37700",
+    "HIST 39500",
+    "HIST 47700",
+    "HIST 49500",
+    "IN 47907",
+    "LING 56000",
+    "LING 57600",
+    "LING 59800"
+  ]
+}

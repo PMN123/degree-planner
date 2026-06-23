@@ -1,0 +1,685 @@
+{
+  "id": "multidisciplinary-engineering-theatre-engineering-concentration-bse",
+  "poid": "35601",
+  "name": "Multidisciplinary Engineering/Theatre Engineering Concentration, BSE",
+  "degree": "BSE",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35601",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.289824+00:00",
+  "course_credits": {
+    "IDE 30100": 1.0,
+    "IDE 48700": 1.0,
+    "ABE 20100": 4.0,
+    "ABE 21000": 3.0,
+    "CCE 21100": 3.0,
+    "CHE 21100": 4.0,
+    "ME 20000": 3.0,
+    "MSE 26000": 3.0,
+    "AAE 20300": 3.0,
+    "CCE 29700": 3.0,
+    "CCE 29800": 3.0,
+    "ME 27000": 3.0,
+    "ME 27400": 3.0,
+    "ECE 20001": 3.0,
+    "AAE 33300": 3.0,
+    "CCE 34000": 3.0,
+    "CHE 37700": 4.0,
+    "ME 30800": 3.0,
+    "MSE 34000": 3.0,
+    "AAE 20400": 3.0,
+    "ME 32300": 3.0,
+    "MSE 23000": 3.0,
+    "NUCL 27300": 3.0,
+    "IDE 36000": 3.0,
+    "IE 33000": 3.0,
+    "IE 23000": 3.0,
+    "IE 34300": 3.0,
+    "IDE 48300": 1.0,
+    "EPCS 41200": 2.0,
+    "IDE 48400": 1.0,
+    "IDE 48500": 3.0,
+    "THTR 59700": 3.0,
+    "THTR 15001": 1.0,
+    "THTR 15002": 1.0,
+    "THTR 15003": 1.0,
+    "THTR 36800": 1.0,
+    "THTR 55000": 3.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "EPCS 11100": 1.0,
+    "EPCS 12100": 1.0,
+    "ENGR 13300": 2.0,
+    "VIP 17911": 1.0,
+    "VIP 17912": 1.0,
+    "ENGR 16100": 4.0,
+    "ENGR 16200": 4.0,
+    "ENGR 13000": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CM 16400": 2.0,
+    "MFET 16300": 2.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "MA 26100": 4.0,
+    "MA 26200": 4.0,
+    "MA 26500": 3.0,
+    "MA 26600": 3.0,
+    "PHYS 17200": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 27200": 4.0,
+    "THTR 25400": 3.0,
+    "THTR 20100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Multidisciplinary Engineering Major Requirements",
+      "credit_target": 28.0,
+      "kind": "choose",
+      "options": [
+        "IDE 30100",
+        "IDE 48700",
+        "ABE 20100",
+        "ABE 21000",
+        "CCE 21100",
+        "CHE 21100",
+        "ME 20000",
+        "MSE 26000",
+        "AAE 20300",
+        "CCE 29700",
+        "CCE 29800",
+        "ME 27000",
+        "ME 27400",
+        "ECE 20001",
+        "AAE 33300",
+        "CCE 34000",
+        "CHE 37700",
+        "ME 30800",
+        "MSE 34000",
+        "AAE 20400",
+        "ME 32300",
+        "MSE 23000",
+        "NUCL 27300",
+        "IDE 36000",
+        "IE 33000",
+        "IE 23000",
+        "IE 34300",
+        "IDE 48300",
+        "EPCS 41200",
+        "IDE 48400",
+        "IDE 48500",
+        "THTR 59700"
+      ],
+      "choose_credits": 28.0
+    },
+    {
+      "name": "Theatre Engineering Concentration",
+      "credit_target": 32.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Engineering Area",
+          "credit_target": 17.0,
+          "kind": "credits",
+          "credits": 17.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Theatre Area",
+          "credit_target": 15.0,
+          "kind": "all_of",
+          "courses": [
+            "THTR 15001",
+            "THTR 15002",
+            "THTR 15003",
+            "THTR 36800",
+            "THTR 55000",
+            "THTR 59700"
+          ]
+        },
+        {
+          "name": "Other Departmental Requirements",
+          "credit_target": [
+            41.0,
+            56.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ENGR 13100",
+            "ENGR 13200",
+            "EPCS 11100",
+            "EPCS 12100",
+            "ENGR 13300",
+            "VIP 17911",
+            "VIP 17912",
+            "ENGR 16100",
+            "ENGR 16200",
+            "ENGR 13000",
+            "CHM 11510",
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CM 16400 / MFET 16300",
+              "courses": [
+                "CM 16400",
+                "MFET 16300"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            },
+            "MA 26100",
+            "MA 26200",
+            "MA 26500",
+            "MA 26600",
+            "PHYS 17200"
+          ],
+          "choose_credits": 41.0
+        },
+        {
+          "name": "General Education Requirement",
+          "credit_target": 18.0,
+          "kind": "credits",
+          "credits": 18.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "17-19 Credits",
+      "items": [
+        {
+          "code": "IDE 30100",
+          "title": "Professional Preparation In Interdisciplinary Engineering",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "THTR 15001",
+          "title": "Introduction To Drafting",
+          "credits": 1.0
+        },
+        {
+          "code": "THTR 15002",
+          "title": "Introduction To Scenery Construction Tools And Techniques",
+          "credits": 1.0
+        },
+        {
+          "code": "THTR 15003",
+          "title": "Introduction To Rigging For Theatre",
+          "credits": 1.0
+        },
+        {
+          "label": "Thermodynamics",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "ME 20000",
+          "title": "Thermodynamics I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ABE 20100",
+              "title": "Material And Energy Balances In Biological Engineering",
+              "credits": 4.0
+            },
+            {
+              "code": "ABE 21000",
+              "title": "Thermodynamics Principles Of Engineering And Biological Systems",
+              "credits": 3.0
+            },
+            {
+              "code": "CHE 21100",
+              "title": "Introductory Chemical Engineering Thermodynamics",
+              "credits": 4.0
+            },
+            {
+              "code": "MSE 26000",
+              "title": "Thermodynamics Of Materials",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Statics & Dynamics I",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "ME 27000",
+          "title": "Basic Mechanics I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AAE 20300",
+              "title": "Aeromechanics I",
+              "credits": 3.0
+            },
+            {
+              "code": "CCE 29700",
+              "title": "Basic Mechanics I (Statics)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Sophomore Science Selective",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "PHYS 24100",
+          "title": "Electricity And Optics (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHYS 27200",
+              "title": "Electric And Magnetic Interactions (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "ECE 20001",
+          "title": "Electrical Engineering Fundamentals I",
+          "credits": 3.0
+        },
+        {
+          "label": "Engineering Elective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "code": "MA 26200",
+          "title": "Linear Algebra And Differential Equations (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "THTR 36800",
+          "title": "Theatre Production II",
+          "credits": 1.0
+        },
+        {
+          "code": "THTR 55000",
+          "title": "Advanced Scenery Technology",
+          "credits": 3.0
+        },
+        {
+          "label": "Statics & Dynamics II (If AAE 20300 is taken in Fall 2nd, an Engineering Elective should be taken here)",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "ME 27400",
+          "title": "Basic Mechanics II",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CCE 29800",
+              "title": "Basic Mechanics II Dynamics",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "label": "Engineering Elective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "code": "THTR 55000",
+          "title": "Advanced Scenery Technology",
+          "credits": 3.0
+        },
+        {
+          "label": "Engineering Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "CM 16400",
+          "title": "Construction Graphics And Digital Documentation",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "MFET 16300",
+              "title": "Foundations In Geometric Modeling And Data Management",
+              "credits": 2.0
+            },
+            {
+              "code": "THTR 25400",
+              "title": "Drafting For Theatre",
+              "credits": 3.0
+            },
+            {
+              "label": "Fluids",
+              "credits": null,
+              "slot": true
+            }
+          ]
+        },
+        {
+          "code": "CCE 34000",
+          "title": "Hydraulics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AAE 33300",
+              "title": "Fluid Mechanics",
+              "credits": 3.0
+            },
+            {
+              "code": "CHE 37700",
+              "title": "Momentum Transfer",
+              "credits": 4.0
+            },
+            {
+              "code": "MSE 34000",
+              "title": "Transport Phenomena",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Engineering Materials",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "AAE 20400",
+          "title": "Aeromechanics II",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ME 32300",
+              "title": "Mechanics Of Materials",
+              "credits": 3.0
+            },
+            {
+              "code": "MSE 23000",
+              "title": "Structure And Properties Of Materials",
+              "credits": 3.0
+            },
+            {
+              "code": "NUCL 27300",
+              "title": "Mechanics Of Materials",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "label": "Statistics",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "IDE 36000",
+          "title": "Multidisciplinary Engineering Statistics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "IE 23000",
+              "title": "Probability And Statistics In Engineering I",
+              "credits": 3.0
+            },
+            {
+              "code": "IE 33000",
+              "title": "Probability And Statistics In Engineering II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "THTR 36800",
+          "title": "Theatre Production II",
+          "credits": 1.0
+        },
+        {
+          "code": "THTR 59700",
+          "title": "Production And Design Seminar",
+          "credits": 3.0
+        },
+        {
+          "label": "Engineering Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Engineering Design Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "THTR 20100",
+          "title": "Theatre Appreciation (UCC: HUM)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "IDE 48700",
+          "title": "Multidisciplinary Engineering Senior Professional Development",
+          "credits": 1.0
+        },
+        {
+          "label": "Senior Capstone I",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "IDE 48400",
+          "title": "Multidisciplinary Engineering Design Methodology",
+          "credits": 1.0
+        },
+        {
+          "label": "Engineering Economics",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "IDE 48300",
+          "title": "Multidisciplinary Engineering Analysis And Decision Making",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "IE 34300",
+              "title": "Engineering Economics",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "THTR 59700",
+          "title": "Production And Design Seminar",
+          "credits": 3.0
+        },
+        {
+          "label": "Engineering Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education Elective III (STS - Science, Technology & Society)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education Elective VI",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "label": "Senior Capstone II",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "IDE 48500",
+          "title": "Multidisciplinary Engineering Design Project",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "THTR 59700",
+              "title": "Production And Design Seminar",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Engineering Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education Elective I (BSS-Human Cultures:Behavior/Social Sci)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education Elective V (30000+ level/Non-Introductory)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AAE 20300",
+    "AAE 20400",
+    "AAE 33300",
+    "ABE 20100",
+    "ABE 21000",
+    "CCE 21100",
+    "CCE 29700",
+    "CCE 29800",
+    "CCE 34000",
+    "CCE 34300",
+    "CE 34300",
+    "CHE 21100",
+    "CHE 37700",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CM 16400",
+    "ECE 20001",
+    "ECE 20007",
+    "ENGR 13000",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 13300",
+    "ENGR 16100",
+    "ENGR 16200",
+    "EPCS 11100",
+    "EPCS 12100",
+    "EPCS 41200",
+    "HEA 01348",
+    "HELP 02026",
+    "IDE 30100",
+    "IDE 36000",
+    "IDE 48300",
+    "IDE 48400",
+    "IDE 48500",
+    "IDE 48700",
+    "IE 23000",
+    "IE 33000",
+    "IE 34300",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26200",
+    "MA 26500",
+    "MA 26600",
+    "ME 20000",
+    "ME 27000",
+    "ME 27400",
+    "ME 30800",
+    "ME 32300",
+    "MFET 16300",
+    "MSE 23000",
+    "MSE 26000",
+    "MSE 34000",
+    "NUCL 27300",
+    "PHYS 17200",
+    "PHYS 24100",
+    "PHYS 27200",
+    "THTR 15001",
+    "THTR 15002",
+    "THTR 15003",
+    "THTR 20100",
+    "THTR 25400",
+    "THTR 36800",
+    "THTR 55000",
+    "THTR 59700",
+    "VIP 17911",
+    "VIP 17912"
+  ]
+}

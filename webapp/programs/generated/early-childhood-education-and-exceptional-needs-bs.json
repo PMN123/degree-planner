@@ -1,0 +1,481 @@
+{
+  "id": "early-childhood-education-and-exceptional-needs-bs",
+  "poid": "34799",
+  "name": "Early Childhood Education and Exceptional Needs, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34799",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.857826+00:00",
+  "course_credits": {
+    "HDFS 20100": 3.0,
+    "HDFS 21000": 3.0,
+    "HDFS 28000": 3.0,
+    "HDFS 31100": 3.0,
+    "HDFS 34600": 3.0,
+    "AD 20100": 3.0,
+    "EDCI 27000": 1.0,
+    "EDPS 36201": 0.0,
+    "HDFS 26000": 3.0,
+    "EDPS 26500": 3.0,
+    "HDFS 31000": 3.0,
+    "HDFS 31700": 3.0,
+    "HDFS 31801": 3.0,
+    "HDFS 40000": 2.0,
+    "HDFS 40510": 3.0,
+    "HDFS 40600": 4.0,
+    "HDFS 40800": 4.0,
+    "HDFS 40900": 3.0,
+    "HDFS 41200": 3.0,
+    "HDFS 41500": 3.0,
+    "HDFS 42000": 3.0,
+    "HDFS 44000": 1.0,
+    "HDFS 45010": 12.0,
+    "EDCI 23451": 4.0,
+    "HDFS 10000": 1.0,
+    "HIST 10400": 3.0,
+    "MUS 25000": 3.0,
+    "EDCI 23450": 3.0,
+    "PHYS 23000": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "ENGL 23000": 3.0,
+    "ENGL 23800": 3.0,
+    "LC 23900": 3.0,
+    "SPAN 23500": 3.0,
+    "HIST 15100": 3.0,
+    "HIST 15200": 3.0,
+    "STAT 11300": 3.0,
+    "STAT 30100": 3.0,
+    "SOC 38200": 3.0,
+    "PSY 20100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Major Courses",
+      "credit_target": 15.0,
+      "kind": "all_of",
+      "courses": [
+        "HDFS 20100",
+        "HDFS 21000",
+        "HDFS 28000",
+        "HDFS 31100",
+        "HDFS 34600"
+      ]
+    },
+    {
+      "name": "Professional Education Requirements",
+      "credit_target": 57.0,
+      "kind": "all_of",
+      "courses": [
+        "AD 20100",
+        "EDCI 27000",
+        "EDPS 36201",
+        "HDFS 31000",
+        "HDFS 31700",
+        "HDFS 31801",
+        "HDFS 40000",
+        "HDFS 40510",
+        "HDFS 40600",
+        "HDFS 40800",
+        "HDFS 40900",
+        "HDFS 41200",
+        "HDFS 41500",
+        "HDFS 42000",
+        "HDFS 44000",
+        "HDFS 45010"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "HDFS 26000 / EDPS 26500",
+          "courses": [
+            "HDFS 26000",
+            "EDPS 26500"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Foreign Language Selective",
+      "credit_target": [
+        9.0,
+        12.0
+      ],
+      "kind": "credits",
+      "credits": 9.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        1.0,
+        9.0
+      ],
+      "kind": "credits",
+      "credits": 1.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "EDCI 23451",
+          "title": "Biology For Elementary School Teachers (UCC:SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "HDFS 10000",
+          "title": "Orientation To Current Issues In Human Development And Family Science (UCC: AI)",
+          "credits": 1.0
+        },
+        {
+          "code": "HDFS 21000",
+          "title": "Introduction To Human Development (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Foreign Language 10100",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "HDFS 20100",
+          "title": "Introduction To Relationship And Family Science (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "HIST 10400",
+          "title": "Introduction To The Modern World (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Foreign Language 10200",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "HDFS 28000",
+          "title": "Diversity In Individual And Family Life (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 31100",
+          "title": "Child Development",
+          "credits": 3.0
+        },
+        {
+          "label": "Foreign Language Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "STAT 11300",
+          "title": "Statistics And Society (UCC: IL/STS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 30100",
+              "title": "Elementary Statistical Methods (UCC: IL)",
+              "credits": 3.0
+            },
+            {
+              "code": "SOC 38200",
+              "title": "Introduction To Statistics In Sociology",
+              "credits": 3.0
+            },
+            {
+              "code": "PSY 20100",
+              "title": "Introduction To Statistics In Psychology",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "EDCI 23450",
+          "title": "Earth Systems Science For Education Majors (UCC:SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHYS 23000",
+              "title": "Physical Science For Elementary Education (UCC: SCI)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "HDFS 31000",
+          "title": "Guidance In Early Childhood",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 31700",
+          "title": "Language And Literacy Development In Infants, Toddlers, And Preschoolers",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 34600",
+          "title": "Research Design And Program Evaluation",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 41200",
+          "title": "Professionalism And Music And Movement In Early Childhood",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 26000",
+          "title": "Young Children With Exceptional Needs",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EDPS 26500",
+              "title": "The Inclusive Classroom",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "HDFS 31801",
+          "title": "Developmental Assessment",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 40510",
+          "title": "Literacy In Preschool And Primary Grades",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 40800",
+          "title": "Early Intervention / Early Childhood Special Education: Issues And Professional Practices",
+          "credits": 4.0
+        },
+        {
+          "code": "HDFS 42000",
+          "title": "Developmental Foundations Of Infant And Toddler Curriculum",
+          "credits": 3.0
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "HDFS 40000",
+          "title": "Social Studies In Preschool And Primary Grades",
+          "credits": 2.0
+        },
+        {
+          "code": "HDFS 40600",
+          "title": "Mathematics In Preschool And Primary Grades",
+          "credits": 4.0
+        },
+        {
+          "code": "HDFS 41500",
+          "title": "Approaches To Early Childhood Education",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 40900",
+          "title": "Science, Technology, Engineering, And Math Integration In Preschool And Primary Grades",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "ENGL 23800",
+          "title": "Introduction To Fiction (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 23000",
+              "title": "Great Narrative Works (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "LC 23900",
+              "title": "Women Writers In Translation (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "SPAN 23500",
+              "title": "Spanish American Literature In Translation",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "HDFS 44000",
+          "title": "Expanded ECEEN Student Teaching",
+          "credits": 1.0
+        },
+        {
+          "code": "HIST 15100",
+          "title": "American History To 1877 (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HIST 15200",
+              "title": "United States Since 1877 (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "MUS 25000",
+          "title": "Music Appreciation (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 20100",
+          "title": "Art For Elementary School Teachers",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "HDFS 45010",
+          "title": "Supervised Teaching In Inclusive Programs For Young Children (UCC: OC)",
+          "credits": 12.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 20100",
+    "EDCI 23450",
+    "EDCI 23451",
+    "EDCI 27000",
+    "EDPS 26500",
+    "EDPS 36201",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 23000",
+    "ENGL 23800",
+    "HDFS 10000",
+    "HDFS 20100",
+    "HDFS 21000",
+    "HDFS 26000",
+    "HDFS 28000",
+    "HDFS 31000",
+    "HDFS 31100",
+    "HDFS 31700",
+    "HDFS 31801",
+    "HDFS 34600",
+    "HDFS 40000",
+    "HDFS 40510",
+    "HDFS 40600",
+    "HDFS 40800",
+    "HDFS 40900",
+    "HDFS 41200",
+    "HDFS 41500",
+    "HDFS 42000",
+    "HDFS 44000",
+    "HDFS 45010",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 10400",
+    "HIST 15100",
+    "HIST 15200",
+    "IN 47907",
+    "LC 23900",
+    "MA 13800",
+    "MUS 25000",
+    "PHYS 23000",
+    "PSY 20100",
+    "SOC 38200",
+    "SPAN 23500",
+    "STAT 11300",
+    "STAT 30100"
+  ]
+}

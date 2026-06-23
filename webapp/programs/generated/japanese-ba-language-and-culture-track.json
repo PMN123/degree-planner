@@ -1,0 +1,466 @@
+{
+  "id": "japanese-ba-language-and-culture-track",
+  "poid": "34887",
+  "name": "Japanese, BA (Language & Culture Track)",
+  "degree": "BA (Language & Culture Track)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34887",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.043658+00:00",
+  "course_credits": {
+    "JPNS 10100": 3.0,
+    "JPNS 10200": 3.0,
+    "JPNS 20100": 3.0,
+    "JPNS 20200": 3.0,
+    "JPNS 30100": 3.0,
+    "JPNS 30200": 3.0,
+    "JPNS 24100": 3.0,
+    "JPNS 40100": 3.0,
+    "JPNS 40200": 3.0,
+    "JPNS 34100": 3.0,
+    "JPNS 36100": 3.0,
+    "JPNS 36300": 3.0,
+    "JPNS 28000": 3.0,
+    "JPNS 31300": 3.0,
+    "JPNS 33000": 3.0,
+    "JPNS 48500": 3.0,
+    "JPNS 49000": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Requirement Requirements",
+      "credit_target": 33.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Pre-requisite Language Courses",
+          "kind": "all_of",
+          "courses": [
+            "JPNS 10100",
+            "JPNS 10200",
+            "JPNS 20100",
+            "JPNS 20200"
+          ]
+        },
+        {
+          "name": "Japanese Major",
+          "credit_target": 33.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Area A - Japanese Language",
+              "credit_target": 6.0,
+              "kind": "all_of",
+              "courses": [
+                "JPNS 30100",
+                "JPNS 30200"
+              ]
+            },
+            {
+              "name": "Area B - Japanese Literature",
+              "credit_target": 3.0,
+              "kind": "all_of",
+              "courses": [
+                "JPNS 24100"
+              ]
+            },
+            {
+              "name": "Language & Culture Track",
+              "kind": "all_of",
+              "courses": [
+                "JPNS 40100",
+                "JPNS 40200",
+                "JPNS 34100",
+                "JPNS 36100",
+                "JPNS 36300",
+                "JPNS 28000",
+                "JPNS 31300",
+                "JPNS 33000",
+                "JPNS 48500",
+                "JPNS 49000"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        11.0,
+        52.0
+      ],
+      "kind": "credits",
+      "credits": 11.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "JPNS 10100",
+          "title": "Japanese Level I (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (CLA Core I: 1 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 2 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "JPNS 10200",
+          "title": "Japanese Level II (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (CLA Core I: 3 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-16 Credits",
+      "items": [
+        {
+          "code": "JPNS 20100",
+          "title": "Japanese Level III (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "JPNS 20200",
+          "title": "Japanese Level IV (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science, Technology, and Society",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "JPNS 30100",
+          "title": "Japanese Level V (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "JPNS 24100",
+          "title": "Introduction To The Study Of Japanese Literature",
+          "credits": 3.0
+        },
+        {
+          "code": "JPNS 36100",
+          "title": "Elementary Survey Of Japanese Linguistics",
+          "credits": 3.0
+        },
+        {
+          "code": "JPNS 31300",
+          "title": "Intermediate Reading In Japanese I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "JPNS 33000",
+              "title": "Japanese Cinema",
+              "credits": 3.0
+            },
+            {
+              "code": "JPNS 49000",
+              "title": "Special Topics In Japanese Language",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "JPNS 30200",
+          "title": "Japanese Level VI (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "JPNS 34100",
+          "title": "Japanese Literature I: Modern Japanese Literature",
+          "credits": 3.0
+        },
+        {
+          "code": "JPNS 36300",
+          "title": "Relationship Of Japanese Language And Society",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "JPNS 40100",
+          "title": "Japanese Level VII (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "JPNS 31300",
+          "title": "Intermediate Reading In Japanese I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "JPNS 33000",
+              "title": "Japanese Cinema",
+              "credits": 3.0
+            },
+            {
+              "code": "JPNS 49000",
+              "title": "Special Topics In Japanese Language",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12-16 Credits",
+      "items": [
+        {
+          "code": "JPNS 40200",
+          "title": "Japanese Level VIII (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "JPNS 31300",
+          "title": "Intermediate Reading In Japanese I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "JPNS 33000",
+              "title": "Japanese Cinema",
+              "credits": 3.0
+            },
+            {
+              "code": "JPNS 49000",
+              "title": "Special Topics In Japanese Language",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "JPNS 10100",
+    "JPNS 10200",
+    "JPNS 20100",
+    "JPNS 20200",
+    "JPNS 24100",
+    "JPNS 28000",
+    "JPNS 30100",
+    "JPNS 30200",
+    "JPNS 31300",
+    "JPNS 33000",
+    "JPNS 34100",
+    "JPNS 36100",
+    "JPNS 36300",
+    "JPNS 40100",
+    "JPNS 40200",
+    "JPNS 48500",
+    "JPNS 49000"
+  ]
+}

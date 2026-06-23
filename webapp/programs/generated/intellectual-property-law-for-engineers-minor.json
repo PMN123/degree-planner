@@ -1,0 +1,143 @@
+{
+  "id": "intellectual-property-law-for-engineers-minor",
+  "poid": "34767",
+  "name": "Intellectual Property Law for Engineers Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 19,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34767",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.470410+00:00",
+  "course_credits": {
+    "ENGL 42100": 3.0,
+    "ENTR 20000": 3.0,
+    "ME 55400": 1.0,
+    "POL 42800": 3.0,
+    "ME 49200": 3.0,
+    "IDE 49500": 1.0,
+    "PHIL 20700": 3.0,
+    "POL 10100": 3.0,
+    "POL 46100": 3.0,
+    "POL 46200": 3.0,
+    "CCE 42800": 3.0,
+    "ECE 38200": 3.0,
+    "ECE 48300": 3.0,
+    "IE 37000": 3.0,
+    "ME 35400": 3.0,
+    "ME 36300": 3.0,
+    "ME 44400": 3.0,
+    "ME 47500": 3.0,
+    "ME 55300": 3.0,
+    "ME 55700": 3.0,
+    "ME 57000": 3.0,
+    "ME 57100": 3.0,
+    "ME 57200": 3.0,
+    "ME 57500": 3.0,
+    "ME 57600": 3.0,
+    "ME 58600": 3.0,
+    "ME 58800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 13.0,
+      "kind": "all_of",
+      "courses": [
+        "ENGL 42100",
+        "ENTR 20000",
+        "ME 55400",
+        "POL 42800"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "ME 49200 / IDE 49500 / PHIL 20700",
+          "courses": [
+            "ME 49200",
+            "IDE 49500",
+            "PHIL 20700"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elective Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Law",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "POL 10100",
+            "POL 46100",
+            "POL 46200"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Technical",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "CCE 42800",
+            "ECE 38200",
+            "ECE 48300",
+            "IE 37000",
+            "ME 35400",
+            "ME 36300",
+            "ME 44400",
+            "ME 47500",
+            "ME 55300",
+            "ME 55700",
+            "ME 57000",
+            "ME 57100",
+            "ME 57200",
+            "ME 57500",
+            "ME 57600",
+            "ME 58600",
+            "ME 58800"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CCE 42800",
+    "ECE 38200",
+    "ECE 48300",
+    "ENGL 42100",
+    "ENTR 20000",
+    "HELP 02026",
+    "IDE 49500",
+    "IE 37000",
+    "IN 47907",
+    "ME 35400",
+    "ME 36300",
+    "ME 44400",
+    "ME 47500",
+    "ME 49200",
+    "ME 55300",
+    "ME 55400",
+    "ME 55700",
+    "ME 57000",
+    "ME 57100",
+    "ME 57200",
+    "ME 57500",
+    "ME 57600",
+    "ME 58600",
+    "ME 58800",
+    "PHIL 20700",
+    "POL 10100",
+    "POL 42800",
+    "POL 46100",
+    "POL 46200"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "furniture-design-minor",
+  "poid": "34738",
+  "name": "Furniture Design Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34738",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.131687+00:00",
+  "course_credits": {
+    "AD 34000": 3.0,
+    "FNR 31110": 3.0,
+    "FNR 41910": 3.0,
+    "FNR 48410": 3.0,
+    "AD 21500": 3.0,
+    "AD 22800": 3.0,
+    "AD 25600": 3.0,
+    "AD 53500": 3.0,
+    "MET 10200": 3.0,
+    "MFET 10301": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 12.0,
+      "kind": "all_of",
+      "courses": [
+        "AD 34000",
+        "FNR 31110",
+        "FNR 41910",
+        "FNR 48410"
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "AD 21500",
+        "AD 22800",
+        "AD 25600",
+        "AD 53500",
+        "MET 10200",
+        "MFET 10301"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AD 21500",
+    "AD 22800",
+    "AD 25600",
+    "AD 34000",
+    "AD 53500",
+    "FNR 31110",
+    "FNR 41910",
+    "FNR 48410",
+    "FNR 49800",
+    "FNR 59800",
+    "HELP 02026",
+    "IN 47907",
+    "MET 10200",
+    "MFET 10301"
+  ]
+}

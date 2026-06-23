@@ -1,0 +1,103 @@
+{
+  "id": "accounting-minor",
+  "poid": "35586",
+  "name": "Accounting Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35586",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.435426+00:00",
+  "course_credits": {
+    "ACCT 20100": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "ACCT 35000": 3.0,
+    "ACCT 35100": 3.0,
+    "ACCT 35300": 3.0,
+    "ACCT 24900": 3.0,
+    "ACCT 37300": 3.0,
+    "ACCT 50300": 3.0,
+    "ACCT 50400": 3.0,
+    "ACCT 50500": 3.0,
+    "ACCT 50600": 3.0,
+    "ACCT 50900": 3.0,
+    "ACCT 51400": 3.0,
+    "ACCT 53100": 3.0,
+    "ACCT 55700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": [
+        9.0,
+        12.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "ACCT 20100",
+        "ACCT 35000",
+        "ACCT 35100",
+        "ACCT 35300"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "ACCT 20000 / ACCT 21200",
+          "courses": [
+            "ACCT 20000",
+            "ACCT 21200"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Additional Courses",
+      "credit_target": [
+        3.0,
+        6.0
+      ],
+      "kind": "choose",
+      "options": [
+        "ACCT 24900",
+        "ACCT 37300",
+        "ACCT 50300",
+        "ACCT 50400",
+        "ACCT 50500",
+        "ACCT 50600",
+        "ACCT 50900",
+        "ACCT 51400",
+        "ACCT 53100",
+        "ACCT 55700"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "ACCT 21200",
+    "ACCT 24900",
+    "ACCT 35000",
+    "ACCT 35100",
+    "ACCT 35300",
+    "ACCT 37300",
+    "ACCT 50300",
+    "ACCT 50400",
+    "ACCT 50500",
+    "ACCT 50600",
+    "ACCT 50900",
+    "ACCT 51400",
+    "ACCT 53100",
+    "ACCT 55700",
+    "DSB 2XXXX",
+    "HELP 02026",
+    "IN 47907",
+    "STRT 30000"
+  ]
+}

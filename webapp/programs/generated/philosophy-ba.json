@@ -1,0 +1,468 @@
+{
+  "id": "philosophy-ba",
+  "poid": "34875",
+  "name": "Philosophy, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34875",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.368355+00:00",
+  "course_credits": {
+    "PHIL 15000": 3.0,
+    "CS 18200": 3.0,
+    "PHIL 30100": 3.0,
+    "PHIL 30300": 3.0,
+    "PHIL 30200": 3.0,
+    "PHIL 30400": 3.0,
+    "PHIL 30600": 3.0,
+    "PHIL 24000": 3.0,
+    "PHIL 41100": 3.0,
+    "PHIL 42400": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Area A",
+          "credit_target": 6.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "PHIL 15000 / CS 18200",
+              "courses": [
+                "PHIL 15000",
+                "CS 18200"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "PHIL 30100 / PHIL 30300",
+              "courses": [
+                "PHIL 30100",
+                "PHIL 30300"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Area B: History of Philosophy",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "PHIL 30100",
+            "PHIL 30200",
+            "PHIL 30300",
+            "PHIL 30400",
+            "PHIL 30600"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Area C: Value Theory",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "PHIL 24000",
+            "PHIL 41100",
+            "PHIL 42400"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        17.0,
+        58.0
+      ],
+      "kind": "credits",
+      "credits": 17.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Optional Concentration",
+      "credit_target": 15.0,
+      "kind": "credits",
+      "credits": 15.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 - 16 Credits",
+      "items": [
+        {
+          "label": "Area D Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 2 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities (CLA Core I: 3 of 6)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "CS 18200",
+          "title": "Foundations Of Computer Science",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHIL 15000",
+              "title": "Principles Of Logic (UCC: QR)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "PHIL 30100",
+          "title": "History Of Ancient Philosophy (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHIL 30300",
+              "title": "History Of Modern Philosophy (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, and Society (CLA Core I: 5 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "PHIL 24000",
+          "title": "Social And Political Philosophy (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHIL 41100",
+              "title": "Modern Ethical Theories (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "PHIL 42400",
+              "title": "Recent Ethical Theory (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level IV (CLA Core III; CLA Core I: 6 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "PHIL 30100",
+          "title": "History Of Ancient Philosophy (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHIL 30200",
+              "title": "History Of Medieval Philosophy (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "PHIL 30300",
+              "title": "History Of Modern Philosophy (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "PHIL 30400",
+              "title": "Nineteenth-Century Philosophy (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "PHIL 30600",
+              "title": "Twentieth-Century Philosophy",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area D Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area D Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area D Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area D Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CS 18200",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "PHIL 15000",
+    "PHIL 24000",
+    "PHIL 30100",
+    "PHIL 30200",
+    "PHIL 30300",
+    "PHIL 30400",
+    "PHIL 30600",
+    "PHIL 41100",
+    "PHIL 42400"
+  ]
+}

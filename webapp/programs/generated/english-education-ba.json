@@ -1,0 +1,530 @@
+{
+  "id": "english-education-ba",
+  "poid": "35147",
+  "name": "English Education, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35147",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.747378+00:00",
+  "course_credits": {
+    "ENGL 20500": 3.0,
+    "ENGL 22700": 3.0,
+    "ENGL 30100": 3.0,
+    "ENGL 39200": 3.0,
+    "ENGL 25700": 3.0,
+    "ENGL 35200": 3.0,
+    "ENGL 35400": 3.0,
+    "ENGL 35800": 3.0,
+    "ENGL 35900": 3.0,
+    "ENGL 36600": 3.0,
+    "ENGL 23000": 3.0,
+    "ENGL 24000": 3.0,
+    "ENGL 24100": 3.0,
+    "ENGL 26400": 3.0,
+    "ENGL 26600": 3.0,
+    "ENGL 26700": 3.0,
+    "ENGL 27600": 3.0,
+    "ENGL 35000": 3.0,
+    "ENGL 35100": 3.0,
+    "ENGL 24900": 3.0,
+    "ENGL 44200": 3.0,
+    "ENGL 22800": 3.0,
+    "ENGL 30400": 3.0,
+    "ENGL 32700": 3.0,
+    "ENGL 32800": 3.0,
+    "ENGL 41900": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ENGL 47000": 3.0,
+    "ENGL 39000": 1.0,
+    "ENGL 58900": 1.0,
+    "EDCI 20500": 2.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 33300": 3.0,
+    "EDCI 37001": 2.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26500": 3.0,
+    "EDPS 32700": 1.0,
+    "EDPS 36201": 0.0,
+    "EDPS 43010": 1.0,
+    "EDST 20010": 1.0,
+    "EDCI 38100": 3.0,
+    "EDCI 42200": 3.0,
+    "EDCI 49800": 6.0,
+    "ENGL 39100": 3.0,
+    "ENGL 49200": 3.0,
+    "COM 11400": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "English Content Courses",
+      "credit_target": 30.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Courses",
+          "credit_target": 12.0,
+          "kind": "all_of",
+          "courses": [
+            "ENGL 20500",
+            "ENGL 22700",
+            "ENGL 30100",
+            "ENGL 39200"
+          ]
+        },
+        {
+          "name": "Multiethnic Studies",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "ENGL 25700",
+            "ENGL 35200",
+            "ENGL 35400",
+            "ENGL 35800",
+            "ENGL 35900",
+            "ENGL 36600"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Literary Traditions",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "ENGL 23000",
+            "ENGL 24000",
+            "ENGL 24100",
+            "ENGL 26400",
+            "ENGL 26600",
+            "ENGL 26700",
+            "ENGL 27600",
+            "ENGL 35000",
+            "ENGL 35100",
+            "ENGL 24900",
+            "ENGL 25700",
+            "ENGL 35200",
+            "ENGL 35400",
+            "ENGL 36600",
+            "ENGL 44200"
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "Language and Writing Selectives",
+          "credit_target": 9.0,
+          "kind": "choose",
+          "options": [
+            "ENGL 22800",
+            "ENGL 30400",
+            "ENGL 32700",
+            "ENGL 32800",
+            "ENGL 41900",
+            "ENGL 42000",
+            "ENGL 42100",
+            "ENGL 47000",
+            "ENGL 39000",
+            "ENGL 58900"
+          ],
+          "choose_credits": 9.0
+        }
+      ]
+    },
+    {
+      "name": "Major Professional Education Courses",
+      "credit_target": 59.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Foundational Courses",
+          "credit_target": 26.0,
+          "kind": "all_of",
+          "courses": [
+            "EDCI 20500",
+            "EDCI 27000",
+            "EDCI 28550",
+            "EDCI 33300",
+            "EDCI 37001",
+            "EDPS 23500",
+            "EDPS 24001",
+            "EDPS 26500",
+            "EDPS 32700",
+            "EDPS 36201",
+            "EDPS 43010",
+            "EDST 20010"
+          ]
+        },
+        {
+          "name": "English Methods Courses",
+          "credit_target": 24.0,
+          "kind": "all_of",
+          "courses": [
+            "EDCI 38100",
+            "EDCI 42200",
+            "EDCI 49800",
+            "ENGL 39100",
+            "ENGL 49200"
+          ]
+        },
+        {
+          "name": "Required Learner Pathway Concentration",
+          "credit_target": 9.0,
+          "kind": "credits",
+          "credits": 9.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        6.0,
+        19.0
+      ],
+      "kind": "credits",
+      "credits": 6.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-20 Credits",
+      "items": [
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            },
+            {
+              "code": "HONR 19903",
+              "title": "Interdisciplinary Approaches In Writing (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "12-18 Credits",
+      "items": [
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 22700",
+          "title": "Elements Of Linguistics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL 39100",
+          "title": "Composition For English Teachers",
+          "credits": 3.0
+        },
+        {
+          "label": "Language and Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Literary Traditions Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 26500",
+          "title": "The Inclusive Classroom",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 20500",
+          "title": "Introduction To Creative Writing",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 49200",
+          "title": "Literature In The Secondary Schools",
+          "credits": 3.0
+        },
+        {
+          "label": "Literary Traditions Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "EDCI 38100",
+          "title": "Classrooms In Context: Contemporary Issues In Education",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 30100",
+          "title": "Introduction To Literary Theory",
+          "credits": 3.0
+        },
+        {
+          "label": "Multiethnic Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Language and Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Learner Pathway Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 33300",
+          "title": "Reading In Our World: Disciplinary Literacy Development In The Content Areas",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 39200",
+          "title": "Young Adult Literature",
+          "credits": 3.0
+        },
+        {
+          "label": "Language and Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Learner Pathway Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "EDCI 42200",
+          "title": "The Teaching Of English In Secondary Schools",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 43010",
+          "title": "Secondary Creating And Managing Learning Environments",
+          "credits": 1.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Learner Pathway course",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDCI 49800",
+          "title": "Supervised Teaching (UCC: OC)",
+          "credits": 6.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "COM 11400",
+    "EDCI 20500",
+    "EDCI 27000",
+    "EDCI 28550",
+    "EDCI 33300",
+    "EDCI 37001",
+    "EDCI 38100",
+    "EDCI 42200",
+    "EDCI 49800",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26500",
+    "EDPS 32700",
+    "EDPS 36201",
+    "EDPS 43010",
+    "EDST 20010",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 20500",
+    "ENGL 22700",
+    "ENGL 22800",
+    "ENGL 23000",
+    "ENGL 24000",
+    "ENGL 24100",
+    "ENGL 24900",
+    "ENGL 25700",
+    "ENGL 26400",
+    "ENGL 26600",
+    "ENGL 26700",
+    "ENGL 27600",
+    "ENGL 30100",
+    "ENGL 30400",
+    "ENGL 32700",
+    "ENGL 32800",
+    "ENGL 35000",
+    "ENGL 35100",
+    "ENGL 35200",
+    "ENGL 35400",
+    "ENGL 35800",
+    "ENGL 35900",
+    "ENGL 36600",
+    "ENGL 39000",
+    "ENGL 39100",
+    "ENGL 39200",
+    "ENGL 41900",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGL 44200",
+    "ENGL 47000",
+    "ENGL 49200",
+    "ENGL 58900",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IN 47907"
+  ]
+}

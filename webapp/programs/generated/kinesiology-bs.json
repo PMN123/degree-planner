@@ -1,0 +1,392 @@
+{
+  "id": "kinesiology-bs",
+  "poid": "35141",
+  "name": "Kinesiology, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35141",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.530910+00:00",
+  "course_credits": {
+    "HK 10000": 3.0,
+    "HK 13500": 1.0,
+    "HK 25300": 3.0,
+    "HK 25800": 3.0,
+    "HK 26300": 3.0,
+    "HK 36800": 3.0,
+    "HK 37200": 3.0,
+    "HK 46500": 3.0,
+    "BIOL 20300": 4.0,
+    "BIOL 20400": 4.0,
+    "CHM 11100": 3.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11200": 3.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "MA 15800": 3.0,
+    "PHYS 22000": 4.0,
+    "PSY 12000": 3.0,
+    "STAT 30100": 3.0,
+    "HK 49600": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Kinesiology Selectives",
+      "credit_target": [
+        3.0,
+        15.0
+      ],
+      "kind": "credits",
+      "credits": 3.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        24.0,
+        45.0
+      ],
+      "kind": "credits",
+      "credits": 24.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "BIOL 20300",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "HK 13500",
+          "title": "Introduction To Health And Kinesiology",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "BIOL 20400",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "HK 10000",
+          "title": "Foundations Of Kinesiology",
+          "credits": 3.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 11510",
+              "title": "General Chemistry I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "HK 36800",
+          "title": "Exercise Physiology I",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 11610",
+              "title": "General Chemistry II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "HK 26300",
+          "title": "Biomechanical Foundations Of Motor Skills",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "HK 25300",
+          "title": "Principles Of Motor Development",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HK 25800",
+              "title": "Foundations Of Motor Skill Learning",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "HK 37200",
+          "title": "Sport And Exercise Psychology I",
+          "credits": 3.0
+        },
+        {
+          "code": "HK 46500",
+          "title": "Research Methods",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HK 49600",
+              "title": "Mentored Research In Kinesiology",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "Kinesiology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Culture & Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "label": "Kinesiology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Kinesiology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society core",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Kinesiology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Kinesiology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "BIOL 20300",
+    "BIOL 20400",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11610",
+    "CHM 11620",
+    "ENGL 10600",
+    "ENGL 10800",
+    "HEA 01348",
+    "HELP 02026",
+    "HK 10000",
+    "HK 13500",
+    "HK 25300",
+    "HK 25800",
+    "HK 26300",
+    "HK 36800",
+    "HK 37200",
+    "HK 46500",
+    "HK 49600",
+    "IN 47907",
+    "MA 15800",
+    "PHYS 22000",
+    "PSY 12000",
+    "STAT 30100"
+  ]
+}

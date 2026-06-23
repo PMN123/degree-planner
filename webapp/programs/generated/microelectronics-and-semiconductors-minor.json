@@ -1,0 +1,114 @@
+{
+  "id": "microelectronics-and-semiconductors-minor",
+  "poid": "35777",
+  "name": "Microelectronics and Semiconductors Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35777",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.109373+00:00",
+  "course_credits": {
+    "ECE 20001": 3.0,
+    "ECE 20007": 1.0,
+    "ECE 27000": 4.0,
+    "ECE 33700": 2.0,
+    "ECE 20002": 3.0,
+    "ECE 30500": 3.0,
+    "ECE 50631": 1.0,
+    "ECE 50632": 1.0,
+    "ECE 50633": 1.0,
+    "ECE 36200": 4.0,
+    "ECE 40655": 3.0,
+    "ECE 40656": 3.0,
+    "ECE 43700": 4.0,
+    "ECE 55900": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses - Choose One:",
+      "credit_target": 10.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Option 1: Microelectronics Track",
+          "credit_target": 10.0,
+          "kind": "choose",
+          "options": [
+            "ECE 20001",
+            "ECE 20007",
+            "ECE 27000",
+            "ECE 33700"
+          ],
+          "choose_credits": 10.0
+        },
+        {
+          "name": "Option 2: Semiconductors Track",
+          "credit_target": 10.0,
+          "kind": "choose",
+          "options": [
+            "ECE 20001",
+            "ECE 20002",
+            "ECE 20007",
+            "ECE 30500",
+            "ECE 50631",
+            "ECE 50632",
+            "ECE 50633"
+          ],
+          "choose_credits": 10.0
+        }
+      ]
+    },
+    {
+      "name": "Selectives",
+      "credit_target": 8.0,
+      "kind": "choose",
+      "options": [
+        "ECE 20002",
+        "ECE 27000",
+        "ECE 30500",
+        "ECE 33700",
+        "ECE 36200",
+        "ECE 40655",
+        "ECE 40656",
+        "ECE 43700",
+        "ECE 55900"
+      ],
+      "choose_credits": 8.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CS 15900",
+    "ECE 20001",
+    "ECE 20002",
+    "ECE 20007",
+    "ECE 27000",
+    "ECE 30500",
+    "ECE 33700",
+    "ECE 36200",
+    "ECE 40655",
+    "ECE 40656",
+    "ECE 43700",
+    "ECE 50631",
+    "ECE 50632",
+    "ECE 50633",
+    "ECE 55900",
+    "ENGR 13100",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26200",
+    "MA 26500",
+    "PHYS 17200",
+    "PHYS 24100"
+  ]
+}

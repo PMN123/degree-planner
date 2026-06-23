@@ -1,0 +1,198 @@
+{
+  "id": "natural-resources-and-environmental-science-minor",
+  "poid": "35919",
+  "name": "Natural Resources and Environmental Science Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35919",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.161450+00:00",
+  "course_credits": {
+    "AGRY 12500": 3.0,
+    "EAPS 12500": 3.0,
+    "FNR 12500": 3.0,
+    "NRES 12500": 3.0,
+    "AGEC 40600": 3.0,
+    "FNR 37500": 3.0,
+    "POL 22300": 3.0,
+    "SOC 34400": 3.0,
+    "AGRY 25500": 3.0,
+    "NRES 25500": 3.0,
+    "POL 32700": 3.0,
+    "EAPS 22500": 3.0,
+    "EAPS 22100": 3.0,
+    "NRES 23000": 3.0,
+    "AGEC 52500": 3.0,
+    "ASEC 58500": 3.0,
+    "AGRY 56000": 3.0,
+    "BTNY 30500": 3.0,
+    "NRES 38010": 3.0,
+    "EEE 23000": 3.0,
+    "EEE 35500": 3.0,
+    "SFS 30200": 3.0,
+    "AGRY 33700": 3.0,
+    "NRES 33700": 3.0,
+    "HORT 57200": 2.0,
+    "NRES 57200": 2.0,
+    "FNR 27000": 1.0,
+    "AGRY 45000": 3.0,
+    "NRES 45000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "AGRY 12500",
+        "EAPS 12500",
+        "FNR 12500",
+        "NRES 12500"
+      ]
+    },
+    {
+      "name": "Selective Course",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "AGEC 40600",
+        "FNR 37500",
+        "POL 22300",
+        "SOC 34400",
+        {
+          "kind": "one_of",
+          "name": "AGRY 25500 / NRES 25500",
+          "courses": [
+            "AGRY 25500",
+            "NRES 25500"
+          ]
+        }
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Emphasis Areas Selectives",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Climate and Energy Emphasis",
+          "kind": "all_of",
+          "courses": [
+            "POL 32700",
+            "EAPS 22500"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "EAPS 22100 / NRES 23000",
+              "courses": [
+                "EAPS 22100",
+                "NRES 23000"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Environmental Policy and Analysis Emphasis",
+          "kind": "all_of",
+          "courses": [
+            "AGEC 52500",
+            "ASEC 58500",
+            "POL 32700"
+          ]
+        },
+        {
+          "name": "Environmental Quality and Restoration Emphasis",
+          "kind": "all_of",
+          "courses": [
+            "AGRY 56000",
+            "BTNY 30500",
+            "NRES 38010"
+          ]
+        },
+        {
+          "name": "Sustainability Science Emphasis",
+          "kind": "all_of",
+          "courses": [
+            "EEE 23000",
+            "EEE 35500",
+            "SFS 30200"
+          ]
+        },
+        {
+          "name": "Watershed Management Emphasis",
+          "kind": "all_of",
+          "courses": [
+            "FNR 27000"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AGRY 33700 / NRES 33700",
+              "courses": [
+                "AGRY 33700",
+                "NRES 33700"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "HORT 57200 / NRES 57200",
+              "courses": [
+                "HORT 57200",
+                "NRES 57200"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AGRY 45000 / NRES 45000",
+              "courses": [
+                "AGRY 45000",
+                "NRES 45000"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AGEC 40600",
+    "AGEC 52500",
+    "AGRY 12500",
+    "AGRY 25500",
+    "AGRY 33700",
+    "AGRY 45000",
+    "AGRY 56000",
+    "ASEC 58500",
+    "BTNY 30500",
+    "EAPS 12500",
+    "EAPS 22100",
+    "EAPS 22500",
+    "EEE 23000",
+    "EEE 35500",
+    "FNR 12500",
+    "FNR 27000",
+    "FNR 37500",
+    "HELP 02026",
+    "HORT 57200",
+    "IN 47907",
+    "NRES 12500",
+    "NRES 23000",
+    "NRES 25500",
+    "NRES 33700",
+    "NRES 38010",
+    "NRES 45000",
+    "NRES 57200",
+    "POL 22300",
+    "POL 32700",
+    "SFS 30200",
+    "SOC 34400"
+  ]
+}

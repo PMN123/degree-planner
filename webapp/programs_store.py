@@ -1,5 +1,18 @@
 #!/usr/bin/env python3
-"""Loads program-requirement files and resolves shared ``$include`` fragments."""
+"""Program-requirement store.
+
+Three layers, merged by slug (later layers win):
+
+1. ``programs_index.json``      — every Purdue program (scraped index). Powers the
+                                  searchable major / minor pickers even before a
+                                  program's requirement tree has been scraped.
+2. ``programs/generated/*.json`` — best-effort requirement trees from the scraper
+                                  (``"verified": false``).
+3. ``programs/verified/*.json``  — human-verified trees that override generated ones.
+
+Shared ``{"$include": "name"}`` fragments (calculus, university core, …) are resolved
+from ``programs/_shared.json`` for hand-authored files.
+"""
 
 from __future__ import annotations
 
@@ -8,8 +21,14 @@ import json
 from pathlib import Path
 from typing import Any
 
-PROGRAMS_DIR = Path(__file__).resolve().parent / "programs"
+HERE = Path(__file__).resolve().parent
+PROGRAMS_DIR = HERE / "programs"
 SHARED_PATH = PROGRAMS_DIR / "_shared.json"
+VERIFIED_DIR = PROGRAMS_DIR / "verified"
+GENERATED_DIR = PROGRAMS_DIR / "generated"
+INDEX_PATH = HERE.parent / "programs_index.json"
+
+TYPE_ORDER = {"major": 0, "minor": 1, "certificate": 2, "other": 3, "graduate": 4}
 
 
 def _load_shared() -> dict[str, Any]:
@@ -27,7 +46,6 @@ def _resolve(node: Any, blocks: dict[str, Any]) -> Any:
             if block is None:
                 return {"id": name, "name": f"(missing include: {name})", "kind": "all_of", "courses": []}
             resolved = copy.deepcopy(block)
-            # allow per-use overrides (e.g. a custom name)
             for key, value in node.items():
                 if key != "$include":
                     resolved[key] = value
@@ -38,43 +56,89 @@ def _resolve(node: Any, blocks: dict[str, Any]) -> Any:
     return node
 
 
+def _meta_from_program(program: dict[str, Any], *, verified: bool) -> dict[str, Any]:
+    return {
+        "id": program["id"],
+        "name": program.get("name"),
+        "type": program.get("type", "major"),
+        "degree": program.get("degree"),
+        "college": program.get("college"),
+        "total_credits": program.get("total_credits"),
+        "catalog_year": program.get("catalog_year"),
+        "source_url": program.get("source_url"),
+        "poid": program.get("poid"),
+        "verified": verified,
+        "has_requirements": bool(program.get("requirements")),
+    }
+
+
 class ProgramStore:
-    def __init__(self, directory: Path = PROGRAMS_DIR):
-        self.directory = directory
-        self._programs: dict[str, dict[str, Any]] = {}
+    def __init__(self) -> None:
+        self._full: dict[str, dict[str, Any]] = {}     # slug -> full requirement program
+        self._meta: dict[str, dict[str, Any]] = {}     # slug -> lightweight list entry
         self.load()
 
     def load(self) -> None:
         blocks = _load_shared()
-        self._programs = {}
-        for path in sorted(self.directory.glob("*.json")):
-            if path.name.startswith("_"):
-                continue
-            try:
-                raw = json.loads(path.read_text(encoding="utf-8"))
-            except json.JSONDecodeError as exc:
-                raise ValueError(f"{path.name}: invalid JSON ({exc})") from exc
-            program = _resolve(raw, blocks)
-            pid = program.get("id") or path.stem
-            program["id"] = pid
-            self._programs[pid] = program
+        self._full = {}
+        self._meta = {}
 
-    def list(self) -> list[dict[str, Any]]:
-        out = []
-        for program in self._programs.values():
-            out.append(
-                {
-                    "id": program["id"],
-                    "name": program.get("name"),
-                    "degree": program.get("degree"),
-                    "type": program.get("type", "major"),
-                    "college": program.get("college"),
-                    "total_credits": program.get("total_credits"),
-                    "catalog_year": program.get("catalog_year"),
+        # 1. searchable index (lightweight)
+        if INDEX_PATH.exists():
+            data = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+            for p in data.get("programs", []):
+                slug = p.get("slug") or p.get("id")
+                if not slug:
+                    continue
+                self._meta[slug] = {
+                    "id": slug, "name": p.get("name"), "type": p.get("type", "major"),
+                    "degree": p.get("degree"), "college": p.get("college"),
+                    "total_credits": p.get("total_credits"), "source_url": p.get("source_url"),
+                    "poid": p.get("poid"), "verified": False, "has_requirements": False,
                 }
-            )
-        out.sort(key=lambda p: (p["type"] != "major", p["college"] or "", p["name"] or ""))
-        return out
+
+        # 2. generated trees, then 3. verified trees (verified wins)
+        for directory, verified in ((GENERATED_DIR, False), (VERIFIED_DIR, True)):
+            if not directory.exists():
+                continue
+            for path in sorted(directory.glob("*.json")):
+                if path.name.startswith("_"):
+                    continue
+                try:
+                    raw = json.loads(path.read_text(encoding="utf-8"))
+                except json.JSONDecodeError as exc:
+                    raise ValueError(f"{path.name}: invalid JSON ({exc})") from exc
+                program = _resolve(raw, blocks)
+                slug = program.get("id") or path.stem
+                program["id"] = slug
+                program["verified"] = verified
+                self._full[slug] = program
+                self._meta[slug] = _meta_from_program(program, verified=verified)
+
+    # -- queries ------------------------------------------------------------
+    def list(self, *, type: str | None = None, q: str | None = None, limit: int | None = None) -> list[dict[str, Any]]:
+        items = list(self._meta.values())
+        if type:
+            wanted = {t.strip() for t in type.split(",")}
+            items = [p for p in items if p["type"] in wanted]
+        if q:
+            ql = q.strip().lower()
+            items = [p for p in items if ql in (p["name"] or "").lower() or ql in p["id"].lower()]
+        items.sort(key=lambda p: (TYPE_ORDER.get(p["type"], 9), (p["name"] or "").lower()))
+        return items[:limit] if limit else items
 
     def get(self, program_id: str) -> dict[str, Any] | None:
-        return self._programs.get(program_id)
+        if program_id in self._full:
+            return self._full[program_id]
+        meta = self._meta.get(program_id)
+        if not meta:
+            return None
+        # Known program, but its requirement tree hasn't been scraped yet.
+        return {
+            **meta, "requirements": [], "recommended_sequence": [],
+            "needs_scrape": True,
+            "notes": ["Requirements for this program have not been scraped yet."],
+        }
+
+    def slugs(self) -> list[str]:
+        return list(self._meta.keys())

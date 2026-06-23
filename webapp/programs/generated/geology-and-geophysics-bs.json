@@ -1,0 +1,612 @@
+{
+  "id": "geology-and-geophysics-bs",
+  "poid": "34845",
+  "name": "Geology and Geophysics, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34845",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.868019+00:00",
+  "course_credits": {
+    "EAPS 11800": 3.0,
+    "EAPS 13700": 1.0,
+    "EAPS 24300": 4.0,
+    "EAPS 30900": 3.0,
+    "EAPS 34400": 4.0,
+    "EAPS 35200": 3.0,
+    "EAPS 35300": 3.0,
+    "EAPS 35400": 3.0,
+    "EAPS 47400": 4.0,
+    "EAPS 47500": 6.0,
+    "EAPS 11200": 3.0,
+    "EAPS 31900": 3.0,
+    "CS 15900": 3.0,
+    "CS 17600": 3.0,
+    "CS 17700": 4.0,
+    "CS 18000": 4.0,
+    "ENGR 14200": 3.5,
+    "ENGR 16200": 4.0,
+    "TDM 10100": 1.0,
+    "TDM 10200": 1.0,
+    "PHYS 17200": 4.0,
+    "PHYS 22000": 4.0,
+    "PHYS 22100": 4.0,
+    "PHYS 27200": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 25200": 1.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "STAT 30100": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 50300": 3.0,
+    "STAT 51100": 3.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 12500": 5.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 11630": 1.0,
+    "CHM 12600": 5.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 49.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 37.0,
+          "kind": "all_of",
+          "courses": [
+            "EAPS 11800",
+            "EAPS 13700",
+            "EAPS 24300",
+            "EAPS 30900",
+            "EAPS 34400",
+            "EAPS 35200",
+            "EAPS 35300",
+            "EAPS 35400",
+            "EAPS 47400",
+            "EAPS 47500"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "EAPS 11200 / EAPS 31900",
+              "courses": [
+                "EAPS 11200",
+                "EAPS 31900"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Geology and Geophysics Selectives",
+          "credit_target": 12.0,
+          "kind": "credits",
+          "credits": 12.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "College of Science Additional Requirements",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Computing",
+          "credit_target": [
+            2.0,
+            4.0
+          ],
+          "kind": "choose",
+          "options": [
+            "CS 15900",
+            "CS 17600",
+            "CS 17700",
+            "CS 18000",
+            "ENGR 14200",
+            "ENGR 16200",
+            "TDM 10100",
+            "TDM 10200"
+          ],
+          "choose_credits": 2.0
+        },
+        {
+          "name": "Laboratory Science",
+          "credit_target": 8.0,
+          "kind": "choose",
+          "options": [
+            {
+              "kind": "one_of",
+              "name": "PHYS 17200 / PHYS 22000",
+              "courses": [
+                "PHYS 17200",
+                "PHYS 22000"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "PHYS 22100 / PHYS 27200 / PHYS 24100",
+              "courses": [
+                "PHYS 22100",
+                "PHYS 27200",
+                "PHYS 24100"
+              ]
+            },
+            "PHYS 25200"
+          ],
+          "choose_credits": 8.0
+        },
+        {
+          "name": "Mathematics",
+          "credit_target": [
+            8.0,
+            10.0
+          ],
+          "kind": "choose",
+          "options": [
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            }
+          ],
+          "choose_credits": 8.0
+        },
+        {
+          "name": "Statistics",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "STAT 30100",
+            "STAT 35000",
+            "STAT 50300",
+            "STAT 51100"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Required Pre-Requisite Courses",
+          "credit_target": [
+            8.0,
+            10.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "CHM 11510",
+            "CHM 12500",
+            "CHM 11610",
+            "CHM 12600"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CHM 11620 / CHM 11630",
+              "courses": [
+                "CHM 11620",
+                "CHM 11630"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "EAPS 11800",
+          "title": "Introduction To Earth Sciences",
+          "credits": 3.0
+        },
+        {
+          "code": "EAPS 13700",
+          "title": "Freshman Seminar In Earth, Atmospheric, And Planetary Sciences",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "CHM 12500",
+              "title": "Introduction To Chemistry I (UCC: SCI)",
+              "credits": 5.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection - Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "EAPS 11200",
+          "title": "Earth Through Time (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EAPS 31900",
+              "title": "Exploring Earth Through Time",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection: General Education I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "EAPS 24300",
+          "title": "Mineralogy",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11630",
+              "title": "General Chemistry II - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "CHM 12600",
+              "title": "Introduction To Chemistry II (UCC: SCI)",
+              "credits": 5.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 17200",
+          "title": "Modern Mechanics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 22000",
+              "title": "General Physics (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection: General Education II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "EAPS 35400",
+          "title": "Earth And Planetary Geophysics",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22100",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 24100",
+              "title": "Electricity And Optics (UCC: SCI)",
+              "credits": 3.0
+            },
+            {
+              "code": "PHYS 27200",
+              "title": "Electric And Magnetic Interactions (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science/Engineering Elective (Level 20000 to 59900)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Computing",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: General Education III",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "13-16 Credits",
+      "items": [
+        {
+          "code": "EAPS 35300",
+          "title": "Earth And Planetary Surface Processes",
+          "credits": 3.0
+        },
+        {
+          "code": "EAPS 47400",
+          "title": "Sedimentary Geology",
+          "credits": 4.0
+        },
+        {
+          "label": "Science Core Selection: Teambuilding",
+          "credits": 0.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Great Issues in Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Statistics",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13-16 Credits",
+      "items": [
+        {
+          "code": "EAPS 30900",
+          "title": "Computer-Aided Analysis For Geosciences",
+          "credits": 3.0
+        },
+        {
+          "code": "EAPS 35200",
+          "title": "Structural Geology",
+          "credits": 3.0
+        },
+        {
+          "code": "EAPS 35400",
+          "title": "Earth And Planetary Geophysics",
+          "credits": 3.0
+        },
+        {
+          "label": "Science Core Selection: Language or Culture I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection:&nbsp;Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Summer 3rd Year",
+      "credit_hint": "6 Credits",
+      "items": [
+        {
+          "code": "EAPS 47500",
+          "title": "Geology And Geophysics Field Camp - Wasatch-Uinta Field Camp",
+          "credits": 6.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "label": "EAPS Professional Elective (EAPS 30000:59900)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Language or Culture II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: General Education II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "EAPS Professional Elective (EAPS 30000:59900)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 11630",
+    "CHM 12500",
+    "CHM 12600",
+    "CS 15900",
+    "CS 17600",
+    "CS 17700",
+    "CS 18000",
+    "EAPS 11200",
+    "EAPS 11800",
+    "EAPS 13700",
+    "EAPS 24300",
+    "EAPS 30000",
+    "EAPS 30900",
+    "EAPS 31900",
+    "EAPS 34400",
+    "EAPS 35200",
+    "EAPS 35300",
+    "EAPS 35400",
+    "EAPS 47400",
+    "EAPS 47500",
+    "ENGR 14200",
+    "ENGR 16200",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "PHYS 17200",
+    "PHYS 22000",
+    "PHYS 22100",
+    "PHYS 24100",
+    "PHYS 25200",
+    "PHYS 27200",
+    "STAT 30100",
+    "STAT 35000",
+    "STAT 50300",
+    "STAT 51100",
+    "TDM 10100",
+    "TDM 10200"
+  ]
+}

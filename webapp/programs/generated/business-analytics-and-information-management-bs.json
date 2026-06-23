@@ -1,0 +1,641 @@
+{
+  "id": "business-analytics-and-information-management-bs",
+  "poid": "35341",
+  "name": "Business Analytics and Information Management, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35341",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.579406+00:00",
+  "course_credits": {
+    "ACCT 20000": 3.0,
+    "ACCT 20100": 3.0,
+    "DSB 25500": 1.0,
+    "DSB 29500": 1.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "FIN 31000": 3.0,
+    "MIS 38200": 3.0,
+    "MIS 47900": 2.0,
+    "MIS 54400": 3.0,
+    "MKTG 32400": 3.0,
+    "OBHR 33000": 3.0,
+    "QM 30500": 3.0,
+    "QM 30600": 3.0,
+    "QM 47300": 3.0,
+    "SCOM 36100": 3.0,
+    "STRT 25400": 3.0,
+    "STRT 35200": 3.0,
+    "ACCT 21000": 3.0,
+    "DSB 18700": 2.0,
+    "FIN 25800": 3.0,
+    "QM 17400": 2.0,
+    "OBHR 33500": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "MIS 38800": 3.0,
+    "CS 18000": 4.0,
+    "ECON 37300": 3.0,
+    "QM 40500": 3.0,
+    "MIS 46700": 3.0,
+    "QM 47200": 3.0,
+    "QM 47400": 3.0,
+    "QM 47500": 3.0,
+    "MIS 47800": 3.0,
+    "MIS 48800": 3.0,
+    "DSB 49000": 1.0,
+    "MIS 54500": 3.0,
+    "ECON 36000": 3.0,
+    "ILS 23000": 3.0,
+    "QM 38900": 3.0,
+    "FIN 41310": 3.0,
+    "MKTG 42110": 3.0,
+    "OBHR 44434": 3.0,
+    "SCOM 46300": 3.0,
+    "SCOM 46600": 3.0,
+    "STAT 42000": 3.0,
+    "STAT 30301": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 35500": 3.0,
+    "ACCT 24900": 3.0,
+    "CS 17600": 3.0,
+    "CS 15900": 3.0,
+    "CS 18200": 3.0,
+    "CS 24000": 3.0,
+    "DSB 23500": 3.0,
+    "FIN 24500": 3.0,
+    "MKTG 22300": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16020": 3.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "PSY 12000": 3.0,
+    "SOC 10000": 3.0,
+    "SCLA 10100": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0,
+    "SCLA 10200": 3.0,
+    "COM 11400": 3.0,
+    "COM 21700": 3.0,
+    "EDPS 31500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Department/Program Major Courses",
+      "credit_target": [
+        79.0,
+        80.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": [
+            58.0,
+            59.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "ACCT 20000",
+            "ACCT 20100",
+            "DSB 25500",
+            "DSB 29500",
+            "ECON 25100",
+            "ECON 25200",
+            "FIN 31000",
+            "MIS 38200",
+            "MIS 47900",
+            "MIS 54400",
+            "MKTG 32400",
+            "OBHR 33000",
+            "QM 30500",
+            "QM 30600",
+            "QM 47300",
+            "SCOM 36100",
+            "STRT 25400",
+            "STRT 35200"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "ACCT 21000 / DSB 18700 / FIN 25800 / QM 17400",
+              "courses": [
+                "ACCT 21000",
+                "DSB 18700",
+                "FIN 25800",
+                "QM 17400"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "OBHR 33500 / ENGL 42000 / ENGL 42100",
+              "courses": [
+                "OBHR 33500",
+                "ENGL 42000",
+                "ENGL 42100"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MIS 38800 / CS 18000",
+              "courses": [
+                "MIS 38800",
+                "CS 18000"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Major Selectives",
+          "credit_target": 18.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Selectives I",
+              "credit_target": 12.0,
+              "kind": "choose",
+              "options": [
+                "ECON 37300",
+                "QM 17400",
+                "QM 40500",
+                "MIS 46700",
+                "QM 47200",
+                "QM 47400",
+                "QM 47500",
+                "MIS 47800",
+                "MIS 48800",
+                "DSB 49000",
+                "MIS 54500"
+              ],
+              "choose_credits": 12.0
+            },
+            {
+              "name": "Selectives II",
+              "credit_target": 6.0,
+              "kind": "choose",
+              "options": [
+                "ECON 36000",
+                "ILS 23000",
+                "QM 38900",
+                "FIN 41310",
+                "MKTG 42110",
+                "OBHR 44434",
+                "SCOM 46300",
+                "SCOM 46600",
+                "STAT 42000"
+              ],
+              "choose_credits": 6.0
+            }
+          ]
+        },
+        {
+          "name": "Cultural Competencies",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-23 Credits",
+      "items": [
+        {
+          "code": "ACCT 21000",
+          "title": "AI In Accounting",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "DSB 18700",
+              "title": "Intro To AI For Business (UCC:AI)",
+              "credits": 2.0
+            },
+            {
+              "code": "FIN 25800",
+              "title": "AI In Finance (UCC: AI)",
+              "credits": 3.0
+            },
+            {
+              "code": "QM 17400",
+              "title": "AI & Decision Analytics",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SOC 10000",
+              "title": "Introductory Sociology (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Applied Calculus I \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication Selective \u2666",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-21 Credits",
+      "items": [
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0
+        },
+        {
+          "code": "DSB 25500",
+          "title": "Foundations Of Business Ethics",
+          "credits": 1.0
+        },
+        {
+          "code": "DSB 29500",
+          "title": "Business Professional Development & Career Strategies",
+          "credits": 1.0
+        },
+        {
+          "code": "ECON 25100",
+          "title": "Microeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Applied Calculus II \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication Selective \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "ACCT 20100",
+          "title": "Management Accounting I",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON 25200",
+          "title": "Macroeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Computer Science Selective \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "ACCT 24900",
+          "title": "Accounting Analysis & Modeling",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CS 17600",
+              "title": "Data Engineering In Python",
+              "credits": 3.0
+            },
+            {
+              "code": "CS 15900",
+              "title": "C Programming",
+              "credits": 3.0
+            },
+            {
+              "code": "CS 18200",
+              "title": "Foundations Of Computer Science",
+              "credits": 3.0
+            },
+            {
+              "code": "CS 24000",
+              "title": "Programming In C",
+              "credits": 3.0
+            },
+            {
+              "code": "DSB 23500",
+              "title": "Data Tools For Business",
+              "credits": 3.0
+            },
+            {
+              "code": "FIN 24500",
+              "title": "Introduction To Finance With Excel",
+              "credits": 3.0
+            },
+            {
+              "code": "MKTG 22300",
+              "title": "Marketing Excel Fundamentals And Data Analytics",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "STAT 30301",
+          "title": "Probability And Statistics For Business",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 35000",
+              "title": "Introduction To Statistics",
+              "credits": 3.0
+            },
+            {
+              "code": "STAT 35500",
+              "title": "Statistics For Data Science",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "MIS 38200",
+          "title": "Management Information Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "MIS 38800",
+          "title": "Python For Business",
+          "credits": 3.0
+        },
+        {
+          "code": "MKTG 32400",
+          "title": "Marketing Management",
+          "credits": 3.0
+        },
+        {
+          "code": "QM 30500",
+          "title": "Business Statistics",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 35200",
+          "title": "Strategic Management",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "FIN 31000",
+          "title": "Financial Management",
+          "credits": 3.0
+        },
+        {
+          "code": "QM 30600",
+          "title": "Management Science",
+          "credits": 3.0
+        },
+        {
+          "code": "QM 47300",
+          "title": "Data Mining",
+          "credits": 3.0
+        },
+        {
+          "code": "SCOM 36100",
+          "title": "Operations Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "MIS 47900",
+          "title": "Data Visualization",
+          "credits": 2.0
+        },
+        {
+          "code": "MIS 54400",
+          "title": "Database Management Systems",
+          "credits": 3.0
+        },
+        {
+          "label": "Cultural Competency I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "OBHR 33000",
+          "title": "Introduction To Organizational Behavior",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "STRT 25400",
+          "title": "Legal Foundations Of Business I",
+          "credits": 3.0
+        },
+        {
+          "code": "OBHR 33500",
+          "title": "Strategic Business Writing (UCC: WC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 42000",
+              "title": "Business Writing",
+              "credits": 3.0
+            },
+            {
+              "code": "ENGL 42100",
+              "title": "Technical Writing",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "ACCT 21000",
+    "ACCT 24900",
+    "COM 11400",
+    "COM 21700",
+    "CS 15900",
+    "CS 17600",
+    "CS 18000",
+    "CS 18200",
+    "CS 24000",
+    "DSB 18700",
+    "DSB 23500",
+    "DSB 25500",
+    "DSB 29500",
+    "DSB 49000",
+    "ECON 25100",
+    "ECON 25200",
+    "ECON 36000",
+    "ECON 37300",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 42000",
+    "ENGL 42100",
+    "FIN 24500",
+    "FIN 25800",
+    "FIN 31000",
+    "FIN 41310",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "ILS 23000",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MGMT 00352",
+    "MGMT 20000",
+    "MGMT 30500",
+    "MGMT 31000",
+    "MGMT 32400",
+    "MGMT 35000",
+    "MGMT 36100",
+    "MGMT 38200",
+    "MIS 38200",
+    "MIS 38800",
+    "MIS 46700",
+    "MIS 47800",
+    "MIS 47900",
+    "MIS 48800",
+    "MIS 54400",
+    "MIS 54500",
+    "MKTG 22300",
+    "MKTG 32400",
+    "MKTG 42110",
+    "OBHR 33000",
+    "OBHR 33500",
+    "OBHR 44434",
+    "PSY 12000",
+    "QM 17400",
+    "QM 30500",
+    "QM 30600",
+    "QM 38900",
+    "QM 40500",
+    "QM 47200",
+    "QM 47300",
+    "QM 47400",
+    "QM 47500",
+    "SCLA 10100",
+    "SCLA 10200",
+    "SCOM 36100",
+    "SCOM 46300",
+    "SCOM 46600",
+    "SOC 10000",
+    "STAT 30301",
+    "STAT 35000",
+    "STAT 35500",
+    "STAT 42000",
+    "STRT 25400",
+    "STRT 35200"
+  ]
+}

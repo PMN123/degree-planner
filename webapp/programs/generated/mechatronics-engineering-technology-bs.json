@@ -1,0 +1,397 @@
+{
+  "id": "mechatronics-engineering-technology-bs",
+  "poid": "35161",
+  "name": "Mechatronics Engineering Technology, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35161",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.646977+00:00",
+  "course_credits": {
+    "CNIT 10500": 3.0,
+    "CS 17700": 4.0,
+    "ECET 17900": 3.0,
+    "ECET 27900": 3.0,
+    "ECET 30201": 3.0,
+    "ECET 33700": 3.0,
+    "ECET 36900": 3.0,
+    "ENGT 18200": 4.0,
+    "ENGT 48100": 3.0,
+    "MET 11100": 3.0,
+    "MET 21300": 3.0,
+    "MET 23000": 3.0,
+    "MET 31500": 3.0,
+    "MET 38200": 3.0,
+    "MET 48200": 3.0,
+    "MFET 24100": 3.0,
+    "MFET 36100": 3.0,
+    "MFET 37100": 3.0,
+    "MFET 47100": 3.0,
+    "MFET 48005": 3.0,
+    "ECET 22400": 3.0,
+    "IET 21400": 3.0,
+    "STAT 30100": 3.0,
+    "TECH 12000": 3.0,
+    "COM 31500": 3.0,
+    "COM 32000": 3.0,
+    "COM 41500": 3.0,
+    "EDPS 31500": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16020": 3.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "PHYS 17200": 4.0,
+    "PHYS 22000": 4.0,
+    "CGT 11000": 3.0,
+    "ENGT 10500": 3.0,
+    "MFET 10301": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 65.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 65.0,
+          "kind": "all_of",
+          "courses": [
+            "CNIT 10500",
+            "CS 17700",
+            "ECET 17900",
+            "ECET 27900",
+            "ECET 30201",
+            "ECET 33700",
+            "ECET 36900",
+            "ENGT 18200",
+            "ENGT 48100",
+            "MET 11100",
+            "MET 21300",
+            "MET 23000",
+            "MET 31500",
+            "MET 38200",
+            "MET 48200",
+            "MFET 24100",
+            "MFET 36100",
+            "MFET 37100",
+            "MFET 47100",
+            "MFET 48005"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        1.0,
+        13.0
+      ],
+      "kind": "credits",
+      "credits": 1.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "CNIT 10500",
+          "title": "Introduction To C Programming",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGT 18200",
+          "title": "Gateway To Engineering Technology",
+          "credits": 4.0
+        },
+        {
+          "label": "Materials & Process Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Calculus Selective I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "ECET 22400",
+          "title": "Electronic Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "MET 11100",
+          "title": "Applied Statics",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Calculus Selective II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CS 17700",
+          "title": "Programming With Multimedia Objects",
+          "credits": 4.0
+        },
+        {
+          "code": "ECET 17900",
+          "title": "Introduction To Microcontrollers",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 30201",
+          "title": "Industrial Control Systems For Smart Manufacturing",
+          "credits": 3.0
+        },
+        {
+          "code": "MET 21300",
+          "title": "Dynamics",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "ECET 27900",
+          "title": "Embedded Digital Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "MET 23000",
+          "title": "Fluid Power",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 24100",
+          "title": "Automatic Control Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Physics Selective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECET 36900",
+          "title": "Applied Computer Vision For Sensing And Automation",
+          "credits": 3.0
+        },
+        {
+          "code": "IET 21400",
+          "title": "Introduction To Supply Chain Management Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 36100",
+          "title": "Machine Learning And Manufacturing Analytics",
+          "credits": 3.0
+        },
+        {
+          "label": "Engineering Design and Visualization Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Selective or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "MET 31500",
+          "title": "Applied Mechanism Kinematics And Dynamics",
+          "credits": 3.0
+        },
+        {
+          "code": "MET 38200",
+          "title": "Controls And Instrumentation For Automation",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 37100",
+          "title": "Introduction To Precision Machine Design",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Selective or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "MET 48200",
+          "title": "Mechatronics",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 47100",
+          "title": "Electric Machines",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 48005",
+          "title": "Engineering Technology Capstone I",
+          "credits": 3.0
+        },
+        {
+          "label": "Advanced Oral Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Selective or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "ENGT 48100",
+          "title": "Engineering Technology Capstone II",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 33700",
+          "title": "Continuous Systems Analysis And Design",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CGT 11000",
+    "CNIT 10500",
+    "COM 31500",
+    "COM 32000",
+    "COM 41500",
+    "CS 17700",
+    "ECET 17900",
+    "ECET 22400",
+    "ECET 27900",
+    "ECET 30201",
+    "ECET 33700",
+    "ECET 36900",
+    "EDPS 31500",
+    "ENGT 10500",
+    "ENGT 18200",
+    "ENGT 48100",
+    "HEA 01348",
+    "HELP 02026",
+    "IET 21400",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MET 11100",
+    "MET 21300",
+    "MET 23000",
+    "MET 31500",
+    "MET 38200",
+    "MET 48200",
+    "MFET 10301",
+    "MFET 24100",
+    "MFET 36100",
+    "MFET 37100",
+    "MFET 47100",
+    "MFET 48005",
+    "PHYS 17200",
+    "PHYS 22000",
+    "STAT 30100",
+    "TECH 12000"
+  ]
+}

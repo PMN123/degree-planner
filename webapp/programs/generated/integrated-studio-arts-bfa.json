@@ -1,0 +1,599 @@
+{
+  "id": "integrated-studio-arts-bfa",
+  "poid": "34908",
+  "name": "Integrated Studio Arts, BFA",
+  "degree": "BFA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 126,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34908",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.862993+00:00",
+  "course_credits": {
+    "AD 10500": 3.0,
+    "AD 10600": 3.0,
+    "AD 11300": 3.0,
+    "AD 22700": 3.0,
+    "AD 23300": 3.0,
+    "AD 20000": 3.0,
+    "AD 11400": 3.0,
+    "AD 21300": 3.0,
+    "AD 31400": 3.0,
+    "AD 26300": 3.0,
+    "AD 26500": 3.0,
+    "AD 26600": 3.0,
+    "AD 24200": 3.0,
+    "AD 26200": 3.0,
+    "AD 27500": 3.0,
+    "AD 27000": 3.0,
+    "AD 27100": 3.0,
+    "AD 22000": 3.0,
+    "AD 11700": 3.0,
+    "AD 11900": 3.0,
+    "AD 30400": 3.0,
+    "AD 32600": 3.0,
+    "AD 38300": 3.0,
+    "AD 38400": 3.0,
+    "AD 22600": 3.0,
+    "AD 25100": 3.0,
+    "AD 30701": 3.0,
+    "AD 31100": 3.0,
+    "AD 31200": 3.0,
+    "AD 33400": 3.0,
+    "AD 33900": 3.0,
+    "AD 34300": 3.0,
+    "AD 34400": 3.0,
+    "AD 34600": 3.0,
+    "AD 34800": 3.0,
+    "AD 35900": 3.0,
+    "AD 38000": 3.0,
+    "AD 38200": 3.0,
+    "AD 39100": 3.0,
+    "AD 39500": 3.0,
+    "AD 39600": 3.0,
+    "AMST 30100": 3.0,
+    "AD 49900": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Art & Design Core",
+          "credit_target": 15.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 10500",
+            "AD 10600",
+            "AD 11300",
+            "AD 22700",
+            "AD 23300"
+          ]
+        },
+        {
+          "name": "B. Integrated Studio Arts Core",
+          "credit_target": 18.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "2D Extended Media",
+              "kind": "all_of",
+              "courses": [
+                "AD 20000"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "AD 11400 / AD 21300 / AD 31400",
+                  "courses": [
+                    "AD 11400",
+                    "AD 21300",
+                    "AD 31400"
+                  ]
+                },
+                {
+                  "kind": "one_of",
+                  "name": "AD 26300 / AD 26500 / AD 26600",
+                  "courses": [
+                    "AD 26300",
+                    "AD 26500",
+                    "AD 26600"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Craft & Material Studies",
+              "kind": "all_of",
+              "courses": [
+                "AD 24200",
+                "AD 26200",
+                "AD 27500"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "AD 27000 / AD 27100",
+                  "courses": [
+                    "AD 27000",
+                    "AD 27100"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Art, Culture, & Technology",
+              "kind": "all_of",
+              "courses": [
+                "AD 22000"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "AD 11700 / AD 11900",
+                  "courses": [
+                    "AD 11700",
+                    "AD 11900"
+                  ]
+                },
+                {
+                  "kind": "one_of",
+                  "name": "AD 30400 / AD 32600",
+                  "courses": [
+                    "AD 30400",
+                    "AD 32600"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C. Art History and Cultural Context",
+          "credit_target": 12.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Required Course",
+              "kind": "all_of",
+              "courses": [
+                "AD 38300",
+                "AD 38400"
+              ]
+            },
+            {
+              "name": "Selective Courses",
+              "kind": "choose",
+              "options": [
+                "AD 22600",
+                "AD 25100",
+                "AD 30701",
+                "AD 31100",
+                "AD 31200",
+                "AD 33400",
+                "AD 33900",
+                "AD 34300",
+                "AD 34400",
+                "AD 34600",
+                "AD 34800",
+                "AD 35900",
+                "AD 38000",
+                "AD 38200",
+                "AD 38300",
+                "AD 38400",
+                "AD 39100",
+                "AD 39500",
+                "AD 39600",
+                "AMST 30100"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E. Integrated Studio Arts Focus",
+          "credit_target": 21.0,
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "F. Integrated Studio Arts Selectives",
+          "credit_target": 9.0,
+          "kind": "choose",
+          "options": [
+            "AD 31100",
+            "AD 31200",
+            "AD 34800",
+            "AD 35900"
+          ],
+          "choose_credits": 9.0
+        },
+        {
+          "name": "G. BFA Exhibition",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 49900"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For BFA, Professional, & Education",
+      "credit_target": [
+        28.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "LA Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            20.0,
+            39.0
+          ],
+          "kind": "credits",
+          "credits": 20.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "AD 10500",
+          "title": "Design I",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 11300",
+          "title": "Basic Drawing (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 23300",
+          "title": "Electronic Media Studio",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "AD 10600",
+          "title": "Design II",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 22700",
+          "title": "History Of Art Since 1400 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Requirement B: Integrated Studio Arts Core",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement B: Integrated Studio Arts Core",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "17-18 Credits",
+      "items": [
+        {
+          "code": "AD 38300",
+          "title": "Modern Art (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AD 38400",
+              "title": "Contemporary Art (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement B: Integrated Studio Arts Core",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement B: Integrated Studio Arts Core",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17-20 Credits",
+      "items": [
+        {
+          "label": "Major Requirement B: Integrated Studio Arts Core",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement B: Integrated Studio Arts Core",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement C: Art History & Cultural Context",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Portfolio Review",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14-21 Credits",
+      "items": [
+        {
+          "label": "Major Requirement C: Art History & Cultural Context",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement E: Integrated Studio Arts Focus",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement F: Integrated Studio Arts Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "label": "Major Requirement C: Art History & Cultural Context",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement E: Integrated Studio Arts Focus",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement E: Integrated Studio Arts Focus",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "label": "Major Requirement E: Integrated Studio Arts Focus",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement E: Integrated Studio Arts Focus",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement F: Integrated Studio Arts Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AD 49900",
+          "title": "Studio Arts Professional Practice/Senior Exhibition",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Requirement E: Integrated Studio Arts Focus",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement E: Integrated Studio Arts Focus",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement F: Integrated Studio Arts Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 10500",
+    "AD 10600",
+    "AD 11300",
+    "AD 11400",
+    "AD 11700",
+    "AD 11900",
+    "AD 20000",
+    "AD 21300",
+    "AD 22000",
+    "AD 22600",
+    "AD 22700",
+    "AD 23300",
+    "AD 24200",
+    "AD 25100",
+    "AD 26200",
+    "AD 26300",
+    "AD 26500",
+    "AD 26600",
+    "AD 27000",
+    "AD 27100",
+    "AD 27500",
+    "AD 30400",
+    "AD 30701",
+    "AD 31100",
+    "AD 31200",
+    "AD 31400",
+    "AD 32600",
+    "AD 33400",
+    "AD 33900",
+    "AD 34300",
+    "AD 34400",
+    "AD 34600",
+    "AD 34800",
+    "AD 35900",
+    "AD 38000",
+    "AD 38200",
+    "AD 38300",
+    "AD 38400",
+    "AD 39100",
+    "AD 39500",
+    "AD 39600",
+    "AD 49900",
+    "AMST 30100",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "id": "engineering-technology-education-bs",
+  "poid": "34798",
+  "name": "Engineering Technology Education, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34798",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.816252+00:00",
+  "course_credits": {
+    "ECET 22400": 3.0,
+    "MFET 10301": 3.0,
+    "TECH 12000": 3.0,
+    "TLI 16100": 3.0,
+    "TLI 26200": 3.0,
+    "TLI 26500": 3.0,
+    "TLI 36100": 3.0,
+    "TLI 36700": 3.0,
+    "TLI 46000": 3.0,
+    "TLI 46100": 3.0,
+    "TLI 46200": 3.0,
+    "EDCI 20500": 2.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 33300": 3.0,
+    "EDCI 37001": 2.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26500": 3.0,
+    "EDPS 32700": 1.0,
+    "EDPS 36201": 0.0,
+    "EDPS 43010": 1.0,
+    "EDST 20010": 1.0,
+    "EDCI 49800": 6.0,
+    "COM 11400": 3.0,
+    "MA 15300": 3.0,
+    "MA 15800": 3.0,
+    "PHYS 22000": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Major Required Courses",
+      "credit_target": 45.0,
+      "kind": "all_of",
+      "courses": [
+        "ECET 22400",
+        "MFET 10301",
+        "TECH 12000",
+        "TLI 16100",
+        "TLI 26200",
+        "TLI 26500",
+        "TLI 36100",
+        "TLI 36700",
+        "TLI 46000",
+        "TLI 46100",
+        "TLI 46200"
+      ]
+    },
+    {
+      "name": "Professional Education Requirements",
+      "credit_target": 39.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Foundational Courses",
+          "credit_target": 27.0,
+          "kind": "all_of",
+          "courses": [
+            "EDCI 20500",
+            "EDCI 27000",
+            "EDCI 28550",
+            "EDCI 33300",
+            "EDCI 37001",
+            "EDPS 23500",
+            "EDPS 24001",
+            "EDPS 26500",
+            "EDPS 32700",
+            "EDPS 36201",
+            "EDPS 43010",
+            "EDST 20010"
+          ]
+        },
+        {
+          "name": "Capstone",
+          "credit_target": 12.0,
+          "kind": "all_of",
+          "courses": [
+            "EDCI 49800"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental Requirements",
+      "credit_target": [
+        25.0,
+        26.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "COM 11400",
+        "MA 15300",
+        "MA 15800",
+        "PHYS 22000"
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        10.0,
+        11.0
+      ],
+      "kind": "credits",
+      "credits": 10.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 15300",
+          "title": "College Algebra (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 26200",
+          "title": "Foundations Of Integrated STEM Education",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 16100",
+          "title": "Prototyping For Design And Innovation",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "code": "MFET 10301",
+          "title": "Geometric Modeling And Product Data Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECET 22400",
+          "title": "Electronic Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 26500",
+          "title": "The Inclusive Classroom",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "TLI 26500",
+          "title": "Teaching The TE Of STEM",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 33300",
+          "title": "Reading In Our World: Disciplinary Literacy Development In The Content Areas",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 36700",
+          "title": "Teaching Design And Innovation I",
+          "credits": 3.0
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "TLI 36100",
+          "title": "Engineering And Technology Education Instructional Planning And Evaluation",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 46000",
+          "title": "Teaching Design And Innovation II",
+          "credits": 3.0
+        },
+        {
+          "label": "Advanced Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 43010",
+          "title": "Secondary Creating And Managing Learning Environments",
+          "credits": 1.0
+        },
+        {
+          "code": "TLI 46100",
+          "title": "Prototyping And Innovation Lab Planning",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 46200",
+          "title": "Methods Of Teaching Engineering/Technology Education",
+          "credits": 3.0
+        },
+        {
+          "label": "Advanced Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDCI 49800",
+          "title": "Supervised Teaching (UCC: OC)",
+          "credits": 6.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "COM 11400",
+    "ECET 22400",
+    "EDCI 20500",
+    "EDCI 27000",
+    "EDCI 28550",
+    "EDCI 33300",
+    "EDCI 37001",
+    "EDCI 49800",
+    "EDCI 55800",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26500",
+    "EDPS 32700",
+    "EDPS 36201",
+    "EDPS 43010",
+    "EDST 20010",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 15300",
+    "MA 15800",
+    "MFET 10301",
+    "PHYS 22000",
+    "TECH 12000",
+    "TLI 16100",
+    "TLI 26200",
+    "TLI 26500",
+    "TLI 36100",
+    "TLI 36700",
+    "TLI 46000",
+    "TLI 46100",
+    "TLI 46200"
+  ]
+}

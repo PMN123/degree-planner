@@ -1,0 +1,92 @@
+{
+  "id": "japanese-minor",
+  "poid": "34903",
+  "name": "Japanese Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34903",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.258088+00:00",
+  "course_credits": {
+    "JPNS 30100": 3.0,
+    "JPNS 30200": 3.0,
+    "JPNS 24100": 3.0,
+    "JPNS 28000": 3.0,
+    "JPNS 31300": 3.0,
+    "JPNS 33000": 3.0,
+    "JPNS 34100": 3.0,
+    "JPNS 36100": 3.0,
+    "JPNS 36300": 3.0,
+    "JPNS 40100": 3.0,
+    "JPNS 40200": 3.0,
+    "JPNS 48500": 3.0,
+    "JPNS 49000": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Japanese Language",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "JPNS 30100",
+        "JPNS 30200"
+      ]
+    },
+    {
+      "name": "B. Japanese Literature/Culture",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "JPNS 24100 / JPNS 28000",
+          "courses": [
+            "JPNS 24100",
+            "JPNS 28000"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C. Japanese Electives",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "JPNS 31300",
+        "JPNS 33000",
+        "JPNS 34100",
+        "JPNS 36100",
+        "JPNS 36300",
+        "JPNS 40100",
+        "JPNS 40200",
+        "JPNS 48500",
+        "JPNS 49000"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "JPNS 20200",
+    "JPNS 24100",
+    "JPNS 28000",
+    "JPNS 30100",
+    "JPNS 30200",
+    "JPNS 31300",
+    "JPNS 33000",
+    "JPNS 34100",
+    "JPNS 36100",
+    "JPNS 36300",
+    "JPNS 40100",
+    "JPNS 40200",
+    "JPNS 48500",
+    "JPNS 49000"
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "id": "aquatic-sciences-freshwater-and-marine-biology-concentration-bs",
+  "poid": "35271",
+  "name": "Aquatic Sciences: Freshwater & Marine Biology Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35271",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.978669+00:00",
+  "course_credits": {
+    "FNR 12500": 3.0,
+    "FNR 20100": 3.0,
+    "FNR 21000": 3.0,
+    "FNR 24150": 3.0,
+    "FNR 24250": 1.0,
+    "FNR 25150": 3.0,
+    "FNR 25250": 1.0,
+    "FNR 27000": 1.0,
+    "FNR 30500": 3.0,
+    "FNR 35110": 2.0,
+    "FNR 35150": 2.0,
+    "FNR 37010": 1.0,
+    "FNR 37100": 5.0,
+    "FNR 37500": 3.0,
+    "FNR 38400": 3.0,
+    "FNR 38500": 4.0,
+    "FNR 40100": 3.0,
+    "FNR 45600": 4.0,
+    "POL 22300": 3.0,
+    "FNR 52700": 2.0,
+    "FNR 52800": 2.0,
+    "FNR 52900": 3.0,
+    "FNR 37800": 3.0,
+    "FNR 45800": 3.0,
+    "AGRY 33700": 3.0,
+    "FNR 23000": 3.0,
+    "FNR 31300": 1.0,
+    "FNR 35910": 2.0,
+    "FNR 35950": 1.0,
+    "FNR 45200": 3.0,
+    "FNR 45300": 3.0,
+    "FNR 45700": 2.0,
+    "FNR 54300": 3.0,
+    "AGR 10100": 0.5,
+    "AGR 11900": 0.5,
+    "BIOL 11000": 4.0,
+    "BIOL 28600": 2.0,
+    "BTNY 11000": 4.0,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0,
+    "MA 16010": 3.0,
+    "MA 16500": 4.0,
+    "STAT 30100": 3.0,
+    "AGRY 25500": 3.0,
+    "AGRY 27000": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "ECON 25100": 3.0,
+    "PHIL 11100": 3.0,
+    "PHIL 28000": 3.0,
+    "PHIL 29000": 3.0,
+    "CHM 25500": 3.0,
+    "EAPS 10400": 3.0,
+    "PHYS 22000": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        65.0,
+        66.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": [
+            53.0,
+            54.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "FNR 12500",
+            "FNR 20100",
+            "FNR 21000",
+            "FNR 24150",
+            "FNR 24250",
+            "FNR 25150",
+            "FNR 25250",
+            "FNR 27000",
+            "FNR 30500",
+            "FNR 35110",
+            "FNR 35150",
+            "FNR 37010",
+            "FNR 37100",
+            "FNR 37500",
+            "FNR 38400",
+            "FNR 38500",
+            "FNR 40100",
+            "FNR 45600",
+            "POL 22300"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "FNR 52700 / FNR 52800 / FNR 52900",
+              "courses": [
+                "FNR 52700",
+                "FNR 52800",
+                "FNR 52900"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Concentration Courses",
+          "credit_target": 12.0,
+          "kind": "choose",
+          "options": [
+            "FNR 37800",
+            "FNR 45800",
+            "AGRY 33700",
+            "FNR 23000",
+            "FNR 31300",
+            "FNR 35910",
+            "FNR 35950",
+            "FNR 45200",
+            "FNR 45300",
+            "FNR 45700",
+            "FNR 54300"
+          ],
+          "choose_credits": 12.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11900",
+          "title": "Introduction To Forestry And Natural Resources Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication Selective (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "BTNY 11000",
+          "title": "Introduction To Plant Science (UCC: AI/SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "FNR 12500",
+          "title": "Environmental Science And Conservation (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 20100",
+          "title": "Marine Biology",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication Selective (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "FNR 24150",
+          "title": "Ecology And Systematics Of Fishes, Amphibians And Reptiles",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 24250",
+          "title": "Laboratory In Ecology And Systematics Of Fishes, Amphibians And Reptiles",
+          "credits": 1.0
+        },
+        {
+          "code": "FNR 27000",
+          "title": "Landscape-Level Planning",
+          "credits": 1.0
+        },
+        {
+          "code": "FNR 35110",
+          "title": "Aquatic Sampling Techniques I",
+          "credits": 2.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Aquatic Sciences Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "AGEC 20300",
+          "title": "Introductory Microeconomics For Food And Agribusiness (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 20400",
+              "title": "Introduction To Resource Economics And Environmental Policy (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "ECON 25100",
+              "title": "Microeconomics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "BIOL 28600",
+          "title": "Introduction To Ecology And Evolution",
+          "credits": 2.0
+        },
+        {
+          "code": "FNR 21000",
+          "title": "Natural Resource Information Management",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 25150",
+          "title": "Ecology And Systematics Of Mammals And Birds",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 25250",
+          "title": "Laboratory In Ecology And Systematics Of Mammals And Birds",
+          "credits": 1.0
+        },
+        {
+          "code": "FNR 35150",
+          "title": "Aquatic Sampling Techniques II",
+          "credits": 2.0
+        },
+        {
+          "code": "AGRY 25500",
+          "title": "Soil Science",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGRY 27000",
+              "title": "Forest Soils",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "FNR 40100",
+          "title": "Limnology",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 37800",
+          "title": "Marine Biology Practicum",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 45600",
+          "title": "Fish And Marine Population Dynamics",
+          "credits": 4.0
+        },
+        {
+          "code": "PHIL 11100",
+          "title": "Introduction To Ethics (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHIL 28000",
+              "title": "Ethics And Animals (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "PHIL 29000",
+              "title": "Environmental Ethics (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "POL 22300",
+          "title": "Introduction To Environmental Policy (UCC: BSS/STS)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "FNR 38400",
+          "title": "Statistics For Natural Resources",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 38500",
+          "title": "Fish Biology And Ecology",
+          "credits": 4.0
+        },
+        {
+          "label": "Aquatics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "12-16 Credits",
+      "items": [
+        {
+          "code": "FNR 52700",
+          "title": "Ecotoxicology",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "FNR 52800",
+              "title": "Wildlife And Environmental Forensics",
+              "credits": 2.0
+            },
+            {
+              "code": "FNR 52900",
+              "title": "Disease Ecology",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Physical Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "AGRY 33700",
+          "title": "Environmental Hydrology",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25500",
+          "title": "Organic Chemistry For The Life Sciences I",
+          "credits": 3.0
+        },
+        {
+          "code": "EAPS 10400",
+          "title": "Oceanography (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "FNR 30500",
+          "title": "Conservation Genetics",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 37500",
+          "title": "Human Dimensions Of Natural Resource Management",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 45800",
+          "title": "Advanced Marine Biology",
+          "credits": 3.0
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGR 10100",
+    "AGR 11900",
+    "AGRY 25500",
+    "AGRY 27000",
+    "AGRY 33700",
+    "BIOL 11000",
+    "BIOL 28600",
+    "BTNY 11000",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 25500",
+    "EAPS 10400",
+    "ECON 25100",
+    "FNR 12500",
+    "FNR 20100",
+    "FNR 21000",
+    "FNR 23000",
+    "FNR 24150",
+    "FNR 24250",
+    "FNR 25150",
+    "FNR 25250",
+    "FNR 27000",
+    "FNR 30500",
+    "FNR 31300",
+    "FNR 35110",
+    "FNR 35150",
+    "FNR 35910",
+    "FNR 35950",
+    "FNR 37010",
+    "FNR 37100",
+    "FNR 37500",
+    "FNR 37800",
+    "FNR 38400",
+    "FNR 38500",
+    "FNR 40100",
+    "FNR 45200",
+    "FNR 45300",
+    "FNR 45600",
+    "FNR 45700",
+    "FNR 45800",
+    "FNR 52700",
+    "FNR 52800",
+    "FNR 52900",
+    "FNR 54300",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "MA 16500",
+    "PHIL 11100",
+    "PHIL 28000",
+    "PHIL 29000",
+    "PHYS 22000",
+    "POL 22300",
+    "STAT 30100"
+  ]
+}

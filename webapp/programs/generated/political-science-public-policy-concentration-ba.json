@@ -1,0 +1,521 @@
+{
+  "id": "political-science-public-policy-concentration-ba",
+  "poid": "36128",
+  "name": "Political Science: Public Policy Concentration, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=36128",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.509430+00:00",
+  "course_credits": {
+    "POL 10100": 3.0,
+    "POL 12000": 3.0,
+    "POL 13000": 3.0,
+    "POL 14100": 3.0,
+    "POL 15000": 3.0,
+    "POL 20000": 3.0,
+    "POL 30000": 3.0,
+    "POL 40300": 1.0,
+    "POL 49100": 3.0,
+    "POL 49500": 1.0,
+    "POL 22200": 3.0,
+    "POL 22300": 3.0,
+    "POL 22800": 3.0,
+    "POL 23100": 3.0,
+    "POL 32300": 3.0,
+    "POL 42300": 3.0,
+    "POL 42800": 3.0,
+    "POL 43300": 3.0,
+    "POL 43900": 3.0,
+    "POL 52000": 3.0,
+    "POL 52101": 3.0,
+    "POL 52400": 3.0,
+    "POL 52601": 3.0,
+    "POL 52701": 3.0,
+    "POL 54101": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Political Science: Departmental/Program Major Courses",
+      "credit_target": 21.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Required Course in Introductory Political Science",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "POL 10100",
+            "POL 12000",
+            "POL 13000",
+            "POL 14100",
+            "POL 15000",
+            "POL 20000"
+          ]
+        },
+        {
+          "name": "B. Introduction to Political Analysis Methods",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "POL 30000"
+          ]
+        },
+        {
+          "name": "C. Areas of Political Science: Breadth",
+          "credit_target": 12.0,
+          "kind": "credits",
+          "credits": 12.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "D. Capstone Course",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "POL 40300",
+            "POL 49100",
+            "POL 49500"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Political Science: Public Policy Concentration",
+      "credit_target": 12.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Foundation Course",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "POL 12000"
+          ]
+        },
+        {
+          "name": "Selectives",
+          "credit_target": 9.0,
+          "kind": "choose",
+          "options": [
+            "POL 22200",
+            "POL 22300",
+            "POL 22800",
+            "POL 23100",
+            "POL 32300",
+            "POL 42300",
+            "POL 42800",
+            "POL 43300",
+            "POL 43900",
+            "POL 52000",
+            "POL 52101",
+            "POL 52400",
+            "POL 52601",
+            "POL 52701",
+            "POL 54101"
+          ],
+          "choose_credits": 9.0
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        11.0,
+        52.0
+      ],
+      "kind": "credits",
+      "credits": 11.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "POL 10100",
+          "title": "American Government And Politics (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "POL 12000",
+              "title": "Introduction To Public Policy And Public Administration (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "POL 13000",
+              "title": "Introduction To International Relations (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "POL 14100",
+              "title": "Governments Of The World (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "POL 15000",
+              "title": "Introduction To Political Thought (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "POL 20000",
+              "title": "Introduction To The Study Of Political Science",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-23 Credits",
+      "items": [
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Concentration Required Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-21 Credits",
+      "items": [
+        {
+          "code": "POL 30000",
+          "title": "Introduction To Political Analysis (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "POL Requirement C: Breadth",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Diversity Selective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-20 Credits",
+      "items": [
+        {
+          "label": "Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "POL Requirement C: Breadth",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "POL Requirement C: Breadth",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "POL Requirement C: Breadth",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "POL Requirement D: Capstone",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Concentration Course (30000+ level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "POL 10000",
+    "POL 10100",
+    "POL 12000",
+    "POL 13000",
+    "POL 14100",
+    "POL 15000",
+    "POL 19999",
+    "POL 20000",
+    "POL 22200",
+    "POL 22300",
+    "POL 22800",
+    "POL 23100",
+    "POL 29999",
+    "POL 30000",
+    "POL 32300",
+    "POL 40300",
+    "POL 42300",
+    "POL 42800",
+    "POL 43300",
+    "POL 43900",
+    "POL 49100",
+    "POL 49500",
+    "POL 52000",
+    "POL 52101",
+    "POL 52400",
+    "POL 52601",
+    "POL 52701",
+    "POL 54101",
+    "POL 59000",
+    "POL 59999"
+  ]
+}

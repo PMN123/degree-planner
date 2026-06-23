@@ -1,0 +1,96 @@
+{
+  "id": "global-food-and-agriculture-systems-minor",
+  "poid": "35267",
+  "name": "Global Food and Agriculture Systems Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35267",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.433702+00:00",
+  "course_credits": {
+    "AGEC 22000": 3.0,
+    "ECON 34000": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 25200": 3.0,
+    "AGEC 25000": 3.0,
+    "AGEC 30500": 3.0,
+    "AGEC 32100": 3.0,
+    "AGEC 33300": 3.0,
+    "AGEC 34000": 3.0,
+    "AGEC 40600": 3.0,
+    "AGEC 41000": 3.0,
+    "AGEC 42100": 3.0,
+    "AGEC 45000": 3.0,
+    "AGEC 52600": 3.0,
+    "AGEC 53200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "AGEC 22000 / ECON 34000",
+          "courses": [
+            "AGEC 22000",
+            "ECON 34000"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "AGEC 21700 / ECON 25200",
+          "courses": [
+            "AGEC 21700",
+            "ECON 25200"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Additional Courses - Choose Four",
+      "credit_target": 12.0,
+      "kind": "choose",
+      "options": [
+        "AGEC 25000",
+        "AGEC 30500",
+        "AGEC 32100",
+        "AGEC 33300",
+        "AGEC 34000",
+        "AGEC 40600",
+        "AGEC 41000",
+        "AGEC 42100",
+        "AGEC 45000",
+        "AGEC 52600",
+        "AGEC 53200"
+      ],
+      "choose_credits": 12.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AGEC 21700",
+    "AGEC 22000",
+    "AGEC 25000",
+    "AGEC 30500",
+    "AGEC 32100",
+    "AGEC 33300",
+    "AGEC 34000",
+    "AGEC 40600",
+    "AGEC 41000",
+    "AGEC 42100",
+    "AGEC 45000",
+    "AGEC 52600",
+    "AGEC 53200",
+    "ECON 25200",
+    "ECON 34000",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

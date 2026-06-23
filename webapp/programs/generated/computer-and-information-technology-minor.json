@@ -1,0 +1,68 @@
+{
+  "id": "computer-and-information-technology-minor",
+  "poid": "34814",
+  "name": "Computer and Information Technology Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34814",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.247347+00:00",
+  "course_credits": {
+    "CNIT 18000": 3.0,
+    "CNIT 18200": 3.0,
+    "CGT 21500": 3.0,
+    "CNIT 10500": 3.0,
+    "CNIT 15501": 3.0,
+    "CNIT 17500": 3.0,
+    "CS 15900": 3.0,
+    "CS 17700": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 15.0,
+      "kind": "all_of",
+      "courses": [
+        "CGT 21500",
+        "CNIT 10500",
+        "CNIT 15501",
+        "CNIT 17500",
+        "CS 15900",
+        "CS 17700"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "CNIT 18000 / CNIT 18200",
+          "courses": [
+            "CNIT 18000",
+            "CNIT 18200"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CGT 21500",
+    "CNIT 10500",
+    "CNIT 13600",
+    "CNIT 15501",
+    "CNIT 15900",
+    "CNIT 17500",
+    "CNIT 18000",
+    "CNIT 18200",
+    "CS 15800",
+    "CS 15900",
+    "CS 17700",
+    "CS 18000",
+    "CS 23500",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

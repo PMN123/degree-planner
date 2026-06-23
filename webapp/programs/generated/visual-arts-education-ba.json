@@ -1,0 +1,575 @@
+{
+  "id": "visual-arts-education-ba",
+  "poid": "34917",
+  "name": "Visual Arts Education, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 126,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34917",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.824826+00:00",
+  "course_credits": {
+    "AD 10500": 3.0,
+    "AD 10600": 3.0,
+    "AD 11300": 3.0,
+    "AD 11700": 3.0,
+    "AD 20000": 3.0,
+    "AD 27500": 3.0,
+    "AD 11400": 3.0,
+    "AD 21300": 3.0,
+    "AD 24200": 3.0,
+    "AD 26200": 3.0,
+    "AD 27000": 3.0,
+    "AD 27100": 3.0,
+    "AD 37000": 3.0,
+    "AD 26300": 3.0,
+    "AD 26500": 3.0,
+    "AD 26600": 3.0,
+    "AD 36800": 3.0,
+    "AD 22600": 3.0,
+    "AD 22700": 3.0,
+    "AD 38300": 3.0,
+    "AD 38400": 3.0,
+    "AD 20200": 2.0,
+    "AD 30200": 3.0,
+    "AD 30300": 3.0,
+    "AD 40200": 3.0,
+    "EDCI 20500": 2.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 30900": 1.0,
+    "EDCI 37001": 2.0,
+    "EDCI 49800": 6.0,
+    "EDPS 20001": 1.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26501": 2.0,
+    "EDPS 32700": 1.0,
+    "EDPS 36201": 0.0,
+    "EDPS 43010": 1.0,
+    "EDST 20010": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Art & Design Courses",
+          "credit_target": 18.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 10500",
+            "AD 10600",
+            "AD 11300",
+            "AD 11700",
+            "AD 20000",
+            "AD 27500"
+          ]
+        },
+        {
+          "name": "B. Studio Courses",
+          "credit_target": 18.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Group 1 - Required Courses",
+              "credit_target": 12.0,
+              "kind": "all_of",
+              "courses": [
+                "AD 11400",
+                "AD 21300",
+                "AD 24200",
+                "AD 26200"
+              ]
+            },
+            {
+              "name": "Group 2 - Choose One",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "AD 27000",
+                "AD 27100",
+                "AD 37000"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Group 3 - Choose One",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "AD 26300",
+                "AD 26500",
+                "AD 26600",
+                "AD 36800"
+              ],
+              "choose_credits": 3.0
+            }
+          ]
+        },
+        {
+          "name": "C. Art History Courses",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 22600",
+            "AD 22700"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AD 38300 / AD 38400",
+              "courses": [
+                "AD 38300",
+                "AD 38400"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Professional Requirements",
+      "credit_target": 46.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Art Education Courses",
+          "credit_target": 11.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 20200",
+            "AD 30200",
+            "AD 30300",
+            "AD 40200"
+          ]
+        },
+        {
+          "name": "Education Requirements",
+          "credit_target": 35.0,
+          "kind": "all_of",
+          "courses": [
+            "EDCI 20500",
+            "EDCI 27000",
+            "EDCI 28550",
+            "EDCI 30900",
+            "EDCI 37001",
+            "EDCI 49800",
+            "EDPS 20001",
+            "EDPS 23500",
+            "EDPS 24001",
+            "EDPS 26501",
+            "EDPS 32700",
+            "EDPS 36201",
+            "EDPS 43010",
+            "EDST 20010"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For BFA, Professional, & Education",
+      "credit_target": [
+        18.0,
+        34.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "LA Core III: Linguistic Diversity",
+          "credit_target": [
+            3.0,
+            4.0
+          ],
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            15.0,
+            30.0
+          ],
+          "kind": "credits",
+          "credits": 15.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        2.0,
+        18.0
+      ],
+      "kind": "credits",
+      "credits": 2.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AD 10500",
+          "title": "Design I",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 11300",
+          "title": "Basic Drawing (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "label": "Written Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AD 10600",
+          "title": "Design II",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 11400",
+          "title": "Drawing II",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "AD 20200",
+          "title": "Introduction To Art Education",
+          "credits": 2.0
+        },
+        {
+          "code": "AD 22600",
+          "title": "History Of Art To 1400 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 27500",
+          "title": "Beginning Sculpture (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17-18 Credits",
+      "items": [
+        {
+          "code": "AD 22700",
+          "title": "History Of Art Since 1400 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 24200",
+          "title": "Ceramics I (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 30300",
+          "title": "Art In Middle/Junior High Schools",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 20001",
+          "title": "Special Populations Seminar: Focus On Students With Disabilities And Differentiation Approaches",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AD 30200",
+          "title": "Theory And Practice Of Elementary School Art",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 30900",
+          "title": "Reading In Middle And Secondary Schools: Methods And Problems",
+          "credits": 1.0
+        },
+        {
+          "code": "AD 38300",
+          "title": "Modern Art (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AD 38400",
+              "title": "Contemporary Art (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "AD 20000",
+          "title": "Beginning Painting",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 21300",
+          "title": "Life Drawing I",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 40200",
+          "title": "Art In Secondary School",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 26501",
+          "title": "The Inclusive Classroom",
+          "credits": 2.0
+        },
+        {
+          "code": "AD 26500",
+          "title": "Relief Printmaking (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AD 26600",
+              "title": "Silkscreen Printmaking (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "AD 36800",
+              "title": "Etching And Intaglio Printmaking",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "AD 11700",
+          "title": "Black And White Photography (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 26200",
+          "title": "Jewelry And Metalwork I",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 43010",
+          "title": "Secondary Creating And Managing Learning Environments",
+          "credits": 1.0
+        },
+        {
+          "code": "AD 27000",
+          "title": "Constructed Textiles",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AD 27100",
+              "title": "Dyed Textiles",
+              "credits": 3.0
+            },
+            {
+              "code": "AD 37000",
+              "title": "Woven Textiles",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDCI 49800",
+          "title": "Supervised Teaching (UCC: OC)",
+          "credits": 6.0
+        },
+        {
+          "label": "EDCI 49800 - Supervised Teaching (UCC: OC) - Elementary",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 10500",
+    "AD 10600",
+    "AD 11300",
+    "AD 11400",
+    "AD 11700",
+    "AD 20000",
+    "AD 20200",
+    "AD 21300",
+    "AD 22600",
+    "AD 22700",
+    "AD 24200",
+    "AD 26200",
+    "AD 26300",
+    "AD 26500",
+    "AD 26600",
+    "AD 27000",
+    "AD 27100",
+    "AD 27500",
+    "AD 30200",
+    "AD 30300",
+    "AD 36800",
+    "AD 37000",
+    "AD 38300",
+    "AD 38400",
+    "AD 40200",
+    "EDCI 20500",
+    "EDCI 27000",
+    "EDCI 28500",
+    "EDCI 28550",
+    "EDCI 30900",
+    "EDCI 37001",
+    "EDCI 49800",
+    "EDPS 20001",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26501",
+    "EDPS 32700",
+    "EDPS 36201",
+    "EDPS 43010",
+    "EDST 20010",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

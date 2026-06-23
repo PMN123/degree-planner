@@ -1,0 +1,796 @@
+{
+  "id": "science-education-earth-space-science-concentration-bs",
+  "poid": "35108",
+  "name": "Science Education: Earth Space Science Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 124,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35108",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.109597+00:00",
+  "course_credits": {
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 12500": 5.0,
+    "CHM 12901": 5.0,
+    "CS 15900": 3.0,
+    "CS 17600": 3.0,
+    "CS 17700": 4.0,
+    "CS 18000": 4.0,
+    "MA 16100": 5.0,
+    "MA 16200": 5.0,
+    "MA 16500": 4.0,
+    "MA 16600": 4.0,
+    "MA 16010": 3.0,
+    "MA 16020": 3.0,
+    "PHYS 17200": 4.0,
+    "PHYS 27200": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 25200": 1.0,
+    "PHYS 22000": 4.0,
+    "PHYS 22100": 4.0,
+    "PHYS 23300": 4.0,
+    "PHYS 23400": 4.0,
+    "STAT 30100": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 50300": 3.0,
+    "EAPS 10500": 3.0,
+    "EAPS 11700": 3.0,
+    "EAPS 20000": 3.0,
+    "EAPS 24300": 4.0,
+    "EAPS 35300": 3.0,
+    "EAPS 35400": 3.0,
+    "EAPS 39000": 3.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 11630": 1.0,
+    "CHM 12600": 5.0,
+    "CHM 13600": 4.0,
+    "EAPS 10900": 3.0,
+    "EAPS 11200": 3.0,
+    "EAPS 11800": 3.0,
+    "EAPS 11100": 3.0,
+    "EDCI 20500": 2.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 30900": 1.0,
+    "EDCI 37001": 2.0,
+    "EDCI 49800": 6.0,
+    "EDPS 20001": 1.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26501": 2.0,
+    "EDPS 32700": 1.0,
+    "EDPS 36201": 0.0,
+    "EDPS 43010": 1.0,
+    "EDST 20010": 1.0,
+    "EDCI 42800": 2.0,
+    "EDCI 55800": 3.0,
+    "EDPS 40300": 3.0,
+    "EDCI 31950": 3.0,
+    "EDCI 32650": 3.0,
+    "EDPS 34501": 3.0,
+    "EDPS 21100": 3.0,
+    "EDPS 41700": 3.0,
+    "EDPS 45900": 3.0,
+    "COM 21700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        56.0,
+        63.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Science Education Core Courses",
+          "credit_target": [
+            24.0,
+            30.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Required Chemistry Course",
+              "credit_target": [
+                4.0,
+                5.0
+              ],
+              "kind": "all_of",
+              "courses": [
+                "CHM 11510"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "CHM 11520 / CHM 11530",
+                  "courses": [
+                    "CHM 11520",
+                    "CHM 11530"
+                  ]
+                },
+                {
+                  "kind": "one_of",
+                  "name": "CHM 12500 / CHM 12901",
+                  "courses": [
+                    "CHM 12500",
+                    "CHM 12901"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Required Computing Option",
+              "credit_target": [
+                3.0,
+                4.0
+              ],
+              "kind": "choose",
+              "options": [
+                "CS 15900",
+                "CS 17600",
+                "CS 17700",
+                "CS 18000"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Required Calculus Selective Courses",
+              "credit_target": [
+                6.0,
+                10.0
+              ],
+              "kind": "choose",
+              "options": [
+                "MA 16100",
+                "MA 16200",
+                "MA 16500",
+                "MA 16600",
+                "MA 16010",
+                "MA 16020"
+              ],
+              "choose_credits": 6.0
+            },
+            {
+              "name": "Required Physics Selective Courses",
+              "credit_target": 8.0,
+              "kind": "choose",
+              "options": [
+                "PHYS 17200",
+                "PHYS 27200",
+                "PHYS 17200",
+                "PHYS 27200",
+                "PHYS 17200",
+                "PHYS 24100",
+                "PHYS 25200",
+                "PHYS 22000",
+                "PHYS 22100",
+                "PHYS 23300",
+                "PHYS 23400"
+              ],
+              "choose_credits": 8.0
+            },
+            {
+              "name": "Required Statistics Course",
+              "credit_target": 3.0,
+              "kind": "all_of",
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "STAT 30100 / STAT 35000 / STAT 50300",
+                  "courses": [
+                    "STAT 30100",
+                    "STAT 35000",
+                    "STAT 50300"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Earth Space Science Concentration",
+          "credit_target": [
+            32.0,
+            33.0
+          ],
+          "kind": "choose",
+          "options": [
+            "EAPS 10500",
+            "EAPS 11700",
+            "EAPS 20000",
+            "EAPS 24300",
+            "EAPS 35300",
+            "EAPS 35400",
+            "EAPS 39000",
+            "CHM 11610",
+            {
+              "kind": "one_of",
+              "name": "CHM 11620 / CHM 11630",
+              "courses": [
+                "CHM 11620",
+                "CHM 11630"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CHM 12600 / CHM 12901 / CHM 13600",
+              "courses": [
+                "CHM 12600",
+                "CHM 12901",
+                "CHM 13600"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "EAPS 10900 / EAPS 11200",
+              "courses": [
+                "EAPS 10900",
+                "EAPS 11200"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "EAPS 11800 / EAPS 11100",
+              "courses": [
+                "EAPS 11800",
+                "EAPS 11100"
+              ]
+            }
+          ],
+          "choose_credits": 32.0
+        }
+      ]
+    },
+    {
+      "name": "Professional Education Requirements",
+      "credit_target": [
+        43.0,
+        44.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "EDCI 20500",
+        "EDCI 27000",
+        "EDCI 28550",
+        "EDCI 30900",
+        "EDCI 37001",
+        "EDCI 49800",
+        "EDPS 20001",
+        "EDPS 23500",
+        "EDPS 24001",
+        "EDPS 26501",
+        "EDPS 32700",
+        "EDPS 36201",
+        "EDPS 43010",
+        "EDST 20010"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "EDCI 42800 / EDCI 55800",
+          "courses": [
+            "EDCI 42800",
+            "EDCI 55800"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Learner Specialty Pathway Selective",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "EDPS 40300",
+        "EDCI 31950",
+        "EDCI 32650",
+        "EDPS 34501",
+        "EDPS 21100",
+        "EDPS 41700",
+        "EDPS 45900"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "College of Science Additional Requirements",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Computing",
+          "credit_target": [
+            3.0,
+            4.0
+          ],
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Laboratory Science",
+          "credit_target": [
+            6.0,
+            8.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Mathematics",
+          "credit_target": [
+            8.0,
+            10.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Statistics",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        2.0,
+        14.0
+      ],
+      "kind": "credits",
+      "credits": 2.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            },
+            {
+              "code": "CHM 12500",
+              "title": "Introduction To Chemistry I (UCC: SCI)",
+              "credits": 5.0
+            }
+          ]
+        },
+        {
+          "code": "EAPS 11100",
+          "title": "Physical Geology (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EAPS 11800",
+              "title": "Introduction To Earth Sciences",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11630",
+              "title": "General Chemistry II - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            },
+            {
+              "code": "CHM 12600",
+              "title": "Introduction To Chemistry II (UCC: SCI)",
+              "credits": 5.0
+            },
+            {
+              "code": "CHM 12901",
+              "title": "General Chemistry With A Biological Focus (UCC: SCI)",
+              "credits": 5.0
+            },
+            {
+              "code": "CHM 13600",
+              "title": "General Chemistry Honors (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "EAPS 10900",
+          "title": "The Dynamic Earth",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EAPS 11200",
+              "title": "Earth Through Time (UCC: SCI)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "EAPS 24300",
+          "title": "Mineralogy",
+          "credits": 4.0
+        },
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "code": "PHYS 17200",
+          "title": "Modern Mechanics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 22000",
+              "title": "General Physics (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "EAPS 20000",
+          "title": "Water World: Processes And Challenges In Global Hydrology (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "EAPS 35400",
+          "title": "Earth And Planetary Geophysics",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 20001",
+          "title": "Special Populations Seminar: Focus On Students With Disabilities And Differentiation Approaches",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 26501",
+          "title": "The Inclusive Classroom",
+          "credits": 2.0
+        },
+        {
+          "code": "PHYS 27200",
+          "title": "Electric And Magnetic Interactions (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 22100",
+              "title": "General Physics (UCC: SCI)",
+              "credits": 4.0
+            },
+            {
+              "code": "PHYS 24100",
+              "title": "Electricity And Optics (UCC: SCI)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 25200",
+          "title": "Electricity And Optics Laboratory",
+          "credits": 1.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14-17 Credits",
+      "items": [
+        {
+          "code": "EAPS 10500",
+          "title": "The Planets (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "EAPS 11700",
+          "title": "Introduction To Atmospheric Science (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "EAPS 35300",
+          "title": "Earth And Planetary Surface Processes",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 30900",
+          "title": "Reading In Middle And Secondary Schools: Methods And Problems",
+          "credits": 1.0
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective (if needed)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "COM 21700",
+          "title": "Science Writing And Presentation (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "EAPS 39000",
+          "title": "Geologic Field Methods",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 42800",
+          "title": "Teaching Science In The Middle And Junior High School",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "EDCI 55800",
+              "title": "Integrated Science, Technology, Engineering And Mathematics (STEM) Education Methods-Secondary",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Learner Specialty Pathway Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective (if needed)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 43010",
+          "title": "Secondary Creating And Managing Learning Environments",
+          "credits": 1.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "CS 17700",
+          "title": "Programming With Multimedia Objects",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "CS 18000",
+              "title": "Problem Solving And Object-Oriented Programming",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Great Issues Option",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDCI 49800",
+          "title": "Supervised Teaching (UCC: OC)",
+          "credits": 6.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 11630",
+    "CHM 12500",
+    "CHM 12600",
+    "CHM 12901",
+    "CHM 13600",
+    "COM 21700",
+    "CS 15900",
+    "CS 17600",
+    "CS 17700",
+    "CS 18000",
+    "EAPS 10500",
+    "EAPS 10900",
+    "EAPS 11100",
+    "EAPS 11200",
+    "EAPS 11700",
+    "EAPS 11800",
+    "EAPS 20000",
+    "EAPS 24300",
+    "EAPS 35300",
+    "EAPS 35400",
+    "EAPS 39000",
+    "EDCI 20500",
+    "EDCI 27000",
+    "EDCI 28550",
+    "EDCI 30900",
+    "EDCI 31950",
+    "EDCI 32650",
+    "EDCI 37001",
+    "EDCI 42800",
+    "EDCI 49800",
+    "EDCI 55800",
+    "EDPS 20001",
+    "EDPS 21100",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26501",
+    "EDPS 32700",
+    "EDPS 34501",
+    "EDPS 36201",
+    "EDPS 40300",
+    "EDPS 41700",
+    "EDPS 43010",
+    "EDPS 45900",
+    "EDST 20010",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "PHYS 17200",
+    "PHYS 22000",
+    "PHYS 22100",
+    "PHYS 23300",
+    "PHYS 23400",
+    "PHYS 24100",
+    "PHYS 25200",
+    "PHYS 27200",
+    "STAT 30100",
+    "STAT 35000",
+    "STAT 50300"
+  ]
+}

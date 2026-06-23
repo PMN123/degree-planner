@@ -1,0 +1,75 @@
+{
+  "id": "wood-products-manufacturing-technology-minor",
+  "poid": "34741",
+  "name": "Wood Products Manufacturing Technology Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34741",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.163534+00:00",
+  "course_credits": {
+    "FNR 30110": 3.0,
+    "FNR 31110": 3.0,
+    "FNR 48410": 3.0,
+    "AD 49000": 1.0,
+    "AD 53500": 3.0,
+    "FNR 41910": 3.0,
+    "MET 14300": 3.0,
+    "MET 24500": 3.0,
+    "MFET 10301": 3.0,
+    "IET 23500": 3.0,
+    "IET 43530": 3.0,
+    "IET 43540": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "FNR 30110",
+        "FNR 31110",
+        "FNR 48410"
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "AD 49000",
+        "AD 53500",
+        "FNR 41910",
+        "MET 14300",
+        "MET 24500",
+        "MFET 10301",
+        "IET 23500",
+        "IET 43530",
+        "IET 43540"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AD 49000",
+    "AD 53500",
+    "FNR 30110",
+    "FNR 31110",
+    "FNR 41910",
+    "FNR 48410",
+    "HELP 02026",
+    "IET 23500",
+    "IET 43530",
+    "IET 43540",
+    "IN 47907",
+    "MET 14300",
+    "MET 24500",
+    "MFET 10301"
+  ]
+}

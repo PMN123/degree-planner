@@ -1,0 +1,96 @@
+{
+  "id": "information-studies-minor",
+  "poid": "35930",
+  "name": "Information Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35930",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.024945+00:00",
+  "course_credits": {
+    "ILS 10000": 3.0,
+    "ILS 30000": 3.0,
+    "ILS 30100": 3.0,
+    "DSB 11000": 2.0,
+    "DSB 17500": 1.0,
+    "IDIS 20100": 3.0,
+    "AMST 30100": 3.0,
+    "BCHM 42100": 3.0,
+    "CHM 51300": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Core Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Foundation Course",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "ILS 10000"
+          ]
+        },
+        {
+          "name": "Additional Foundation Courses - choose one of the following",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "ILS 30000",
+            "ILS 30100"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Group 1 - choose any of the following",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "DSB 11000",
+            "DSB 17500",
+            "IDIS 20100"
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "Group 2 - choose any of the following",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "AMST 30100",
+            "BCHM 42100",
+            "CHM 51300"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AMST 30100",
+    "BCHM 42100",
+    "CHM 51300",
+    "DSB 11000",
+    "DSB 17500",
+    "HELP 02026",
+    "IDIS 20100",
+    "ILS 10000",
+    "ILS 30000",
+    "ILS 30100",
+    "IN 47907"
+  ]
+}

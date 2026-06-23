@@ -1,0 +1,469 @@
+{
+  "id": "horticulture-controlled-environment-agriculture-concentration-bs",
+  "poid": "36212",
+  "name": "Horticulture: Controlled Environment Agriculture Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": null,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=36212",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.180098+00:00",
+  "course_credits": {
+    "HORT 10100": 3.0,
+    "HORT 11000": 1.0,
+    "HORT 20100": 3.0,
+    "HORT 30100": 4.0,
+    "HORT 31800": 3.0,
+    "HORT 32200": 3.0,
+    "AGEC 33000": 3.0,
+    "HORT 31110": 1.0,
+    "HORT 32100": 3.0,
+    "HORT 43500": 4.0,
+    "HORT 51300": 1.0,
+    "MA 15800": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "SFS 21000": 3.0,
+    "SFS 21100": 3.0,
+    "AGR 10100": 0.5,
+    "AGR 12000": 1.0,
+    "AGRY 25500": 3.0,
+    "AGRY 32000": 3.0,
+    "BTNY 30100": 3.0,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0,
+    "CHM 25700": 4.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "ECON 21000": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "ENTM 20600": 2.0,
+    "ENTM 20700": 1.0,
+    "ENTM 41000": 2.0,
+    "ENTM 41002": 1.0,
+    "BIOL 11000": 4.0,
+    "BTNY 11000": 4.0,
+    "BTNY 12000": 4.0,
+    "BTNY 12100": 4.0,
+    "STAT 30100": 3.0,
+    "STAT 50300": 3.0,
+    "STAT 51100": 3.0,
+    "STAT 51200": 3.0,
+    "HORT 51400": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 62.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 17.0,
+          "kind": "all_of",
+          "courses": [
+            "HORT 10100",
+            "HORT 11000",
+            "HORT 20100",
+            "HORT 30100",
+            "HORT 31800",
+            "HORT 32200"
+          ]
+        },
+        {
+          "name": "Controlled Environment Agriculture Concentration",
+          "credit_target": 45.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Controlled Environment Agriculture Required Courses",
+              "credit_target": 24.0,
+              "kind": "all_of",
+              "courses": [
+                "AGEC 33000",
+                "HORT 31110",
+                "HORT 32100",
+                "HORT 43500",
+                "HORT 51300",
+                "MA 15800"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "ACCT 20000 / ACCT 21200",
+                  "courses": [
+                    "ACCT 20000",
+                    "ACCT 21200"
+                  ]
+                },
+                {
+                  "kind": "one_of",
+                  "name": "SFS 21000 / SFS 21100",
+                  "courses": [
+                    "SFS 21000",
+                    "SFS 21100"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Concentration Selectives",
+              "credit_target": 21.0,
+              "kind": "credits",
+              "credits": 21.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        1.5,
+        8.5
+      ],
+      "kind": "credits",
+      "credits": 1.5,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14.5 credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 12000",
+          "title": "Introduction To Horticulture And Landscape Architecture Academic Programs",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "HORT 10100",
+          "title": "Fundamentals Of Horticulture (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Plant Science Selective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "HORT 20100",
+          "title": "Plant Propagation",
+          "credits": 3.0
+        },
+        {
+          "code": "SFS 21000",
+          "title": "Small Farm Experience I",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14-17 Credits",
+      "items": [
+        {
+          "code": "CHM 25700",
+          "title": "Organic Chemistry",
+          "credits": 4.0
+        },
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ACCT 21200",
+              "title": "Business Accounting",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Controlled Environment Agriculture Or Agricultural Systems Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGRY 25500",
+          "title": "Soil Science",
+          "credits": 3.0
+        },
+        {
+          "code": "HORT 11000",
+          "title": "Opportunities In Horticulture",
+          "credits": 1.0
+        },
+        {
+          "label": "Controlled Environment Agriculture Or Agricultural Systems Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Controlled Environment Agriculture Or Agricultural Systems Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 credits",
+      "items": [
+        {
+          "code": "AGEC 33000",
+          "title": "Management Methods For Agricultural Business",
+          "credits": 3.0
+        },
+        {
+          "code": "BTNY 30100",
+          "title": "Introductory Plant Pathology",
+          "credits": 3.0
+        },
+        {
+          "code": "HORT 31110",
+          "title": "Aquaponics",
+          "credits": 1.0
+        },
+        {
+          "code": "HORT 32100",
+          "title": "Hydroponics Systems",
+          "credits": 3.0
+        },
+        {
+          "label": "Entomology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGRY 32000",
+          "title": "Genetics",
+          "credits": 3.0
+        },
+        {
+          "code": "HORT 30100",
+          "title": "Plant Physiology",
+          "credits": 4.0
+        },
+        {
+          "code": "HORT 32200",
+          "title": "Greenhouse Crop Production",
+          "credits": 3.0
+        },
+        {
+          "label": "Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "HORT 31800",
+          "title": "Field Production Of Horticultural Crops",
+          "credits": 3.0
+        },
+        {
+          "code": "HORT 51300",
+          "title": "Nutrition Of Horticulture Crops",
+          "credits": 1.0
+        },
+        {
+          "code": "HORT 51400",
+          "title": "Sensors And Automation For Horticultural Crop Production",
+          "credits": 3.0
+        },
+        {
+          "label": "Controlled Environment Agriculture Or Agricultural Systems Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Controlled Environment Agriculture Or Agricultural Systems Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12.5-14.5 Credits",
+      "items": [
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Controlled Environment Agriculture Or Agricultural Systems Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Controlled Environment Agriculture Or Agricultural Systems Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.5,
+          "slot": true
+        },
+        {
+          "code": "HORT 43500",
+          "title": "Developing An Agricultural Startup",
+          "credits": 4.0
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 21700",
+    "AGEC 33000",
+    "AGR 10100",
+    "AGR 12000",
+    "AGRY 25500",
+    "AGRY 32000",
+    "BIOL 11000",
+    "BTNY 11000",
+    "BTNY 12000",
+    "BTNY 12100",
+    "BTNY 30100",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 25700",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "ENTM 20600",
+    "ENTM 20700",
+    "ENTM 41000",
+    "ENTM 41002",
+    "HEA 01348",
+    "HELP 02026",
+    "HORT 10100",
+    "HORT 11000",
+    "HORT 20100",
+    "HORT 30100",
+    "HORT 31110",
+    "HORT 31800",
+    "HORT 32100",
+    "HORT 32200",
+    "HORT 43500",
+    "HORT 51300",
+    "HORT 51400",
+    "IN 47907",
+    "MA 15800",
+    "SFS 21000",
+    "SFS 21100",
+    "STAT 30100",
+    "STAT 50300",
+    "STAT 51100",
+    "STAT 51200"
+  ]
+}

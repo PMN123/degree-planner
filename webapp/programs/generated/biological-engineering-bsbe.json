@@ -1,0 +1,559 @@
+{
+  "id": "biological-engineering-bsbe",
+  "poid": "35290",
+  "name": "Biological Engineering, BSBE",
+  "degree": "BSBE",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 129,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35290",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.234009+00:00",
+  "course_credits": {
+    "ABE 20100": 4.0,
+    "ABE 20200": 3.0,
+    "ABE 20300": 3.0,
+    "ABE 22600": 2.0,
+    "ABE 29000": 1.0,
+    "ABE 30100": 3.0,
+    "ABE 30200": 1.0,
+    "ABE 30300": 3.0,
+    "ABE 30400": 3.0,
+    "ABE 30700": 3.0,
+    "ABE 30800": 3.0,
+    "ABE 37000": 3.0,
+    "ABE 45700": 3.0,
+    "ABE 46000": 3.0,
+    "ABE 49000": 1.0,
+    "ABE 55700": 3.0,
+    "ABE 55800": 3.0,
+    "ENGR 13100": 2.0,
+    "ENGR 16100": 4.0,
+    "EPCS 11100": 1.0,
+    "EPCS 12100": 1.0,
+    "VIP 17911": 1.0,
+    "VIP 17912": 1.0,
+    "ENGR 13000": 4.0,
+    "ENGR 13200": 2.0,
+    "ENGR 13300": 2.0,
+    "ENGR 16200": 4.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0,
+    "PHYS 17200": 4.0,
+    "CS 15900": 3.0,
+    "CS 17700": 4.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 11630": 1.0,
+    "SCLA 11000": 3.0,
+    "SCLA 11100": 3.0,
+    "BCHM 30700": 3.0,
+    "BIOL 22100": 4.0,
+    "CHE 32000": 3.0,
+    "MA 26100": 4.0,
+    "MA 26200": 4.0,
+    "CHM 25700": 4.0,
+    "CHM 25500": 3.0,
+    "CHM 25501": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Biological Engineering Major Requirements",
+      "credit_target": [
+        54.0,
+        63.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": [
+            45.0,
+            54.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "ABE 20100",
+            "ABE 20200",
+            "ABE 20300",
+            "ABE 22600",
+            "ABE 29000",
+            "ABE 30100",
+            "ABE 30200",
+            "ABE 30300",
+            "ABE 30400",
+            "ABE 30700",
+            "ABE 30800",
+            "ABE 37000",
+            "ABE 45700",
+            "ABE 46000",
+            "ABE 49000",
+            "ABE 55700",
+            "ABE 55800"
+          ]
+        },
+        {
+          "name": "Biological Engineering Selective",
+          "credit_target": 9.0,
+          "kind": "credits",
+          "credits": 9.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental Requirement Total",
+      "credit_target": [
+        79.0,
+        86.0
+      ],
+      "kind": "credits",
+      "credits": 79.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Pre-ABE Requirements",
+      "credit_target": [
+        29.0,
+        39.0
+      ],
+      "kind": "choose",
+      "options": [
+        "ENGR 13100",
+        "ENGR 16100",
+        "EPCS 11100",
+        "EPCS 12100",
+        "VIP 17911",
+        "VIP 17912",
+        "ENGR 13000",
+        {
+          "kind": "one_of",
+          "name": "ENGR 13200 / ENGR 13300 / ENGR 16200 / MA 16100 / MA 16500",
+          "courses": [
+            "ENGR 13200",
+            "ENGR 13300",
+            "ENGR 16200",
+            "MA 16100",
+            "MA 16500"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "MA 16200 / MA 16600",
+          "courses": [
+            "MA 16200",
+            "MA 16600"
+          ]
+        },
+        "CHM 11510",
+        {
+          "kind": "one_of",
+          "name": "CHM 11520 / CHM 11530",
+          "courses": [
+            "CHM 11520",
+            "CHM 11530"
+          ]
+        },
+        "CHM 11100",
+        "CHM 11200",
+        "PHYS 17200",
+        {
+          "kind": "one_of",
+          "name": "CS 15900 / CS 17700 / CHM 11610",
+          "courses": [
+            "CS 15900",
+            "CS 17700",
+            "CHM 11610"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "CHM 11620 / CHM 11630",
+          "courses": [
+            "CHM 11620",
+            "CHM 11630"
+          ]
+        },
+        "SCLA 11000",
+        "SCLA 11100"
+      ],
+      "choose_credits": 29.0
+    },
+    {
+      "name": "Other Departmental Requirements",
+      "credit_target": [
+        46.0,
+        47.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "BCHM 30700",
+        "BIOL 22100",
+        "CHE 32000",
+        "CHM 11610",
+        "CHM 11620",
+        "MA 26100",
+        "MA 26200",
+        "CHM 25700",
+        "CHM 25500",
+        "CHM 25501"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "CS 15900 / CS 17700",
+          "courses": [
+            "CS 15900",
+            "CS 17700"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-19 Credits",
+      "items": [
+        {
+          "label": "Requirement #1 - Intro to Engineering",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement #3 - Calculus I",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement #5 - Chemistry",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement #8 - Written or Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-21 Credits",
+      "items": [
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "label": "Requirement #2 - Intro to Engineering II",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement #4 - Calculus II",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement #6 - Physics",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement #8 - Written or Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "ABE 20100",
+          "title": "Material And Energy Balances In Biological Engineering",
+          "credits": 4.0
+        },
+        {
+          "code": "ABE 20300",
+          "title": "Cell Biology For Engineers",
+          "credits": 3.0
+        },
+        {
+          "code": "ABE 22600",
+          "title": "Biotechnology Laboratory I (UCC: STS)",
+          "credits": 2.0
+        },
+        {
+          "code": "ABE 29000",
+          "title": "ABE Sophomore Seminar (UCC: STS)",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "label": "Organic Chemistry Selective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17-18 Credits",
+      "items": [
+        {
+          "code": "ABE 20200",
+          "title": "Thermodynamics In Biological Engineering",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 22100",
+          "title": "Introduction To Microbiology",
+          "credits": 4.0
+        },
+        {
+          "code": "CHE 32000",
+          "title": "Statistical Modeling And Quality Enhancement",
+          "credits": 3.0
+        },
+        {
+          "code": "CS 15900",
+          "title": "C Programming",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CS 17700",
+              "title": "Programming With Multimedia Objects",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "MA 26200",
+          "title": "Linear Algebra And Differential Equations (UCC: QR)",
+          "credits": 4.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "ABE 30100",
+          "title": "Modeling And Computational Tools In Biological Engineering",
+          "credits": 3.0
+        },
+        {
+          "code": "ABE 30200",
+          "title": "Biochemical Laboratory Techniques For Biological Engineers",
+          "credits": 1.0
+        },
+        {
+          "code": "ABE 30300",
+          "title": "Physical Chemistry In Biological Engineering",
+          "credits": 3.0
+        },
+        {
+          "code": "ABE 30700",
+          "title": "Momentum Transfer In Biological Engineering",
+          "credits": 3.0
+        },
+        {
+          "code": "BCHM 30700",
+          "title": "Biochemistry",
+          "credits": 3.0
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "ABE 30400",
+          "title": "Biological Engineering Laboratory",
+          "credits": 3.0
+        },
+        {
+          "code": "ABE 30800",
+          "title": "Heat And Mass Transfer In Biological Engineering",
+          "credits": 3.0
+        },
+        {
+          "code": "ABE 37000",
+          "title": "Reaction Kinetics In Biological Engineering",
+          "credits": 3.0
+        },
+        {
+          "code": "ABE 45700",
+          "title": "Unit Operations In Biological Engineering",
+          "credits": 3.0
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Biological Engineering Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13-14 Credits",
+      "items": [
+        {
+          "code": "ABE 46000",
+          "title": "Sensors And Process Control",
+          "credits": 3.0
+        },
+        {
+          "code": "ABE 49000",
+          "title": "ABE Senior Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "ABE 55700",
+          "title": "Biological Engineering Design I",
+          "credits": 3.0
+        },
+        {
+          "label": "Biological Engineering Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ABE 55800",
+          "title": "Biological Engineering Design II",
+          "credits": 3.0
+        },
+        {
+          "label": "Biological Engineering Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ABE 20100",
+    "ABE 20200",
+    "ABE 20300",
+    "ABE 22600",
+    "ABE 29000",
+    "ABE 30100",
+    "ABE 30200",
+    "ABE 30300",
+    "ABE 30400",
+    "ABE 30700",
+    "ABE 30800",
+    "ABE 37000",
+    "ABE 45700",
+    "ABE 46000",
+    "ABE 49000",
+    "ABE 55700",
+    "ABE 55800",
+    "BCHM 30700",
+    "BIOL 22100",
+    "CHE 32000",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 11630",
+    "CHM 25500",
+    "CHM 25501",
+    "CHM 25700",
+    "CS 15900",
+    "CS 17700",
+    "ENGR 13000",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 13300",
+    "ENGR 16100",
+    "ENGR 16200",
+    "EPCS 11100",
+    "EPCS 12100",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26200",
+    "PHYS 17200",
+    "SCLA 11000",
+    "SCLA 11100",
+    "VIP 17911",
+    "VIP 17912"
+  ]
+}

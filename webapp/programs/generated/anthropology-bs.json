@@ -1,0 +1,436 @@
+{
+  "id": "anthropology-bs",
+  "poid": "35857",
+  "name": "Anthropology, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35857",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.174911+00:00",
+  "course_credits": {
+    "ANTH 20100": 3.0,
+    "ANTH 20400": 3.0,
+    "ANTH 20500": 3.0,
+    "ANTH 30700": 3.0,
+    "ANTH 41001": 3.0,
+    "ANTH 38000": 3.0,
+    "ENGL 34400": 3.0,
+    "PHIL 20700": 3.0,
+    "PHIL 20800": 3.0,
+    "PHIL 27000": 3.0,
+    "PHIL 28000": 3.0,
+    "PHIL 29000": 3.0,
+    "PHIL 42400": 3.0,
+    "POL 22800": 3.0,
+    "SOC 38100": 3.0,
+    "ANTH 30600": 3.0,
+    "ANTH 52300": 3.0,
+    "COM 41100": 3.0,
+    "POL 30000": 3.0,
+    "POL 45000": 3.0,
+    "POL 50100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 36.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Area A - Anthropology Requirements",
+          "credit_target": 15.0,
+          "kind": "all_of",
+          "courses": [
+            "ANTH 20100",
+            "ANTH 20400",
+            "ANTH 20500",
+            "ANTH 30700",
+            "ANTH 41001"
+          ]
+        },
+        {
+          "name": "Area B - Anthropology Selectives",
+          "credit_target": 21.0,
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For Bachelor of Science",
+      "credit_target": [
+        24.0,
+        39.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Scientific Research Ethics",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "ANTH 38000",
+            "ENGL 34400",
+            "PHIL 20700",
+            "PHIL 20800",
+            "PHIL 27000",
+            "PHIL 28000",
+            "PHIL 29000",
+            "PHIL 42400",
+            "POL 22800",
+            "SOC 38100"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Core III: Cultural and Linguistic Diversity",
+          "credit_target": [
+            6.0,
+            9.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core IV: Analytical and Computational Methods",
+          "credit_target": 9.0,
+          "kind": "choose",
+          "options": [
+            "ANTH 30600",
+            "ANTH 52300",
+            "COM 41100",
+            "POL 30000",
+            "POL 45000",
+            "POL 50100"
+          ],
+          "choose_credits": 9.0
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        42.0,
+        59.0
+      ],
+      "kind": "credits",
+      "credits": 42.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "code": "ANTH 20100",
+          "title": "Introduction To Archaeology And World Prehistory (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "(satisfies Behavioral/Social Sciences for core; Cornerstone Certificate)",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 2 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "ANTH 20500",
+          "title": "Introduction To Cultural Anthropology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Core I: 3 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core III: 2 of 2",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "ANTH 20400",
+          "title": "Human Origins (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "Requirement B Anthropology Selective: Archaeology",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Requirement B Anthropology Selective: Biological",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement B Anthropology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core IV: 2 of 3",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Anthropology Optional Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "ANTH 30700",
+          "title": "The Development Of Contemporary Anthropological Theory",
+          "credits": 3.0
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core IV: 3 of 3",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "ANTH Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "label": "Requirement B Anthropology Selective: Methods",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Anthropology Optional Concentration Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Anthropology Optional Concentration Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "ANTH 41001",
+          "title": "Senior Capstone In Anthropology",
+          "credits": 3.0
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "label": "Requirement B Anthropology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ANTH 20100",
+    "ANTH 20400",
+    "ANTH 20500",
+    "ANTH 30600",
+    "ANTH 30700",
+    "ANTH 38000",
+    "ANTH 39000",
+    "ANTH 39200",
+    "ANTH 41001",
+    "ANTH 41800",
+    "ANTH 52300",
+    "COM 41100",
+    "ENGL 34400",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "PHIL 20700",
+    "PHIL 20800",
+    "PHIL 27000",
+    "PHIL 28000",
+    "PHIL 29000",
+    "PHIL 42400",
+    "POL 22800",
+    "POL 30000",
+    "POL 45000",
+    "POL 50100",
+    "SOC 38100"
+  ]
+}

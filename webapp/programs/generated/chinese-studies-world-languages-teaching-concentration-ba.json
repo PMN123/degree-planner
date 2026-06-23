@@ -1,0 +1,479 @@
+{
+  "id": "chinese-studies-world-languages-teaching-concentration-ba",
+  "poid": "35736",
+  "name": "Chinese Studies: World Languages Teaching Concentration, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35736",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.828506+00:00",
+  "course_credits": {
+    "CHNS 10100": 4.0,
+    "CHNS 10200": 4.0,
+    "CHNS 20100": 4.0,
+    "CHNS 20200": 4.0,
+    "CHNS 30100": 3.0,
+    "CHNS 30200": 3.0,
+    "CHNS 40100": 3.0,
+    "CHNS 24100": 3.0,
+    "CHNS 34100": 3.0,
+    "CHNS 34200": 3.0,
+    "CHNS 59400": 1.0,
+    "CHNS 28000": 3.0,
+    "CHNS 28100": 3.0,
+    "CHNS 28500": 1.0,
+    "CHNS 31300": 3.0,
+    "CHNS 33000": 3.0,
+    "CHNS 39900": 1.0,
+    "CHNS 40200": 3.0,
+    "CHNS 49000": 1.0,
+    "EDCI 20500": 2.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 30900": 1.0,
+    "EDCI 37001": 2.0,
+    "EDCI 42700": 3.0,
+    "EDCI 49800": 6.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26501": 2.0,
+    "EDPS 32700": 1.0,
+    "EDPS 36201": 0.0,
+    "EDPS 43010": 1.0,
+    "EDST 20010": 1.0,
+    "LC 23700": 3.0,
+    "LC 47500": 3.0,
+    "EDCI 20001": 1.0,
+    "EDPS 20001": 1.0,
+    "EDPS 40300": 3.0,
+    "EDCI 31950": 3.0,
+    "EDCI 32650": 3.0,
+    "EDPS 34501": 3.0,
+    "EDPS 21100": 3.0,
+    "EDPS 41700": 3.0,
+    "EDPS 45900": 3.0,
+    "EDPS 26500": 3.0,
+    "EDCI 33300": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 80.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Pre-requisite Language Courses",
+          "kind": "all_of",
+          "courses": [
+            "CHNS 10100",
+            "CHNS 10200",
+            "CHNS 20100",
+            "CHNS 20200"
+          ]
+        },
+        {
+          "name": "Chinese Studies Major",
+          "credit_target": 33.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "A. Chinese Language",
+              "credit_target": 6.0,
+              "kind": "all_of",
+              "courses": [
+                "CHNS 30100",
+                "CHNS 30200"
+              ]
+            },
+            {
+              "name": "Education Track",
+              "kind": "all_of",
+              "courses": [
+                "CHNS 40100",
+                "CHNS 24100",
+                "CHNS 34100",
+                "CHNS 34200",
+                "CHNS 59400",
+                "CHNS 28000",
+                "CHNS 28100",
+                "CHNS 28500",
+                "CHNS 31300",
+                "CHNS 33000",
+                "CHNS 34100",
+                "CHNS 34200",
+                "CHNS 39900",
+                "CHNS 40200",
+                "CHNS 49000"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental",
+      "credit_target": 12.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Foundational Requirements",
+          "credit_target": 12.0,
+          "kind": "credits",
+          "credits": 12.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Professional Education Requirements",
+      "credit_target": 47.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Learner Specialty Pathway Selective",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "EDPS 40300",
+            "EDCI 31950",
+            "EDCI 32650",
+            "EDPS 34501",
+            "EDPS 21100",
+            "EDPS 41700",
+            "EDPS 45900"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": 28.0,
+      "kind": "credits",
+      "credits": 28.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CHNS 10100",
+          "title": "Chinese Level I (UCC: HUM)",
+          "credits": 4.0
+        },
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "code": "LC 23700",
+          "title": "Our Common Bond: Languages And Cultures In A Global Context",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "CHNS 10200",
+          "title": "Chinese Level II (UCC: HUM)",
+          "credits": 4.0
+        },
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "code": "CHNS 20100",
+          "title": "Chinese Level III (UCC: HUM)",
+          "credits": 4.0
+        },
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 26500",
+          "title": "The Inclusive Classroom",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CHNS 20200",
+          "title": "Chinese Level IV (UCC: HUM)",
+          "credits": 4.0
+        },
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "label": "Area F: Chinese Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CHNS 30100",
+          "title": "Chinese Level V (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHNS 24100",
+          "title": "Introduction To The Study Of Chinese Literature (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 33300",
+          "title": "Reading In Our World: Disciplinary Literacy Development In The Content Areas",
+          "credits": 3.0
+        },
+        {
+          "label": "Learner Specialty Pathway Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area F: Chinese Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "LC 47500",
+          "title": "Theories Of Teaching World Languages",
+          "credits": 3.0
+        },
+        {
+          "code": "CHNS 30200",
+          "title": "Chinese Level VI (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHNS 59400",
+          "title": "Special Topics In Chinese Literature",
+          "credits": 1.0
+        },
+        {
+          "code": "CHNS 34100",
+          "title": "Chinese Literature I: Traditional Chinese Literature",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHNS 34200",
+              "title": "Chinese Literature II: Modern Chinese Literature",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Area F: Chinese Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "CHNS 40100",
+          "title": "Chinese Level VII (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 42700",
+          "title": "Teaching Of World Languages",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 43010",
+          "title": "Secondary Creating And Managing Learning Environments",
+          "credits": 1.0
+        },
+        {
+          "label": "Area F: Chinese Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area F: Chinese Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDCI 49800",
+          "title": "Supervised Teaching (UCC: OC)",
+          "credits": 6.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CHNS 00202",
+    "CHNS 10100",
+    "CHNS 10200",
+    "CHNS 20100",
+    "CHNS 20200",
+    "CHNS 24100",
+    "CHNS 28000",
+    "CHNS 28100",
+    "CHNS 28500",
+    "CHNS 30100",
+    "CHNS 30200",
+    "CHNS 31300",
+    "CHNS 33000",
+    "CHNS 34100",
+    "CHNS 34200",
+    "CHNS 39900",
+    "CHNS 40100",
+    "CHNS 40200",
+    "CHNS 49000",
+    "CHNS 59400",
+    "EDCI 20001",
+    "EDCI 20500",
+    "EDCI 27000",
+    "EDCI 28550",
+    "EDCI 30900",
+    "EDCI 31950",
+    "EDCI 32650",
+    "EDCI 33300",
+    "EDCI 37001",
+    "EDCI 42700",
+    "EDCI 49800",
+    "EDPS 20001",
+    "EDPS 21100",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26500",
+    "EDPS 26501",
+    "EDPS 32700",
+    "EDPS 34501",
+    "EDPS 36201",
+    "EDPS 40300",
+    "EDPS 41700",
+    "EDPS 43010",
+    "EDPS 45900",
+    "EDST 20010",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "LC 23700",
+    "LC 47500",
+    "SPAN 30100"
+  ]
+}

@@ -1,0 +1,711 @@
+{
+  "id": "chemistry-acs-bsch",
+  "poid": "34855",
+  "name": "Chemistry (ACS), BSCH",
+  "degree": "BSCH",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34855",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.380342+00:00",
+  "course_credits": {
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 12500": 5.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 11630": 1.0,
+    "CHM 12600": 5.0,
+    "CHM 22410": 2.0,
+    "CHM 22420": 1.0,
+    "CHM 24100": 4.0,
+    "CHM 26505": 3.0,
+    "CHM 26605": 3.0,
+    "CHM 37300": 3.0,
+    "CHM 37301": 1.0,
+    "CHM 37400": 3.0,
+    "CHM 43300": 3.0,
+    "CHM 26500": 2.0,
+    "CHM 26700": 2.0,
+    "CHM 19400": 1.0,
+    "CHM 29400": 1.0,
+    "CHM 49400": 1.0,
+    "CHM 32110": 3.0,
+    "CHM 32120": 1.0,
+    "CHM 42410": 3.0,
+    "CHM 42420": 1.0,
+    "CHM 34200": 3.0,
+    "CHM 43800": 3.0,
+    "CHM 46200": 3.0,
+    "CHM 49900": 1.0,
+    "CHM 26600": 2.0,
+    "CHM 26800": 2.0,
+    "CHM 33901": 1.0,
+    "CHM 34201": 1.0,
+    "CHM 37401": 1.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "PHYS 17200": 4.0,
+    "PHYS 27200": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 25200": 1.0,
+    "CS 15900": 3.0,
+    "CS 17600": 3.0,
+    "CS 17700": 4.0,
+    "CS 18000": 4.0,
+    "TDM 10100": 1.0,
+    "TDM 10200": 1.0,
+    "STAT 30100": 3.0,
+    "STAT 35000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        62.0,
+        69.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": [
+            46.0,
+            51.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "CHM 11510",
+            "CHM 11520",
+            "CHM 11530",
+            "CHM 12500",
+            "CHM 11610",
+            "CHM 11620",
+            "CHM 11630",
+            "CHM 12600",
+            "CHM 22410",
+            "CHM 22420",
+            "CHM 24100",
+            "CHM 26505",
+            "CHM 26605",
+            "CHM 37300",
+            "CHM 37301",
+            "CHM 37400",
+            "CHM 43300",
+            "CHM 19400",
+            "CHM 29400",
+            "CHM 49400"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "CHM 26500 / CHM 26700",
+              "courses": [
+                "CHM 26500",
+                "CHM 26700"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Analytical Selective",
+          "credit_target": 4.0,
+          "kind": "choose",
+          "options": [
+            "CHM 32110",
+            "CHM 32120",
+            "CHM 42410",
+            "CHM 42420"
+          ],
+          "choose_credits": 4.0
+        },
+        {
+          "name": "Upper Level Selective",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "CHM 32110",
+            "CHM 34200",
+            "CHM 42410",
+            "CHM 43800",
+            "CHM 46200",
+            "CHM 49900"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Laboratory Selectives",
+          "credit_target": [
+            3.0,
+            6.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Area 1",
+              "kind": "all_of",
+              "courses": [
+                "CHM 32120",
+                "CHM 33901",
+                "CHM 34201",
+                "CHM 37401",
+                "CHM 42420",
+                "CHM 49900"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "CHM 26600 / CHM 26800",
+                  "courses": [
+                    "CHM 26600",
+                    "CHM 26800"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Area 2",
+              "kind": "all_of",
+              "courses": [
+                "CHM 32120",
+                "CHM 33901",
+                "CHM 34201",
+                "CHM 37401",
+                "CHM 42420",
+                "CHM 49900"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Required Calculus and Physics Courses",
+          "credit_target": [
+            16.0,
+            18.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "PHYS 17200",
+            "PHYS 25200"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "PHYS 27200 / PHYS 24100",
+              "courses": [
+                "PHYS 27200",
+                "PHYS 24100"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Science Additional Requirements",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Computing",
+          "credit_target": [
+            2.0,
+            4.0
+          ],
+          "kind": "choose",
+          "options": [
+            "CS 15900",
+            "CS 17600",
+            "CS 17700",
+            "CS 18000",
+            "TDM 10100",
+            "TDM 10200"
+          ],
+          "choose_credits": 2.0
+        },
+        {
+          "name": "Laboratory Science",
+          "credit_target": [
+            6.0,
+            8.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Mathematics",
+          "credit_target": [
+            8.0,
+            10.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Statistics",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "STAT 30100",
+            "STAT 35000"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        4.0,
+        35.0
+      ],
+      "kind": "credits",
+      "credits": 4.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "CHM 19400",
+          "title": "Freshman Chemistry Orientation",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "CHM 12500",
+              "title": "Introduction To Chemistry I (UCC: SCI)",
+              "credits": 5.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection: Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "PHYS 17200",
+          "title": "Modern Mechanics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11630",
+              "title": "General Chemistry II - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "CHM 12600",
+              "title": "Introduction To Chemistry II (UCC: SCI)",
+              "credits": 5.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection: Language or Culture I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "CHM 26505",
+          "title": "Organic Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 29400",
+          "title": "Sophomore Chemistry Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 26500",
+          "title": "Organic Chemistry Laboratory I",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "CHM 26700",
+              "title": "Organic Chemistry Laboratory I Honors",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 27200",
+          "title": "Electric And Magnetic Interactions (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 24100",
+              "title": "Electricity And Optics (UCC: SCI)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 25200",
+          "title": "Electricity And Optics Laboratory",
+          "credits": 1.0
+        },
+        {
+          "label": "Science Core Selection: Language or Culture II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "code": "CHM 22410",
+          "title": "Introduction To Quantitative Analysis",
+          "credits": 2.0
+        },
+        {
+          "code": "CHM 22420",
+          "title": "Introduction To Quantitative Analysis Lab",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 26605",
+          "title": "Organic Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "label": "Science Core Selection: Statistics",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Required Laboratory Selective",
+          "credits": 0.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Language or Culture III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: General Education I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "CHM 24100",
+          "title": "Introductory Inorganic Chemistry",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 37300",
+          "title": "Physical Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 37301",
+          "title": "Physical Chemistry Laboratory I",
+          "credits": 1.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: General Education II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection:&nbsp;Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "CHM 37400",
+          "title": "Physical Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "label": "Science Core Selection: General Education III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Computer Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Required Laboratory Selection",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "CHM 43300",
+          "title": "Biochemistry",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 49400",
+          "title": "Junior-Senior Chemistry Seminar",
+          "credits": 1.0
+        },
+        {
+          "label": "Analytical Selective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Required Laboratory Selective",
+          "credits": 0.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Great Issues in Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "label": "Upper Level Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Required Laboratory Selective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection: Technical Writing & Presentation",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 11630",
+    "CHM 12500",
+    "CHM 12600",
+    "CHM 19400",
+    "CHM 22410",
+    "CHM 22420",
+    "CHM 24100",
+    "CHM 26500",
+    "CHM 26505",
+    "CHM 26600",
+    "CHM 26605",
+    "CHM 26700",
+    "CHM 26800",
+    "CHM 29400",
+    "CHM 32110",
+    "CHM 32120",
+    "CHM 33901",
+    "CHM 34200",
+    "CHM 34201",
+    "CHM 37300",
+    "CHM 37301",
+    "CHM 37400",
+    "CHM 37401",
+    "CHM 42410",
+    "CHM 42420",
+    "CHM 43300",
+    "CHM 43800",
+    "CHM 46200",
+    "CHM 49400",
+    "CHM 49900",
+    "CS 15900",
+    "CS 17600",
+    "CS 17700",
+    "CS 18000",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "PHYS 17200",
+    "PHYS 24100",
+    "PHYS 25200",
+    "PHYS 27200",
+    "STAT 30100",
+    "STAT 35000",
+    "TDM 10100",
+    "TDM 10200"
+  ]
+}

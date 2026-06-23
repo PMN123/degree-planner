@@ -1,0 +1,640 @@
+{
+  "id": "data-science-bs-mathematics",
+  "poid": "35637",
+  "name": "Data Science, BS (Mathematics)",
+  "degree": "BS (Mathematics)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35637",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.993779+00:00",
+  "course_credits": {
+    "CS 18000": 4.0,
+    "CS 18200": 3.0,
+    "CS 25300": 3.0,
+    "CS 38003": 1.0,
+    "MA 35100": 3.0,
+    "MA 37500": 3.0,
+    "MA 42100": 3.0,
+    "MA 43200": 3.0,
+    "STAT 35500": 3.0,
+    "STAT 41700": 3.0,
+    "CS 24200": 3.0,
+    "STAT 24200": 3.0,
+    "CS 34800": 3.0,
+    "MA 34900": 3.0,
+    "CS 37300": 3.0,
+    "MA 37400": 3.0,
+    "MA 26100": 4.0,
+    "MA 27101": 5.0,
+    "MA 34100": 3.0,
+    "MA 44000": 3.0,
+    "MA 41600": 3.0,
+    "STAT 41600": 3.0,
+    "ILS 23000": 3.0,
+    "PHIL 20700": 3.0,
+    "PHIL 20800": 3.0,
+    "MA 42800": 3.0,
+    "MA 44200": 3.0,
+    "CS 31400": 3.0,
+    "CS 38100": 3.0,
+    "CS 44000": 3.0,
+    "CS 47100": 3.0,
+    "CS 47500": 3.0,
+    "CS 44100": 3.0,
+    "STAT 41800": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "CS 19300": 1.0,
+    "MA 10800": 1.0,
+    "COM 21700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Data Science Major Courses",
+      "credit_target": [
+        60.0,
+        61.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": [
+            48.0,
+            49.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "CS 18000",
+            "CS 18200",
+            "CS 25300",
+            "CS 38003",
+            "MA 35100",
+            "MA 37500",
+            "MA 42100",
+            "MA 43200",
+            "STAT 35500",
+            "STAT 41700"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "CS 24200 / STAT 24200",
+              "courses": [
+                "CS 24200",
+                "STAT 24200"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CS 34800 / MA 34900",
+              "courses": [
+                "CS 34800",
+                "MA 34900"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CS 37300 / MA 37400",
+              "courses": [
+                "CS 37300",
+                "MA 37400"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 26100 / MA 27101",
+              "courses": [
+                "MA 26100",
+                "MA 27101"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 34100 / MA 44000",
+              "courses": [
+                "MA 34100",
+                "MA 44000"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 41600 / STAT 41600",
+              "courses": [
+                "MA 41600",
+                "STAT 41600"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ethics Selective",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "ILS 23000",
+            "PHIL 20700",
+            "PHIL 20800"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "MA Selective",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "MA 42800",
+            "MA 44200"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "CS Selective",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "CS 31400",
+            "CS 38100",
+            "CS 44000",
+            "CS 47100",
+            "CS 47500"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Capstone",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "CS 44100",
+            "STAT 41800"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    },
+    {
+      "name": "College of Science Additional Requirements",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Computing",
+          "credit_target": [
+            3.0,
+            4.0
+          ],
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Laboratory Science",
+          "credit_target": [
+            6.0,
+            8.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Mathematics",
+          "credit_target": [
+            8.0,
+            10.0
+          ],
+          "kind": "choose",
+          "options": [
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            }
+          ],
+          "choose_credits": 8.0
+        },
+        {
+          "name": "Statistics",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        1.0,
+        28.0
+      ],
+      "kind": "credits",
+      "credits": 1.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "CS 18000",
+          "title": "Problem Solving And Object-Oriented Programming",
+          "credits": 4.0
+        },
+        {
+          "code": "CS 19300",
+          "title": "Tools",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 10800",
+          "title": "Mathematics As A Profession And A Discipline",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "CS 18200",
+          "title": "Foundations Of Computer Science",
+          "credits": 3.0
+        },
+        {
+          "code": "CS 38003",
+          "title": "Python Programming",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "\u200bScience Core First-Year Composition Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "STAT 35500",
+          "title": "Statistics For Data Science",
+          "credits": 3.0
+        },
+        {
+          "code": "CS 24200",
+          "title": "Introduction To Data Science",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 24200",
+              "title": "Introduction To Data Science",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "MA 27101",
+              "title": "Honors Multivariate Calculus (UCC: QR)",
+              "credits": 5.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "CS 25300",
+          "title": "Data Structures And Algorithms For DS/AI",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 35100",
+          "title": "Elementary Linear Algebra (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 41600",
+          "title": "Probability",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 41600",
+              "title": "Probability",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Ethics Selective\u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "COM 21700",
+          "title": "Science Writing And Presentation (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 41700",
+          "title": "Statistical Theory",
+          "credits": 3.0
+        },
+        {
+          "code": "CS 37300",
+          "title": "Data Mining And Machine Learning",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 37400",
+              "title": "Mathematical Foundations For Machine Learning",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "MA 34100",
+          "title": "Foundations Of Analysis",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 44000",
+              "title": "Honors Real Analysis I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "MA 37500",
+          "title": "Introduction To Discrete Mathematics",
+          "credits": 3.0
+        },
+        {
+          "code": "CS 34800",
+          "title": "Information Systems",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 34900",
+              "title": "Signals And Systems For Mathematicians",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "MA 42100",
+          "title": "Linear Programming And Optimization Techniques",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 43200",
+          "title": "Elementary Stochastic Processes",
+          "credits": 3.0
+        },
+        {
+          "label": "CS Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "label": "Math Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Capstone Experience/Course",
+          "credits": 0.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "COM 21700",
+    "CS 18000",
+    "CS 18200",
+    "CS 19300",
+    "CS 24200",
+    "CS 25300",
+    "CS 31400",
+    "CS 34800",
+    "CS 37300",
+    "CS 38003",
+    "CS 38100",
+    "CS 44000",
+    "CS 44100",
+    "CS 47100",
+    "CS 47500",
+    "HEA 01348",
+    "HELP 02026",
+    "ILS 23000",
+    "IN 47907",
+    "MA 10800",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 27101",
+    "MA 34100",
+    "MA 34900",
+    "MA 35100",
+    "MA 37400",
+    "MA 37500",
+    "MA 41600",
+    "MA 42100",
+    "MA 42800",
+    "MA 43200",
+    "MA 44000",
+    "MA 44200",
+    "PHIL 20700",
+    "PHIL 20800",
+    "STAT 24200",
+    "STAT 35500",
+    "STAT 41600",
+    "STAT 41700",
+    "STAT 41800"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "physics-minor",
+  "poid": "35908",
+  "name": "Physics Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35908",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:32.249494+00:00",
+  "course_credits": {
+    "PHYS 27200": 4.0,
+    "PHYS 24100": 3.0,
+    "MA 26100": 4.0,
+    "MA 27101": 5.0,
+    "PHYS 34000": 2.0,
+    "PHYS 34202": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": [
+        12.0,
+        14.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "PHYS 34000",
+        "PHYS 34202"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "PHYS 27200 / PHYS 24100",
+          "courses": [
+            "PHYS 27200",
+            "PHYS 24100"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "MA 26100 / MA 27101",
+          "courses": [
+            "MA 26100",
+            "MA 27101"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Physics and Astronomy courses 30000-level or above",
+      "credit_target": 6.0,
+      "kind": "credits",
+      "credits": 6.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ASTR 50000",
+    "HELP 02026",
+    "IN 47907",
+    "MA 26100",
+    "MA 27101",
+    "PHYS 24100",
+    "PHYS 27200",
+    "PHYS 30000",
+    "PHYS 31700",
+    "PHYS 32300",
+    "PHYS 32400",
+    "PHYS 34000",
+    "PHYS 34202",
+    "PHYS 39000",
+    "PHYS 49000",
+    "PHYS 59000",
+    "PHYS 59300"
+  ]
+}

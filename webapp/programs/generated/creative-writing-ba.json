@@ -1,0 +1,387 @@
+{
+  "id": "creative-writing-ba",
+  "poid": "34852",
+  "name": "Creative Writing, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34852",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.367076+00:00",
+  "course_credits": {
+    "ENGL 20500": 3.0,
+    "ENGL 31600": 3.0,
+    "ENGL 31700": 3.0,
+    "ENGL 40700": 3.0,
+    "ENGL 40800": 3.0,
+    "ENGL 40900": 3.0,
+    "ENGL 50700": 3.0,
+    "ENGL 50900": 3.0,
+    "ENGL 20200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Course",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "ENGL 20500"
+          ]
+        },
+        {
+          "name": "A. Creative Writing Courses - Choose Four",
+          "credit_target": 12.0,
+          "kind": "choose",
+          "options": [
+            "ENGL 31600",
+            "ENGL 31700",
+            "ENGL 40700",
+            "ENGL 40800",
+            "ENGL 40900",
+            "ENGL 50700",
+            "ENGL 50900"
+          ],
+          "choose_credits": 12.0
+        },
+        {
+          "name": "B. Engaging English",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "ENGL 20200"
+          ]
+        },
+        {
+          "name": "C. Literature/Linguistics/English Education",
+          "credit_target": 12.0,
+          "kind": "credits",
+          "credits": 12.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        14.0,
+        55.0
+      ],
+      "kind": "credits",
+      "credits": 14.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "ENGL 20200",
+          "title": "Introduction To Literary Study (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ENGL 20500",
+          "title": "Introduction To Creative Writing",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area A Creative Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 3 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "label": "Area A Creative Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV (CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area A Creative Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ENGL 20200",
+    "ENGL 20500",
+    "ENGL 31600",
+    "ENGL 31700",
+    "ENGL 40700",
+    "ENGL 40800",
+    "ENGL 40900",
+    "ENGL 50700",
+    "ENGL 50900",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

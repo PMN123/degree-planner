@@ -1,0 +1,66 @@
+{
+  "id": "creative-writing-minor",
+  "poid": "34847",
+  "name": "Creative Writing Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 12,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34847",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.413108+00:00",
+  "course_credits": {
+    "ENGL 20500": 3.0,
+    "ENGL 31600": 3.0,
+    "ENGL 31700": 3.0,
+    "ENGL 40700": 3.0,
+    "ENGL 40800": 3.0,
+    "ENGL 40900": 3.0,
+    "ENGL 50700": 3.0,
+    "ENGL 50900": 3.0,
+    "ENGL 58900": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Introductory Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "ENGL 20500"
+      ]
+    },
+    {
+      "name": "B. Writing Courses",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "ENGL 31600",
+        "ENGL 31700",
+        "ENGL 40700",
+        "ENGL 40800",
+        "ENGL 40900",
+        "ENGL 50700",
+        "ENGL 50900",
+        "ENGL 58900"
+      ],
+      "choose_credits": 9.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ENGL 20500",
+    "ENGL 31600",
+    "ENGL 31700",
+    "ENGL 40700",
+    "ENGL 40800",
+    "ENGL 40900",
+    "ENGL 50700",
+    "ENGL 50900",
+    "ENGL 58900",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

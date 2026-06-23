@@ -1,0 +1,396 @@
+{
+  "id": "developmental-and-family-science-bs",
+  "poid": "34797",
+  "name": "Developmental and Family Science, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34797",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.838471+00:00",
+  "course_credits": {
+    "HDFS 10000": 1.0,
+    "HDFS 20100": 3.0,
+    "HDFS 21000": 3.0,
+    "HDFS 28000": 3.0,
+    "HDFS 34600": 3.0,
+    "HDFS 30500": 3.0,
+    "HDFS 31100": 3.0,
+    "HDFS 31200": 3.0,
+    "HDFS 31300": 3.0,
+    "HDFS 31400": 3.0,
+    "HDFS 33000": 3.0,
+    "HDFS 33200": 3.0,
+    "HDFS 41800": 3.0,
+    "CNIT 13600": 3.0,
+    "CS 10100": 3.0,
+    "COM 11400": 3.0,
+    "EDPS 31500": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "STAT 11300": 3.0,
+    "STAT 30100": 3.0,
+    "SOC 38200": 3.0,
+    "PSY 20100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Foreign Language Selective",
+      "credit_target": [
+        9.0,
+        12.0
+      ],
+      "kind": "credits",
+      "credits": 9.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        28.0,
+        59.0
+      ],
+      "kind": "credits",
+      "credits": 28.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "HDFS 10000",
+          "title": "Orientation To Current Issues In Human Development And Family Science (UCC: AI)",
+          "credits": 1.0
+        },
+        {
+          "code": "HDFS 20100",
+          "title": "Introduction To Relationship And Family Science (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 13600",
+          "title": "Personal Computing Technology And Applications",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CS 10100",
+              "title": "Digital Literacy (UCC: STS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EDPS 31500",
+              "title": "Collaborative Leadership: Interpersonal Skills (UCC: OC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Foreign Language 10100",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "14-19 Credits",
+      "items": [
+        {
+          "code": "HDFS 21000",
+          "title": "Introduction To Human Development (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Global Perspectives & International Cultures",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Foreign Language 10200",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 11300",
+              "title": "Statistics And Society (UCC: IL/STS)",
+              "credits": 3.0
+            },
+            {
+              "code": "SOC 38200",
+              "title": "Introduction To Statistics In Sociology",
+              "credits": 3.0
+            },
+            {
+              "code": "PSY 20100",
+              "title": "Introduction To Statistics In Psychology",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Advanced Content Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Foreign Language Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "HDFS 28000",
+          "title": "Diversity In Individual And Family Life (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 34600",
+          "title": "Research Design And Program Evaluation",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Health Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Advanced Content Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14-17 Credits",
+      "items": [
+        {
+          "label": "HDFS Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "HDFS Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "label": "Capstone Experience- Thesis, Study Abroad, or Internship Option 2",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "HDFS Selective 1 or Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "label": "Capstone Experience- Thesis, Study Abroad, or Internship Option 2",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "HDFS Selective 1 or Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CNIT 13600",
+    "COM 11400",
+    "CS 10100",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "HDFS 10000",
+    "HDFS 20100",
+    "HDFS 21000",
+    "HDFS 28000",
+    "HDFS 30500",
+    "HDFS 31100",
+    "HDFS 31200",
+    "HDFS 31300",
+    "HDFS 31400",
+    "HDFS 33000",
+    "HDFS 33200",
+    "HDFS 34600",
+    "HDFS 41800",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 13800",
+    "PSY 20100",
+    "SOC 38200",
+    "STAT 11300",
+    "STAT 30100"
+  ]
+}

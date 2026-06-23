@@ -1,0 +1,188 @@
+{
+  "id": "jewish-studies-minor",
+  "poid": "34925",
+  "name": "Jewish Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34925",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.698617+00:00",
+  "course_credits": {
+    "JWST 33000": 3.0,
+    "HIST 30200": 3.0,
+    "POL 49300": 1.0,
+    "ENGL 26400": 3.0,
+    "ENGL 46200": 3.0,
+    "ENGL 46300": 3.0,
+    "ENGL 59000": 1.0,
+    "HEBR 10100": 3.0,
+    "HEBR 10200": 3.0,
+    "HEBR 20100": 3.0,
+    "HEBR 20200": 3.0,
+    "HEBR 12100": 3.0,
+    "HEBR 12200": 3.0,
+    "HEBR 22100": 3.0,
+    "HEBR 22200": 3.0,
+    "HEBR 38000": 3.0,
+    "HEBR 38500": 3.0,
+    "JWST 59000": 3.0,
+    "LC 59300": 1.0,
+    "HIST 10300": 3.0,
+    "HIST 40800": 3.0,
+    "HIST 49500": 3.0,
+    "HIST 59000": 1.0,
+    "HIST 59500": 3.0,
+    "PHIL 20600": 3.0,
+    "PHIL 23100": 3.0,
+    "PHIL 50500": 3.0,
+    "POL 59000": 1.0,
+    "REL 20200": 3.0,
+    "REL 23100": 3.0,
+    "REL 31700": 3.0,
+    "REL 31800": 3.0,
+    "SOC 31000": 3.0,
+    "SOC 36700": 3.0,
+    "SOC 51400": 3.0,
+    "SOC 59000": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "JWST 33000",
+        "HIST 30200",
+        "POL 49300"
+      ]
+    },
+    {
+      "name": "B. Additional Courses",
+      "credit_target": 12.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "1. English",
+          "kind": "all_of",
+          "courses": [
+            "ENGL 26400",
+            "ENGL 46200",
+            "ENGL 46300",
+            "ENGL 59000"
+          ]
+        },
+        {
+          "name": "2. Languages and Cultures",
+          "kind": "all_of",
+          "courses": [
+            "HEBR 10100",
+            "HEBR 10200",
+            "HEBR 20100",
+            "HEBR 20200",
+            "HEBR 12100",
+            "HEBR 12200",
+            "HEBR 22100",
+            "HEBR 22200",
+            "HEBR 38000",
+            "HEBR 38500",
+            "JWST 59000",
+            "LC 59300"
+          ]
+        },
+        {
+          "name": "3. History",
+          "kind": "all_of",
+          "courses": [
+            "HIST 10300",
+            "HIST 40800",
+            "HIST 49500",
+            "HIST 59000",
+            "HIST 59500"
+          ]
+        },
+        {
+          "name": "4. Philosophy",
+          "kind": "all_of",
+          "courses": [
+            "PHIL 20600",
+            "PHIL 23100",
+            "PHIL 50500"
+          ]
+        },
+        {
+          "name": "5. Political Science",
+          "kind": "all_of",
+          "courses": [
+            "POL 59000"
+          ]
+        },
+        {
+          "name": "6. Religious Studies",
+          "kind": "all_of",
+          "courses": [
+            "REL 20200",
+            "REL 23100",
+            "REL 31700",
+            "REL 31800"
+          ]
+        },
+        {
+          "name": "7. Sociology",
+          "kind": "all_of",
+          "courses": [
+            "SOC 31000",
+            "SOC 36700",
+            "SOC 51400",
+            "SOC 59000"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ENGL 26400",
+    "ENGL 46200",
+    "ENGL 46300",
+    "ENGL 59000",
+    "HEBR 10100",
+    "HEBR 10200",
+    "HEBR 12100",
+    "HEBR 12200",
+    "HEBR 20100",
+    "HEBR 20200",
+    "HEBR 22100",
+    "HEBR 22200",
+    "HEBR 38000",
+    "HEBR 38500",
+    "HELP 02026",
+    "HIST 10300",
+    "HIST 30200",
+    "HIST 40800",
+    "HIST 49500",
+    "HIST 59000",
+    "HIST 59500",
+    "IN 47907",
+    "JWST 33000",
+    "JWST 59000",
+    "LC 59300",
+    "PHIL 20600",
+    "PHIL 23100",
+    "PHIL 50500",
+    "POL 49300",
+    "POL 59000",
+    "REL 20200",
+    "REL 23100",
+    "REL 31700",
+    "REL 31800",
+    "SOC 31000",
+    "SOC 36700",
+    "SOC 51400",
+    "SOC 59000"
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "id": "nutrition-fitness-and-health-bs",
+  "poid": "34810",
+  "name": "Nutrition, Fitness, and Health, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34810",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.012666+00:00",
+  "course_credits": {
+    "NUTR 10500": 1.0,
+    "NUTR 20500": 3.0,
+    "NUTR 31500": 3.0,
+    "NUTR 33000": 3.0,
+    "NUTR 33200": 3.0,
+    "NUTR 36500": 3.0,
+    "NUTR 42400": 3.0,
+    "NUTR 43000": 2.0,
+    "NUTR 43600": 2.0,
+    "NUTR 43700": 3.0,
+    "NUTR 43800": 3.0,
+    "NUTR 45400": 2.0,
+    "NUTR 48800": 3.0,
+    "BCHM 30700": 3.0,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "BIOL 20300": 4.0,
+    "BIOL 20400": 4.0,
+    "CHM 11100": 3.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 11200": 3.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 11630": 1.0,
+    "CHM 25700": 4.0,
+    "CHM 25500": 3.0,
+    "CHM 25600": 3.0,
+    "ECON 21000": 3.0,
+    "AGEC 21700": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HK 36800": 3.0,
+    "HK 42100": 3.0,
+    "HK 42200": 3.0,
+    "HK 46800": 3.0,
+    "HK 46900": 3.0,
+    "PSY 12000": 3.0,
+    "SOC 10000": 3.0,
+    "STAT 30100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Electives",
+      "credit_target": [
+        7.0,
+        19.0
+      ],
+      "kind": "credits",
+      "credits": 7.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "NUTR 10500",
+          "title": "Nutrition In The 21st Century",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 11510",
+              "title": "General Chemistry I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "NUTR Math Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 11610",
+              "title": "General Chemistry II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11630",
+              "title": "General Chemistry II - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "BIOL 20300",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "NUTR 20500",
+          "title": "Food Science I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25700",
+          "title": "Organic Chemistry",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "CHM 25500",
+              "title": "Organic Chemistry For The Life Sciences I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 25600",
+          "title": "Organic Chemistry For The Life Sciences II",
+          "credits": 3.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SOC 10000",
+              "title": "Introductory Sociology (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "ECON 21000",
+          "title": "Principles Of Economics (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 21700",
+              "title": "Economics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "BIOL 20400",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "NUTR 31500",
+          "title": "Fundamentals Of Nutrition",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25600",
+          "title": "Organic Chemistry For The Life Sciences II",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "label": "Elective",
+              "credits": 0.0,
+              "slot": true
+            }
+          ]
+        },
+        {
+          "label": "Science, Technology, and Society Core",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "BCHM 30700",
+          "title": "Biochemistry",
+          "credits": 3.0
+        },
+        {
+          "code": "HK 36800",
+          "title": "Exercise Physiology I",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 33000",
+          "title": "Diet Selection And Planning",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 45400",
+          "title": "Food Chemistry Laboratory",
+          "credits": 2.0
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "HK 42100",
+          "title": "Health Screening And Fitness Evaluation And Design",
+          "credits": 3.0
+        },
+        {
+          "code": "HK 46800",
+          "title": "Advanced Exercise Physiology II",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 33200",
+          "title": "Nutrition Counseling",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 36500",
+          "title": "Physiology And Nutrition During The Life Cycle",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 43600",
+          "title": "Nutritional Assessment",
+          "credits": 2.0
+        },
+        {
+          "code": "NUTR 43700",
+          "title": "Macronutrient Metabolism In Human Health And Disease",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "HK 42200",
+          "title": "Basic Concepts In Exercise Program Design",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 43800",
+          "title": "Micronutrient And Phytochemical Metabolism In Human Health And Disease",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 48800",
+          "title": "Topics In Nutrition, Fitness, And Health",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "HK 46900",
+          "title": "Exercise Testing And Prescription In Special Populations",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 42400",
+          "title": "Communication Techniques In Foods And Nutrition",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 43000",
+          "title": "Public Health Nutrition",
+          "credits": 2.0
+        },
+        {
+          "label": "Elective",
+          "credits": 5.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 21700",
+    "BCHM 30700",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BIOL 20300",
+    "BIOL 20400",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 11630",
+    "CHM 25500",
+    "CHM 25600",
+    "CHM 25700",
+    "ECON 21000",
+    "ENGL 10600",
+    "ENGL 10800",
+    "HEA 01348",
+    "HELP 02026",
+    "HK 36800",
+    "HK 42100",
+    "HK 42200",
+    "HK 46800",
+    "HK 46900",
+    "IN 47907",
+    "NUTR 10500",
+    "NUTR 20500",
+    "NUTR 31500",
+    "NUTR 33000",
+    "NUTR 33200",
+    "NUTR 36500",
+    "NUTR 42400",
+    "NUTR 43000",
+    "NUTR 43600",
+    "NUTR 43700",
+    "NUTR 43800",
+    "NUTR 45400",
+    "NUTR 48800",
+    "PSY 12000",
+    "SOC 10000",
+    "STAT 30100"
+  ]
+}

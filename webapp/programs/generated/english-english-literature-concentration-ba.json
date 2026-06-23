@@ -1,0 +1,408 @@
+{
+  "id": "english-english-literature-concentration-ba",
+  "poid": "35411",
+  "name": "English: English Literature Concentration, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35411",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.382462+00:00",
+  "course_credits": {
+    "ENGL 20200": 3.0,
+    "ENGL 30100": 3.0,
+    "ENGL 39900": 3.0,
+    "ENGL 24000": 3.0,
+    "ENGL 35100": 3.0,
+    "ENGL 24100": 3.0,
+    "ENGL 35000": 3.0,
+    "ENGL 37401": 3.0,
+    "ENGL 37800": 3.0,
+    "ENGL 44200": 3.0,
+    "ENGL 23200": 3.0,
+    "ENGL 25700": 3.0,
+    "ENGL 35200": 3.0,
+    "ENGL 35400": 3.0,
+    "ENGL 35800": 3.0,
+    "ENGL 35900": 3.0,
+    "ENGL 36000": 3.0,
+    "ENGL 36600": 3.0,
+    "ENGL 41100": 3.0,
+    "ENGL 41200": 3.0,
+    "ENGL 41300": 3.0,
+    "ENGL 41400": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Area A - Gateway Course",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "ENGL 20200"
+          ]
+        },
+        {
+          "name": "English Literature Concentration",
+          "credit_target": 30.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Area B - Required Concentration Courses",
+              "credit_target": 6.0,
+              "kind": "all_of",
+              "courses": [
+                "ENGL 30100",
+                "ENGL 39900"
+              ]
+            },
+            {
+              "name": "Area C - The Literary Canon",
+              "credit_target": 12.0,
+              "kind": "choose",
+              "options": [
+                {
+                  "kind": "one_of",
+                  "name": "ENGL 24000 / ENGL 35100",
+                  "courses": [
+                    "ENGL 24000",
+                    "ENGL 35100"
+                  ]
+                },
+                {
+                  "kind": "one_of",
+                  "name": "ENGL 24100 / ENGL 35000",
+                  "courses": [
+                    "ENGL 24100",
+                    "ENGL 35000"
+                  ]
+                },
+                "ENGL 37401",
+                "ENGL 37800",
+                "ENGL 44200",
+                "ENGL 23200",
+                "ENGL 25700",
+                "ENGL 35200",
+                "ENGL 35400",
+                "ENGL 35800",
+                "ENGL 35900",
+                "ENGL 36000",
+                "ENGL 36600"
+              ],
+              "choose_credits": 12.0
+            },
+            {
+              "name": "Area D - Senior Capstone Seminar",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "ENGL 41100",
+                "ENGL 41200",
+                "ENGL 41300",
+                "ENGL 41400"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Area E - English Selectives",
+              "credit_target": 9.0,
+              "kind": "credits",
+              "credits": 9.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Elective",
+      "credit_target": [
+        11.0,
+        52.0
+      ],
+      "kind": "credits",
+      "credits": 11.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "ENGL 20200",
+          "title": "Introduction To Literary Study (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 1 of 6)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area C",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, and Society (CLA Core I: 2 of 6)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ENGL 30100",
+          "title": "Introduction To Literary Theory",
+          "credits": 3.0
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "World Language Level IV (fulfills CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ENGL 39900",
+          "title": "Career Pathways For English Majors",
+          "credits": 3.0
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": []
+    }
+  ],
+  "referenced_courses": [
+    "ENGL 20200",
+    "ENGL 23200",
+    "ENGL 24000",
+    "ENGL 24100",
+    "ENGL 25700",
+    "ENGL 30100",
+    "ENGL 35000",
+    "ENGL 35100",
+    "ENGL 35200",
+    "ENGL 35400",
+    "ENGL 35800",
+    "ENGL 35900",
+    "ENGL 36000",
+    "ENGL 36600",
+    "ENGL 37401",
+    "ENGL 37800",
+    "ENGL 39600",
+    "ENGL 39900",
+    "ENGL 41100",
+    "ENGL 41200",
+    "ENGL 41300",
+    "ENGL 41400",
+    "ENGL 44200",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

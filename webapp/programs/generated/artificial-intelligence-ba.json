@@ -1,0 +1,557 @@
+{
+  "id": "artificial-intelligence-ba",
+  "poid": "35726",
+  "name": "Artificial Intelligence, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35726",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.331617+00:00",
+  "course_credits": {
+    "PHIL 25601": 3.0,
+    "PHIL 30000": 3.0,
+    "PHIL 31400": 3.0,
+    "PHIL 32300": 4.0,
+    "PHIL 41400": 3.0,
+    "CS 17600": 3.0,
+    "CS 18000": 4.0,
+    "CS 18200": 3.0,
+    "CS 24300": 3.0,
+    "CS 36100": 3.0,
+    "MA 16010": 3.0,
+    "MA 16020": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "PHIL 20700": 3.0,
+    "PHIL 20800": 3.0,
+    "PHIL 30100": 3.0,
+    "PHIL 30200": 3.0,
+    "PHIL 30300": 3.0,
+    "PHIL 30400": 3.0,
+    "PHIL 30600": 3.0,
+    "PHIL 31000": 3.0,
+    "PHIL 22100": 3.0,
+    "PHIL 32200": 3.0,
+    "PHIL 35000": 3.0,
+    "PHIL 42100": 3.0,
+    "PHIL 55300": 3.0,
+    "AD 22000": 3.0,
+    "AD 26700": 3.0,
+    "AD 32600": 3.0,
+    "ANTH 21000": 3.0,
+    "COM 25100": 3.0,
+    "COM 41500": 3.0,
+    "ENGL 22300": 3.0,
+    "ENGL 32001": 3.0,
+    "ENGL 42100": 3.0,
+    "ENGL 42400": 3.0,
+    "HIST 28400": 3.0,
+    "HIST 30701": 3.0,
+    "HIST 30705": 3.0,
+    "HIST 38506": 3.0,
+    "POL 22800": 3.0,
+    "POL 25801": 3.0,
+    "SOC 34400": 3.0,
+    "SOC 38100": 3.0,
+    "PHIL 41500": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Area A: Required Courses",
+          "credit_target": 16.0,
+          "kind": "all_of",
+          "courses": [
+            "PHIL 25601",
+            "PHIL 30000",
+            "PHIL 31400",
+            "PHIL 32300",
+            "PHIL 41400"
+          ]
+        },
+        {
+          "name": "Area B: Required Computer Science Courses",
+          "credit_target": [
+            20.0,
+            22.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "CS 17600",
+            "CS 18000",
+            "CS 18200",
+            "CS 24300",
+            "CS 36100",
+            "MA 16010",
+            "MA 16020",
+            "MA 16100",
+            "MA 16500"
+          ]
+        },
+        {
+          "name": "Note for Areas C & D",
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Ethics/ Value Theory",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "PHIL 20700",
+                "PHIL 20800"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "History of Philosophy",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "PHIL 30100",
+                "PHIL 30200",
+                "PHIL 30300",
+                "PHIL 30400",
+                "PHIL 30600",
+                "PHIL 31000"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Philosophy of Science, Tech, and Mathematics",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "PHIL 22100",
+                "PHIL 32200",
+                "PHIL 35000",
+                "PHIL 42100",
+                "PHIL 55300"
+              ],
+              "choose_credits": 3.0
+            }
+          ]
+        },
+        {
+          "name": "Area D: Breadth Requirement",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "AD 22000",
+            "AD 26700",
+            "AD 32600",
+            "ANTH 21000",
+            "COM 25100",
+            "COM 41500",
+            "ENGL 22300",
+            "ENGL 32001",
+            "ENGL 42100",
+            "ENGL 42400",
+            "HIST 28400",
+            "HIST 30701",
+            "HIST 30705",
+            "HIST 38506",
+            "POL 22800",
+            "POL 25801",
+            "SOC 34400",
+            "SOC 38100"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Area E: Research Requirement",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "PHIL 41500"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "PHIL 25601",
+          "title": "Philosophy And Artificial Intelligence",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16100",
+              "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 5.0
+            },
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "CS 18000",
+          "title": "Problem Solving And Object-Oriented Programming",
+          "credits": 4.0
+        },
+        {
+          "code": "MA 16020",
+          "title": "Applied Calculus II (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL 30300",
+          "title": "History Of Modern Philosophy (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CS 18200",
+          "title": "Foundations Of Computer Science",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL 30000",
+          "title": "Philosophy Of AI: Foundations And Theoretical Issues",
+          "credits": 3.0
+        },
+        {
+          "label": "Area C",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "18-19 Credits",
+      "items": [
+        {
+          "code": "CS 17600",
+          "title": "Data Engineering In Python",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL 31400",
+          "title": "Philosophy Of Artificial Intelligence: Ethical, Social, And Political Issues",
+          "credits": 3.0
+        },
+        {
+          "label": "Area C",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV (CLA Core III; CLA Core I: 3 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "12-17 Credits",
+      "items": [
+        {
+          "code": "CS 24300",
+          "title": "Artificial Intelligence Basics",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL 32300",
+          "title": "Philosophy And Programming: Thinking With Code",
+          "credits": 4.0
+        },
+        {
+          "code": "PHIL 41500",
+          "title": "Philosophy Practicum",
+          "credits": 1.0
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "12-17 Credits",
+      "items": [
+        {
+          "code": "CS 36100",
+          "title": "Great Issues In Computer Science",
+          "credits": 3.0
+        },
+        {
+          "label": "Area D: Breadth Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "code": "PHIL 41400",
+          "title": "Advanced Topics In Philosophy Of Artificial Intelligence",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "17-19 Credits",
+      "items": [
+        {
+          "label": "CLA Core II",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 22000",
+    "AD 26700",
+    "AD 32600",
+    "ANTH 21000",
+    "COM 25100",
+    "COM 41500",
+    "CS 17600",
+    "CS 18000",
+    "CS 18200",
+    "CS 24300",
+    "CS 36100",
+    "ENGL 22300",
+    "ENGL 32001",
+    "ENGL 42100",
+    "ENGL 42400",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 28400",
+    "HIST 30701",
+    "HIST 30705",
+    "HIST 38506",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16500",
+    "PHIL 15000",
+    "PHIL 20700",
+    "PHIL 20800",
+    "PHIL 22100",
+    "PHIL 25601",
+    "PHIL 30000",
+    "PHIL 30100",
+    "PHIL 30200",
+    "PHIL 30300",
+    "PHIL 30400",
+    "PHIL 30600",
+    "PHIL 31000",
+    "PHIL 31400",
+    "PHIL 32200",
+    "PHIL 32300",
+    "PHIL 35000",
+    "PHIL 41400",
+    "PHIL 41500",
+    "PHIL 42100",
+    "PHIL 55300",
+    "POL 22800",
+    "POL 25801",
+    "SOC 34400",
+    "SOC 38100"
+  ]
+}

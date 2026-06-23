@@ -1,0 +1,568 @@
+{
+  "id": "nuclear-engineering-bsne",
+  "poid": "34770",
+  "name": "Nuclear Engineering, BSNE",
+  "degree": "BSNE",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 125,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34770",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.502958+00:00",
+  "course_credits": {
+    "NUCL 20000": 3.0,
+    "NUCL 20500": 2.0,
+    "NUCL 27300": 3.0,
+    "NUCL 29800": 0.0,
+    "NUCL 30000": 3.0,
+    "NUCL 30500": 2.0,
+    "NUCL 31000": 3.0,
+    "NUCL 32000": 3.0,
+    "NUCL 32500": 3.0,
+    "NUCL 35000": 3.0,
+    "NUCL 35100": 3.0,
+    "NUCL 35500": 3.0,
+    "NUCL 39800": 0.0,
+    "NUCL 40200": 3.0,
+    "NUCL 41000": 3.0,
+    "NUCL 44900": 1.0,
+    "NUCL 45000": 3.0,
+    "NUCL 49800": 0.0,
+    "NUCL 42001": 3.0,
+    "NUCL 46000": 3.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "EPCS 11100": 1.0,
+    "EPCS 12100": 1.0,
+    "ENGR 13300": 2.0,
+    "VIP 17911": 1.0,
+    "VIP 17912": 1.0,
+    "ENGR 16100": 4.0,
+    "ENGR 16200": 4.0,
+    "ENGR 13000": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CS 15900": 3.0,
+    "ME 20000": 3.0,
+    "ME 27000": 3.0,
+    "ME 27400": 3.0,
+    "ECE 20001": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "MA 26100": 4.0,
+    "MA 26500": 3.0,
+    "MA 26600": 3.0,
+    "PHYS 17200": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 27200": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Nuclear Engineering Major Courses",
+      "credit_target": 56.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Nuclear Engineering Required Major Courses",
+          "credit_target": 44.0,
+          "kind": "all_of",
+          "courses": [
+            "NUCL 20000",
+            "NUCL 20500",
+            "NUCL 27300",
+            "NUCL 29800",
+            "NUCL 30000",
+            "NUCL 30500",
+            "NUCL 31000",
+            "NUCL 32000",
+            "NUCL 32500",
+            "NUCL 35000",
+            "NUCL 35100",
+            "NUCL 35500",
+            "NUCL 39800",
+            "NUCL 40200",
+            "NUCL 41000",
+            "NUCL 44900",
+            "NUCL 45000",
+            "NUCL 49800"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "NUCL 42001 / NUCL 46000",
+              "courses": [
+                "NUCL 42001",
+                "NUCL 46000"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Technical Selectives",
+          "credit_target": 12.0,
+          "kind": "credits",
+          "credits": 12.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Other Departmental Requirements",
+          "credit_target": [
+            51.0,
+            54.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ENGR 13100",
+            "ENGR 13200",
+            "EPCS 11100",
+            "EPCS 12100",
+            "ENGR 13300",
+            "VIP 17911",
+            "VIP 17912",
+            "ENGR 16100",
+            "ENGR 16200",
+            "ENGR 13000",
+            "CHM 11510",
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            "CS 15900",
+            "ME 20000",
+            "ME 27000",
+            "ME 27400",
+            "ECE 20001",
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            },
+            "MA 26100",
+            "MA 26500",
+            "MA 26600",
+            "PHYS 17200",
+            {
+              "kind": "one_of",
+              "name": "PHYS 24100 / PHYS 27200",
+              "courses": [
+                "PHYS 24100",
+                "PHYS 27200"
+              ]
+            }
+          ],
+          "choose_credits": 51.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering I",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering II",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Physics I",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "code": "CS 15900",
+          "title": "C Programming",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "ME 20000",
+          "title": "Thermodynamics I",
+          "credits": 3.0
+        },
+        {
+          "code": "ME 27000",
+          "title": "Basic Mechanics I",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 20000",
+          "title": "Introduction to Nuclear Engineering",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 29800",
+          "title": "Sophomore Seminar",
+          "credits": 0.0
+        },
+        {
+          "label": "General Education I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17-18 Credits",
+      "items": [
+        {
+          "code": "MA 26600",
+          "title": "Ordinary Differential Equations (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "ME 27400",
+          "title": "Basic Mechanics II",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 20500",
+          "title": "Nuclear Engineering Undergraduate Laboratory I",
+          "credits": 2.0
+        },
+        {
+          "code": "NUCL 27300",
+          "title": "Mechanics Of Materials",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 29800",
+          "title": "Sophomore Seminar",
+          "credits": 0.0
+        },
+        {
+          "label": "General Education II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "PHYS 24100",
+          "title": "Electricity And Optics (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHYS 27200",
+              "title": "Electric And Magnetic Interactions (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "MA 26500",
+          "title": "Linear Algebra (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 30000",
+          "title": "Nuclear Structure And Radiation Interactions",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 32000",
+          "title": "Introduction To Materials For Nuclear Applications",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 32500",
+          "title": "Nuclear Materials Laboratory",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 35000",
+          "title": "Nuclear Thermal-Hydraulics I",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 39800",
+          "title": "Junior Seminar",
+          "credits": 0.0
+        },
+        {
+          "label": "General Education III",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECE 20001",
+          "title": "Electrical Engineering Fundamentals I",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 31000",
+          "title": "Introduction To Neutron Physics",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 35100",
+          "title": "Nuclear Thermal-Hydraulics II",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 35500",
+          "title": "Nuclear Thermohydraulics Laboratory",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 39800",
+          "title": "Junior Seminar",
+          "credits": 0.0
+        },
+        {
+          "label": "MA Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "NUCL 30500",
+          "title": "Nuclear Engineering Undergraduate Laboratory II",
+          "credits": 2.0
+        },
+        {
+          "code": "NUCL 40200",
+          "title": "Engineering Of Nuclear Power Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 41000",
+          "title": "Introduction To Reactor Theory And Applications",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 44900",
+          "title": "Senior Design Proposal",
+          "credits": 1.0
+        },
+        {
+          "code": "NUCL 49800",
+          "title": "Senior Seminar",
+          "credits": 0.0
+        },
+        {
+          "label": "Technical Selective I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Nuclear Technical Selective",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "NUCL 42001",
+          "title": "Radiation Interaction With Materials And Applications",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "NUCL 46000",
+              "title": "Introduction To Controlled Thermonuclear Fusion",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "NUCL 45000",
+          "title": "Design In Nuclear Engineering",
+          "credits": 3.0
+        },
+        {
+          "label": "Technical Selective II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "NUCL 49800",
+          "title": "Senior Seminar",
+          "credits": 0.0
+        },
+        {
+          "label": "General Education IV",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CS 15900",
+    "ECE 20001",
+    "ENGR 13000",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 13300",
+    "ENGR 16100",
+    "ENGR 16200",
+    "EPCS 11100",
+    "EPCS 12100",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26500",
+    "MA 26600",
+    "ME 20000",
+    "ME 27000",
+    "ME 27400",
+    "NUCL 20000",
+    "NUCL 20500",
+    "NUCL 27300",
+    "NUCL 29800",
+    "NUCL 30000",
+    "NUCL 30500",
+    "NUCL 31000",
+    "NUCL 32000",
+    "NUCL 32500",
+    "NUCL 35000",
+    "NUCL 35100",
+    "NUCL 35500",
+    "NUCL 39800",
+    "NUCL 40200",
+    "NUCL 41000",
+    "NUCL 42001",
+    "NUCL 44900",
+    "NUCL 45000",
+    "NUCL 46000",
+    "NUCL 49800",
+    "PHYS 17200",
+    "PHYS 24100",
+    "PHYS 27200",
+    "VIP 17911",
+    "VIP 17912"
+  ]
+}

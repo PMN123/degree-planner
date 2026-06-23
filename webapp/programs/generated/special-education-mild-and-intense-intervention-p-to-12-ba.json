@@ -1,0 +1,430 @@
+{
+  "id": "special-education-mild-and-intense-intervention-p-to-12-ba",
+  "poid": "35902",
+  "name": "Special Education Mild and Intense Intervention P to 12, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35902",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.844472+00:00",
+  "course_credits": {
+    "EDCI 20500": 2.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 33300": 3.0,
+    "EDCI 36101": 2.0,
+    "EDCI 36401": 2.0,
+    "EDCI 36501": 2.0,
+    "EDCI 37001": 2.0,
+    "EDPS 21100": 3.0,
+    "EDPS 21200": 3.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26500": 3.0,
+    "EDPS 30400": 3.0,
+    "EDPS 30501": 2.0,
+    "EDPS 30900": 3.0,
+    "EDPS 31001": 3.0,
+    "EDPS 31100": 3.0,
+    "EDPS 31200": 3.0,
+    "EDPS 32600": 3.0,
+    "EDPS 32700": 1.0,
+    "EDPS 33500": 2.0,
+    "EDPS 36201": 0.0,
+    "EDPS 36300": 3.0,
+    "EDPS 40200": 2.0,
+    "EDPS 40300": 3.0,
+    "EDPS 42100": 3.0,
+    "EDPS 45900": 3.0,
+    "EDPS 46100": 1.0,
+    "EDPS 46300": 3.0,
+    "EDPS 49800": 1.0,
+    "EDST 20010": 1.0,
+    "EDPS 43000": 2.0,
+    "EDPS 43010": 1.0,
+    "HDFS 21000": 3.0,
+    "HDFS 31100": 3.0,
+    "MA 13700": 3.0,
+    "MA 13800": 3.0,
+    "EDCI 22200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Requirements",
+      "credit_target": 97.0,
+      "kind": "all_of",
+      "courses": [
+        "EDCI 20500",
+        "EDCI 27000",
+        "EDCI 28550",
+        "EDCI 33300",
+        "EDCI 36101",
+        "EDCI 36401",
+        "EDCI 36501",
+        "EDCI 37001",
+        "EDPS 21100",
+        "EDPS 21200",
+        "EDPS 23500",
+        "EDPS 24001",
+        "EDPS 26500",
+        "EDPS 30400",
+        "EDPS 30501",
+        "EDPS 30900",
+        "EDPS 31001",
+        "EDPS 31100",
+        "EDPS 31200",
+        "EDPS 32600",
+        "EDPS 32700",
+        "EDPS 33500",
+        "EDPS 36201",
+        "EDPS 36300",
+        "EDPS 40200",
+        "EDPS 40300",
+        "EDPS 42100",
+        "EDPS 45900",
+        "EDPS 46100",
+        "EDPS 46300",
+        "EDPS 49800",
+        "EDST 20010"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "EDPS 43000 / EDPS 43010",
+          "courses": [
+            "EDPS 43000",
+            "EDPS 43010"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 21100",
+          "title": "Special Education Law, Policy, And Ethical Guidelines",
+          "credits": 3.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 13700",
+          "title": "Mathematics For Elementary Teachers I",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 21200",
+          "title": "Collaboration And Family Engagement To Support Students With Disabilities",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 32600",
+          "title": "Health, Wellness, And Adaptive Physical Education",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 21000",
+          "title": "Introduction To Human Development (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 13800",
+          "title": "Mathematics For Elementary Teachers II (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EDCI 22200",
+              "title": "Knowing The World Through Mathematics (UCC: QR)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 26500",
+          "title": "The Inclusive Classroom",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 33500",
+          "title": "Reading Instruction For Tier 1 And Tier 2",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "code": "EDPS 45900",
+          "title": "Assistive Technology (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 30900",
+          "title": "Systematic And Explicit Instruction",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 31100",
+          "title": "Child Development",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "EDCI 36101",
+          "title": "Teaching Social Studies In K-2",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 36401",
+          "title": "Teaching Mathematics In K-2",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 36501",
+          "title": "Teaching Science Through Design In Grades K-2",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 30400",
+          "title": "Assessment And Transition (Data-Based Decision-Making)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 30501",
+          "title": "Special Education Seminar: Perspectives On Disabilities",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 31001",
+          "title": "Characteristics Of Individuals With Disability Who Require Intense Intervention",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 40200",
+          "title": "P-12 Reading Methods For Exceptional Learners",
+          "credits": 2.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "EDCI 33300",
+          "title": "Reading In Our World: Disciplinary Literacy Development In The Content Areas",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 30501",
+          "title": "Special Education Seminar: Perspectives On Disabilities",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 31100",
+          "title": "Supporting Exceptional Learners: Foundations And Mathematics",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 31200",
+          "title": "Inclusive Practices In Cross-Content Curriculum",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 36300",
+          "title": "Psychoeducational, Medical, And Physical Aspects Of Individuals With Disabilities",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 40300",
+          "title": "Individual Social, Emotional, Behavioral Supports",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "EDPS 42100",
+          "title": "Supporting Exceptional Learners: Social Studies And Science",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 46100",
+          "title": "Practicum In Strategies For Teaching Individuals With Disabilities",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 46300",
+          "title": "Teaching Individuals With Severe Disabilities",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 43000",
+          "title": "Creating And Managing Learning Environments",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "EDPS 43010",
+              "title": "Secondary Creating And Managing Learning Environments",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDPS 49800",
+          "title": "Supervised Teaching- Special Education (UCC: OC)",
+          "credits": 1.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "EDCI 20500",
+    "EDCI 22200",
+    "EDCI 27000",
+    "EDCI 28550",
+    "EDCI 33300",
+    "EDCI 36101",
+    "EDCI 36401",
+    "EDCI 36501",
+    "EDCI 37001",
+    "EDPS 21100",
+    "EDPS 21200",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26500",
+    "EDPS 30400",
+    "EDPS 30501",
+    "EDPS 30900",
+    "EDPS 31001",
+    "EDPS 31100",
+    "EDPS 31200",
+    "EDPS 32600",
+    "EDPS 32700",
+    "EDPS 33500",
+    "EDPS 36201",
+    "EDPS 36300",
+    "EDPS 40200",
+    "EDPS 40300",
+    "EDPS 42100",
+    "EDPS 43000",
+    "EDPS 43010",
+    "EDPS 45900",
+    "EDPS 46100",
+    "EDPS 46300",
+    "EDPS 49800",
+    "EDST 20010",
+    "HDFS 21000",
+    "HDFS 31100",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 13700",
+    "MA 13800"
+  ]
+}

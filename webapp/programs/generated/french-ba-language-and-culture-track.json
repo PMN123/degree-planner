@@ -1,0 +1,515 @@
+{
+  "id": "french-ba-language-and-culture-track",
+  "poid": "34890",
+  "name": "French, BA (Language & Culture Track)",
+  "degree": "BA (Language & Culture Track)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34890",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.942984+00:00",
+  "course_credits": {
+    "FR 10100": 3.0,
+    "FR 10200": 3.0,
+    "FR 20100": 3.0,
+    "FR 20200": 3.0,
+    "FR 30100": 3.0,
+    "FR 30200": 3.0,
+    "FR 24100": 3.0,
+    "FR 40100": 3.0,
+    "FR 40200": 3.0,
+    "FR 39600": 3.0,
+    "FR 56100": 3.0,
+    "FR 56200": 3.0,
+    "FR 32400": 3.0,
+    "FR 38000": 3.0,
+    "FR 42400": 3.0,
+    "FR 48000": 3.0,
+    "FR 58100": 3.0,
+    "FR 28000": 3.0,
+    "FR 33000": 3.0,
+    "FR 34100": 3.0,
+    "FR 34200": 3.0,
+    "FR 39400": 3.0,
+    "FR 44300": 3.0,
+    "FR 49100": 1.0,
+    "FR 52700": 3.0,
+    "FR 54100": 3.0,
+    "FR 54900": 3.0,
+    "FR 55800": 3.0,
+    "FR 56300": 3.0,
+    "FR 56400": 3.0,
+    "FR 58200": 3.0,
+    "FR 59400": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Pre-Requisite Courses",
+          "kind": "all_of",
+          "courses": [
+            "FR 10100",
+            "FR 10200",
+            "FR 20100",
+            "FR 20200"
+          ]
+        },
+        {
+          "name": "French Major",
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Area A - French Language Courses",
+              "credit_target": 6.0,
+              "kind": "all_of",
+              "courses": [
+                "FR 30100",
+                "FR 30200"
+              ]
+            },
+            {
+              "name": "Area B - French Literature Course",
+              "credit_target": 3.0,
+              "kind": "all_of",
+              "courses": [
+                "FR 24100"
+              ]
+            },
+            {
+              "name": "Language & Culture Track",
+              "kind": "all_of",
+              "courses": [
+                "FR 40100",
+                "FR 40200",
+                "FR 39600",
+                "FR 56100",
+                "FR 56200",
+                "FR 32400",
+                "FR 38000",
+                "FR 42400",
+                "FR 48000",
+                "FR 58100",
+                "FR 28000",
+                "FR 32400",
+                "FR 33000",
+                "FR 34100",
+                "FR 34200",
+                "FR 38000",
+                "FR 39400",
+                "FR 39600",
+                "FR 42400",
+                "FR 44300",
+                "FR 48000",
+                "FR 49100",
+                "FR 52700",
+                "FR 54100",
+                "FR 54900",
+                "FR 55800",
+                "FR 56100",
+                "FR 56200",
+                "FR 56300",
+                "FR 56400",
+                "FR 58100",
+                "FR 58200",
+                "FR 59400"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        11.0,
+        52.0
+      ],
+      "kind": "credits",
+      "credits": 11.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "FR 10100",
+          "title": "French Level I (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (CLA Core I: 1 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 2 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "FR 10200",
+          "title": "French Level II (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (CLA Core I: 3 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "FR 20100",
+          "title": "French Level III (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "12-18 Credits",
+      "items": [
+        {
+          "code": "FR 20200",
+          "title": "French Level IV (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science, Technology, and Society",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "FR 30100",
+          "title": "French Level V (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "FR 39600",
+          "title": "Special Topics In French Language Science",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "FR 56100",
+              "title": "The Structure Of French I: Phonetics And Phonology",
+              "credits": 3.0
+            },
+            {
+              "code": "FR 56200",
+              "title": "The Structure Of French II: Syntax And Morphosyntax",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "FR 30200",
+          "title": "French Level VI (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "FR 24100",
+          "title": "Introduction To The Study Of French Literature",
+          "credits": 3.0
+        },
+        {
+          "label": "Area F: French Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "FR 40100",
+          "title": "French Level VII (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Area F: French Elective (40000 level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "FR 32400",
+          "title": "Professional French II",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "FR 38000",
+              "title": "Special Topics In French Culture And Civilization",
+              "credits": 3.0
+            },
+            {
+              "code": "FR 42400",
+              "title": "Professional French III",
+              "credits": 3.0
+            },
+            {
+              "code": "FR 48000",
+              "title": "French Civilization",
+              "credits": 3.0
+            },
+            {
+              "code": "FR 58100",
+              "title": "French Culture",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Area F: French Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area F: French Elective (40000 level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "FR 10100",
+    "FR 10200",
+    "FR 20100",
+    "FR 20200",
+    "FR 24100",
+    "FR 28000",
+    "FR 30100",
+    "FR 30200",
+    "FR 32400",
+    "FR 33000",
+    "FR 34100",
+    "FR 34200",
+    "FR 38000",
+    "FR 39400",
+    "FR 39600",
+    "FR 40100",
+    "FR 40200",
+    "FR 42400",
+    "FR 44300",
+    "FR 48000",
+    "FR 49100",
+    "FR 52700",
+    "FR 54100",
+    "FR 54900",
+    "FR 55800",
+    "FR 56100",
+    "FR 56200",
+    "FR 56300",
+    "FR 56400",
+    "FR 58100",
+    "FR 58200",
+    "FR 59400",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

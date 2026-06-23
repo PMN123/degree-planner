@@ -1,0 +1,544 @@
+{
+  "id": "theatre-ba",
+  "poid": "34914",
+  "name": "Theatre, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34914",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.787281+00:00",
+  "course_credits": {
+    "THTR 13300": 3.0,
+    "THTR 16500": 3.0,
+    "THTR 20100": 3.0,
+    "THTR 27100": 3.0,
+    "THTR 38100": 3.0,
+    "THTR 44000": 3.0,
+    "THTR 16001": 1.0,
+    "THTR 16101": 1.0,
+    "THTR 16201": 1.0,
+    "THTR 16301": 1.0,
+    "THTR 16401": 1.0,
+    "DANC 36800": 1.0,
+    "THTR 33600": 1.0,
+    "THTR 36800": 1.0,
+    "THTR 53600": 2.0,
+    "DANC 37900": 3.0,
+    "THTR 38000": 3.0,
+    "THTR 48400": 3.0,
+    "THTR 35400": 3.0,
+    "THTR 36000": 3.0,
+    "THTR 36100": 3.0,
+    "THTR 36200": 3.0,
+    "THTR 23300": 3.0,
+    "THTR 33300": 3.0,
+    "THTR 43300": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Foundation Studies",
+          "credit_target": 22.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "1. Required Courses",
+              "credit_target": 18.0,
+              "kind": "all_of",
+              "courses": [
+                "THTR 13300",
+                "THTR 16500",
+                "THTR 20100",
+                "THTR 27100",
+                "THTR 38100",
+                "THTR 44000"
+              ]
+            },
+            {
+              "name": "2. Foundation Practicums",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "THTR 16001",
+                "THTR 16101",
+                "THTR 16201",
+                "THTR 16301",
+                "THTR 16401"
+              ],
+              "choose_credits": 3.0
+            }
+          ]
+        },
+        {
+          "name": "B. Theatre Immersions",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "DANC 36800",
+            "THTR 33600",
+            "THTR 36800",
+            "THTR 53600"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "C. Theatre and Perfomance Selectives",
+          "credit_target": 12.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "1. Studies in Theatre and Performance",
+              "kind": "all_of",
+              "courses": [
+                "DANC 37900",
+                "THTR 38000",
+                "THTR 48400"
+              ]
+            },
+            {
+              "name": "2. Design for Theatre and Performance",
+              "kind": "all_of",
+              "courses": [
+                "THTR 35400",
+                "THTR 36000",
+                "THTR 36100",
+                "THTR 36200"
+              ]
+            },
+            {
+              "name": "3. Acting for Theatre and Performance",
+              "kind": "all_of",
+              "courses": [
+                "THTR 23300",
+                "THTR 33300",
+                "THTR 43300"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D. Upper Level Electives in Theatre and Performance",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For BFA, Professional, & Education",
+      "credit_target": [
+        28.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "LA Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            20.0,
+            39.0
+          ],
+          "kind": "credits",
+          "credits": 20.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        26.0,
+        53.0
+      ],
+      "kind": "credits",
+      "credits": 26.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "18-22 Credits",
+      "items": [
+        {
+          "code": "THTR 13300",
+          "title": "Acting I",
+          "credits": 3.0
+        },
+        {
+          "code": "THTR 16500",
+          "title": "Introduction To Design And Production",
+          "credits": 3.0
+        },
+        {
+          "code": "THTR 20100",
+          "title": "Theatre Appreciation (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-16 Credits",
+      "items": [
+        {
+          "code": "THTR 16401",
+          "title": "Design And Production Lab: Management",
+          "credits": 1.0
+        },
+        {
+          "code": "THTR 27100",
+          "title": "Script Interpretation",
+          "credits": 3.0
+        },
+        {
+          "code": "DANC 36800",
+          "title": "Dance Sound Design",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "THTR 33600",
+              "title": "Rehearsal And Performance II",
+              "credits": 1.0
+            },
+            {
+              "code": "THTR 36800",
+              "title": "Theatre Production II",
+              "credits": 1.0
+            },
+            {
+              "code": "THTR 53600",
+              "title": "Advanced Problems In Acting",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "label": "Foundation Practicum course",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14-17 Credits",
+      "items": [
+        {
+          "code": "DANC 36800",
+          "title": "Dance Sound Design",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "THTR 33600",
+              "title": "Rehearsal And Performance II",
+              "credits": 1.0
+            },
+            {
+              "code": "THTR 36800",
+              "title": "Theatre Production II",
+              "credits": 1.0
+            },
+            {
+              "code": "THTR 53600",
+              "title": "Advanced Problems In Acting",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "label": "Foundation Practicum course",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "DANC 36800",
+          "title": "Dance Sound Design",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "THTR 33600",
+              "title": "Rehearsal And Performance II",
+              "credits": 1.0
+            },
+            {
+              "code": "THTR 36800",
+              "title": "Theatre Production II",
+              "credits": 1.0
+            },
+            {
+              "code": "THTR 53600",
+              "title": "Advanced Problems In Acting",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "label": "Major Requirement C: Theatre and Performance Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement C: Theatre and Performance Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14-19 Credits",
+      "items": [
+        {
+          "code": "THTR 38100",
+          "title": "Theatre And Performance Historiography",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "label": "Major Requirement C: Theatre and Performance Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement C: Theatre and Performance Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15-21 Credits",
+      "items": [
+        {
+          "label": "Major Requirement D: Upper Level Electives in Theatre and Performance",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "THTR 44000",
+          "title": "Directing: Page To Stage",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Major Requirement C: Theatre and Performance Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement D: Upper Level Electives in Theatre and Performance",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "DANC 30000",
+    "DANC 36800",
+    "DANC 37900",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "THTR 13300",
+    "THTR 16001",
+    "THTR 16101",
+    "THTR 16201",
+    "THTR 16301",
+    "THTR 16401",
+    "THTR 16500",
+    "THTR 20100",
+    "THTR 23300",
+    "THTR 27100",
+    "THTR 30000",
+    "THTR 33300",
+    "THTR 33600",
+    "THTR 35400",
+    "THTR 36000",
+    "THTR 36100",
+    "THTR 36200",
+    "THTR 36800",
+    "THTR 38000",
+    "THTR 38100",
+    "THTR 43300",
+    "THTR 44000",
+    "THTR 48400",
+    "THTR 53600"
+  ]
+}

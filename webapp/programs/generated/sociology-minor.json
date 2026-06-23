@@ -1,0 +1,43 @@
+{
+  "id": "sociology-minor",
+  "poid": "34880",
+  "name": "Sociology Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34880",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.602422+00:00",
+  "course_credits": {
+    "SOC 10000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Foundation Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "SOC 10000"
+      ]
+    },
+    {
+      "name": "B. Additional Sociology Courses",
+      "credit_target": 12.0,
+      "kind": "credits",
+      "credits": 12.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "SOC 10000",
+    "SOC 20000"
+  ]
+}

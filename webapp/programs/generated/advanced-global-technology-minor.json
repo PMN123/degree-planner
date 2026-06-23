@@ -1,0 +1,53 @@
+{
+  "id": "advanced-global-technology-minor",
+  "poid": "35365",
+  "name": "Advanced Global Technology Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 12,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35365",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.071312+00:00",
+  "course_credits": {
+    "TECH 33000": 3.0,
+    "TECH 28155": 1.0,
+    "TECH 38155": 1.0,
+    "TECH 48155": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Part 1: Global Technology Foundation",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "TECH 33000"
+      ]
+    },
+    {
+      "name": "Part 2: Approved International Experience",
+      "credit_target": [
+        3.0,
+        6.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "TECH 28155",
+        "TECH 38155",
+        "TECH 48155"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "TECH 28155",
+    "TECH 33000",
+    "TECH 38155",
+    "TECH 48155"
+  ]
+}

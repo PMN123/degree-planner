@@ -1,0 +1,156 @@
+{
+  "id": "sustainable-food-and-farming-systems-minor",
+  "poid": "35608",
+  "name": "Sustainable Food and Farming Systems Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35608",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.347283+00:00",
+  "course_credits": {
+    "AGRY 10500": 3.0,
+    "HORT 10100": 3.0,
+    "SFS 21000": 3.0,
+    "SFS 21100": 3.0,
+    "SFS 31100": 1.0,
+    "SFS 31200": 1.0,
+    "SFS 31400": 1.0,
+    "ACCT 21200": 3.0,
+    "AGEC 21700": 3.0,
+    "AGEC 25000": 3.0,
+    "AGEC 31000": 3.0,
+    "AGEC 33000": 3.0,
+    "AGEC 33100": 3.0,
+    "AGRY 37500": 3.0,
+    "ASM 10400": 3.0,
+    "ASM 20100": 3.0,
+    "BTNY 11000": 4.0,
+    "ENTM 20600": 2.0,
+    "ENTM 20700": 1.0,
+    "ENTM 31100": 3.0,
+    "FS 41100": 1.0,
+    "HORT 31800": 3.0,
+    "HORT 32100": 3.0,
+    "HORT 32200": 3.0,
+    "POL 22300": 3.0,
+    "SFS 30100": 3.0,
+    "SFS 41000": 3.0,
+    "SFS 41100": 1.0,
+    "SFS 41200": 1.0,
+    "SFS 41300": 1.0,
+    "FNR 21000": 3.0,
+    "FS 16100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "SFS 21000",
+        "SFS 21100"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "AGRY 10500 / HORT 10100",
+          "courses": [
+            "AGRY 10500",
+            "HORT 10100"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Systems Modules",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "SFS 31100",
+        "SFS 31200",
+        "SFS 31400"
+      ]
+    },
+    {
+      "name": "Selectives",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "ACCT 21200",
+        "AGEC 21700",
+        "AGEC 25000",
+        "AGEC 31000",
+        "AGEC 33000",
+        "AGEC 33100",
+        "AGRY 37500",
+        "ASM 10400",
+        "ASM 20100",
+        "BTNY 11000",
+        "ENTM 20600",
+        "ENTM 20700",
+        "ENTM 31100",
+        "FS 41100",
+        "HORT 31800",
+        "HORT 32100",
+        "HORT 32200",
+        "POL 22300",
+        "SFS 30100",
+        "SFS 41000",
+        "SFS 41100",
+        "SFS 41200",
+        "SFS 41300",
+        {
+          "kind": "one_of",
+          "name": "FNR 21000 / FS 16100",
+          "courses": [
+            "FNR 21000",
+            "FS 16100"
+          ]
+        }
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ACCT 21200",
+    "AGEC 21700",
+    "AGEC 25000",
+    "AGEC 31000",
+    "AGEC 33000",
+    "AGEC 33100",
+    "AGRY 10500",
+    "AGRY 37500",
+    "ASM 10400",
+    "ASM 20100",
+    "BTNY 11000",
+    "ENTM 20600",
+    "ENTM 20700",
+    "ENTM 31100",
+    "FNR 21000",
+    "FS 16100",
+    "FS 41100",
+    "HELP 02026",
+    "HORT 10100",
+    "HORT 31800",
+    "HORT 32100",
+    "HORT 32200",
+    "IN 47907",
+    "POL 22300",
+    "SFS 21000",
+    "SFS 21100",
+    "SFS 30100",
+    "SFS 31100",
+    "SFS 31200",
+    "SFS 31400",
+    "SFS 41000",
+    "SFS 41100",
+    "SFS 41200",
+    "SFS 41300"
+  ]
+}

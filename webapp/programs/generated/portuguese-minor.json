@@ -1,0 +1,70 @@
+{
+  "id": "portuguese-minor",
+  "poid": "34898",
+  "name": "Portuguese Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34898",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.278535+00:00",
+  "course_credits": {
+    "PTGS 20100": 3.0,
+    "PTGS 20200": 3.0,
+    "PTGS 30100": 3.0,
+    "PTGS 30200": 3.0,
+    "PTGS 33000": 3.0,
+    "PTGS 39800": 3.0,
+    "PTGS 49800": 3.0,
+    "PTGS 55100": 3.0,
+    "PTGS 55500": 3.0,
+    "PTGS 55700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Courses",
+      "credit_target": 12.0,
+      "kind": "all_of",
+      "courses": [
+        "PTGS 20100",
+        "PTGS 20200",
+        "PTGS 30100",
+        "PTGS 30200"
+      ]
+    },
+    {
+      "name": "B. Portuguese Electives",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "PTGS 33000",
+        "PTGS 39800",
+        "PTGS 49800",
+        "PTGS 55100",
+        "PTGS 55500",
+        "PTGS 55700"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "PTGS 10200",
+    "PTGS 20100",
+    "PTGS 20200",
+    "PTGS 30100",
+    "PTGS 30200",
+    "PTGS 33000",
+    "PTGS 39800",
+    "PTGS 49800",
+    "PTGS 55100",
+    "PTGS 55500",
+    "PTGS 55700"
+  ]
+}

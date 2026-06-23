@@ -1,0 +1,517 @@
+{
+  "id": "chinese-studies-ba-language-and-culture-track",
+  "poid": "35734",
+  "name": "Chinese Studies, BA (Language and Culture Track)",
+  "degree": "BA (Language and Culture Track)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35734",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.807983+00:00",
+  "course_credits": {
+    "CHNS 10100": 4.0,
+    "CHNS 10200": 4.0,
+    "CHNS 20100": 4.0,
+    "CHNS 20200": 4.0,
+    "CHNS 30100": 3.0,
+    "CHNS 30200": 3.0,
+    "CHNS 31300": 3.0,
+    "CHNS 40100": 3.0,
+    "CHNS 40200": 3.0,
+    "CHNS 28000": 3.0,
+    "CHNS 28100": 3.0,
+    "CHNS 28500": 1.0,
+    "CHNS 49000": 1.0,
+    "CHNS 24100": 3.0,
+    "CHNS 33000": 3.0,
+    "CHNS 34100": 3.0,
+    "CHNS 34200": 3.0,
+    "CHNS 59400": 1.0,
+    "LC 23500": 3.0,
+    "HIST 33900": 3.0,
+    "HIST 34000": 3.0,
+    "HIST 43900": 3.0,
+    "LC 49000": 1.0,
+    "REL 23000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 33.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Pre-requisite Language Courses",
+          "kind": "all_of",
+          "courses": [
+            "CHNS 10100",
+            "CHNS 10200",
+            "CHNS 20100",
+            "CHNS 20200"
+          ]
+        },
+        {
+          "name": "Chinese Studies Major",
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "A. Chinese Language",
+              "credit_target": 6.0,
+              "kind": "all_of",
+              "courses": [
+                "CHNS 30100",
+                "CHNS 30200"
+              ]
+            },
+            {
+              "name": "Chinese Studies Language & Culture Track",
+              "kind": "all_of",
+              "courses": [
+                "CHNS 31300",
+                "CHNS 40100",
+                "CHNS 40200",
+                "CHNS 28000",
+                "CHNS 28100",
+                "CHNS 28500",
+                "CHNS 49000",
+                "CHNS 24100",
+                "CHNS 33000",
+                "CHNS 34100",
+                "CHNS 34200",
+                "CHNS 59400",
+                "LC 23500",
+                "HIST 33900",
+                "HIST 34000",
+                "HIST 43900",
+                "LC 49000",
+                "REL 23000"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        11.0,
+        52.0
+      ],
+      "kind": "credits",
+      "credits": 11.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CHNS 10100",
+          "title": "Chinese Level I (UCC: HUM)",
+          "credits": 4.0
+        },
+        {
+          "label": "Oral Communication (CLA Core I: 1 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 2 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "CHNS 10200",
+          "title": "Chinese Level II (UCC: HUM)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHNS 28000",
+          "title": "Topics In Chinese Civilization And Culture (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHNS 28100",
+              "title": "Introduction To Chinese Food Culture",
+              "credits": 3.0
+            },
+            {
+              "code": "CHNS 28500",
+              "title": "Chinese Calligraphy",
+              "credits": 1.0
+            },
+            {
+              "code": "CHNS 49000",
+              "title": "Special Topics In Chinese Language",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "Written Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 3 of 6",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CHNS 20100",
+          "title": "Chinese Level III (UCC: HUM)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHNS 28000",
+          "title": "Topics In Chinese Civilization And Culture (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHNS 28100",
+              "title": "Introduction To Chinese Food Culture",
+              "credits": 3.0
+            },
+            {
+              "code": "CHNS 28500",
+              "title": "Chinese Calligraphy",
+              "credits": 1.0
+            },
+            {
+              "code": "CHNS 49000",
+              "title": "Special Topics In Chinese Language",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "CHNS 20200",
+          "title": "Chinese Level IV (UCC: HUM)",
+          "credits": 4.0
+        },
+        {
+          "label": "Science, Technology, and Society (CLA Core I: 4 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CHNS 30100",
+          "title": "Chinese Level V (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "HIST 33900",
+          "title": "Traditional China",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HIST 34000",
+              "title": "Modern China (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "HIST 43900",
+              "title": "Communist China",
+              "credits": 3.0
+            },
+            {
+              "code": "LC 49000",
+              "title": "Special Topics In Foreign Languages And Literatures",
+              "credits": 1.0
+            },
+            {
+              "code": "REL 23000",
+              "title": "Religions Of The East (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CHNS 30200",
+          "title": "Chinese Level VI (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Chinese Literature and Film Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CHNS 40100",
+          "title": "Chinese Level VII (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHNS 31300",
+          "title": "Reading And Writing Practice",
+          "credits": 3.0
+        },
+        {
+          "label": "Chinese Literature And Film Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "CHNS 40200",
+          "title": "Chinese Level VIII (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "HIST 33900",
+          "title": "Traditional China",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HIST 34000",
+              "title": "Modern China (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "HIST 43900",
+              "title": "Communist China",
+              "credits": 3.0
+            },
+            {
+              "code": "LC 49000",
+              "title": "Special Topics In Foreign Languages And Literatures",
+              "credits": 1.0
+            },
+            {
+              "code": "REL 23000",
+              "title": "Religions Of The East (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CHNS 00202",
+    "CHNS 10100",
+    "CHNS 10200",
+    "CHNS 20100",
+    "CHNS 20200",
+    "CHNS 24100",
+    "CHNS 28000",
+    "CHNS 28100",
+    "CHNS 28500",
+    "CHNS 30100",
+    "CHNS 30200",
+    "CHNS 31300",
+    "CHNS 33000",
+    "CHNS 34100",
+    "CHNS 34200",
+    "CHNS 40100",
+    "CHNS 40200",
+    "CHNS 49000",
+    "CHNS 59400",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 33900",
+    "HIST 34000",
+    "HIST 43900",
+    "IN 47907",
+    "LC 23500",
+    "LC 49000",
+    "REL 23000"
+  ]
+}

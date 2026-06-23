@@ -1,0 +1,669 @@
+{
+  "id": "construction-engineering-bscne",
+  "poid": "34761",
+  "name": "Construction Engineering, BSCNE",
+  "degree": "BSCNE",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 126,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34761",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.014260+00:00",
+  "course_credits": {
+    "CCE 12000": 1.0,
+    "CCE 20300": 4.0,
+    "CCE 21100": 3.0,
+    "ME 20000": 3.0,
+    "CCE 22000": 1.0,
+    "CCE 22200": 3.0,
+    "CCE 27000": 4.0,
+    "CCE 29700": 3.0,
+    "CCE 29800": 3.0,
+    "CCE 32000": 1.0,
+    "CCE 32200": 3.0,
+    "CCE 32400": 3.0,
+    "CCE 33500": 4.0,
+    "CCE 34000": 3.0,
+    "CCE 34300": 1.0,
+    "CCE 37100": 3.0,
+    "CCE 38300": 3.0,
+    "CCE 42400": 3.0,
+    "CCE 42501": 2.0,
+    "CCE 42502": 2.0,
+    "CCE 42800": 3.0,
+    "CCE 47300": 4.0,
+    "CCE 29198": 0.0,
+    "CCE 29298": 0.0,
+    "CCE 39398": 0.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "EPCS 11100": 1.0,
+    "EPCS 12100": 1.0,
+    "ENGR 13300": 2.0,
+    "VIP 17912": 1.0,
+    "VIP 17911": 1.0,
+    "ENGR 16100": 4.0,
+    "ENGR 16200": 4.0,
+    "ENGR 13000": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CM 16400": 2.0,
+    "MFET 16300": 2.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "MA 26100": 4.0,
+    "ACCT 20000": 3.0,
+    "FIN 30400": 3.0,
+    "MA 26200": 4.0,
+    "MA 26500": 3.0,
+    "MA 26600": 3.0,
+    "PHYS 17200": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 27200": 4.0,
+    "STAT 35000": 3.0,
+    "STAT 51100": 3.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 11630": 1.0,
+    "CS 15900": 3.0,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Construction Engineering Major Requirements",
+      "credit_target": 66.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Construction Engineering Required Major Courses",
+          "credit_target": 57.0,
+          "kind": "all_of",
+          "courses": [
+            "CCE 12000",
+            "CCE 20300",
+            "CCE 22000",
+            "CCE 22200",
+            "CCE 27000",
+            "CCE 29700",
+            "CCE 29800",
+            "CCE 32000",
+            "CCE 32200",
+            "CCE 32400",
+            "CCE 33500",
+            "CCE 34000",
+            "CCE 34300",
+            "CCE 37100",
+            "CCE 38300",
+            "CCE 42400",
+            "CCE 42501",
+            "CCE 42502",
+            "CCE 42800",
+            "CCE 47300",
+            "CCE 29198",
+            "CCE 29298",
+            "CCE 39398"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "CCE 21100 / ME 20000",
+              "courses": [
+                "CCE 21100",
+                "ME 20000"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Technical Selectives",
+          "credit_target": 9.0,
+          "kind": "credits",
+          "credits": 9.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Program Requirements",
+      "credit_target": [
+        60.0,
+        73.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Other Program Requirements",
+          "credit_target": [
+            45.0,
+            55.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ENGR 13100",
+            "ENGR 13200",
+            "EPCS 11100",
+            "EPCS 12100",
+            "ENGR 13300",
+            "VIP 17912",
+            "VIP 17911",
+            "ENGR 16100",
+            "ENGR 16200",
+            "ENGR 13000",
+            "CHM 11510",
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CM 16400 / MFET 16300",
+              "courses": [
+                "CM 16400",
+                "MFET 16300"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            },
+            "MA 26100",
+            "ACCT 20000",
+            "FIN 30400",
+            "MA 26200",
+            "MA 26500",
+            "MA 26600",
+            "PHYS 17200",
+            {
+              "kind": "one_of",
+              "name": "PHYS 24100 / PHYS 27200",
+              "courses": [
+                "PHYS 24100",
+                "PHYS 27200"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "STAT 35000 / STAT 51100",
+              "courses": [
+                "STAT 35000",
+                "STAT 51100"
+              ]
+            },
+            "CHM 11610",
+            {
+              "kind": "one_of",
+              "name": "CHM 11620 / CHM 11630",
+              "courses": [
+                "CHM 11620",
+                "CHM 11630"
+              ]
+            },
+            "CS 15900",
+            "BIOL 11000",
+            "BIOL 11100"
+          ],
+          "choose_credits": 45.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering I",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "17-22 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering II",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "First Year Engineering Selective Credits: 3.00-4.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Physics I",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "CCE 12000",
+          "title": "Construction Engineering Pre-Professional Development",
+          "credits": 1.0
+        }
+      ]
+    },
+    {
+      "term": "Summer 1st Year",
+      "credit_hint": "0 Credit",
+      "items": [
+        {
+          "code": "CCE 29198",
+          "title": "Experiential Learning Session I",
+          "credits": 0.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CCE 29700",
+          "title": "Basic Mechanics I (Statics)",
+          "credits": 3.0
+        },
+        {
+          "code": "CCE 20300",
+          "title": "Principles And Practice Of Geomatics",
+          "credits": 4.0
+        },
+        {
+          "code": "CCE 22000",
+          "title": "Construction Engineering Professional Development I",
+          "credits": 1.0
+        },
+        {
+          "code": "CM 16400",
+          "title": "Construction Graphics And Digital Documentation",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "MFET 16300",
+              "title": "Foundations In Geometric Modeling And Data Management",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17-19 Credits",
+      "items": [
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0
+        },
+        {
+          "code": "CCE 22200",
+          "title": "Life Cycle Engineering And Management Of Constructed Facilities",
+          "credits": 3.0
+        },
+        {
+          "code": "CCE 27000",
+          "title": "Introductory Structural Mechanics",
+          "credits": 4.0
+        },
+        {
+          "label": "General Education I (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "MA 26200",
+          "title": "Linear Algebra And Differential Equations (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "MA 26500",
+              "title": "Linear Algebra (UCC: QR)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "MA 26600",
+          "title": "Ordinary Differential Equations (UCC: QR)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Summer 2nd Year",
+      "credit_hint": "3-4 Credits",
+      "items": [
+        {
+          "code": "CCE 29298",
+          "title": "Experiential Learning Session II",
+          "credits": 0.0
+        },
+        {
+          "code": "PHYS 24100",
+          "title": "Electricity And Optics (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHYS 27200",
+              "title": "Electric And Magnetic Interactions (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CCE 29800",
+          "title": "Basic Mechanics II Dynamics",
+          "credits": 3.0
+        },
+        {
+          "code": "CCE 32200",
+          "title": "Project Control And Life Cycle Execution Of Constructed Facilities",
+          "credits": 3.0
+        },
+        {
+          "code": "CCE 32400",
+          "title": "Human Resource Management In Construction",
+          "credits": 3.0
+        },
+        {
+          "code": "CCE 33500",
+          "title": "Civil Engineering Materials",
+          "credits": 4.0
+        },
+        {
+          "code": "FIN 30400",
+          "title": "Introduction To Financial Management",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CCE 32000",
+          "title": "Construction Engineering Professional Development II",
+          "credits": 1.0
+        },
+        {
+          "code": "CCE 34000",
+          "title": "Hydraulics",
+          "credits": 3.0
+        },
+        {
+          "code": "CCE 34300",
+          "title": "Elementary Hydraulics Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "CCE 37100",
+          "title": "Structural Analysis I",
+          "credits": 3.0
+        },
+        {
+          "code": "CCE 38300",
+          "title": "Geotechnical Engineering I",
+          "credits": 3.0
+        },
+        {
+          "label": "Technical Selective I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Summer 3rd Year",
+      "credit_hint": "3-4 Credits",
+      "items": [
+        {
+          "code": "CCE 39398",
+          "title": "Experiential Learning Session III",
+          "credits": 0.0
+        },
+        {
+          "label": "General Education II (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CCE 21100",
+          "title": "Thermal And Energy Sciences",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ME 20000",
+              "title": "Thermodynamics I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CCE 47300",
+          "title": "Reinforced Concrete Design",
+          "credits": 4.0
+        },
+        {
+          "code": "CCE 42501",
+          "title": "Construction Engineering Capstone I",
+          "credits": 2.0
+        },
+        {
+          "code": "CCE 42400",
+          "title": "Temporary Structures In Construction",
+          "credits": 3.0
+        },
+        {
+          "label": "Technical Selective II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CCE 42502",
+          "title": "Construction Engineering Capstone II",
+          "credits": 2.0
+        },
+        {
+          "code": "CCE 42800",
+          "title": "Legal Aspects Of Construction Engineering",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 35000",
+          "title": "Introduction To Statistics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 51100",
+              "title": "Statistical Methods",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "General Education III (UCC: STS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective III",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "BIOL 11000",
+    "BIOL 11100",
+    "CCE 12000",
+    "CCE 20300",
+    "CCE 21100",
+    "CCE 22000",
+    "CCE 22200",
+    "CCE 27000",
+    "CCE 29198",
+    "CCE 29298",
+    "CCE 29700",
+    "CCE 29800",
+    "CCE 32000",
+    "CCE 32200",
+    "CCE 32400",
+    "CCE 33500",
+    "CCE 34000",
+    "CCE 34300",
+    "CCE 37100",
+    "CCE 38300",
+    "CCE 39398",
+    "CCE 42400",
+    "CCE 42501",
+    "CCE 42502",
+    "CCE 42800",
+    "CCE 47300",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 11630",
+    "CM 16400",
+    "CS 15900",
+    "ENGR 13000",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 13300",
+    "ENGR 16100",
+    "ENGR 16200",
+    "EPCS 11100",
+    "EPCS 12100",
+    "FIN 30400",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26200",
+    "MA 26500",
+    "MA 26600",
+    "ME 20000",
+    "MFET 16300",
+    "PHYS 17200",
+    "PHYS 24100",
+    "PHYS 27200",
+    "STAT 35000",
+    "STAT 51100",
+    "VIP 17911",
+    "VIP 17912"
+  ]
+}

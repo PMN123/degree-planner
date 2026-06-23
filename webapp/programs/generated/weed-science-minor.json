@@ -1,0 +1,71 @@
+{
+  "id": "weed-science-minor",
+  "poid": "34731",
+  "name": "Weed Science Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34731",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.826621+00:00",
+  "course_credits": {
+    "BTNY 30400": 3.0,
+    "BTNY 50400": 3.0,
+    "BTNY 50500": 3.0,
+    "BTNY 30200": 3.0,
+    "BTNY 30500": 3.0,
+    "BTNY 35000": 3.0,
+    "BTNY 49800": 1.0,
+    "HORT 30100": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "BTNY 30400"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "BTNY 50400 / BTNY 50500",
+          "courses": [
+            "BTNY 50400",
+            "BTNY 50500"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B. Selectives",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "BTNY 30200",
+        "BTNY 30500",
+        "BTNY 35000",
+        "BTNY 49800",
+        "HORT 30100"
+      ],
+      "choose_credits": 9.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "BTNY 30200",
+    "BTNY 30400",
+    "BTNY 30500",
+    "BTNY 35000",
+    "BTNY 49800",
+    "BTNY 50400",
+    "BTNY 50500",
+    "HELP 02026",
+    "HORT 30100",
+    "IN 47907"
+  ]
+}

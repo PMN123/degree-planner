@@ -1,0 +1,46 @@
+{
+  "id": "smart-manufacturing-enterprise-minor",
+  "poid": "35362",
+  "name": "Smart Manufacturing Enterprise Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35362",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.734303+00:00",
+  "course_credits": {
+    "CNIT 15501": 3.0,
+    "ECET 22400": 3.0,
+    "MFET 23000": 3.0,
+    "MFET 25000": 3.0,
+    "MFET 35000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 15.0,
+      "kind": "all_of",
+      "courses": [
+        "CNIT 15501",
+        "ECET 22400",
+        "MFET 23000",
+        "MFET 25000",
+        "MFET 35000"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CNIT 15501",
+    "ECET 22400",
+    "HELP 02026",
+    "IN 47907",
+    "MFET 23000",
+    "MFET 25000",
+    "MFET 35000"
+  ]
+}

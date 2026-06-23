@@ -1,0 +1,58 @@
+{
+  "id": "construction-engineering-minor",
+  "poid": "35153",
+  "name": "Construction Engineering Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35153",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.035067+00:00",
+  "course_credits": {
+    "CCE 22200": 3.0,
+    "CCE 32200": 3.0,
+    "CCE 29298": 0.0,
+    "CCE 32400": 3.0,
+    "CCE 42400": 3.0,
+    "CCE 42800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "CCE 22200",
+        "CCE 32200",
+        "CCE 29298"
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "CCE 32400",
+        "CCE 42400",
+        "CCE 42800"
+      ],
+      "choose_credits": 9.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CCE 22200",
+    "CCE 29298",
+    "CCE 30000",
+    "CCE 32200",
+    "CCE 32400",
+    "CCE 42400",
+    "CCE 42800",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

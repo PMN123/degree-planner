@@ -1,0 +1,546 @@
+{
+  "id": "agronomy-agronomic-business-and-marketing-concentration-bs",
+  "poid": "34712",
+  "name": "Agronomy: Agronomic Business and Marketing Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34712",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.471647+00:00",
+  "course_credits": {
+    "AGRY 25500": 3.0,
+    "AGRY 32000": 3.0,
+    "AGRY 36500": 3.0,
+    "AGRY 39800": 1.0,
+    "AGRY 49800": 1.0,
+    "AGEC 20300": 3.0,
+    "BTNY 30100": 3.0,
+    "BTNY 30400": 3.0,
+    "ENGL 42000": 3.0,
+    "ENTM 20600": 2.0,
+    "ENTM 20700": 1.0,
+    "ACCT 21200": 3.0,
+    "AGRY 12500": 3.0,
+    "AGRY 28500": 3.0,
+    "AGEC 32700": 3.0,
+    "MKTG 32300": 3.0,
+    "AGEC 31000": 3.0,
+    "AGEC 33000": 3.0,
+    "AGEC 33100": 3.0,
+    "AGEC 41100": 4.0,
+    "AGR 10100": 0.5,
+    "AGR 11300": 0.5,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "BTNY 11000": 4.0,
+    "BTNY 12000": 4.0,
+    "BTNY 12100": 4.0,
+    "CHM 11100": 3.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 11200": 3.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 11630": 1.0,
+    "CHM 25700": 4.0,
+    "STAT 30100": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "MA 16500": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        62.0,
+        63.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 11.0,
+          "kind": "all_of",
+          "courses": [
+            "AGRY 25500",
+            "AGRY 32000",
+            "AGRY 36500",
+            "AGRY 39800",
+            "AGRY 49800"
+          ]
+        },
+        {
+          "name": "Agronomic Business and Marketing Concentration",
+          "credit_target": [
+            51.0,
+            52.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Required Concentration Courses",
+              "credit_target": [
+                30.0,
+                31.0
+              ],
+              "kind": "all_of",
+              "courses": [
+                "AGEC 20300",
+                "BTNY 30100",
+                "BTNY 30400",
+                "ENGL 42000",
+                "ENTM 20600",
+                "ENTM 20700",
+                "ACCT 21200",
+                "AGEC 31000",
+                "AGEC 33000",
+                "AGEC 33100",
+                "AGEC 41100"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "AGRY 12500 / AGRY 28500",
+                  "courses": [
+                    "AGRY 12500",
+                    "AGRY 28500"
+                  ]
+                },
+                {
+                  "kind": "one_of",
+                  "name": "AGEC 32700 / MKTG 32300",
+                  "courses": [
+                    "AGEC 32700",
+                    "MKTG 32300"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Concentration Selective Courses",
+              "credit_target": 21.0,
+              "kind": "credits",
+              "credits": 21.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11300",
+          "title": "Introduction To Agronomy Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "CHM 11510",
+              "title": "General Chemistry I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BTNY 12000",
+              "title": "Principles Of Plant Biology I",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16010",
+              "title": "Applied Calculus I (UCC: QR)",
+              "credits": 3.0
+            },
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Agronomy Crops Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "AGEC 20300",
+          "title": "Introductory Microeconomics For Food And Agribusiness (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "CHM 11610",
+              "title": "General Chemistry II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11630",
+              "title": "General Chemistry II - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BTNY 11000",
+              "title": "Introduction To Plant Science (UCC: AI/SCI)",
+              "credits": 4.0
+            },
+            {
+              "code": "BTNY 12100",
+              "title": "Principles Of Plant Biology II",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Agronomy Selective (AGRY 10500:59999)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "AGRY 25500",
+          "title": "Soil Science",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 39800",
+          "title": "Agronomy Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "BTNY 30100",
+          "title": "Introductory Plant Pathology",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25700",
+          "title": "Organic Chemistry",
+          "credits": 4.0
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGRY 36500",
+          "title": "Soil Fertility",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 12500",
+          "title": "Environmental Science And Conservation (UCC: STS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGRY 28500",
+              "title": "World Crop Adaptation And Distribution (UCC: STS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Agricultural Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Ecology or Plant Ecology Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "BTNY 30400",
+          "title": "Introductory Weed Science",
+          "credits": 3.0
+        },
+        {
+          "code": "ACCT 21200",
+          "title": "Business Accounting",
+          "credits": 3.0
+        },
+        {
+          "label": "Additional Math or Science Selectives",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities or Social Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGRY 32000",
+          "title": "Genetics",
+          "credits": 3.0
+        },
+        {
+          "code": "ENTM 20600",
+          "title": "General Entomology (UCC: SCI)",
+          "credits": 2.0
+        },
+        {
+          "code": "ENTM 20700",
+          "title": "General Entomology Laboratory",
+          "credits": 1.0
+        },
+        {
+          "label": "Agricultural Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional Math or Science Selectives",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "AGRY 49800",
+          "title": "Agronomy Senior Seminar",
+          "credits": 1.0
+        },
+        {
+          "label": "Agricultural Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities or Social Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities or Social Science Selective (30000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "ENGL 42000",
+          "title": "Business Writing",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 32700",
+          "title": "Principles Of Food And Agribusiness Marketing",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MKTG 32300",
+              "title": "Principles Of Marketing",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Agricultural Economics, Consumer Science and Retailing, Horticulture, or OLS Selective",
+          "credits": 6.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 21200",
+    "AGEC 20300",
+    "AGEC 21800",
+    "AGEC 31000",
+    "AGEC 32700",
+    "AGEC 33000",
+    "AGEC 33100",
+    "AGEC 41100",
+    "AGR 10100",
+    "AGR 11300",
+    "AGRY 10500",
+    "AGRY 12500",
+    "AGRY 25500",
+    "AGRY 28500",
+    "AGRY 32000",
+    "AGRY 36500",
+    "AGRY 39800",
+    "AGRY 49800",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BTNY 11000",
+    "BTNY 12000",
+    "BTNY 12100",
+    "BTNY 30100",
+    "BTNY 30400",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 11630",
+    "CHM 25700",
+    "CSR 20000",
+    "ENGL 42000",
+    "ENTM 20600",
+    "ENTM 20700",
+    "HEA 01348",
+    "HELP 02026",
+    "HORT 10100",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "MA 16500",
+    "MKTG 32300",
+    "OLS 20000",
+    "STAT 30100"
+  ]
+}

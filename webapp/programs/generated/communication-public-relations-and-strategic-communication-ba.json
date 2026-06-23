@@ -1,0 +1,625 @@
+{
+  "id": "communication-public-relations-and-strategic-communication-ba",
+  "poid": "35569",
+  "name": "Communication: Public Relations and Strategic Communication, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35569",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.330177+00:00",
+  "course_credits": {
+    "COM 10200": 3.0,
+    "COM 20400": 3.0,
+    "COM 31800": 3.0,
+    "COM 11400": 3.0,
+    "COM 10000": 1.0,
+    "SCLA 30000": 1.0,
+    "COM 21200": 3.0,
+    "COM 31400": 3.0,
+    "COM 30400": 3.0,
+    "COM 25200": 3.0,
+    "COM 25700": 3.0,
+    "COM 31100": 3.0,
+    "COM 36100": 3.0,
+    "COM 40700": 3.0,
+    "COM 49502": 3.0,
+    "COM 35300": 3.0,
+    "COM 36200": 3.0,
+    "COM 40800": 3.0,
+    "COM 40900": 3.0,
+    "COM 47800": 3.0,
+    "COM 49000": 1.0,
+    "COM 49101": 1.0,
+    "COM 49701": 1.0,
+    "COM 25300": 3.0,
+    "COM 25600": 3.0,
+    "COM 27100": 3.0,
+    "COM 28500": 3.0,
+    "COM 33600": 3.0,
+    "COM 33701": 3.0,
+    "COM 35600": 3.0,
+    "COM 40001": 3.0,
+    "COM 40002": 3.0,
+    "COM 45600": 3.0,
+    "COM 46400": 3.0,
+    "COM 49500": 3.0,
+    "COM 49501": 3.0,
+    "COM 49503": 3.0,
+    "COM 49504": 3.0,
+    "COM 49505": 3.0,
+    "COM 49720": 3.0,
+    "COM 49730": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Communication: Departmental/Program Major Courses",
+      "credit_target": 28.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Pre-Com Requirements",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "courses": [
+            "COM 10200",
+            "COM 20400",
+            "COM 31800"
+          ]
+        },
+        {
+          "name": "B. Introductory Courses",
+          "credit_target": 7.0,
+          "kind": "all_of",
+          "courses": [
+            "COM 11400"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "COM 10000 / SCLA 30000",
+              "courses": [
+                "COM 10000",
+                "SCLA 30000"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "COM 21200 / COM 31400",
+              "courses": [
+                "COM 21200",
+                "COM 31400"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C. Research Methods",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "COM 30400"
+          ]
+        },
+        {
+          "name": "D. Communication Writing",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "COM 25200",
+            "COM 25700",
+            "COM 31100",
+            "COM 36100",
+            "COM 40700",
+            "COM 49502"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "E. Experiential Learning",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "COM 35300",
+            "COM 36200",
+            "COM 40800",
+            "COM 40900",
+            "COM 47800",
+            "COM 49000",
+            "COM 49101",
+            "COM 49701"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "F. Additional Communication Courses",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Communication: Public Relations and Strategic Communication Concentration",
+      "credit_target": 15.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Course",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "COM 25300 / COM 25600",
+              "courses": [
+                "COM 25300",
+                "COM 25600"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Selectives",
+          "credit_target": 12.0,
+          "kind": "choose",
+          "options": [
+            "COM 25300",
+            "COM 25600",
+            "COM 25700",
+            "COM 27100",
+            "COM 28500",
+            "COM 33600",
+            "COM 33701",
+            "COM 35300",
+            "COM 35600",
+            "COM 40001",
+            "COM 40002",
+            "COM 45600",
+            "COM 46400",
+            "COM 49101",
+            "COM 49500",
+            "COM 49501",
+            "COM 49502",
+            "COM 49503",
+            "COM 49504",
+            "COM 49505",
+            "COM 49720",
+            "COM 49730"
+          ],
+          "choose_credits": 12.0
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        4.0,
+        41.0
+      ],
+      "kind": "credits",
+      "credits": 4.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-17 Credits",
+      "items": [
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "COM 10000",
+          "title": "Introduction To Communication Studies",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "SCLA 30000",
+              "title": "Liberal Arts Influentials",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "12-20 Credits",
+      "items": [
+        {
+          "code": "COM 10200",
+          "title": "Introduction To Communication Theory",
+          "credits": 3.0
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-22 Credits",
+      "items": [
+        {
+          "code": "COM 20400",
+          "title": "Critical Perspectives On Communication (UCC: WC)",
+          "credits": 3.0
+        },
+        {
+          "code": "COM 31800",
+          "title": "Principles Of Persuasion",
+          "credits": 3.0
+        },
+        {
+          "label": "CLA Core II: Diversity Selective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "label": "Area F: Additional COM Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "COM 30400",
+          "title": "Quantitative Methods For Communication Research",
+          "credits": 3.0
+        },
+        {
+          "code": "COM 25200",
+          "title": "Writing For Mass Media",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "COM 25700",
+              "title": "Public Relations Techniques",
+              "credits": 3.0
+            },
+            {
+              "code": "COM 31100",
+              "title": "Copy Editing",
+              "credits": 3.0
+            },
+            {
+              "code": "COM 36100",
+              "title": "Multiplatform Journalism",
+              "credits": 3.0
+            },
+            {
+              "code": "COM 40700",
+              "title": "Social Media And News Organizations",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "COM 25300",
+          "title": "Introduction To Public Relations",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "COM 25600",
+              "title": "Introduction To Advertising",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "COM 21200",
+          "title": "Approaches To The Study Of Interpersonal Communication (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "COM 31400",
+              "title": "Advanced Presentational Speaking",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Required Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "label": "Required Concentration Course - Credits Hours: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Area E : Experiential Learning Course - Credits Hours: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "label": "Required Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Required Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "COM 10000",
+    "COM 10200",
+    "COM 11400",
+    "COM 20400",
+    "COM 21200",
+    "COM 25200",
+    "COM 25300",
+    "COM 25600",
+    "COM 25700",
+    "COM 27100",
+    "COM 28500",
+    "COM 30400",
+    "COM 31100",
+    "COM 31400",
+    "COM 31800",
+    "COM 33600",
+    "COM 33701",
+    "COM 35300",
+    "COM 35600",
+    "COM 36100",
+    "COM 36200",
+    "COM 40001",
+    "COM 40002",
+    "COM 40700",
+    "COM 40800",
+    "COM 40900",
+    "COM 45600",
+    "COM 46400",
+    "COM 47800",
+    "COM 49000",
+    "COM 49101",
+    "COM 49500",
+    "COM 49501",
+    "COM 49502",
+    "COM 49503",
+    "COM 49504",
+    "COM 49505",
+    "COM 49701",
+    "COM 49720",
+    "COM 49730",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "SCLA 30000"
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "id": "data-analytics-technologies-and-applications-bs",
+  "poid": "35672",
+  "name": "Data Analytics, Technologies, and Applications, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35672",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.168155+00:00",
+  "course_credits": {
+    "CNIT 11000": 1.0,
+    "CNIT 17600": 3.0,
+    "CNIT 18000": 3.0,
+    "CNIT 24200": 3.0,
+    "CNIT 25501": 3.0,
+    "CNIT 27000": 3.0,
+    "CNIT 28000": 3.0,
+    "CNIT 32000": 3.0,
+    "CNIT 48000": 3.0,
+    "CNIT 10500": 3.0,
+    "CNIT 15501": 3.0,
+    "CS 15900": 3.0,
+    "CS 17700": 4.0,
+    "CS 18000": 4.0,
+    "CNIT 27200": 3.0,
+    "CNIT 32200": 3.0,
+    "CNIT 37200": 3.0,
+    "CNIT 39200": 3.0,
+    "CNIT 48200": 3.0,
+    "CNIT 48300": 3.0,
+    "CNIT 48400": 3.0,
+    "TECH 12000": 3.0,
+    "PHIL 20700": 3.0,
+    "PHIL 20800": 3.0,
+    "STAT 22500": 3.0,
+    "STAT 31100": 3.0,
+    "STAT 41600": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 50100": 3.0,
+    "STAT 51100": 3.0,
+    "COM 31500": 3.0,
+    "COM 32000": 3.0,
+    "COM 32500": 3.0,
+    "COM 41500": 3.0,
+    "ENGL 30400": 3.0,
+    "ENGL 41900": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ENGL 42400": 3.0,
+    "ENGL 43300": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16020": 3.0,
+    "MA 16600": 4.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "CNIT 39000": 1.0,
+    "TDM 11100": 3.0,
+    "TDM 11200": 3.0,
+    "TDM 21100": 3.0,
+    "TDM 21200": 3.0,
+    "TDM 31100": 3.0,
+    "TDM 31200": 3.0,
+    "TDM 41100": 3.0,
+    "TDM 41200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        67.0,
+        68.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Computer and Information Technology Core Courses",
+          "credit_target": [
+            28.0,
+            29.0
+          ],
+          "kind": "choose",
+          "options": [
+            "CNIT 11000",
+            "CNIT 17600",
+            "CNIT 18000",
+            "CNIT 24200",
+            "CNIT 25501",
+            "CNIT 27000",
+            "CNIT 28000",
+            "CNIT 32000",
+            "CNIT 48000",
+            "CNIT 10500",
+            "CNIT 15501",
+            "CS 15900",
+            "CS 17700",
+            "CS 18000"
+          ],
+          "choose_credits": 28.0
+        },
+        {
+          "name": "DATA Core Courses",
+          "credit_target": 21.0,
+          "kind": "all_of",
+          "courses": [
+            "CNIT 27200",
+            "CNIT 32200",
+            "CNIT 37200",
+            "CNIT 39200",
+            "CNIT 48200",
+            "CNIT 48300",
+            "CNIT 48400"
+          ]
+        },
+        {
+          "name": "Cognate Application Focus Area",
+          "credit_target": 18.0,
+          "kind": "credits",
+          "credits": 18.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "CNIT 11000",
+          "title": "AI Fundamentals: Literacy, Applications And Responsible Use (UCC: AI)",
+          "credits": 1.0
+        },
+        {
+          "code": "CNIT 18000",
+          "title": "Introduction To Systems Development",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Calculus I Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-20 Credits",
+      "items": [
+        {
+          "code": "CNIT 17600",
+          "title": "Information Technology Architectures",
+          "credits": 3.0
+        },
+        {
+          "label": "Introductory Programming Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Calculus II Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "CNIT 24200",
+          "title": "System Administration",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 27200",
+          "title": "Database Fundamentals",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 28000",
+          "title": "Systems Analysis And Design Methods",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CNIT 25501",
+          "title": "Object-Oriented Programming Introduction",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 27000",
+          "title": "Cybersecurity Fundamentals I",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 39200",
+          "title": "Enterprise Data Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Professional Speaking Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CNIT 32200",
+          "title": "Research Methodology And Design",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 37200",
+          "title": "Database Programming",
+          "credits": 3.0
+        },
+        {
+          "label": "Cognate Application Concentration",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Probabilities Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Professional Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CNIT 32000",
+          "title": "Policy, Regulation, And Globalization In Information Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 48200",
+          "title": "Six Sigma Data Quality For Continuous Improvement",
+          "credits": 3.0
+        },
+        {
+          "label": "Cognate Application Concentration",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Accounting Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CNIT 48000",
+          "title": "Managing Information Technology Projects",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 48300",
+          "title": "Applied Machine Learning",
+          "credits": 3.0
+        },
+        {
+          "label": "Ethics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Cognate Application Concentration",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Cognate Application Concentration",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CNIT 48400",
+          "title": "Applications In Data Science",
+          "credits": 3.0
+        },
+        {
+          "label": "Cognate Application Concentration",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Cognate Application Concentration",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 21700",
+    "CNIT 10500",
+    "CNIT 11000",
+    "CNIT 15501",
+    "CNIT 17600",
+    "CNIT 18000",
+    "CNIT 24200",
+    "CNIT 25501",
+    "CNIT 27000",
+    "CNIT 27200",
+    "CNIT 28000",
+    "CNIT 32000",
+    "CNIT 32200",
+    "CNIT 37200",
+    "CNIT 39000",
+    "CNIT 39200",
+    "CNIT 48000",
+    "CNIT 48200",
+    "CNIT 48300",
+    "CNIT 48400",
+    "COM 20000",
+    "COM 31400",
+    "COM 31500",
+    "COM 32000",
+    "COM 32500",
+    "COM 41500",
+    "CS 15900",
+    "CS 17700",
+    "CS 18000",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "ENGL 30400",
+    "ENGL 41900",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGL 42400",
+    "ENGL 43300",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "PHIL 20700",
+    "PHIL 20800",
+    "STAT 22500",
+    "STAT 30100",
+    "STAT 31100",
+    "STAT 35000",
+    "STAT 41600",
+    "STAT 50100",
+    "STAT 51100",
+    "TDM 11100",
+    "TDM 11200",
+    "TDM 21100",
+    "TDM 21200",
+    "TDM 31100",
+    "TDM 31200",
+    "TDM 41100",
+    "TDM 41200",
+    "TECH 12000"
+  ]
+}

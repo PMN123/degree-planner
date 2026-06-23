@@ -1,0 +1,75 @@
+{
+  "id": "insect-biology-minor",
+  "poid": "35917",
+  "name": "Insect Biology Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35917",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.871986+00:00",
+  "course_credits": {
+    "ENTM 20600": 2.0,
+    "ENTM 20700": 1.0,
+    "ENTM 10500": 3.0,
+    "ENTM 21000": 3.0,
+    "ENTM 25300": 4.0,
+    "ENTM 31100": 3.0,
+    "ENTM 31200": 3.0,
+    "ENTM 32820": 3.0,
+    "ENTM 33500": 4.0,
+    "ENTM 35300": 3.0,
+    "ENTM 41000": 2.0,
+    "ENTM 52500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "ENTM 20600",
+        "ENTM 20700"
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": 12.0,
+      "kind": "choose",
+      "options": [
+        "ENTM 10500",
+        "ENTM 21000",
+        "ENTM 25300",
+        "ENTM 31100",
+        "ENTM 31200",
+        "ENTM 32820",
+        "ENTM 33500",
+        "ENTM 35300",
+        "ENTM 41000",
+        "ENTM 52500"
+      ],
+      "choose_credits": 12.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ENTM 10500",
+    "ENTM 20600",
+    "ENTM 20700",
+    "ENTM 21000",
+    "ENTM 25300",
+    "ENTM 31100",
+    "ENTM 31200",
+    "ENTM 32820",
+    "ENTM 33500",
+    "ENTM 35300",
+    "ENTM 41000",
+    "ENTM 52500",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

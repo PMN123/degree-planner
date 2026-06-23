@@ -1,0 +1,59 @@
+{
+  "id": "pet-food-processing-minor",
+  "poid": "34736",
+  "name": "Pet Food Processing Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 21,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34736",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.939921+00:00",
+  "course_credits": {
+    "ANSC 10600": 3.0,
+    "ANSC 32400": 3.0,
+    "ANSC 44600": 3.0,
+    "FS 16100": 3.0,
+    "FS 34100": 2.0,
+    "FS 34200": 1.0,
+    "FS 36200": 3.0,
+    "FS 44200": 2.0,
+    "FS 44700": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 21.0,
+      "kind": "all_of",
+      "courses": [
+        "ANSC 10600",
+        "ANSC 32400",
+        "ANSC 44600",
+        "FS 16100",
+        "FS 34100",
+        "FS 34200",
+        "FS 36200",
+        "FS 44200",
+        "FS 44700"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ANSC 10200",
+    "ANSC 10600",
+    "ANSC 32400",
+    "ANSC 44600",
+    "FS 16100",
+    "FS 34100",
+    "FS 34200",
+    "FS 36200",
+    "FS 44200",
+    "FS 44700",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "id": "aeronautical-engineering-technology-bs",
+  "poid": "34808",
+  "name": "Aeronautical Engineering Technology, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34808",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.276148+00:00",
+  "course_credits": {
+    "AT 10000": 1.0,
+    "AT 11600": 3.0,
+    "AT 10600": 3.0,
+    "AT 12700": 3.0,
+    "AT 20501": 3.0,
+    "AT 20700": 3.0,
+    "AT 20802": 3.0,
+    "AT 26200": 4.0,
+    "AT 26502": 3.0,
+    "AT 26700": 3.0,
+    "AT 27200": 3.0,
+    "AT 27800": 3.0,
+    "AT 30702": 3.0,
+    "AT 30802": 3.0,
+    "AT 32001": 3.0,
+    "AT 33502": 3.0,
+    "AT 36302": 4.0,
+    "AT 37200": 3.0,
+    "AT 37600": 4.0,
+    "AT 38500": 2.0,
+    "AT 40300": 1.0,
+    "AT 44502": 3.0,
+    "AT 47200": 3.0,
+    "AT 48000": 3.0,
+    "AT 47600": 3.0,
+    "AT 49200": 3.0,
+    "AT 49600": 2.0,
+    "AT 49700": 3.0,
+    "PHYS 22000": 4.0,
+    "SCLA 10100": 3.0,
+    "SCLA 10200": 3.0,
+    "TECH 12000": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "STAT 30100": 3.0,
+    "MFET 16300": 2.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 75.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 75.0,
+          "kind": "all_of",
+          "courses": [
+            "AT 10000",
+            "AT 12700",
+            "AT 20501",
+            "AT 20700",
+            "AT 20802",
+            "AT 26200",
+            "AT 26502",
+            "AT 26700",
+            "AT 27200",
+            "AT 27800",
+            "AT 30702",
+            "AT 30802",
+            "AT 32001",
+            "AT 33502",
+            "AT 36302",
+            "AT 37200",
+            "AT 37600",
+            "AT 38500",
+            "AT 40300",
+            "AT 44502",
+            "AT 47600",
+            "AT 49200",
+            "AT 49600",
+            "AT 49700"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AT 11600 / AT 10600",
+              "courses": [
+                "AT 11600",
+                "AT 10600"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AT 47200 / AT 48000",
+              "courses": [
+                "AT 47200",
+                "AT 48000"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AT 11600",
+          "title": "Aircraft Science For Engineering Technology",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AT 10600",
+              "title": "Basic Aircraft Science",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "AT 10000",
+          "title": "Introduction To Aviation Technology",
+          "credits": 1.0
+        },
+        {
+          "code": "AT 12700",
+          "title": "Publications Records And Regulations",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 27800",
+          "title": "Nondestructive Testing For Aircraft",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "SCLA 10100",
+          "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 20700",
+          "title": "Introduction To Aircraft Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 20802",
+          "title": "Aircraft Materials",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 16300",
+          "title": "Foundations In Geometric Modeling And Data Management",
+          "credits": 2.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 26502",
+          "title": "Aircraft Electrical Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 26700",
+          "title": "Fixed And Rotary Wing Assemblies",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 27200",
+          "title": "Introduction To Composite Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 30702",
+          "title": "Advanced Aircraft Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "SCLA 10200",
+          "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 26200",
+          "title": "Basic Aircraft Powerplant Technology",
+          "credits": 4.0
+        },
+        {
+          "code": "AT 33502",
+          "title": "Avionics Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 36302",
+          "title": "Fundamentals Of Powerplant Systems",
+          "credits": 4.0
+        },
+        {
+          "code": "AT 37600",
+          "title": "Aircraft Gas Turbine Engine Technology I",
+          "credits": 4.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AT 20501",
+          "title": "Statics For Aerostructures",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 37200",
+          "title": "Aircraft Maintenance Practices",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 40300",
+          "title": "Airman Certification Procedures",
+          "credits": 1.0
+        },
+        {
+          "code": "AT 47600",
+          "title": "Aircraft Gas Turbine Engine Technology II",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "AT 30802",
+          "title": "Aircraft Materials Processes",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 32001",
+          "title": "Advanced Aviation Operations",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 38500",
+          "title": "Design Support Analysis",
+          "credits": 2.0
+        },
+        {
+          "code": "AT 47200",
+          "title": "Advanced Manufacturing Lab",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AT 48000",
+              "title": "Advanced Aviation Manufacturing (Lean Six Sigma Methodologies)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "code": "AT 44502",
+          "title": "Aircraft Electronics",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 49600",
+          "title": "Applied Research Proposal",
+          "credits": 2.0
+        },
+        {
+          "label": "Global Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 49200",
+          "title": "Aircraft Airworthiness Assurance",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 49700",
+          "title": "Applied Research Project",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AT 10000",
+    "AT 10600",
+    "AT 11600",
+    "AT 12700",
+    "AT 20501",
+    "AT 20700",
+    "AT 20802",
+    "AT 26200",
+    "AT 26502",
+    "AT 26700",
+    "AT 27200",
+    "AT 27800",
+    "AT 30702",
+    "AT 30802",
+    "AT 32001",
+    "AT 33502",
+    "AT 36302",
+    "AT 37200",
+    "AT 37600",
+    "AT 38500",
+    "AT 40300",
+    "AT 44502",
+    "AT 47200",
+    "AT 47600",
+    "AT 48000",
+    "AT 49200",
+    "AT 49600",
+    "AT 49700",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "MFET 16300",
+    "PHYS 22000",
+    "SCLA 10100",
+    "SCLA 10200",
+    "STAT 30100",
+    "TECH 12000"
+  ]
+}

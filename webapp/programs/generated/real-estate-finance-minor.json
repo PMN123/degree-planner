@@ -1,0 +1,124 @@
+{
+  "id": "real-estate-finance-minor",
+  "poid": "35724",
+  "name": "Real Estate Finance Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35724",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.393653+00:00",
+  "course_credits": {
+    "REAL 37000": 3.0,
+    "REAL 43901": 3.0,
+    "REAL 43905": 3.0,
+    "REAL 37500": 3.0,
+    "REAL 43902": 3.0,
+    "ECON 36000": 3.0,
+    "ECON 38000": 3.0,
+    "FIN 41200": 3.0,
+    "ECON 45600": 3.0,
+    "FIN 41100": 3.0,
+    "FIN 41300": 3.0,
+    "FIN 41310": 3.0,
+    "FIN 41601": 3.0,
+    "REAL 43907": 3.0,
+    "OBHR 44690": 3.0,
+    "SCOM 46600": 3.0,
+    "QM 47200": 3.0,
+    "MIS 47900": 2.0,
+    "ECON 26000": 3.0,
+    "POL 22300": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Real Estate Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Additional Required Courses",
+          "credit_target": [
+            3.0,
+            6.0
+          ],
+          "kind": "choose",
+          "options": [
+            "REAL 37500",
+            "REAL 43902"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Real Estate Selective Courses",
+          "credit_target": [
+            3.0,
+            6.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ECON 36000",
+            {
+              "kind": "one_of",
+              "name": "ECON 38000 / FIN 41200",
+              "courses": [
+                "ECON 38000",
+                "FIN 41200"
+              ]
+            },
+            "ECON 45600",
+            "FIN 41100",
+            "FIN 41300",
+            "FIN 41310",
+            "FIN 41601",
+            "REAL 43907",
+            "OBHR 44690",
+            "SCOM 46600",
+            "QM 47200",
+            {
+              "kind": "one_of",
+              "name": "MIS 47900 / ECON 26000",
+              "courses": [
+                "MIS 47900",
+                "ECON 26000"
+              ]
+            },
+            "POL 22300"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "DSB 2XXXX",
+    "ECON 26000",
+    "ECON 36000",
+    "ECON 38000",
+    "ECON 45600",
+    "FIN 41100",
+    "FIN 41200",
+    "FIN 41300",
+    "FIN 41310",
+    "FIN 41601",
+    "HELP 02026",
+    "IN 47907",
+    "MIS 47900",
+    "OBHR 30000",
+    "OBHR 44690",
+    "POL 22300",
+    "QM 47200",
+    "REAL 37000",
+    "REAL 37500",
+    "REAL 43901",
+    "REAL 43902",
+    "REAL 43905",
+    "REAL 43907",
+    "SCOM 46600"
+  ]
+}

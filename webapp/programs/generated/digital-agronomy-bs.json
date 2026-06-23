@@ -1,0 +1,544 @@
+{
+  "id": "digital-agronomy-bs",
+  "poid": "35878",
+  "name": "Digital Agronomy, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35878",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.546829+00:00",
+  "course_credits": {
+    "AGRY 10500": 3.0,
+    "AGRY 12500": 3.0,
+    "AGRY 25500": 3.0,
+    "AGRY 33500": 3.0,
+    "AGRY 36500": 3.0,
+    "AGRY 37500": 3.0,
+    "HORT 31800": 3.0,
+    "AGRY 39800": 1.0,
+    "AGRY 49700": 1.0,
+    "AGRY 39900": 1.0,
+    "AGRY 42000": 3.0,
+    "ASM 42200": 3.0,
+    "AGRY 49800": 1.0,
+    "AGRY 48500": 3.0,
+    "ILS 25000": 3.0,
+    "ASM 54000": 3.0,
+    "FNR 35700": 3.0,
+    "AGRY 54500": 3.0,
+    "CCE 50800": 3.0,
+    "EAPS 50700": 3.0,
+    "EAPS 50801": 3.0,
+    "FNR 35910": 2.0,
+    "FNR 35950": 1.0,
+    "AGEC 20300": 3.0,
+    "AGR 10100": 0.5,
+    "AGR 11300": 0.5,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0,
+    "MA 16010": 3.0,
+    "STAT 30100": 3.0,
+    "BIOL 11000": 4.0,
+    "BTNY 12000": 4.0,
+    "BTNY 12100": 4.0,
+    "BIOL 11100": 4.0,
+    "BTNY 11000": 4.0,
+    "ILS 23000": 3.0,
+    "PHIL 20800": 3.0,
+    "PHYS 22000": 4.0,
+    "PHYS 23300": 4.0,
+    "PHYS 22100": 4.0,
+    "PHYS 23400": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        60.0,
+        62.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": [
+            39.0,
+            41.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "AGRY 10500",
+            "AGRY 12500",
+            "AGRY 25500",
+            "AGRY 33500",
+            "AGRY 36500",
+            "AGRY 39800",
+            "AGRY 42000",
+            "ASM 42200",
+            "AGRY 49800",
+            "AGRY 48500",
+            "FNR 35950"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AGRY 37500 / HORT 31800",
+              "courses": [
+                "AGRY 37500",
+                "HORT 31800"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AGRY 49700 / AGRY 39900",
+              "courses": [
+                "AGRY 49700",
+                "AGRY 39900"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "ILS 25000 / ASM 54000",
+              "courses": [
+                "ILS 25000",
+                "ASM 54000"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "FNR 35700 / AGRY 54500",
+              "courses": [
+                "FNR 35700",
+                "AGRY 54500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CCE 50800 / EAPS 50700 / EAPS 50801 / FNR 35910",
+              "courses": [
+                "CCE 50800",
+                "EAPS 50700",
+                "EAPS 50801",
+                "FNR 35910"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Major Selectives",
+          "credit_target": 21.0,
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11300",
+          "title": "Introduction To Agronomy Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "AGRY 10500",
+          "title": "Crop Production",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BTNY 12000",
+              "title": "Principles Of Plant Biology I",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "AGRY 12500",
+          "title": "Environmental Science And Conservation (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BTNY 11000",
+              "title": "Introduction To Plant Science (UCC: AI/SCI)",
+              "credits": 4.0
+            },
+            {
+              "code": "BTNY 12100",
+              "title": "Principles Of Plant Biology II",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "AGEC 20300",
+          "title": "Introductory Microeconomics For Food And Agribusiness (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 25500",
+          "title": "Soil Science",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 39800",
+          "title": "Agronomy Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "ILS 25000",
+          "title": "Introduction To Geographic Information Systems (UCC: IL)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ASM 54000",
+              "title": "Geographic Information System Application",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 23300",
+              "title": "Physics For Life Sciences I",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGRY 36500",
+          "title": "Soil Fertility",
+          "credits": 3.0
+        },
+        {
+          "code": "ILS 23000",
+          "title": "Data Science And Society: Ethical Legal Social Issues (UCC: AI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHIL 20800",
+              "title": "Ethics Of Data Science (UCC: STS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 22100",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 23400",
+              "title": "Physics For Life Sciences II",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Advanced Crop Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Data Management Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "AGRY 39900",
+          "title": "Individual Study",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "AGRY 49700",
+              "title": "Agronomy Internship Or Research Reporting",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "AGRY 37500",
+          "title": "Crop Production Systems",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HORT 31800",
+              "title": "Field Production Of Horticultural Crops",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Bioinformatics and Biotechnology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Advanced Soil Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AGRY 33500",
+          "title": "Weather And Climate",
+          "credits": 3.0
+        },
+        {
+          "code": "CCE 50800",
+          "title": "Geographic Information Systems",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EAPS 50700",
+              "title": "Introduction To Analysis And Computing With Geoscience Data",
+              "credits": 3.0
+            },
+            {
+              "code": "EAPS 50801",
+              "title": "Geographic Information Systems",
+              "credits": 3.0
+            },
+            {
+              "code": "FNR 35910",
+              "title": "Spatial Ecology",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "code": "FNR 35950",
+          "title": "Spatial Ecology And GIS Laboratory",
+          "credits": 1.0
+        },
+        {
+          "label": "Advanced Soil Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "College of Ag: Written or Oral Communication Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "AGRY 42000",
+          "title": "Computing For The Natural Sciences",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 48500",
+          "title": "Precision Crop Management",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 49800",
+          "title": "Agronomy Senior Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "ASM 42200",
+          "title": "Advanced Machine Technology For Agricultural Crop Production",
+          "credits": 3.0
+        },
+        {
+          "code": "FNR 35700",
+          "title": "Fundamental Remote Sensing",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGRY 54500",
+              "title": "Remote Sensing Of Land Resources",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "label": "Advanced Crop Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Data Literacy & Analytics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 20300",
+    "AGR 10100",
+    "AGR 11300",
+    "AGRY 10500",
+    "AGRY 12500",
+    "AGRY 25500",
+    "AGRY 33500",
+    "AGRY 36500",
+    "AGRY 37500",
+    "AGRY 39800",
+    "AGRY 39900",
+    "AGRY 42000",
+    "AGRY 48500",
+    "AGRY 49700",
+    "AGRY 49800",
+    "AGRY 54500",
+    "ASM 42200",
+    "ASM 54000",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BTNY 11000",
+    "BTNY 12000",
+    "BTNY 12100",
+    "CCE 50800",
+    "CHM 11100",
+    "CHM 11200",
+    "EAPS 50700",
+    "EAPS 50801",
+    "FNR 35700",
+    "FNR 35910",
+    "FNR 35950",
+    "HEA 01348",
+    "HELP 02026",
+    "HORT 31800",
+    "ILS 23000",
+    "ILS 25000",
+    "IN 47907",
+    "MA 16010",
+    "PHIL 20800",
+    "PHYS 22000",
+    "PHYS 22100",
+    "PHYS 23300",
+    "PHYS 23400",
+    "STAT 30100"
+  ]
+}

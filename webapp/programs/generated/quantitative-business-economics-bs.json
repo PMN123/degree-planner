@@ -1,0 +1,547 @@
+{
+  "id": "quantitative-business-economics-bs",
+  "poid": "35065",
+  "name": "Quantitative Business Economics, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35065",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.472726+00:00",
+  "course_credits": {
+    "ACCT 20000": 3.0,
+    "ACCT 20100": 3.0,
+    "DSB 18700": 2.0,
+    "DSB 25500": 1.0,
+    "DSB 29500": 1.0,
+    "ECON 10500": 1.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "ECON 34000": 3.0,
+    "ECON 35200": 3.0,
+    "ECON 36000": 3.0,
+    "ECON 49900": 3.0,
+    "FIN 31000": 3.0,
+    "MIS 38200": 3.0,
+    "MKTG 32400": 3.0,
+    "OBHR 33000": 3.0,
+    "SCOM 36100": 3.0,
+    "STRT 25400": 3.0,
+    "STRT 35200": 3.0,
+    "ECON 26000": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 51100": 3.0,
+    "OBHR 33500": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ECON 36100": 3.0,
+    "ECON 37000": 3.0,
+    "ECON 38000": 3.0,
+    "ECON 43200": 3.0,
+    "ECON 45100": 3.0,
+    "ECON 46100": 3.0,
+    "ECON 46600": 3.0,
+    "ECON 37300": 3.0,
+    "ECON 46300": 3.0,
+    "FIN 41310": 3.0,
+    "MIS 38800": 3.0,
+    "MKTG 42110": 3.0,
+    "QM 47200": 3.0,
+    "QM 47300": 3.0,
+    "QM 47400": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "COM 11400": 3.0,
+    "COM 21700": 3.0,
+    "EDPS 31500": 3.0,
+    "SCLA 10200": 3.0,
+    "SCLA 10100": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Department/Program Major Courses",
+      "credit_target": 83.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 56.0,
+          "kind": "all_of",
+          "courses": [
+            "ACCT 20000",
+            "ACCT 20100",
+            "DSB 18700",
+            "DSB 25500",
+            "DSB 29500",
+            "ECON 10500",
+            "ECON 25100",
+            "ECON 25200",
+            "ECON 34000",
+            "ECON 35200",
+            "ECON 36000",
+            "ECON 49900",
+            "FIN 31000",
+            "MIS 38200",
+            "MKTG 32400",
+            "OBHR 33000",
+            "SCOM 36100",
+            "STRT 25400",
+            "STRT 35200"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "ECON 26000 / STAT 35000 / STAT 51100",
+              "courses": [
+                "ECON 26000",
+                "STAT 35000",
+                "STAT 51100"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "OBHR 33500 / ENGL 42000 / ENGL 42100",
+              "courses": [
+                "OBHR 33500",
+                "ENGL 42000",
+                "ENGL 42100"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cultural Competency Selectives",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Major Selectives",
+          "credit_target": 24.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Business Economics Selectives",
+              "credit_target": 9.0,
+              "kind": "choose",
+              "options": [
+                "ECON 36100",
+                "ECON 37000",
+                "ECON 38000",
+                "ECON 43200",
+                "ECON 45100",
+                "ECON 46100",
+                "ECON 46600"
+              ],
+              "choose_credits": 9.0
+            },
+            {
+              "name": "Economic Analytics Requirement",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "ECON 37300",
+                "ECON 46300"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Analytics Selectives",
+              "credit_target": 6.0,
+              "kind": "choose",
+              "options": [
+                "FIN 41310",
+                "MIS 38800",
+                "MKTG 42110",
+                "QM 47200",
+                "QM 47300",
+                "QM 47400",
+                {
+                  "kind": "one_of",
+                  "name": "ECON 37300 / ECON 46300",
+                  "courses": [
+                    "ECON 37300",
+                    "ECON 46300"
+                  ]
+                }
+              ],
+              "choose_credits": 6.0
+            },
+            {
+              "name": "Economics Selectives",
+              "credit_target": 6.0,
+              "kind": "credits",
+              "credits": 6.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        8.0,
+        20.0
+      ],
+      "kind": "credits",
+      "credits": 8.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-20 Credits",
+      "items": [
+        {
+          "code": "ECON 25100",
+          "title": "Microeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON 26000",
+          "title": "Data Visualization And Inference",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 35000",
+              "title": "Introduction To Statistics",
+              "credits": 3.0
+            },
+            {
+              "code": "STAT 51100",
+              "title": "Statistical Methods",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Calculus Selective I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication Selective \u2666",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECON 10500",
+          "title": "Exploring Careers In Business Economics And Consulting",
+          "credits": 1.0
+        },
+        {
+          "code": "ECON 25200",
+          "title": "Macroeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0
+        },
+        {
+          "code": "DSB 25500",
+          "title": "Foundations Of Business Ethics",
+          "credits": 1.0
+        },
+        {
+          "code": "DSB 29500",
+          "title": "Business Professional Development & Career Strategies",
+          "credits": 1.0
+        },
+        {
+          "label": "Oral Communication Selective \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "DSB 18700",
+          "title": "Intro To AI For Business (UCC:AI)",
+          "credits": 2.0
+        },
+        {
+          "code": "ECON 34000",
+          "title": "Intermediate Microeconomic Theory",
+          "credits": 3.0
+        },
+        {
+          "code": "FIN 31000",
+          "title": "Financial Management",
+          "credits": 3.0
+        },
+        {
+          "code": "OBHR 33000",
+          "title": "Introduction To Organizational Behavior",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society Selective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECON 35200",
+          "title": "Intermediate Macroeconomics",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON 36000",
+          "title": "Econometrics",
+          "credits": 3.0
+        },
+        {
+          "code": "ACCT 20100",
+          "title": "Management Accounting I",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 35200",
+          "title": "Strategic Management",
+          "credits": 3.0
+        },
+        {
+          "code": "OBHR 33500",
+          "title": "Strategic Business Writing (UCC: WC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 42000",
+              "title": "Business Writing",
+              "credits": 3.0
+            },
+            {
+              "code": "ENGL 42100",
+              "title": "Technical Writing",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14-17 Credits",
+      "items": [
+        {
+          "code": "MIS 38200",
+          "title": "Management Information Systems",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Specialty Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Specialty Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 Selective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "12-15 Credits",
+      "items": [
+        {
+          "code": "STRT 25400",
+          "title": "Legal Foundations Of Business I",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "12-15 Credits",
+      "items": [
+        {
+          "code": "MKTG 32400",
+          "title": "Marketing Management",
+          "credits": 3.0
+        },
+        {
+          "code": "SCOM 36100",
+          "title": "Operations Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "ECON 49900",
+          "title": "Economics Capstone Research",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "COM 11400",
+    "COM 21700",
+    "DSB 18700",
+    "DSB 25500",
+    "DSB 29500",
+    "ECON 10500",
+    "ECON 25100",
+    "ECON 25200",
+    "ECON 26000",
+    "ECON 30000",
+    "ECON 30100",
+    "ECON 34000",
+    "ECON 35200",
+    "ECON 36000",
+    "ECON 36100",
+    "ECON 37000",
+    "ECON 37300",
+    "ECON 38000",
+    "ECON 43200",
+    "ECON 45100",
+    "ECON 46100",
+    "ECON 46300",
+    "ECON 46600",
+    "ECON 49900",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 42000",
+    "ENGL 42100",
+    "FIN 31000",
+    "FIN 41310",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IN 47907",
+    "MA 16010",
+    "MA 16100",
+    "MA 16500",
+    "MA 30100",
+    "MA 34100",
+    "MA 36600",
+    "MA 44000",
+    "MIS 38200",
+    "MIS 38800",
+    "MKTG 32400",
+    "MKTG 42110",
+    "OBHR 33000",
+    "OBHR 33500",
+    "QM 47200",
+    "QM 47300",
+    "QM 47400",
+    "SCLA 10100",
+    "SCLA 10200",
+    "SCOM 36100",
+    "STAT 35000",
+    "STAT 41600",
+    "STAT 42000",
+    "STAT 51100",
+    "STRT 25400",
+    "STRT 35200"
+  ]
+}

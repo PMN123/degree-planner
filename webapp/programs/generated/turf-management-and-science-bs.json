@@ -1,0 +1,402 @@
+{
+  "id": "turf-management-and-science-bs",
+  "poid": "34719",
+  "name": "Turf Management and Science, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34719",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.284779+00:00",
+  "course_credits": {
+    "AGRY 51000": 3.0,
+    "AGRY 51200": 3.0,
+    "HORT 10100": 3.0,
+    "HORT 11000": 1.0,
+    "HORT 21000": 3.0,
+    "HORT 21100": 1.0,
+    "HORT 30100": 4.0,
+    "AGR 10100": 0.5,
+    "AGR 12000": 1.0,
+    "AGEC 33000": 3.0,
+    "AGEC 33100": 3.0,
+    "AGRY 25500": 3.0,
+    "AGRY 36500": 3.0,
+    "BTNY 11000": 4.0,
+    "BTNY 30100": 3.0,
+    "BTNY 30400": 3.0,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0,
+    "CHM 25700": 4.0,
+    "MA 15800": 3.0,
+    "STAT 30100": 3.0,
+    "ENTM 20600": 2.0,
+    "ENTM 20700": 1.0,
+    "ENTM 41000": 2.0,
+    "ENTM 41002": 1.0,
+    "ACCT 21200": 3.0,
+    "ACCT 20000": 3.0,
+    "PHYS 21400": 3.0,
+    "PHYS 22000": 4.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "HORT 51300": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 39.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 18.0,
+          "kind": "all_of",
+          "courses": [
+            "AGRY 51000",
+            "AGRY 51200",
+            "HORT 10100",
+            "HORT 11000",
+            "HORT 21000",
+            "HORT 21100",
+            "HORT 30100"
+          ]
+        },
+        {
+          "name": "Major Selectives",
+          "credit_target": 21.0,
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14.5-15.5 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 12000",
+          "title": "Introduction To Horticulture And Landscape Architecture Academic Programs",
+          "credits": 1.0
+        },
+        {
+          "code": "BTNY 11000",
+          "title": "Introduction To Plant Science (UCC: AI/SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "HORT 10100",
+          "title": "Fundamentals Of Horticulture (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGRY 25500",
+          "title": "Soil Science",
+          "credits": 3.0
+        },
+        {
+          "code": "BTNY 30100",
+          "title": "Introductory Plant Pathology",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25700",
+          "title": "Organic Chemistry",
+          "credits": 4.0
+        },
+        {
+          "code": "ACCT 21200",
+          "title": "Business Accounting",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ACCT 20000",
+              "title": "Introductory Accounting",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "AGRY 36500",
+          "title": "Soil Fertility",
+          "credits": 3.0
+        },
+        {
+          "code": "HORT 11000",
+          "title": "Opportunities In Horticulture",
+          "credits": 1.0
+        },
+        {
+          "code": "HORT 21000",
+          "title": "Fundamentals Of Turfgrass Culture",
+          "credits": 3.0
+        },
+        {
+          "code": "HORT 21100",
+          "title": "Fundamentals Of Turfgrass Culture Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGEC 33000",
+          "title": "Management Methods For Agricultural Business",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 51000",
+          "title": "Turfgrass Science",
+          "credits": 3.0
+        },
+        {
+          "code": "BTNY 30400",
+          "title": "Introductory Weed Science",
+          "credits": 3.0
+        },
+        {
+          "label": "Change to Entomology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AGEC 33100",
+          "title": "Principles Of Industrial Selling",
+          "credits": 3.0
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Physics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Turf Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Turf Management Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGRY 51200",
+          "title": "Integrated Turfgrass Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "HORT 51300",
+          "title": "Nutrition Of Horticulture Crops",
+          "credits": 1.0
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Business/Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Turf Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14.5-16.5 Credits",
+      "items": [
+        {
+          "label": "Business/Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Business/Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Turf Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 4.5,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 21700",
+    "AGEC 33000",
+    "AGEC 33100",
+    "AGR 10100",
+    "AGR 12000",
+    "AGRY 25500",
+    "AGRY 36500",
+    "AGRY 51000",
+    "AGRY 51200",
+    "BTNY 11000",
+    "BTNY 30100",
+    "BTNY 30400",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 25700",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "ENTM 20600",
+    "ENTM 20700",
+    "ENTM 41000",
+    "ENTM 41002",
+    "HEA 01348",
+    "HELP 02026",
+    "HORT 10100",
+    "HORT 11000",
+    "HORT 21000",
+    "HORT 21100",
+    "HORT 30100",
+    "HORT 51300",
+    "IN 47907",
+    "MA 15800",
+    "PHYS 21400",
+    "PHYS 22000",
+    "STAT 30100"
+  ]
+}

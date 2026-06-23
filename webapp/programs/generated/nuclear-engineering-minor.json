@@ -1,0 +1,65 @@
+{
+  "id": "nuclear-engineering-minor",
+  "poid": "35066",
+  "name": "Nuclear Engineering Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 12,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35066",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.514127+00:00",
+  "course_credits": {
+    "NUCL 20000": 3.0,
+    "NUCL 30000": 3.0,
+    "NUCL 20500": 2.0,
+    "NUCL 49700": 1.0,
+    "NUCL 59700": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "NUCL 20000",
+        "NUCL 30000"
+      ]
+    },
+    {
+      "name": "Additional Requirements",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "NUCL 20500",
+        "NUCL 49700",
+        "NUCL 59700"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ENGR 16200",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26200",
+    "MA 26500",
+    "MA 26600",
+    "NUCL 20000",
+    "NUCL 20500",
+    "NUCL 30000",
+    "NUCL 49700",
+    "NUCL 59700",
+    "PHYS 17200",
+    "PHYS 24100",
+    "PHYS 26100",
+    "PHYS 27200"
+  ]
+}

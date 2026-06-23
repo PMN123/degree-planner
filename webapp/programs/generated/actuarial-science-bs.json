@@ -1,0 +1,569 @@
+{
+  "id": "actuarial-science-bs",
+  "poid": "34840",
+  "name": "Actuarial Science, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34840",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.956879+00:00",
+  "course_credits": {
+    "ACCT 20000": 3.0,
+    "ACCT 20100": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "FIN 31000": 3.0,
+    "FIN 41100": 3.0,
+    "MA 35100": 3.0,
+    "MA 36600": 4.0,
+    "MA 37300": 3.0,
+    "STAT 41700": 3.0,
+    "STAT 42000": 3.0,
+    "STAT 47201": 4.0,
+    "STAT 47301": 3.0,
+    "STAT 47401": 3.0,
+    "STAT 47701": 3.0,
+    "STAT 47902": 3.0,
+    "MA 41600": 3.0,
+    "STAT 41600": 3.0,
+    "STAT 51600": 3.0,
+    "STAT 47501": 3.0,
+    "MA 48200": 3.0,
+    "CNIT 17500": 3.0,
+    "CS 15900": 3.0,
+    "CS 17600": 3.0,
+    "CS 17700": 4.0,
+    "CS 18000": 4.0,
+    "TDM 10100": 1.0,
+    "TDM 10200": 1.0,
+    "TDM 20100": 1.0,
+    "TDM 20200": 1.0,
+    "TDM 30100": 1.0,
+    "TDM 30200": 1.0,
+    "TDM 40100": 1.0,
+    "TDM 40200": 1.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "MA 26100": 4.0,
+    "MA 27101": 5.0,
+    "STAT 35000": 3.0,
+    "STAT 35500": 3.0,
+    "COM 21700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 53.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "kind": "all_of",
+          "courses": [
+            "ACCT 20000",
+            "ACCT 20100",
+            "ECON 25100",
+            "ECON 25200",
+            "FIN 31000",
+            "FIN 41100",
+            "MA 35100",
+            "MA 36600",
+            "MA 37300",
+            "STAT 41700",
+            "STAT 42000",
+            "STAT 47201",
+            "STAT 47301",
+            "STAT 47401",
+            "STAT 47701",
+            "STAT 47902"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "MA 41600 / STAT 41600 / STAT 51600",
+              "courses": [
+                "MA 41600",
+                "STAT 41600",
+                "STAT 51600"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "STAT 47501 / MA 48200",
+              "courses": [
+                "STAT 47501",
+                "MA 48200"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Science Additional Requirements",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Computing",
+          "credit_target": [
+            2.0,
+            4.0
+          ],
+          "kind": "choose",
+          "options": [
+            "CNIT 17500",
+            "CS 15900",
+            "CS 17600",
+            "CS 17700",
+            "CS 18000",
+            "TDM 10100",
+            "TDM 10200",
+            "TDM 20100",
+            "TDM 20200",
+            "TDM 30100",
+            "TDM 30200",
+            "TDM 40100",
+            "TDM 40200"
+          ],
+          "choose_credits": 2.0
+        },
+        {
+          "name": "Laboratory Science",
+          "credit_target": [
+            6.0,
+            8.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Mathematics",
+          "credit_target": [
+            8.0,
+            10.0
+          ],
+          "kind": "choose",
+          "options": [
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            }
+          ],
+          "choose_credits": 8.0
+        },
+        {
+          "name": "Required Pre-Requisite Course",
+          "credit_target": [
+            4.0,
+            5.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "MA 26100 / MA 27101",
+              "courses": [
+                "MA 26100",
+                "MA 27101"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Statistics",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "STAT 35000",
+            "STAT 35500"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "ECON 25100",
+          "title": "Microeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core: Written Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core: Great Issues in Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "MA 37300",
+          "title": "Financial Mathematics",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 17500",
+          "title": "Visual Programming",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CS 17700",
+              "title": "Programming With Multimedia Objects",
+              "credits": 4.0
+            },
+            {
+              "code": "CS 15900",
+              "title": "C Programming",
+              "credits": 3.0
+            },
+            {
+              "code": "CS 18000",
+              "title": "Problem Solving And Object-Oriented Programming",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON 25200",
+          "title": "Macroeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "STAT 35000",
+          "title": "Introduction To Statistics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 35500",
+              "title": "Statistics For Data Science",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ACCT 20100",
+          "title": "Management Accounting I",
+          "credits": 3.0
+        },
+        {
+          "code": "COM 21700",
+          "title": "Science Writing And Presentation (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 35100",
+          "title": "Elementary Linear Algebra (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 41600",
+          "title": "Probability",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 41600",
+              "title": "Probability",
+              "credits": 3.0
+            },
+            {
+              "code": "STAT 51600",
+              "title": "Basic Probability And Applications",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective (STAT 25000 Problem Solving In Probability recommended)",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "FIN 31000",
+          "title": "Financial Management",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 41700",
+          "title": "Statistical Theory",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 47201",
+          "title": "Fundamental Long Term Actuarial Mathematics",
+          "credits": 4.0
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "FIN 41100",
+          "title": "Investment Management",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 42000",
+          "title": "Introduction To Time Series",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 47401",
+          "title": "Statistics For Risk Modeling I",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 47902",
+          "title": "Fundamental Short Term Actuarial Mathematics",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "STAT 47701",
+          "title": "Statistics Risk Modeling II",
+          "credits": 3.0
+        },
+        {
+          "label": "Science Core: Great Issues In Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "STAT 47501",
+          "title": "Advanced Long Term Actuarial Mathematics",
+          "credits": 3.0
+        },
+        {
+          "label": "or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14-19 Credits",
+      "items": [
+        {
+          "code": "STAT 47301",
+          "title": "Introduction To Arbitrage-Free Pricing Of Financial Derivatives",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 36600",
+          "title": "Ordinary Differential Equations (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "MA 48200",
+          "title": "Advanced Short Term Actuarial Mathematics",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "CNIT 17500",
+    "COM 21700",
+    "CS 15900",
+    "CS 17600",
+    "CS 17700",
+    "CS 18000",
+    "ECON 25100",
+    "ECON 25200",
+    "FIN 31000",
+    "FIN 41100",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 10800",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 17000",
+    "MA 26100",
+    "MA 27101",
+    "MA 35100",
+    "MA 36600",
+    "MA 37300",
+    "MA 41600",
+    "MA 48200",
+    "STAT 10100",
+    "STAT 17000",
+    "STAT 25000",
+    "STAT 35000",
+    "STAT 35500",
+    "STAT 41600",
+    "STAT 41700",
+    "STAT 42000",
+    "STAT 47201",
+    "STAT 47301",
+    "STAT 47401",
+    "STAT 47501",
+    "STAT 47701",
+    "STAT 47902",
+    "STAT 51600",
+    "TDM 10100",
+    "TDM 10200",
+    "TDM 20100",
+    "TDM 20200",
+    "TDM 30100",
+    "TDM 30200",
+    "TDM 40100",
+    "TDM 40200"
+  ]
+}

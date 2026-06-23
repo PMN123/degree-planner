@@ -1,0 +1,188 @@
+{
+  "id": "biological-sciences-minor",
+  "poid": "34883",
+  "name": "Biological Sciences Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 12,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34883",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.311810+00:00",
+  "course_credits": {
+    "BIOL 23100": 3.0,
+    "BIOL 24100": 3.0,
+    "BIOL 28600": 2.0,
+    "BIOL 32101": 3.0,
+    "BIOL 32800": 4.0,
+    "BIOL 36700": 2.0,
+    "BIOL 41500": 3.0,
+    "BIOL 41600": 3.0,
+    "BIOL 42000": 3.0,
+    "BIOL 43600": 3.0,
+    "BIOL 43800": 3.0,
+    "BIOL 44400": 3.0,
+    "BIOL 44600": 3.0,
+    "BIOL 47800": 3.0,
+    "BIOL 48100": 3.0,
+    "BIOL 48300": 3.0,
+    "BIOL 49601": 2.0,
+    "BIOL 51101": 3.0,
+    "BIOL 51202": 3.0,
+    "BIOL 51600": 3.0,
+    "BIOL 51606": 3.0,
+    "BIOL 51700": 2.0,
+    "BIOL 52905": 3.0,
+    "BIOL 53300": 3.0,
+    "BIOL 53601": 3.0,
+    "BIOL 53700": 3.0,
+    "BIOL 53800": 3.0,
+    "BIOL 56200": 3.0,
+    "BIOL 56310": 3.0,
+    "BIOL 57340": 3.0,
+    "BIOL 58000": 3.0,
+    "BIOL 58210": 3.0,
+    "BIOL 58601": 3.0,
+    "BIOL 58705": 3.0,
+    "BIOL 59200": 3.0,
+    "BIOL 20400": 4.0,
+    "BIOL 23200": 2.0,
+    "BIOL 24200": 2.0,
+    "BIOL 29400": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Part I",
+      "credit_target": 8.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Cell Biology",
+          "kind": "all_of",
+          "courses": [
+            "BIOL 23100"
+          ]
+        },
+        {
+          "name": "Genetics and Molecular Biology",
+          "kind": "all_of",
+          "courses": [
+            "BIOL 24100"
+          ]
+        },
+        {
+          "name": "Ecology and Evolution",
+          "kind": "all_of",
+          "courses": [
+            "BIOL 28600"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Part II",
+      "credit_target": [
+        2.0,
+        4.0
+      ],
+      "kind": "choose",
+      "options": [
+        "BIOL 32101",
+        "BIOL 32800",
+        "BIOL 36700",
+        "BIOL 41500",
+        "BIOL 41600",
+        "BIOL 42000",
+        "BIOL 43600",
+        "BIOL 43800",
+        "BIOL 44400",
+        "BIOL 44600",
+        "BIOL 47800",
+        "BIOL 48100",
+        "BIOL 48300",
+        "BIOL 49601",
+        "BIOL 51101",
+        "BIOL 51202",
+        "BIOL 51600",
+        "BIOL 51606",
+        "BIOL 51700",
+        "BIOL 52905",
+        "BIOL 53300",
+        "BIOL 53601",
+        "BIOL 53700",
+        "BIOL 53800",
+        "BIOL 56200",
+        "BIOL 56310",
+        "BIOL 57340",
+        "BIOL 58000",
+        "BIOL 58210",
+        "BIOL 58601",
+        "BIOL 58705",
+        "BIOL 59200"
+      ],
+      "choose_credits": 2.0
+    },
+    {
+      "name": "Part III Laboratory",
+      "credit_target": [
+        2.0,
+        4.0
+      ],
+      "kind": "choose",
+      "options": [
+        "BIOL 20400",
+        "BIOL 23200",
+        "BIOL 24200",
+        "BIOL 29400"
+      ],
+      "choose_credits": 2.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "BIOL 20400",
+    "BIOL 23100",
+    "BIOL 23200",
+    "BIOL 24100",
+    "BIOL 24200",
+    "BIOL 28600",
+    "BIOL 29400",
+    "BIOL 32101",
+    "BIOL 32800",
+    "BIOL 36700",
+    "BIOL 41500",
+    "BIOL 41600",
+    "BIOL 42000",
+    "BIOL 43600",
+    "BIOL 43800",
+    "BIOL 44400",
+    "BIOL 44600",
+    "BIOL 47800",
+    "BIOL 48100",
+    "BIOL 48300",
+    "BIOL 49601",
+    "BIOL 51101",
+    "BIOL 51202",
+    "BIOL 51600",
+    "BIOL 51606",
+    "BIOL 51700",
+    "BIOL 52905",
+    "BIOL 53300",
+    "BIOL 53601",
+    "BIOL 53700",
+    "BIOL 53800",
+    "BIOL 56200",
+    "BIOL 56310",
+    "BIOL 57340",
+    "BIOL 58000",
+    "BIOL 58210",
+    "BIOL 58601",
+    "BIOL 58705",
+    "BIOL 59200",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

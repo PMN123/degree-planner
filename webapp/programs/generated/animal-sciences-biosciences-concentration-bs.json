@@ -1,0 +1,438 @@
+{
+  "id": "animal-sciences-biosciences-concentration-bs",
+  "poid": "34723",
+  "name": "Animal Sciences: Biosciences Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34723",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.671250+00:00",
+  "course_credits": {
+    "ANSC 10200": 3.0,
+    "ANSC 12100": 2.0,
+    "ANSC 22100": 3.0,
+    "ANSC 23000": 4.0,
+    "ANSC 24000": 3.0,
+    "ANSC 25500": 3.0,
+    "ANSC 28100": 1.0,
+    "ANSC 31100": 4.0,
+    "ANSC 33300": 3.0,
+    "ANSC 48100": 1.0,
+    "ANSC 44000": 3.0,
+    "ANSC 44100": 3.0,
+    "ANSC 44200": 3.0,
+    "ANSC 44300": 3.0,
+    "ANSC 44400": 3.0,
+    "ANSC 44500": 3.0,
+    "ANSC 44600": 3.0,
+    "BCHM 30700": 3.0,
+    "BCHM 30900": 1.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 25700": 4.0,
+    "MA 16010": 3.0,
+    "AGR 10100": 0.5,
+    "AGR 11400": 0.5,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "STAT 30100": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 71.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 30.0,
+          "kind": "all_of",
+          "courses": [
+            "ANSC 10200",
+            "ANSC 12100",
+            "ANSC 22100",
+            "ANSC 23000",
+            "ANSC 24000",
+            "ANSC 25500",
+            "ANSC 28100",
+            "ANSC 31100",
+            "ANSC 33300",
+            "ANSC 48100",
+            "ANSC 44000",
+            "ANSC 44100",
+            "ANSC 44200",
+            "ANSC 44300",
+            "ANSC 44400",
+            "ANSC 44500",
+            "ANSC 44600"
+          ]
+        },
+        {
+          "name": "Biosciences Concentration Requirements",
+          "credit_target": 41.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Concentration Required Courses",
+              "credit_target": 31.0,
+              "kind": "all_of",
+              "courses": [
+                "BCHM 30700",
+                "BCHM 30900",
+                "CHM 11510",
+                "CHM 11520",
+                "CHM 11610",
+                "CHM 11620",
+                "CHM 25700",
+                "MA 16010"
+              ]
+            },
+            {
+              "name": "Animal Science Restricted Selectives",
+              "credit_target": 10.0,
+              "kind": "credits",
+              "credits": 10.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        8.0,
+        12.0
+      ],
+      "kind": "credits",
+      "credits": 8.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11400",
+          "title": "Introduction To Animal Sciences Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "ANSC 10200",
+          "title": "Introduction To Animal Agriculture (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "ANSC 12100",
+          "title": "Ethics Of Animal Use",
+          "credits": 2.0
+        },
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "ANSC 22100",
+          "title": "Principles Of Animal Nutrition",
+          "credits": 3.0
+        },
+        {
+          "code": "ANSC 24000",
+          "title": "Principles Of Animal Production",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25700",
+          "title": "Organic Chemistry",
+          "credits": 4.0
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "ANSC 23000",
+          "title": "Physiology Of Domestic Animals",
+          "credits": 4.0
+        },
+        {
+          "code": "ANSC 25500",
+          "title": "Principles Of Animal Products",
+          "credits": 3.0
+        },
+        {
+          "code": "ANSC 28100",
+          "title": "Career Planning In Animal Sciences",
+          "credits": 1.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "ANSC 33300",
+          "title": "Physiology Of Reproduction",
+          "credits": 3.0
+        },
+        {
+          "code": "BCHM 30700",
+          "title": "Biochemistry",
+          "credits": 3.0
+        },
+        {
+          "code": "BCHM 30900",
+          "title": "Biochemistry Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "ANSC 31100",
+          "title": "Animal Breeding And Genetics",
+          "credits": 4.0
+        },
+        {
+          "label": "Animal Sciences Restrictive Selective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "ANSC 48100",
+          "title": "Contemporary Issues In Animal Sciences",
+          "credits": 1.0
+        },
+        {
+          "label": "Animal Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Animal Science Restricted Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "label": "Animal Sciences Restricted Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Selectives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 21700",
+    "AGR 10100",
+    "AGR 11400",
+    "ANSC 10200",
+    "ANSC 12100",
+    "ANSC 22100",
+    "ANSC 23000",
+    "ANSC 24000",
+    "ANSC 25500",
+    "ANSC 28100",
+    "ANSC 31100",
+    "ANSC 33300",
+    "ANSC 44000",
+    "ANSC 44100",
+    "ANSC 44200",
+    "ANSC 44300",
+    "ANSC 44400",
+    "ANSC 44500",
+    "ANSC 44600",
+    "ANSC 48100",
+    "BCHM 30700",
+    "BCHM 30900",
+    "BIOL 11000",
+    "BIOL 11100",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 25700",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "STAT 30100"
+  ]
+}

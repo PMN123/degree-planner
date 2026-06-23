@@ -1,0 +1,627 @@
+{
+  "id": "audio-engineering-technology-bs",
+  "poid": "35070",
+  "name": "Audio Engineering Technology, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35070",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.493088+00:00",
+  "course_credits": {
+    "ENGT 18200": 4.0,
+    "ECET 17700": 3.0,
+    "ECET 17900": 3.0,
+    "ECET 22700": 3.0,
+    "ECET 22900": 3.0,
+    "ECET 27000": 3.0,
+    "ECET 27400": 3.0,
+    "ECET 27700": 3.0,
+    "ECET 27900": 3.0,
+    "ECET 31800": 3.0,
+    "ECET 33700": 3.0,
+    "ECET 33900": 3.0,
+    "ECET 37600": 3.0,
+    "ECET 38800": 3.0,
+    "ECET 42801": 3.0,
+    "TECH 12000": 3.0,
+    "THTR 16300": 2.0,
+    "THTR 35300": 3.0,
+    "MET 31800": 3.0,
+    "CNIT 10500": 3.0,
+    "CS 15900": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16020": 3.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "PHYS 22000": 4.0,
+    "PHYS 17200": 4.0,
+    "PHYS 22100": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 27200": 4.0,
+    "STAT 22500": 3.0,
+    "STAT 30100": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0,
+    "SCLA 10100": 3.0,
+    "ENGL 20500": 3.0,
+    "ENGL 30400": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "COM 11400": 3.0,
+    "SCLA 10200": 3.0,
+    "FLM 32100": 1.0,
+    "MUS 38300": 3.0,
+    "THTR 25300": 3.0,
+    "THTR 26300": 3.0,
+    "THTR 36800": 1.0,
+    "DANC 36800": 1.0,
+    "AGEC 33000": 3.0,
+    "AGEC 35200": 3.0,
+    "IET 33400": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 52.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 52.0,
+          "kind": "all_of",
+          "courses": [
+            "ENGT 18200",
+            "ECET 17700",
+            "ECET 17900",
+            "ECET 22700",
+            "ECET 22900",
+            "ECET 27000",
+            "ECET 27400",
+            "ECET 27700",
+            "ECET 27900",
+            "ECET 31800",
+            "ECET 33700",
+            "ECET 33900",
+            "ECET 37600",
+            "ECET 38800",
+            "ECET 42801"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "ENGT 18200",
+          "title": "Gateway To Engineering Technology",
+          "credits": 4.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Applied Calculus I Selective:",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16100",
+              "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 5.0
+            },
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Intro to C Programming Selective:",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "CNIT 10500",
+          "title": "Introduction To C Programming",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CS 15900",
+              "title": "C Programming",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "English Composition Selective:",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            },
+            {
+              "code": "HONR 19903",
+              "title": "Interdisciplinary Approaches In Writing (UCC: IL/WC)",
+              "credits": 3.0
+            },
+            {
+              "code": "SCLA 10100",
+              "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "ECET 17700",
+          "title": "Data Acquisition And Systems Control",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 17900",
+          "title": "Introduction To Microcontrollers",
+          "credits": 3.0
+        },
+        {
+          "label": "Applied Calculus II Selective:",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "MA 16020",
+          "title": "Applied Calculus II (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16200",
+              "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 5.0
+            },
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "General Physics I Selective:",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 17200",
+              "title": "Modern Mechanics (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Freshman Speech Selective:",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SCLA 10200",
+              "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "ECET 22700",
+          "title": "DC And Pulse Electronics",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 22900",
+          "title": "Concurrent Digital Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "THTR 16300",
+          "title": "Introduction To Sound Design And Technology",
+          "credits": 2.0
+        },
+        {
+          "label": "General Physics II Selective:",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "PHYS 22100",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 24100",
+              "title": "Electricity And Optics (UCC: SCI)",
+              "credits": 3.0
+            },
+            {
+              "code": "PHYS 27200",
+              "title": "Electric And Magnetic Interactions (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Written Communication Selective:",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "ENGL 20500",
+          "title": "Introduction To Creative Writing",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 30400",
+              "title": "Advanced Composition (UCC: IL/WC)",
+              "credits": 3.0
+            },
+            {
+              "code": "ENGL 42000",
+              "title": "Business Writing",
+              "credits": 3.0
+            },
+            {
+              "code": "ENGL 42100",
+              "title": "Technical Writing",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECET 27000",
+          "title": "Electronics Prototype Development And Construction",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 27700",
+          "title": "AC And Power Electronics",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 31800",
+          "title": "Foundations Of Audio Electronics",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Theater and Sound Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "13-16 Credits",
+      "items": [
+        {
+          "code": "ECET 27900",
+          "title": "Embedded Digital Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 37600",
+          "title": "Electrical Energy Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 38800",
+          "title": "Analog IC Applications",
+          "credits": 3.0
+        },
+        {
+          "label": "Audio Production Selective:",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "FLM 32100",
+          "title": "Live Production I: Theater/Music/Arts",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "MUS 38300",
+              "title": "Digital Audio Recording And Production I",
+              "credits": 3.0
+            },
+            {
+              "code": "THTR 25300",
+              "title": "Intro To Audio System Documentation",
+              "credits": 3.0
+            },
+            {
+              "code": "THTR 26300",
+              "title": "Introduction To Sound Studios",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Global / Professional Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "ECET 27400",
+          "title": "Wireless Communications",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 33700",
+          "title": "Continuous Systems Analysis And Design",
+          "credits": 3.0
+        },
+        {
+          "code": "MET 31800",
+          "title": "Applied Room Acoustics",
+          "credits": 3.0
+        },
+        {
+          "label": "Statistics Selective:",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "STAT 22500",
+          "title": "Introduction To Probability Models",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 30100",
+              "title": "Elementary Statistical Methods (UCC: IL)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Theater Production Selective:",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "THTR 36800",
+          "title": "Theatre Production II",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "DANC 36800",
+              "title": "Dance Sound Design",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "Business Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECET 33900",
+          "title": "Digital Signal Processing",
+          "credits": 3.0
+        },
+        {
+          "code": "THTR 35300",
+          "title": "Audio Technology I",
+          "credits": 3.0
+        },
+        {
+          "label": "Senior Capstone I Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Industrial Economics Selective :",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "AGEC 33000",
+          "title": "Management Methods For Agricultural Business",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 35200",
+              "title": "Quantitative Techniques For Firm Decision Making",
+              "credits": 3.0
+            },
+            {
+              "code": "IET 33400",
+              "title": "Economic Analysis For Technology Systems",
+              "credits": 3.0
+            },
+            {
+              "code": "ACCT 20000",
+              "title": "Introductory Accounting",
+              "credits": 3.0
+            },
+            {
+              "code": "ACCT 21200",
+              "title": "Business Accounting",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "ECET 42801",
+          "title": "Advanced Acoustics And Audio Engineering Technologies",
+          "credits": 3.0
+        },
+        {
+          "label": "Senior Capstone II Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Theater and Sound Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "\u200bElective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 33000",
+    "AGEC 35200",
+    "CNIT 10500",
+    "COM 11400",
+    "CS 15900",
+    "DANC 36800",
+    "ECET 17700",
+    "ECET 17900",
+    "ECET 22700",
+    "ECET 22900",
+    "ECET 27000",
+    "ECET 27400",
+    "ECET 27700",
+    "ECET 27900",
+    "ECET 31800",
+    "ECET 33700",
+    "ECET 33900",
+    "ECET 37600",
+    "ECET 38800",
+    "ECET 42801",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 20500",
+    "ENGL 30400",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGT 18200",
+    "FLM 32100",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IET 33400",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MET 31800",
+    "MUS 38300",
+    "PHYS 17200",
+    "PHYS 22000",
+    "PHYS 22100",
+    "PHYS 24100",
+    "PHYS 27200",
+    "SCLA 10100",
+    "SCLA 10200",
+    "STAT 22500",
+    "STAT 30100",
+    "TECH 12000",
+    "THTR 16300",
+    "THTR 25300",
+    "THTR 26300",
+    "THTR 35300",
+    "THTR 36800"
+  ]
+}

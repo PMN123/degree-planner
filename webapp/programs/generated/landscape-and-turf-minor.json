@@ -1,0 +1,60 @@
+{
+  "id": "landscape-and-turf-minor",
+  "poid": "35085",
+  "name": "Landscape and Turf Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 13,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35085",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.323907+00:00",
+  "course_credits": {
+    "HORT 10100": 3.0,
+    "HORT 21000": 3.0,
+    "HORT 21100": 1.0,
+    "LA 10110": 2.0,
+    "LA 16100": 1.0,
+    "HORT 21700": 4.0,
+    "HORT 21830": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 10.0,
+      "kind": "all_of",
+      "courses": [
+        "HORT 10100",
+        "HORT 21000",
+        "HORT 21100",
+        "LA 10110",
+        "LA 16100"
+      ]
+    },
+    {
+      "name": "Selective Course",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "HORT 21700",
+        "HORT 21830"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "HORT 10100",
+    "HORT 21000",
+    "HORT 21100",
+    "HORT 21700",
+    "HORT 21830",
+    "IN 47907",
+    "LA 10110",
+    "LA 16100"
+  ]
+}

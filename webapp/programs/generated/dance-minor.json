@@ -1,0 +1,112 @@
+{
+  "id": "dance-minor",
+  "poid": "34895",
+  "name": "Dance Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34895",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.938986+00:00",
+  "course_credits": {
+    "DANC 24500": 1.0,
+    "DANC 26000": 3.0,
+    "DANC 26100": 3.0,
+    "DANC 37800": 3.0,
+    "DANC 37900": 3.0,
+    "DANC 34500": 3.0,
+    "DANC 34600": 1.0,
+    "DANC 35000": 3.0,
+    "DANC 35100": 3.0,
+    "DANC 10100": 2.0,
+    "DANC 20100": 2.0,
+    "DANC 30100": 2.0,
+    "DANC 20200": 2.0,
+    "DANC 20300": 2.0,
+    "DANC 20400": 2.0,
+    "DANC 30000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Core Courses",
+      "credit_target": 4.0,
+      "kind": "choose",
+      "options": [
+        "DANC 24500",
+        "DANC 26000",
+        "DANC 26100"
+      ],
+      "choose_credits": 4.0
+    },
+    {
+      "name": "B. Dance History",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "DANC 37800",
+        "DANC 37900"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "C. Choreography",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "DANC 34500",
+        "DANC 34600",
+        "DANC 35000",
+        "DANC 35100"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "D. Modern Dance Technique",
+      "credit_target": 4.0,
+      "kind": "choose",
+      "options": [
+        "DANC 10100",
+        "DANC 20100",
+        "DANC 30100"
+      ],
+      "choose_credits": 4.0
+    },
+    {
+      "name": "E. Additional Dance Courses",
+      "credit_target": 4.0,
+      "kind": "choose",
+      "options": [
+        "DANC 20200",
+        "DANC 20300",
+        "DANC 20400",
+        "DANC 30000"
+      ],
+      "choose_credits": 4.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "DANC 10100",
+    "DANC 20100",
+    "DANC 20200",
+    "DANC 20300",
+    "DANC 20400",
+    "DANC 24500",
+    "DANC 26000",
+    "DANC 26100",
+    "DANC 30000",
+    "DANC 30100",
+    "DANC 34500",
+    "DANC 34600",
+    "DANC 35000",
+    "DANC 35100",
+    "DANC 37800",
+    "DANC 37900",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

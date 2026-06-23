@@ -1,0 +1,423 @@
+{
+  "id": "nursing-bsn",
+  "poid": "34821",
+  "name": "Nursing, BSN",
+  "degree": "BSN",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34821",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.936801+00:00",
+  "course_credits": {
+    "NUR 10800": 1.0,
+    "NUR 10900": 1.0,
+    "NUR 21801": 5.0,
+    "NUR 21901": 3.0,
+    "NUR 22001": 5.0,
+    "NUR 22101": 3.0,
+    "NUR 22201": 2.0,
+    "NUR 22301": 3.0,
+    "NUR 31401": 6.0,
+    "NUR 31501": 5.0,
+    "NUR 31601": 1.0,
+    "NUR 31701": 6.0,
+    "NUR 31801": 5.0,
+    "NUR 31901": 1.0,
+    "NUR 41001": 2.0,
+    "NUR 41401": 5.0,
+    "NUR 41501": 5.0,
+    "NUR 41701": 3.0,
+    "NUR 42001": 4.0,
+    "SOC 22000": 3.0,
+    "SOC 31000": 3.0,
+    "SOC 34000": 3.0,
+    "SOC 37400": 3.0,
+    "SOC 41100": 3.0,
+    "STAT 11300": 3.0,
+    "PSY 20100": 3.0,
+    "SOC 38200": 3.0,
+    "STAT 30100": 3.0,
+    "HDFS 21000": 3.0,
+    "NUTR 30300": 3.0,
+    "PSY 12000": 3.0,
+    "PSY 35000": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0,
+    "BIOL 20300": 4.0,
+    "BIOL 20400": 4.0,
+    "BIOL 22100": 4.0,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Nursing Courses Level I",
+      "credit_target": 23.0,
+      "kind": "all_of",
+      "courses": [
+        "NUR 10800",
+        "NUR 10900",
+        "NUR 21801",
+        "NUR 21901",
+        "NUR 22001",
+        "NUR 22101",
+        "NUR 22201",
+        "NUR 22301"
+      ]
+    },
+    {
+      "name": "Nursing Courses Level II",
+      "credit_target": 24.0,
+      "kind": "all_of",
+      "courses": [
+        "NUR 31401",
+        "NUR 31501",
+        "NUR 31601",
+        "NUR 31701",
+        "NUR 31801",
+        "NUR 31901"
+      ]
+    },
+    {
+      "name": "Nursing Courses Level III",
+      "credit_target": 19.0,
+      "kind": "all_of",
+      "courses": [
+        "NUR 41001",
+        "NUR 41401",
+        "NUR 41501",
+        "NUR 41701",
+        "NUR 42001"
+      ]
+    },
+    {
+      "name": "General Courses",
+      "kind": "all_of",
+      "courses": [
+        "HDFS 21000",
+        "NUTR 30300",
+        "PSY 12000",
+        "PSY 35000"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "ENGL 10600 / ENGL 10800 / HONR 19903",
+          "courses": [
+            "ENGL 10600",
+            "ENGL 10800",
+            "HONR 19903"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Science Courses",
+      "kind": "all_of",
+      "courses": [
+        "BIOL 20300",
+        "BIOL 20400",
+        "BIOL 22100",
+        "CHM 11100",
+        "CHM 11200"
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "BIOL 20300",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "HDFS 21000",
+          "title": "Introduction To Human Development (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "NUR 10800",
+          "title": "Introduction To Nursing",
+          "credits": 1.0
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            },
+            {
+              "code": "HONR 19903",
+              "title": "Interdisciplinary Approaches In Writing (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "BIOL 20400",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "NUR 10900",
+          "title": "Introduction To Nursing II",
+          "credits": 1.0
+        },
+        {
+          "label": "Guided Sociology Selective \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Guided Statistics Selective \u2666",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "NUR 21801",
+          "title": "Health Assessment And Essentials Of Nursing Practice I",
+          "credits": 5.0
+        },
+        {
+          "code": "NUR 21901",
+          "title": "Pathopharmacology I",
+          "credits": 3.0
+        },
+        {
+          "code": "NUR 22301",
+          "title": "Foundations Of Research And Evidence-Based Practice (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 30300",
+          "title": "Essentials Of Nutrition (UCC: SCI)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "BIOL 22100",
+          "title": "Introduction To Microbiology",
+          "credits": 4.0
+        },
+        {
+          "code": "NUR 22001",
+          "title": "Essentials Of Nursing Practice II",
+          "credits": 5.0
+        },
+        {
+          "code": "NUR 22101",
+          "title": "Pathopharmocology II",
+          "credits": 3.0
+        },
+        {
+          "code": "NUR 22201",
+          "title": "Population Health",
+          "credits": 2.0
+        },
+        {
+          "code": "PSY 35000",
+          "title": "Abnormal Psychology",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "NUR 31401",
+          "title": "Health Alterations In Adults I",
+          "credits": 6.0
+        },
+        {
+          "code": "NUR 31501",
+          "title": "Nursing Of Childbearing Families",
+          "credits": 5.0
+        },
+        {
+          "code": "NUR 31601",
+          "title": "Integration Seminar I",
+          "credits": 1.0
+        },
+        {
+          "label": "Oral Communications",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "NUR 31701",
+          "title": "Health Alterations In Adults II",
+          "credits": 6.0
+        },
+        {
+          "code": "NUR 31801",
+          "title": "Psychiatric And Mental Health Nursing",
+          "credits": 5.0
+        },
+        {
+          "code": "NUR 31901",
+          "title": "Integration Seminar II",
+          "credits": 1.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "NUR 41001",
+          "title": "Issues In Professional Nursing",
+          "credits": 2.0
+        },
+        {
+          "code": "NUR 41701",
+          "title": "Leadership In Nursing",
+          "credits": 3.0
+        },
+        {
+          "code": "NUR 42001",
+          "title": "Transition To Professional Nursing Practice",
+          "credits": 4.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "NUR 41401",
+          "title": "Pediatric Nursing",
+          "credits": 5.0
+        },
+        {
+          "code": "NUR 41501",
+          "title": "Public Health Nursing",
+          "credits": 5.0
+        },
+        {
+          "label": "Guided Health & Human Sciences Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "BIOL 20300",
+    "BIOL 20400",
+    "BIOL 22100",
+    "CHM 11100",
+    "CHM 11200",
+    "ENGL 10600",
+    "ENGL 10800",
+    "HDFS 21000",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IN 47907",
+    "NUR 10800",
+    "NUR 10900",
+    "NUR 21801",
+    "NUR 21901",
+    "NUR 22001",
+    "NUR 22101",
+    "NUR 22201",
+    "NUR 22301",
+    "NUR 31401",
+    "NUR 31501",
+    "NUR 31601",
+    "NUR 31701",
+    "NUR 31801",
+    "NUR 31901",
+    "NUR 41001",
+    "NUR 41401",
+    "NUR 41501",
+    "NUR 41701",
+    "NUR 42001",
+    "NUTR 30300",
+    "PSY 12000",
+    "PSY 20100",
+    "PSY 35000",
+    "SOC 22000",
+    "SOC 31000",
+    "SOC 34000",
+    "SOC 37400",
+    "SOC 38200",
+    "SOC 41100",
+    "STAT 11300",
+    "STAT 30100"
+  ]
+}

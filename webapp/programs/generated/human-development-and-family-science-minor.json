@@ -1,0 +1,47 @@
+{
+  "id": "human-development-and-family-science-minor",
+  "poid": "35912",
+  "name": "Human Development and Family Science Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35912",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.905975+00:00",
+  "course_credits": {
+    "HDFS 20100": 3.0,
+    "HDFS 21000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "HDFS 20100",
+        "HDFS 21000"
+      ]
+    },
+    {
+      "name": "Additional Courses",
+      "credit_target": 9.0,
+      "kind": "credits",
+      "credits": 9.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HDFS 20100",
+    "HDFS 21000",
+    "HDFS 39000",
+    "HDFS 39800",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

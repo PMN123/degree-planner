@@ -1,0 +1,405 @@
+{
+  "id": "aviation-management-airport-management-concentration-bs",
+  "poid": "37190",
+  "name": "Aviation Management: Airport Management Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=37190",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.339470+00:00",
+  "course_credits": {
+    "ACCT 20000": 3.0,
+    "ACCT 20100": 3.0,
+    "AT 10000": 1.0,
+    "AT 10200": 3.0,
+    "AT 10300": 3.0,
+    "AT 10600": 3.0,
+    "AT 14400": 4.0,
+    "AT 20200": 3.0,
+    "AT 20300": 3.0,
+    "AT 25200": 3.0,
+    "AT 36201": 3.0,
+    "AT 41200": 3.0,
+    "AT 42101": 3.0,
+    "AT 47500": 3.0,
+    "AT 48100": 3.0,
+    "AT 49800": 3.0,
+    "AT 35900": 3.0,
+    "AT 45100": 3.0,
+    "AT 45900": 3.0,
+    "ECON 25100": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "PHYS 22000": 4.0,
+    "TECH 12000": 3.0,
+    "IET 31600": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 30301": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 59.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 47.0,
+          "kind": "all_of",
+          "courses": [
+            "ACCT 20000",
+            "ACCT 20100",
+            "AT 10000",
+            "AT 10200",
+            "AT 10300",
+            "AT 10600",
+            "AT 14400",
+            "AT 20200",
+            "AT 20300",
+            "AT 25200",
+            "AT 36201",
+            "AT 41200",
+            "AT 42101",
+            "AT 47500",
+            "AT 48100",
+            "AT 49800"
+          ]
+        },
+        {
+          "name": "Airport Management Concentration Courses",
+          "credit_target": 12.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Required Courses",
+              "credit_target": 9.0,
+              "kind": "all_of",
+              "courses": [
+                "AT 35900",
+                "AT 45100",
+                "AT 45900"
+              ]
+            },
+            {
+              "name": "Concentration Selective Courses",
+              "credit_target": 3.0,
+              "kind": "credits",
+              "credits": 3.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        4.0,
+        16.0
+      ],
+      "kind": "credits",
+      "credits": 4.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "AT 10000",
+          "title": "Introduction To Aviation Technology",
+          "credits": 1.0
+        },
+        {
+          "code": "AT 10600",
+          "title": "Basic Aircraft Science",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 14400",
+          "title": "Private Pilot Lectures",
+          "credits": 4.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 10200",
+          "title": "Aviation Business",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 10300",
+          "title": "Aerospace Vehicle Propulsion And Tracking Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 20200",
+          "title": "Aerospace Vehicle Systems Design, Analysis And Operations",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 25200",
+          "title": "Aviation Project Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "ACCT 20100",
+          "title": "Management Accounting I",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 20300",
+          "title": "Aviation Operations Management",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON 25100",
+          "title": "Microeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Artificial Intelligence Selective (UCC: AI) \u2013 Credits Hours: 1.00 \u2013 3.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "AT 35900",
+          "title": "Airport Management",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 36201",
+          "title": "Aviation Operations",
+          "credits": 3.0
+        },
+        {
+          "label": "Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 42101",
+          "title": "Managerial Economics In Aviation",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 45100",
+          "title": "Airport Operations",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 47500",
+          "title": "Aviation Law",
+          "credits": 3.0
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Global Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 41200",
+          "title": "Aviation Finance",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 48100",
+          "title": "Aviation Safety Problems",
+          "credits": 3.0
+        },
+        {
+          "label": "Concentration Selective Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AT 45900",
+          "title": "Airport Manager Certification",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 49800",
+          "title": "Aviation Technology Capstone",
+          "credits": 3.0
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "ACCT 30000",
+    "AT 10000",
+    "AT 10200",
+    "AT 10300",
+    "AT 10600",
+    "AT 14400",
+    "AT 20200",
+    "AT 20300",
+    "AT 25200",
+    "AT 30000",
+    "AT 35900",
+    "AT 36201",
+    "AT 41200",
+    "AT 42101",
+    "AT 45100",
+    "AT 45900",
+    "AT 47500",
+    "AT 48100",
+    "AT 49800",
+    "ECON 25100",
+    "ECON 30000",
+    "FIN 30000",
+    "HEA 01348",
+    "HELP 02026",
+    "IET 31600",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "MKTG 30000",
+    "OBHR 30000",
+    "PHYS 22000",
+    "STAT 30100",
+    "STAT 30301",
+    "TECH 12000"
+  ]
+}

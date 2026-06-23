@@ -1,0 +1,482 @@
+{
+  "id": "fermentation-science-bs",
+  "poid": "35706",
+  "name": "Fermentation Science, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35706",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.890261+00:00",
+  "course_credits": {
+    "FS 16310": 3.0,
+    "FS 16500": 2.0,
+    "FS 29800": 1.0,
+    "FS 34100": 2.0,
+    "FS 36100": 1.0,
+    "FS 37200": 3.0,
+    "FS 37301": 2.0,
+    "FS 40100": 2.0,
+    "FS 40200": 1.0,
+    "FS 44400": 1.0,
+    "FS 48200": 1.0,
+    "FS 48300": 3.0,
+    "FS 48400": 2.0,
+    "FS 36200": 3.0,
+    "BIOL 43800": 3.0,
+    "FS 36300": 2.0,
+    "BIOL 43900": 2.0,
+    "ABE 22600": 2.0,
+    "ABE 32700": 2.0,
+    "AGR 10100": 0.5,
+    "AGR 11800": 0.5,
+    "BCHM 30700": 3.0,
+    "BCHM 30900": 1.0,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "BIOL 23100": 3.0,
+    "BIOL 24100": 3.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 25700": 4.0,
+    "CHM 25701": 1.0,
+    "CHM 32100": 4.0,
+    "MA 16010": 3.0,
+    "MA 16020": 3.0,
+    "PHYS 22000": 4.0,
+    "STAT 30100": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 34.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 34.0,
+          "kind": "all_of",
+          "courses": [
+            "FS 16310",
+            "FS 16500",
+            "FS 29800",
+            "FS 34100",
+            "FS 36100",
+            "FS 37200",
+            "FS 37301",
+            "FS 40100",
+            "FS 40200",
+            "FS 44400",
+            "FS 48200",
+            "FS 48300",
+            "FS 48400"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "FS 36200 / BIOL 43800",
+              "courses": [
+                "FS 36200",
+                "BIOL 43800"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "FS 36300 / BIOL 43900",
+              "courses": [
+                "FS 36300",
+                "BIOL 43900"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        2.0,
+        5.0
+      ],
+      "kind": "credits",
+      "credits": 2.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11800",
+          "title": "Introduction To Food Science Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 16310",
+          "title": "Introduction To Fermentation Science",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 16500",
+          "title": "Practical Microbiology",
+          "credits": 2.0
+        },
+        {
+          "code": "MA 16020",
+          "title": "Applied Calculus II (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "BIOL 23100",
+          "title": "Biology III: Cell Structure And Function",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25700",
+          "title": "Organic Chemistry",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 25701",
+          "title": "Organic Chemistry Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 29800",
+          "title": "Sophomore Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "BCHM 30700",
+          "title": "Biochemistry",
+          "credits": 3.0
+        },
+        {
+          "code": "BCHM 30900",
+          "title": "Biochemistry Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "BIOL 24100",
+          "title": "Biology IV: Genetics And Molecular Biology",
+          "credits": 3.0
+        },
+        {
+          "label": "Humanities or Social Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "ABE 22600",
+          "title": "Biotechnology Laboratory I (UCC: STS)",
+          "credits": 2.0
+        },
+        {
+          "code": "FS 36100",
+          "title": "Food Plant Sanitation",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 44400",
+          "title": "Statistical Process Control",
+          "credits": 1.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "FS 36200",
+          "title": "Food Microbiology",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "BIOL 43800",
+              "title": "General Microbiology",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "FS 36300",
+          "title": "Food Microbiology Laboratory",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "BIOL 43900",
+              "title": "Laboratory In General Microbiology",
+              "credits": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "ABE 32700",
+          "title": "Biotechnology Laboratory II",
+          "credits": 2.0
+        },
+        {
+          "code": "FS 37200",
+          "title": "Fermentation Microbiology",
+          "credits": 3.0
+        },
+        {
+          "label": "Economics Selective (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Fermentation Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ Level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "FS 37301",
+          "title": "Fermentation Microbiology Laboratory",
+          "credits": 2.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CHM 32100",
+          "title": "Analytical Chemistry I",
+          "credits": 4.0
+        },
+        {
+          "code": "FS 34100",
+          "title": "Food Processing I",
+          "credits": 2.0
+        },
+        {
+          "code": "FS 40100",
+          "title": "Fermentation Processing",
+          "credits": 2.0
+        },
+        {
+          "code": "FS 40200",
+          "title": "Fermentation Processing Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 48200",
+          "title": "Food Science Senior Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 48300",
+          "title": "Fermentation Capstone",
+          "credits": 3.0
+        },
+        {
+          "label": "Professional Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12-14 Credits",
+      "items": [
+        {
+          "code": "FS 48400",
+          "title": "Fermentation Capstone II",
+          "credits": 2.0
+        },
+        {
+          "label": "General Fermentation Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ABE 22600",
+    "ABE 32700",
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 21700",
+    "AGR 10100",
+    "AGR 11800",
+    "BCHM 30700",
+    "BCHM 30900",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BIOL 23100",
+    "BIOL 24100",
+    "BIOL 43800",
+    "BIOL 43900",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 25700",
+    "CHM 25701",
+    "CHM 32100",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "FS 16310",
+    "FS 16500",
+    "FS 29800",
+    "FS 34100",
+    "FS 36100",
+    "FS 36200",
+    "FS 36300",
+    "FS 37200",
+    "FS 37301",
+    "FS 40100",
+    "FS 40200",
+    "FS 44400",
+    "FS 48200",
+    "FS 48300",
+    "FS 48400",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "PHYS 22000",
+    "STAT 30100"
+  ]
+}

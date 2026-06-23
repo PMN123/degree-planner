@@ -1,0 +1,57 @@
+{
+  "id": "plant-pathology-minor",
+  "poid": "34730",
+  "name": "Plant Pathology Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34730",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.815888+00:00",
+  "course_credits": {
+    "BTNY 30100": 3.0,
+    "BTNY 52500": 3.0,
+    "BTNY 53500": 3.0,
+    "BTNY 20700": 3.0,
+    "BTNY 49800": 1.0,
+    "BTNY 55000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "BTNY 30100",
+        "BTNY 52500",
+        "BTNY 53500"
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "BTNY 20700",
+        "BTNY 49800",
+        "BTNY 55000"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "BTNY 20700",
+    "BTNY 30100",
+    "BTNY 49800",
+    "BTNY 52500",
+    "BTNY 53500",
+    "BTNY 55000",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

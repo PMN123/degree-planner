@@ -1,0 +1,69 @@
+{
+  "id": "sports-communication-minor",
+  "poid": "37137",
+  "name": "Sports Communication Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=37137",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.352816+00:00",
+  "course_credits": {
+    "COM 40001": 3.0,
+    "COM 40002": 3.0,
+    "COM 49501": 3.0,
+    "COM 49505": 3.0,
+    "HK 32800": 3.0,
+    "HK 37600": 3.0,
+    "HK 42700": 3.0,
+    "COM 49000": 1.0,
+    "COM 49101": 1.0,
+    "COM 49701": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Sports Communication Content Courses",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "COM 40001",
+        "COM 40002",
+        "COM 49501",
+        "COM 49505",
+        "HK 32800",
+        "HK 37600",
+        "HK 42700"
+      ],
+      "choose_credits": 9.0
+    },
+    {
+      "name": "Experiential Learning in Sports Communication",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "COM 49000",
+        "COM 49101",
+        "COM 49701"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "COM 40001",
+    "COM 40002",
+    "COM 49000",
+    "COM 49101",
+    "COM 49501",
+    "COM 49505",
+    "COM 49701",
+    "HELP 02026",
+    "HK 32800",
+    "HK 37600",
+    "HK 42700",
+    "IN 47907"
+  ]
+}

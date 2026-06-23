@@ -1,0 +1,75 @@
+{
+  "id": "critical-disability-studies-minor",
+  "poid": "35106",
+  "name": "Critical Disability Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 12,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35106",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.661287+00:00",
+  "course_credits": {
+    "CDIS 23900": 3.0,
+    "ANTH 34000": 3.0,
+    "ANTH 38400": 3.0,
+    "ASL 28000": 3.0,
+    "CDIS 29000": 3.0,
+    "ENGL 43900": 3.0,
+    "HIST 48005": 3.0,
+    "IE 59000": 1.0,
+    "BME 49500": 1.0,
+    "IE 49000": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "CDIS 23900"
+      ]
+    },
+    {
+      "name": "B. Selectives",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "ANTH 34000",
+        "ANTH 38400",
+        "ASL 28000",
+        "CDIS 29000",
+        "ENGL 43900",
+        "HIST 48005",
+        "IE 59000",
+        {
+          "kind": "one_of",
+          "name": "BME 49500 / IE 49000",
+          "courses": [
+            "BME 49500",
+            "IE 49000"
+          ]
+        }
+      ],
+      "choose_credits": 9.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ANTH 34000",
+    "ANTH 38400",
+    "ASL 28000",
+    "BME 49500",
+    "CDIS 23900",
+    "CDIS 29000",
+    "ENGL 43900",
+    "HELP 02026",
+    "HIST 48005",
+    "IE 49000",
+    "IE 59000",
+    "IN 47907"
+  ]
+}

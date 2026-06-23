@@ -1,0 +1,412 @@
+{
+  "id": "themed-entertainment-design-bs-indianapolis-only",
+  "poid": "36011",
+  "name": "Themed Entertainment Design, BS (Indianapolis Only)",
+  "degree": "BS (Indianapolis Only)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=36011",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.203485+00:00",
+  "course_credits": {
+    "CGT 10100": 3.0,
+    "CGT 11100": 3.0,
+    "CGT 11200": 3.0,
+    "CGT 11600": 3.0,
+    "CGT 12300": 3.0,
+    "CGT 20100": 2.0,
+    "CGT 20400": 3.0,
+    "CGT 21100": 3.0,
+    "CGT 22000": 3.0,
+    "CGT 25100": 3.0,
+    "CGT 31300": 3.0,
+    "CGT 31700": 3.0,
+    "CGT 32800": 3.0,
+    "CGT 35000": 3.0,
+    "CGT 36700": 3.0,
+    "CGT 40100": 3.0,
+    "CGT 40400": 3.0,
+    "CGT 40700": 3.0,
+    "CGT 41100": 3.0,
+    "CGT 43500": 3.0,
+    "CGT 45300": 3.0,
+    "MA 15300": 3.0,
+    "MA 15800": 3.0,
+    "PHYS 22000": 4.0,
+    "STAT 30100": 3.0,
+    "TCM 42500": 3.0,
+    "TECH 12000": 3.0,
+    "CGT 30900": 2.0,
+    "CGT 31901": 3.0,
+    "CGT 41600": 3.0,
+    "CGT 49800": 1.0,
+    "EPCS 20100": 1.0,
+    "EPCS 20200": 2.0,
+    "EPCS 30100": 1.0,
+    "EPCS 30200": 2.0,
+    "EPCS 40100": 1.0,
+    "EPCS 40200": 2.0,
+    "EPCS 41100": 1.0,
+    "EPCS 41200": 2.0,
+    "VIP 27920": 2.0,
+    "VIP 37920": 2.0,
+    "VIP 47921": 2.0,
+    "VIP 47922": 2.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 65.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 65.0,
+          "kind": "all_of",
+          "courses": [
+            "CGT 10100",
+            "CGT 11100",
+            "CGT 11200",
+            "CGT 11600",
+            "CGT 12300",
+            "CGT 20100",
+            "CGT 20400",
+            "CGT 21100",
+            "CGT 22000",
+            "CGT 25100",
+            "CGT 31300",
+            "CGT 31700",
+            "CGT 32800",
+            "CGT 35000",
+            "CGT 36700",
+            "CGT 40100",
+            "CGT 40400",
+            "CGT 40700",
+            "CGT 41100",
+            "CGT 43500",
+            "CGT 45300"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elective",
+      "credit_target": [
+        8.0,
+        16.0
+      ],
+      "kind": "credits",
+      "credits": 8.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "CGT 10100",
+          "title": "Introduction To Computer Graphics Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 11100",
+          "title": "Designing For Visualization And Communication",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 11200",
+          "title": "Sketching For Visualization And Communication",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 11600",
+          "title": "Geometric Modeling For Visualization And Communication",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CGT 12300",
+          "title": "Animation Foundations I",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 20400",
+          "title": "Foundations Of Themed Experience Design",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CGT 25100",
+          "title": "Principles Of Creative Design",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 32800",
+          "title": "Business Of Themed Experience",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15300",
+          "title": "College Algebra (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CGT 20100",
+          "title": "Portfolio Presentation",
+          "credits": 2.0
+        },
+        {
+          "code": "CGT 21100",
+          "title": "Creative Digital Imagery",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 22000",
+          "title": "Prop Asset Creation",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 31300",
+          "title": "Digital Painting I For Computer Graphics",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CGT 31700",
+          "title": "Planning And Communication For Themed Experience Design",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 35000",
+          "title": "Experiential Branding And Storytelling",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "CGT 36700",
+          "title": "Previsualization In Themed Experience",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 40700",
+          "title": "R&D Themed Experience",
+          "credits": 3.0
+        },
+        {
+          "label": "Professional Requirement Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Globalization Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 40100",
+          "title": "Immersive Virtual Realities",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 43500",
+          "title": "Virtual Reality And 3D User Interfaces",
+          "credits": 3.0
+        },
+        {
+          "label": "Professional Requirement Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Advanced English Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CGT 40400",
+          "title": "Self Promotion For Creative Computing",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 41100",
+          "title": "Contemporary Problems In Applied Computer Graphics",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 45300",
+          "title": "Multisensory Experience Design",
+          "credits": 3.0
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CGT 10100",
+    "CGT 11100",
+    "CGT 11200",
+    "CGT 11600",
+    "CGT 12300",
+    "CGT 20100",
+    "CGT 20400",
+    "CGT 21100",
+    "CGT 22000",
+    "CGT 25100",
+    "CGT 30900",
+    "CGT 31300",
+    "CGT 31700",
+    "CGT 31901",
+    "CGT 32800",
+    "CGT 35000",
+    "CGT 36700",
+    "CGT 40100",
+    "CGT 40400",
+    "CGT 40700",
+    "CGT 41100",
+    "CGT 41600",
+    "CGT 43500",
+    "CGT 45300",
+    "CGT 49800",
+    "ENGL 30000",
+    "EPCS 20100",
+    "EPCS 20200",
+    "EPCS 30100",
+    "EPCS 30200",
+    "EPCS 40100",
+    "EPCS 40200",
+    "EPCS 41100",
+    "EPCS 41200",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 15300",
+    "MA 15800",
+    "PHYS 22000",
+    "STAT 30100",
+    "TCM 42500",
+    "TECH 12000",
+    "VIP 27920",
+    "VIP 37920",
+    "VIP 47921",
+    "VIP 47922"
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "agricultural-economics-policy-and-pre-law-concentration-bs",
+  "poid": "35713",
+  "name": "Agricultural Economics: Policy and Pre-Law Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35713",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.351249+00:00",
+  "course_credits": {
+    "AGEC 20201": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "ECON 25100": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25200": 3.0,
+    "AGEC 29800": 1.0,
+    "AGEC 30300": 3.0,
+    "AGEC 37500": 1.0,
+    "AGEC 40600": 3.0,
+    "AGEC 41000": 3.0,
+    "AGEC 49900": 1.0,
+    "AGEC 35200": 3.0,
+    "AGEC 45100": 3.0,
+    "AGEC 45500": 3.0,
+    "STRT 45500": 3.0,
+    "AGR 10100": 0.5,
+    "AGR 11200": 0.5,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0,
+    "MA 16010": 3.0,
+    "STAT 30100": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 51.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Major Required Courses",
+          "credit_target": 13.0,
+          "kind": "all_of",
+          "courses": [
+            "AGEC 20201",
+            "AGEC 29800",
+            "AGEC 30300"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AGEC 20300 / AGEC 20400 / ECON 25100",
+              "courses": [
+                "AGEC 20300",
+                "AGEC 20400",
+                "ECON 25100"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AGEC 21700 / ECON 21000 / ECON 25200",
+              "courses": [
+                "AGEC 21700",
+                "ECON 21000",
+                "ECON 25200"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Policy and Pre-Law Concentration Courses",
+          "credit_target": 24.0,
+          "kind": "all_of",
+          "courses": [
+            "AGEC 37500",
+            "AGEC 40600",
+            "AGEC 41000",
+            "AGEC 49900"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AGEC 35200 / AGEC 45100",
+              "courses": [
+                "AGEC 35200",
+                "AGEC 45100"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AGEC 45500 / STRT 45500",
+              "courses": [
+                "AGEC 45500",
+                "STRT 45500"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AGEC Departmental Selectives",
+          "credit_target": 14.0,
+          "kind": "credits",
+          "credits": 14.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        21.0,
+        25.0
+      ],
+      "kind": "credits",
+      "credits": 21.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AGEC 29800",
+          "title": "Careers In Agribusiness",
+          "credits": 1.0
+        },
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11200",
+          "title": "Introduction To Agricultural Economics Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "AGEC Biological Sciences Selective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "AGEC 20300",
+          "title": "Introductory Microeconomics For Food And Agribusiness (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 20400",
+              "title": "Introduction To Resource Economics And Environmental Policy (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "ECON 25100",
+              "title": "Microeconomics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGEC 20201",
+          "title": "Introduction To Data Analytics For Agricultural Business",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 21700",
+          "title": "Economics (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ECON 21000",
+              "title": "Principles Of Economics (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "ECON 25200",
+              "title": "Macroeconomics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "AGEC Biological Sciences Selective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGEC 30300",
+          "title": "Intermediate Applied Microeconomics",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 37500",
+          "title": "The Process Of Economic Research",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ACCT 21200",
+              "title": "Business Accounting",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Policy and Pre-Law Concentration Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "AGEC 40600",
+          "title": "Natural Resource And Environmental Economics",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 49900",
+          "title": "Thesis",
+          "credits": 1.0
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "AGEC 35200",
+          "title": "Quantitative Techniques For Firm Decision Making",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 45100",
+              "title": "Applied Econometrics",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AGEC 41000",
+          "title": "Agricultural Policy",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 49900",
+          "title": "Thesis",
+          "credits": 1.0
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "AGEC 45500",
+          "title": "Agricultural Law",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STRT 45500",
+              "title": "Legal Background For Business I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "AGEC Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Policy and Pre-Law Concentration Selectives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "label": "AGEC Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities or Social Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 20201",
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 21700",
+    "AGEC 29800",
+    "AGEC 30300",
+    "AGEC 35200",
+    "AGEC 37500",
+    "AGEC 40600",
+    "AGEC 41000",
+    "AGEC 41100",
+    "AGEC 45100",
+    "AGEC 45500",
+    "AGEC 49900",
+    "AGR 10100",
+    "AGR 11200",
+    "CHM 11100",
+    "CHM 11200",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "STAT 30100",
+    "STRT 45500"
+  ]
+}

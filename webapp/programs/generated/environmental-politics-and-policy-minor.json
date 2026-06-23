@@ -1,0 +1,63 @@
+{
+  "id": "environmental-politics-and-policy-minor",
+  "poid": "34876",
+  "name": "Environmental Politics and Policy Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 12,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34876",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.521086+00:00",
+  "course_credits": {
+    "POL 22300": 3.0,
+    "POL 32300": 3.0,
+    "POL 32700": 3.0,
+    "POL 42300": 3.0,
+    "POL 42800": 3.0,
+    "POL 42900": 3.0,
+    "POL 52000": 3.0,
+    "POL 52300": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "POL 22300"
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "POL 32300",
+        "POL 32700",
+        "POL 42300",
+        "POL 42800",
+        "POL 42900",
+        "POL 52000",
+        "POL 52300"
+      ],
+      "choose_credits": 9.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "POL 22300",
+    "POL 32300",
+    "POL 32700",
+    "POL 42300",
+    "POL 42800",
+    "POL 42900",
+    "POL 52000",
+    "POL 52300"
+  ]
+}

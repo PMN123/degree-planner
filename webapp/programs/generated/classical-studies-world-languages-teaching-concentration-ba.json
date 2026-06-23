@@ -1,0 +1,556 @@
+{
+  "id": "classical-studies-world-languages-teaching-concentration-ba",
+  "poid": "35738",
+  "name": "Classical Studies: World Languages Teaching Concentration, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35738",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.908693+00:00",
+  "course_credits": {
+    "LATN 10100": 3.0,
+    "LATN 10200": 3.0,
+    "LATN 20100": 3.0,
+    "LATN 20200": 3.0,
+    "CLCS 23100": 3.0,
+    "CLCS 18100": 3.0,
+    "CLCS 23500": 3.0,
+    "CLCS 23700": 3.0,
+    "CLCS 38300": 3.0,
+    "CLCS 23200": 3.0,
+    "CLCS 38700": 3.0,
+    "LATN 31500": 3.0,
+    "LATN 34300": 3.0,
+    "LATN 34400": 3.0,
+    "LATN 34500": 3.0,
+    "LATN 34600": 3.0,
+    "LATN 34700": 3.0,
+    "LATN 44200": 3.0,
+    "LATN 44300": 3.0,
+    "LATN 44400": 3.0,
+    "LATN 44500": 3.0,
+    "LATN 44600": 3.0,
+    "CLCS 23800": 3.0,
+    "CLCS 23900": 3.0,
+    "CLCS 38100": 3.0,
+    "EDCI 20500": 2.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 30900": 1.0,
+    "EDCI 37001": 2.0,
+    "EDCI 42700": 3.0,
+    "EDCI 49800": 6.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26501": 2.0,
+    "EDPS 32700": 1.0,
+    "EDPS 36201": 0.0,
+    "EDPS 43010": 1.0,
+    "EDST 20010": 1.0,
+    "LC 23700": 3.0,
+    "LC 47500": 3.0,
+    "EDCI 20001": 1.0,
+    "EDPS 20001": 1.0,
+    "EDPS 40300": 3.0,
+    "EDCI 31950": 3.0,
+    "EDCI 32650": 3.0,
+    "EDPS 34501": 3.0,
+    "EDPS 21100": 3.0,
+    "EDPS 41700": 3.0,
+    "EDPS 45900": 3.0,
+    "EDCI 28500": 2.0,
+    "EDCI 35000": 1.0,
+    "EDCI 20002": 1.0,
+    "EDPS 24000": 1.0,
+    "EDPS 24800": 1.0,
+    "EDPS 26500": 3.0,
+    "EDCI 33300": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 71.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Pre-Requisite Languages Courses",
+          "kind": "all_of",
+          "courses": [
+            "LATN 10100",
+            "LATN 10200",
+            "LATN 20100",
+            "LATN 20200"
+          ]
+        },
+        {
+          "name": "A. Classical Studies Foundational Courses",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "CLCS 23100",
+            "CLCS 18100",
+            "CLCS 23500",
+            "CLCS 23700"
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "Education Track",
+          "credit_target": 18.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "B. Culture and Civilization",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "CLCS 18100",
+                "CLCS 38300"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "C. Etymology Course",
+              "credit_target": 3.0,
+              "kind": "all_of",
+              "courses": [
+                "CLCS 23200"
+              ]
+            },
+            {
+              "name": "D. Latin Literature Courses",
+              "credit_target": 9.0,
+              "kind": "choose",
+              "options": [
+                "CLCS 38700",
+                "LATN 31500",
+                "LATN 34300",
+                "LATN 34400",
+                "LATN 34500",
+                "LATN 34600",
+                "LATN 34700",
+                "LATN 44200",
+                "LATN 44300",
+                "LATN 44400",
+                "LATN 44500",
+                "LATN 44600"
+              ],
+              "choose_credits": 9.0
+            },
+            {
+              "name": "E. Classics Selective",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "CLCS 18100",
+                "CLCS 23500",
+                "CLCS 23700",
+                "CLCS 23800",
+                "CLCS 23900",
+                "CLCS 38100",
+                "CLCS 38300",
+                "CLCS 38700"
+              ],
+              "choose_credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Professional Education Requirements",
+      "credit_target": 47.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Learner Specialty Pathway Selective",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "EDPS 40300",
+            "EDCI 31950",
+            "EDCI 32650",
+            "EDPS 34501",
+            "EDPS 21100",
+            "EDPS 41700",
+            "EDPS 45900"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - CLA Core",
+      "credit_target": 12.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Foundational Requirements",
+          "credit_target": 12.0,
+          "kind": "credits",
+          "credits": 12.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": 37.0,
+      "kind": "credits",
+      "credits": 37.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "code": "LATN 10100",
+          "title": "Latin Level I (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "LC 23700",
+          "title": "Our Common Bond: Languages And Cultures In A Global Context",
+          "credits": 3.0
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "EDCI 28500",
+          "title": "Multiculturalism And Education (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 35000",
+          "title": "Community Issues & Applications For Educators",
+          "credits": 1.0
+        },
+        {
+          "code": "LATN 10200",
+          "title": "Latin Level II (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "CLCS 18100",
+          "title": "Classical World Civilizations (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CLCS 23500",
+              "title": "Introduction To Classical Mythology (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "CLCS 23700",
+              "title": "Gender And Sexuality In Greek And Roman Antiquity (UCC: HUM/BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CLCS 23100",
+          "title": "Survey Of Roman Literature In Translation (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 20002",
+          "title": "Special Populations Seminar: English Language Learners And Students With Gifts And Talents",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24000",
+          "title": "Children With Gifts, Creativity, And Talents",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "code": "LATN 20100",
+          "title": "Latin Level III (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24800",
+          "title": "Differentiating Curriculum And Instruction",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 26500",
+          "title": "The Inclusive Classroom",
+          "credits": 3.0
+        },
+        {
+          "code": "LATN 20200",
+          "title": "Latin Level IV (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Area B: Culture and Civilization",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, and Society",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "CLCS 23200",
+          "title": "Classical Roots Of English Words (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 33300",
+          "title": "Reading In Our World: Disciplinary Literacy Development In The Content Areas",
+          "credits": 3.0
+        },
+        {
+          "label": "Area D: Latin Literature Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Learner Specialty Pathway Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "LC 47500",
+          "title": "Theories Of Teaching World Languages",
+          "credits": 3.0
+        },
+        {
+          "label": "Area D: Latin Literature Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area E: Classics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "EDCI 42700",
+          "title": "Teaching Of World Languages",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 43010",
+          "title": "Secondary Creating And Managing Learning Environments",
+          "credits": 1.0
+        },
+        {
+          "label": "Area D: Latin Literature Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDCI 49800",
+          "title": "Supervised Teaching (UCC: OC)",
+          "credits": 6.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CLCS 18100",
+    "CLCS 23100",
+    "CLCS 23200",
+    "CLCS 23500",
+    "CLCS 23700",
+    "CLCS 23800",
+    "CLCS 23900",
+    "CLCS 38100",
+    "CLCS 38300",
+    "CLCS 38700",
+    "EDCI 20001",
+    "EDCI 20002",
+    "EDCI 20500",
+    "EDCI 27000",
+    "EDCI 28500",
+    "EDCI 28550",
+    "EDCI 30900",
+    "EDCI 31950",
+    "EDCI 32650",
+    "EDCI 33300",
+    "EDCI 35000",
+    "EDCI 37001",
+    "EDCI 42700",
+    "EDCI 49800",
+    "EDPS 20001",
+    "EDPS 21100",
+    "EDPS 23500",
+    "EDPS 24000",
+    "EDPS 24001",
+    "EDPS 24800",
+    "EDPS 26500",
+    "EDPS 26501",
+    "EDPS 32700",
+    "EDPS 34501",
+    "EDPS 36201",
+    "EDPS 40300",
+    "EDPS 41700",
+    "EDPS 43010",
+    "EDPS 45900",
+    "EDST 20010",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "LATN 10100",
+    "LATN 10200",
+    "LATN 20100",
+    "LATN 20200",
+    "LATN 31500",
+    "LATN 34300",
+    "LATN 34400",
+    "LATN 34500",
+    "LATN 34600",
+    "LATN 34700",
+    "LATN 44200",
+    "LATN 44300",
+    "LATN 44400",
+    "LATN 44500",
+    "LATN 44600",
+    "LC 23700",
+    "LC 47500",
+    "SPAN 30100"
+  ]
+}

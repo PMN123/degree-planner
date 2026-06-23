@@ -1,0 +1,92 @@
+{
+  "id": "materials-science-and-engineering-minor",
+  "poid": "35947",
+  "name": "Materials Science and Engineering Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35947",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.406076+00:00",
+  "course_credits": {
+    "MSE 23000": 3.0,
+    "NUCL 32000": 3.0,
+    "MSE 26000": 3.0,
+    "MSE 27000": 3.0,
+    "MSE 33000": 3.0,
+    "MSE 37000": 3.0,
+    "MSE 34000": 3.0,
+    "MSE 38200": 3.0,
+    "MSE 42000": 3.0,
+    "MSE 44500": 3.0,
+    "MSE 49900": 0.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Core Requirements",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "MSE 23000 / NUCL 32000",
+          "courses": [
+            "MSE 23000",
+            "NUCL 32000"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Selective - Choose Two",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "MSE 26000",
+        "MSE 27000",
+        "MSE 33000",
+        "MSE 37000"
+      ],
+      "choose_credits": 6.0
+    },
+    {
+      "name": "Additional Selective - Choose Two",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "MSE 34000",
+        "MSE 38200",
+        "MSE 42000",
+        "MSE 44500",
+        "MSE 49900"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "MSE 23000",
+    "MSE 23500",
+    "MSE 26000",
+    "MSE 27000",
+    "MSE 33000",
+    "MSE 33500",
+    "MSE 34000",
+    "MSE 36700",
+    "MSE 37000",
+    "MSE 38200",
+    "MSE 42000",
+    "MSE 43000",
+    "MSE 44000",
+    "MSE 44500",
+    "MSE 49900",
+    "MSE 50000",
+    "NUCL 32000"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "biochemistry-minor",
+  "poid": "34725",
+  "name": "Biochemistry Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 16,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34725",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.769466+00:00",
+  "course_credits": {
+    "BCHM 10000": 2.0,
+    "CHM 25600": 3.0,
+    "CHM 26200": 3.0,
+    "CHM 26605": 3.0,
+    "PHSC 20500": 3.0,
+    "BCHM 36100": 3.0,
+    "BCHM 46200": 3.0,
+    "BCHM 56600": 4.0,
+    "BCHM 29000": 2.0,
+    "BCHM 32200": 2.0,
+    "BCHM 46500": 2.0,
+    "BCHM 49000": 1.0,
+    "BCHM 49800": 1.0,
+    "BCHM 22100": 3.0,
+    "CHM 32100": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": [
+        9.0,
+        10.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "BCHM 36100",
+        "BCHM 46200",
+        "BCHM 56600"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "BCHM 10000 / CHM 25600 / CHM 26200 / CHM 26605 / PHSC 20500",
+          "courses": [
+            "BCHM 10000",
+            "CHM 25600",
+            "CHM 26200",
+            "CHM 26605",
+            "PHSC 20500"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": 7.0,
+      "kind": "choose",
+      "options": [
+        "BCHM 29000",
+        "BCHM 32200",
+        "BCHM 46500",
+        "BCHM 49000",
+        "BCHM 49800",
+        {
+          "kind": "one_of",
+          "name": "BCHM 22100 / CHM 32100",
+          "courses": [
+            "BCHM 22100",
+            "CHM 32100"
+          ]
+        }
+      ],
+      "choose_credits": 7.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "BCHM 10000",
+    "BCHM 22100",
+    "BCHM 29000",
+    "BCHM 32200",
+    "BCHM 36100",
+    "BCHM 46200",
+    "BCHM 46300",
+    "BCHM 46500",
+    "BCHM 49000",
+    "BCHM 49800",
+    "BCHM 56600",
+    "CHM 25600",
+    "CHM 26200",
+    "CHM 26605",
+    "CHM 32100",
+    "HELP 02026",
+    "IN 47907",
+    "PHSC 20500"
+  ]
+}

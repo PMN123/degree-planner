@@ -1,0 +1,80 @@
+{
+  "id": "psychology-minor",
+  "poid": "35914",
+  "name": "Psychology Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35914",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.080501+00:00",
+  "course_credits": {
+    "PSY 12000": 3.0,
+    "PSY 20000": 3.0,
+    "PSY 22200": 3.0,
+    "PSY 23500": 3.0,
+    "PSY 24000": 3.0,
+    "PSY 27200": 3.0,
+    "PSY 35000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "PSY 12000"
+      ]
+    },
+    {
+      "name": "B. Selective",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "PSY 20000",
+        "PSY 22200"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "C. Selective",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "PSY 23500",
+        "PSY 24000",
+        "PSY 27200",
+        "PSY 35000"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "D. Additional Psychology Courses",
+      "credit_target": 6.0,
+      "kind": "credits",
+      "credits": 6.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "PSY 12000",
+    "PSY 12300",
+    "PSY 20000",
+    "PSY 22000",
+    "PSY 22200",
+    "PSY 23500",
+    "PSY 24000",
+    "PSY 27200",
+    "PSY 35000",
+    "PSY 39000",
+    "PSY 39100"
+  ]
+}

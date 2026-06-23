@@ -1,0 +1,549 @@
+{
+  "id": "digital-criminology-bs",
+  "poid": "35837",
+  "name": "Digital Criminology, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35837",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.580635+00:00",
+  "course_credits": {
+    "CNIT 15501": 3.0,
+    "CNIT 17600": 3.0,
+    "CNIT 18200": 3.0,
+    "CNIT 24200": 3.0,
+    "CNIT 27000": 3.0,
+    "CNIT 32300": 3.0,
+    "CNIT 34400": 3.0,
+    "CNIT 42200": 3.0,
+    "SOC 10000": 3.0,
+    "SOC 32400": 3.0,
+    "SOC 32800": 3.0,
+    "SOC 38100": 3.0,
+    "SOC 38200": 3.0,
+    "SOC 38300": 3.0,
+    "SOC 41900": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16020": 3.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "PSY 12000": 3.0,
+    "PSY 35000": 3.0,
+    "SOC 32900": 3.0,
+    "SOC 35600": 3.0,
+    "SOC 41700": 3.0,
+    "SOC 42600": 3.0,
+    "SOC 42900": 3.0,
+    "ANTH 38000": 3.0,
+    "ENGL 34400": 3.0,
+    "PHIL 20700": 3.0,
+    "PHIL 20800": 3.0,
+    "PHIL 27000": 3.0,
+    "PHIL 28000": 3.0,
+    "PHIL 29000": 3.0,
+    "PHIL 42400": 3.0,
+    "POL 22800": 3.0,
+    "ANTH 30600": 3.0,
+    "ANTH 52300": 3.0,
+    "COM 41100": 3.0,
+    "POL 30000": 3.0,
+    "POL 45000": 3.0,
+    "POL 50100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        75.0,
+        79.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 57.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Calculus I",
+              "credit_target": [
+                0.0,
+                5.0
+              ],
+              "kind": "all_of",
+              "courses": [
+                "MA 16010",
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "name": "Calculus II",
+              "credit_target": [
+                3.0,
+                5.0
+              ],
+              "kind": "choose",
+              "options": [
+                "MA 16020",
+                "MA 16200",
+                "MA 16600"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Required Psychological Sciences Courses",
+              "credit_target": 6.0,
+              "kind": "all_of",
+              "courses": [
+                "PSY 12000",
+                "PSY 35000"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Major Selectives",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "SOC 32900",
+            "SOC 35600",
+            "SOC 41700",
+            "SOC 42600",
+            "SOC 42900"
+          ],
+          "choose_credits": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For Bachelor of Science",
+      "credit_target": [
+        24.0,
+        39.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Scientific Research Ethics",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "ANTH 38000",
+            "ENGL 34400",
+            "PHIL 20700",
+            "PHIL 20800",
+            "PHIL 27000",
+            "PHIL 28000",
+            "PHIL 29000",
+            "PHIL 42400",
+            "POL 22800",
+            "SOC 38100"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Core III: Cultural and Linguistic Diversity",
+          "credit_target": [
+            6.0,
+            9.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core IV: Analytical and Computational Methods",
+          "credit_target": 9.0,
+          "kind": "choose",
+          "options": [
+            "ANTH 30600",
+            "ANTH 52300",
+            "COM 41100",
+            "POL 30000",
+            "POL 45000",
+            "POL 50100"
+          ],
+          "choose_credits": 9.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "SOC 10000",
+          "title": "Introductory Sociology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16100",
+              "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 5.0
+            },
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 2 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core III: 1 of 2",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "CNIT 18200",
+          "title": "Systems Development & Organization Security",
+          "credits": 3.0
+        },
+        {
+          "code": "SOC 32800",
+          "title": "Criminal Justice",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16020",
+          "title": "Applied Calculus II (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16200",
+              "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 5.0
+            },
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core III: 2 of 2",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CNIT 15501",
+          "title": "Introduction To Software Development Concepts",
+          "credits": 3.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "SOC Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "SOC 38100",
+          "title": "Data And Society",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "CNIT 17600",
+          "title": "Information Technology Architectures",
+          "credits": 3.0
+        },
+        {
+          "code": "PSY 35000",
+          "title": "Abnormal Psychology",
+          "credits": 3.0
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core IV: 1 of 4",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-21 Credits",
+      "items": [
+        {
+          "code": "CNIT 24200",
+          "title": "System Administration",
+          "credits": 3.0
+        },
+        {
+          "code": "SOC 41900",
+          "title": "Sociology Of Law",
+          "credits": 3.0
+        },
+        {
+          "code": "SOC 38200",
+          "title": "Introduction To Statistics In Sociology",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SOC 38300",
+              "title": "Introduction To Research Methods In Sociology",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14-21 Credits",
+      "items": [
+        {
+          "code": "CNIT 27000",
+          "title": "Cybersecurity Fundamentals I",
+          "credits": 3.0
+        },
+        {
+          "code": "SOC 38200",
+          "title": "Introduction To Statistics In Sociology",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SOC 38300",
+              "title": "Introduction To Research Methods In Sociology",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core IV: 2 of 4",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CNIT 34400",
+          "title": "Network Engineering Fundamentals",
+          "credits": 3.0
+        },
+        {
+          "code": "SOC 32400",
+          "title": "Criminology",
+          "credits": 3.0
+        },
+        {
+          "label": "CLA Core I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CNIT Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CNIT 32300",
+          "title": "Digital Forensics",
+          "credits": 3.0
+        },
+        {
+          "code": "CNIT 42200",
+          "title": "Cyber Criminology",
+          "credits": 3.0
+        },
+        {
+          "code": "SOC 42600",
+          "title": "Social Deviance And Control",
+          "credits": 3.0
+        },
+        {
+          "code": "SOC 42900",
+          "title": "Sociology Of Protest (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "CLA Core IV: 4 of 4 - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ANTH 30600",
+    "ANTH 38000",
+    "ANTH 52300",
+    "CNIT 15501",
+    "CNIT 17600",
+    "CNIT 18200",
+    "CNIT 24200",
+    "CNIT 27000",
+    "CNIT 32300",
+    "CNIT 34400",
+    "CNIT 42200",
+    "COM 41100",
+    "ENGL 34400",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "PHIL 20700",
+    "PHIL 20800",
+    "PHIL 27000",
+    "PHIL 28000",
+    "PHIL 29000",
+    "PHIL 42400",
+    "POL 22800",
+    "POL 30000",
+    "POL 45000",
+    "POL 50100",
+    "PSY 12000",
+    "PSY 35000",
+    "SOC 10000",
+    "SOC 32400",
+    "SOC 32800",
+    "SOC 32900",
+    "SOC 35600",
+    "SOC 38100",
+    "SOC 38200",
+    "SOC 38300",
+    "SOC 39100",
+    "SOC 41700",
+    "SOC 41900",
+    "SOC 42600",
+    "SOC 42900"
+  ]
+}

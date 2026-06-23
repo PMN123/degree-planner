@@ -1,0 +1,420 @@
+{
+  "id": "speech-language-and-hearing-sciences-bs",
+  "poid": "34819",
+  "name": "Speech, Language, and Hearing Sciences, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34819",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.115476+00:00",
+  "course_credits": {
+    "SLHS 11500": 3.0,
+    "SLHS 22700": 3.0,
+    "SLHS 30200": 3.0,
+    "SLHS 30300": 3.0,
+    "SLHS 30600": 3.0,
+    "SLHS 30900": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "SLHS Foundation Requirements",
+      "credit_target": 18.0,
+      "kind": "all_of",
+      "courses": [
+        "SLHS 11500",
+        "SLHS 22700",
+        "SLHS 30200",
+        "SLHS 30300",
+        "SLHS 30600",
+        "SLHS 30900"
+      ]
+    },
+    {
+      "name": "Area 1: Speech, Language, and Hearing Sciences Selective",
+      "credit_target": 15.0,
+      "kind": "credits",
+      "credits": 15.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Cultural Competence Selective",
+      "credit_target": [
+        12.0,
+        16.0
+      ],
+      "kind": "credits",
+      "credits": 12.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Math and Science Requirements",
+      "credit_target": [
+        12.0,
+        16.0
+      ],
+      "kind": "credits",
+      "credits": 12.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Area 2: Pure and Applied Sciences",
+      "credit_target": [
+        6.0,
+        8.0
+      ],
+      "kind": "credits",
+      "credits": 6.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Area 3: Behavioral, Linguistic, and Social Sciences",
+      "credit_target": 6.0,
+      "kind": "credits",
+      "credits": 6.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        5.0,
+        34.0
+      ],
+      "kind": "credits",
+      "credits": 5.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "code": "SLHS 11500",
+          "title": "Introduction To Communicative Disorders (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Modern Language 10100 or Cultural Competence Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "code": "SLHS 22700",
+          "title": "Elements Of Linguistics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Modern Language 10200 or Cultural Competence Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "label": "Choose 2 courses from the following",
+          "credits": 6.0,
+          "slot": true
+        },
+        {
+          "code": "SLHS 30200",
+          "title": "Hearing Science",
+          "credits": 3.0
+        },
+        {
+          "code": "SLHS 30300",
+          "title": "Anatomy And Physiology Of The Speech Mechanism",
+          "credits": 3.0
+        },
+        {
+          "code": "SLHS 30600",
+          "title": "Introduction To Phonetics",
+          "credits": 3.0
+        },
+        {
+          "code": "SLHS 30900",
+          "title": "Language Development (UCC STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Modern Language 20100 or Cultural Competence Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "label": "Choose 2 courses from the following",
+          "credits": 6.0,
+          "slot": true
+        },
+        {
+          "code": "SLHS 30200",
+          "title": "Hearing Science",
+          "credits": 3.0
+        },
+        {
+          "code": "SLHS 30300",
+          "title": "Anatomy And Physiology Of The Speech Mechanism",
+          "credits": 3.0
+        },
+        {
+          "code": "SLHS 30600",
+          "title": "Introduction To Phonetics",
+          "credits": 3.0
+        },
+        {
+          "code": "SLHS 30900",
+          "title": "Language Development (UCC STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Modern Language 20200 or Cultural Competence Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "label": "Additional Behavioral/Social Sciences",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "STAT Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area 1",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area 1",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "label": "BIOL (Science)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area 1",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area 2",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area 3",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "label": "Area 1",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area 3",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14-19 Credits",
+      "items": [
+        {
+          "label": "Area 1",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area 2",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "SLHS Additional Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ANTH 34000",
+    "ASL 28000",
+    "BIOL 11000",
+    "BIOL 14700",
+    "CHM 11100",
+    "HDFS 30500",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "LC 36100",
+    "LING 30000",
+    "LING 31500",
+    "MA 13800",
+    "MA 15300",
+    "MA 15555",
+    "PHIL 15000",
+    "PHYS 21500",
+    "PSY 20000",
+    "PSY 30000",
+    "PUBH 20500",
+    "SLHS 11500",
+    "SLHS 22700",
+    "SLHS 30200",
+    "SLHS 30300",
+    "SLHS 30600",
+    "SLHS 30900",
+    "SLHS 49000",
+    "SOC 27500",
+    "SOC 38200",
+    "STAT 30100"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "museum-and-archives-studies-minor",
+  "poid": "37136",
+  "name": "Museum and Archives Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=37136",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.975622+00:00",
+  "course_credits": {
+    "AD 13200": 3.0,
+    "ILS 13200": 3.0,
+    "AD 23400": 1.0,
+    "AD 47800": 1.0,
+    "ILS 33200": 1.0,
+    "AD 29900": 3.0,
+    "ILS 24900": 3.0,
+    "AD 38900": 3.0,
+    "AD 39600": 3.0,
+    "ILS 44500": 3.0,
+    "AD 20200": 2.0,
+    "AD 22600": 3.0,
+    "AD 22700": 3.0,
+    "AD 25500": 3.0,
+    "AD 26300": 3.0,
+    "AD 38300": 3.0,
+    "AD 38400": 3.0,
+    "ANTH 21000": 3.0,
+    "ANTH 38000": 3.0,
+    "ANTH 38500": 3.0,
+    "COM 22400": 3.0,
+    "COM 25300": 3.0,
+    "COM 49504": 3.0,
+    "EDPS 23500": 2.0,
+    "HDFS 34600": 3.0,
+    "HDFS 34800": 3.0,
+    "OBHR 33000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Foundation Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "AD 13200 / ILS 13200",
+          "courses": [
+            "AD 13200",
+            "ILS 13200"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Internship",
+      "credit_target": [
+        1.0,
+        2.0
+      ],
+      "kind": "choose",
+      "options": [
+        "AD 23400",
+        "AD 47800",
+        "ILS 33200"
+      ],
+      "choose_credits": 1.0
+    },
+    {
+      "name": "Methodology Courses",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "AD 29900",
+        "ILS 24900",
+        "AD 38900",
+        "AD 39600",
+        "ILS 44500"
+      ],
+      "choose_credits": 6.0
+    },
+    {
+      "name": "Selectives",
+      "credit_target": [
+        5.0,
+        6.0
+      ],
+      "kind": "choose",
+      "options": [
+        "AD 20200",
+        "AD 22600",
+        "AD 22700",
+        "AD 25500",
+        "AD 26300",
+        "AD 38300",
+        "AD 38400",
+        "ANTH 21000",
+        "ANTH 38000",
+        "ANTH 38500",
+        "COM 22400",
+        "COM 25300",
+        "COM 49504",
+        "EDPS 23500",
+        "HDFS 34600",
+        "HDFS 34800",
+        "OBHR 33000"
+      ],
+      "choose_credits": 5.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AD 13200",
+    "AD 20200",
+    "AD 22600",
+    "AD 22700",
+    "AD 23400",
+    "AD 25500",
+    "AD 26300",
+    "AD 29900",
+    "AD 38300",
+    "AD 38400",
+    "AD 38900",
+    "AD 39600",
+    "AD 47800",
+    "ANTH 21000",
+    "ANTH 38000",
+    "ANTH 38500",
+    "COM 22400",
+    "COM 25300",
+    "COM 49504",
+    "EDPS 23500",
+    "HDFS 34600",
+    "HDFS 34800",
+    "HELP 02026",
+    "ILS 13200",
+    "ILS 24900",
+    "ILS 33200",
+    "ILS 44500",
+    "IN 47907",
+    "OBHR 33000"
+  ]
+}

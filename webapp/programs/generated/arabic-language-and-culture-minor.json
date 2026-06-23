@@ -1,0 +1,81 @@
+{
+  "id": "arabic-language-and-culture-minor",
+  "poid": "34912",
+  "name": "Arabic Language and Culture Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34912",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.138327+00:00",
+  "course_credits": {
+    "ARAB 20100": 3.0,
+    "ARAB 20200": 3.0,
+    "ARAB 23000": 3.0,
+    "ARAB 28000": 3.0,
+    "ARAB 28100": 3.0,
+    "ARAB 33000": 3.0,
+    "ARAB 23900": 3.0,
+    "ARAB 30100": 3.0,
+    "ARAB 30200": 3.0,
+    "ARAB 33400": 3.0,
+    "ARAB 58700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Arabic Language Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "ARAB 20100",
+        "ARAB 20200"
+      ]
+    },
+    {
+      "name": "B. Arabic Literature and Culture Courses",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "ARAB 23000",
+        "ARAB 28000",
+        "ARAB 28100",
+        "ARAB 33000"
+      ],
+      "choose_credits": 6.0
+    },
+    {
+      "name": "C. Arabic Elective",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "ARAB 23900",
+        "ARAB 30100",
+        "ARAB 30200",
+        "ARAB 33400",
+        "ARAB 58700"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ARAB 10200",
+    "ARAB 20100",
+    "ARAB 20200",
+    "ARAB 23000",
+    "ARAB 23900",
+    "ARAB 28000",
+    "ARAB 28100",
+    "ARAB 30100",
+    "ARAB 30200",
+    "ARAB 33000",
+    "ARAB 33400",
+    "ARAB 58700",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

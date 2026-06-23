@@ -1,0 +1,102 @@
+{
+  "id": "digital-natural-resources-minor",
+  "poid": "35781",
+  "name": "Digital Natural Resources Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35781",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.109311+00:00",
+  "course_credits": {
+    "AGRY 54500": 3.0,
+    "AT 10901": 3.0,
+    "AT 30901": 3.0,
+    "FNR 35700": 3.0,
+    "ASM 53200": 3.0,
+    "FNR 21000": 3.0,
+    "ILS 25000": 3.0,
+    "ILS 23000": 3.0,
+    "PHIL 20800": 3.0,
+    "ASM 54000": 3.0,
+    "FNR 35910": 2.0,
+    "FNR 35950": 1.0,
+    "FNR 40100": 3.0,
+    "FNR 47100": 1.0,
+    "FNR 55800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Data Acquisition",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "AGRY 54500",
+        "AT 10901",
+        "AT 30901",
+        "FNR 35700"
+      ],
+      "choose_credits": 6.0
+    },
+    {
+      "name": "Data Analysis",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "ASM 53200",
+        "FNR 21000",
+        "ILS 25000"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Data Ethics",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "ILS 23000",
+        "PHIL 20800"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Data Applications",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "ASM 54000",
+        "FNR 35910",
+        "FNR 35950",
+        "FNR 40100",
+        "FNR 47100",
+        "FNR 55800"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AGRY 54500",
+    "ASM 53200",
+    "ASM 54000",
+    "AT 10901",
+    "AT 30901",
+    "FNR 21000",
+    "FNR 35700",
+    "FNR 35910",
+    "FNR 35950",
+    "FNR 40100",
+    "FNR 47100",
+    "FNR 49800",
+    "FNR 55800",
+    "HELP 02026",
+    "ILS 23000",
+    "ILS 25000",
+    "IN 47907",
+    "PHIL 20800"
+  ]
+}

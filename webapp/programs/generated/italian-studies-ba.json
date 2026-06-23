@@ -1,0 +1,496 @@
+{
+  "id": "italian-studies-ba",
+  "poid": "34888",
+  "name": "Italian Studies, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34888",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.025447+00:00",
+  "course_credits": {
+    "ITAL 10100": 3.0,
+    "ITAL 10200": 3.0,
+    "ITAL 10500": 3.0,
+    "ITAL 20100": 3.0,
+    "ITAL 20200": 3.0,
+    "ITAL 20500": 3.0,
+    "ITAL 28100": 3.0,
+    "ITAL 30100": 3.0,
+    "ITAL 30200": 3.0,
+    "ITAL 33000": 3.0,
+    "ITAL 33300": 3.0,
+    "ITAL 34100": 3.0,
+    "ITAL 34200": 3.0,
+    "ITAL 38100": 3.0,
+    "AD 22700": 3.0,
+    "AD 34600": 3.0,
+    "AD 35900": 3.0,
+    "CLCS 23100": 3.0,
+    "CLCS 23500": 3.0,
+    "CLCS 23700": 3.0,
+    "COM 30300": 3.0,
+    "GSLA 30100": 3.0,
+    "HIST 35100": 3.0,
+    "HIST 40600": 3.0,
+    "HIST 40700": 3.0,
+    "HIST 40800": 3.0,
+    "ITAL 23100": 3.0,
+    "ITAL 28000": 3.0,
+    "ITAL 28500": 3.0,
+    "ITAL 33500": 3.0,
+    "ITAL 39300": 3.0,
+    "ITAL 49300": 3.0,
+    "LC 23000": 3.0,
+    "LC 23700": 3.0,
+    "LC 33100": 3.0,
+    "LC 57000": 3.0,
+    "PSY 40300": 3.0,
+    "ENGL 22700": 3.0,
+    "LC 26100": 3.0,
+    "LING 20100": 3.0,
+    "SLHS 22700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 27.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Pre-requisite Language Courses",
+          "kind": "all_of",
+          "courses": [
+            "ITAL 10100",
+            "ITAL 10200",
+            "ITAL 10500",
+            "ITAL 20100",
+            "ITAL 20200",
+            "ITAL 20500"
+          ]
+        },
+        {
+          "name": "Area A - Required Courses",
+          "credit_target": 24.0,
+          "kind": "all_of",
+          "courses": [
+            "ITAL 28100",
+            "ITAL 30100",
+            "ITAL 30200",
+            "ITAL 33000",
+            "ITAL 33300",
+            "ITAL 34100",
+            "ITAL 34200",
+            "ITAL 38100"
+          ]
+        },
+        {
+          "name": "Area B - Italian Studies Selectives",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "AD 22700",
+            "AD 34600",
+            "AD 35900",
+            "CLCS 23100",
+            "CLCS 23500",
+            "CLCS 23700",
+            "COM 30300",
+            "GSLA 30100",
+            "HIST 35100",
+            "HIST 40600",
+            "HIST 40700",
+            "HIST 40800",
+            "ITAL 23100",
+            "ITAL 28000",
+            "ITAL 28500",
+            "ITAL 33500",
+            "ITAL 39300",
+            "ITAL 49300",
+            "LC 23000",
+            "LC 23700",
+            "LC 33100",
+            "LC 57000",
+            "PSY 40300",
+            {
+              "kind": "one_of",
+              "name": "ENGL 22700 / LC 26100 / LING 20100 / SLHS 22700",
+              "courses": [
+                "ENGL 22700",
+                "LC 26100",
+                "LING 20100",
+                "SLHS 22700"
+              ]
+            }
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        17.0,
+        58.0
+      ],
+      "kind": "credits",
+      "credits": 17.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ITAL 10100",
+          "title": "Italian Level I (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (CLA Core I: 1 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 2 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "ITAL 10200",
+          "title": "Italian Level II (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (CLA Core I: 3 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ITAL 20100",
+          "title": "Italian Level III (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "ITAL 33000",
+          "title": "The Italian Cinema (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ITAL 20200",
+          "title": "Italian Level IV (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science, Technology, and Society",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "ITAL 28100",
+          "title": "The Italian Renaissance And Its Scientific And Cultural Impact On Western Civilization (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "ITAL 30100",
+          "title": "Italian Level V (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ITAL 30200",
+          "title": "Italian Level VI (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ITAL 33300",
+          "title": "The Spirit Of Italian Comedy (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "ITAL 34100",
+          "title": "Italian Literature I: From The Middle Ages To The Enlightenment",
+          "credits": 3.0
+        },
+        {
+          "label": "Area B: Italian Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ITAL 34200",
+          "title": "Italian Literature II: From Romanticism To The Present",
+          "credits": 3.0
+        },
+        {
+          "code": "ITAL 39300",
+          "title": "Special Topics In Italian Literature Or Cinema",
+          "credits": 3.0
+        },
+        {
+          "label": "Area B: Italian Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 22700",
+    "AD 34600",
+    "AD 35900",
+    "CLCS 23100",
+    "CLCS 23500",
+    "CLCS 23700",
+    "COM 30300",
+    "ENGL 22700",
+    "GSLA 30100",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 35100",
+    "HIST 40600",
+    "HIST 40700",
+    "HIST 40800",
+    "IN 47907",
+    "ITAL 10100",
+    "ITAL 10200",
+    "ITAL 10500",
+    "ITAL 20100",
+    "ITAL 20200",
+    "ITAL 20500",
+    "ITAL 23100",
+    "ITAL 28000",
+    "ITAL 28100",
+    "ITAL 28500",
+    "ITAL 30100",
+    "ITAL 30200",
+    "ITAL 33000",
+    "ITAL 33300",
+    "ITAL 33500",
+    "ITAL 34100",
+    "ITAL 34200",
+    "ITAL 38100",
+    "ITAL 39300",
+    "ITAL 49300",
+    "LC 23000",
+    "LC 23700",
+    "LC 26100",
+    "LC 33100",
+    "LC 57000",
+    "LING 20100",
+    "PSY 40300",
+    "SLHS 22700"
+  ]
+}

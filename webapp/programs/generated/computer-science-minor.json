@@ -1,0 +1,94 @@
+{
+  "id": "computer-science-minor",
+  "poid": "34873",
+  "name": "Computer Science Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 16,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34873",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.806974+00:00",
+  "course_credits": {
+    "CS 18000": 4.0,
+    "CS 18200": 3.0,
+    "CS 24000": 3.0,
+    "CS 25000": 4.0,
+    "CS 25100": 3.0,
+    "CS 25200": 4.0,
+    "CS 30700": 3.0,
+    "CS 31400": 3.0,
+    "CS 33400": 3.0,
+    "CS 34800": 3.0,
+    "CS 35500": 3.0,
+    "CS 38100": 3.0,
+    "CS 40800": 3.0,
+    "CS 43900": 3.0,
+    "CS 44800": 3.0,
+    "CS 45800": 3.0,
+    "CS 47100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 10.0,
+      "kind": "all_of",
+      "courses": [
+        "CS 18000",
+        "CS 18200",
+        "CS 24000"
+      ]
+    },
+    {
+      "name": "Elective Courses",
+      "credit_target": [
+        6.0,
+        8.0
+      ],
+      "kind": "choose",
+      "options": [
+        "CS 25000",
+        "CS 25100",
+        "CS 25200",
+        "CS 30700",
+        "CS 31400",
+        "CS 33400",
+        "CS 34800",
+        "CS 35500",
+        "CS 38100",
+        "CS 40800",
+        "CS 43900",
+        "CS 44800",
+        "CS 45800",
+        "CS 47100"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CS 18000",
+    "CS 18200",
+    "CS 24000",
+    "CS 25000",
+    "CS 25100",
+    "CS 25200",
+    "CS 30700",
+    "CS 31400",
+    "CS 33400",
+    "CS 34800",
+    "CS 35500",
+    "CS 38100",
+    "CS 40800",
+    "CS 43900",
+    "CS 44800",
+    "CS 45800",
+    "CS 47100",
+    "HELP 02026",
+    "IN 47907",
+    "MA 37500"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "theatre-minor",
+  "poid": "34901",
+  "name": "Theatre Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 16,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34901",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.012598+00:00",
+  "course_credits": {
+    "THTR 13300": 3.0,
+    "THTR 20100": 3.0,
+    "THTR 16500": 3.0,
+    "THTR 16001": 1.0,
+    "THTR 16101": 1.0,
+    "THTR 16201": 1.0,
+    "THTR 16301": 1.0,
+    "THTR 16401": 1.0,
+    "DANC 37900": 3.0,
+    "THTR 23300": 3.0,
+    "THTR 25600": 2.0,
+    "THTR 27100": 3.0,
+    "THTR 33300": 3.0,
+    "THTR 33600": 1.0,
+    "THTR 35400": 3.0,
+    "THTR 36000": 3.0,
+    "THTR 36100": 3.0,
+    "THTR 36200": 3.0,
+    "THTR 36300": 3.0,
+    "THTR 36800": 1.0,
+    "THTR 38000": 3.0,
+    "THTR 38100": 3.0,
+    "THTR 44000": 3.0,
+    "THTR 48400": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Theatre Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "THTR 13300",
+        "THTR 20100",
+        "THTR 16500"
+      ]
+    },
+    {
+      "name": "B. Theatre Design and Production Selectives",
+      "credit_target": 2.0,
+      "kind": "choose",
+      "options": [
+        "THTR 16001",
+        "THTR 16101",
+        "THTR 16201",
+        "THTR 16301",
+        "THTR 16401"
+      ],
+      "choose_credits": 2.0
+    },
+    {
+      "name": "C. Additional Theatre Selectives",
+      "credit_target": 5.0,
+      "kind": "choose",
+      "options": [
+        "DANC 37900",
+        "THTR 23300",
+        "THTR 25600",
+        "THTR 27100",
+        "THTR 33300",
+        "THTR 33600",
+        "THTR 35400",
+        "THTR 36000",
+        "THTR 36100",
+        "THTR 36200",
+        "THTR 36300",
+        "THTR 36800",
+        "THTR 38000",
+        "THTR 38100",
+        "THTR 44000",
+        "THTR 48400"
+      ],
+      "choose_credits": 5.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "DANC 37900",
+    "HELP 02026",
+    "IN 47907",
+    "THTR 13300",
+    "THTR 16001",
+    "THTR 16101",
+    "THTR 16201",
+    "THTR 16301",
+    "THTR 16401",
+    "THTR 16500",
+    "THTR 20100",
+    "THTR 23300",
+    "THTR 25600",
+    "THTR 27100",
+    "THTR 33300",
+    "THTR 33600",
+    "THTR 35400",
+    "THTR 36000",
+    "THTR 36100",
+    "THTR 36200",
+    "THTR 36300",
+    "THTR 36800",
+    "THTR 38000",
+    "THTR 38100",
+    "THTR 44000",
+    "THTR 48400"
+  ]
+}

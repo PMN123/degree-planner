@@ -1,0 +1,530 @@
+{
+  "id": "professional-writing-ba",
+  "poid": "34853",
+  "name": "Professional Writing, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34853",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.401600+00:00",
+  "course_credits": {
+    "ENGL 23000": 3.0,
+    "ENGL 23700": 3.0,
+    "ENGL 23800": 3.0,
+    "ENGL 24000": 3.0,
+    "ENGL 24100": 3.0,
+    "ENGL 24900": 3.0,
+    "ENGL 25000": 3.0,
+    "ENGL 25700": 3.0,
+    "ENGL 26200": 3.0,
+    "ENGL 26400": 3.0,
+    "ENGL 26600": 3.0,
+    "ENGL 26700": 3.0,
+    "ENGL 20300": 3.0,
+    "ENGL 30600": 3.0,
+    "ENGL 20500": 3.0,
+    "ENGL 28000": 3.0,
+    "ENGL 30900": 3.0,
+    "ENGL 48800": 3.0,
+    "ENGL 51500": 3.0,
+    "ENGL 20700": 3.0,
+    "ENGL 32001": 3.0,
+    "ENGL 32101": 3.0,
+    "ENGL 38000": 3.0,
+    "ENGL 39000": 1.0,
+    "ENGL 40600": 3.0,
+    "ENGL 41900": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ENGL 42201": 3.0,
+    "ENGL 42400": 3.0,
+    "ENGL 43201": 3.0,
+    "ENGL 43300": 3.0,
+    "ENGL 43400": 3.0,
+    "ENGL 47000": 3.0,
+    "ENGL 49400": 2.0,
+    "ENGL 50700": 3.0,
+    "ENGL 50900": 3.0,
+    "ENGL 33000": 3.0,
+    "ENGL 33200": 3.0,
+    "ENGL 34500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Area A - English Literature 20000-Level",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "ENGL 23000",
+            "ENGL 23700",
+            "ENGL 23800",
+            "ENGL 24000",
+            "ENGL 24100",
+            "ENGL 24900",
+            "ENGL 25000",
+            "ENGL 25700",
+            "ENGL 26200",
+            "ENGL 26400",
+            "ENGL 26600",
+            "ENGL 26700"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Area B - Background",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "courses": [
+            "ENGL 20300",
+            "ENGL 30600"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "ENGL 20500 / ENGL 28000",
+              "courses": [
+                "ENGL 20500",
+                "ENGL 28000"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Area C - Advanced Writing Courses",
+          "credit_target": 21.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Required Course",
+              "credit_target": 3.0,
+              "kind": "all_of",
+              "courses": [
+                "ENGL 30900"
+              ]
+            },
+            {
+              "name": "Track 1: Writing And Publishing",
+              "credit_target": 18.0,
+              "kind": "choose",
+              "options": [
+                "ENGL 48800",
+                "ENGL 51500",
+                "ENGL 20700",
+                "ENGL 32001",
+                "ENGL 32101",
+                "ENGL 38000",
+                "ENGL 39000",
+                "ENGL 40600",
+                "ENGL 41900",
+                "ENGL 42000",
+                "ENGL 42100",
+                "ENGL 42201",
+                "ENGL 42400",
+                "ENGL 43201",
+                "ENGL 43300",
+                "ENGL 43400",
+                "ENGL 47000",
+                "ENGL 48800",
+                "ENGL 49400",
+                "ENGL 50700",
+                "ENGL 50900",
+                "ENGL 51500"
+              ],
+              "choose_credits": 18.0
+            },
+            {
+              "name": "Track 2: Technical Writing",
+              "credit_target": 18.0,
+              "kind": "choose",
+              "options": [
+                "ENGL 48800",
+                "ENGL 51500",
+                "ENGL 20700",
+                "ENGL 32001",
+                "ENGL 32101",
+                "ENGL 33000",
+                "ENGL 33200",
+                "ENGL 34500",
+                "ENGL 38000",
+                "ENGL 39000",
+                "ENGL 40600",
+                "ENGL 41900",
+                "ENGL 42100",
+                "ENGL 42201",
+                "ENGL 42400",
+                "ENGL 43201",
+                "ENGL 43300",
+                "ENGL 43400",
+                "ENGL 47000",
+                "ENGL 48800",
+                "ENGL 49400"
+              ],
+              "choose_credits": 18.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Required Minor",
+      "credit_target": [
+        12.0,
+        15.0
+      ],
+      "kind": "credits",
+      "credits": 12.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "label": "Written Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Required Minor Course",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ENGL 20300",
+          "title": "Introduction To Research For Professional Writers",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 20500",
+          "title": "Introduction To Creative Writing",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 28000",
+              "title": "Games, Narrative, Culture",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 1 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 2 of 6)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ENGL 30600",
+          "title": "Introduction To Professional Writing",
+          "credits": 3.0
+        },
+        {
+          "label": "World Language Level IV (CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ENGL 30900",
+          "title": "Digital Design And Production",
+          "credits": 3.0
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area C Advanced Writing Track Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area C Advanced Writing Track Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Required Minor Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Required course for chosen Track: ENGL 51500 is only taught in the fall; ENGL 48800 is only taught in the spring.",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "ENGL 51500",
+          "title": "Advanced Professional Writing",
+          "credits": 3.0
+        },
+        {
+          "label": "Science, Technology, and Society",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Required Minor Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "label": "Required course for chosen Track: ENGL 51500 is only taught in the fall; ENGL 48800 is only taught in the spring.",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "ENGL 48800",
+          "title": "Internship In Professional Writing",
+          "credits": 3.0
+        },
+        {
+          "label": "Area C Advanced Writing Track Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area C Advanced Writing Track Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ENGL 20300",
+    "ENGL 20500",
+    "ENGL 20700",
+    "ENGL 23000",
+    "ENGL 23700",
+    "ENGL 23800",
+    "ENGL 24000",
+    "ENGL 24100",
+    "ENGL 24900",
+    "ENGL 25000",
+    "ENGL 25700",
+    "ENGL 26200",
+    "ENGL 26400",
+    "ENGL 26600",
+    "ENGL 26700",
+    "ENGL 28000",
+    "ENGL 30600",
+    "ENGL 30900",
+    "ENGL 32001",
+    "ENGL 32101",
+    "ENGL 33000",
+    "ENGL 33200",
+    "ENGL 34500",
+    "ENGL 38000",
+    "ENGL 39000",
+    "ENGL 40600",
+    "ENGL 41900",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGL 42201",
+    "ENGL 42400",
+    "ENGL 43201",
+    "ENGL 43300",
+    "ENGL 43400",
+    "ENGL 47000",
+    "ENGL 48800",
+    "ENGL 49400",
+    "ENGL 50700",
+    "ENGL 50900",
+    "ENGL 51500",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

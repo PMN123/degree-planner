@@ -1,0 +1,414 @@
+{
+  "id": "women-s-gender-and-sexuality-studies-ba",
+  "poid": "34915",
+  "name": "Women\u2019s, Gender & Sexuality Studies, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34915",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.606798+00:00",
+  "course_credits": {
+    "WGSS 28000": 3.0,
+    "WGSS 38000": 3.0,
+    "WGSS 48000": 3.0,
+    "WGSS 28100": 1.0,
+    "WGSS 28200": 3.0,
+    "WGSS 38100": 3.0,
+    "WGSS 38200": 3.0,
+    "WGSS 38300": 3.0,
+    "WGSS 39000": 1.0,
+    "WGSS 48200": 3.0,
+    "WGSS 48300": 3.0,
+    "WGSS 48500": 3.0,
+    "WGSS 49200": 2.0,
+    "WGSS 49900": 1.0,
+    "WGSS 59900": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 24.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Women\u2019s Studies Required Courses",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "courses": [
+            "WGSS 28000",
+            "WGSS 38000",
+            "WGSS 48000"
+          ]
+        },
+        {
+          "name": "B. Women\u2019s Studies Selectives",
+          "credit_target": 9.0,
+          "kind": "choose",
+          "options": [
+            "WGSS 28100",
+            "WGSS 28200",
+            "WGSS 38100",
+            "WGSS 38200",
+            "WGSS 38300",
+            "WGSS 39000",
+            "WGSS 48200",
+            "WGSS 48300",
+            "WGSS 48500",
+            "WGSS 49200",
+            "WGSS 49900",
+            "WGSS 59900"
+          ],
+          "choose_credits": 9.0
+        },
+        {
+          "name": "C. Liberal Arts Selectives",
+          "credit_target": 6.0,
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        20.0,
+        61.0
+      ],
+      "kind": "credits",
+      "credits": 20.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "WGSS 28000",
+          "title": "Women\u2019s, Gender, And Sexuality Studies: An Introduction (UCC: BSS/HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (CLA Core I: 1 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Women\u2019s Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 2 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "WGSS 38000",
+          "title": "Comparative Studies In Gender And Culture (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "CLA Core I: 3 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "WGSS 48000",
+          "title": "Feminist Theory",
+          "credits": 3.0
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV (CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Women\u2019s Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Women\u2019s Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Liberal Arts Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Liberal Arts Selective (30000 or higher)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "WGSS 28000",
+    "WGSS 28100",
+    "WGSS 28200",
+    "WGSS 38000",
+    "WGSS 38100",
+    "WGSS 38200",
+    "WGSS 38300",
+    "WGSS 39000",
+    "WGSS 48000",
+    "WGSS 48200",
+    "WGSS 48300",
+    "WGSS 48500",
+    "WGSS 49200",
+    "WGSS 49900",
+    "WGSS 59900"
+  ]
+}

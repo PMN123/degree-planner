@@ -1,0 +1,494 @@
+{
+  "id": "financial-counseling-and-planning-bs",
+  "poid": "34771",
+  "name": "Financial Counseling and Planning, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34771",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.741783+00:00",
+  "course_credits": {
+    "AGEC 33100": 3.0,
+    "CSR 20100": 3.0,
+    "CSR 10000": 1.0,
+    "CSR 20000": 1.0,
+    "ENTR 46000": 1.0,
+    "HTM 20000": 1.0,
+    "DSB 29500": 1.0,
+    "CSR 30900": 3.0,
+    "CSR 34200": 3.0,
+    "CSR 38600": 3.0,
+    "CSR 41400": 3.0,
+    "CSR 48000": 1.0,
+    "CSR 48100": 3.0,
+    "CSR 48400": 3.0,
+    "CSR 48500": 3.0,
+    "CSR 48600": 3.0,
+    "CNIT 13600": 3.0,
+    "COM 31800": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "HTM 25501": 3.0,
+    "HTM 23100": 3.0,
+    "MKTG 32300": 3.0,
+    "MKTG 32400": 3.0,
+    "STRT 25400": 3.0,
+    "STRT 45500": 3.0,
+    "STRT 45600": 3.0,
+    "PSY 12000": 3.0,
+    "SOC 10000": 3.0,
+    "ANTH 10000": 3.0,
+    "HTM 14100": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "HTM 24100": 3.0,
+    "ACCT 20100": 3.0,
+    "STAT 22500": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 30301": 3.0,
+    "STAT 50100": 3.0,
+    "SOC 38200": 3.0,
+    "MA 15300": 3.0,
+    "MA 15555": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Electives",
+      "credit_target": [
+        5.0,
+        25.0
+      ],
+      "kind": "credits",
+      "credits": 5.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "CSR 10000",
+          "title": "Introduction To CSR",
+          "credits": 1.0
+        },
+        {
+          "code": "CNIT 13600",
+          "title": "Personal Computing Technology And Applications",
+          "credits": 3.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-19 Credits",
+      "items": [
+        {
+          "code": "ECON 25100",
+          "title": "Microeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "SOC 10000",
+          "title": "Introductory Sociology (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ANTH 10000",
+              "title": "Being Human: Introduction To Anthropology (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14-20 Credits",
+      "items": [
+        {
+          "code": "CSR 34200",
+          "title": "Personal Finance",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON 25200",
+          "title": "Macroeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 25501",
+          "title": "Fundamentals Of Excel And Data Analytics In Service Industries",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 14100",
+          "title": "Financial Accounting For The Service Industries",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ACCT 21200",
+              "title": "Business Accounting",
+              "credits": 3.0
+            },
+            {
+              "code": "ACCT 20000",
+              "title": "Introductory Accounting",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "CSR 20000",
+          "title": "Career Exploration And Development Seminar",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "ENTR 46000",
+              "title": "Internship And Career Preparation Seminar",
+              "credits": 1.0
+            },
+            {
+              "code": "HTM 20000",
+              "title": "Career Exploration And Development Seminar",
+              "credits": 1.0
+            },
+            {
+              "code": "DSB 29500",
+              "title": "Business Professional Development & Career Strategies",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "CSR 38600",
+          "title": "Risk Management",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 24100",
+          "title": "Managerial Accounting In Service Industries",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ACCT 20100",
+              "title": "Management Accounting I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "International Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "COM Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "CSR 41400",
+          "title": "Tax And Estate In Financial Planning",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 33100",
+          "title": "Principles Of Industrial Selling",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CSR 20100",
+              "title": "Introduction To Professional Sales",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "HTM 23100",
+          "title": "Marketing In Service Industries",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MKTG 32300",
+              "title": "Principles Of Marketing",
+              "credits": 3.0
+            },
+            {
+              "code": "MKTG 32400",
+              "title": "Marketing Management",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "STAT 22500",
+          "title": "Introduction To Probability Models",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 30100",
+              "title": "Elementary Statistical Methods (UCC: IL)",
+              "credits": 3.0
+            },
+            {
+              "code": "STAT 30301",
+              "title": "Probability And Statistics For Business",
+              "credits": 3.0
+            },
+            {
+              "code": "STAT 50100",
+              "title": "Experimental Statistics I",
+              "credits": 3.0
+            },
+            {
+              "code": "SOC 38200",
+              "title": "Introduction To Statistics In Sociology",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "COM 31800",
+          "title": "Principles Of Persuasion",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 30900",
+          "title": "Leadership Strategies",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 48100",
+          "title": "Ethics And Behaviors In Financial Planning",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 45500",
+          "title": "Legal Background For Business I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STRT 25400",
+              "title": "Legal Foundations Of Business I",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Summer 3rd Year",
+      "credit_hint": "1 Credit",
+      "items": [
+        {
+          "code": "CSR 48000",
+          "title": "Financial Counseling And Planning Internship",
+          "credits": 1.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "CSR 48400",
+          "title": "Consumer Investment And Savings Decisions",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 48600",
+          "title": "Retirement Planning And Employee Benefits",
+          "credits": 3.0
+        },
+        {
+          "label": "ENGL/COM Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "CSR 48500",
+          "title": "Case Studies In Financial Planning",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 45600",
+          "title": "Legal Foundations For Business II",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "ACCT 21200",
+    "AGEC 33100",
+    "ANTH 10000",
+    "CNIT 13600",
+    "COM 31800",
+    "CSR 10000",
+    "CSR 20000",
+    "CSR 20100",
+    "CSR 30900",
+    "CSR 34200",
+    "CSR 38600",
+    "CSR 41400",
+    "CSR 48000",
+    "CSR 48100",
+    "CSR 48400",
+    "CSR 48500",
+    "CSR 48600",
+    "DSB 29500",
+    "ECON 25100",
+    "ECON 25200",
+    "ENTR 46000",
+    "HEA 01348",
+    "HELP 02026",
+    "HTM 14100",
+    "HTM 20000",
+    "HTM 23100",
+    "HTM 24100",
+    "HTM 25501",
+    "IN 47907",
+    "MA 15300",
+    "MA 15555",
+    "MA 15800",
+    "MA 16010",
+    "MA 16100",
+    "MA 16500",
+    "MKTG 32300",
+    "MKTG 32400",
+    "PSY 12000",
+    "SOC 10000",
+    "SOC 38200",
+    "STAT 22500",
+    "STAT 30100",
+    "STAT 30301",
+    "STAT 50100",
+    "STRT 25400",
+    "STRT 45500",
+    "STRT 45600"
+  ]
+}

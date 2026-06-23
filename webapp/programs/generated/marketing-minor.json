@@ -1,0 +1,94 @@
+{
+  "id": "marketing-minor",
+  "poid": "37066",
+  "name": "Marketing Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": null,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=37066",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.621190+00:00",
+  "course_credits": {
+    "MKTG 32300": 3.0,
+    "MKTG 32400": 3.0,
+    "MKTG 42000": 3.0,
+    "MKTG 42110": 3.0,
+    "MKTG 42120": 3.0,
+    "MKTG 42130": 3.0,
+    "MKTG 42210": 3.0,
+    "MKTG 42300": 3.0,
+    "MKTG 42410": 3.0,
+    "MKTG 42420": 3.0,
+    "MKTG 42500": 3.0,
+    "MKTG 42610": 3.0,
+    "MKTG 42710": 3.0,
+    "MKTG 43000": 3.0,
+    "MKTG 43700": 3.0,
+    "MKTG 43800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "MKTG 32300 / MKTG 32400",
+          "courses": [
+            "MKTG 32300",
+            "MKTG 32400"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Selectives",
+      "credit_target": 15.0,
+      "kind": "choose",
+      "options": [
+        "MKTG 42000",
+        "MKTG 42110",
+        "MKTG 42120",
+        "MKTG 42130",
+        "MKTG 42210",
+        "MKTG 42300",
+        "MKTG 42410",
+        "MKTG 42420",
+        "MKTG 42500",
+        "MKTG 42610",
+        "MKTG 42710",
+        "MKTG 43000",
+        "MKTG 43700",
+        "MKTG 43800"
+      ],
+      "choose_credits": 15.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "DSB 2XXXX",
+    "HELP 02026",
+    "IN 47907",
+    "MKTG 32300",
+    "MKTG 32400",
+    "MKTG 42000",
+    "MKTG 42110",
+    "MKTG 42120",
+    "MKTG 42130",
+    "MKTG 42210",
+    "MKTG 42300",
+    "MKTG 42410",
+    "MKTG 42420",
+    "MKTG 42500",
+    "MKTG 42610",
+    "MKTG 42710",
+    "MKTG 43000",
+    "MKTG 43700",
+    "MKTG 43800"
+  ]
+}

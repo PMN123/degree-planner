@@ -1,0 +1,118 @@
+{
+  "id": "htm-international-studies-minor",
+  "poid": "35911",
+  "name": "HTM International Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 21,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35911",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.821561+00:00",
+  "course_credits": {
+    "HTM 37200": 3.0,
+    "HTM 39000": 0.0,
+    "HTM 39800": 1.0,
+    "CHNS 28000": 3.0,
+    "HIST 24000": 3.0,
+    "HIST 24100": 3.0,
+    "HIST 33900": 3.0,
+    "PHIL 23000": 3.0,
+    "COM 22400": 3.0,
+    "CSR 33200": 3.0,
+    "HIST 10400": 3.0,
+    "HIST 10500": 3.0,
+    "PHIL 20600": 3.0,
+    "POL 13000": 3.0,
+    "POL 14100": 3.0,
+    "POL 23500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "II. Foreign Language",
+      "credit_target": 6.0,
+      "kind": "credits",
+      "credits": 6.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "III. International Focus Coursework",
+      "credit_target": 15.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Non-HTM courses",
+          "credit_target": 6.0,
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "B. HTM courses",
+          "credit_target": 6.0,
+          "kind": "all_of",
+          "courses": [
+            "HTM 37200"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "HTM 39000 / HTM 39800",
+              "courses": [
+                "HTM 39000",
+                "HTM 39800"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C. Additional International Focus coursework",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "CHNS 28000",
+            "HIST 24000",
+            "HIST 24100",
+            "HIST 33900",
+            "PHIL 23000",
+            "COM 22400",
+            "CSR 33200",
+            "HIST 10400",
+            "HIST 10500",
+            "PHIL 20600",
+            "POL 13000",
+            "POL 14100",
+            "POL 23500"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CHNS 28000",
+    "COM 22400",
+    "CSR 33200",
+    "HELP 02026",
+    "HIST 10400",
+    "HIST 10500",
+    "HIST 24000",
+    "HIST 24100",
+    "HIST 33900",
+    "HTM 37200",
+    "HTM 39000",
+    "HTM 39800",
+    "IN 47907",
+    "PHIL 20600",
+    "PHIL 23000",
+    "POL 13000",
+    "POL 14100",
+    "POL 23500"
+  ]
+}

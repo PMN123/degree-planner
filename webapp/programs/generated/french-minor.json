@@ -1,0 +1,111 @@
+{
+  "id": "french-minor",
+  "poid": "35913",
+  "name": "French Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35913",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.225449+00:00",
+  "course_credits": {
+    "FR 30100": 3.0,
+    "FR 30200": 3.0,
+    "FR 24100": 3.0,
+    "FR 32400": 3.0,
+    "FR 38000": 3.0,
+    "FR 39400": 3.0,
+    "FR 39600": 3.0,
+    "FR 40100": 3.0,
+    "FR 40200": 3.0,
+    "FR 42400": 3.0,
+    "FR 44300": 3.0,
+    "FR 48000": 3.0,
+    "FR 52700": 3.0,
+    "FR 54900": 3.0,
+    "FR 56100": 3.0,
+    "FR 56200": 3.0,
+    "FR 56300": 3.0,
+    "FR 56400": 3.0,
+    "FR 58100": 3.0,
+    "FR 58200": 3.0,
+    "FR 59400": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required French Language Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "FR 30100",
+        "FR 30200"
+      ]
+    },
+    {
+      "name": "B. Required French Literature Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "FR 24100"
+      ]
+    },
+    {
+      "name": "C. French Electives",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "FR 32400",
+        "FR 38000",
+        "FR 39400",
+        "FR 39600",
+        "FR 40100",
+        "FR 40200",
+        "FR 42400",
+        "FR 44300",
+        "FR 48000",
+        "FR 52700",
+        "FR 54900",
+        "FR 56100",
+        "FR 56200",
+        "FR 56300",
+        "FR 56400",
+        "FR 58100",
+        "FR 58200",
+        "FR 59400"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "FR 20200",
+    "FR 20500",
+    "FR 24100",
+    "FR 30100",
+    "FR 30200",
+    "FR 32400",
+    "FR 38000",
+    "FR 39400",
+    "FR 39600",
+    "FR 40100",
+    "FR 40200",
+    "FR 42400",
+    "FR 44300",
+    "FR 48000",
+    "FR 52700",
+    "FR 54900",
+    "FR 56100",
+    "FR 56200",
+    "FR 56300",
+    "FR 56400",
+    "FR 58100",
+    "FR 58200",
+    "FR 59400",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

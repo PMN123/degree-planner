@@ -1,0 +1,112 @@
+{
+  "id": "crop-science-minor",
+  "poid": "34710",
+  "name": "Crop Science Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34710",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.593337+00:00",
+  "course_credits": {
+    "AGRY 25500": 3.0,
+    "AGRY 10500": 3.0,
+    "AGRY 37500": 3.0,
+    "AGRY 32000": 3.0,
+    "AGRY 32100": 1.0,
+    "AGRY 33500": 3.0,
+    "AGRY 36500": 3.0,
+    "AGRY 48000": 3.0,
+    "AGRY 48500": 3.0,
+    "AGRY 50500": 3.0,
+    "AGRY 51500": 3.0,
+    "AGRY 52000": 3.0,
+    "BTNY 30100": 3.0,
+    "BTNY 30400": 3.0,
+    "BTNY 35000": 3.0,
+    "ENTM 20600": 2.0,
+    "ENTM 20700": 1.0,
+    "AGRY 52500": 3.0,
+    "HORT 30100": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "AGRY 25500"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "AGRY 10500 / AGRY 37500",
+          "courses": [
+            "AGRY 10500",
+            "AGRY 37500"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": 12.0,
+      "kind": "choose",
+      "options": [
+        "AGRY 10500",
+        "AGRY 32000",
+        "AGRY 32100",
+        "AGRY 33500",
+        "AGRY 36500",
+        "AGRY 37500",
+        "AGRY 48000",
+        "AGRY 48500",
+        "AGRY 50500",
+        "AGRY 51500",
+        "AGRY 52000",
+        "BTNY 30100",
+        "BTNY 30400",
+        "BTNY 35000",
+        "ENTM 20600",
+        "ENTM 20700",
+        {
+          "kind": "one_of",
+          "name": "AGRY 52500 / HORT 30100",
+          "courses": [
+            "AGRY 52500",
+            "HORT 30100"
+          ]
+        }
+      ],
+      "choose_credits": 12.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AGRY 10500",
+    "AGRY 25500",
+    "AGRY 32000",
+    "AGRY 32100",
+    "AGRY 33500",
+    "AGRY 36500",
+    "AGRY 37500",
+    "AGRY 48000",
+    "AGRY 48500",
+    "AGRY 50500",
+    "AGRY 51500",
+    "AGRY 52000",
+    "AGRY 52500",
+    "BTNY 30100",
+    "BTNY 30400",
+    "BTNY 35000",
+    "ENTM 20600",
+    "ENTM 20700",
+    "HELP 02026",
+    "HORT 30100",
+    "IN 47907"
+  ]
+}

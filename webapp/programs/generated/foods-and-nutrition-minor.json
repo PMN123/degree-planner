@@ -1,0 +1,78 @@
+{
+  "id": "foods-and-nutrition-minor",
+  "poid": "34802",
+  "name": "Foods and Nutrition Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34802",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.024202+00:00",
+  "course_credits": {
+    "NUTR 20500": 3.0,
+    "NUTR 31500": 3.0,
+    "NUTR 33000": 3.0,
+    "NUTR 36500": 3.0,
+    "NUTR 43000": 2.0,
+    "NUTR 43700": 3.0,
+    "NUTR 43800": 3.0,
+    "NUTR 45400": 2.0,
+    "NUTR 53400": 3.0,
+    "NUTR 39000": 1.0,
+    "NUTR 49000": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "NUTR 20500",
+        "NUTR 31500"
+      ]
+    },
+    {
+      "name": "B. Additional Courses",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "NUTR 33000",
+        "NUTR 36500",
+        "NUTR 43000",
+        "NUTR 43700",
+        "NUTR 43800",
+        "NUTR 45400",
+        "NUTR 53400",
+        {
+          "kind": "one_of",
+          "name": "NUTR 39000 / NUTR 49000",
+          "courses": [
+            "NUTR 39000",
+            "NUTR 49000"
+          ]
+        }
+      ],
+      "choose_credits": 9.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "NUTR 20500",
+    "NUTR 31500",
+    "NUTR 33000",
+    "NUTR 36500",
+    "NUTR 39000",
+    "NUTR 43000",
+    "NUTR 43700",
+    "NUTR 43800",
+    "NUTR 45400",
+    "NUTR 49000",
+    "NUTR 53400"
+  ]
+}

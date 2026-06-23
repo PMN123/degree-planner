@@ -1,0 +1,576 @@
+{
+  "id": "crop-science-bs",
+  "poid": "34716",
+  "name": "Crop Science, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34716",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.527798+00:00",
+  "course_credits": {
+    "AGRY 10500": 3.0,
+    "AGRY 25500": 3.0,
+    "AGRY 32000": 3.0,
+    "AGRY 32100": 1.0,
+    "AGRY 33500": 3.0,
+    "AGRY 36500": 3.0,
+    "AGRY 39800": 1.0,
+    "AGRY 49800": 1.0,
+    "AGRY 51500": 3.0,
+    "AGRY 12500": 3.0,
+    "AGRY 28500": 3.0,
+    "AGRY 52500": 3.0,
+    "HORT 30100": 4.0,
+    "AGR 10100": 0.5,
+    "AGR 11300": 0.5,
+    "BCHM 30700": 3.0,
+    "BCHM 30900": 1.0,
+    "BTNY 30100": 3.0,
+    "BTNY 30400": 3.0,
+    "CHM 25700": 4.0,
+    "CHM 25701": 1.0,
+    "ENTM 20600": 2.0,
+    "ENTM 20700": 1.0,
+    "MA 16020": 3.0,
+    "PHYS 22000": 4.0,
+    "PHYS 22100": 4.0,
+    "STAT 30100": 3.0,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "BTNY 11000": 4.0,
+    "BTNY 12000": 4.0,
+    "BTNY 12100": 4.0,
+    "CHM 11100": 3.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 11200": 3.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 11630": 1.0,
+    "MA 16010": 3.0,
+    "MA 16500": 4.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        33.0,
+        34.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": [
+            27.0,
+            28.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "AGRY 10500",
+            "AGRY 25500",
+            "AGRY 32000",
+            "AGRY 32100",
+            "AGRY 33500",
+            "AGRY 36500",
+            "AGRY 39800",
+            "AGRY 49800",
+            "AGRY 51500"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AGRY 12500 / AGRY 28500",
+              "courses": [
+                "AGRY 12500",
+                "AGRY 28500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AGRY 52500 / HORT 30100",
+              "courses": [
+                "AGRY 52500",
+                "HORT 30100"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Agronomy Selectives",
+          "credit_target": 6.0,
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        1.0,
+        9.0
+      ],
+      "kind": "credits",
+      "credits": 1.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "17-20 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11300",
+          "title": "Introduction To Agronomy Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "AGRY 10500",
+          "title": "Crop Production",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BTNY 12000",
+              "title": "Principles Of Plant Biology I",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 11510",
+              "title": "General Chemistry I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 11610",
+              "title": "General Chemistry II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11630",
+              "title": "General Chemistry II - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16020",
+          "title": "Applied Calculus II (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BTNY 11000",
+              "title": "Introduction To Plant Science (UCC: AI/SCI)",
+              "credits": 4.0
+            },
+            {
+              "code": "BTNY 12100",
+              "title": "Principles Of Plant Biology II",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "AGEC 20300",
+          "title": "Introductory Microeconomics For Food And Agribusiness (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 20400",
+              "title": "Introduction To Resource Economics And Environmental Policy (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "AGEC 21700",
+              "title": "Economics (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "ECON 21000",
+              "title": "Principles Of Economics (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "ECON 25100",
+              "title": "Microeconomics (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "ECON 25200",
+              "title": "Macroeconomics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Agronomy Selective (AGRY 10000:59999)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "AGRY 25500",
+          "title": "Soil Science",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 39800",
+          "title": "Agronomy Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 25700",
+          "title": "Organic Chemistry",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 25701",
+          "title": "Organic Chemistry Laboratory",
+          "credits": 1.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "AGRY 36500",
+          "title": "Soil Fertility",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 12500",
+          "title": "Environmental Science And Conservation (UCC: STS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGRY 28500",
+              "title": "World Crop Adaptation And Distribution (UCC: STS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Agronomy Selective (AGRY 10000:59999)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "AGRY 32000",
+          "title": "Genetics",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 32100",
+          "title": "Genetics Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "BTNY 30100",
+          "title": "Introductory Plant Pathology",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13-14 Credits",
+      "items": [
+        {
+          "code": "AGRY 33500",
+          "title": "Weather And Climate",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22100",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGRY 49800",
+          "title": "Agronomy Senior Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "AGRY 51500",
+          "title": "Plant Mineral Nutrition",
+          "credits": 3.0
+        },
+        {
+          "code": "BCHM 30700",
+          "title": "Biochemistry",
+          "credits": 3.0
+        },
+        {
+          "code": "BCHM 30900",
+          "title": "Biochemistry Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "ENTM 20600",
+          "title": "General Entomology (UCC: SCI)",
+          "credits": 2.0
+        },
+        {
+          "code": "ENTM 20700",
+          "title": "General Entomology Laboratory",
+          "credits": 1.0
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "BTNY 30400",
+          "title": "Introductory Weed Science",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 52500",
+          "title": "Crop Physiology And Ecology",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HORT 30100",
+              "title": "Plant Physiology",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Business Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 10000",
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 21700",
+    "AGR 10100",
+    "AGR 11300",
+    "AGRY 10000",
+    "AGRY 10500",
+    "AGRY 12500",
+    "AGRY 25500",
+    "AGRY 28500",
+    "AGRY 32000",
+    "AGRY 32100",
+    "AGRY 33500",
+    "AGRY 36500",
+    "AGRY 39800",
+    "AGRY 49800",
+    "AGRY 51500",
+    "AGRY 52500",
+    "BCHM 30700",
+    "BCHM 30900",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BTNY 11000",
+    "BTNY 12000",
+    "BTNY 12100",
+    "BTNY 30100",
+    "BTNY 30400",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 11630",
+    "CHM 25700",
+    "CHM 25701",
+    "ECON 10000",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "ENTM 20600",
+    "ENTM 20700",
+    "HEA 01348",
+    "HELP 02026",
+    "HORT 30100",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16500",
+    "MGMT 10000",
+    "OLS 10000",
+    "PHYS 22000",
+    "PHYS 22100",
+    "STAT 30100"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "environmental-and-ecological-engineering-minor",
+  "poid": "35949",
+  "name": "Environmental and Ecological Engineering Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 17,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35949",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.344070+00:00",
+  "course_credits": {
+    "EEE 35000": 3.0,
+    "CCE 35000": 3.0,
+    "CCE 35500": 3.0,
+    "EEE 35500": 3.0,
+    "EEE 23000": 3.0,
+    "EEE 53000": 3.0,
+    "BIOL 28600": 2.0,
+    "FNR 58600": 3.0,
+    "BIOL 48300": 3.0,
+    "BTNY 30200": 3.0,
+    "ENTM 31100": 3.0,
+    "FNR 20100": 3.0,
+    "FNR 24150": 3.0,
+    "FNR 25150": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": [
+        11.0,
+        12.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "EEE 35000 / CCE 35000",
+          "courses": [
+            "EEE 35000",
+            "CCE 35000"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "CCE 35500 / EEE 35500",
+          "courses": [
+            "CCE 35500",
+            "EEE 35500"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "EEE 23000 / EEE 53000",
+          "courses": [
+            "EEE 23000",
+            "EEE 53000"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "BIOL 28600 / FNR 58600 / BIOL 48300 / BTNY 30200 / ENTM 31100 / FNR 20100 / FNR 24150 / FNR 25150",
+          "courses": [
+            "BIOL 28600",
+            "FNR 58600",
+            "BIOL 48300",
+            "BTNY 30200",
+            "ENTM 31100",
+            "FNR 20100",
+            "FNR 24150",
+            "FNR 25150"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "BIOL 28600",
+    "BIOL 48300",
+    "BTNY 30200",
+    "CCE 35000",
+    "CCE 35500",
+    "EEE 23000",
+    "EEE 35000",
+    "EEE 35500",
+    "EEE 53000",
+    "ENTM 31100",
+    "FNR 20100",
+    "FNR 24150",
+    "FNR 25150",
+    "FNR 58600",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

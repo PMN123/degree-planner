@@ -1,0 +1,488 @@
+{
+  "id": "economics-ba",
+  "poid": "34828",
+  "name": "Economics, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34828",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.131466+00:00",
+  "course_credits": {
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "ECON 26000": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 51100": 3.0,
+    "ECON 34000": 3.0,
+    "ECON 35200": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "SCLA 10100": 3.0,
+    "COM 11400": 3.0,
+    "COM 21700": 3.0,
+    "EDPS 31500": 3.0,
+    "SCLA 10200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Pre-Economics Courses",
+          "credit_target": [
+            9.0,
+            11.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "ECON 25100",
+            "ECON 25200"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "MA 16010 / MA 16100 / MA 16500",
+              "courses": [
+                "MA 16010",
+                "MA 16100",
+                "MA 16500"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Upper Division Economics",
+          "credit_target": 36.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "A. Foundational Courses",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "ECON 26000",
+                "STAT 35000",
+                "STAT 51100"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "B. Economics Courses",
+              "credit_target": 6.0,
+              "kind": "all_of",
+              "courses": [
+                "ECON 34000",
+                "ECON 35200"
+              ]
+            },
+            {
+              "name": "C. Additional Economics Courses",
+              "credit_target": 27.0,
+              "kind": "credits",
+              "credits": 27.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "ECON 25100",
+          "title": "Microeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON 26000",
+          "title": "Data Visualization And Inference",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 35000",
+              "title": "Introduction To Statistics",
+              "credits": 3.0
+            },
+            {
+              "code": "STAT 51100",
+              "title": "Statistical Methods",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            },
+            {
+              "code": "SCLA 10100",
+              "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+              "credits": 3.0
+            },
+            {
+              "label": "HONR 19903 - Interdisciplinary Approaches to Writing",
+              "credits": null,
+              "slot": true
+            }
+          ]
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16100",
+              "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 5.0
+            },
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECON 25200",
+          "title": "Macroeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "COM 21700",
+              "title": "Science Writing And Presentation (UCC: OC)",
+              "credits": 3.0
+            },
+            {
+              "code": "EDPS 31500",
+              "title": "Collaborative Leadership: Interpersonal Skills (UCC: OC)",
+              "credits": 3.0
+            },
+            {
+              "code": "SCLA 10200",
+              "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 1 of 6",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECON 34000",
+          "title": "Intermediate Microeconomic Theory",
+          "credits": 3.0
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 2 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 3 of 6",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECON 35200",
+          "title": "Intermediate Macroeconomics",
+          "credits": 3.0
+        },
+        {
+          "label": "Requirement C: Additional Economics Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, Society",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Requirement C: Additional Economics Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement C: Additional Economics Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement C: Additional Economics Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Requirement C: Additional Economics Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement C: Additional Economics Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Major Requirement C: Additional Economics Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement C: Additional Economics Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Major Requirement C: Additional Economics Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "COM 11400",
+    "COM 21700",
+    "ECON 25100",
+    "ECON 25200",
+    "ECON 26000",
+    "ECON 30000",
+    "ECON 30100",
+    "ECON 34000",
+    "ECON 35200",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IN 47907",
+    "MA 10610",
+    "MA 16010",
+    "MA 16100",
+    "MA 16500",
+    "SCLA 10100",
+    "SCLA 10200",
+    "STAT 35000",
+    "STAT 51100"
+  ]
+}

@@ -1,0 +1,585 @@
+{
+  "id": "spanish-ba-language-and-culture-track",
+  "poid": "35735",
+  "name": "Spanish, BA (Language & Culture Track)",
+  "degree": "BA (Language & Culture Track)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35735",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.102980+00:00",
+  "course_credits": {
+    "SPAN 10100": 3.0,
+    "SPAN 10200": 3.0,
+    "SPAN 10500": 4.0,
+    "SPAN 20100": 3.0,
+    "SPAN 20500": 4.0,
+    "SPAN 20200": 3.0,
+    "SPAN 22400": 3.0,
+    "SPAN 30100": 3.0,
+    "SPAN 30200": 3.0,
+    "SPAN 30500": 3.0,
+    "SPAN 30801": 3.0,
+    "SPAN 24100": 3.0,
+    "SPAN 40100": 3.0,
+    "SPAN 40200": 3.0,
+    "SPAN 44400": 3.0,
+    "SPAN 34100": 3.0,
+    "SPAN 34200": 3.0,
+    "SPAN 36100": 3.0,
+    "SPAN 36200": 3.0,
+    "SPAN 23500": 3.0,
+    "SPAN 31200": 1.0,
+    "SPAN 32100": 3.0,
+    "SPAN 32200": 3.0,
+    "SPAN 32300": 1.0,
+    "SPAN 32500": 3.0,
+    "SPAN 33000": 3.0,
+    "SPAN 33500": 3.0,
+    "SPAN 36600": 3.0,
+    "SPAN 38000": 1.0,
+    "SPAN 39800": 1.0,
+    "SPAN 41201": 1.0,
+    "SPAN 41500": 3.0,
+    "SPAN 41900": 1.0,
+    "SPAN 42400": 3.0,
+    "SPAN 48000": 3.0,
+    "SPAN 48100": 3.0,
+    "SPAN 48200": 3.0,
+    "SPAN 48300": 3.0,
+    "SPAN 48500": 3.0,
+    "SPAN 49800": 1.0,
+    "SPAN 54000": 3.0,
+    "SPAN 54100": 3.0,
+    "SPAN 54200": 3.0,
+    "SPAN 54300": 3.0,
+    "SPAN 54900": 3.0,
+    "SPAN 55000": 3.0,
+    "SPAN 55100": 3.0,
+    "SPAN 55200": 3.0,
+    "SPAN 55300": 3.0,
+    "SPAN 55400": 3.0,
+    "SPAN 55500": 3.0,
+    "SPAN 55600": 3.0,
+    "SPAN 55700": 3.0,
+    "SPAN 56300": 3.0,
+    "SPAN 56401": 3.0,
+    "SPAN 56100": 3.0,
+    "SPAN 56200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Pre-requisite Language Courses",
+          "kind": "all_of",
+          "courses": [
+            "SPAN 10100",
+            "SPAN 10200",
+            "SPAN 10500",
+            "SPAN 20100",
+            "SPAN 20500"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "SPAN 20200 / SPAN 22400",
+              "courses": [
+                "SPAN 20200",
+                "SPAN 22400"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spanish Major",
+          "credit_target": 30.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Area A - Spanish Language",
+              "credit_target": 6.0,
+              "kind": "choose",
+              "options": [
+                "SPAN 30100",
+                "SPAN 30200",
+                "SPAN 30500",
+                "SPAN 30801"
+              ],
+              "choose_credits": 6.0
+            },
+            {
+              "name": "Area B - Spanish Literature",
+              "credit_target": 3.0,
+              "kind": "all_of",
+              "courses": [
+                "SPAN 24100"
+              ]
+            },
+            {
+              "name": "Language & Culture Track",
+              "credit_target": 21.0,
+              "kind": "choose",
+              "options": [
+                "SPAN 40100",
+                "SPAN 40200",
+                "SPAN 44400",
+                "SPAN 34100",
+                "SPAN 34200",
+                "SPAN 36100",
+                "SPAN 36200",
+                "SPAN 23500",
+                "SPAN 31200",
+                "SPAN 32100",
+                "SPAN 32200",
+                "SPAN 32300",
+                "SPAN 32500",
+                "SPAN 33000",
+                "SPAN 33500",
+                "SPAN 34100",
+                "SPAN 34200",
+                "SPAN 36600",
+                "SPAN 38000",
+                "SPAN 39800",
+                "SPAN 40100",
+                "SPAN 40200",
+                "SPAN 41201",
+                "SPAN 41500",
+                "SPAN 41900",
+                "SPAN 42400",
+                "SPAN 48000",
+                "SPAN 48100",
+                "SPAN 48200",
+                "SPAN 48300",
+                "SPAN 48500",
+                "SPAN 49800",
+                "SPAN 54000",
+                "SPAN 54100",
+                "SPAN 54200",
+                "SPAN 54300",
+                "SPAN 54900",
+                "SPAN 55000",
+                "SPAN 55100",
+                "SPAN 55200",
+                "SPAN 55300",
+                "SPAN 55400",
+                "SPAN 55500",
+                "SPAN 55600",
+                "SPAN 55700",
+                "SPAN 56300",
+                "SPAN 56401",
+                "SPAN 56100",
+                "SPAN 56200"
+              ],
+              "choose_credits": 21.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        14.0,
+        55.0
+      ],
+      "kind": "credits",
+      "credits": 14.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "SPAN 10100",
+          "title": "Spanish Level I (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (CLA Core I: 1 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 2 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "SPAN 10200",
+          "title": "Spanish Level II (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (CLA Core I: 3 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "SPAN 20100",
+          "title": "Spanish Level III (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "SPAN 20200",
+          "title": "Spanish Level IV (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science, Technology, and Society",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "SPAN 30100",
+          "title": "Spanish Level V (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SPAN 30500",
+              "title": "Spanish For Heritage Speakers (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "SPAN 36100",
+          "title": "The Structure Of Spanish I: Phonetics And Phonology",
+          "credits": 3.0
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "SPAN 24100",
+          "title": "Introduction To The Study Of Hispanic Literature",
+          "credits": 3.0
+        },
+        {
+          "code": "SPAN 30200",
+          "title": "Spanish Level VI (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SPAN 30801",
+              "title": "Advanced Spanish For Heritage Speakers (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "SPAN 36200",
+          "title": "The Structure Of Spanish II: Morphology, Lexicology, And Syntax",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "12-16 Credits",
+      "items": [
+        {
+          "code": "SPAN 40100",
+          "title": "Spanish VII: Advanced Spanish In Context: Celebrations And Traditions (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "SPAN 34100",
+          "title": "Hispanic Literature I: Poetry And Drama",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SPAN 34200",
+              "title": "Hispanic Literature II: Prose",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Area F: Spanish Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area F: Spanish Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 0.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14-17 Credits",
+      "items": [
+        {
+          "label": "Area F: Spanish Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "SPAN 10100",
+    "SPAN 10200",
+    "SPAN 10500",
+    "SPAN 20100",
+    "SPAN 20200",
+    "SPAN 20500",
+    "SPAN 22400",
+    "SPAN 23500",
+    "SPAN 24100",
+    "SPAN 30100",
+    "SPAN 30200",
+    "SPAN 30500",
+    "SPAN 30801",
+    "SPAN 31200",
+    "SPAN 32100",
+    "SPAN 32200",
+    "SPAN 32300",
+    "SPAN 32500",
+    "SPAN 33000",
+    "SPAN 33500",
+    "SPAN 34100",
+    "SPAN 34200",
+    "SPAN 36100",
+    "SPAN 36200",
+    "SPAN 36600",
+    "SPAN 38000",
+    "SPAN 39800",
+    "SPAN 40100",
+    "SPAN 40200",
+    "SPAN 41201",
+    "SPAN 41500",
+    "SPAN 41900",
+    "SPAN 42400",
+    "SPAN 44400",
+    "SPAN 48000",
+    "SPAN 48100",
+    "SPAN 48200",
+    "SPAN 48300",
+    "SPAN 48500",
+    "SPAN 49800",
+    "SPAN 54000",
+    "SPAN 54100",
+    "SPAN 54200",
+    "SPAN 54300",
+    "SPAN 54900",
+    "SPAN 55000",
+    "SPAN 55100",
+    "SPAN 55200",
+    "SPAN 55300",
+    "SPAN 55400",
+    "SPAN 55500",
+    "SPAN 55600",
+    "SPAN 55700",
+    "SPAN 56100",
+    "SPAN 56200",
+    "SPAN 56300",
+    "SPAN 56401"
+  ]
+}

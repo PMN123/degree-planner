@@ -1,0 +1,123 @@
+{
+  "id": "artificial-intelligence-machine-learning-minor",
+  "poid": "35714",
+  "name": "Artificial Intelligence/Machine Learning Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35714",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.086780+00:00",
+  "course_credits": {
+    "ECE 20875": 3.0,
+    "ECE 20869": 3.0,
+    "ECE 26400": 3.0,
+    "ECE 30100": 3.0,
+    "ECE 30200": 3.0,
+    "ECE 36800": 3.0,
+    "ECE 43800": 4.0,
+    "ECE 50024": 3.0,
+    "ECE 56900": 3.0,
+    "ECE 40875": 3.0,
+    "ECE 50836": 3.0,
+    "ECE 47300": 3.0,
+    "ECE 57000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "ECE 20875"
+      ]
+    },
+    {
+      "name": "Selectives",
+      "credit_target": 15.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core Courses",
+          "credit_target": [
+            6.0,
+            9.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ECE 20869",
+            "ECE 26400",
+            "ECE 30100",
+            "ECE 30200",
+            "ECE 36800"
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "Selective Courses",
+          "credit_target": [
+            6.0,
+            9.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ECE 43800",
+            "ECE 50024",
+            "ECE 56900",
+            {
+              "kind": "one_of",
+              "name": "ECE 40875 / ECE 50836",
+              "courses": [
+                "ECE 40875",
+                "ECE 50836"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "ECE 47300 / ECE 57000",
+              "courses": [
+                "ECE 47300",
+                "ECE 57000"
+              ]
+            }
+          ],
+          "choose_credits": 6.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CS 15900",
+    "ECE 20001",
+    "ECE 20869",
+    "ECE 20875",
+    "ECE 26400",
+    "ECE 30100",
+    "ECE 30200",
+    "ECE 36800",
+    "ECE 40875",
+    "ECE 43800",
+    "ECE 47300",
+    "ECE 50024",
+    "ECE 50836",
+    "ECE 56900",
+    "ECE 57000",
+    "ENGR 13100",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26200",
+    "MA 26500",
+    "PHYS 17200",
+    "PHYS 24100"
+  ]
+}

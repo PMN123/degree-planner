@@ -1,0 +1,159 @@
+{
+  "id": "biotechnology-minor",
+  "poid": "34815",
+  "name": "Biotechnology Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 17,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34815",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.255890+00:00",
+  "course_credits": {
+    "ABE 22600": 2.0,
+    "ABE 32700": 2.0,
+    "BCHM 22100": 3.0,
+    "BCHM 30700": 3.0,
+    "CHM 33900": 3.0,
+    "CHM 43300": 3.0,
+    "PHSC 20800": 3.0,
+    "ABE 58000": 3.0,
+    "BCHM 52100": 3.0,
+    "BIOL 41500": 3.0,
+    "BIOL 51606": 3.0,
+    "BME 56100": 3.0,
+    "CHE 52500": 3.0,
+    "CHE 55100": 3.0,
+    "CHE 55300": 3.0,
+    "IMPH 56200": 4.0,
+    "PHSC 46100": 3.0,
+    "BIOL 22100": 4.0,
+    "BIOL 43800": 3.0,
+    "BIOL 43900": 2.0,
+    "FS 36200": 3.0,
+    "FS 36300": 2.0,
+    "CHE 32000": 3.0,
+    "IET 31600": 3.0,
+    "STAT 22500": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 35500": 3.0,
+    "STAT 50300": 3.0,
+    "STAT 51100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 4.0,
+      "kind": "all_of",
+      "courses": [
+        "ABE 22600",
+        "ABE 32700"
+      ]
+    },
+    {
+      "name": "Biochemistry Selective",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "BCHM 22100",
+        "BCHM 30700",
+        "CHM 33900",
+        "CHM 43300",
+        "PHSC 20800"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Biotechnology Selective",
+      "credit_target": [
+        3.0,
+        4.0
+      ],
+      "kind": "choose",
+      "options": [
+        "ABE 58000",
+        "BCHM 52100",
+        "BIOL 41500",
+        "BIOL 51606",
+        "BME 56100",
+        "CHE 52500",
+        "CHE 55100",
+        "CHE 55300",
+        "IMPH 56200",
+        "PHSC 46100"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Microbiology Lab Selectives",
+      "credit_target": [
+        4.0,
+        5.0
+      ],
+      "kind": "choose",
+      "options": [
+        "BIOL 22100",
+        "BIOL 43800",
+        "BIOL 43900",
+        "FS 36200",
+        "FS 36300"
+      ],
+      "choose_credits": 4.0
+    },
+    {
+      "name": "Statistics Selective",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "CHE 32000",
+        "IET 31600",
+        "STAT 22500",
+        "STAT 30100",
+        "STAT 35000",
+        "STAT 35500",
+        "STAT 50300",
+        "STAT 51100"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ABE 22600",
+    "ABE 32700",
+    "ABE 58000",
+    "BCHM 22100",
+    "BCHM 30700",
+    "BCHM 52100",
+    "BIOL 22100",
+    "BIOL 41500",
+    "BIOL 43800",
+    "BIOL 43900",
+    "BIOL 51606",
+    "BME 56100",
+    "CHE 32000",
+    "CHE 52500",
+    "CHE 55100",
+    "CHE 55300",
+    "CHM 33900",
+    "CHM 43300",
+    "FS 36200",
+    "FS 36300",
+    "HELP 02026",
+    "IET 31600",
+    "IMPH 56200",
+    "IN 47907",
+    "PHSC 20800",
+    "PHSC 46100",
+    "STAT 22500",
+    "STAT 30100",
+    "STAT 35000",
+    "STAT 35500",
+    "STAT 50300",
+    "STAT 51100"
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "mathematics-minor",
+  "poid": "34871",
+  "name": "Mathematics Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 12,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34871",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:32.111080+00:00",
+  "course_credits": {
+    "MA 35100": 3.0,
+    "MA 26500": 3.0,
+    "MA 35301": 3.0,
+    "MA 45300": 3.0,
+    "MA 45000": 3.0,
+    "MA 34100": 3.0,
+    "MA 44000": 3.0,
+    "MA 30100": 3.0,
+    "MA 36200": 3.0,
+    "MA 42500": 3.0,
+    "MA 42800": 3.0,
+    "MA 44200": 3.0,
+    "MA 37400": 3.0,
+    "MA 34900": 3.0,
+    "CS 24000": 3.0,
+    "ECE 26400": 3.0,
+    "CS 25100": 3.0,
+    "CS 25300": 3.0,
+    "ECE 36800": 3.0,
+    "MA 36600": 4.0,
+    "MA 26600": 3.0,
+    "MA 30300": 3.0,
+    "CS 38100": 3.0,
+    "CS 48300": 3.0,
+    "MA 37500": 3.0,
+    "MA 38500": 3.0,
+    "MA 42100": 3.0,
+    "CS 31400": 3.0,
+    "CS 51400": 3.0,
+    "CS 51500": 3.0,
+    "CS 52000": 3.0,
+    "MA 41600": 3.0,
+    "STAT 41600": 3.0,
+    "STAT 41700": 3.0,
+    "STAT 51600": 3.0,
+    "STAT 51900": 3.0,
+    "MA 43200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Area 1",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "MA 35100",
+        "MA 26500",
+        "MA 35301"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Area 2",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Algebra",
+          "kind": "all_of",
+          "courses": [
+            "MA 45300",
+            "MA 45000"
+          ]
+        },
+        {
+          "name": "Analysis",
+          "kind": "all_of",
+          "courses": [
+            "MA 34100",
+            "MA 44000"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Area 3",
+      "credit_target": [
+        6.0,
+        7.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Algebra",
+          "kind": "all_of",
+          "courses": [
+            "MA 45000",
+            "MA 45300"
+          ]
+        },
+        {
+          "name": "Analysis",
+          "kind": "all_of",
+          "courses": [
+            "MA 30100",
+            "MA 34100",
+            "MA 36200",
+            "MA 42500",
+            "MA 42800",
+            "MA 44000",
+            "MA 44200"
+          ]
+        },
+        {
+          "name": "Computer Science",
+          "kind": "all_of",
+          "courses": [
+            "MA 37400",
+            "MA 34900"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "CS 24000 / ECE 26400",
+              "courses": [
+                "CS 24000",
+                "ECE 26400"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CS 25100 / CS 25300 / ECE 36800",
+              "courses": [
+                "CS 25100",
+                "CS 25300",
+                "ECE 36800"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Differential Equations",
+          "kind": "all_of",
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "MA 36600 / MA 26600 / MA 30300",
+              "courses": [
+                "MA 36600",
+                "MA 26600",
+                "MA 30300"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Discrete Mathematics, Foundation",
+          "kind": "all_of",
+          "courses": [
+            "CS 38100",
+            "CS 48300",
+            "MA 37500",
+            "MA 38500"
+          ]
+        },
+        {
+          "name": "Linear Algebra",
+          "kind": "all_of",
+          "courses": [
+            "MA 35301",
+            "MA 42100"
+          ]
+        },
+        {
+          "name": "Numerical Analysis",
+          "kind": "all_of",
+          "courses": [
+            "CS 31400",
+            "CS 51400",
+            "CS 51500",
+            "CS 52000"
+          ]
+        },
+        {
+          "name": "Statistics, Probability",
+          "kind": "all_of",
+          "courses": [
+            "MA 43200"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "MA 41600 / STAT 41600 / STAT 41700 / STAT 51600 / STAT 51900",
+              "courses": [
+                "MA 41600",
+                "STAT 41600",
+                "STAT 41700",
+                "STAT 51600",
+                "STAT 51900"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CS 24000",
+    "CS 25100",
+    "CS 25300",
+    "CS 31400",
+    "CS 38100",
+    "CS 48300",
+    "CS 51400",
+    "CS 51500",
+    "CS 52000",
+    "ECE 26400",
+    "ECE 36800",
+    "HELP 02026",
+    "IN 47907",
+    "MA 26200",
+    "MA 26500",
+    "MA 26600",
+    "MA 30100",
+    "MA 30300",
+    "MA 34100",
+    "MA 34900",
+    "MA 35100",
+    "MA 35301",
+    "MA 36200",
+    "MA 36600",
+    "MA 37400",
+    "MA 37500",
+    "MA 38500",
+    "MA 41600",
+    "MA 42100",
+    "MA 42500",
+    "MA 42800",
+    "MA 43200",
+    "MA 44000",
+    "MA 44200",
+    "MA 45000",
+    "MA 45300",
+    "STAT 41600",
+    "STAT 41700",
+    "STAT 51600",
+    "STAT 51900"
+  ]
+}

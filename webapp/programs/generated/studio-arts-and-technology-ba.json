@@ -1,0 +1,478 @@
+{
+  "id": "studio-arts-and-technology-ba",
+  "poid": "34913",
+  "name": "Studio Arts and Technology, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34913",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.771498+00:00",
+  "course_credits": {
+    "AD 10500": 3.0,
+    "AD 10600": 3.0,
+    "AD 11300": 3.0,
+    "AD 11900": 3.0,
+    "AD 23300": 3.0,
+    "AD 22700": 3.0,
+    "AD 30701": 3.0,
+    "AD 38300": 3.0,
+    "AD 38400": 3.0,
+    "AD 20000": 3.0,
+    "AD 21300": 3.0,
+    "AD 22000": 3.0,
+    "AD 26300": 3.0,
+    "AD 26500": 3.0,
+    "AD 26600": 3.0,
+    "AD 24200": 3.0,
+    "AD 26200": 3.0,
+    "AD 27000": 3.0,
+    "AD 27100": 3.0,
+    "AD 27500": 3.0,
+    "AD 23600": 3.0,
+    "AD 26700": 3.0,
+    "AD 30400": 3.0,
+    "AD 32600": 3.0,
+    "AD 33400": 3.0,
+    "AD 36300": 3.0,
+    "AD 11400": 3.0,
+    "AD 30000": 3.0,
+    "AD 31400": 3.0,
+    "AD 33300": 3.0,
+    "AD 36500": 3.0,
+    "AD 36800": 3.0,
+    "AD 36900": 3.0,
+    "AD 40000": 3.0,
+    "AD 46800": 3.0,
+    "AD 34200": 3.0,
+    "AD 36200": 3.0,
+    "AD 37000": 3.0,
+    "AD 40400": 3.0,
+    "AD 44200": 3.0,
+    "AD 46200": 3.0,
+    "AD 47000": 3.0,
+    "AD 11700": 3.0,
+    "AD 33100": 3.0,
+    "AD 33700": 3.0,
+    "AD 36101": 3.0,
+    "AD 38100": 3.0,
+    "AD 41700": 3.0,
+    "AD 42100": 3.0,
+    "AD 49900": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 48.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Studio Arts and Technology Fundamental Courses",
+          "credit_target": 15.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 10500",
+            "AD 10600",
+            "AD 11300",
+            "AD 11900",
+            "AD 23300"
+          ]
+        },
+        {
+          "name": "B. Art History courses",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "AD 22700",
+            "AD 30701",
+            "AD 38300",
+            "AD 38400"
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "C. Studio Arts and Technology Core",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "2D Extended Media",
+              "kind": "all_of",
+              "courses": [
+                "AD 20000",
+                "AD 21300",
+                "AD 22000",
+                "AD 26300",
+                "AD 26500",
+                "AD 26600"
+              ]
+            },
+            {
+              "name": "Craft/Material Studies",
+              "kind": "all_of",
+              "courses": [
+                "AD 24200",
+                "AD 26200",
+                "AD 27000",
+                "AD 27100",
+                "AD 27500"
+              ]
+            },
+            {
+              "name": "Art, Culture, and Technology",
+              "kind": "all_of",
+              "courses": [
+                "AD 23600",
+                "AD 26700",
+                "AD 30400",
+                "AD 32600",
+                "AD 33400",
+                "AD 36300"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E. Studio Arts and Technology Focus Area",
+          "credit_target": 15.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "2D Extended Media",
+              "kind": "all_of",
+              "courses": [
+                "AD 11400",
+                "AD 20000",
+                "AD 21300",
+                "AD 26300",
+                "AD 26500",
+                "AD 26600",
+                "AD 30000",
+                "AD 31400",
+                "AD 33300",
+                "AD 36500",
+                "AD 36800",
+                "AD 36900",
+                "AD 40000",
+                "AD 46800"
+              ]
+            },
+            {
+              "name": "Craft/Material Studies",
+              "kind": "all_of",
+              "courses": [
+                "AD 24200",
+                "AD 26200",
+                "AD 27000",
+                "AD 27100",
+                "AD 27500",
+                "AD 34200",
+                "AD 36200",
+                "AD 37000",
+                "AD 40400",
+                "AD 44200",
+                "AD 46200",
+                "AD 47000"
+              ]
+            },
+            {
+              "name": "Art, Culture, and Technology",
+              "kind": "all_of",
+              "courses": [
+                "AD 11700",
+                "AD 23600",
+                "AD 26700",
+                "AD 30400",
+                "AD 32600",
+                "AD 33100",
+                "AD 33400",
+                "AD 33700",
+                "AD 36101",
+                "AD 36300",
+                "AD 38100",
+                "AD 41700",
+                "AD 42100"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F. Studio Arts Professional Practice/Senior Exhibition",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 49900"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For BFA, Professional, & Education",
+      "credit_target": [
+        28.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "LA Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            20.0,
+            39.0
+          ],
+          "kind": "credits",
+          "credits": 20.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        17.0,
+        44.0
+      ],
+      "kind": "credits",
+      "credits": 17.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "code": "AD 10500",
+          "title": "Design I",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 11300",
+          "title": "Basic Drawing (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AD 10600",
+          "title": "Design II",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 11900",
+          "title": "Color Photography",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 22700",
+          "title": "History Of Art Since 1400 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "AD 23300",
+          "title": "Electronic Media Studio",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 30701",
+          "title": "History Of Contemporary Photography",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AD 38300",
+              "title": "Modern Art (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "AD 38400",
+              "title": "Contemporary Art (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "13-20 Credits",
+      "items": [
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16 Credits",
+      "items": []
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AD 49900",
+          "title": "Studio Arts Professional Practice/Senior Exhibition",
+          "credits": 3.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 10500",
+    "AD 10600",
+    "AD 11300",
+    "AD 11400",
+    "AD 11700",
+    "AD 11900",
+    "AD 20000",
+    "AD 21300",
+    "AD 22000",
+    "AD 22700",
+    "AD 23300",
+    "AD 23600",
+    "AD 24200",
+    "AD 26200",
+    "AD 26300",
+    "AD 26500",
+    "AD 26600",
+    "AD 26700",
+    "AD 27000",
+    "AD 27100",
+    "AD 27500",
+    "AD 30000",
+    "AD 30400",
+    "AD 30701",
+    "AD 31400",
+    "AD 32600",
+    "AD 33100",
+    "AD 33300",
+    "AD 33400",
+    "AD 33700",
+    "AD 34200",
+    "AD 36101",
+    "AD 36200",
+    "AD 36300",
+    "AD 36500",
+    "AD 36800",
+    "AD 36900",
+    "AD 37000",
+    "AD 38100",
+    "AD 38300",
+    "AD 38400",
+    "AD 40000",
+    "AD 40400",
+    "AD 41700",
+    "AD 42100",
+    "AD 44200",
+    "AD 46200",
+    "AD 46800",
+    "AD 47000",
+    "AD 49900",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

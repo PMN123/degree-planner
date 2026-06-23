@@ -1,0 +1,480 @@
+{
+  "id": "elementary-education-ba",
+  "poid": "35632",
+  "name": "Elementary Education, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35632",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.726571+00:00",
+  "course_credits": {
+    "EDCI 20500": 2.0,
+    "EDCI 21510": 1.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 30101": 2.0,
+    "EDCI 30102": 2.0,
+    "EDCI 36101": 2.0,
+    "EDCI 36102": 2.0,
+    "EDCI 36401": 2.0,
+    "EDCI 36402": 2.0,
+    "EDCI 36501": 2.0,
+    "EDCI 36502": 2.0,
+    "EDCI 49600": 6.0,
+    "EDCI 49601": 4.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26500": 3.0,
+    "EDPS 32700": 1.0,
+    "EDPS 36201": 0.0,
+    "EDPS 43000": 2.0,
+    "EDST 20010": 1.0,
+    "AD 20100": 3.0,
+    "EDCI 22222": 3.0,
+    "MUS 32400": 3.0,
+    "EDCI 31103": 3.0,
+    "EDCI 32501": 2.0,
+    "EDCI 32602": 2.0,
+    "EDCI 36303": 2.0,
+    "EDCI 37001": 2.0,
+    "EDCI 23450": 3.0,
+    "EDCI 23451": 4.0,
+    "HIST 15100": 3.0,
+    "HIST 15200": 3.0,
+    "MA 13700": 3.0,
+    "MA 13800": 3.0,
+    "EDCI 22200": 3.0,
+    "MA 13900": 3.0,
+    "PHYS 23000": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 21900": 3.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0,
+    "SCLA 10100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Major Courses",
+      "credit_target": [
+        53.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "EDCI 20500",
+        "EDCI 21510",
+        "EDCI 27000",
+        "EDCI 28550",
+        "EDCI 30101",
+        "EDCI 30102",
+        "EDCI 36101",
+        "EDCI 36102",
+        "EDCI 36401",
+        "EDCI 36402",
+        "EDCI 36501",
+        "EDCI 36502",
+        "EDCI 49600",
+        "EDCI 49601",
+        "EDPS 23500",
+        "EDPS 24001",
+        "EDPS 26500",
+        "EDPS 32700",
+        "EDPS 36201",
+        "EDPS 43000",
+        "EDST 20010"
+      ]
+    },
+    {
+      "name": "Additional Methods Courses",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "AD 20100",
+        "EDCI 22222",
+        "MUS 32400"
+      ],
+      "choose_credits": 9.0
+    },
+    {
+      "name": "Required Reading Concentration",
+      "credit_target": 13.0,
+      "kind": "all_of",
+      "courses": [
+        "EDCI 31103",
+        "EDCI 32501",
+        "EDCI 32602",
+        "EDCI 36303",
+        "EDCI 37001"
+      ]
+    },
+    {
+      "name": "Required Learner Pathway Specialty Concentration",
+      "credit_target": 9.0,
+      "kind": "credits",
+      "credits": 9.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "EDCI 23450",
+          "title": "Earth Systems Science For Education Majors (UCC:SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "code": "HIST 15100",
+          "title": "American History To 1877 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "MUS 32400",
+          "title": "Teaching Music In The Elementary School",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 10800",
+          "title": "First Year Composition (UCC: IL/WC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HONR 19903",
+              "title": "Interdisciplinary Approaches In Writing (UCC: IL/WC)",
+              "credits": 3.0
+            },
+            {
+              "code": "SCLA 10100",
+              "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "EDCI 23451",
+          "title": "Biology For Elementary School Teachers (UCC:SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 21510",
+          "title": "Language & Literacy Foundations For Teachers",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 22222",
+          "title": "Integrated Health And Physical Education For Elementary Teachers",
+          "credits": 3.0
+        },
+        {
+          "code": "HIST 15200",
+          "title": "United States Since 1877 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 13700",
+          "title": "Mathematics For Elementary Teachers I",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AD 20100",
+          "title": "Art For Elementary School Teachers",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 26500",
+          "title": "The Inclusive Classroom",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 23000",
+          "title": "Physical Science For Elementary Education (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 22200",
+          "title": "Knowing The World Through Mathematics (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 13800",
+              "title": "Mathematics For Elementary Teachers II (UCC: QR)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "EDCI 32501",
+          "title": "Teaching Literacy In K-2",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "code": "MA 13900",
+          "title": "Mathematics For Elementary Teachers III",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 21700",
+          "title": "Economics (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ECON 21000",
+              "title": "Principles Of Economics (UCC: BSS)",
+              "credits": 3.0
+            },
+            {
+              "code": "ECON 21900",
+              "title": "Economics For Future Elementary Teachers",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "EDCI 30101",
+          "title": "Inquiry Into Teaching And Learning In K-2",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 31103",
+          "title": "Integrating Media In The K-6 Classroom",
+          "credits": 3.0
+        },
+        {
+          "code": "EDCI 36101",
+          "title": "Teaching Social Studies In K-2",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 36303",
+          "title": "Literacy Teaching And Assessment In K-6",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 36401",
+          "title": "Teaching Mathematics In K-2",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 36501",
+          "title": "Teaching Science Through Design In Grades K-2",
+          "credits": 2.0
+        },
+        {
+          "label": "Required Concentration (Learner Pathway) Course",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 30102",
+          "title": "Inquiry Into Teaching And Learning In 3-6",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 32602",
+          "title": "Teaching Literacy In 3-6",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 36102",
+          "title": "Teaching Social Studies In 3-6",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 36402",
+          "title": "Teaching Mathematics In Grades 3-6",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 36502",
+          "title": "Teaching Science Through Design In Grades 3-6",
+          "credits": 2.0
+        },
+        {
+          "label": "Required Concentration (Learner Pathway) Course",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "12-14 Credits",
+      "items": [
+        {
+          "code": "EDCI 49601",
+          "title": "Elementary Education Expanded Student Teaching",
+          "credits": 4.0
+        },
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 43000",
+          "title": "Creating And Managing Learning Environments",
+          "credits": 2.0
+        },
+        {
+          "label": "Required Concentration (Learner Pathway) Course",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDCI 49600",
+          "title": "Student Teaching In The Elementary School (UCC: OC)",
+          "credits": 6.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 20100",
+    "AGEC 21700",
+    "ECON 21000",
+    "ECON 21900",
+    "EDCI 20500",
+    "EDCI 21510",
+    "EDCI 22200",
+    "EDCI 22222",
+    "EDCI 23450",
+    "EDCI 23451",
+    "EDCI 27000",
+    "EDCI 28550",
+    "EDCI 30101",
+    "EDCI 30102",
+    "EDCI 31103",
+    "EDCI 32501",
+    "EDCI 32602",
+    "EDCI 36101",
+    "EDCI 36102",
+    "EDCI 36303",
+    "EDCI 36401",
+    "EDCI 36402",
+    "EDCI 36501",
+    "EDCI 36502",
+    "EDCI 37001",
+    "EDCI 49600",
+    "EDCI 49601",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26500",
+    "EDPS 32700",
+    "EDPS 36201",
+    "EDPS 43000",
+    "EDST 20010",
+    "ENGL 10800",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 15100",
+    "HIST 15200",
+    "HONR 19903",
+    "IN 47907",
+    "MA 13700",
+    "MA 13800",
+    "MA 13900",
+    "MUS 32400",
+    "PHYS 23000",
+    "SCLA 10100"
+  ]
+}

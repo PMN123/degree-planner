@@ -1,0 +1,893 @@
+{
+  "id": "science-education-biology-concentration-bs",
+  "poid": "35111",
+  "name": "Science Education: Biology Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 124,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35111",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.056483+00:00",
+  "course_credits": {
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 12500": 5.0,
+    "CHM 12901": 5.0,
+    "CS 15900": 3.0,
+    "CS 17600": 3.0,
+    "CS 17700": 4.0,
+    "CS 18000": 4.0,
+    "TDM 10100": 1.0,
+    "TDM 10200": 1.0,
+    "MA 16100": 5.0,
+    "MA 16200": 5.0,
+    "MA 16500": 4.0,
+    "MA 16600": 4.0,
+    "MA 16010": 3.0,
+    "MA 16020": 3.0,
+    "PHYS 17200": 4.0,
+    "PHYS 27200": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 25200": 1.0,
+    "PHYS 22000": 4.0,
+    "PHYS 22100": 4.0,
+    "PHYS 23300": 4.0,
+    "PHYS 23400": 4.0,
+    "STAT 30100": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 50300": 3.0,
+    "BIOL 12100": 2.0,
+    "BIOL 13100": 3.0,
+    "BIOL 23100": 3.0,
+    "BIOL 23200": 2.0,
+    "BIOL 24100": 3.0,
+    "BIOL 24200": 2.0,
+    "BIOL 28600": 2.0,
+    "BIOL 13500": 2.0,
+    "BIOL 14503": 2.0,
+    "BIOL 14504": 2.0,
+    "BIOL 14505": 2.0,
+    "BIOL 32800": 4.0,
+    "BIOL 36700": 2.0,
+    "BIOL 38700": 2.0,
+    "BIOL 41500": 3.0,
+    "BIOL 41600": 3.0,
+    "BIOL 42000": 3.0,
+    "BIOL 43600": 3.0,
+    "BIOL 43800": 3.0,
+    "BIOL 44400": 3.0,
+    "BIOL 44600": 3.0,
+    "BIOL 47800": 3.0,
+    "BIOL 48100": 3.0,
+    "BIOL 51099": 3.0,
+    "BIOL 51101": 3.0,
+    "BIOL 51202": 3.0,
+    "BIOL 51600": 3.0,
+    "BIOL 51606": 3.0,
+    "BIOL 51700": 2.0,
+    "BIOL 52900": 3.0,
+    "BIOL 53300": 3.0,
+    "BIOL 53601": 3.0,
+    "BIOL 53800": 3.0,
+    "BIOL 54100": 3.0,
+    "BIOL 54900": 2.0,
+    "BIOL 56200": 3.0,
+    "BIOL 56310": 3.0,
+    "BIOL 57340": 3.0,
+    "BCHM 43400": 3.0,
+    "CHM 33900": 3.0,
+    "CHM 43300": 3.0,
+    "BIOL 20400": 4.0,
+    "BIOL 32101": 3.0,
+    "BIOL 41919": 3.0,
+    "BIOL 48300": 3.0,
+    "BIOL 52905": 3.0,
+    "BIOL 53700": 3.0,
+    "BIOL 58000": 3.0,
+    "BIOL 58210": 3.0,
+    "BIOL 58215": 3.0,
+    "BIOL 58601": 3.0,
+    "BIOL 58705": 3.0,
+    "BIOL 59100": 0.0,
+    "BIOL 59200": 3.0,
+    "HORT 30100": 4.0,
+    "BIOL 49400": 1.0,
+    "BIOL 49900": 1.0,
+    "BIOL 44100": 1.0,
+    "BCHM 52100": 3.0,
+    "CHM 25500": 3.0,
+    "CHM 25501": 1.0,
+    "CHM 25600": 3.0,
+    "CHM 25601": 1.0,
+    "EDCI 20500": 2.0,
+    "EDCI 27000": 1.0,
+    "EDCI 28550": 3.0,
+    "EDCI 33300": 3.0,
+    "EDCI 37001": 2.0,
+    "EDCI 49800": 6.0,
+    "EDPS 20001": 1.0,
+    "EDPS 23500": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26500": 3.0,
+    "EDPS 32700": 1.0,
+    "EDPS 36201": 0.0,
+    "EDPS 43010": 1.0,
+    "EDST 20010": 1.0,
+    "EDCI 42800": 2.0,
+    "EDCI 55800": 3.0,
+    "EDPS 24800": 1.0,
+    "EDPS 26501": 2.0,
+    "EDCI 30900": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses (61-69)",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Science Education Core Courses",
+          "credit_target": [
+            24.0,
+            30.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Required Chemistry Course",
+              "credit_target": [
+                4.0,
+                5.0
+              ],
+              "kind": "all_of",
+              "courses": [
+                "CHM 11510"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "CHM 11520 / CHM 12500 / CHM 12901",
+                  "courses": [
+                    "CHM 11520",
+                    "CHM 12500",
+                    "CHM 12901"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Required Computing Option",
+              "credit_target": [
+                3.0,
+                4.0
+              ],
+              "kind": "choose",
+              "options": [
+                "CS 15900",
+                "CS 17600",
+                "CS 17700",
+                {
+                  "kind": "one_of",
+                  "name": "CS 18000 / TDM 10100",
+                  "courses": [
+                    "CS 18000",
+                    "TDM 10100"
+                  ]
+                },
+                "TDM 10200"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Required Calculus Courses",
+              "credit_target": [
+                6.0,
+                10.0
+              ],
+              "kind": "all_of",
+              "courses": [
+                "MA 16100",
+                "MA 16200",
+                "MA 16500",
+                "MA 16600",
+                "MA 16010",
+                "MA 16020"
+              ]
+            },
+            {
+              "name": "Required Physics Courses",
+              "credit_target": 8.0,
+              "kind": "all_of",
+              "courses": [
+                "PHYS 17200",
+                "PHYS 27200",
+                "PHYS 17200",
+                "PHYS 27200",
+                "PHYS 17200",
+                "PHYS 24100",
+                "PHYS 25200",
+                "PHYS 22000",
+                "PHYS 22100",
+                "PHYS 23300",
+                "PHYS 23400"
+              ]
+            },
+            {
+              "name": "Required Statistics Course",
+              "credit_target": 3.0,
+              "kind": "all_of",
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "STAT 30100 / STAT 35000 / STAT 50300",
+                  "courses": [
+                    "STAT 30100",
+                    "STAT 35000",
+                    "STAT 50300"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Biology Concentration",
+          "credit_target": [
+            37.0,
+            39.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Biology Core",
+              "credit_target": 19.0,
+              "kind": "all_of",
+              "courses": [
+                "BIOL 12100",
+                "BIOL 13100",
+                "BIOL 23100",
+                "BIOL 23200",
+                "BIOL 24100",
+                "BIOL 24200",
+                "BIOL 28600"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "BIOL 13500 / BIOL 14503 / BIOL 14504 / BIOL 14505",
+                  "courses": [
+                    "BIOL 13500",
+                    "BIOL 14503",
+                    "BIOL 14504",
+                    "BIOL 14505"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Upper-Level Biology Coursework",
+              "credit_target": [
+                10.0,
+                12.0
+              ],
+              "kind": "choose",
+              "options": [
+                "BIOL 32800",
+                "BIOL 36700",
+                "BIOL 38700",
+                "BIOL 41500",
+                "BIOL 41600",
+                "BIOL 42000",
+                "BIOL 43600",
+                "BIOL 43800",
+                "BIOL 38700",
+                "BIOL 41500",
+                "BIOL 41600",
+                "BIOL 42000",
+                "BIOL 43600",
+                "BIOL 43800",
+                "BIOL 44400",
+                "BIOL 44600",
+                "BIOL 47800",
+                "BIOL 48100",
+                "BIOL 51099",
+                "BIOL 51101",
+                "BIOL 51202",
+                "BIOL 51600",
+                "BIOL 51606",
+                "BIOL 51700",
+                "BIOL 52900",
+                "BIOL 53300",
+                "BIOL 53601",
+                "BIOL 53800",
+                "BIOL 54100",
+                "BIOL 54900",
+                "BIOL 56200",
+                "BIOL 56310",
+                "BIOL 57340",
+                "BCHM 43400",
+                "CHM 33900",
+                "CHM 43300",
+                "BIOL 20400",
+                "BIOL 32101",
+                "BIOL 32800",
+                "BIOL 36700",
+                "BIOL 41919",
+                "BIOL 48300",
+                "BIOL 52905",
+                "BIOL 53700",
+                "BIOL 58000",
+                "BIOL 58210",
+                "BIOL 58215",
+                "BIOL 58601",
+                "BIOL 58705",
+                "BIOL 59100",
+                "BIOL 59200",
+                "HORT 30100",
+                "BIOL 49400",
+                "BIOL 49900",
+                "BIOL 44100",
+                "BCHM 52100"
+              ],
+              "choose_credits": 10.0
+            },
+            {
+              "name": "Organic Chemistry",
+              "credit_target": 8.0,
+              "kind": "all_of",
+              "courses": [
+                "CHM 25500",
+                "CHM 25501",
+                "CHM 25600",
+                "CHM 25601"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Professional Education Requirements",
+      "credit_target": 47.0,
+      "kind": "all_of",
+      "courses": [
+        "EDCI 20500",
+        "EDCI 27000",
+        "EDCI 28550",
+        "EDCI 33300",
+        "EDCI 37001",
+        "EDCI 49800",
+        "EDPS 20001",
+        "EDPS 23500",
+        "EDPS 24001",
+        "EDPS 26500",
+        "EDPS 32700",
+        "EDPS 36201",
+        "EDPS 43010",
+        "EDST 20010"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "EDCI 42800 / EDCI 55800",
+          "courses": [
+            "EDCI 42800",
+            "EDCI 55800"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Science Additional Requirements",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Computing",
+          "credit_target": [
+            3.0,
+            4.0
+          ],
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Laboratory Science",
+          "credit_target": [
+            6.0,
+            8.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Mathematics",
+          "credit_target": [
+            8.0,
+            10.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Statistics",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "BIOL 12100",
+          "title": "Biology I: Diversity, Ecology, And Behavior (UCC: SCI/STS)",
+          "credits": 2.0
+        },
+        {
+          "code": "CHM 12901",
+          "title": "General Chemistry With A Biological Focus (UCC: SCI)",
+          "credits": 5.0
+        },
+        {
+          "code": "EDCI 20500",
+          "title": "Exploring Teaching As A Career (UCC: WC)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "label": "First Year Biology Lab Selective",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16100",
+              "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 5.0
+            },
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "BIOL 13100",
+          "title": "Biology II: Development, Structure, And Function Of Organisms (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25500",
+          "title": "Organic Chemistry For The Life Sciences I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25501",
+          "title": "Organic Chemistry For The Life Sciences Laboratory I",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16020",
+          "title": "Applied Calculus II (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 16200",
+              "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 5.0
+            },
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Science Core Selection Language & Culture",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "BIOL 23100",
+          "title": "Biology III: Cell Structure And Function",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 23200",
+          "title": "Laboratory In Biology III: Cell Structure And Function",
+          "credits": 2.0
+        },
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24800",
+          "title": "Differentiating Curriculum And Instruction",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 36201",
+          "title": "Positive Behavioral Supports",
+          "credits": 0.0
+        },
+        {
+          "code": "CHM 25600",
+          "title": "Organic Chemistry For The Life Sciences II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25601",
+          "title": "Organic Chemistry For The Life Sciences Laboratory II",
+          "credits": 1.0
+        },
+        {
+          "label": "Science Core Selection General Education",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "BIOL 24100",
+          "title": "Biology IV: Genetics And Molecular Biology",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 24200",
+          "title": "Laboratory In Biology IV: Genetics And Molecular Biology",
+          "credits": 2.0
+        },
+        {
+          "code": "BIOL 28600",
+          "title": "Introduction To Ecology And Evolution",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 20001",
+          "title": "Special Populations Seminar: Focus On Students With Disabilities And Differentiation Approaches",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 26501",
+          "title": "The Inclusive Classroom",
+          "credits": 2.0
+        },
+        {
+          "label": "Science Core Selection Language & Culture",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "17-18 Credits",
+      "items": [
+        {
+          "code": "EDCI 27000",
+          "title": "Introduction To Educational Technology And Computing (UCC: AI/IL)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDCI 30900",
+          "title": "Reading In Middle And Secondary Schools: Methods And Problems",
+          "credits": 1.0
+        },
+        {
+          "code": "PHYS 17200",
+          "title": "Modern Mechanics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 23300",
+              "title": "Physics For Life Sciences I",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Intermediate Biology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Group A Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection General Education",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Learner Specialty Pathway Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "CS 17700",
+          "title": "Programming With Multimedia Objects",
+          "credits": 4.0
+        },
+        {
+          "code": "EDCI 42800",
+          "title": "Teaching Science In The Middle And Junior High School",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "EDCI 55800",
+              "title": "Integrated Science, Technology, Engineering And Mathematics (STEM) Education Methods-Secondary",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 23400",
+          "title": "Physics For Life Sciences II",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 27200",
+              "title": "Electric And Magnetic Interactions (UCC: SCI)",
+              "credits": 4.0
+            },
+            {
+              "code": "PHYS 24100",
+              "title": "Electricity And Optics (UCC: SCI)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Group B Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection TW/TP",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective (BIOL 39300 recommended)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "17-19 Credits",
+      "items": [
+        {
+          "code": "STAT 50300",
+          "title": "Statistical Methods For Biology",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 32700",
+          "title": "Classroom Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 43010",
+          "title": "Secondary Creating And Managing Learning Environments",
+          "credits": 1.0
+        },
+        {
+          "label": "Base Lab Requirement",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "50000 Level Biology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Core Selection Great Issues In Science",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "EDCI 49800",
+          "title": "Supervised Teaching (UCC: OC)",
+          "credits": 6.0
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "BCHM 43400",
+    "BCHM 52100",
+    "BIOL 00500",
+    "BIOL 11500",
+    "BIOL 12100",
+    "BIOL 13100",
+    "BIOL 13500",
+    "BIOL 14503",
+    "BIOL 14504",
+    "BIOL 14505",
+    "BIOL 20400",
+    "BIOL 23100",
+    "BIOL 23200",
+    "BIOL 24100",
+    "BIOL 24200",
+    "BIOL 28600",
+    "BIOL 32101",
+    "BIOL 32800",
+    "BIOL 36700",
+    "BIOL 38700",
+    "BIOL 39300",
+    "BIOL 41500",
+    "BIOL 41600",
+    "BIOL 41919",
+    "BIOL 42000",
+    "BIOL 43600",
+    "BIOL 43800",
+    "BIOL 44100",
+    "BIOL 44400",
+    "BIOL 44600",
+    "BIOL 47800",
+    "BIOL 48100",
+    "BIOL 48300",
+    "BIOL 49400",
+    "BIOL 49900",
+    "BIOL 51099",
+    "BIOL 51101",
+    "BIOL 51202",
+    "BIOL 51600",
+    "BIOL 51606",
+    "BIOL 51700",
+    "BIOL 52900",
+    "BIOL 52905",
+    "BIOL 53300",
+    "BIOL 53601",
+    "BIOL 53700",
+    "BIOL 53800",
+    "BIOL 54100",
+    "BIOL 54900",
+    "BIOL 56200",
+    "BIOL 56310",
+    "BIOL 57340",
+    "BIOL 58000",
+    "BIOL 58210",
+    "BIOL 58215",
+    "BIOL 58601",
+    "BIOL 58705",
+    "BIOL 59100",
+    "BIOL 59200",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 12500",
+    "CHM 12901",
+    "CHM 25500",
+    "CHM 25501",
+    "CHM 25600",
+    "CHM 25601",
+    "CHM 33900",
+    "CHM 43300",
+    "CS 15900",
+    "CS 17600",
+    "CS 17700",
+    "CS 18000",
+    "EDCI 20500",
+    "EDCI 27000",
+    "EDCI 28550",
+    "EDCI 30900",
+    "EDCI 33300",
+    "EDCI 37001",
+    "EDCI 42800",
+    "EDCI 49800",
+    "EDCI 55800",
+    "EDPS 20001",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 24800",
+    "EDPS 26500",
+    "EDPS 26501",
+    "EDPS 32700",
+    "EDPS 36201",
+    "EDPS 43010",
+    "EDST 20010",
+    "HEA 01348",
+    "HELP 02026",
+    "HORT 30100",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "PHYS 17200",
+    "PHYS 22000",
+    "PHYS 22100",
+    "PHYS 23300",
+    "PHYS 23400",
+    "PHYS 24100",
+    "PHYS 25200",
+    "PHYS 27200",
+    "STAT 30100",
+    "STAT 35000",
+    "STAT 50300",
+    "TDM 10100",
+    "TDM 10200"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "communication-minor",
+  "poid": "34843",
+  "name": "Communication Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34843",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.341702+00:00",
+  "course_credits": {
+    "COM 11400": 3.0,
+    "COM 21700": 3.0,
+    "COM 10200": 3.0,
+    "COM 20400": 3.0,
+    "COM 31800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "COM 11400",
+        "COM 21700"
+      ]
+    },
+    {
+      "name": "B. Foundations in Communication",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "COM 10200",
+        "COM 20400",
+        "COM 31800"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "C. Communication Course - 20000 level or higher",
+      "credit_target": 3.0,
+      "kind": "credits",
+      "credits": 3.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "D. Upper Level Communication Courses",
+      "credit_target": 6.0,
+      "kind": "credits",
+      "credits": 6.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "COM 10200",
+    "COM 11400",
+    "COM 20000",
+    "COM 20400",
+    "COM 21700",
+    "COM 30000",
+    "COM 31400",
+    "COM 31800",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

@@ -1,0 +1,610 @@
+{
+  "id": "design-studies-ba",
+  "poid": "35990",
+  "name": "Design Studies, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": null,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35990",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.621429+00:00",
+  "course_credits": {
+    "AD 10500": 3.0,
+    "AD 10600": 3.0,
+    "AD 11300": 3.0,
+    "AD 38500": 3.0,
+    "AD 39500": 3.0,
+    "AD 22600": 3.0,
+    "AD 22700": 3.0,
+    "AD 38300": 3.0,
+    "AD 38400": 3.0,
+    "AD 12500": 3.0,
+    "AD 14600": 3.0,
+    "AD 21500": 3.0,
+    "AD 23500": 3.0,
+    "AD 24600": 3.0,
+    "AD 25600": 3.0,
+    "AD 20500": 3.0,
+    "TECH 12000": 3.0,
+    "AD 13000": 3.0,
+    "AD 23000": 3.0,
+    "AD 24000": 3.0,
+    "AD 25000": 3.0,
+    "AD 20600": 3.0,
+    "AD 22800": 3.0,
+    "AD 22900": 3.0,
+    "TECH 22000": 3.0,
+    "TECH 34000": 3.0,
+    "ACCT 20000": 3.0,
+    "MKTG 32300": 3.0,
+    "MKTG 42500": 3.0,
+    "MKTG 43000": 3.0,
+    "OBHR 29300": 3.0,
+    "OBHR 39100": 3.0,
+    "QM 30500": 3.0,
+    "STRT 25400": 3.0,
+    "STRT 29400": 3.0,
+    "ENTR 20000": 3.0,
+    "ENTR 31000": 3.0,
+    "ENTR 31500": 3.0,
+    "ENTR 48000": 3.0,
+    "AD 11400": 3.0,
+    "AD 11700": 3.0,
+    "AD 11900": 3.0,
+    "AD 20000": 3.0,
+    "AD 20200": 2.0,
+    "AD 21300": 3.0,
+    "AD 23300": 3.0,
+    "AD 24200": 3.0,
+    "AD 26200": 3.0,
+    "AD 26500": 3.0,
+    "AD 26600": 3.0,
+    "AD 27000": 3.0,
+    "AD 27500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 54.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Art & Design Required Courses",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 10500",
+            "AD 10600",
+            "AD 11300"
+          ]
+        },
+        {
+          "name": "B. Art History courses",
+          "credit_target": 9.0,
+          "kind": "choose",
+          "options": [
+            {
+              "kind": "one_of",
+              "name": "AD 38500 / AD 39500",
+              "courses": [
+                "AD 38500",
+                "AD 39500"
+              ]
+            },
+            "AD 22600",
+            "AD 22700",
+            "AD 38300",
+            "AD 38400"
+          ],
+          "choose_credits": 9.0
+        },
+        {
+          "name": "C. Design-oriented Studio Courses",
+          "credit_target": 21.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Industrial Design",
+              "kind": "all_of",
+              "courses": [
+                "AD 12500",
+                "AD 14600",
+                "AD 21500",
+                "AD 23500",
+                "AD 24600",
+                "AD 25600"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "AD 20500 / TECH 12000",
+                  "courses": [
+                    "AD 20500",
+                    "TECH 12000"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Interior Design",
+              "kind": "all_of",
+              "courses": [
+                "AD 14600",
+                "AD 12500",
+                "AD 13000",
+                "AD 23000",
+                "AD 24000",
+                "AD 25000"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "AD 20500 / TECH 12000",
+                  "courses": [
+                    "AD 20500",
+                    "TECH 12000"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Visual Communication Design",
+              "kind": "all_of",
+              "courses": [
+                "AD 12500",
+                "AD 14600",
+                "AD 20500",
+                "AD 20600",
+                "AD 22800",
+                "AD 22900"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "TECH 12000 / TECH 22000 / TECH 34000",
+                  "courses": [
+                    "TECH 12000",
+                    "TECH 22000",
+                    "TECH 34000"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D. Marketing and Entrepreneurship",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Marketing and Management",
+              "kind": "all_of",
+              "courses": [
+                "ACCT 20000",
+                "MKTG 32300",
+                "MKTG 42500",
+                "MKTG 43000",
+                "OBHR 29300",
+                "OBHR 39100",
+                "QM 30500",
+                "STRT 25400",
+                "STRT 29400"
+              ]
+            },
+            {
+              "name": "Entrepreneurship",
+              "kind": "all_of",
+              "courses": [
+                "ENTR 20000",
+                "ENTR 31000",
+                "ENTR 31500",
+                "ENTR 48000"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E. Art & Design Selective Courses",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "AD 11400",
+            "AD 11700",
+            "AD 11900",
+            "AD 20000",
+            "AD 20200",
+            "AD 21300",
+            "AD 23300",
+            "AD 24200",
+            "AD 26200",
+            "AD 26500",
+            "AD 26600",
+            "AD 27000",
+            "AD 27500"
+          ],
+          "choose_credits": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For BFA, Professional, & Education",
+      "credit_target": [
+        28.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "LA Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            20.0,
+            39.0
+          ],
+          "kind": "credits",
+          "credits": 20.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        11.0,
+        38.0
+      ],
+      "kind": "credits",
+      "credits": 11.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AD 10500",
+          "title": "Design I",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 11300",
+          "title": "Basic Drawing (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 22600",
+          "title": "History Of Art To 1400 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AD 10600",
+          "title": "Design II",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 22700",
+          "title": "History Of Art Since 1400 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Requirement - Area C: Design-oriented Studio Courses",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "AD 39500",
+          "title": "History Of Design (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Requirement - Area C: Design-oriented Studio Courses",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement - Area C: Design-oriented Studio Courses",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Major Requirement - Area C: Design-oriented Studio Courses",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement - Area C: Design-oriented Studio Courses",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement - Area E: Art & Design Selective Courses",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "label": "Major Requirement- Area C: Design-oriented Studio Courses",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement - Area D: Marketing and Entrepreneurship",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement - Area E: Art & Design Selective Courses",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "label": "Major Requirement - Area C: Design-oriented Studio Courses",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement - Area D: Marketing and Entrepreneurship",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "label": "Major Requirement - Area D: Marketing and Entrepreneurship",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "AD 10500",
+    "AD 10600",
+    "AD 11300",
+    "AD 11400",
+    "AD 11700",
+    "AD 11900",
+    "AD 12500",
+    "AD 13000",
+    "AD 14600",
+    "AD 20000",
+    "AD 20200",
+    "AD 20500",
+    "AD 20600",
+    "AD 21300",
+    "AD 21500",
+    "AD 22600",
+    "AD 22700",
+    "AD 22800",
+    "AD 22900",
+    "AD 23000",
+    "AD 23300",
+    "AD 23500",
+    "AD 24000",
+    "AD 24200",
+    "AD 24600",
+    "AD 25000",
+    "AD 25600",
+    "AD 26200",
+    "AD 26500",
+    "AD 26600",
+    "AD 27000",
+    "AD 27500",
+    "AD 38300",
+    "AD 38400",
+    "AD 38500",
+    "AD 39500",
+    "ENTR 20000",
+    "ENTR 31000",
+    "ENTR 31500",
+    "ENTR 48000",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MKTG 32300",
+    "MKTG 42500",
+    "MKTG 43000",
+    "OBHR 29300",
+    "OBHR 39100",
+    "QM 30500",
+    "STRT 25400",
+    "STRT 29400",
+    "TECH 12000",
+    "TECH 22000",
+    "TECH 34000"
+  ]
+}

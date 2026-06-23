@@ -1,0 +1,43 @@
+{
+  "id": "construction-management-minor",
+  "poid": "35156",
+  "name": "Construction Management Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 16,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35156",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.460419+00:00",
+  "course_credits": {
+    "CM 10000": 3.0,
+    "CM 15000": 6.0,
+    "CM 16000": 3.0,
+    "CM 20002": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 16.0,
+      "kind": "all_of",
+      "courses": [
+        "CM 10000",
+        "CM 15000",
+        "CM 16000",
+        "CM 20002"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CM 10000",
+    "CM 15000",
+    "CM 16000",
+    "CM 20002",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

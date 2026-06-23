@@ -1,0 +1,526 @@
+{
+  "id": "food-science-bs",
+  "poid": "34737",
+  "name": "Food Science, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34737",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.907961+00:00",
+  "course_credits": {
+    "FS 16100": 3.0,
+    "FS 24500": 1.0,
+    "FS 29800": 1.0,
+    "FS 34000": 1.0,
+    "FS 34100": 2.0,
+    "FS 34200": 1.0,
+    "FS 36100": 1.0,
+    "FS 36200": 3.0,
+    "FS 36300": 2.0,
+    "FS 43500": 1.0,
+    "FS 44200": 2.0,
+    "FS 44300": 3.0,
+    "FS 44400": 1.0,
+    "FS 44700": 1.0,
+    "FS 45300": 3.0,
+    "FS 45400": 1.0,
+    "FS 46700": 3.0,
+    "FS 46900": 2.0,
+    "FS 48200": 1.0,
+    "FS 53000": 1.0,
+    "NUTR 31500": 3.0,
+    "AGR 10100": 0.5,
+    "AGR 11800": 0.5,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "BIOL 22100": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 25700": 4.0,
+    "CHM 25701": 1.0,
+    "BCHM 30700": 3.0,
+    "BCHM 30900": 1.0,
+    "MA 16010": 3.0,
+    "MA 16020": 3.0,
+    "PHYS 22000": 4.0,
+    "STAT 30100": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "COM 21000": 3.0,
+    "COM 22400": 3.0,
+    "COM 25200": 3.0,
+    "COM 31400": 3.0,
+    "COM 31500": 3.0,
+    "COM 32000": 3.0,
+    "COM 32500": 3.0,
+    "COM 37400": 3.0,
+    "COM 41500": 3.0,
+    "ENGL 30400": 3.0,
+    "ENGL 41900": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ENGL 43300": 3.0,
+    "NUTR 42400": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 37.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 37.0,
+          "kind": "all_of",
+          "courses": [
+            "FS 16100",
+            "FS 24500",
+            "FS 29800",
+            "FS 34000",
+            "FS 34100",
+            "FS 34200",
+            "FS 36100",
+            "FS 36200",
+            "FS 36300",
+            "FS 43500",
+            "FS 44200",
+            "FS 44300",
+            "FS 44400",
+            "FS 44700",
+            "FS 45300",
+            "FS 45400",
+            "FS 46700",
+            "FS 46900",
+            "FS 48200",
+            "FS 53000",
+            "NUTR 31500"
+          ]
+        },
+        {
+          "name": "Professional Communications Selective",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "COM 21000",
+            "COM 22400",
+            "COM 25200",
+            "COM 31400",
+            "COM 31500",
+            "COM 32000",
+            "COM 32500",
+            "COM 37400",
+            "COM 41500",
+            "ENGL 30400",
+            "ENGL 41900",
+            "ENGL 42000",
+            "ENGL 42100",
+            "ENGL 43300",
+            "NUTR 42400"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        8.0,
+        12.0
+      ],
+      "kind": "credits",
+      "credits": 8.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 11800",
+          "title": "Introduction To Food Science Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 16100",
+          "title": "Science Of Food (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 16020",
+          "title": "Applied Calculus II (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "BIOL 22100",
+          "title": "Introduction To Microbiology",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 25700",
+          "title": "Organic Chemistry",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 25701",
+          "title": "Organic Chemistry Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 29800",
+          "title": "Sophomore Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "BCHM 30700",
+          "title": "Biochemistry",
+          "credits": 3.0
+        },
+        {
+          "code": "BCHM 30900",
+          "title": "Biochemistry Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 24500",
+          "title": "Food Packaging",
+          "credits": 1.0
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "17-18 Credits",
+      "items": [
+        {
+          "code": "FS 34100",
+          "title": "Food Processing I",
+          "credits": 2.0
+        },
+        {
+          "code": "FS 34200",
+          "title": "Food Processing I Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 36100",
+          "title": "Food Plant Sanitation",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 36200",
+          "title": "Food Microbiology",
+          "credits": 3.0
+        },
+        {
+          "code": "FS 36300",
+          "title": "Food Microbiology Laboratory",
+          "credits": 2.0
+        },
+        {
+          "code": "NUTR 31500",
+          "title": "Fundamentals Of Nutrition",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "FS 45300",
+          "title": "Food Chemistry",
+          "credits": 3.0
+        },
+        {
+          "code": "FS 45400",
+          "title": "Food Chemistry Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 46700",
+          "title": "Food Analysis",
+          "credits": 3.0
+        },
+        {
+          "code": "FS 46900",
+          "title": "Food Analysis Laboratory",
+          "credits": 2.0
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ Level)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "FS 44200",
+          "title": "Food Processing II",
+          "credits": 2.0
+        },
+        {
+          "code": "FS 44400",
+          "title": "Statistical Process Control",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 44700",
+          "title": "Food Processing II Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 48200",
+          "title": "Food Science Senior Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 53000",
+          "title": "Food Ingredient Technology",
+          "credits": 1.0
+        },
+        {
+          "label": "Professional Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "FS 34000",
+          "title": "Introduction To Food Law And Regulations",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 43500",
+          "title": "Sensory Science",
+          "credits": 1.0
+        },
+        {
+          "code": "FS 44300",
+          "title": "Food Product Design (Capstone)",
+          "credits": 3.0
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 21700",
+    "AGR 10100",
+    "AGR 11800",
+    "BCHM 30700",
+    "BCHM 30900",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BIOL 22100",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 25700",
+    "CHM 25701",
+    "COM 21000",
+    "COM 22400",
+    "COM 25200",
+    "COM 31400",
+    "COM 31500",
+    "COM 32000",
+    "COM 32500",
+    "COM 37400",
+    "COM 41500",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "ENGL 30400",
+    "ENGL 41900",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGL 43300",
+    "FS 16100",
+    "FS 24500",
+    "FS 29800",
+    "FS 34000",
+    "FS 34100",
+    "FS 34200",
+    "FS 36100",
+    "FS 36200",
+    "FS 36300",
+    "FS 43500",
+    "FS 44200",
+    "FS 44300",
+    "FS 44400",
+    "FS 44700",
+    "FS 45300",
+    "FS 45400",
+    "FS 46700",
+    "FS 46900",
+    "FS 48200",
+    "FS 53000",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "NUTR 31500",
+    "NUTR 42400",
+    "PHYS 22000",
+    "STAT 30100"
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "id": "environmental-and-ecological-engineering-bseee",
+  "poid": "34763",
+  "name": "Environmental and Ecological Engineering, BSEEE",
+  "degree": "BSEEE",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 128,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34763",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.332399+00:00",
+  "course_credits": {
+    "EEE 23000": 3.0,
+    "EEE 29001": 2.0,
+    "EEE 30000": 3.0,
+    "CCE 35000": 3.0,
+    "EEE 35000": 3.0,
+    "CCE 35500": 3.0,
+    "EEE 35500": 3.0,
+    "EEE 36001": 3.0,
+    "EEE 36002": 3.0,
+    "EEE 38000": 3.0,
+    "EEE 39000": 1.0,
+    "EEE 48001": 1.0,
+    "EEE 48002": 2.0,
+    "EEE 48100": 1.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "EPCS 11100": 1.0,
+    "EPCS 12100": 1.0,
+    "ENGR 13300": 2.0,
+    "VIP 17911": 1.0,
+    "VIP 17912": 1.0,
+    "ENGR 16100": 4.0,
+    "ENGR 16200": 4.0,
+    "ENGR 13000": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 11630": 1.0,
+    "BIOL 11000": 4.0,
+    "BIOL 11200": 2.0,
+    "BIOL 28600": 2.0,
+    "FNR 58600": 3.0,
+    "STAT 51100": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "MA 26100": 4.0,
+    "MA 26200": 4.0,
+    "MA 26500": 3.0,
+    "MA 26600": 3.0,
+    "MA 35100": 3.0,
+    "ME 27000": 3.0,
+    "CCE 29700": 3.0,
+    "ME 27400": 3.0,
+    "CCE 29800": 3.0,
+    "CCE 34000": 3.0,
+    "CCE 34300": 1.0,
+    "PHYS 17200": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Environmental & Ecological Engineering Major Requirements",
+      "credit_target": 52.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 25.0,
+          "kind": "all_of",
+          "courses": [
+            "EEE 23000",
+            "EEE 29001",
+            "EEE 30000",
+            "EEE 38000",
+            "EEE 39000",
+            "EEE 48001",
+            "EEE 48002",
+            "EEE 48100"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "CCE 35000 / EEE 35000",
+              "courses": [
+                "CCE 35000",
+                "EEE 35000"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CCE 35500 / EEE 35500",
+              "courses": [
+                "CCE 35500",
+                "EEE 35500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "EEE 36001 / EEE 36002",
+              "courses": [
+                "EEE 36001",
+                "EEE 36002"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Selectives",
+          "credit_target": 27.0,
+          "kind": "credits",
+          "credits": 27.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental/Program Requirements",
+      "credit_target": [
+        76.0,
+        79.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Other Departmental Requirements",
+          "credit_target": [
+            52.0,
+            54.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ENGR 13100",
+            "ENGR 13200",
+            "EPCS 11100",
+            "EPCS 12100",
+            "ENGR 13300",
+            "VIP 17911",
+            "VIP 17912",
+            "ENGR 16100",
+            "ENGR 16200",
+            "ENGR 13000",
+            "CHM 11510",
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            "CHM 11610",
+            {
+              "kind": "one_of",
+              "name": "CHM 11620 / CHM 11630",
+              "courses": [
+                "CHM 11620",
+                "CHM 11630"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "BIOL 11000 / BIOL 11200",
+              "courses": [
+                "BIOL 11000",
+                "BIOL 11200"
+              ]
+            },
+            "BIOL 28600",
+            "FNR 58600",
+            "STAT 51100",
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            },
+            "MA 26100",
+            "MA 26200",
+            "MA 26500",
+            "MA 26600",
+            "MA 35100",
+            {
+              "kind": "one_of",
+              "name": "ME 27000 / CCE 29700",
+              "courses": [
+                "ME 27000",
+                "CCE 29700"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "ME 27400 / CCE 29800",
+              "courses": [
+                "ME 27400",
+                "CCE 29800"
+              ]
+            },
+            "CCE 34000",
+            "CCE 34300",
+            "PHYS 17200"
+          ],
+          "choose_credits": 52.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering I",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "label": "AND",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0
+        },
+        {
+          "code": "MA 16500",
+          "title": "Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 4.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "17-21 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering II",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Physics I",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "label": "AND",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11630",
+              "title": "General Chemistry II - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "EEE 23000",
+          "title": "Engineering Economics And Environment",
+          "credits": 3.0
+        },
+        {
+          "code": "EEE 29001",
+          "title": "Introduction To Environmental & Ecological Engineering Seminar",
+          "credits": 2.0
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "ME 27000",
+          "title": "Basic Mechanics I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CCE 29700",
+              "title": "Basic Mechanics I (Statics)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Technical Selective I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education Selective I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "EEE 38000",
+          "title": "Environmental Chemodynamics",
+          "credits": 3.0
+        },
+        {
+          "label": "Linear Algebra & Diff. Equations Requirement",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "code": "ME 27400",
+          "title": "Basic Mechanics II",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CCE 29800",
+              "title": "Basic Mechanics II Dynamics",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "EEE 35000",
+          "title": "Introduction To Environmental And Ecological Engineering",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CCE 35000",
+              "title": "Introduction To Environmental And Ecological Engineering",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "General Education Selective II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "18-20 Credits",
+      "items": [
+        {
+          "code": "CCE 34000",
+          "title": "Hydraulics",
+          "credits": 3.0
+        },
+        {
+          "code": "CCE 34300",
+          "title": "Elementary Hydraulics Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BIOL 11200",
+              "title": "Fundamentals Of Biology (UCC: SCI)",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "code": "EEE 35500",
+          "title": "Engineering Environmental Sustainability (UCC: STS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CCE 35500",
+              "title": "Engineering Environmental Sustainability (UCC: STS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "EEE 36001",
+          "title": "Water Quality And Treatment Laboratory",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EEE 36002",
+              "title": "Environmental Sustainability For Industry, Laboratory",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "EEE Selective I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education Selective III",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "EEE 30000",
+          "title": "Environmental And Ecological Systems Modeling",
+          "credits": 3.0
+        },
+        {
+          "code": "EEE 39000",
+          "title": "Environmental And Ecological Engineering Professional Practice Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "BIOL 28600",
+          "title": "Introduction To Ecology And Evolution",
+          "credits": 2.0
+        },
+        {
+          "code": "STAT 51100",
+          "title": "Statistical Methods",
+          "credits": 3.0
+        },
+        {
+          "label": "EEE Selective II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "FNR 58600",
+          "title": "Urban Ecology",
+          "credits": 3.0
+        },
+        {
+          "code": "EEE 48001",
+          "title": "Environmental And Ecological Engineering Senior Design I",
+          "credits": 1.0
+        },
+        {
+          "code": "EEE 48100",
+          "title": "Reflective Practitioner",
+          "credits": 1.0
+        },
+        {
+          "label": "EEE Selective III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "EEE Selective IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education Selective IV",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "EEE 48002",
+          "title": "Environmental And Ecological Engineering Senior Design II",
+          "credits": 2.0
+        },
+        {
+          "label": "EEE Selective V",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "EEE Selective VI",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "EEE Selective VII",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education Selective V",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education Selective VI",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "BIOL 11000",
+    "BIOL 11200",
+    "BIOL 28600",
+    "CCE 29700",
+    "CCE 29800",
+    "CCE 34000",
+    "CCE 34300",
+    "CCE 35000",
+    "CCE 35500",
+    "CCE 49900",
+    "CHE 41100",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 11630",
+    "EAPS 49900",
+    "EEE 23000",
+    "EEE 29001",
+    "EEE 29199",
+    "EEE 30000",
+    "EEE 35000",
+    "EEE 35500",
+    "EEE 36001",
+    "EEE 36002",
+    "EEE 38000",
+    "EEE 39000",
+    "EEE 47200",
+    "EEE 48001",
+    "EEE 48002",
+    "EEE 48100",
+    "EEE 49800",
+    "EEE 59800",
+    "ENGR 13000",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 13300",
+    "ENGR 16100",
+    "ENGR 16200",
+    "EPCS 11100",
+    "EPCS 12100",
+    "FNR 58600",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26200",
+    "MA 26500",
+    "MA 26600",
+    "MA 35100",
+    "ME 27000",
+    "ME 27400",
+    "PHYS 17200",
+    "STAT 51100",
+    "VIP 17911",
+    "VIP 17912"
+  ]
+}

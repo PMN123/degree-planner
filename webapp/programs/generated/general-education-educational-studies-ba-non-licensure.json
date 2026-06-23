@@ -1,0 +1,689 @@
+{
+  "id": "general-education-educational-studies-ba-non-licensure",
+  "poid": "34752",
+  "name": "General Education: Educational Studies, BA (non-licensure)",
+  "degree": "BA (non-licensure)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34752",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.823770+00:00",
+  "course_credits": {
+    "EDCI 28550": 3.0,
+    "EDPS 22200": 1.0,
+    "EDPS 23500": 2.0,
+    "EDST 20010": 1.0,
+    "EDPS 45900": 3.0,
+    "EDCI 37001": 2.0,
+    "EDPS 24001": 2.0,
+    "EDPS 26500": 3.0,
+    "EDPS 31500": 3.0,
+    "EDPS 31600": 3.0,
+    "EDPS 31700": 3.0,
+    "EDPS 50500": 3.0,
+    "EDPS 50700": 3.0,
+    "EDPS 21200": 3.0,
+    "HDFS 20100": 3.0,
+    "HDFS 21000": 3.0,
+    "EDPS 10101": 3.0,
+    "EDPS 53000": 3.0,
+    "EDPS 53100": 3.0,
+    "EDPS 53300": 3.0,
+    "EDPS 53400": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "SCLA 10100": 3.0,
+    "HIST 10400": 3.0,
+    "HIST 10500": 3.0,
+    "HIST 15100": 3.0,
+    "HIST 15200": 3.0,
+    "MA 13700": 3.0,
+    "MA 13800": 3.0,
+    "STAT 11300": 3.0,
+    "AD 20100": 3.0,
+    "AD 22600": 3.0,
+    "AD 22700": 3.0,
+    "AD 25500": 3.0,
+    "DANC 10100": 2.0,
+    "DANC 10200": 2.0,
+    "DANC 10300": 2.0,
+    "MUS 25000": 3.0,
+    "MUS 32400": 3.0,
+    "MUS 37800": 3.0,
+    "THTR 13300": 3.0,
+    "THTR 20100": 3.0,
+    "CHNS 24100": 3.0,
+    "ENGL 23000": 3.0,
+    "ENGL 23100": 3.0,
+    "ENGL 23200": 3.0,
+    "ENGL 23400": 3.0,
+    "ENGL 23700": 3.0,
+    "ENGL 23800": 3.0,
+    "ENGL 24000": 3.0,
+    "ENGL 24100": 3.0,
+    "ENGL 25000": 3.0,
+    "ENGL 25700": 3.0,
+    "ENGL 26200": 3.0,
+    "ENGL 26400": 3.0,
+    "ENGL 26600": 3.0,
+    "ENGL 26700": 3.0,
+    "ENGL 35000": 3.0,
+    "ENGL 35100": 3.0,
+    "ENGL 35200": 3.0,
+    "ENGL 35400": 3.0,
+    "ENGL 35800": 3.0,
+    "ENGL 35900": 3.0,
+    "ENGL 36000": 3.0,
+    "ENGL 36500": 3.0,
+    "ENGL 36600": 3.0,
+    "ENGL 37300": 3.0,
+    "ENGL 39200": 3.0,
+    "FR 24100": 3.0,
+    "GER 24100": 3.0,
+    "JPNS 24100": 3.0,
+    "SPAN 24100": 3.0,
+    "AAS 37000": 3.0,
+    "AAS 37300": 3.0,
+    "AAS 37500": 3.0,
+    "ANTH 20500": 3.0,
+    "ANTH 21000": 3.0,
+    "ANTH 33600": 3.0,
+    "ANTH 37900": 3.0,
+    "ASAM 34000": 3.0,
+    "HIST 37700": 3.0,
+    "HIST 39600": 3.0,
+    "HIST 39800": 3.0,
+    "SOC 31000": 3.0,
+    "SOC 35600": 3.0,
+    "WGSS 28000": 3.0,
+    "WGSS 28200": 3.0,
+    "WGSS 38000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 42.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core Educational Studies Classes",
+          "credit_target": 10.0,
+          "kind": "all_of",
+          "courses": [
+            "EDCI 28550",
+            "EDPS 22200",
+            "EDPS 23500",
+            "EDST 20010",
+            "EDPS 45900"
+          ]
+        },
+        {
+          "name": "Foundational Special Population Courses",
+          "credit_target": 8.0,
+          "kind": "all_of",
+          "courses": [
+            "EDCI 37001",
+            "EDPS 24001",
+            "EDPS 26500"
+          ]
+        },
+        {
+          "name": "Collaborative Leadership Certificate",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "courses": [
+            "EDPS 31500",
+            "EDPS 31600",
+            "EDPS 31700"
+          ]
+        },
+        {
+          "name": "Counseling Psychology",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "EDPS 50500",
+            "EDPS 50700"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Human Development and Family Studies",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "EDPS 21200",
+            "HDFS 20100",
+            "HDFS 21000"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Educational Psychology",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "EDPS 10101",
+            "EDPS 53000"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Education Research Methodology",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "EDPS 53100",
+            "EDPS 53300",
+            "EDPS 53400"
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "Quantitative Reasoning",
+          "credit_target": [
+            6.0,
+            10.0
+          ],
+          "kind": "choose",
+          "options": [
+            "MA 13700",
+            "MA 13800",
+            "STAT 11300"
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "Aesthetic Awareness",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "AD 20100",
+            "AD 22600",
+            "AD 22700",
+            "AD 25500",
+            "DANC 10100",
+            "DANC 10200",
+            "DANC 10300",
+            "MUS 25000",
+            "MUS 32400",
+            "MUS 37800",
+            "THTR 13300",
+            "THTR 20100"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "English Literature",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "CHNS 24100",
+            "ENGL 23000",
+            "ENGL 23100",
+            "ENGL 23200",
+            "ENGL 23400",
+            "ENGL 23700",
+            "ENGL 23800",
+            "ENGL 24000",
+            "ENGL 24100",
+            "ENGL 25000",
+            "ENGL 25700",
+            "ENGL 26200",
+            "ENGL 26400",
+            "ENGL 26600",
+            "ENGL 26700",
+            "ENGL 35000",
+            "ENGL 35100",
+            "ENGL 35200",
+            "ENGL 35400",
+            "ENGL 35800",
+            "ENGL 35900",
+            "ENGL 36000",
+            "ENGL 36500",
+            "ENGL 36600",
+            "ENGL 37300",
+            "ENGL 39200",
+            "FR 24100",
+            "GER 24100",
+            "JPNS 24100",
+            "SPAN 24100"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Race, Ethnic & Cultural Diversity",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "AAS 37000",
+            "AAS 37300",
+            "AAS 37500",
+            "ANTH 20500",
+            "ANTH 21000",
+            "ANTH 33600",
+            "ANTH 37900",
+            "ASAM 34000",
+            "ENGL 25700",
+            "ENGL 35200",
+            "ENGL 35400",
+            "ENGL 35800",
+            "HIST 37700",
+            "HIST 39600",
+            "HIST 39800",
+            "SOC 31000",
+            "SOC 35600",
+            "WGSS 28000",
+            "WGSS 28200",
+            "WGSS 38000"
+          ],
+          "choose_credits": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        36.0,
+        49.0
+      ],
+      "kind": "credits",
+      "credits": 36.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-17 Credits",
+      "items": [
+        {
+          "code": "EDST 20010",
+          "title": "Educational Policies And Laws",
+          "credits": 1.0
+        },
+        {
+          "code": "HIST 15100",
+          "title": "American History To 1877 (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HIST 15200",
+              "title": "United States Since 1877 (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            },
+            {
+              "code": "SCLA 10100",
+              "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-19 Credits",
+      "items": [
+        {
+          "code": "EDCI 28550",
+          "title": "Foundations Of Multicultural Education And Community (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "HIST 10400",
+          "title": "Introduction To The Modern World (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HIST 10500",
+              "title": "Survey Of Global History (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "12-16 Credits",
+      "items": [
+        {
+          "code": "EDPS 23500",
+          "title": "Learning And Motivation (UCC: BSS)",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 26500",
+          "title": "The Inclusive Classroom",
+          "credits": 3.0
+        },
+        {
+          "label": "English Literature",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "EDCI 37001",
+          "title": "Teaching And Learning English As A New Language",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 22200",
+          "title": "Human Learning And Artificial Intelligence (UCC: AI)",
+          "credits": 1.0
+        },
+        {
+          "code": "EDPS 24001",
+          "title": "Foundations Of Gifted Education And Differentiated Instruction",
+          "credits": 2.0
+        },
+        {
+          "code": "EDPS 45900",
+          "title": "Assistive Technology (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Aesthetic Awareness",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "EDPS 31500",
+          "title": "Collaborative Leadership: Interpersonal Skills (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "label": "Educational Psychology",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Development and Family Studies",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "EDPS 31600",
+          "title": "Collaborative Leadership: Cross-Cultural Settings (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Counseling Psychology",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Race, Ethnic & Cultural Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "EDPS 31700",
+          "title": "Collaborative Leadership: Mentoring",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 53100",
+          "title": "Introduction To Measurement And Instrument Design",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EDPS 53300",
+              "title": "Introduction To Educational Research I: Methodology",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "EDPS 53300",
+          "title": "Introduction To Educational Research I: Methodology",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EDPS 53400",
+              "title": "Introduction To Educational Research II: Measurement Consideration",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Race, Ethnic & Cultural Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AAS 37000",
+    "AAS 37300",
+    "AAS 37500",
+    "AD 20100",
+    "AD 22600",
+    "AD 22700",
+    "AD 25500",
+    "ANTH 20500",
+    "ANTH 21000",
+    "ANTH 33600",
+    "ANTH 37900",
+    "ASAM 34000",
+    "CHNS 24100",
+    "DANC 10100",
+    "DANC 10200",
+    "DANC 10300",
+    "EDCI 28550",
+    "EDCI 37001",
+    "EDPS 10101",
+    "EDPS 21200",
+    "EDPS 22200",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26500",
+    "EDPS 31500",
+    "EDPS 31600",
+    "EDPS 31700",
+    "EDPS 45900",
+    "EDPS 50500",
+    "EDPS 50700",
+    "EDPS 53000",
+    "EDPS 53100",
+    "EDPS 53300",
+    "EDPS 53400",
+    "EDST 20010",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 23000",
+    "ENGL 23100",
+    "ENGL 23200",
+    "ENGL 23400",
+    "ENGL 23700",
+    "ENGL 23800",
+    "ENGL 24000",
+    "ENGL 24100",
+    "ENGL 25000",
+    "ENGL 25700",
+    "ENGL 26200",
+    "ENGL 26400",
+    "ENGL 26600",
+    "ENGL 26700",
+    "ENGL 35000",
+    "ENGL 35100",
+    "ENGL 35200",
+    "ENGL 35400",
+    "ENGL 35800",
+    "ENGL 35900",
+    "ENGL 36000",
+    "ENGL 36500",
+    "ENGL 36600",
+    "ENGL 37300",
+    "ENGL 39200",
+    "FR 24100",
+    "GER 24100",
+    "HDFS 20100",
+    "HDFS 21000",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 10400",
+    "HIST 10500",
+    "HIST 15100",
+    "HIST 15200",
+    "HIST 37700",
+    "HIST 39600",
+    "HIST 39800",
+    "IN 47907",
+    "JPNS 24100",
+    "MA 13700",
+    "MA 13800",
+    "MUS 25000",
+    "MUS 32400",
+    "MUS 37800",
+    "SCLA 10100",
+    "SOC 31000",
+    "SOC 35600",
+    "SPAN 24100",
+    "STAT 11300",
+    "THTR 13300",
+    "THTR 20100",
+    "WGSS 28000",
+    "WGSS 28200",
+    "WGSS 38000"
+  ]
+}

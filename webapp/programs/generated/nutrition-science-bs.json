@@ -1,0 +1,490 @@
+{
+  "id": "nutrition-science-bs",
+  "poid": "34809",
+  "name": "Nutrition Science, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34809",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.995188+00:00",
+  "course_credits": {
+    "NUTR 10500": 1.0,
+    "NUTR 10700": 1.0,
+    "NUTR 31500": 3.0,
+    "NUTR 36500": 3.0,
+    "NUTR 43600": 2.0,
+    "NUTR 43700": 3.0,
+    "NUTR 43800": 3.0,
+    "NUTR 49600": 3.0,
+    "NUTR 39000": 1.0,
+    "NUTR 49000": 1.0,
+    "NUTR 45300": 4.0,
+    "NUTR 39700": 1.0,
+    "NUTR 49700": 1.0,
+    "BIOL 20300": 4.0,
+    "BIOL 20400": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 25500": 3.0,
+    "CHM 25501": 1.0,
+    "CHM 25600": 3.0,
+    "CHM 25601": 1.0,
+    "PSY 12000": 3.0,
+    "SOC 10000": 3.0,
+    "STAT 30100": 3.0,
+    "BCHM 30700": 3.0,
+    "BCHM 30900": 1.0,
+    "BIOL 13100": 3.0,
+    "BIOL 13500": 2.0,
+    "BIOL 23100": 3.0,
+    "BIOL 23200": 2.0,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "BIOL 24100": 3.0,
+    "BIOL 24200": 2.0,
+    "AGRY 32000": 3.0,
+    "AGRY 32100": 1.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "MA 16100": 5.0,
+    "MA 16010": 3.0,
+    "MA 16020": 3.0,
+    "PHYS 22000": 4.0,
+    "PHYS 22100": 4.0,
+    "PHYS 23300": 4.0,
+    "PHYS 23400": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Electives",
+      "credit_target": [
+        11.0,
+        22.0
+      ],
+      "kind": "credits",
+      "credits": 11.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BIOL 13100",
+              "title": "Biology II: Development, Structure, And Function Of Organisms (UCC: SCI)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "BIOL 13500",
+          "title": "First Year Biology Laboratory (UCC: SCI)",
+          "credits": 2.0
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 10500",
+          "title": "Nutrition In The 21st Century",
+          "credits": 1.0
+        },
+        {
+          "code": "NUTR 10700",
+          "title": "Introduction To Nutrition Science",
+          "credits": 1.0
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 16020",
+          "title": "Applied Calculus II (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BIOL 13100",
+              "title": "Biology II: Development, Structure, And Function Of Organisms (UCC: SCI)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "BIOL 13500",
+          "title": "First Year Biology Laboratory (UCC: SCI)",
+          "credits": 2.0
+        },
+        {
+          "label": "Oral Communications core",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "BIOL 20300",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25500",
+          "title": "Organic Chemistry For The Life Sciences I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25501",
+          "title": "Organic Chemistry For The Life Sciences Laboratory I",
+          "credits": 1.0
+        },
+        {
+          "code": "BIOL 23100",
+          "title": "Biology III: Cell Structure And Function",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 23200",
+          "title": "Laboratory In Biology III: Cell Structure And Function",
+          "credits": 2.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "BIOL 20400",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 25600",
+          "title": "Organic Chemistry For The Life Sciences II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25601",
+          "title": "Organic Chemistry For The Life Sciences Laboratory II",
+          "credits": 1.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "AGRY 32000",
+          "title": "Genetics",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "BIOL 24100",
+              "title": "Biology IV: Genetics And Molecular Biology",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "AGRY 32100",
+          "title": "Genetics Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "BIOL 24200",
+          "title": "Laboratory In Biology IV: Genetics And Molecular Biology",
+          "credits": 2.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "BCHM 30700",
+          "title": "Biochemistry",
+          "credits": 3.0
+        },
+        {
+          "code": "BCHM 30900",
+          "title": "Biochemistry Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "SOC 10000",
+          "title": "Introductory Sociology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 31500",
+          "title": "Fundamentals Of Nutrition",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 23300",
+              "title": "Physics For Life Sciences I",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "NUTR 36500",
+          "title": "Physiology And Nutrition During The Life Cycle",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 43700",
+          "title": "Macronutrient Metabolism In Human Health And Disease",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 43600",
+          "title": "Nutritional Assessment",
+          "credits": 2.0
+        },
+        {
+          "code": "PHYS 22100",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 23400",
+              "title": "Physics For Life Sciences II",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "12-17 Credits",
+      "items": [
+        {
+          "code": "NUTR 43800",
+          "title": "Micronutrient And Phytochemical Metabolism In Human Health And Disease",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 39000",
+          "title": "Independent Undergraduate Research",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "NUTR 49000",
+              "title": "Independent Undergraduate Research",
+              "credits": 1.0
+            },
+            {
+              "code": "NUTR 39700",
+              "title": "Directed Honors Research",
+              "credits": 1.0
+            },
+            {
+              "code": "NUTR 49700",
+              "title": "Honors Research Project",
+              "credits": 1.0
+            },
+            {
+              "code": "NUTR 45300",
+              "title": "Food Chemistry",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Human Cultures: Humanities",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, & Society",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "code": "NUTR 49600",
+          "title": "Evaluation Of Nutrition Science Research",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 20000",
+          "title": "49900",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGRY 32000",
+    "AGRY 32100",
+    "BCHM 30700",
+    "BCHM 30900",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BIOL 12100",
+    "BIOL 13100",
+    "BIOL 13500",
+    "BIOL 20300",
+    "BIOL 20400",
+    "BIOL 23100",
+    "BIOL 23200",
+    "BIOL 24100",
+    "BIOL 24200",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 25500",
+    "CHM 25501",
+    "CHM 25600",
+    "CHM 25601",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 20000",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "NUTR 10500",
+    "NUTR 10700",
+    "NUTR 31500",
+    "NUTR 36500",
+    "NUTR 39000",
+    "NUTR 39700",
+    "NUTR 43600",
+    "NUTR 43700",
+    "NUTR 43800",
+    "NUTR 45300",
+    "NUTR 49000",
+    "NUTR 49600",
+    "NUTR 49700",
+    "PHYS 22000",
+    "PHYS 22100",
+    "PHYS 23300",
+    "PHYS 23400",
+    "PSY 12000",
+    "SOC 10000",
+    "STAT 30100"
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "id": "sound-for-the-performing-arts-ba",
+  "poid": "34911",
+  "name": "Sound for the Performing Arts, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34911",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.751695+00:00",
+  "course_credits": {
+    "THTR 16301": 1.0,
+    "THTR 16500": 3.0,
+    "THTR 26300": 3.0,
+    "THTR 27100": 3.0,
+    "THTR 36800": 1.0,
+    "MUS 11200": 3.0,
+    "MUS 13200": 3.0,
+    "MUS 13300": 3.0,
+    "DANC 36800": 1.0,
+    "THTR 35300": 3.0,
+    "THTR 36300": 3.0,
+    "THTR 56300": 3.0,
+    "THTR 56900": 3.0,
+    "THTR 59700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Foundation Studies",
+          "credit_target": [
+            16.0,
+            18.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Theatre Required Courses",
+              "credit_target": [
+                12.0,
+                14.0
+              ],
+              "kind": "all_of",
+              "courses": [
+                "THTR 16301",
+                "THTR 16500",
+                "THTR 26300",
+                "THTR 27100",
+                "THTR 36800"
+              ]
+            },
+            {
+              "name": "Music Selective",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "MUS 11200",
+                "MUS 13200",
+                "MUS 13300"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "Required Dance Course",
+              "credit_target": 2.0,
+              "kind": "all_of",
+              "courses": [
+                "DANC 36800"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B. Sound in the Visual & Performing Arts Courses",
+          "credit_target": 21.0,
+          "kind": "all_of",
+          "courses": [
+            "THTR 35300",
+            "THTR 36300",
+            "THTR 56300",
+            "THTR 56900",
+            "THTR 59700"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For BFA, Professional, & Education",
+      "credit_target": [
+        28.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "LA Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            20.0,
+            39.0
+          ],
+          "kind": "credits",
+          "credits": 20.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        25.0,
+        54.0
+      ],
+      "kind": "credits",
+      "credits": 25.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "THTR 16301",
+          "title": "Design And Production Lab: Sound",
+          "credits": 1.0
+        },
+        {
+          "code": "THTR 16500",
+          "title": "Introduction To Design And Production",
+          "credits": 3.0
+        },
+        {
+          "code": "THTR 27100",
+          "title": "Script Interpretation",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "THTR 26300",
+          "title": "Introduction To Sound Studios",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "DANC 36800",
+          "title": "Dance Sound Design",
+          "credits": 1.0
+        },
+        {
+          "code": "THTR 36300",
+          "title": "Sound Design",
+          "credits": 3.0
+        },
+        {
+          "code": "THTR 36800",
+          "title": "Theatre Production II",
+          "credits": 1.0
+        },
+        {
+          "code": "MUS 11200",
+          "title": "Fundamentals Of Music (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MUS 13200",
+              "title": "Music Theory I (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "MUS 13300",
+              "title": "Music Theory II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "13-19 Credits",
+      "items": [
+        {
+          "code": "DANC 36800",
+          "title": "Dance Sound Design",
+          "credits": 1.0
+        },
+        {
+          "code": "THTR 36800",
+          "title": "Theatre Production II",
+          "credits": 1.0
+        },
+        {
+          "code": "THTR 56300",
+          "title": "Advanced Sound Design",
+          "credits": 3.0
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "code": "THTR 35300",
+          "title": "Audio Technology I",
+          "credits": 3.0
+        },
+        {
+          "code": "THTR 56900",
+          "title": "Special Problems In Audio Production",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14-19 Credits",
+      "items": [
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "THTR 59700",
+          "title": "Production And Design Seminar",
+          "credits": 3.0
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "THTR 59700",
+          "title": "Production And Design Seminar",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "DANC 36800",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MUS 11200",
+    "MUS 13200",
+    "MUS 13300",
+    "THTR 16301",
+    "THTR 16500",
+    "THTR 26300",
+    "THTR 27100",
+    "THTR 35300",
+    "THTR 36300",
+    "THTR 36800",
+    "THTR 56300",
+    "THTR 56900",
+    "THTR 59700"
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "id": "hospitality-and-tourism-management-bs",
+  "poid": "34796",
+  "name": "Hospitality and Tourism Management, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34796",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.761147+00:00",
+  "course_credits": {
+    "HTM 10010": 1.0,
+    "HTM 17300": 3.0,
+    "HTM 18000": 3.0,
+    "HTM 18101": 1.0,
+    "HTM 20000": 1.0,
+    "CSR 30900": 3.0,
+    "HTM 21200": 3.0,
+    "HTM 21800": 3.0,
+    "HTM 23100": 3.0,
+    "HTM 24100": 3.0,
+    "ACCT 20100": 3.0,
+    "HTM 25501": 3.0,
+    "HTM 29001": 3.0,
+    "HTM 29101": 2.0,
+    "HTM 30200": 1.0,
+    "HTM 31200": 3.0,
+    "HTM 35700": 3.0,
+    "HTM 38110": 3.0,
+    "HTM 38600": 3.0,
+    "HTM 40000": 1.0,
+    "HTM 40200": 1.0,
+    "HTM 41100": 3.0,
+    "HTM 42200": 3.0,
+    "HTM 44300": 3.0,
+    "HTM 49901": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "HTM 14100": 3.0,
+    "CSR 48400": 3.0,
+    "FIN 30400": 3.0,
+    "FIN 31000": 3.0,
+    "HTM 34200": 3.0,
+    "CNIT 13600": 3.0,
+    "CSR 28200": 3.0,
+    "NUTR 30300": 3.0,
+    "PSY 12000": 3.0,
+    "SOC 10000": 3.0,
+    "ANTH 10000": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "STAT 22500": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 30301": 3.0,
+    "MA 15300": 3.0,
+    "MA 15555": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-16 Credits",
+      "items": [
+        {
+          "code": "HTM 10010",
+          "title": "Exploring Transformational Experiences In Hospitality And Tourism",
+          "credits": 1.0
+        },
+        {
+          "code": "HTM 17300",
+          "title": "Tourism Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 18000",
+          "title": "Hospitality Operations",
+          "credits": 3.0
+        },
+        {
+          "label": "Quantitative Reasoning Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CNIT 13600",
+          "title": "Personal Computing Technology And Applications",
+          "credits": 3.0
+        },
+        {
+          "code": "CSR 28200",
+          "title": "Customer Relations Management",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 18101",
+          "title": "The Hotel Experience",
+          "credits": 1.0
+        },
+        {
+          "label": "Accounting Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "HTM 20000",
+          "title": "Career Exploration And Development Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "HTM 21800",
+          "title": "Creating Experiences For A Diverse Society",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 25501",
+          "title": "Fundamentals Of Excel And Data Analytics In Service Industries",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 29001",
+          "title": "Food And Beverage Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Economic Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "SOC 10000",
+          "title": "Introductory Sociology (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ANTH 10000",
+              "title": "Being Human: Introduction To Anthropology (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "HTM 29101",
+          "title": "The John Purdue Room Restaurant Experience",
+          "credits": 2.0
+        },
+        {
+          "code": "HTM 23100",
+          "title": "Marketing In Service Industries",
+          "credits": 3.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "code": "ACCT 20100",
+          "title": "Management Accounting I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HTM 24100",
+              "title": "Managerial Accounting In Service Industries",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CSR 30900",
+          "title": "Leadership Strategies",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HTM 21200",
+              "title": "Leading For Success In Service Industries",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Summer 2nd Year",
+      "credit_hint": "1-2 credits",
+      "items": [
+        {
+          "code": "HTM 30200",
+          "title": "Hospitality And Tourism Industry Internship I",
+          "credits": 1.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "HTM 38600",
+          "title": "Fundamentals Of Hotel Asset Management",
+          "credits": 3.0
+        },
+        {
+          "code": "NUTR 30300",
+          "title": "Essentials Of Nutrition (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "Finance Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Statistic Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "HTM 31200",
+          "title": "Talent Management For Service Industries",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 35700",
+          "title": "Disruption And Innovation In Hospitality & Tourism",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 38110",
+          "title": "Revenue Management In Service Industries",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Summer 3rd Year",
+      "credit_hint": "1 credit",
+      "items": [
+        {
+          "code": "HTM 40200",
+          "title": "Hospitality And Tourism Industry Internship II",
+          "credits": 1.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "HTM 40000",
+          "title": "Career Mastery: Navigating Your Career And Professional Development Seminar",
+          "credits": 1.0
+        },
+        {
+          "code": "HTM 41100",
+          "title": "Hospitality And Tourism Law",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 44300",
+          "title": "Hospitality Operations Control And Analysis",
+          "credits": 3.0
+        },
+        {
+          "label": "HTM Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13-14 Credits",
+      "items": [
+        {
+          "code": "HTM 42200",
+          "title": "Hospitality Facilities Design And Management",
+          "credits": 3.0
+        },
+        {
+          "code": "HTM 49901",
+          "title": "Strategic Management In Service Industries",
+          "credits": 3.0
+        },
+        {
+          "label": "HTM Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "ACCT 21200",
+    "AGEC 21700",
+    "ANTH 10000",
+    "CNIT 13600",
+    "CSR 28200",
+    "CSR 30900",
+    "CSR 48400",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "FIN 30400",
+    "FIN 31000",
+    "HEA 01348",
+    "HELP 02026",
+    "HTM 10010",
+    "HTM 14100",
+    "HTM 17300",
+    "HTM 18000",
+    "HTM 18101",
+    "HTM 20000",
+    "HTM 21200",
+    "HTM 21800",
+    "HTM 23100",
+    "HTM 24100",
+    "HTM 25501",
+    "HTM 29001",
+    "HTM 29101",
+    "HTM 30200",
+    "HTM 31200",
+    "HTM 34200",
+    "HTM 35700",
+    "HTM 38110",
+    "HTM 38600",
+    "HTM 40000",
+    "HTM 40200",
+    "HTM 41100",
+    "HTM 42200",
+    "HTM 44300",
+    "HTM 49901",
+    "IN 47907",
+    "MA 15300",
+    "MA 15555",
+    "MA 15800",
+    "MA 16010",
+    "MA 16100",
+    "MA 16500",
+    "NUTR 30300",
+    "PSY 12000",
+    "SOC 10000",
+    "STAT 22500",
+    "STAT 30100",
+    "STAT 30301"
+  ]
+}

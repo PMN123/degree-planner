@@ -1,0 +1,185 @@
+{
+  "id": "art-and-design-studio-minor",
+  "poid": "34893",
+  "name": "Art and Design Studio Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34893",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.913950+00:00",
+  "course_credits": {
+    "AD 10500": 3.0,
+    "AD 11300": 3.0,
+    "AD 22600": 3.0,
+    "AD 22700": 3.0,
+    "AD 38500": 3.0,
+    "AD 39500": 3.0,
+    "AD 24200": 3.0,
+    "AD 34200": 3.0,
+    "AD 44200": 3.0,
+    "AD 11400": 3.0,
+    "AD 22000": 3.0,
+    "AD 21300": 3.0,
+    "AD 31400": 3.0,
+    "AD 23300": 3.0,
+    "AD 30400": 3.0,
+    "AD 27000": 3.0,
+    "AD 27100": 3.0,
+    "AD 37000": 3.0,
+    "AD 26200": 3.0,
+    "AD 36200": 3.0,
+    "AD 46200": 3.0,
+    "AD 20000": 3.0,
+    "AD 36500": 3.0,
+    "AD 11700": 3.0,
+    "AD 11900": 3.0,
+    "AD 26700": 3.0,
+    "AD 26500": 3.0,
+    "AD 26600": 3.0,
+    "AD 26300": 3.0,
+    "AD 33300": 3.0,
+    "AD 36800": 3.0,
+    "AD 36900": 3.0,
+    "AD 46800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "AD 10500",
+        "AD 11300",
+        "AD 22600",
+        "AD 22700",
+        "AD 38500",
+        "AD 39500"
+      ]
+    },
+    {
+      "name": "B. Choose One Area",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Area 1. Ceramics",
+          "kind": "all_of",
+          "courses": [
+            "AD 24200",
+            "AD 34200",
+            "AD 44200"
+          ]
+        },
+        {
+          "name": "Area 2. Drawing & Illustration",
+          "kind": "all_of",
+          "courses": [
+            "AD 11400",
+            "AD 22000",
+            "AD 21300",
+            "AD 31400"
+          ]
+        },
+        {
+          "name": "Area 3. Electronic and Time-Based Art",
+          "kind": "all_of",
+          "courses": [
+            "AD 23300",
+            "AD 30400"
+          ]
+        },
+        {
+          "name": "Area 4. Fiber Art & Textile Design",
+          "kind": "all_of",
+          "courses": [
+            "AD 27000",
+            "AD 27100",
+            "AD 37000"
+          ]
+        },
+        {
+          "name": "Area 5. Jewelry & Metals",
+          "kind": "all_of",
+          "courses": [
+            "AD 26200",
+            "AD 36200",
+            "AD 46200"
+          ]
+        },
+        {
+          "name": "Area 6. Painting",
+          "kind": "all_of",
+          "courses": [
+            "AD 20000",
+            "AD 36500"
+          ]
+        },
+        {
+          "name": "Area 7. Photography",
+          "kind": "all_of",
+          "courses": [
+            "AD 11700",
+            "AD 11900",
+            "AD 26700"
+          ]
+        },
+        {
+          "name": "Area 8. Printmaking",
+          "kind": "all_of",
+          "courses": [
+            "AD 26500",
+            "AD 26600",
+            "AD 26300",
+            "AD 33300",
+            "AD 36800",
+            "AD 36900",
+            "AD 46800"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AD 10500",
+    "AD 11300",
+    "AD 11400",
+    "AD 11700",
+    "AD 11900",
+    "AD 20000",
+    "AD 21300",
+    "AD 22000",
+    "AD 22600",
+    "AD 22700",
+    "AD 23300",
+    "AD 24200",
+    "AD 26200",
+    "AD 26300",
+    "AD 26500",
+    "AD 26600",
+    "AD 26700",
+    "AD 27000",
+    "AD 27100",
+    "AD 30400",
+    "AD 31400",
+    "AD 33300",
+    "AD 34200",
+    "AD 36200",
+    "AD 36500",
+    "AD 36800",
+    "AD 36900",
+    "AD 37000",
+    "AD 38500",
+    "AD 39500",
+    "AD 44200",
+    "AD 46200",
+    "AD 46800",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

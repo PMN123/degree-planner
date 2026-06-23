@@ -1,0 +1,92 @@
+{
+  "id": "russian-minor",
+  "poid": "34896",
+  "name": "Russian Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34896",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.292138+00:00",
+  "course_credits": {
+    "RUSS 30100": 3.0,
+    "RUSS 30200": 3.0,
+    "RUSS 40100": 3.0,
+    "RUSS 34100": 3.0,
+    "RUSS 34200": 3.0,
+    "RUSS 38000": 3.0,
+    "RUSS 38100": 3.0,
+    "RUSS 40200": 3.0,
+    "RUSS 42400": 3.0,
+    "RUSS 49700": 3.0,
+    "RUSS 49800": 3.0,
+    "RUSS 56100": 3.0,
+    "RUSS 56200": 3.0,
+    "RUSS 59600": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Russian Language",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "RUSS 30100",
+        "RUSS 30200",
+        "RUSS 40100"
+      ]
+    },
+    {
+      "name": "B. Russian Literature",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "RUSS 34100",
+        "RUSS 34200"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "C. Russian Electives",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "RUSS 34100",
+        "RUSS 34200",
+        "RUSS 38000",
+        "RUSS 38100",
+        "RUSS 40200",
+        "RUSS 42400",
+        "RUSS 49700",
+        "RUSS 49800",
+        "RUSS 56100",
+        "RUSS 56200",
+        "RUSS 59600"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "RUSS 20200",
+    "RUSS 30100",
+    "RUSS 30200",
+    "RUSS 34100",
+    "RUSS 34200",
+    "RUSS 38000",
+    "RUSS 38100",
+    "RUSS 40100",
+    "RUSS 40200",
+    "RUSS 42400",
+    "RUSS 49700",
+    "RUSS 49800",
+    "RUSS 56100",
+    "RUSS 56200",
+    "RUSS 59600"
+  ]
+}

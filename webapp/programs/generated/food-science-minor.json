@@ -1,0 +1,63 @@
+{
+  "id": "food-science-minor",
+  "poid": "34735",
+  "name": "Food Science Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34735",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.930407+00:00",
+  "course_credits": {
+    "FS 16100": 3.0,
+    "FS 34100": 2.0,
+    "FS 36200": 3.0,
+    "FS 45300": 3.0,
+    "ANSC 35100": 3.0,
+    "ANSC 35101": 1.0,
+    "NUTR 31500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 11.0,
+      "kind": "all_of",
+      "courses": [
+        "FS 16100",
+        "FS 34100",
+        "FS 36200",
+        "FS 45300"
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": 7.0,
+      "kind": "choose",
+      "options": [
+        "ANSC 35100",
+        "ANSC 35101",
+        "NUTR 31500"
+      ],
+      "choose_credits": 7.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ANSC 35100",
+    "ANSC 35101",
+    "FS 10000",
+    "FS 16100",
+    "FS 29100",
+    "FS 34100",
+    "FS 36200",
+    "FS 45300",
+    "FS 49100",
+    "HELP 02026",
+    "IN 47907",
+    "NUTR 31500"
+  ]
+}

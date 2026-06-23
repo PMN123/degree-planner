@@ -1,0 +1,131 @@
+{
+  "id": "art-history-minor",
+  "poid": "34894",
+  "name": "Art History Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34894",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.926137+00:00",
+  "course_credits": {
+    "AD 22700": 3.0,
+    "AD 22600": 3.0,
+    "AD 31100": 3.0,
+    "AD 31200": 3.0,
+    "AD 35900": 3.0,
+    "AD 34300": 3.0,
+    "AD 34600": 3.0,
+    "AD 38000": 3.0,
+    "AD 30701": 3.0,
+    "AD 33900": 3.0,
+    "AD 38300": 3.0,
+    "AD 38400": 3.0,
+    "AD 34400": 3.0,
+    "AD 34800": 3.0,
+    "AD 38200": 3.0,
+    "AD 38500": 3.0,
+    "AD 39500": 3.0,
+    "AD 59200": 3.0,
+    "AD 39600": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. General Surveys of the History of Art",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "AD 22700"
+      ]
+    },
+    {
+      "name": "B. Additional Hours",
+      "credit_target": 12.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "1. Ancient and Medieval Art",
+          "kind": "all_of",
+          "courses": [
+            "AD 22600",
+            "AD 31100",
+            "AD 31200",
+            "AD 35900"
+          ]
+        },
+        {
+          "name": "2. Renaissance and Baroque Art",
+          "kind": "all_of",
+          "courses": [
+            "AD 34300",
+            "AD 34600",
+            "AD 38000"
+          ]
+        },
+        {
+          "name": "3. Modern and Contemporary Art",
+          "kind": "all_of",
+          "courses": [
+            "AD 30701",
+            "AD 33900",
+            "AD 38300",
+            "AD 38400"
+          ]
+        },
+        {
+          "name": "4. World Art",
+          "kind": "all_of",
+          "courses": [
+            "AD 34400",
+            "AD 34800",
+            "AD 38200"
+          ]
+        },
+        {
+          "name": "5. Design History",
+          "kind": "all_of",
+          "courses": [
+            "AD 38500",
+            "AD 39500",
+            "AD 59200"
+          ]
+        },
+        {
+          "name": "6. Museum Studies",
+          "kind": "all_of",
+          "courses": [
+            "AD 39600"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AD 22600",
+    "AD 22700",
+    "AD 30701",
+    "AD 31100",
+    "AD 31200",
+    "AD 33900",
+    "AD 34300",
+    "AD 34400",
+    "AD 34600",
+    "AD 34800",
+    "AD 35900",
+    "AD 38000",
+    "AD 38200",
+    "AD 38300",
+    "AD 38400",
+    "AD 38500",
+    "AD 39500",
+    "AD 39600",
+    "AD 59200",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

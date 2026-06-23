@@ -1,0 +1,383 @@
+{
+  "id": "anthropology-ba",
+  "poid": "34839",
+  "name": "Anthropology, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34839",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.160712+00:00",
+  "course_credits": {
+    "ANTH 20100": 3.0,
+    "ANTH 20400": 3.0,
+    "ANTH 20500": 3.0,
+    "ANTH 30700": 3.0,
+    "ANTH 41001": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 36.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Area A - Anthropology Requirements",
+          "credit_target": 15.0,
+          "kind": "all_of",
+          "courses": [
+            "ANTH 20100",
+            "ANTH 20400",
+            "ANTH 20500",
+            "ANTH 30700",
+            "ANTH 41001"
+          ]
+        },
+        {
+          "name": "Area B - Anthropology Selectives",
+          "credit_target": 21.0,
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        8.0,
+        49.0
+      ],
+      "kind": "credits",
+      "credits": 8.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-20 Credits",
+      "items": [
+        {
+          "code": "ANTH 20100",
+          "title": "Introduction To Archaeology And World Prehistory (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "12-21 Credits",
+      "items": [
+        {
+          "code": "ANTH 20500",
+          "title": "Introduction To Cultural Anthropology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "ANTH 20400",
+          "title": "Human Origins (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "Requirement B Anthropology Selective: Archaeology",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "label": "Requirement B Anthropology Selective: Biological",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement B Anthropology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV (CLA Core III & CLA Core I: 5 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Anthropology Optional Concentration Course",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ANTH 30700",
+          "title": "The Development Of Contemporary Anthropological Theory",
+          "credits": 3.0
+        },
+        {
+          "label": "Anthropology Optional Concentration Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement B Anthropology Selective: Linguistic",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Requirement B Anthropology Selective: Sociocultural",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "label": "Requirement B Anthropology Selective: Methods",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Anthropology Optional Concentration Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Anthropology Optional Concentration Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "ANTH 41001",
+          "title": "Senior Capstone In Anthropology",
+          "credits": 3.0
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "label": "Requirement B Anthropology Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ANTH 20100",
+    "ANTH 20400",
+    "ANTH 20500",
+    "ANTH 30700",
+    "ANTH 39000",
+    "ANTH 41001",
+    "ANTH 41800",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

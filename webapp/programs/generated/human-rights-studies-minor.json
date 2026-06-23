@@ -1,0 +1,176 @@
+{
+  "id": "human-rights-studies-minor",
+  "poid": "35107",
+  "name": "Human Rights Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35107",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.381148+00:00",
+  "course_credits": {
+    "HIST 33805": 3.0,
+    "PHIL 24000": 3.0,
+    "PHIL 26000": 3.0,
+    "POL 43300": 3.0,
+    "POL 43801": 3.0,
+    "ANTH 20300": 3.0,
+    "ANTH 20500": 3.0,
+    "ANTH 21500": 3.0,
+    "ANTH 33600": 3.0,
+    "ANTH 34000": 3.0,
+    "ANTH 37900": 3.0,
+    "ANTH 38000": 3.0,
+    "CDIS 23900": 3.0,
+    "HIST 30605": 3.0,
+    "HIST 33700": 3.0,
+    "HIST 38200": 3.0,
+    "HIST 38300": 3.0,
+    "HIST 40800": 3.0,
+    "HIST 46900": 3.0,
+    "HIST 59500": 3.0,
+    "PHIL 11400": 3.0,
+    "PHIL 27000": 3.0,
+    "PHIL 28000": 3.0,
+    "PHIL 29000": 3.0,
+    "PHIL 32200": 3.0,
+    "PHIL 40300": 3.0,
+    "POL 13000": 3.0,
+    "POL 14100": 3.0,
+    "POL 15000": 3.0,
+    "POL 22200": 3.0,
+    "POL 23500": 3.0,
+    "POL 32600": 3.0,
+    "POL 32700": 3.0,
+    "POL 36000": 3.0,
+    "SOC 32800": 3.0,
+    "SOC 33900": 3.0,
+    "SOC 41900": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. HISTORY of Human Rights",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "HIST 33805"
+      ]
+    },
+    {
+      "name": "B. THEORY of Human Rights",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "PHIL 24000 / PHIL 26000",
+          "courses": [
+            "PHIL 24000",
+            "PHIL 26000"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C. STRUCTURE of Human Rights",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "POL 43300 / POL 43801",
+          "courses": [
+            "POL 43300",
+            "POL 43801"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "D. APPLICATION of Human Rights - Choose Two",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "ANTH 20300",
+        "ANTH 20500",
+        "ANTH 21500",
+        "ANTH 33600",
+        "ANTH 34000",
+        "ANTH 37900",
+        "ANTH 38000",
+        "CDIS 23900",
+        "HIST 30605",
+        "HIST 33700",
+        "HIST 38200",
+        "HIST 38300",
+        "HIST 40800",
+        "HIST 46900",
+        "HIST 59500",
+        "PHIL 11400",
+        "PHIL 27000",
+        "PHIL 28000",
+        "PHIL 29000",
+        "PHIL 32200",
+        "PHIL 40300",
+        "POL 13000",
+        "POL 14100",
+        "POL 15000",
+        "POL 22200",
+        "POL 23500",
+        "POL 32600",
+        "POL 32700",
+        "POL 36000",
+        "SOC 32800",
+        "SOC 33900",
+        "SOC 41900"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ANTH 20300",
+    "ANTH 20500",
+    "ANTH 21500",
+    "ANTH 33600",
+    "ANTH 34000",
+    "ANTH 37900",
+    "ANTH 38000",
+    "CDIS 23900",
+    "HELP 02026",
+    "HIST 30605",
+    "HIST 33700",
+    "HIST 33805",
+    "HIST 38200",
+    "HIST 38300",
+    "HIST 40800",
+    "HIST 46900",
+    "HIST 59500",
+    "IN 47907",
+    "PHIL 11400",
+    "PHIL 24000",
+    "PHIL 26000",
+    "PHIL 27000",
+    "PHIL 28000",
+    "PHIL 29000",
+    "PHIL 32200",
+    "PHIL 40300",
+    "POL 13000",
+    "POL 14100",
+    "POL 15000",
+    "POL 22200",
+    "POL 23500",
+    "POL 32600",
+    "POL 32700",
+    "POL 36000",
+    "POL 43300",
+    "POL 43801",
+    "SOC 32800",
+    "SOC 33900",
+    "SOC 41900"
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "id": "design-and-construction-integration-bs",
+  "poid": "35552",
+  "name": "Design and Construction Integration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35552",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.422787+00:00",
+  "course_credits": {
+    "CM 10000": 3.0,
+    "CM 15000": 6.0,
+    "CM 16000": 3.0,
+    "CM 16400": 2.0,
+    "CM 20002": 4.0,
+    "CM 23301": 3.0,
+    "CM 26000": 3.0,
+    "CM 27000": 3.0,
+    "CM 30002": 4.0,
+    "CM 30101": 2.0,
+    "CM 33000": 6.0,
+    "CM 33100": 6.0,
+    "CM 33200": 3.0,
+    "CM 36000": 3.0,
+    "CM 38000": 3.0,
+    "CM 40000": 6.0,
+    "CM 43300": 2.0,
+    "CM 45001": 3.0,
+    "CM 45701": 3.0,
+    "CM 47500": 2.0,
+    "MA 15800": 3.0,
+    "TECH 12000": 3.0,
+    "ACCT 21200": 3.0,
+    "ACCT 20000": 3.0,
+    "PHYS 17200": 4.0,
+    "PHYS 22000": 4.0,
+    "STRT 45500": 3.0,
+    "STRT 25400": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 70.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 70.0,
+          "kind": "all_of",
+          "courses": [
+            "CM 10000",
+            "CM 15000",
+            "CM 16000",
+            "CM 16400",
+            "CM 20002",
+            "CM 23301",
+            "CM 26000",
+            "CM 27000",
+            "CM 30002",
+            "CM 30101",
+            "CM 33000",
+            "CM 33100",
+            "CM 33200",
+            "CM 36000",
+            "CM 38000",
+            "CM 40000",
+            "CM 43300",
+            "CM 45001",
+            "CM 45701",
+            "CM 47500"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        1.0,
+        11.0
+      ],
+      "kind": "credits",
+      "credits": 1.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "CM 10000",
+          "title": "Introduction To Construction Management (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "CM 16400",
+          "title": "Construction Graphics And Digital Documentation",
+          "credits": 2.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "CM 15000",
+          "title": "Construction Materials And Methods",
+          "credits": 6.0
+        },
+        {
+          "code": "CM 16000",
+          "title": "Surveying",
+          "credits": 3.0
+        },
+        {
+          "label": "Calculus I Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "CM 20002",
+          "title": "Construction Plans And Specifications",
+          "credits": 4.0
+        },
+        {
+          "code": "CM 23301",
+          "title": "Mechanical, Electrical And Piping Systems In The Built Environment",
+          "credits": 3.0
+        },
+        {
+          "code": "ACCT 21200",
+          "title": "Business Accounting",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ACCT 20000",
+              "title": "Introductory Accounting",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 17200",
+          "title": "Modern Mechanics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 22000",
+              "title": "General Physics (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Cross Cultural Selective (Language 200 level or higher)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-21 Credits",
+      "items": [
+        {
+          "code": "CM 26000",
+          "title": "BIM I: Arch Modeling & Presentation Development",
+          "credits": 3.0
+        },
+        {
+          "code": "CM 27000",
+          "title": "Statics",
+          "credits": 3.0
+        },
+        {
+          "code": "CM 33000",
+          "title": "Design And Construction I",
+          "credits": 6.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CM 30002",
+          "title": "Estimating And Scheduling",
+          "credits": 4.0
+        },
+        {
+          "code": "CM 33200",
+          "title": "Architectural Design, Construction Techniques And Society",
+          "credits": 3.0
+        },
+        {
+          "code": "CM 36000",
+          "title": "BIM Modeling II: Advanced Techniques",
+          "credits": 3.0
+        },
+        {
+          "code": "CM 38000",
+          "title": "Soils And Foundations",
+          "credits": 3.0
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CM 30101",
+          "title": "Introduction To Construction Company Financial Management",
+          "credits": 2.0
+        },
+        {
+          "code": "CM 33100",
+          "title": "Design And Construction II",
+          "credits": 6.0
+        },
+        {
+          "code": "CM 45701",
+          "title": "Construction Safety",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 25400",
+          "title": "Legal Foundations Of Business I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STRT 45500",
+              "title": "Legal Background For Business I",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CM 40000",
+          "title": "Construction Capstone",
+          "credits": 6.0
+        },
+        {
+          "code": "CM 47500",
+          "title": "Construction Project Costs/Controls",
+          "credits": 2.0
+        },
+        {
+          "label": "Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "CM 43300",
+          "title": "Risk Management & Legal Issues In Design And Construction Integration",
+          "credits": 2.0
+        },
+        {
+          "code": "CM 45001",
+          "title": "Project Execution Lab",
+          "credits": 3.0
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 21700",
+    "CM 10000",
+    "CM 15000",
+    "CM 16000",
+    "CM 16400",
+    "CM 20002",
+    "CM 23301",
+    "CM 26000",
+    "CM 27000",
+    "CM 30002",
+    "CM 30101",
+    "CM 33000",
+    "CM 33100",
+    "CM 33200",
+    "CM 36000",
+    "CM 38000",
+    "CM 40000",
+    "CM 43300",
+    "CM 45001",
+    "CM 45701",
+    "CM 47500",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "MA 16100",
+    "MA 16500",
+    "PHYS 17200",
+    "PHYS 22000",
+    "STRT 25400",
+    "STRT 45500",
+    "TECH 12000"
+  ]
+}

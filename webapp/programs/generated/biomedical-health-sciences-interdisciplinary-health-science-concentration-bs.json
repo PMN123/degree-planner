@@ -1,0 +1,390 @@
+{
+  "id": "biomedical-health-sciences-interdisciplinary-health-science-concentration-bs",
+  "poid": "35727",
+  "name": "Biomedical Health Sciences: Interdisciplinary Health Science Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35727",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.547034+00:00",
+  "course_credits": {
+    "BCHM 30700": 3.0,
+    "CHM 33900": 3.0,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "BIOL 20300": 4.0,
+    "BIOL 20400": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 25500": 3.0,
+    "CHM 25501": 1.0,
+    "CHM 25600": 3.0,
+    "CHM 25601": 1.0,
+    "HSCI 10100": 2.0,
+    "HSCI 13100": 3.0,
+    "HSCI 20100": 3.0,
+    "HSCI 20200": 3.0,
+    "HSCI 22500": 3.0,
+    "MA 16010": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 50300": 3.0,
+    "COM 11400": 3.0,
+    "PSY 12000": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Requirements",
+      "credit_target": 67.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Interdisciplinary Health Science Concentration",
+          "credit_target": 24.0,
+          "kind": "credits",
+          "credits": 24.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        9.0,
+        13.0
+      ],
+      "kind": "credits",
+      "credits": 9.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "HSCI 10100",
+          "title": "Introduction To The Health Sciences Professions",
+          "credits": 2.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "HSCI 13100",
+          "title": "Introduction To Medical Terminology",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "BIOL 20300",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 25500",
+          "title": "Organic Chemistry For The Life Sciences I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25501",
+          "title": "Organic Chemistry For The Life Sciences Laboratory I",
+          "credits": 1.0
+        },
+        {
+          "code": "HSCI 20200",
+          "title": "Essentials Of Environmental, Occupational, And Radiological Health Sciences (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 50300",
+              "title": "Statistical Methods For Biology",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "BIOL 20400",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 25600",
+          "title": "Organic Chemistry For The Life Sciences II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25601",
+          "title": "Organic Chemistry For The Life Sciences Laboratory II",
+          "credits": 1.0
+        },
+        {
+          "code": "HSCI 20100",
+          "title": "Principles Of Public Health Science (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "HSCI 22500",
+          "title": "Healthcare Leadership And Safety (UCC:BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "BCHM 30700",
+          "title": "Biochemistry",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 33900",
+              "title": "Biochemistry: A Molecular Approach",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science and Health Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "HSCI Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Science and Health Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science and Health Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "HSCI Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "HSCI HBSS Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Science and Health Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science and Health Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "HSCI Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "English Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "label": "Science and Health Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science and Health Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "HSCI Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "BCHM 30700",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BIOL 20300",
+    "BIOL 20400",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 25500",
+    "CHM 25501",
+    "CHM 25600",
+    "CHM 25601",
+    "CHM 33900",
+    "COM 11400",
+    "ENGL 10600",
+    "ENGL 10800",
+    "HEA 01348",
+    "HELP 02026",
+    "HSCI 10100",
+    "HSCI 13100",
+    "HSCI 20100",
+    "HSCI 20200",
+    "HSCI 22500",
+    "IN 47907",
+    "MA 16010",
+    "PHIL 11100",
+    "PHIL 27000",
+    "PSY 12000",
+    "STAT 30100",
+    "STAT 50300"
+  ]
+}

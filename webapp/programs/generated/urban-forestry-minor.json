@@ -1,0 +1,88 @@
+{
+  "id": "urban-forestry-minor",
+  "poid": "34739",
+  "name": "Urban Forestry Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 16,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34739",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.142019+00:00",
+  "course_credits": {
+    "FNR 44400": 4.0,
+    "FNR 44500": 3.0,
+    "FNR 58600": 3.0,
+    "AGEC 33000": 3.0,
+    "AGEC 33100": 3.0,
+    "AGRY 25500": 3.0,
+    "BTNY 30100": 3.0,
+    "ENTM 41000": 2.0,
+    "FNR 31110": 3.0,
+    "FNR 33800": 3.0,
+    "FNR 35700": 3.0,
+    "FNR 35910": 2.0,
+    "FNR 35950": 1.0,
+    "FNR 43400": 3.0,
+    "HORT 21700": 4.0,
+    "HORT 31700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Courses",
+      "credit_target": 10.0,
+      "kind": "all_of",
+      "courses": [
+        "FNR 44400",
+        "FNR 44500",
+        "FNR 58600"
+      ]
+    },
+    {
+      "name": "B. Selective Courses",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "AGEC 33000",
+        "AGEC 33100",
+        "AGRY 25500",
+        "BTNY 30100",
+        "ENTM 41000",
+        "FNR 31110",
+        "FNR 33800",
+        "FNR 35700",
+        "FNR 35910",
+        "FNR 35950",
+        "FNR 43400",
+        "HORT 21700",
+        "HORT 31700"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AGEC 33000",
+    "AGEC 33100",
+    "AGRY 25500",
+    "BTNY 30100",
+    "ENTM 41000",
+    "FNR 31110",
+    "FNR 33800",
+    "FNR 35700",
+    "FNR 35910",
+    "FNR 35950",
+    "FNR 43400",
+    "FNR 44400",
+    "FNR 44500",
+    "FNR 49800",
+    "FNR 58600",
+    "HELP 02026",
+    "HORT 21700",
+    "HORT 31700",
+    "IN 47907"
+  ]
+}

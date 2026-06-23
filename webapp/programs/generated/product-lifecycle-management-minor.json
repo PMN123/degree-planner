@@ -1,0 +1,63 @@
+{
+  "id": "product-lifecycle-management-minor",
+  "poid": "34812",
+  "name": "Product Lifecycle Management Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34812",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.724641+00:00",
+  "course_credits": {
+    "MFET 10301": 3.0,
+    "ENGR 13100": 2.0,
+    "MFET 16300": 2.0,
+    "MFET 20301": 3.0,
+    "MFET 21301": 3.0,
+    "MFET 30301": 3.0,
+    "MFET 31301": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Prerequisite Courses for Non-Engineering Students",
+      "kind": "all_of",
+      "courses": [
+        "MFET 10301"
+      ]
+    },
+    {
+      "name": "Prerequisite Courses for Engineering Students",
+      "kind": "all_of",
+      "courses": [
+        "ENGR 13100",
+        "MFET 16300"
+      ]
+    },
+    {
+      "name": "Required Courses",
+      "kind": "all_of",
+      "courses": [
+        "MFET 20301",
+        "MFET 21301",
+        "MFET 30301",
+        "MFET 31301"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ENGR 13100",
+    "HELP 02026",
+    "IN 47907",
+    "MFET 10301",
+    "MFET 16300",
+    "MFET 20301",
+    "MFET 21301",
+    "MFET 30301",
+    "MFET 31301"
+  ]
+}

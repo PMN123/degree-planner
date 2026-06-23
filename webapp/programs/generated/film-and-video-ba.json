@@ -1,0 +1,551 @@
+{
+  "id": "film-and-video-ba",
+  "poid": "35983",
+  "name": "Film & Video, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35983",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.640247+00:00",
+  "course_credits": {
+    "FLM 24100": 3.0,
+    "FLM 28100": 3.0,
+    "FLM 44200": 3.0,
+    "FLM 44600": 3.0,
+    "FLM 49104": 1.0,
+    "THTR 23300": 3.0,
+    "THTR 44000": 3.0,
+    "FLM 37100": 3.0,
+    "FLM 37200": 3.0,
+    "FLM 49107": 1.0,
+    "FLM 36100": 3.0,
+    "FLM 49106": 1.0,
+    "THTR 36200": 3.0,
+    "ENGL 31600": 3.0,
+    "FLM 35100": 3.0,
+    "FLM 49105": 1.0,
+    "FLM 32100": 1.0,
+    "FLM 32200": 1.0,
+    "FLM 32300": 1.0,
+    "FLM 42200": 1.0,
+    "FLM 42300": 1.0,
+    "FLM 49102": 1.0,
+    "ARAB 33000": 3.0,
+    "CHNS 33000": 3.0,
+    "FR 33000": 3.0,
+    "FLM 49103": 1.0,
+    "GER 33000": 3.0,
+    "ITAL 33000": 3.0,
+    "ITAL 33300": 3.0,
+    "JPNS 33000": 3.0,
+    "KOR 33000": 3.0,
+    "LC 33300": 3.0,
+    "LC 33800": 3.0,
+    "PTGS 33000": 3.0,
+    "RUSS 33000": 3.0,
+    "SPAN 33000": 3.0,
+    "AAS 47300": 3.0,
+    "ENGL 38600": 3.0,
+    "ENGL 38700": 3.0,
+    "FLM 38100": 3.0,
+    "FLM 49108": 1.0,
+    "ITAL 33500": 3.0,
+    "WGSS 48500": 3.0,
+    "FLM 41000": 1.0,
+    "FLM 49900": 2.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Foundational Course",
+          "credit_target": 6.0,
+          "kind": "all_of",
+          "courses": [
+            "FLM 24100",
+            "FLM 28100"
+          ]
+        },
+        {
+          "name": "B. Film & Video Production",
+          "credit_target": [
+            9.0,
+            21.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Directing",
+              "kind": "all_of",
+              "courses": [
+                "FLM 44200",
+                "FLM 44600",
+                "FLM 49104",
+                "THTR 23300",
+                "THTR 44000"
+              ]
+            },
+            {
+              "name": "Editing",
+              "kind": "all_of",
+              "courses": [
+                "FLM 37100",
+                "FLM 37200",
+                "FLM 44200",
+                "FLM 44600",
+                "FLM 49107"
+              ]
+            },
+            {
+              "name": "Cinematography",
+              "kind": "all_of",
+              "courses": [
+                "FLM 36100",
+                "FLM 44600",
+                "FLM 49106",
+                "THTR 36200"
+              ]
+            },
+            {
+              "name": "Screenwriting",
+              "kind": "all_of",
+              "courses": [
+                "ENGL 31600",
+                "FLM 35100",
+                "FLM 44200",
+                "FLM 49105"
+              ]
+            },
+            {
+              "name": "Live Event Video Production",
+              "kind": "all_of",
+              "courses": [
+                "FLM 32100",
+                "FLM 32200",
+                "FLM 32300",
+                "FLM 42200",
+                "FLM 42300",
+                "FLM 49102"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C. Film & Video Studies",
+          "credit_target": [
+            9.0,
+            21.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "International Cinema",
+              "kind": "all_of",
+              "courses": [
+                "ARAB 33000",
+                "CHNS 33000",
+                "FR 33000",
+                "FLM 49103",
+                "GER 33000",
+                "ITAL 33000",
+                "ITAL 33300",
+                "JPNS 33000",
+                "KOR 33000",
+                "LC 33300",
+                "LC 33800",
+                "PTGS 33000",
+                "RUSS 33000",
+                "SPAN 33000"
+              ]
+            },
+            {
+              "name": "Cinema Studies",
+              "kind": "all_of",
+              "courses": [
+                "AAS 47300",
+                "ENGL 38600",
+                "ENGL 38700",
+                "FLM 38100",
+                "FLM 49108",
+                "ITAL 33500",
+                "WGSS 48500"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Professional Development",
+          "credit_target": [
+            0.0,
+            8.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "FLM 41000",
+            "FLM 49900"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For BFA, Professional, & Education",
+      "credit_target": [
+        28.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "LA Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            20.0,
+            39.0
+          ],
+          "kind": "credits",
+          "credits": 20.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        56.0,
+        58.0
+      ],
+      "kind": "credits",
+      "credits": 56.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "FLM 24100",
+          "title": "Foundations Of Cinema Production",
+          "credits": 3.0
+        },
+        {
+          "label": "FLM Major Part C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I (CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "label": "FLM Major Part C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II (CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-19 Credits",
+      "items": [
+        {
+          "label": "FLM Major Part B Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "\u200b Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III (CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "21-21 Credits",
+      "items": [
+        {
+          "label": "\u200bFLM Major Part B Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV (CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14-17 Credits",
+      "items": [
+        {
+          "label": "FLM Major Part B Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "FLM Major Part C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "label": "FLM Major Part B or C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "FLM Major Part C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "label": "FLM Major Part B or C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "FLM Major Part B or C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "label": "FLM Major Part B or C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AAS 47300",
+    "ARAB 33000",
+    "CHNS 33000",
+    "ENGL 31600",
+    "ENGL 38600",
+    "ENGL 38700",
+    "FLM 24100",
+    "FLM 28100",
+    "FLM 32100",
+    "FLM 32200",
+    "FLM 32300",
+    "FLM 35100",
+    "FLM 36100",
+    "FLM 37100",
+    "FLM 37200",
+    "FLM 38100",
+    "FLM 41000",
+    "FLM 42200",
+    "FLM 42300",
+    "FLM 44200",
+    "FLM 44600",
+    "FLM 49102",
+    "FLM 49103",
+    "FLM 49104",
+    "FLM 49105",
+    "FLM 49106",
+    "FLM 49107",
+    "FLM 49108",
+    "FLM 49900",
+    "FR 33000",
+    "GER 33000",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "ITAL 33000",
+    "ITAL 33300",
+    "ITAL 33500",
+    "JPNS 33000",
+    "KOR 33000",
+    "LC 33300",
+    "LC 33800",
+    "PTGS 33000",
+    "RUSS 33000",
+    "SPAN 33000",
+    "THTR 23300",
+    "THTR 36200",
+    "THTR 44000",
+    "WGSS 48500"
+  ]
+}

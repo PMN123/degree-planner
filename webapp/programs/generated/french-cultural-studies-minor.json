@@ -1,0 +1,69 @@
+{
+  "id": "french-cultural-studies-minor",
+  "poid": "35146",
+  "name": "French Cultural Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35146",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.211112+00:00",
+  "course_credits": {
+    "FR 30100": 3.0,
+    "FR 30200": 3.0,
+    "FR 38000": 3.0,
+    "FR 54900": 3.0,
+    "FR 58100": 3.0,
+    "FR 58200": 3.0,
+    "FR 48000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "French Language Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "FR 30100",
+        "FR 30200"
+      ]
+    },
+    {
+      "name": "Content Courses",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "FR 38000",
+        "FR 54900",
+        "FR 58100",
+        "FR 58200"
+      ],
+      "choose_credits": 6.0
+    },
+    {
+      "name": "Required Capstone Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "FR 48000"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "FR 20200",
+    "FR 20500",
+    "FR 30100",
+    "FR 30200",
+    "FR 38000",
+    "FR 48000",
+    "FR 54900",
+    "FR 58100",
+    "FR 58200",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

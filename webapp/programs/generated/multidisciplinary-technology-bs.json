@@ -1,0 +1,342 @@
+{
+  "id": "multidisciplinary-technology-bs",
+  "poid": "37188",
+  "name": "Multidisciplinary Technology, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=37188",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.058699+00:00",
+  "course_credits": {
+    "MA 16010": 3.0,
+    "PHYS 17200": 4.0,
+    "PHYS 22000": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        104.0,
+        120.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": [
+            20.0,
+            39.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "MA 16010",
+            "PHYS 17200",
+            "PHYS 22000"
+          ]
+        },
+        {
+          "name": "Polytechnic Statewide Selective or Polytechnic Transfer Selective",
+          "credit_target": [
+            52.0,
+            66.0
+          ],
+          "kind": "credits",
+          "credits": 52.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "MDT Selectives",
+          "credit_target": 32.0,
+          "kind": "credits",
+          "credits": 32.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-21 Credits",
+      "items": [
+        {
+          "label": "Artificial Intelligence Selective (UCC: AI) - Credits: 1.00 - 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral / Social Sciences (BSS) - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication Selective (UCC: OC) - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Written Communication Selective (UCC: WC) - Credits: 3.00 - 4.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS) - Credits: 1.00 - 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR) - Credits: 3.00 - 5.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM) - Credits: 3.00-4.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL) - Credits: 1.00 - 4.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "label": "Science Selective (UCC: SCI) - Credits: 1.00 - 5.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Science Selective (UCC: SCI) - Credits: 1.00 - 5.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 1.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or Polytechnic Transfer Selective - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Polytechnic Statewide Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Polytechnic Statewide Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "MDT Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "MDT Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "MDT Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "MDT Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "MDT Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "MDT Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "MDT Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "MDT Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "MDT Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "MDT Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "MDT Selective or MDT Optional Concentration - Credits: 3.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16010",
+    "PHYS 17200",
+    "PHYS 22000"
+  ]
+}

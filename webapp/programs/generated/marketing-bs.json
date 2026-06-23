@@ -1,0 +1,523 @@
+{
+  "id": "marketing-bs",
+  "poid": "34782",
+  "name": "Marketing, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34782",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.608458+00:00",
+  "course_credits": {
+    "ACCT 20000": 3.0,
+    "ACCT 20100": 3.0,
+    "DSB 25500": 1.0,
+    "DSB 29500": 1.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "FIN 31000": 3.0,
+    "MIS 38200": 3.0,
+    "MKTG 11000": 1.0,
+    "MKTG 32400": 3.0,
+    "MKTG 42500": 3.0,
+    "OBHR 33000": 3.0,
+    "QM 30500": 3.0,
+    "SCOM 36100": 3.0,
+    "STRT 35200": 3.0,
+    "STRT 25400": 3.0,
+    "CS 17600": 3.0,
+    "MKTG 22300": 3.0,
+    "DSB 23500": 3.0,
+    "FIN 24500": 3.0,
+    "ACCT 24900": 3.0,
+    "OBHR 33500": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ACCT 21000": 3.0,
+    "DSB 18700": 2.0,
+    "FIN 25800": 3.0,
+    "MKTG 42000": 3.0,
+    "MKTG 42110": 3.0,
+    "MKTG 42120": 3.0,
+    "MKTG 42130": 3.0,
+    "MKTG 42210": 3.0,
+    "MKTG 42300": 3.0,
+    "MKTG 42410": 3.0,
+    "MKTG 42420": 3.0,
+    "MKTG 42610": 3.0,
+    "MKTG 42710": 3.0,
+    "MKTG 42910": 3.0,
+    "MKTG 43000": 3.0,
+    "MKTG 43700": 3.0,
+    "MKTG 43800": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "PSY 12000": 3.0,
+    "SOC 10000": 3.0,
+    "SCLA 10200": 3.0,
+    "COM 11400": 3.0,
+    "COM 21700": 3.0,
+    "EDPS 31500": 3.0,
+    "SCLA 10100": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0,
+    "STAT 30301": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 35500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Department/Program Major Courses",
+      "credit_target": [
+        53.0,
+        54.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": [
+            50.0,
+            51.0
+          ],
+          "kind": "all_of",
+          "courses": [
+            "ACCT 20000",
+            "ACCT 20100",
+            "DSB 25500",
+            "DSB 29500",
+            "ECON 25100",
+            "ECON 25200",
+            "FIN 31000",
+            "MIS 38200",
+            "MKTG 11000",
+            "MKTG 32400",
+            "MKTG 42500",
+            "OBHR 33000",
+            "QM 30500",
+            "SCOM 36100",
+            "STRT 35200",
+            "STRT 25400",
+            "CS 17600",
+            "MKTG 22300",
+            "DSB 23500",
+            "FIN 24500",
+            "ACCT 24900",
+            "OBHR 33500",
+            "ENGL 42000",
+            "ENGL 42100"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "ACCT 21000 / DSB 18700 / FIN 25800",
+              "courses": [
+                "ACCT 21000",
+                "DSB 18700",
+                "FIN 25800"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cultural Competency Selective",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Major Selectives",
+      "credit_target": 21.0,
+      "kind": "choose",
+      "options": [
+        "MKTG 42000",
+        "MKTG 42110",
+        "MKTG 42120",
+        "MKTG 42130",
+        "MKTG 42210",
+        "MKTG 42300",
+        "MKTG 42410",
+        "MKTG 42420",
+        "MKTG 42610",
+        "MKTG 42710",
+        "MKTG 42910",
+        "MKTG 43000",
+        "MKTG 43700",
+        "MKTG 43800"
+      ],
+      "choose_credits": 21.0
+    },
+    {
+      "name": "Other Departmental Requirements",
+      "credit_target": [
+        22.0,
+        38.0
+      ],
+      "kind": "choose",
+      "options": [
+        "MA 16010",
+        "MA 16100",
+        "MA 16500",
+        "PSY 12000",
+        "SOC 10000",
+        "SCLA 10200",
+        "COM 11400",
+        "COM 21700",
+        "EDPS 31500",
+        "SCLA 10100",
+        "ENGL 10600",
+        "ENGL 10800",
+        "HONR 19903",
+        "STAT 30301",
+        "STAT 35000",
+        "STAT 35500"
+      ],
+      "choose_credits": 22.0
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        7.0,
+        24.0
+      ],
+      "kind": "credits",
+      "credits": 7.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-21 Credits",
+      "items": [
+        {
+          "code": "MKTG 11000",
+          "title": "Exploring Marketing: Foundations And Connections",
+          "credits": 1.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SOC 10000",
+              "title": "Introductory Sociology (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON 25100",
+          "title": "Microeconomics (UCC: BSS)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-20 Credits",
+      "items": [
+        {
+          "code": "DSB 25500",
+          "title": "Foundations Of Business Ethics",
+          "credits": 1.0
+        },
+        {
+          "code": "DSB 29500",
+          "title": "Business Professional Development & Career Strategies",
+          "credits": 1.0
+        },
+        {
+          "code": "OBHR 33000",
+          "title": "Introduction To Organizational Behavior",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ACCT 20100",
+          "title": "Management Accounting I",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON 25200",
+          "title": "Macroeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MKTG 32400",
+          "title": "Marketing Management",
+          "credits": 3.0
+        },
+        {
+          "code": "QM 30500",
+          "title": "Business Statistics",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 35200",
+          "title": "Strategic Management",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "FIN 31000",
+          "title": "Financial Management",
+          "credits": 3.0
+        },
+        {
+          "code": "MIS 38200",
+          "title": "Management Information Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 25400",
+          "title": "Legal Foundations Of Business I",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "MKTG 42500",
+          "title": "Marketing Research",
+          "credits": 3.0
+        },
+        {
+          "code": "ACCT 21000",
+          "title": "AI In Accounting",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "DSB 18700",
+              "title": "Intro To AI For Business (UCC:AI)",
+              "credits": 2.0
+            },
+            {
+              "code": "FIN 25800",
+              "title": "AI In Finance (UCC: AI)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Cultural Competency Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "SCOM 36100",
+          "title": "Operations Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "label": "Major Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "ACCT 21000",
+    "ACCT 24900",
+    "COM 11400",
+    "COM 21700",
+    "CS 17600",
+    "DSB 18700",
+    "DSB 23500",
+    "DSB 25500",
+    "DSB 29500",
+    "ECON 25100",
+    "ECON 25200",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 42000",
+    "ENGL 42100",
+    "FIN 24500",
+    "FIN 25800",
+    "FIN 31000",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IN 47907",
+    "MA 16010",
+    "MA 16100",
+    "MA 16500",
+    "MGMT 00352",
+    "MGMT 20000",
+    "MGMT 30500",
+    "MGMT 31000",
+    "MGMT 32400",
+    "MGMT 35000",
+    "MGMT 36100",
+    "MGMT 38200",
+    "MIS 38200",
+    "MKTG 11000",
+    "MKTG 22300",
+    "MKTG 32400",
+    "MKTG 42000",
+    "MKTG 42110",
+    "MKTG 42120",
+    "MKTG 42130",
+    "MKTG 42210",
+    "MKTG 42300",
+    "MKTG 42410",
+    "MKTG 42420",
+    "MKTG 42500",
+    "MKTG 42610",
+    "MKTG 42710",
+    "MKTG 42910",
+    "MKTG 43000",
+    "MKTG 43700",
+    "MKTG 43800",
+    "OBHR 33000",
+    "OBHR 33500",
+    "PSY 12000",
+    "QM 30500",
+    "SCLA 10100",
+    "SCLA 10200",
+    "SCOM 36100",
+    "SOC 10000",
+    "STAT 30301",
+    "STAT 35000",
+    "STAT 35500",
+    "STRT 25400",
+    "STRT 35200"
+  ]
+}

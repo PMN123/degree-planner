@@ -1,0 +1,381 @@
+{
+  "id": "electrical-engineering-technology-bs",
+  "poid": "36000",
+  "name": "Electrical Engineering Technology, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=36000",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.546645+00:00",
+  "course_credits": {
+    "ENGT 18200": 4.0,
+    "ECET 17700": 3.0,
+    "ECET 17900": 3.0,
+    "ECET 22700": 3.0,
+    "ECET 22900": 3.0,
+    "ECET 27000": 3.0,
+    "ECET 27400": 3.0,
+    "ECET 27700": 3.0,
+    "ECET 27900": 3.0,
+    "ECET 37600": 3.0,
+    "ECET 48001": 3.0,
+    "ENGT 48100": 3.0,
+    "TECH 12000": 3.0,
+    "CNIT 10500": 3.0,
+    "CS 15900": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16020": 3.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "PHYS 17200": 4.0,
+    "PHYS 22000": 4.0,
+    "PHYS 22100": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 27200": 4.0,
+    "STAT 30100": 3.0,
+    "STAT 30301": 3.0,
+    "ENGL 30400": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "TCM 42500": 3.0,
+    "AGEC 33000": 3.0,
+    "AGEC 35200": 3.0,
+    "IET 33400": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 52.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 52.0,
+          "kind": "all_of",
+          "courses": [
+            "ENGT 18200",
+            "ECET 17700",
+            "ECET 17900",
+            "ECET 22700",
+            "ECET 22900",
+            "ECET 27000",
+            "ECET 27400",
+            "ECET 27700",
+            "ECET 27900",
+            "ECET 37600",
+            "ECET 48001",
+            "ENGT 48100"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elective",
+      "credit_target": [
+        17.0,
+        24.0
+      ],
+      "kind": "credits",
+      "credits": 17.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "ENGT 18200",
+          "title": "Gateway To Engineering Technology",
+          "credits": 4.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Applied Calculus I Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Introduction to C-Programming Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "ECET 17700",
+          "title": "Data Acquisition And Systems Control",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 17900",
+          "title": "Introduction To Microcontrollers",
+          "credits": 3.0
+        },
+        {
+          "label": "Applied Calculus II Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Physics I Selective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "ECET 22700",
+          "title": "DC And Pulse Electronics",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 22900",
+          "title": "Concurrent Digital Systems",
+          "credits": 3.0
+        },
+        {
+          "label": "General Physics II Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "ECET 27000",
+          "title": "Electronics Prototype Development And Construction",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 27400",
+          "title": "Wireless Communications",
+          "credits": 3.0
+        },
+        {
+          "code": "ECET 27700",
+          "title": "AC And Power Electronics",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Professional and Technical Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECET 37600",
+          "title": "Electrical Energy Systems",
+          "credits": 3.0
+        },
+        {
+          "label": "ECET Advanced Analysis Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "ECET Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Global Leadership & Professional Practice Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECET 27900",
+          "title": "Embedded Digital Systems",
+          "credits": 3.0
+        },
+        {
+          "label": "ECET Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Engineering Economics & Financial Analysis Selective &ndash; Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ECET 48001",
+          "title": "Engineering Technology Capstone I",
+          "credits": 3.0
+        },
+        {
+          "label": "ECET Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ENGT 48100",
+          "title": "Engineering Technology Capstone II",
+          "credits": 3.0
+        },
+        {
+          "label": "ECET Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 33000",
+    "AGEC 35200",
+    "CNIT 10500",
+    "CS 15900",
+    "ECET 17700",
+    "ECET 17900",
+    "ECET 22700",
+    "ECET 22900",
+    "ECET 27000",
+    "ECET 27400",
+    "ECET 27700",
+    "ECET 27900",
+    "ECET 37600",
+    "ECET 48001",
+    "ENGL 30400",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGT 18200",
+    "ENGT 48100",
+    "HEA 01348",
+    "HELP 02026",
+    "IET 33400",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "PHYS 17200",
+    "PHYS 22000",
+    "PHYS 22100",
+    "PHYS 24100",
+    "PHYS 27200",
+    "STAT 30100",
+    "STAT 30301",
+    "TCM 42500",
+    "TECH 12000"
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "id": "psychological-sciences-bs",
+  "poid": "34818",
+  "name": "Psychological Sciences, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34818",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.069032+00:00",
+  "course_credits": {
+    "PSY 12000": 3.0,
+    "PSY 20100": 3.0,
+    "PSY 20300": 3.0,
+    "PSY 20000": 3.0,
+    "PSY 22200": 3.0,
+    "PSY 31400": 3.0,
+    "PSY 23500": 3.0,
+    "PSY 24000": 3.0,
+    "PSY 27200": 3.0,
+    "PSY 35000": 3.0,
+    "COM 11400": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0,
+    "MA 15300": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A) Psychology Required Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "PSY 12000",
+        "PSY 20100",
+        "PSY 20300"
+      ]
+    },
+    {
+      "name": "B) Psychology Selectives",
+      "credit_target": 12.0,
+      "kind": "choose",
+      "options": [
+        "PSY 20000",
+        "PSY 22200",
+        "PSY 31400",
+        "PSY 23500",
+        "PSY 24000",
+        "PSY 27200",
+        "PSY 35000"
+      ],
+      "choose_credits": 12.0
+    },
+    {
+      "name": "C) Additional Psychology Courses",
+      "credit_target": 15.0,
+      "kind": "credits",
+      "credits": 15.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        13.0,
+        43.0
+      ],
+      "kind": "credits",
+      "credits": 13.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15300",
+          "title": "College Algebra (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MA 15800",
+              "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+              "credits": 3.0
+            },
+            {
+              "code": "MA 16010",
+              "title": "Applied Calculus I (UCC: QR)",
+              "credits": 3.0
+            },
+            {
+              "code": "MA 16100",
+              "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 5.0
+            },
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Cultural/International Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "14-19 Credits",
+      "items": [
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            },
+            {
+              "code": "HONR 19903",
+              "title": "Interdisciplinary Approaches In Writing (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "PSYS Major Area B2 \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Cultural/International Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "NSM&IT Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14-19 Credits",
+      "items": [
+        {
+          "code": "PSY 20100",
+          "title": "Introduction To Statistics In Psychology",
+          "credits": 3.0
+        },
+        {
+          "label": "PSYS Major Area B1 \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Cultural/International Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "NSM&IT Selective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "PSY 20300",
+          "title": "Introduction To Research Methods In Psychology",
+          "credits": 3.0
+        },
+        {
+          "label": "PSYS Major Area B2 \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Cultural/International Diversity Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "label": "PSYS Major Area B1 \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "PSYS Major Area C",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "NSM&IT Selective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "PSYS Major Area C",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Social Ethics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Economics/Finance Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "label": "PSYS Major Area C",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "PSYS Major Area C",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "PSYS Major Area C",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Management & Leadership Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "COM 11400",
+    "ENGL 10600",
+    "ENGL 10800",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IN 47907",
+    "MA 15300",
+    "MA 15800",
+    "MA 16010",
+    "MA 16100",
+    "MA 16500",
+    "PSY 12000",
+    "PSY 20000",
+    "PSY 20100",
+    "PSY 20300",
+    "PSY 22200",
+    "PSY 23500",
+    "PSY 24000",
+    "PSY 27200",
+    "PSY 31400",
+    "PSY 35000",
+    "PSY 39000",
+    "PSY 39100",
+    "PSY 39800",
+    "PSY 46400",
+    "PSY 49200",
+    "PSY 49800",
+    "PSY 58100"
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "id": "multidisciplinary-engineering-acoustical-engineering-concentration-bse",
+  "poid": "35595",
+  "name": "Multidisciplinary Engineering/Acoustical Engineering Concentration, BSE",
+  "degree": "BSE",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35595",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.176898+00:00",
+  "course_credits": {
+    "IDE 30100": 1.0,
+    "IDE 48700": 1.0,
+    "ABE 20100": 4.0,
+    "ABE 21000": 3.0,
+    "CCE 21100": 3.0,
+    "CHE 21100": 4.0,
+    "ME 20000": 3.0,
+    "MSE 26000": 3.0,
+    "AAE 20300": 3.0,
+    "CCE 29700": 3.0,
+    "CCE 29800": 3.0,
+    "ME 27000": 3.0,
+    "ME 27400": 3.0,
+    "ECE 20001": 3.0,
+    "AAE 33300": 3.0,
+    "CCE 34000": 3.0,
+    "CHE 37700": 4.0,
+    "ME 30800": 3.0,
+    "MSE 34000": 3.0,
+    "AAE 20400": 3.0,
+    "ME 32300": 3.0,
+    "MSE 23000": 3.0,
+    "NUCL 27300": 3.0,
+    "IDE 36000": 3.0,
+    "IE 33000": 3.0,
+    "IE 23000": 3.0,
+    "IE 34300": 3.0,
+    "IDE 48300": 1.0,
+    "EPCS 41200": 2.0,
+    "IDE 48400": 1.0,
+    "IDE 48500": 3.0,
+    "THTR 59700": 3.0,
+    "ME 41300": 3.0,
+    "ECE 20002": 3.0,
+    "ECE 20008": 1.0,
+    "ECE 26400": 3.0,
+    "ECE 27000": 4.0,
+    "ECE 30100": 3.0,
+    "ECE 30411": 3.0,
+    "ECE 30500": 3.0,
+    "ECE 30862": 3.0,
+    "ECE 32100": 3.0,
+    "ECE 45300": 3.0,
+    "THTR 16300": 2.0,
+    "THTR 26300": 3.0,
+    "DANC 36800": 1.0,
+    "THTR 25300": 3.0,
+    "THTR 35300": 3.0,
+    "THTR 36300": 3.0,
+    "THTR 36800": 1.0,
+    "THTR 55300": 3.0,
+    "THTR 56300": 3.0,
+    "THTR 56900": 3.0,
+    "CCE 31100": 3.0,
+    "ME 51300": 3.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "EPCS 11100": 1.0,
+    "EPCS 12100": 1.0,
+    "ENGR 13300": 2.0,
+    "VIP 17911": 1.0,
+    "VIP 17912": 1.0,
+    "ENGR 16100": 4.0,
+    "ENGR 16200": 4.0,
+    "ENGR 13000": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CM 16400": 2.0,
+    "MFET 16300": 2.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "MA 26100": 4.0,
+    "MA 26200": 4.0,
+    "MA 26500": 3.0,
+    "MA 26600": 3.0,
+    "PHYS 17200": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 27200": 4.0,
+    "THTR 25400": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Multidisciplinary Engineering Major Requirements",
+      "credit_target": 28.0,
+      "kind": "choose",
+      "options": [
+        "IDE 30100",
+        "IDE 48700",
+        "ABE 20100",
+        "ABE 21000",
+        "CCE 21100",
+        "CHE 21100",
+        "ME 20000",
+        "MSE 26000",
+        "AAE 20300",
+        "CCE 29700",
+        "CCE 29800",
+        "ME 27000",
+        "ME 27400",
+        "ECE 20001",
+        "AAE 33300",
+        "CCE 34000",
+        "CHE 37700",
+        "ME 30800",
+        "MSE 34000",
+        "AAE 20400",
+        "ME 32300",
+        "MSE 23000",
+        "NUCL 27300",
+        "IDE 36000",
+        "IE 33000",
+        "IE 23000",
+        "IE 34300",
+        "IDE 48300",
+        "EPCS 41200",
+        "IDE 48400",
+        "IDE 48500",
+        "THTR 59700"
+      ],
+      "choose_credits": 28.0
+    },
+    {
+      "name": "Acoustical Engineering Concentration",
+      "credit_target": 32.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Sound System Option",
+          "credit_target": 32.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Engineering Area",
+              "credit_target": 17.0,
+              "kind": "choose",
+              "options": [
+                "ME 41300",
+                "ECE 20002",
+                "ECE 20008",
+                "ECE 26400",
+                "ECE 27000",
+                "ECE 30100",
+                "ECE 30411",
+                "ECE 30500",
+                "ECE 30862",
+                "ECE 32100",
+                "ECE 45300"
+              ],
+              "choose_credits": 17.0
+            },
+            {
+              "name": "Theatre Courses for Sound System Option",
+              "credit_target": 7.0,
+              "kind": "choose",
+              "options": [
+                {
+                  "kind": "one_of",
+                  "name": "THTR 16300 / THTR 26300",
+                  "courses": [
+                    "THTR 16300",
+                    "THTR 26300"
+                  ]
+                },
+                "DANC 36800",
+                "THTR 25300",
+                "THTR 35300",
+                "THTR 36300",
+                "THTR 36800",
+                "THTR 55300",
+                "THTR 56300",
+                "THTR 56900",
+                "THTR 59700"
+              ],
+              "choose_credits": 7.0
+            },
+            {
+              "name": "Area Selectives",
+              "credit_target": 8.0,
+              "kind": "credits",
+              "credits": 8.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        },
+        {
+          "name": "Vibrational Option",
+          "credit_target": 32.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Engineering Area",
+              "credit_target": 17.0,
+              "kind": "all_of",
+              "courses": [
+                "ME 41300"
+              ],
+              "children": [
+                {
+                  "kind": "one_of",
+                  "name": "CCE 31100 / ME 51300",
+                  "courses": [
+                    "CCE 31100",
+                    "ME 51300"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Theatre Courses for Vibrational Option",
+              "credit_target": 4.0,
+              "kind": "choose",
+              "options": [
+                {
+                  "kind": "one_of",
+                  "name": "THTR 16300 / THTR 26300",
+                  "courses": [
+                    "THTR 16300",
+                    "THTR 26300"
+                  ]
+                },
+                "THTR 25300",
+                "THTR 35300",
+                "THTR 36300",
+                "THTR 36800",
+                "THTR 55300",
+                "THTR 56300",
+                "THTR 56900",
+                "THTR 59700"
+              ],
+              "choose_credits": 4.0
+            },
+            {
+              "name": "Area Selectives",
+              "credit_target": 11.0,
+              "kind": "credits",
+              "credits": 11.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        },
+        {
+          "name": "Other Departmental Requirements",
+          "credit_target": [
+            41.0,
+            56.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ENGR 13100",
+            "ENGR 13200",
+            "EPCS 11100",
+            "EPCS 12100",
+            "ENGR 13300",
+            "VIP 17911",
+            "VIP 17912",
+            "ENGR 16100",
+            "ENGR 16200",
+            "ENGR 13000",
+            "CHM 11510",
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CM 16400 / MFET 16300",
+              "courses": [
+                "CM 16400",
+                "MFET 16300"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            },
+            "MA 26100",
+            "MA 26200",
+            "MA 26500",
+            "MA 26600",
+            "PHYS 17200"
+          ],
+          "choose_credits": 41.0
+        },
+        {
+          "name": "General Education Requirement",
+          "credit_target": 18.0,
+          "kind": "credits",
+          "credits": 18.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AAE 20300",
+    "AAE 20400",
+    "AAE 33300",
+    "ABE 20100",
+    "ABE 21000",
+    "CCE 21100",
+    "CCE 29700",
+    "CCE 29800",
+    "CCE 31100",
+    "CCE 34000",
+    "CCE 34300",
+    "CE 34300",
+    "CHE 21100",
+    "CHE 37700",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CM 16400",
+    "DANC 36800",
+    "ECE 20001",
+    "ECE 20002",
+    "ECE 20007",
+    "ECE 20008",
+    "ECE 26400",
+    "ECE 27000",
+    "ECE 30100",
+    "ECE 30411",
+    "ECE 30500",
+    "ECE 30862",
+    "ECE 32100",
+    "ECE 45300",
+    "ENGR 13000",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 13300",
+    "ENGR 16100",
+    "ENGR 16200",
+    "EPCS 11100",
+    "EPCS 12100",
+    "EPCS 41200",
+    "HEA 01348",
+    "HELP 02026",
+    "IDE 30100",
+    "IDE 36000",
+    "IDE 48300",
+    "IDE 48400",
+    "IDE 48500",
+    "IDE 48700",
+    "IE 23000",
+    "IE 33000",
+    "IE 34300",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26200",
+    "MA 26500",
+    "MA 26600",
+    "ME 20000",
+    "ME 27000",
+    "ME 27400",
+    "ME 30800",
+    "ME 32300",
+    "ME 41300",
+    "ME 51300",
+    "MFET 16300",
+    "MSE 23000",
+    "MSE 26000",
+    "MSE 34000",
+    "NUCL 27300",
+    "PHYS 17200",
+    "PHYS 24100",
+    "PHYS 27200",
+    "THTR 16300",
+    "THTR 25300",
+    "THTR 25400",
+    "THTR 26300",
+    "THTR 35300",
+    "THTR 36300",
+    "THTR 36800",
+    "THTR 55300",
+    "THTR 56300",
+    "THTR 56900",
+    "THTR 59700",
+    "VIP 17911",
+    "VIP 17912"
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "id": "materials-engineering-bsmse",
+  "poid": "34765",
+  "name": "Materials Engineering, BSMSE",
+  "degree": "BSMSE",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 125,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34765",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.394160+00:00",
+  "course_credits": {
+    "MSE 23000": 3.0,
+    "MSE 23500": 3.0,
+    "MSE 25000": 3.0,
+    "MSE 26000": 3.0,
+    "MSE 27000": 3.0,
+    "MSE 33000": 3.0,
+    "MSE 33500": 3.0,
+    "MSE 34000": 3.0,
+    "MSE 37000": 3.0,
+    "MSE 38200": 3.0,
+    "MSE 39000": 0.0,
+    "MSE 39100": 1.0,
+    "MSE 42000": 3.0,
+    "MSE 43000": 3.0,
+    "MSE 44000": 3.0,
+    "MSE 44500": 3.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "EPCS 11100": 1.0,
+    "EPCS 12100": 1.0,
+    "ENGR 13300": 2.0,
+    "VIP 17911": 1.0,
+    "VIP 17912": 1.0,
+    "ENGR 16100": 4.0,
+    "ENGR 16200": 4.0,
+    "ENGR 13000": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "MA 26100": 4.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "MA 26500": 3.0,
+    "MA 26600": 3.0,
+    "MA 26200": 4.0,
+    "MA 30300": 3.0,
+    "MA 35100": 3.0,
+    "PHYS 17200": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 25200": 1.0,
+    "PHYS 27200": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Materials Engineering Major Requirements",
+      "credit_target": 63.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Materials Engineering Major Courses",
+          "credit_target": 43.0,
+          "kind": "all_of",
+          "courses": [
+            "MSE 23000",
+            "MSE 23500",
+            "MSE 25000",
+            "MSE 26000",
+            "MSE 27000",
+            "MSE 33000",
+            "MSE 33500",
+            "MSE 34000",
+            "MSE 37000",
+            "MSE 38200",
+            "MSE 39000",
+            "MSE 39100",
+            "MSE 42000",
+            "MSE 43000",
+            "MSE 44000",
+            "MSE 44500"
+          ]
+        },
+        {
+          "name": "MSE Technical and Support Area Selectives",
+          "credit_target": 20.0,
+          "kind": "credits",
+          "credits": 20.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Other Departmental Requirements",
+          "credit_target": [
+            38.0,
+            45.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ENGR 13100",
+            "ENGR 13200",
+            "EPCS 11100",
+            "EPCS 12100",
+            "ENGR 13300",
+            "VIP 17911",
+            "VIP 17912",
+            "ENGR 16100",
+            "ENGR 16200",
+            "ENGR 13000",
+            "CHM 11510",
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            "CHM 11610",
+            "CHM 11620",
+            "MA 26100",
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            },
+            "MA 26500",
+            "MA 26600",
+            "MA 26200",
+            {
+              "kind": "one_of",
+              "name": "MA 30300 / MA 35100",
+              "courses": [
+                "MA 30300",
+                "MA 35100"
+              ]
+            },
+            "PHYS 17200",
+            "PHYS 24100",
+            "PHYS 25200",
+            "PHYS 27200"
+          ],
+          "choose_credits": 38.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering I",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16200",
+              "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 5.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "17-21 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering II",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Physics I",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "MSE 23000",
+          "title": "Structure And Properties Of Materials",
+          "credits": 3.0
+        },
+        {
+          "code": "MSE 27000",
+          "title": "Atomistic Materials Science",
+          "credits": 3.0
+        },
+        {
+          "code": "MSE 25000",
+          "title": "Physical Properties In Engineering Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "MSE 39000",
+          "title": "Materials Engineering Seminar",
+          "credits": 0.0
+        },
+        {
+          "label": "Mathematics Linear & Differential Equations Requirement",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "MSE 23500",
+          "title": "Second Year Materials Engineering Laboratory",
+          "credits": 3.0
+        },
+        {
+          "code": "MSE 26000",
+          "title": "Thermodynamics Of Materials",
+          "credits": 3.0
+        },
+        {
+          "code": "MSE 39000",
+          "title": "Materials Engineering Seminar",
+          "credits": 0.0
+        },
+        {
+          "label": "Mathematics Linear & Differential Equations Requirement",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Physics II",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "General Education I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "MSE 33500",
+          "title": "Third Year Materials Engineering Laboratory",
+          "credits": 3.0
+        },
+        {
+          "code": "MSE 34000",
+          "title": "Transport Phenomena",
+          "credits": 3.0
+        },
+        {
+          "code": "MSE 37000",
+          "title": "Electrical, Optical, And Magnetic Properties Of Materials",
+          "credits": 3.0
+        },
+        {
+          "code": "MSE 39100",
+          "title": "Materials Engineering Seminar II",
+          "credits": 1.0
+        },
+        {
+          "code": "MSE 42000",
+          "title": "Structure And Properties Of Organic Materials",
+          "credits": 3.0
+        },
+        {
+          "label": "General Education II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "MSE 33000",
+          "title": "Processing And Properties Of Materials",
+          "credits": 3.0
+        },
+        {
+          "code": "MSE 38200",
+          "title": "Mechanical Response Of Materials",
+          "credits": 3.0
+        },
+        {
+          "label": "General Education III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "MSE 43000",
+          "title": "Materials Processing And Design I",
+          "credits": 3.0
+        },
+        {
+          "code": "MSE 44500",
+          "title": "Materials Engineering Systems Analysis And Design",
+          "credits": 3.0
+        },
+        {
+          "label": "General Elective IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective IV",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "MSE 44000",
+          "title": "Materials Processing And Design II",
+          "credits": 3.0
+        },
+        {
+          "label": "General Education V",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education VI",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective V or Support Area Selective I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective VI or Support Area Selective II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective VII or Support Area Selective III",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "ENGR 13000",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 13300",
+    "ENGR 16100",
+    "ENGR 16200",
+    "EPCS 11100",
+    "EPCS 12100",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26200",
+    "MA 26500",
+    "MA 26600",
+    "MA 30300",
+    "MA 35100",
+    "MSE 20000",
+    "MSE 23000",
+    "MSE 23500",
+    "MSE 25000",
+    "MSE 26000",
+    "MSE 27000",
+    "MSE 33000",
+    "MSE 33500",
+    "MSE 34000",
+    "MSE 37000",
+    "MSE 38200",
+    "MSE 39000",
+    "MSE 39100",
+    "MSE 42000",
+    "MSE 43000",
+    "MSE 44000",
+    "MSE 44500",
+    "PHYS 17200",
+    "PHYS 24100",
+    "PHYS 25200",
+    "PHYS 27200",
+    "VIP 17911",
+    "VIP 17912"
+  ]
+}

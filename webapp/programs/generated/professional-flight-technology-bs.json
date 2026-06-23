@@ -1,0 +1,447 @@
+{
+  "id": "professional-flight-technology-bs",
+  "poid": "34805",
+  "name": "Professional Flight Technology, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34805",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.355953+00:00",
+  "course_credits": {
+    "AT 10000": 1.0,
+    "AT 10200": 3.0,
+    "AT 10300": 3.0,
+    "AT 11200": 1.0,
+    "AT 14400": 4.0,
+    "AT 14500": 2.0,
+    "AT 20200": 3.0,
+    "AT 20300": 3.0,
+    "AT 21000": 1.0,
+    "AT 21100": 1.0,
+    "AT 21200": 1.0,
+    "AT 22300": 3.0,
+    "AT 24302": 2.0,
+    "AT 24802": 2.0,
+    "AT 24900": 3.0,
+    "AT 25302": 2.0,
+    "AT 25400": 3.0,
+    "AT 31400": 1.0,
+    "AT 32501": 3.0,
+    "AT 32700": 3.0,
+    "AT 35300": 1.0,
+    "AT 35400": 2.0,
+    "AT 41600": 2.0,
+    "AT 43900": 2.0,
+    "AT 47500": 3.0,
+    "AT 48400": 4.0,
+    "AT 48900": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "TECH 12000": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "PHYS 15200": 5.0,
+    "PHYS 17200": 4.0,
+    "PHYS 21400": 3.0,
+    "PHYS 22100": 4.0,
+    "PHYS 22000": 4.0,
+    "PHYS 27200": 4.0,
+    "IET 31600": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 30301": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 62.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 62.0,
+          "kind": "all_of",
+          "courses": [
+            "AT 10000",
+            "AT 10200",
+            "AT 10300",
+            "AT 11200",
+            "AT 14400",
+            "AT 14500",
+            "AT 20200",
+            "AT 20300",
+            "AT 21000",
+            "AT 21100",
+            "AT 21200",
+            "AT 22300",
+            "AT 24302",
+            "AT 24802",
+            "AT 24900",
+            "AT 25302",
+            "AT 25400",
+            "AT 31400",
+            "AT 32501",
+            "AT 32700",
+            "AT 35300",
+            "AT 35400",
+            "AT 41600",
+            "AT 43900",
+            "AT 47500",
+            "AT 48400",
+            "AT 48900"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        8.0,
+        16.0
+      ],
+      "kind": "credits",
+      "credits": 8.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AT 10000",
+          "title": "Introduction To Aviation Technology",
+          "credits": 1.0
+        },
+        {
+          "code": "AT 10200",
+          "title": "Aviation Business",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 14400",
+          "title": "Private Pilot Lectures",
+          "credits": 4.0
+        },
+        {
+          "code": "AT 14500",
+          "title": "Private Pilot Flight",
+          "credits": 2.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "AT 10300",
+          "title": "Aerospace Vehicle Propulsion And Tracking Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 11200",
+          "title": "Introduction To Operational Aviation Safety",
+          "credits": 1.0
+        },
+        {
+          "code": "AT 21000",
+          "title": "Ground Trainer I",
+          "credits": 1.0
+        },
+        {
+          "code": "AT 24900",
+          "title": "Instrument Flight Lectures",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 25302",
+          "title": "Instrument Flight",
+          "credits": 2.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AT 20200",
+          "title": "Aerospace Vehicle Systems Design, Analysis And Operations",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 20300",
+          "title": "Aviation Operations Management",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 21100",
+          "title": "Ground Trainer II",
+          "credits": 1.0
+        },
+        {
+          "code": "AT 21200",
+          "title": "Operational Risk Assessment",
+          "credits": 1.0
+        },
+        {
+          "code": "AT 22300",
+          "title": "Human Factors For Flight Crews",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 24302",
+          "title": "Commercial Flight I Under Federal Aviation Regulations Part 141",
+          "credits": 2.0
+        },
+        {
+          "code": "AT 25400",
+          "title": "Commercial Flight Lectures",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-16 Credits",
+      "items": [
+        {
+          "code": "AT 24802",
+          "title": "Commercial Flight II",
+          "credits": 2.0
+        },
+        {
+          "code": "AT 31400",
+          "title": "Operational Safety Mitigation",
+          "credits": 1.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 32501",
+          "title": "Advanced Aviation Meteorology",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 35300",
+          "title": "Multi-Engine Flight",
+          "credits": 1.0
+        },
+        {
+          "code": "AT 35400",
+          "title": "Turbine Flight Operations Lecture",
+          "credits": 2.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "AT 32700",
+          "title": "Advanced Transport Flight Operations",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 41600",
+          "title": "Airline Indoctrination",
+          "credits": 2.0
+        },
+        {
+          "code": "AT 47500",
+          "title": "Aviation Law",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 43900",
+          "title": "Aviation Command Leadership",
+          "credits": 2.0
+        },
+        {
+          "code": "AT 48400",
+          "title": "Transport Aircraft Operations Simulation Laboratory",
+          "credits": 4.0
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "14-18 Credits",
+      "items": [
+        {
+          "code": "AT 48900",
+          "title": "Capstone For Professional Flight Students",
+          "credits": 3.0
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 21700",
+    "AT 10000",
+    "AT 10200",
+    "AT 10300",
+    "AT 11200",
+    "AT 14400",
+    "AT 14500",
+    "AT 20200",
+    "AT 20300",
+    "AT 21000",
+    "AT 21100",
+    "AT 21200",
+    "AT 22300",
+    "AT 24302",
+    "AT 24802",
+    "AT 24900",
+    "AT 25302",
+    "AT 25400",
+    "AT 31400",
+    "AT 32501",
+    "AT 32700",
+    "AT 35300",
+    "AT 35400",
+    "AT 41600",
+    "AT 43900",
+    "AT 47500",
+    "AT 48400",
+    "AT 48900",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "HEA 01348",
+    "HELP 02026",
+    "IET 31600",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "PHYS 15200",
+    "PHYS 17200",
+    "PHYS 21400",
+    "PHYS 22000",
+    "PHYS 22100",
+    "PHYS 27200",
+    "STAT 30100",
+    "STAT 30301",
+    "TECH 12000"
+  ]
+}

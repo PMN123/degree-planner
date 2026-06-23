@@ -1,0 +1,98 @@
+{
+  "id": "digital-technology-management-minor",
+  "poid": "37065",
+  "name": "Digital Technology Management Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=37065",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.590121+00:00",
+  "course_credits": {
+    "MIS 38200": 3.0,
+    "CNIT 17500": 3.0,
+    "CS 15900": 3.0,
+    "CS 17600": 3.0,
+    "MIS 28800": 3.0,
+    "MIS 38800": 3.0,
+    "MIS 48800": 3.0,
+    "MIS 54400": 3.0,
+    "MIS 54500": 3.0,
+    "MIS 46700": 3.0,
+    "MIS 47900": 2.0,
+    "STRT 44810": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "MIS 38200"
+      ]
+    },
+    {
+      "name": "Programming Selective",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "CNIT 17500",
+        "CS 15900",
+        "CS 17600",
+        "MIS 28800",
+        "MIS 38800"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Selective I",
+      "credit_target": [
+        3.0,
+        6.0
+      ],
+      "kind": "choose",
+      "options": [
+        "MIS 48800",
+        "MIS 54400",
+        "MIS 54500"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Selective II",
+      "credit_target": [
+        3.0,
+        6.0
+      ],
+      "kind": "choose",
+      "options": [
+        "MIS 46700",
+        "MIS 47900",
+        "STRT 44810"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "CNIT 17500",
+    "CS 15900",
+    "CS 17600",
+    "ECON 2XXXX",
+    "HELP 02026",
+    "IN 47907",
+    "MIS 28800",
+    "MIS 38200",
+    "MIS 38800",
+    "MIS 46700",
+    "MIS 47900",
+    "MIS 48800",
+    "MIS 54400",
+    "MIS 54500",
+    "STRT 44810"
+  ]
+}

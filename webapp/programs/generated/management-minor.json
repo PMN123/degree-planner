@@ -1,0 +1,154 @@
+{
+  "id": "management-minor",
+  "poid": "34791",
+  "name": "Management Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34791",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.685343+00:00",
+  "course_credits": {
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "ACCT 20100": 3.0,
+    "ECON 25100": 3.0,
+    "ACCT 35300": 3.0,
+    "IE 34300": 3.0,
+    "MIS 38200": 3.0,
+    "OBHR 33000": 3.0,
+    "SCOM 36100": 3.0,
+    "STRT 35200": 3.0,
+    "FIN 30400": 3.0,
+    "FIN 31000": 3.0,
+    "MKTG 32300": 3.0,
+    "MKTG 32400": 3.0,
+    "STRT 25400": 3.0,
+    "STRT 45500": 3.0,
+    "OBHR 44301": 3.0,
+    "OBHR 44428": 3.0,
+    "ECON 26000": 3.0,
+    "IE 33000": 3.0,
+    "QM 30500": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 35500": 3.0,
+    "STAT 50300": 3.0,
+    "STAT 51100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "ACCT 20100",
+        "ECON 25100"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "ACCT 20000 / ACCT 21200",
+          "courses": [
+            "ACCT 20000",
+            "ACCT 21200"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Selectives",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "ACCT 35300",
+        "IE 34300",
+        "MIS 38200",
+        "OBHR 33000",
+        "SCOM 36100",
+        "STRT 35200",
+        {
+          "kind": "one_of",
+          "name": "FIN 30400 / FIN 31000",
+          "courses": [
+            "FIN 30400",
+            "FIN 31000"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "MKTG 32300 / MKTG 32400",
+          "courses": [
+            "MKTG 32300",
+            "MKTG 32400"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "STRT 25400 / STRT 45500",
+          "courses": [
+            "STRT 25400",
+            "STRT 45500"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "OBHR 44301 / OBHR 44428",
+          "courses": [
+            "OBHR 44301",
+            "OBHR 44428"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "ECON 26000 / IE 33000 / QM 30500 / STAT 35000 / STAT 35500 / STAT 50300 / STAT 51100",
+          "courses": [
+            "ECON 26000",
+            "IE 33000",
+            "QM 30500",
+            "STAT 35000",
+            "STAT 35500",
+            "STAT 50300",
+            "STAT 51100"
+          ]
+        }
+      ],
+      "choose_credits": 9.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "ACCT 21200",
+    "ACCT 35300",
+    "ECON 25100",
+    "ECON 26000",
+    "ECON 2XXXX",
+    "FIN 30400",
+    "FIN 31000",
+    "HELP 02026",
+    "IE 33000",
+    "IE 34300",
+    "IN 47907",
+    "MIS 38200",
+    "MKTG 32300",
+    "MKTG 32400",
+    "OBHR 33000",
+    "OBHR 44301",
+    "OBHR 44428",
+    "QM 30500",
+    "SCOM 36100",
+    "STAT 35000",
+    "STAT 35500",
+    "STAT 50300",
+    "STAT 51100",
+    "STRT 25400",
+    "STRT 30000",
+    "STRT 35200",
+    "STRT 45500"
+  ]
+}

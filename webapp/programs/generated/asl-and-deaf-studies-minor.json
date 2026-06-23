@@ -1,0 +1,37 @@
+{
+  "id": "asl-and-deaf-studies-minor",
+  "poid": "35617",
+  "name": "ASL and Deaf Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35617",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.162540+00:00",
+  "course_credits": {
+    "ASL 28000": 3.0,
+    "ASL 30100": 3.0,
+    "ASL 30200": 3.0,
+    "ASL 36100": 3.0,
+    "ASL 36200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ASL 00101",
+    "ASL 00280",
+    "ASL 00302",
+    "ASL 20200",
+    "ASL 28000",
+    "ASL 30100",
+    "ASL 30200",
+    "ASL 36100",
+    "ASL 36200",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

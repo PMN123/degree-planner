@@ -1,0 +1,367 @@
+{
+  "id": "engineering-technology-robotics-engineering-technology-concentration-bs-statewide",
+  "poid": "37191",
+  "name": "Engineering Technology: Robotics Engineering Technology Concentration, BS (Statewide)",
+  "degree": "BS (Statewide)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=37191",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.578606+00:00",
+  "course_credits": {
+    "ENGT 18200": 4.0,
+    "MET 11100": 3.0,
+    "MET 14300": 3.0,
+    "MET 14400": 3.0,
+    "MET 21100": 4.0,
+    "MET 24500": 3.0,
+    "IET 21400": 3.0,
+    "IET 31600": 3.0,
+    "STAT 30100": 3.0,
+    "IET 33400": 3.0,
+    "ENGT 48001": 3.0,
+    "ENGT 48100": 3.0,
+    "ECET 27900": 3.0,
+    "MET 21300": 3.0,
+    "MET 28400": 3.0,
+    "ECET 32700": 3.0,
+    "TECH 12000": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "PHYS 22000": 4.0,
+    "TLI 11200": 3.0,
+    "ECON 21000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        49.0,
+        50.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "ENGT 18200",
+        "MET 11100",
+        "MET 21100",
+        "MET 24500",
+        "IET 21400",
+        "IET 33400",
+        "ENGT 48001",
+        "ENGT 48100"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "MET 14300 / MET 14400",
+          "courses": [
+            "MET 14300",
+            "MET 14400"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "IET 31600 / STAT 30100",
+          "courses": [
+            "IET 31600",
+            "STAT 30100"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engineering Technology: Robotics Engineering Technology Concentration",
+      "credit_target": 37.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "General Education",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Science, Mathematics and Technology",
+          "credit_target": 13.0,
+          "kind": "all_of",
+          "courses": [
+            "ECET 27900",
+            "MET 21300",
+            "MET 28400"
+          ]
+        },
+        {
+          "name": "Robotics",
+          "credit_target": 21.0,
+          "kind": "all_of",
+          "courses": [
+            "ECET 32700",
+            "MET 28400"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGT 18200",
+          "title": "Gateway To Engineering Technology",
+          "credits": 4.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Computer Graphics Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Freshman Composition Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "MET 11100",
+          "title": "Applied Statics",
+          "credits": 3.0
+        },
+        {
+          "code": "MET 14300",
+          "title": "Materials And Processes I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "MET 14400",
+              "title": "Materials And Processes II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "TLI 11200",
+          "title": "Foundations Of Organizational Leadership",
+          "credits": 3.0
+        },
+        {
+          "label": "Freshman Speech Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "IET 21400",
+          "title": "Introduction To Supply Chain Management Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "MET 21100",
+          "title": "Applied Strength Of Materials",
+          "credits": 4.0
+        },
+        {
+          "label": "Lab Science Foundation Selective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "ECET Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "ECON 21000",
+          "title": "Principles Of Economics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "IET 31600",
+          "title": "Statistical Quality Control",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STAT 30100",
+              "title": "Elementary Statistical Methods (UCC: IL)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Computer-Aided Design Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "ECET Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Concentration Course",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "MET 24500",
+          "title": "Manufacturing Systems And Processes",
+          "credits": 3.0
+        },
+        {
+          "label": "Programming Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Concentration Course",
+          "credits": 9.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Global/Professional Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities Foundation Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Advanced Oral Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Concentration Course",
+          "credits": 6.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ENGT 48001",
+          "title": "Engineering Technology Capstone I",
+          "credits": 3.0
+        },
+        {
+          "code": "IET 33400",
+          "title": "Economic Analysis For Technology Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Technical Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Concentration Course",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Senior Capstone Project Selective II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Concentration Course",
+          "credits": 12.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ECET 27900",
+    "ECET 32700",
+    "ECON 21000",
+    "ENGT 18200",
+    "ENGT 48001",
+    "ENGT 48100",
+    "HEA 01348",
+    "HELP 02026",
+    "IET 21400",
+    "IET 31600",
+    "IET 33400",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "MET 11100",
+    "MET 14300",
+    "MET 14400",
+    "MET 21100",
+    "MET 21300",
+    "MET 24500",
+    "MET 28400",
+    "PHYS 22000",
+    "STAT 30100",
+    "TECH 12000",
+    "TLI 11200"
+  ]
+}

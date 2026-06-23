@@ -1,0 +1,632 @@
+{
+  "id": "classical-studies-ba-literature-and-culture-track",
+  "poid": "35098",
+  "name": "Classical Studies, BA (Literature & Culture Track)",
+  "degree": "BA (Literature & Culture Track)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35098",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.867591+00:00",
+  "course_credits": {
+    "CLCS 18100": 3.0,
+    "CLCS 23010": 3.0,
+    "CLCS 23100": 3.0,
+    "CLCS 23500": 3.0,
+    "CLCS 23700": 3.0,
+    "CLCS 22000": 3.0,
+    "CLCS 23200": 3.0,
+    "CLCS 23300": 3.0,
+    "CLCS 23600": 3.0,
+    "CLCS 23800": 3.0,
+    "CLCS 23900": 3.0,
+    "CLCS 28000": 3.0,
+    "CLCS 33700": 3.0,
+    "CLCS 49900": 1.0,
+    "CLCS 59000": 1.0,
+    "ENGL 26600": 3.0,
+    "GREK 10100": 3.0,
+    "GREK 10200": 3.0,
+    "GREK 10500": 4.0,
+    "GREK 20100": 3.0,
+    "GREK 20200": 3.0,
+    "GREK 34300": 3.0,
+    "GREK 34400": 3.0,
+    "GREK 35300": 3.0,
+    "GREK 35400": 3.0,
+    "GREK 44600": 3.0,
+    "JWST 33000": 3.0,
+    "LATN 10100": 3.0,
+    "LATN 10200": 3.0,
+    "LATN 10500": 4.0,
+    "LATN 20100": 3.0,
+    "LATN 20200": 3.0,
+    "LATN 31500": 3.0,
+    "LATN 34300": 3.0,
+    "LATN 34400": 3.0,
+    "LATN 34500": 3.0,
+    "LATN 34600": 3.0,
+    "LATN 34700": 3.0,
+    "LATN 44200": 3.0,
+    "LATN 44300": 3.0,
+    "LATN 44400": 3.0,
+    "LATN 44500": 3.0,
+    "LATN 44600": 3.0,
+    "LATN 49000": 1.0,
+    "AD 31100": 3.0,
+    "AD 31200": 3.0,
+    "AD 38000": 3.0,
+    "ANTH 42500": 3.0,
+    "CLCS 23400": 3.0,
+    "CLCS 38000": 3.0,
+    "CLCS 38100": 3.0,
+    "CLCS 38300": 3.0,
+    "CLCS 38400": 3.0,
+    "CLCS 38500": 3.0,
+    "CLCS 38600": 3.0,
+    "CLCS 38700": 3.0,
+    "CLCS 48000": 3.0,
+    "CLCS 48100": 3.0,
+    "CLCS 48300": 3.0,
+    "HEBR 28400": 3.0,
+    "ITAL 28100": 3.0,
+    "PHIL 30100": 3.0,
+    "PHIL 50100": 3.0,
+    "WGSS 28200": 3.0,
+    "WGSS 48000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 33.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Classical Studies Foundational Courses",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "CLCS 18100",
+            "CLCS 23010",
+            "CLCS 23100",
+            "CLCS 23500",
+            "CLCS 23700"
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "Concentration in Literature & Culture",
+          "credit_target": 27.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "B. Literary Studies Courses",
+              "credit_target": 15.0,
+              "kind": "choose",
+              "options": [
+                "CLCS 22000",
+                "CLCS 23010",
+                "CLCS 23100",
+                "CLCS 23200",
+                "CLCS 23300",
+                "CLCS 23500",
+                "CLCS 23600",
+                "CLCS 23700",
+                "CLCS 23800",
+                "CLCS 23900",
+                "CLCS 28000",
+                "CLCS 33700",
+                "CLCS 49900",
+                "CLCS 59000",
+                "ENGL 26600",
+                "GREK 10100",
+                "GREK 10200",
+                "GREK 10500",
+                "GREK 20100",
+                "GREK 20200",
+                "GREK 34300",
+                "GREK 34400",
+                "GREK 35300",
+                "GREK 35400",
+                "GREK 44600",
+                "JWST 33000",
+                "LATN 10100",
+                "LATN 10200",
+                "LATN 10500",
+                "LATN 20100",
+                "LATN 20200",
+                "LATN 31500",
+                "LATN 34300",
+                "LATN 34400",
+                "LATN 34500",
+                "LATN 34600",
+                "LATN 34700",
+                "LATN 44200",
+                "LATN 44300",
+                "LATN 44400",
+                "LATN 44500",
+                "LATN 44600",
+                "LATN 49000"
+              ],
+              "choose_credits": 15.0
+            },
+            {
+              "name": "C. General Studies Courses",
+              "credit_target": 3.0,
+              "kind": "choose",
+              "options": [
+                "AD 31100",
+                "AD 31200",
+                "AD 38000",
+                "ANTH 42500",
+                "CLCS 18100",
+                "CLCS 23400",
+                "CLCS 28000",
+                "CLCS 38000",
+                "CLCS 38100",
+                "CLCS 38300",
+                "CLCS 38400",
+                "CLCS 38500",
+                "CLCS 38600",
+                "CLCS 38700",
+                "CLCS 48000",
+                "CLCS 48100",
+                "CLCS 48300",
+                "CLCS 49900",
+                "CLCS 59000",
+                "HEBR 28400",
+                "ITAL 28100",
+                "PHIL 30100",
+                "PHIL 50100",
+                "WGSS 28200",
+                "WGSS 48000"
+              ],
+              "choose_credits": 3.0
+            },
+            {
+              "name": "D. Literature & Culture Selectives",
+              "credit_target": 9.0,
+              "kind": "credits",
+              "credits": 9.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        11.0,
+        52.0
+      ],
+      "kind": "credits",
+      "credits": 11.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "label": "Oral Communication (CLA Core I: 1 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 2 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I (may fulfill Classical Studies Area B)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CLCS 18100",
+          "title": "Classical World Civilizations (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CLCS 23010",
+              "title": "Survey Of Greek Literature In Translation (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "CLCS 23100",
+              "title": "Survey Of Roman Literature In Translation (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "CLCS 23500",
+              "title": "Introduction To Classical Mythology (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "CLCS 23700",
+              "title": "Gender And Sexuality In Greek And Roman Antiquity (UCC: HUM/BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Written Communication (CLA Core I: 3 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II (may fulfill Classical Studies Area B)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CLCS 18100",
+          "title": "Classical World Civilizations (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CLCS 23010",
+              "title": "Survey Of Greek Literature In Translation (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "CLCS 23100",
+              "title": "Survey Of Roman Literature In Translation (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "CLCS 23500",
+              "title": "Introduction To Classical Mythology (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "CLCS 23700",
+              "title": "Gender And Sexuality In Greek And Roman Antiquity (UCC: HUM/BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III (may fulfill Classical Studies Area B)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area B: Literary Studies",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, and Society (CLA Core I: 4 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV (CLA Core III; may fulfill Classical Studies Area B)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area B: Literary Studies",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area B: Literary Studies",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (CLA Core I: 5 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area B: Literary Studies",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area B: Literary Studies",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area C: General Studies",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area D: Literature and Culture Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Area D: Literature and Culture Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area D: Literature and Culture Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 31100",
+    "AD 31200",
+    "AD 38000",
+    "ANTH 42500",
+    "CLCS 18100",
+    "CLCS 22000",
+    "CLCS 23010",
+    "CLCS 23100",
+    "CLCS 23200",
+    "CLCS 23300",
+    "CLCS 23400",
+    "CLCS 23500",
+    "CLCS 23600",
+    "CLCS 23700",
+    "CLCS 23800",
+    "CLCS 23900",
+    "CLCS 28000",
+    "CLCS 33700",
+    "CLCS 38000",
+    "CLCS 38100",
+    "CLCS 38300",
+    "CLCS 38400",
+    "CLCS 38500",
+    "CLCS 38600",
+    "CLCS 38700",
+    "CLCS 48000",
+    "CLCS 48100",
+    "CLCS 48300",
+    "CLCS 49900",
+    "CLCS 59000",
+    "ENGL 26600",
+    "GREK 10100",
+    "GREK 10200",
+    "GREK 10500",
+    "GREK 20100",
+    "GREK 20200",
+    "GREK 34300",
+    "GREK 34400",
+    "GREK 35300",
+    "GREK 35400",
+    "GREK 44600",
+    "HEA 01348",
+    "HEBR 28400",
+    "HELP 02026",
+    "IN 47907",
+    "ITAL 28100",
+    "JWST 33000",
+    "LATN 10100",
+    "LATN 10200",
+    "LATN 10500",
+    "LATN 20100",
+    "LATN 20200",
+    "LATN 31500",
+    "LATN 34300",
+    "LATN 34400",
+    "LATN 34500",
+    "LATN 34600",
+    "LATN 34700",
+    "LATN 44200",
+    "LATN 44300",
+    "LATN 44400",
+    "LATN 44500",
+    "LATN 44600",
+    "LATN 49000",
+    "PHIL 30100",
+    "PHIL 50100",
+    "WGSS 28200",
+    "WGSS 48000"
+  ]
+}

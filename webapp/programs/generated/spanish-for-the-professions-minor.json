@@ -1,0 +1,129 @@
+{
+  "id": "spanish-for-the-professions-minor",
+  "poid": "35145",
+  "name": "Spanish for the Professions Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35145",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.302705+00:00",
+  "course_credits": {
+    "SPAN 30100": 3.0,
+    "SPAN 30200": 3.0,
+    "SPAN 30500": 3.0,
+    "SPAN 30801": 3.0,
+    "SPAN 32100": 3.0,
+    "SPAN 32200": 3.0,
+    "SPAN 32300": 1.0,
+    "SPAN 32500": 3.0,
+    "SPAN 41500": 3.0,
+    "SPAN 42400": 3.0,
+    "SPAN 48500": 3.0,
+    "SPAN 36100": 3.0,
+    "SPAN 36200": 3.0,
+    "SPAN 36600": 3.0,
+    "SPAN 38000": 1.0,
+    "SPAN 39800": 1.0,
+    "SPAN 40100": 3.0,
+    "SPAN 40200": 3.0,
+    "SPAN 48000": 3.0,
+    "SPAN 48100": 3.0,
+    "SPAN 48200": 3.0,
+    "SPAN 48300": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Spanish Language",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "SPAN 30100",
+        "SPAN 30200",
+        "SPAN 30500",
+        "SPAN 30801"
+      ],
+      "choose_credits": 6.0
+    },
+    {
+      "name": "B. Spanish for the Professions Required Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "SPAN 32100"
+      ]
+    },
+    {
+      "name": "C. Spanish for the Professions Elective",
+      "credit_target": [
+        3.0,
+        6.0
+      ],
+      "kind": "choose",
+      "options": [
+        "SPAN 32200",
+        "SPAN 32300",
+        "SPAN 32500",
+        "SPAN 41500",
+        "SPAN 42400",
+        "SPAN 48500"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "D. Additional Course",
+      "credit_target": [
+        0.0,
+        3.0
+      ],
+      "kind": "choose",
+      "options": [
+        "SPAN 36100",
+        "SPAN 36200",
+        "SPAN 36600",
+        "SPAN 38000",
+        "SPAN 39800",
+        "SPAN 40100",
+        "SPAN 40200",
+        "SPAN 48000",
+        "SPAN 48100",
+        "SPAN 48200",
+        "SPAN 48300"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "SPAN 20200",
+    "SPAN 20500",
+    "SPAN 22400",
+    "SPAN 30100",
+    "SPAN 30200",
+    "SPAN 30500",
+    "SPAN 30801",
+    "SPAN 32100",
+    "SPAN 32200",
+    "SPAN 32300",
+    "SPAN 32500",
+    "SPAN 36100",
+    "SPAN 36200",
+    "SPAN 36600",
+    "SPAN 38000",
+    "SPAN 39800",
+    "SPAN 40100",
+    "SPAN 40200",
+    "SPAN 41500",
+    "SPAN 42400",
+    "SPAN 48000",
+    "SPAN 48100",
+    "SPAN 48200",
+    "SPAN 48300",
+    "SPAN 48500"
+  ]
+}

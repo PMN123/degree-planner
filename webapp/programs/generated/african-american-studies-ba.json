@@ -1,0 +1,452 @@
+{
+  "id": "african-american-studies-ba",
+  "poid": "34930",
+  "name": "African American Studies, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34930",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.515971+00:00",
+  "course_credits": {
+    "AAS 27100": 3.0,
+    "AAS 47400": 3.0,
+    "AAS 37100": 3.0,
+    "AAS 37300": 3.0,
+    "AAS 37000": 3.0,
+    "AAS 37500": 3.0,
+    "AAS 37600": 3.0,
+    "AAS 47300": 3.0,
+    "AAS 49000": 3.0,
+    "AAS 49100": 1.0,
+    "POL 32600": 3.0,
+    "SOC 51400": 3.0,
+    "AAS 39200": 3.0,
+    "HIST 44100": 3.0,
+    "HIST 46900": 3.0,
+    "HIST 39600": 3.0,
+    "HIST 39800": 3.0,
+    "AAS 35900": 3.0,
+    "ENGL 25700": 3.0,
+    "ENGL 35800": 3.0,
+    "ENGL 35900": 3.0,
+    "AAS 27700": 3.0,
+    "MUS 37800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 30.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. African American Studies Foundation Courses",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "courses": [
+            "AAS 27100",
+            "AAS 47400"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AAS 37100 / AAS 37300",
+              "courses": [
+                "AAS 37100",
+                "AAS 37300"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B. Social Science Courses Related to Africa or the African Diaspora",
+          "credit_target": 9.0,
+          "kind": "choose",
+          "options": [
+            "AAS 37000",
+            "AAS 37100",
+            "AAS 37500",
+            "AAS 37600",
+            "AAS 47300",
+            "AAS 49000",
+            "AAS 49100",
+            "POL 32600",
+            "SOC 51400"
+          ],
+          "choose_credits": 9.0
+        },
+        {
+          "name": "C. History Courses Related to Africa or the African Diaspora",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "AAS 37000",
+            "AAS 37500",
+            "AAS 37600",
+            "AAS 39200",
+            "AAS 47300",
+            "AAS 49000",
+            "AAS 49100",
+            "HIST 44100",
+            "HIST 46900",
+            {
+              "kind": "one_of",
+              "name": "HIST 39600 / HIST 39800",
+              "courses": [
+                "HIST 39600",
+                "HIST 39800"
+              ]
+            }
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "D. English Courses Related to Africa or the African Diaspora",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "AAS 35900",
+            "AAS 37000",
+            "AAS 37300",
+            "AAS 37600",
+            "AAS 47300",
+            "AAS 49000",
+            "AAS 49100",
+            "ENGL 25700",
+            "ENGL 35800",
+            "ENGL 35900"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "E. Visual and Performing Arts Courses Related to Africa or the African Diaspora",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "AAS 27700",
+            "AAS 47300",
+            "AAS 49000",
+            "AAS 49100",
+            "MUS 37800"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        14.0,
+        55.0
+      ],
+      "kind": "credits",
+      "credits": 14.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": []
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AAS 27100",
+          "title": "Introduction To African American Studies (UCC: HUM)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AAS 37100",
+          "title": "The African American Experience",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AAS 37300",
+              "title": "Issues In African American Studies",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Major Requirement B",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV (CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AAS 47400",
+          "title": "Research Methods In African American Studies",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Requirement B",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement C",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Major Requirement B",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement C",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Major Requirement D",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, & Society",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "AAS 27700",
+          "title": "African American Popular Culture",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AAS 47300",
+              "title": "Blacks In Hollywood Film",
+              "credits": 3.0
+            },
+            {
+              "code": "AAS 49000",
+              "title": "Directed Readings In African American Studies",
+              "credits": 3.0
+            },
+            {
+              "code": "AAS 49100",
+              "title": "Special Topics In African American Studies",
+              "credits": 1.0
+            },
+            {
+              "code": "MUS 37800",
+              "title": "Jazz History UC-Humanities",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Electives",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AAS 27100",
+    "AAS 27700",
+    "AAS 35900",
+    "AAS 37000",
+    "AAS 37100",
+    "AAS 37300",
+    "AAS 37500",
+    "AAS 37600",
+    "AAS 39200",
+    "AAS 47300",
+    "AAS 47400",
+    "AAS 49000",
+    "AAS 49100",
+    "ENGL 25700",
+    "ENGL 35800",
+    "ENGL 35900",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 39600",
+    "HIST 39800",
+    "HIST 44100",
+    "HIST 46900",
+    "IN 47907",
+    "MUS 37800",
+    "POL 32600",
+    "SOC 51400"
+  ]
+}

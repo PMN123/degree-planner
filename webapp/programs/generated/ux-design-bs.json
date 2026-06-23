@@ -1,0 +1,366 @@
+{
+  "id": "ux-design-bs",
+  "poid": "35076",
+  "name": "UX Design, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35076",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.219873+00:00",
+  "course_credits": {
+    "CGT 11505": 3.0,
+    "CGT 14100": 3.0,
+    "CGT 17207": 3.0,
+    "CGT 17208": 3.0,
+    "CGT 25001": 1.0,
+    "CGT 27000": 3.0,
+    "CGT 27108": 3.0,
+    "CGT 27207": 3.0,
+    "CGT 27208": 3.0,
+    "CGT 37108": 3.0,
+    "CGT 37207": 3.0,
+    "CGT 37208": 3.0,
+    "CGT 41101": 2.0,
+    "CGT 41201": 2.0,
+    "CGT 45001": 1.0,
+    "CNIT 11000": 1.0,
+    "SCLA 10100": 3.0,
+    "SCLA 10200": 3.0,
+    "PSY 12000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 40.0,
+      "kind": "all_of",
+      "courses": [
+        "CGT 11505",
+        "CGT 14100",
+        "CGT 17207",
+        "CGT 17208",
+        "CGT 25001",
+        "CGT 27000",
+        "CGT 27108",
+        "CGT 27207",
+        "CGT 27208",
+        "CGT 37108",
+        "CGT 37207",
+        "CGT 37208",
+        "CGT 41101",
+        "CGT 41201",
+        "CGT 45001",
+        "CNIT 11000"
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        1.0,
+        12.0
+      ],
+      "kind": "credits",
+      "credits": 1.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "CGT 11505",
+          "title": "Scripting And Computational Thinking",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 14100",
+          "title": "Internet Foundations Technologies And Development",
+          "credits": 3.0
+        },
+        {
+          "code": "SCLA 10100",
+          "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Math Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 17207",
+          "title": "User Experience Design Experience Studio I",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 17208",
+          "title": "User Experience Design Studio I: Fundamentals (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 27000",
+          "title": "Introduction To Data Visualization",
+          "credits": 3.0
+        },
+        {
+          "code": "SCLA 10200",
+          "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "label": "ACC Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 27108",
+          "title": "UXD Studio II: Information Design And Interaction",
+          "credits": 3.0
+        },
+        {
+          "label": "CGT Globalization Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "ACC Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14-19 Credits",
+      "items": [
+        {
+          "code": "CGT 27207",
+          "title": "User Experience Design Experience Studio II",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 27208",
+          "title": "User Experience Design Studio III: Data-Driven Design",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 25001",
+          "title": "Computer Graphics Professional Practices I",
+          "credits": 1.0
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Psychology & Human Behavior Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 37108",
+          "title": "UXD Studio IV: Strategic Methods",
+          "credits": 3.0
+        },
+        {
+          "label": "CGT Leadership Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Psychology & Human Behavior Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 37207",
+          "title": "User Experience Design Experience Studio III",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 37208",
+          "title": "User Experience Design Studio V: Specialization",
+          "credits": 3.0
+        },
+        {
+          "label": "CGT Leadership Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Psychology & Human Behavior Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "code": "CGT 41101",
+          "title": "Contemporary Problems In Applied Computer Graphics I",
+          "credits": 2.0
+        },
+        {
+          "label": "Written or Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Globalization Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CGT 41201",
+          "title": "Contemporary Problems In Applied Computer Graphics II",
+          "credits": 2.0
+        },
+        {
+          "code": "CGT 45001",
+          "title": "Computer Graphics Professional Practices II",
+          "credits": 1.0
+        },
+        {
+          "code": "CNIT 11000",
+          "title": "AI Fundamentals: Literacy, Applications And Responsible Use (UCC: AI)",
+          "credits": 1.0
+        },
+        {
+          "label": "CGT Globalization Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Leadership Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CGT 11505",
+    "CGT 14100",
+    "CGT 17207",
+    "CGT 17208",
+    "CGT 25001",
+    "CGT 27000",
+    "CGT 27108",
+    "CGT 27207",
+    "CGT 27208",
+    "CGT 37108",
+    "CGT 37207",
+    "CGT 37208",
+    "CGT 41101",
+    "CGT 41201",
+    "CGT 45001",
+    "CNIT 11000",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "PSY 12000",
+    "SCLA 10100",
+    "SCLA 10200"
+  ]
+}

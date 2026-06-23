@@ -1,0 +1,444 @@
+{
+  "id": "sustainable-food-and-farming-systems-bs",
+  "poid": "34749",
+  "name": "Sustainable Food and Farming Systems, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34749",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.267646+00:00",
+  "course_credits": {
+    "HORT 11000": 1.0,
+    "SFS 21000": 3.0,
+    "SFS 21100": 3.0,
+    "SFS 30200": 3.0,
+    "SFS 30300": 3.0,
+    "SFS 35100": 1.0,
+    "AGR 10100": 0.5,
+    "AGR 12000": 1.0,
+    "AGRY 25500": 3.0,
+    "AGRY 32000": 3.0,
+    "CHM 11100": 3.0,
+    "CHM 11200": 3.0,
+    "HORT 10100": 3.0,
+    "HORT 43500": 4.0,
+    "MA 15800": 3.0,
+    "SFS 48500": 3.0,
+    "STAT 30100": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "ANSC 10200": 3.0,
+    "ANSC 24000": 3.0,
+    "BIOL 11000": 4.0,
+    "BTNY 11000": 4.0,
+    "BTNY 12000": 4.0,
+    "BTNY 20700": 3.0,
+    "BIOL 22100": 4.0,
+    "HORT 20100": 3.0,
+    "HORT 30600": 3.0,
+    "HORT 31800": 3.0,
+    "HORT 32100": 3.0,
+    "HORT 32200": 3.0,
+    "HORT 49100": 1.0,
+    "AGRY 34900": 3.0,
+    "AGRY 36500": 3.0,
+    "AGRY 45000": 3.0,
+    "AGRY 56500": 3.0,
+    "AGRY 58000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 28.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 14.0,
+          "kind": "all_of",
+          "courses": [
+            "HORT 11000",
+            "SFS 21000",
+            "SFS 21100",
+            "SFS 30200",
+            "SFS 30300",
+            "SFS 35100"
+          ]
+        },
+        {
+          "name": "Major Selectives",
+          "credit_target": 15.0,
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Ecology/Environment Selective",
+              "credit_target": 3.0,
+              "kind": "credits",
+              "credits": 3.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            },
+            {
+              "name": "Pest Management Selectives",
+              "credit_target": 6.0,
+              "kind": "credits",
+              "credits": 6.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            },
+            {
+              "name": "Systems Modules Selective",
+              "credit_target": 6.0,
+              "kind": "credits",
+              "credits": 6.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        14.5,
+        19.5
+      ],
+      "kind": "credits",
+      "credits": 14.5,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14.5-15.5 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 12000",
+          "title": "Introduction To Horticulture And Landscape Architecture Academic Programs",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "Biological Selective I",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "HORT 10100",
+          "title": "Fundamentals Of Horticulture (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "Biological Selective II",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "SFS 21000",
+          "title": "Small Farm Experience I",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "ANSC 10200",
+          "title": "Introduction To Animal Agriculture (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "ANSC 24000",
+          "title": "Principles Of Animal Production",
+          "credits": 3.0
+        },
+        {
+          "code": "SFS 21100",
+          "title": "Small Farm Experience II",
+          "credits": 3.0
+        },
+        {
+          "code": "SFS 30300",
+          "title": "Rethinking The Food System: Sustainable And Alternative Agriculture",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Systems Modules Selective Credits: 3.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "AGRY 25500",
+          "title": "Soil Science",
+          "credits": 3.0
+        },
+        {
+          "code": "HORT 11000",
+          "title": "Opportunities In Horticulture",
+          "credits": 1.0
+        },
+        {
+          "code": "SFS 30200",
+          "title": "Principles Of Sustainability",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 20300",
+          "title": "Introductory Microeconomics For Food And Agribusiness (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGEC 20400",
+              "title": "Introduction To Resource Economics And Environmental Policy (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "BTNY 20700",
+          "title": "The Microbial World",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "BIOL 22100",
+              "title": "Introduction To Microbiology",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Systems Modules Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "SFS 48500",
+          "title": "Environmental Communication",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Pest Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Soil Science Selective- Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGRY 32000",
+          "title": "Genetics",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Horticulture Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "HORT 43500",
+          "title": "Developing An Agricultural Startup",
+          "credits": 4.0
+        },
+        {
+          "code": "SFS 35100",
+          "title": "SFS Capstone Project",
+          "credits": 1.0
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Pest Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13-14 Credits",
+      "items": [
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Ecology/Environment Selective Credits: 3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.5,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGR 10100",
+    "AGR 12000",
+    "AGRY 25500",
+    "AGRY 32000",
+    "AGRY 34900",
+    "AGRY 36500",
+    "AGRY 45000",
+    "AGRY 56500",
+    "AGRY 58000",
+    "ANSC 10200",
+    "ANSC 24000",
+    "BIOL 11000",
+    "BIOL 22100",
+    "BTNY 11000",
+    "BTNY 12000",
+    "BTNY 20700",
+    "CHM 11100",
+    "CHM 11200",
+    "HEA 01348",
+    "HELP 02026",
+    "HORT 10100",
+    "HORT 11000",
+    "HORT 20100",
+    "HORT 30600",
+    "HORT 31800",
+    "HORT 32100",
+    "HORT 32200",
+    "HORT 43500",
+    "HORT 49100",
+    "IN 47907",
+    "MA 15800",
+    "SFS 21000",
+    "SFS 21100",
+    "SFS 30200",
+    "SFS 30300",
+    "SFS 35100",
+    "SFS 48500",
+    "STAT 30100"
+  ]
+}

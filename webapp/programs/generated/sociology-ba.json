@@ -1,0 +1,455 @@
+{
+  "id": "sociology-ba",
+  "poid": "35881",
+  "name": "Sociology, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35881",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.562584+00:00",
+  "course_credits": {
+    "SOC 10000": 3.0,
+    "SOC 22000": 3.0,
+    "SOC 38200": 3.0,
+    "SOC 38300": 3.0,
+    "SOC 40200": 3.0,
+    "SOC 31000": 3.0,
+    "SOC 35000": 3.0,
+    "SOC 36700": 3.0,
+    "SOC 41100": 3.0,
+    "SOC 41900": 3.0,
+    "SOC 43200": 3.0,
+    "SOC 45000": 3.0,
+    "SOC 35600": 3.0,
+    "SOC 42900": 3.0,
+    "SOC 37400": 3.0,
+    "SOC 46100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Requirement A: Foundation",
+          "credit_target": 6.0,
+          "kind": "all_of",
+          "courses": [
+            "SOC 10000",
+            "SOC 22000"
+          ]
+        },
+        {
+          "name": "Requirement B. Theory and Methods",
+          "credit_target": 9.0,
+          "kind": "all_of",
+          "courses": [
+            "SOC 38200",
+            "SOC 38300",
+            "SOC 40200"
+          ]
+        },
+        {
+          "name": "Requirement C. Sociology Fundamentals",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            "SOC 31000",
+            "SOC 35000",
+            "SOC 36700",
+            "SOC 41100",
+            "SOC 41900",
+            "SOC 43200",
+            "SOC 45000",
+            {
+              "kind": "one_of",
+              "name": "SOC 35600 / SOC 42900",
+              "courses": [
+                "SOC 35600",
+                "SOC 42900"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "SOC 37400 / SOC 46100",
+              "courses": [
+                "SOC 37400",
+                "SOC 46100"
+              ]
+            }
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "Requirement D. Sociology Electives",
+          "credit_target": 15.0,
+          "kind": "credits",
+          "credits": 15.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        8.0,
+        49.0
+      ],
+      "kind": "credits",
+      "credits": 8.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-23 Credits",
+      "items": [
+        {
+          "code": "SOC 10000",
+          "title": "Introductory Sociology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-19 Credits",
+      "items": [
+        {
+          "code": "SOC 22000",
+          "title": "Social Problems (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "13-20 Credits",
+      "items": [
+        {
+          "code": "SOC 38200",
+          "title": "Introduction To Statistics In Sociology",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Requirement C: Sociology Fundamentals",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Diversity Selective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "code": "SOC 38300",
+          "title": "Introduction To Research Methods In Sociology",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Requirement C: Sociology Fundamentals",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV (CLA Core III)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "SOC 40200",
+          "title": "Sociological Theory",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Requirement D: Sociology Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "label": "Major Requirement D: Sociology Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Requirement D: Sociology Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "label": "Major Requirement D: Sociology Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Major Requirement D: Sociology Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "SOC 10000",
+    "SOC 22000",
+    "SOC 31000",
+    "SOC 35000",
+    "SOC 35600",
+    "SOC 36700",
+    "SOC 37400",
+    "SOC 38200",
+    "SOC 38300",
+    "SOC 40200",
+    "SOC 41100",
+    "SOC 41900",
+    "SOC 42900",
+    "SOC 43200",
+    "SOC 45000",
+    "SOC 46100"
+  ]
+}

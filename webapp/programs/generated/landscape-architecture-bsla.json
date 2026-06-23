@@ -1,0 +1,459 @@
+{
+  "id": "landscape-architecture-bsla",
+  "poid": "34748",
+  "name": "Landscape Architecture, BSLA",
+  "degree": "BSLA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34748",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.303163+00:00",
+  "course_credits": {
+    "LA 10110": 2.0,
+    "LA 11600": 3.0,
+    "LA 11700": 3.0,
+    "LA 16100": 1.0,
+    "LA 16600": 3.0,
+    "LA 21600": 3.0,
+    "LA 22600": 4.0,
+    "LA 22704": 4.0,
+    "LA 24600": 4.0,
+    "LA 29199": 0.0,
+    "LA 29299": 0.0,
+    "LA 30900": 1.0,
+    "LA 31600": 4.0,
+    "LA 32500": 3.0,
+    "LA 32600": 4.0,
+    "LA 34604": 4.0,
+    "LA 35600": 4.0,
+    "LA 39399": 0.0,
+    "LA 41600": 4.0,
+    "LA 42600": 4.0,
+    "LA 47600": 2.0,
+    "LA 50102": 2.0,
+    "AGR 10100": 0.5,
+    "BIOL 11000": 4.0,
+    "HORT 21700": 4.0,
+    "HORT 31700": 3.0,
+    "MA 15800": 3.0,
+    "BIOL 11100": 4.0,
+    "BTNY 11000": 4.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "SCLA 10100": 3.0,
+    "COM 11400": 3.0,
+    "COM 21700": 3.0,
+    "EDPS 31500": 3.0,
+    "SCLA 10200": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "AGR 12000": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 63.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 63.0,
+          "kind": "all_of",
+          "courses": [
+            "LA 10110",
+            "LA 11600",
+            "LA 11700",
+            "LA 16100",
+            "LA 16600",
+            "LA 21600",
+            "LA 22600",
+            "LA 22704",
+            "LA 24600",
+            "LA 29199",
+            "LA 29299",
+            "LA 30900",
+            "LA 31600",
+            "LA 32500",
+            "LA 32600",
+            "LA 34604",
+            "LA 35600",
+            "LA 39399",
+            "LA 41600",
+            "LA 42600",
+            "LA 47600",
+            "LA 50102"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        9.5,
+        10.5
+      ],
+      "kind": "credits",
+      "credits": 9.5,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year (Pre-Program)",
+      "credit_hint": "15.5-17.5 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 12000",
+          "title": "Introduction To Horticulture And Landscape Architecture Academic Programs",
+          "credits": 1.0
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "LA 10110",
+          "title": "Survey Of Landscape Architecture",
+          "credits": 2.0
+        },
+        {
+          "code": "LA 11600",
+          "title": "Graphic Communication In Design I",
+          "credits": 3.0
+        },
+        {
+          "code": "LA 16100",
+          "title": "Land And Society (UCC: STS)",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year (Pre-Program)",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "LA 16600",
+          "title": "History And Theory Of Landscape Architecture",
+          "credits": 3.0
+        },
+        {
+          "code": "LA 21600",
+          "title": "Studio I: Foundational Design",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BTNY 11000",
+              "title": "Introduction To Plant Science (UCC: AI/SCI)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "HORT 21700",
+          "title": "Woody Landscape Plants",
+          "credits": 4.0
+        },
+        {
+          "code": "LA 11700",
+          "title": "Graphic Communication In Design II",
+          "credits": 3.0
+        },
+        {
+          "code": "LA 22600",
+          "title": "Studio II: Site Analysis And Design",
+          "credits": 4.0
+        },
+        {
+          "code": "LA 24600",
+          "title": "Site Engineering: Earthwork And Stormwater",
+          "credits": 4.0
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "LA 22704",
+          "title": "Studio III: Planting Design",
+          "credits": 4.0
+        },
+        {
+          "code": "LA 34604",
+          "title": "Site Engineering: Materials And Construction",
+          "credits": 4.0
+        },
+        {
+          "label": "Mathematics or Sciences Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "HORT 31700",
+          "title": "Landscape Contracting And Management",
+          "credits": 3.0
+        },
+        {
+          "code": "LA 30900",
+          "title": "Co-Op Preparation",
+          "credits": 1.0
+        },
+        {
+          "code": "LA 31600",
+          "title": "Studio IV: Park And Open Space Design",
+          "credits": 4.0
+        },
+        {
+          "code": "LA 32500",
+          "title": "Ecological Landscape Performance And Planting",
+          "credits": 3.0
+        },
+        {
+          "label": "Art & Design Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "LA 32600",
+          "title": "Studio V: Community Design And Planning",
+          "credits": 4.0
+        },
+        {
+          "code": "LA 35600",
+          "title": "Site Engineering: Construction Documents And Advanced Systems",
+          "credits": 4.0
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Landscape Architecture Selective OR Contemporary Issues Landscape Architecture Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communications Selection (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall & Spring 4th Year",
+      "credit_hint": null,
+      "items": [
+        {
+          "code": "LA 29199",
+          "title": "Cooperative Experience I",
+          "credits": 0.0
+        },
+        {
+          "code": "LA 29299",
+          "title": "Cooperative Experience II",
+          "credits": 0.0
+        },
+        {
+          "code": "LA 39399",
+          "title": "Cooperative Experience III",
+          "credits": 0.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 5th Year",
+      "credit_hint": "15.5 Credits",
+      "items": [
+        {
+          "code": "LA 41600",
+          "title": "Studio VI: Urban Design",
+          "credits": 4.0
+        },
+        {
+          "code": "LA 47600",
+          "title": "Professional Practice Of Landscape Architecture",
+          "credits": 2.0
+        },
+        {
+          "code": "LA 50102",
+          "title": "Research Methods For Design Applications",
+          "credits": 2.0
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Mathematics or Sciences Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.5,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 5th Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "LA 42600",
+          "title": "Studio VII: Landscape Architecture Capstone",
+          "credits": 4.0
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Landscape Architecture Selective OR Contemporary Issues in Landscape Architecture Selectives",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 21700",
+    "AGR 10100",
+    "AGR 12000",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BTNY 11000",
+    "COM 11400",
+    "COM 21700",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "HEA 01348",
+    "HELP 02026",
+    "HORT 21700",
+    "HORT 31700",
+    "IN 47907",
+    "LA 10110",
+    "LA 10600",
+    "LA 11600",
+    "LA 11700",
+    "LA 16100",
+    "LA 16600",
+    "LA 21600",
+    "LA 22600",
+    "LA 22704",
+    "LA 24600",
+    "LA 29199",
+    "LA 29299",
+    "LA 30900",
+    "LA 31600",
+    "LA 32500",
+    "LA 32600",
+    "LA 34604",
+    "LA 35600",
+    "LA 39399",
+    "LA 41600",
+    "LA 42600",
+    "LA 47600",
+    "LA 50102",
+    "MA 15300",
+    "MA 15400",
+    "MA 15800",
+    "SCLA 10100",
+    "SCLA 10200",
+    "STAT 30100"
+  ]
+}

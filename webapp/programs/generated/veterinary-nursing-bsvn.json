@@ -1,0 +1,592 @@
+{
+  "id": "veterinary-nursing-bsvn",
+  "poid": "34793",
+  "name": "Veterinary Nursing, BSVN",
+  "degree": "BSVN",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": null,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34793",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:32.381757+00:00",
+  "course_credits": {
+    "BMS 23100": 4.0,
+    "BMS 23200": 2.0,
+    "BMS 23300": 0.5,
+    "BMS 33100": 1.5,
+    "CPB 25500": 4.0,
+    "CPB 35100": 2.0,
+    "CPB 35200": 2.0,
+    "CPB 46400": 2.0,
+    "CPB 48000": 2.0,
+    "VCS 21000": 2.0,
+    "VCS 21100": 2.0,
+    "VCS 22200": 1.0,
+    "VCS 22300": 1.5,
+    "VCS 22400": 2.0,
+    "VCS 22500": 2.0,
+    "VCS 22600": 2.0,
+    "VCS 22800": 1.0,
+    "VCS 25200": 2.0,
+    "VCS 32100": 2.0,
+    "VCS 32200": 2.0,
+    "VCS 46700": 2.0,
+    "VM 12000": 1.0,
+    "VM 12100": 1.0,
+    "VM 20100": 1.5,
+    "VM 24100": 1.0,
+    "VM 24300": 1.5,
+    "VM 24400": 1.5,
+    "VM 24900": 3.5,
+    "VM 32300": 2.0,
+    "VM 34210": 2.0,
+    "VM 34300": 5.0,
+    "VM 34400": 5.0,
+    "VM 34500": 1.5,
+    "VM 44100": 1.0,
+    "VM 44200": 1.5,
+    "VM 44300": 2.0,
+    "VM 44500": 4.0,
+    "VM 39000": 4.0,
+    "VM 41001": 4.0,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "COM 11400": 3.0,
+    "SCLA 10200": 3.0,
+    "MA 15300": 3.0,
+    "CHM 11100": 3.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "CHM 11200": 3.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 11630": 1.0,
+    "ENGL 10600": 4.0,
+    "SCLA 10100": 3.0,
+    "ENGL 10800": 3.0,
+    "EDPS 31500": 3.0,
+    "ENGL 41900": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42201": 3.0,
+    "ENGL 42100": 3.0,
+    "COM 31800": 3.0,
+    "COM 32000": 3.0,
+    "COM 32400": 3.0,
+    "COM 37800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "MA 15300",
+          "title": "College Algebra (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "VM 12000",
+          "title": "Introduction To Veterinary Nursing I",
+          "credits": 1.0
+        },
+        {
+          "code": "VM 24100",
+          "title": "Occupational & Public Health I",
+          "credits": 1.0
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 11510",
+              "title": "General Chemistry I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            },
+            {
+              "code": "SCLA 10100",
+              "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "13.5-16.5 Credits",
+      "items": [
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "VM 12100",
+          "title": "Introduction To Veterinary Nursing II",
+          "credits": 1.0
+        },
+        {
+          "code": "VM 20100",
+          "title": "Medical Math And Terminology For Veterinary Nursing",
+          "credits": 1.5
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SCLA 10200",
+              "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 11610",
+              "title": "General Chemistry II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11630",
+              "title": "General Chemistry II - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "label": "Science, Technology & Society (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "BMS 23100",
+          "title": "Anatomy",
+          "credits": 4.0
+        },
+        {
+          "code": "BMS 23200",
+          "title": "Physiology",
+          "credits": 2.0
+        },
+        {
+          "code": "VCS 21000",
+          "title": "Veterinary Nursing Techniques For The Small Animal",
+          "credits": 2.0
+        },
+        {
+          "code": "VCS 21100",
+          "title": "Veterinary Nursing Techniques For The Large Animal",
+          "credits": 2.0
+        },
+        {
+          "code": "VCS 22200",
+          "title": "Dentistry-VN",
+          "credits": 1.0
+        },
+        {
+          "code": "VCS 22300",
+          "title": "Surgical Nursing-VN",
+          "credits": 1.5
+        },
+        {
+          "code": "VM 24300",
+          "title": "Clinic Rotations I",
+          "credits": 1.5
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "BMS 23300",
+          "title": "Introduction To Pharmacology",
+          "credits": 0.5
+        },
+        {
+          "code": "CPB 25500",
+          "title": "Clinical Pathology-VN",
+          "credits": 4.0
+        },
+        {
+          "code": "VCS 22400",
+          "title": "Small Animal Nursing I",
+          "credits": 2.0
+        },
+        {
+          "code": "VCS 22500",
+          "title": "Large Animal Nursing I",
+          "credits": 2.0
+        },
+        {
+          "code": "VCS 22600",
+          "title": "Principles Of Anesthesia-VN",
+          "credits": 2.0
+        },
+        {
+          "code": "VCS 25200",
+          "title": "Diagnostic Imaging-VN",
+          "credits": 2.0
+        },
+        {
+          "code": "VM 24400",
+          "title": "Clinical Rotations II",
+          "credits": 1.5
+        }
+      ]
+    },
+    {
+      "term": "Summer between 2nd and 3rd Year",
+      "credit_hint": "3.5 Credits",
+      "items": [
+        {
+          "code": "VM 24900",
+          "title": "Clinical Rotations III",
+          "credits": 3.5
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "13.5 Credits",
+      "items": [
+        {
+          "code": "BMS 33100",
+          "title": "Pharmacology",
+          "credits": 1.5
+        },
+        {
+          "code": "VCS 22800",
+          "title": "Small And Large Animal Nutrition-VT",
+          "credits": 1.0
+        },
+        {
+          "code": "VCS 32100",
+          "title": "Large Animal Nursing II",
+          "credits": 2.0
+        },
+        {
+          "code": "VCS 32200",
+          "title": "Small Animal Nursing II",
+          "credits": 2.0
+        },
+        {
+          "code": "VM 32300",
+          "title": "Laboratory Animals & Exotic Pet Medicine-VT",
+          "credits": 2.0
+        },
+        {
+          "code": "VM 34300",
+          "title": "Clinic Rotations IV-VT",
+          "credits": 5.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15.5 Credits",
+      "items": [
+        {
+          "code": "CPB 35100",
+          "title": "Microbiology-VT",
+          "credits": 2.0
+        },
+        {
+          "code": "CPB 35200",
+          "title": "Parasitology-VT",
+          "credits": 2.0
+        },
+        {
+          "code": "VM 34210",
+          "title": "Integrations-VN",
+          "credits": 2.0
+        },
+        {
+          "code": "VM 34400",
+          "title": "Clinic Rotations V-VT",
+          "credits": 5.0
+        },
+        {
+          "code": "VM 34500",
+          "title": "Veterinary Management Topics I-VT",
+          "credits": 1.5
+        },
+        {
+          "label": "Veterinary Nursing Selectives",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Summer between 3rd and 4th Year",
+      "credit_hint": "4 Credits",
+      "items": [
+        {
+          "code": "VM 39000",
+          "title": "Practicum",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "VM 41001",
+              "title": "International Practicum",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "17.5-19.5 Credits",
+      "items": [
+        {
+          "code": "CPB 46400",
+          "title": "Clinical Toxicology-VT",
+          "credits": 2.0
+        },
+        {
+          "code": "CPB 48000",
+          "title": "Seminar In Animal Welfare And Human-Animal Interaction-VT",
+          "credits": 2.0
+        },
+        {
+          "code": "VCS 46700",
+          "title": "Medical Equipment & Maintenance-VT",
+          "credits": 2.0
+        },
+        {
+          "code": "VM 44100",
+          "title": "Occupational & Public Health II-VT",
+          "credits": 1.0
+        },
+        {
+          "code": "VM 44200",
+          "title": "Veterinary Management Topics II-VT",
+          "credits": 1.5
+        },
+        {
+          "code": "VM 44300",
+          "title": "Clinic Rotations VI-VT",
+          "credits": 2.0
+        },
+        {
+          "label": "Veterinary Nursing Selectives",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "17-18 Credits",
+      "items": [
+        {
+          "code": "VM 44500",
+          "title": "Senior Project-VT",
+          "credits": 4.0
+        },
+        {
+          "code": "EDPS 31500",
+          "title": "Collaborative Leadership: Interpersonal Skills (UCC: OC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 41900",
+              "title": "Multimedia Writing",
+              "credits": 3.0
+            },
+            {
+              "code": "ENGL 42000",
+              "title": "Business Writing",
+              "credits": 3.0
+            },
+            {
+              "code": "ENGL 42100",
+              "title": "Technical Writing",
+              "credits": 3.0
+            },
+            {
+              "code": "ENGL 42201",
+              "title": "Writing For The Health And Human Sciences",
+              "credits": 3.0
+            },
+            {
+              "code": "COM 31800",
+              "title": "Principles Of Persuasion",
+              "credits": 3.0
+            },
+            {
+              "code": "COM 32000",
+              "title": "Small Group Communication",
+              "credits": 3.0
+            },
+            {
+              "code": "COM 32400",
+              "title": "Introduction To Organizational Communication",
+              "credits": 3.0
+            },
+            {
+              "code": "COM 37800",
+              "title": "Introduction To Health Communication",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Veterinary Nursing Selectives",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "BIOL 11000",
+    "BIOL 11100",
+    "BMS 23100",
+    "BMS 23200",
+    "BMS 23300",
+    "BMS 33100",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 11630",
+    "COM 11400",
+    "COM 31800",
+    "COM 32000",
+    "COM 32400",
+    "COM 37800",
+    "CPB 25500",
+    "CPB 35100",
+    "CPB 35200",
+    "CPB 46400",
+    "CPB 48000",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 41900",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGL 42201",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 15300",
+    "SCLA 10100",
+    "SCLA 10200",
+    "VCS 21000",
+    "VCS 21100",
+    "VCS 22200",
+    "VCS 22300",
+    "VCS 22400",
+    "VCS 22500",
+    "VCS 22600",
+    "VCS 22800",
+    "VCS 25200",
+    "VCS 32100",
+    "VCS 32200",
+    "VCS 46700",
+    "VM 10900",
+    "VM 12000",
+    "VM 12100",
+    "VM 20100",
+    "VM 24100",
+    "VM 24300",
+    "VM 24400",
+    "VM 24900",
+    "VM 32300",
+    "VM 34210",
+    "VM 34300",
+    "VM 34400",
+    "VM 34500",
+    "VM 39000",
+    "VM 41001",
+    "VM 41003",
+    "VM 44100",
+    "VM 44200",
+    "VM 44300",
+    "VM 44400",
+    "VM 44500"
+  ]
+}

@@ -1,0 +1,638 @@
+{
+  "id": "industrial-design-professional-program-bfa",
+  "poid": "34909",
+  "name": "Industrial Design Professional Program, BFA",
+  "degree": "BFA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 126,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34909",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.846356+00:00",
+  "course_credits": {
+    "AD 10500": 3.0,
+    "AD 10600": 3.0,
+    "AD 11300": 3.0,
+    "AD 22600": 3.0,
+    "AD 22700": 3.0,
+    "AD 14600": 3.0,
+    "AD 21500": 3.0,
+    "AD 23500": 3.0,
+    "AD 24600": 3.0,
+    "AD 25600": 3.0,
+    "AD 25601": 0.0,
+    "AD 30500": 3.0,
+    "AD 30600": 3.0,
+    "AD 31500": 3.0,
+    "AD 31600": 3.0,
+    "AD 40500": 3.0,
+    "AD 40600": 3.0,
+    "AD 41500": 3.0,
+    "AD 23400": 1.0,
+    "AD 34000": 3.0,
+    "AD 39500": 3.0,
+    "AD 41600": 3.0,
+    "AD 47800": 1.0,
+    "AD 33400": 3.0,
+    "AD 38500": 3.0,
+    "ANTH 38400": 3.0,
+    "CGT 11000": 3.0,
+    "CGT 11600": 3.0,
+    "AD 11400": 3.0,
+    "AD 11700": 3.0,
+    "AD 11900": 3.0,
+    "AD 20000": 3.0,
+    "AD 20500": 3.0,
+    "AD 20600": 3.0,
+    "AD 21300": 3.0,
+    "AD 22000": 3.0,
+    "AD 22800": 3.0,
+    "AD 22900": 3.0,
+    "AD 23300": 3.0,
+    "AD 23600": 3.0,
+    "AD 24200": 3.0,
+    "AD 26200": 3.0,
+    "AD 26500": 3.0,
+    "AD 26600": 3.0,
+    "AD 26700": 3.0,
+    "AD 30000": 3.0,
+    "AD 30400": 3.0,
+    "AD 31400": 3.0,
+    "AD 33300": 3.0,
+    "AD 34200": 3.0,
+    "AD 36200": 3.0,
+    "AD 36300": 3.0,
+    "AD 36800": 3.0,
+    "AD 36900": 3.0,
+    "AD 38100": 3.0,
+    "AD 40000": 3.0,
+    "AD 40400": 3.0,
+    "AD 41700": 3.0,
+    "AD 44200": 3.0,
+    "AD 46200": 3.0,
+    "AD 51200": 3.0,
+    "AD 52200": 3.0,
+    "AD 53500": 3.0,
+    "AD 54200": 3.0,
+    "MKTG 42300": 3.0,
+    "TECH 34000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Art & Design Core",
+          "credit_target": 12.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 10500",
+            "AD 10600",
+            "AD 11300"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AD 22600 / AD 22700",
+              "courses": [
+                "AD 22600",
+                "AD 22700"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B. Industrial Design Core",
+          "credit_target": 36.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 14600",
+            "AD 21500",
+            "AD 23500",
+            "AD 24600",
+            "AD 25600",
+            "AD 25601",
+            "AD 30500",
+            "AD 30600",
+            "AD 31500",
+            "AD 31600",
+            "AD 40500",
+            "AD 40600",
+            "AD 41500"
+          ]
+        },
+        {
+          "name": "C. Industrial Design Supportive Requirements",
+          "credit_target": 19.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 23400",
+            "AD 34000",
+            "AD 39500",
+            "AD 41600",
+            "AD 47800"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AD 33400 / AD 38500 / ANTH 38400",
+              "courses": [
+                "AD 33400",
+                "AD 38500",
+                "ANTH 38400"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CGT 11000 / CGT 11600",
+              "courses": [
+                "CGT 11000",
+                "CGT 11600"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D. Industrial Design Selectives",
+          "credit_target": 9.0,
+          "kind": "choose",
+          "options": [
+            "AD 11400",
+            "AD 11700",
+            "AD 11900",
+            "AD 20000",
+            "AD 20500",
+            "AD 20600",
+            "AD 21300",
+            "AD 22000",
+            "AD 22800",
+            "AD 22900",
+            "AD 23300",
+            "AD 23600",
+            "AD 24200",
+            "AD 26200",
+            "AD 26500",
+            "AD 26600",
+            "AD 26700",
+            "AD 30000",
+            "AD 30400",
+            "AD 31400",
+            "AD 33300",
+            "AD 33400",
+            "AD 34200",
+            "AD 36200",
+            "AD 36300",
+            "AD 36800",
+            "AD 36900",
+            "AD 38100",
+            "AD 40000",
+            "AD 40400",
+            "AD 41700",
+            "AD 44200",
+            "AD 46200",
+            "AD 51200",
+            "AD 52200",
+            "AD 53500",
+            "AD 54200",
+            "MKTG 42300",
+            "TECH 34000"
+          ],
+          "choose_credits": 9.0
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For BFA, Professional, & Education",
+      "credit_target": [
+        28.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "LA Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            20.0,
+            39.0
+          ],
+          "kind": "credits",
+          "credits": 20.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "AD 10500",
+          "title": "Design I",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 11300",
+          "title": "Basic Drawing (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 11600",
+          "title": "Geometric Modeling For Visualization And Communication",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CGT 11000",
+              "title": "Technical Graphics Communications",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "18-19 Credits",
+      "items": [
+        {
+          "code": "AD 10600",
+          "title": "Design II",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 14600",
+          "title": "Design Drawing I",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 22700",
+          "title": "History Of Art Since 1400 (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AD 22600",
+              "title": "History Of Art To 1400 (UCC: HUM)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "AD 21500",
+          "title": "Materials And Processes",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 24600",
+          "title": "Design Drawing II",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 39500",
+          "title": "History Of Design (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "AD 23400",
+          "title": "Art And Design Internship Preparation",
+          "credits": 1.0
+        },
+        {
+          "code": "AD 23500",
+          "title": "Materials And Processes II",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 25600",
+          "title": "Presentation Techniques",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 25601",
+          "title": "Industrial Design Sophomore Review",
+          "credits": 0.0
+        },
+        {
+          "label": "Major Requirement D: Industrial Design Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-20 Credits",
+      "items": [
+        {
+          "code": "AD 30500",
+          "title": "Industrial Design I",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 31500",
+          "title": "Design Methodology",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 47800",
+          "title": "Internship In Art And Design",
+          "credits": 1.0
+        },
+        {
+          "label": "Major Requirement D: Industrial Design Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "AD 30600",
+          "title": "Industrial Design II",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 31600",
+          "title": "Seminar On Ideas In Industrial Design I: Design And Society",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 34000",
+          "title": "Furniture Development",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 33400",
+          "title": "New Media Culture",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AD 38500",
+              "title": "History Of Interior Design",
+              "credits": 3.0
+            },
+            {
+              "code": "ANTH 38400",
+              "title": "Designing For People: Anthropological Approaches",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "AD 40500",
+          "title": "Industrial Design III",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 41500",
+          "title": "Professional Techniques",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 47800",
+          "title": "Internship In Art And Design",
+          "credits": 1.0
+        },
+        {
+          "label": "Science, Technology & Science (UCC: STS)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "code": "AD 40600",
+          "title": "Industrial Design IV",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 41600",
+          "title": "Seminar On Ideas In Industrial Design II: Design And Creative Problem Solving Methods",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Requirement D: Industrial Design Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 10500",
+    "AD 10600",
+    "AD 11300",
+    "AD 11400",
+    "AD 11700",
+    "AD 11900",
+    "AD 14600",
+    "AD 20000",
+    "AD 20500",
+    "AD 20600",
+    "AD 21300",
+    "AD 21500",
+    "AD 22000",
+    "AD 22600",
+    "AD 22700",
+    "AD 22800",
+    "AD 22900",
+    "AD 23300",
+    "AD 23400",
+    "AD 23500",
+    "AD 23600",
+    "AD 24200",
+    "AD 24600",
+    "AD 25600",
+    "AD 25601",
+    "AD 26200",
+    "AD 26500",
+    "AD 26600",
+    "AD 26700",
+    "AD 29199",
+    "AD 29299",
+    "AD 30000",
+    "AD 30400",
+    "AD 30500",
+    "AD 30600",
+    "AD 31400",
+    "AD 31500",
+    "AD 31600",
+    "AD 33300",
+    "AD 33400",
+    "AD 34000",
+    "AD 34200",
+    "AD 36200",
+    "AD 36300",
+    "AD 36800",
+    "AD 36900",
+    "AD 38100",
+    "AD 38500",
+    "AD 39399",
+    "AD 39499",
+    "AD 39500",
+    "AD 39599",
+    "AD 40000",
+    "AD 40400",
+    "AD 40500",
+    "AD 40600",
+    "AD 41500",
+    "AD 41600",
+    "AD 41700",
+    "AD 44200",
+    "AD 46200",
+    "AD 47800",
+    "AD 51200",
+    "AD 52200",
+    "AD 53500",
+    "AD 54200",
+    "ANTH 38400",
+    "CGT 11000",
+    "CGT 11600",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MKTG 42300",
+    "TECH 34000"
+  ]
+}

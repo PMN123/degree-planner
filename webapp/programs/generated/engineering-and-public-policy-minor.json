@@ -1,0 +1,158 @@
+{
+  "id": "engineering-and-public-policy-minor",
+  "poid": "34766",
+  "name": "Engineering and Public Policy Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 21,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34766",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.459098+00:00",
+  "course_credits": {
+    "CCE 35500": 3.0,
+    "EEE 35500": 3.0,
+    "ME 49200": 3.0,
+    "PHIL 20700": 3.0,
+    "IDE 49500": 1.0,
+    "PHIL 27000": 3.0,
+    "POL 12000": 3.0,
+    "POL 22300": 3.0,
+    "PHIL 29000": 3.0,
+    "POL 32300": 3.0,
+    "POL 32700": 3.0,
+    "POL 42300": 3.0,
+    "POL 52300": 3.0,
+    "ABE 58000": 3.0,
+    "CCE 35000": 3.0,
+    "EEE 35000": 3.0,
+    "CCE 45600": 3.0,
+    "EEE 45600": 3.0,
+    "CCE 36100": 3.0,
+    "CCE 45700": 3.0,
+    "CCE 42800": 3.0,
+    "EEE 30000": 3.0,
+    "EEE 38000": 3.0,
+    "ME 51400": 3.0,
+    "ME 52900": 3.0,
+    "NUCL 20000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 15.0,
+      "kind": "all_of",
+      "courses": [
+        "PHIL 27000",
+        "POL 12000",
+        "POL 22300"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "CCE 35500 / EEE 35500",
+          "courses": [
+            "CCE 35500",
+            "EEE 35500"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "ME 49200 / PHIL 20700 / IDE 49500",
+          "courses": [
+            "ME 49200",
+            "PHIL 20700",
+            "IDE 49500"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Additional Courses*",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Public Policy",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "PHIL 29000",
+            "POL 32300",
+            "POL 32700",
+            "POL 42300",
+            "POL 52300"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Technical",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "ABE 58000",
+            {
+              "kind": "one_of",
+              "name": "CCE 35000 / EEE 35000",
+              "courses": [
+                "CCE 35000",
+                "EEE 35000"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "CCE 45600 / EEE 45600",
+              "courses": [
+                "CCE 45600",
+                "EEE 45600"
+              ]
+            },
+            "CCE 36100",
+            "CCE 45700",
+            "CCE 42800",
+            "EEE 30000",
+            "EEE 38000",
+            "ME 51400",
+            "ME 52900",
+            "NUCL 20000"
+          ],
+          "choose_credits": 3.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ABE 58000",
+    "CCE 35000",
+    "CCE 35500",
+    "CCE 36100",
+    "CCE 42800",
+    "CCE 45600",
+    "CCE 45700",
+    "EEE 30000",
+    "EEE 35000",
+    "EEE 35500",
+    "EEE 38000",
+    "EEE 45600",
+    "HELP 02026",
+    "IDE 49500",
+    "IN 47907",
+    "ME 49200",
+    "ME 51400",
+    "ME 52900",
+    "NUCL 20000",
+    "PHIL 20700",
+    "PHIL 27000",
+    "PHIL 29000",
+    "POL 12000",
+    "POL 22300",
+    "POL 32300",
+    "POL 32700",
+    "POL 42300",
+    "POL 52300"
+  ]
+}

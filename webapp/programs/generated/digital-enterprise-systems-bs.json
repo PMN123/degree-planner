@@ -1,0 +1,412 @@
+{
+  "id": "digital-enterprise-systems-bs",
+  "poid": "35722",
+  "name": "Digital Enterprise Systems, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35722",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.528818+00:00",
+  "course_credits": {
+    "ENGT 18200": 4.0,
+    "ENGT 48100": 3.0,
+    "IET 21400": 3.0,
+    "IET 23500": 3.0,
+    "IET 31600": 3.0,
+    "IET 43530": 3.0,
+    "MET 24500": 3.0,
+    "MFET 10301": 3.0,
+    "MFET 20301": 3.0,
+    "MFET 21301": 3.0,
+    "MFET 30301": 3.0,
+    "MFET 31301": 3.0,
+    "MFET 48004": 3.0,
+    "MET 14300": 3.0,
+    "MET 14400": 3.0,
+    "ECON 21000": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "IET 43640": 3.0,
+    "MFET 25000": 3.0,
+    "STAT 30100": 3.0,
+    "STRT 45500": 3.0,
+    "TECH 12000": 3.0,
+    "TLI 21300": 3.0,
+    "COM 11400": 3.0,
+    "SCLA 10200": 3.0,
+    "COM 31500": 3.0,
+    "COM 32000": 3.0,
+    "COM 41500": 3.0,
+    "EDPS 31500": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0,
+    "SCLA 10100": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ENGL 42400": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16020": 3.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "CNIT 10500": 3.0,
+    "CNIT 15501": 3.0,
+    "CNIT 17500": 3.0,
+    "CS 15900": 3.0,
+    "CS 17700": 4.0,
+    "PHYS 17200": 4.0,
+    "PHYS 22000": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 61.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "kind": "all_of",
+          "courses": [
+            "ENGT 18200",
+            "ENGT 48100",
+            "IET 21400",
+            "IET 23500",
+            "IET 31600",
+            "IET 43530",
+            "MET 24500",
+            "MFET 10301",
+            "MFET 20301",
+            "MFET 21301",
+            "MFET 30301",
+            "MFET 31301",
+            "MFET 48004",
+            "MET 14300",
+            "MET 14400",
+            "ECON 21000",
+            "ECON 25100",
+            "ECON 25200",
+            "IET 43640",
+            "MFET 25000"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 10301",
+          "title": "Geometric Modeling And Product Data Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Computer Programming Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Math Selective I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Oral Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "ENGT 18200",
+          "title": "Gateway To Engineering Technology",
+          "credits": 4.0
+        },
+        {
+          "code": "IET 23500",
+          "title": "Introduction To Systems Thinking And Process Improvement",
+          "credits": 3.0
+        },
+        {
+          "label": "Freshman Composition Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Materials and Processes Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Math Selective II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "MFET 20301",
+          "title": "Model-Based Product Definition",
+          "credits": 3.0
+        },
+        {
+          "code": "TLI 21300",
+          "title": "Project Management",
+          "credits": 3.0
+        },
+        {
+          "label": "Physics Selective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "IET 21400",
+          "title": "Introduction To Supply Chain Management Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 21301",
+          "title": "Simulation And Visualization Applications",
+          "credits": 3.0
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Lab Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "IET 43530",
+          "title": "Operations Planning And Management",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 30301",
+          "title": "Digital Manufacturing",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Humanities Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "IET 31600",
+          "title": "Statistical Quality Control",
+          "credits": 3.0
+        },
+        {
+          "code": "MET 24500",
+          "title": "Manufacturing Systems And Processes",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 31301",
+          "title": "Change Management And The Digital Enterprise",
+          "credits": 3.0
+        },
+        {
+          "label": "Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "MFET 48004",
+          "title": "Engineering Technology Capstone I",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 45500",
+          "title": "Legal Background For Business I",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "ENGT 48100",
+          "title": "Engineering Technology Capstone II",
+          "credits": 3.0
+        },
+        {
+          "label": "Advanced Oral Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Enterprise System Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CNIT 10500",
+    "CNIT 15501",
+    "CNIT 17500",
+    "COM 11400",
+    "COM 31500",
+    "COM 32000",
+    "COM 41500",
+    "CS 15900",
+    "CS 17700",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGL 42400",
+    "ENGT 18200",
+    "ENGT 48100",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IET 21400",
+    "IET 23500",
+    "IET 31600",
+    "IET 43530",
+    "IET 43640",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MET 14300",
+    "MET 14400",
+    "MET 24500",
+    "MFET 10301",
+    "MFET 20301",
+    "MFET 21301",
+    "MFET 25000",
+    "MFET 30301",
+    "MFET 31301",
+    "MFET 48004",
+    "PHYS 17200",
+    "PHYS 22000",
+    "SCLA 10100",
+    "SCLA 10200",
+    "STAT 30100",
+    "STRT 45500",
+    "TECH 12000",
+    "TLI 21300"
+  ]
+}

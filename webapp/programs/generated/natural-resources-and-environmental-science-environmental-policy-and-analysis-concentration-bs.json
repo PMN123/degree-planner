@@ -1,0 +1,661 @@
+{
+  "id": "natural-resources-and-environmental-science-environmental-policy-and-analysis-concentration-bs",
+  "poid": "34696",
+  "name": "Natural Resources and Environmental Science: Environmental Policy and Analysis Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34696",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.060232+00:00",
+  "course_credits": {
+    "AGRY 12500": 3.0,
+    "EAPS 12500": 3.0,
+    "FNR 12500": 3.0,
+    "NRES 12500": 3.0,
+    "NRES 20000": 1.0,
+    "NRES 25500": 3.0,
+    "AGRY 25500": 3.0,
+    "AGRY 27000": 3.0,
+    "AGRY 33800": 1.0,
+    "NRES 33800": 1.0,
+    "NRES 42000": 1.0,
+    "NRES 49700": 2.0,
+    "AGEC 52500": 3.0,
+    "ASEC 58500": 3.0,
+    "POL 32700": 3.0,
+    "AGEC 40600": 3.0,
+    "AGR 10100": 0.5,
+    "AGR 12200": 0.5,
+    "MA 16010": 3.0,
+    "STAT 30100": 3.0,
+    "BIOL 11000": 4.0,
+    "BTNY 12000": 4.0,
+    "BIOL 11100": 4.0,
+    "BTNY 12100": 4.0,
+    "CHM 11100": 3.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11200": 3.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "CHM 25500": 3.0,
+    "CHM 25700": 4.0,
+    "FNR 37500": 3.0,
+    "SOC 34400": 3.0,
+    "POL 22300": 3.0,
+    "ILS 25000": 3.0,
+    "ASM 54000": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "ECON 25100": 3.0,
+    "COM 11400": 3.0,
+    "COM 21700": 3.0,
+    "EDPS 31500": 3.0,
+    "SCLA 10200": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ENTM 20100": 3.0,
+    "NRES 48500": 3.0,
+    "SFS 48500": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0,
+    "SCLA 10100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        38.0,
+        39.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 11.0,
+          "kind": "all_of",
+          "courses": [
+            "NRES 20000",
+            "NRES 42000",
+            "NRES 49700"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AGRY 12500 / EAPS 12500 / FNR 12500 / NRES 12500",
+              "courses": [
+                "AGRY 12500",
+                "EAPS 12500",
+                "FNR 12500",
+                "NRES 12500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "NRES 25500 / AGRY 25500 / AGRY 27000",
+              "courses": [
+                "NRES 25500",
+                "AGRY 25500",
+                "AGRY 27000"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AGRY 33800 / NRES 33800",
+              "courses": [
+                "AGRY 33800",
+                "NRES 33800"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Environmental Policy And Analysis Concentration Courses",
+          "credit_target": [
+            27.0,
+            28.0
+          ],
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Required Concentration Courses",
+              "credit_target": 9.0,
+              "kind": "all_of",
+              "courses": [
+                "AGEC 52500",
+                "ASEC 58500",
+                "POL 32700"
+              ]
+            },
+            {
+              "name": "Environmental Policy And Analysis Selectives",
+              "credit_target": [
+                18.0,
+                19.0
+              ],
+              "kind": "credits",
+              "credits": 18.0,
+              "placeholder": true,
+              "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        5.0,
+        11.0
+      ],
+      "kind": "credits",
+      "credits": 5.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "AGR 10100",
+          "title": "Introduction To The College Of Agriculture And Purdue University",
+          "credits": 0.5
+        },
+        {
+          "code": "AGR 12200",
+          "title": "Introduction To Natural Resources And Environmental Science Academic Programs",
+          "credits": 0.5
+        },
+        {
+          "code": "CHM 11100",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "CHM 11510",
+              "title": "General Chemistry I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "AGRY 12500",
+          "title": "Environmental Science And Conservation (UCC: STS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "EAPS 12500",
+              "title": "Environmental Science And Conservation (UCC: STS)",
+              "credits": 3.0
+            },
+            {
+              "code": "FNR 12500",
+              "title": "Environmental Science And Conservation (UCC: STS)",
+              "credits": 3.0
+            },
+            {
+              "code": "NRES 12500",
+              "title": "Environmental Science And Conservation (UCC: STS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Oral Communication \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "COM 21700",
+          "title": "Science Writing And Presentation (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 31500",
+          "title": "Collaborative Leadership: Interpersonal Skills (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "SCLA 10200",
+          "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "POL 22300",
+          "title": "Introduction To Environmental Policy (UCC: BSS/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11200",
+          "title": "General Chemistry (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "CHM 11610",
+              "title": "General Chemistry II",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "label": "Written Communication Selective \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL 10800",
+          "title": "First Year Composition (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "code": "HONR 19903",
+          "title": "Interdisciplinary Approaches In Writing (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "code": "SCLA 10100",
+          "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "label": "International Understanding Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BTNY 12000",
+              "title": "Principles Of Plant Biology I",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "NRES 25500",
+          "title": "Soil Science",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AGRY 25500",
+              "title": "Soil Science",
+              "credits": 3.0
+            },
+            {
+              "code": "AGRY 27000",
+              "title": "Forest Soils",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "NRES 20000",
+          "title": "Introduction To Environmental Careers",
+          "credits": 1.0
+        },
+        {
+          "label": "Broadening Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Microeconomics Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "AGRY 33800",
+          "title": "Environmental Field Skills",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "NRES 33800",
+              "title": "Environmental Field Skills",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "BTNY 12100",
+              "title": "Principles Of Plant Biology II",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Additional Math or Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Data Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Environmental Policy and Analysis Concentration Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Written or Oral Communication Selective (20000+ level)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "NRES 42000",
+          "title": "Environmental Internship Or Research Reporting",
+          "credits": 1.0
+        },
+        {
+          "code": "POL 32700",
+          "title": "Global Green Politics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 25500",
+          "title": "Organic Chemistry For The Life Sciences I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CHM 25700",
+              "title": "Organic Chemistry",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "ILS 25000",
+          "title": "Introduction To Geographic Information Systems (UCC: IL)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ASM 54000",
+              "title": "Geographic Information System Application",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "12-16 Credits",
+      "items": [
+        {
+          "code": "FNR 37500",
+          "title": "Human Dimensions Of Natural Resource Management",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SOC 34400",
+              "title": "Environmental Sociology (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Ecology Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Environmental Policy and Analysis Concentration Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Social Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AGEC 40600",
+          "title": "Natural Resource And Environmental Economics",
+          "credits": 3.0
+        },
+        {
+          "code": "AGEC 52500",
+          "title": "Environmental Policy Analysis",
+          "credits": 3.0
+        },
+        {
+          "label": "Science Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "ENGL 42000",
+          "title": "Business Writing",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL 42100",
+          "title": "Technical Writing",
+          "credits": 3.0
+        },
+        {
+          "code": "ENTM 20100",
+          "title": "Scientific And Technical Communication",
+          "credits": 3.0
+        },
+        {
+          "code": "NRES 48500",
+          "title": "Environmental Communication",
+          "credits": 3.0
+        },
+        {
+          "code": "SFS 48500",
+          "title": "Environmental Communication",
+          "credits": 3.0
+        },
+        {
+          "label": "Environmental Policy and Analysis Concentration Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Additional International Understanding or Interpersonal Development Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "NRES 49700",
+          "title": "Current Topics In Environmental Sciences",
+          "credits": 2.0
+        },
+        {
+          "label": "Environmental Policy and Analysis Concentration Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 40600",
+    "AGEC 52500",
+    "AGR 10100",
+    "AGR 12200",
+    "AGRY 12500",
+    "AGRY 25500",
+    "AGRY 27000",
+    "AGRY 33800",
+    "ASEC 58500",
+    "ASM 54000",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BTNY 12000",
+    "BTNY 12100",
+    "CHM 11100",
+    "CHM 11200",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11610",
+    "CHM 11620",
+    "CHM 25500",
+    "CHM 25700",
+    "COM 11400",
+    "COM 21700",
+    "EAPS 12500",
+    "ECON 25100",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENTM 20100",
+    "FNR 12500",
+    "FNR 37500",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "ILS 25000",
+    "IN 47907",
+    "MA 16010",
+    "NRES 12500",
+    "NRES 20000",
+    "NRES 25500",
+    "NRES 33800",
+    "NRES 42000",
+    "NRES 48500",
+    "NRES 49700",
+    "POL 22300",
+    "POL 32700",
+    "SCLA 10100",
+    "SCLA 10200",
+    "SFS 48500",
+    "SOC 34400",
+    "STAT 30100"
+  ]
+}

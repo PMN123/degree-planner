@@ -1,0 +1,501 @@
+{
+  "id": "asian-studies-ba",
+  "poid": "34932",
+  "name": "Asian Studies, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34932",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.789486+00:00",
+  "course_credits": {
+    "CHNS 10100": 4.0,
+    "CHNS 10200": 4.0,
+    "CHNS 20100": 4.0,
+    "JPNS 10100": 3.0,
+    "JPNS 10200": 3.0,
+    "JPNS 20100": 3.0,
+    "KOR 10100": 4.0,
+    "KOR 10200": 4.0,
+    "KOR 20100": 4.0,
+    "CHNS 20200": 4.0,
+    "JPNS 20200": 3.0,
+    "KOR 20200": 4.0,
+    "HIST 24000": 3.0,
+    "HIST 24100": 3.0,
+    "LC 23500": 3.0,
+    "POL 34800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        27.0,
+        28.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Pre-requisite Courses",
+          "kind": "all_of",
+          "courses": [
+            "CHNS 10100",
+            "CHNS 10200",
+            "CHNS 20100",
+            "JPNS 10100",
+            "JPNS 10200",
+            "JPNS 20100",
+            "KOR 10100",
+            "KOR 10200",
+            "KOR 20100"
+          ]
+        },
+        {
+          "name": "A. Language Requirement Course",
+          "credit_target": [
+            3.0,
+            4.0
+          ],
+          "kind": "choose",
+          "options": [
+            {
+              "kind": "one_of",
+              "name": "CHNS 20200 / JPNS 20200 / KOR 20200",
+              "courses": [
+                "CHNS 20200",
+                "JPNS 20200",
+                "KOR 20200"
+              ]
+            }
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "B. Survey course requirement",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "HIST 24000",
+            "HIST 24100",
+            "LC 23500",
+            "POL 34800"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "C. Asian Studies Selectives - Choose Seven",
+          "credit_target": 21.0,
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        16.0,
+        58.0
+      ],
+      "kind": "credits",
+      "credits": 16.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CHNS 10100",
+          "title": "Chinese Level I (UCC: HUM)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "JPNS 10100",
+              "title": "Japanese Level I (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "KOR 10100",
+              "title": "Korean Level I (UCC: HUM)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Oral Communication (CLA Core I: 1 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 2 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "CHNS 10200",
+          "title": "Chinese Level II (UCC: HUM)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "JPNS 10200",
+              "title": "Japanese Level II (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "KOR 10200",
+              "title": "Korean Level II (UCC: HUM)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "code": "HIST 24000",
+          "title": "East Asia And Its Historic Tradition (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "HIST 24100",
+              "title": "East Asia In The Modern World (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "LC 23500",
+              "title": "East Asian Literature In Translation",
+              "credits": 3.0
+            },
+            {
+              "code": "POL 34800",
+              "title": "East Asian Politics",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Written Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 3 of 6",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CHNS 20100",
+          "title": "Chinese Level III (UCC: HUM)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "JPNS 20100",
+              "title": "Japanese Level III (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "KOR 20100",
+              "title": "Korean Level III",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Asian Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CHNS 20200",
+          "title": "Chinese Level IV (UCC: HUM)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "JPNS 20200",
+              "title": "Japanese Level IV (UCC: HUM)",
+              "credits": 3.0
+            },
+            {
+              "code": "KOR 20200",
+              "title": "Korean Level IV",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Asian Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, and Society",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "label": "Asian Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Asian Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Asian Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Asian Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Asian Studies Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CHNS 10100",
+    "CHNS 10200",
+    "CHNS 20100",
+    "CHNS 20200",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 24000",
+    "HIST 24100",
+    "IN 47907",
+    "JPNS 10100",
+    "JPNS 10200",
+    "JPNS 20100",
+    "JPNS 20200",
+    "KOR 10100",
+    "KOR 10200",
+    "KOR 20100",
+    "KOR 20200",
+    "LC 23500",
+    "POL 34800"
+  ]
+}

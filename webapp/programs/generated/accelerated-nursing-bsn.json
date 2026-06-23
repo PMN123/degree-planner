@@ -1,0 +1,80 @@
+{
+  "id": "accelerated-nursing-bsn",
+  "poid": "35140",
+  "name": "Accelerated Nursing, BSN",
+  "degree": "BSN",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 59,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35140",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.918777+00:00",
+  "course_credits": {
+    "NUR 21901": 3.0,
+    "NUR 22101": 3.0,
+    "NUR 22201": 2.0,
+    "NUR 22401": 4.0,
+    "NUR 22501": 4.0,
+    "NUR 22601": 3.0,
+    "NUR 31401": 6.0,
+    "NUR 31501": 5.0,
+    "NUR 31601": 1.0,
+    "NUR 31701": 6.0,
+    "NUR 31801": 5.0,
+    "NUR 31901": 1.0,
+    "NUR 41401": 5.0,
+    "NUR 41501": 5.0,
+    "NUR 41701": 3.0,
+    "NUR 41901": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Major Courses",
+      "credit_target": 59.0,
+      "kind": "all_of",
+      "courses": [
+        "NUR 21901",
+        "NUR 22101",
+        "NUR 22201",
+        "NUR 22401",
+        "NUR 22501",
+        "NUR 22601",
+        "NUR 31401",
+        "NUR 31501",
+        "NUR 31601",
+        "NUR 31701",
+        "NUR 31801",
+        "NUR 31901",
+        "NUR 41401",
+        "NUR 41501",
+        "NUR 41701",
+        "NUR 41901"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "NUR 21901",
+    "NUR 22101",
+    "NUR 22201",
+    "NUR 22401",
+    "NUR 22501",
+    "NUR 22601",
+    "NUR 31401",
+    "NUR 31501",
+    "NUR 31601",
+    "NUR 31701",
+    "NUR 31801",
+    "NUR 31901",
+    "NUR 41401",
+    "NUR 41501",
+    "NUR 41701",
+    "NUR 41901"
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "id": "pharmaceutical-sciences-bs",
+  "poid": "34884",
+  "name": "Pharmaceutical Sciences, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34884",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.043220+00:00",
+  "course_credits": {
+    "PHSC 10000": 1.0,
+    "PHSC 20100": 1.0,
+    "PHSC 20400": 3.0,
+    "PHSC 20401": 1.0,
+    "PHSC 20500": 3.0,
+    "PHSC 20501": 1.0,
+    "PHSC 20800": 3.0,
+    "PHSC 40000": 1.0,
+    "PHSC 42200": 3.0,
+    "PHSC 42400": 3.0,
+    "PHSC 42800": 3.0,
+    "PHSC 42900": 2.0,
+    "PHSC 43600": 2.0,
+    "PHSC 44400": 3.0,
+    "PHSC 46000": 3.0,
+    "PHSC 46100": 3.0,
+    "PHSC 48500": 2.0,
+    "AGEC 21700": 3.0,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "BIOL 20300": 4.0,
+    "BIOL 20400": 4.0,
+    "BIOL 22100": 4.0,
+    "CHM 12901": 5.0,
+    "CHM 37200": 4.0,
+    "MA 16010": 3.0,
+    "MA 16020": 3.0,
+    "PHYS 22000": 4.0,
+    "STAT 30100": 3.0,
+    "ENGL 41900": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "ENGL 42201": 3.0,
+    "ENGL 43400": 3.0,
+    "PHSC 20000": 2.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        47.0,
+        50.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "PHSC 10000",
+        "PHSC 20100",
+        "PHSC 20400",
+        "PHSC 20401",
+        "PHSC 20500",
+        "PHSC 20501",
+        "PHSC 20800",
+        "PHSC 40000",
+        "PHSC 42200",
+        "PHSC 42400",
+        "PHSC 42800",
+        "PHSC 42900",
+        "PHSC 43600",
+        "PHSC 44400",
+        "PHSC 46000",
+        "PHSC 46100",
+        "PHSC 48500"
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        6.0,
+        14.0
+      ],
+      "kind": "choose",
+      "options": [
+        "PHSC 20000"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-17 Credits",
+      "items": [
+        {
+          "code": "PHSC 10000",
+          "title": "Introduction To Pharmacy And Pharmaceutical Sciences",
+          "credits": 1.0
+        },
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 12901",
+          "title": "General Chemistry With A Biological Focus (UCC: SCI)",
+          "credits": 5.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication Selective^",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "BSPS students are advised to take ENGL 10600, SCLA 10100 or HONR 19903 to meet pre-requisite for Professional Writing Selective.",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "PHSC 20400",
+          "title": "Organic Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "PHSC 20401",
+          "title": "Organic Chemistry I Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "MA 16020",
+          "title": "Applied Calculus II (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "label": "Pre-Pharm.D. Educational Goal Selective",
+              "credits": null,
+              "slot": true
+            }
+          ]
+        },
+        {
+          "label": "Oral Communication Selective^",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year \u01c2",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "AGEC 21700",
+          "title": "Economics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "BIOL 20300",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "BIOL 22100",
+          "title": "Introduction To Microbiology",
+          "credits": 4.0
+        },
+        {
+          "code": "PHSC 20500",
+          "title": "Organic Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "PHSC 20501",
+          "title": "Organic Chemistry II Lab",
+          "credits": 1.0
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "BIOL 20400",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "PHSC 20800",
+          "title": "Biochemistry For Pharmaceutical Sciences",
+          "credits": 3.0
+        },
+        {
+          "code": "PHSC 42200",
+          "title": "Immunology",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "13 Credits",
+      "items": [
+        {
+          "code": "PHSC 20100",
+          "title": "Bachelor Of Science In The Pharmaceutical Sciences Orientation II",
+          "credits": 1.0
+        },
+        {
+          "code": "PHSC 42400",
+          "title": "Principles Of Pathophysiology And Drug Action",
+          "credits": 3.0
+        },
+        {
+          "code": "PHSC 42800",
+          "title": "Dosage Forms I",
+          "credits": 3.0
+        },
+        {
+          "code": "PHSC 43600",
+          "title": "Biochemistry For Pharmaceutical Sciences II",
+          "credits": 2.0
+        },
+        {
+          "label": "Professional Writing Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CHM 37200",
+          "title": "Physical Chemistry",
+          "credits": 4.0
+        },
+        {
+          "code": "PHSC 42900",
+          "title": "Dosage Forms II",
+          "credits": 2.0
+        },
+        {
+          "code": "PHSC 44400",
+          "title": "Drug Classes And Mechanisms",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Humanities Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "code": "PHSC 40000",
+          "title": "Research Methodology And Pharmacokinetic Concepts",
+          "credits": 1.0
+        },
+        {
+          "code": "PHSC 46000",
+          "title": "Drug Discovery And Development I",
+          "credits": 3.0
+        },
+        {
+          "label": "Pharmacy Experiential Selective",
+          "credits": 0.0,
+          "slot": true
+        },
+        {
+          "label": "Pharmacy Leadership Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Pharmacy Special Interest Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology & Society Selective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13-15 Credits",
+      "items": [
+        {
+          "code": "PHSC 46100",
+          "title": "Drug Discovery And Development II",
+          "credits": 3.0
+        },
+        {
+          "code": "PHSC 48500",
+          "title": "Intercultural And Global Health Issues",
+          "credits": 2.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Pharmacy Special Interest Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AGEC 21700",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BIOL 20300",
+    "BIOL 20400",
+    "BIOL 22100",
+    "CHM 12901",
+    "CHM 37200",
+    "ENGL 10600",
+    "ENGL 41900",
+    "ENGL 42000",
+    "ENGL 42100",
+    "ENGL 42201",
+    "ENGL 43400",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IN 47907",
+    "MA 16010",
+    "MA 16020",
+    "PHSC 10000",
+    "PHSC 20000",
+    "PHSC 20100",
+    "PHSC 20400",
+    "PHSC 20401",
+    "PHSC 20500",
+    "PHSC 20501",
+    "PHSC 20800",
+    "PHSC 40000",
+    "PHSC 42200",
+    "PHSC 42400",
+    "PHSC 42800",
+    "PHSC 42900",
+    "PHSC 43600",
+    "PHSC 44400",
+    "PHSC 46000",
+    "PHSC 46100",
+    "PHSC 48500",
+    "PHYS 22000",
+    "SCLA 10100",
+    "STAT 30100"
+  ]
+}

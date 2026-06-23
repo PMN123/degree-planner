@@ -1,0 +1,365 @@
+{
+  "id": "aeronautical-technology-bs-statewide",
+  "poid": "35406",
+  "name": "Aeronautical Technology, BS (Statewide)",
+  "degree": "BS (Statewide)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35406",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.291716+00:00",
+  "course_credits": {
+    "AT 20300": 3.0,
+    "AT 23300": 3.0,
+    "AT 30702": 3.0,
+    "AT 33800": 3.0,
+    "AT 35900": 3.0,
+    "AT 38100": 3.0,
+    "AT 41200": 3.0,
+    "AT 45400": 3.0,
+    "AT 47500": 3.0,
+    "AT 48100": 3.0,
+    "AT 49800": 3.0,
+    "COM 11400": 3.0,
+    "MA 15300": 3.0,
+    "MA 15800": 3.0,
+    "PHYS 22000": 4.0,
+    "STAT 30100": 3.0,
+    "TECH 12000": 3.0,
+    "ENGL 42100": 3.0,
+    "CSR 34200": 3.0,
+    "ENGL 10400": 3.0,
+    "PHYS 21400": 3.0,
+    "COM 31500": 3.0,
+    "COM 32000": 3.0,
+    "COM 32400": 3.0,
+    "COM 41500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Requirements",
+      "credit_target": 33.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Requirements",
+          "credit_target": 33.0,
+          "kind": "all_of",
+          "courses": [
+            "AT 20300",
+            "AT 23300",
+            "AT 30702",
+            "AT 33800",
+            "AT 35900",
+            "AT 38100",
+            "AT 41200",
+            "AT 45400",
+            "AT 47500",
+            "AT 48100",
+            "AT 49800"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        9.0,
+        12.0
+      ],
+      "kind": "credits",
+      "credits": 9.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "MA 15300",
+          "title": "College Algebra (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "English Composition Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Foundational Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Thematic Area Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 33800",
+          "title": "Airline Management",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 48100",
+          "title": "Aviation Safety Problems",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Technical Communication Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 20300",
+          "title": "Aviation Operations Management",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 41200",
+          "title": "Aviation Finance",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 47500",
+          "title": "Aviation Law",
+          "credits": 3.0
+        },
+        {
+          "label": "Advanced English Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Globalization Requirement Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "12 Credits",
+      "items": [
+        {
+          "code": "AT 35900",
+          "title": "Airport Management",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 38100",
+          "title": "Aviation Security",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Artificial Intelligence Selective (UCC: AI) - Credits Hours: 1.00-3.00",
+          "credits": null,
+          "slot": true
+        },
+        {
+          "label": "Elective - Credits Hours: 2.00",
+          "credits": null,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AT 30702",
+          "title": "Advanced Aircraft Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 49800",
+          "title": "Aviation Technology Capstone",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AT 20300",
+    "AT 23300",
+    "AT 30702",
+    "AT 33800",
+    "AT 35900",
+    "AT 38100",
+    "AT 41200",
+    "AT 45400",
+    "AT 47500",
+    "AT 48100",
+    "AT 49800",
+    "COM 11400",
+    "COM 31500",
+    "COM 32000",
+    "COM 32400",
+    "COM 41500",
+    "CSR 34200",
+    "ENGL 10400",
+    "ENGL 42100",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 15300",
+    "MA 15800",
+    "PHYS 21400",
+    "PHYS 22000",
+    "STAT 30100",
+    "TECH 12000"
+  ]
+}

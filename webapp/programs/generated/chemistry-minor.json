@@ -1,0 +1,228 @@
+{
+  "id": "chemistry-minor",
+  "poid": "34874",
+  "name": "Chemistry Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 16,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34874",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:31.393442+00:00",
+  "course_credits": {
+    "CHM 25500": 3.0,
+    "CHM 26100": 3.0,
+    "CHM 26505": 3.0,
+    "PHSC 20400": 3.0,
+    "CHM 25600": 3.0,
+    "CHM 26200": 3.0,
+    "CHM 26605": 3.0,
+    "PHSC 20500": 3.0,
+    "CHM 25501": 1.0,
+    "CHM 26300": 1.0,
+    "CHM 26500": 2.0,
+    "CHM 26700": 2.0,
+    "PHSC 20401": 1.0,
+    "CHM 25601": 1.0,
+    "CHM 26400": 1.0,
+    "CHM 26600": 2.0,
+    "CHM 26800": 2.0,
+    "PHSC 20501": 1.0,
+    "CHM 22410": 2.0,
+    "CHM 22420": 1.0,
+    "CHM 24100": 4.0,
+    "CHM 32120": 1.0,
+    "CHM 33901": 1.0,
+    "CHM 34201": 1.0,
+    "CHM 37301": 1.0,
+    "CHM 37401": 1.0,
+    "CHM 42410": 3.0,
+    "CHM 42420": 1.0,
+    "CHM 43800": 3.0,
+    "CHM 46200": 3.0,
+    "CHM 48100": 3.0,
+    "CHM 51300": 1.0,
+    "CHM 56000": 3.0,
+    "CHM 57900": 3.0,
+    "CHM 58100": 3.0,
+    "BCHM 56600": 4.0,
+    "CHM 33900": 3.0,
+    "CHM 43300": 3.0,
+    "CHM 32110": 3.0,
+    "CHM 32700": 4.0,
+    "CHM 37000": 3.0,
+    "CHM 37400": 3.0,
+    "CHM 37200": 4.0,
+    "CHM 37300": 3.0,
+    "CHM 34200": 3.0,
+    "CHM 34800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Area 1 Organic Chemistry (maximum 10 credits)",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Part I",
+          "kind": "all_of",
+          "courses": [
+            "CHM 25500",
+            "CHM 26100",
+            "CHM 26505",
+            "PHSC 20400"
+          ]
+        },
+        {
+          "name": "Part II",
+          "kind": "all_of",
+          "courses": [
+            "CHM 25600",
+            "CHM 26200",
+            "CHM 26605",
+            "PHSC 20500"
+          ]
+        },
+        {
+          "name": "Part III",
+          "kind": "all_of",
+          "courses": [
+            "CHM 25501",
+            "CHM 26300",
+            "CHM 26500",
+            "CHM 26700",
+            "PHSC 20401"
+          ]
+        },
+        {
+          "name": "Part IV",
+          "kind": "all_of",
+          "courses": [
+            "CHM 25601",
+            "CHM 26400",
+            "CHM 26600",
+            "CHM 26800",
+            "PHSC 20501"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Area 2 Additional Selectives",
+      "kind": "choose",
+      "options": [
+        "CHM 22410",
+        "CHM 22420",
+        "CHM 24100",
+        "CHM 32120",
+        "CHM 33901",
+        "CHM 34201",
+        "CHM 37301",
+        "CHM 37401",
+        "CHM 42410",
+        "CHM 42420",
+        "CHM 43800",
+        "CHM 46200",
+        "CHM 48100",
+        "CHM 51300",
+        "CHM 56000",
+        "CHM 57900",
+        "CHM 58100",
+        {
+          "kind": "one_of",
+          "name": "BCHM 56600 / CHM 33900 / CHM 43300",
+          "courses": [
+            "BCHM 56600",
+            "CHM 33900",
+            "CHM 43300"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "CHM 32110 / CHM 32700",
+          "courses": [
+            "CHM 32110",
+            "CHM 32700"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "CHM 37000 / CHM 37400",
+          "courses": [
+            "CHM 37000",
+            "CHM 37400"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "CHM 37200 / CHM 37300",
+          "courses": [
+            "CHM 37200",
+            "CHM 37300"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "CHM 34200 / CHM 34800",
+          "courses": [
+            "CHM 34200",
+            "CHM 34800"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "BCHM 56600",
+    "CHM 22410",
+    "CHM 22420",
+    "CHM 24100",
+    "CHM 25500",
+    "CHM 25501",
+    "CHM 25600",
+    "CHM 25601",
+    "CHM 26100",
+    "CHM 26200",
+    "CHM 26300",
+    "CHM 26400",
+    "CHM 26500",
+    "CHM 26505",
+    "CHM 26600",
+    "CHM 26605",
+    "CHM 26700",
+    "CHM 26800",
+    "CHM 32110",
+    "CHM 32120",
+    "CHM 32700",
+    "CHM 33900",
+    "CHM 33901",
+    "CHM 34200",
+    "CHM 34201",
+    "CHM 34800",
+    "CHM 37000",
+    "CHM 37200",
+    "CHM 37300",
+    "CHM 37301",
+    "CHM 37400",
+    "CHM 37401",
+    "CHM 42410",
+    "CHM 42420",
+    "CHM 43300",
+    "CHM 43800",
+    "CHM 46200",
+    "CHM 48100",
+    "CHM 51300",
+    "CHM 56000",
+    "CHM 57900",
+    "CHM 58100",
+    "HELP 02026",
+    "IN 47907",
+    "PHSC 20400",
+    "PHSC 20401",
+    "PHSC 20500",
+    "PHSC 20501"
+  ]
+}

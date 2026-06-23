@@ -1,0 +1,48 @@
+{
+  "id": "organizational-leadership-minor",
+  "poid": "35909",
+  "name": "Organizational Leadership Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 12,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35909",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.875595+00:00",
+  "course_credits": {
+    "TLI 11200": 3.0,
+    "TLI 15200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "TLI 11200",
+        "TLI 15200"
+      ]
+    },
+    {
+      "name": "Technology Leadership and Innovation Selectives",
+      "credit_target": 6.0,
+      "kind": "credits",
+      "credits": 6.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "OLS 20000",
+    "TCM 20000",
+    "TLI 11200",
+    "TLI 15200",
+    "TLI 20000"
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "id": "construction-management-bs",
+  "poid": "35996",
+  "name": "Construction Management, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35996",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.405980+00:00",
+  "course_credits": {
+    "CM 10000": 3.0,
+    "CM 15000": 6.0,
+    "CM 16000": 3.0,
+    "CM 16400": 2.0,
+    "CM 26200": 3.0,
+    "CM 20002": 4.0,
+    "CM 21500": 3.0,
+    "CM 21601": 2.0,
+    "CM 27000": 3.0,
+    "CM 30002": 4.0,
+    "CM 30101": 2.0,
+    "CM 31000": 3.0,
+    "CM 36400": 3.0,
+    "CM 36500": 2.0,
+    "CM 38000": 3.0,
+    "CM 40000": 6.0,
+    "CM 43300": 2.0,
+    "CM 45001": 3.0,
+    "CM 47500": 2.0,
+    "CM 45701": 3.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "MA 15800": 3.0,
+    "PHYS 22000": 4.0,
+    "PHYS 17200": 4.0,
+    "STRT 25400": 3.0,
+    "STRT 45500": 3.0,
+    "TECH 12000": 3.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "ECON 21000": 3.0,
+    "AGEC 21700": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "SCLA 10100": 3.0,
+    "COM 11400": 3.0,
+    "EDPS 31500": 3.0,
+    "COM 21700": 3.0,
+    "SCLA 10200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": [
+        65.0,
+        66.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "CM 10000",
+        "CM 15000",
+        "CM 16000",
+        "CM 20002",
+        "CM 21500",
+        "CM 21601",
+        "CM 27000",
+        "CM 30002",
+        "CM 30101",
+        "CM 31000",
+        "CM 36400",
+        "CM 36500",
+        "CM 38000",
+        "CM 40000",
+        "CM 43300",
+        "CM 45001",
+        "CM 47500",
+        "CM 45701"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "CM 16400 / CM 26200",
+          "courses": [
+            "CM 16400",
+            "CM 26200"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-20 Credits",
+      "items": [
+        {
+          "code": "CM 10000",
+          "title": "Introduction To Construction Management (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "code": "CM 16400",
+          "title": "Construction Graphics And Digital Documentation",
+          "credits": 2.0,
+          "alternatives": [
+            {
+              "code": "CM 26200",
+              "title": "Introduction To Construction Graphics",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "OR",
+          "credits": null,
+          "slot": true,
+          "alternatives": [
+            {
+              "code": "ENGR 13100",
+              "title": "Transforming Ideas To Innovation I (UCC: AI/IL)",
+              "credits": 2.0
+            }
+          ]
+        },
+        {
+          "code": "ENGR 13200",
+          "title": "Transforming Ideas To Innovation II (UCC: AI)",
+          "credits": 2.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "CM 15000",
+          "title": "Construction Materials And Methods",
+          "credits": 6.0
+        },
+        {
+          "label": "Calculus Selective I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "CM 16000",
+          "title": "Surveying",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CM 20002",
+          "title": "Construction Plans And Specifications",
+          "credits": 4.0
+        },
+        {
+          "code": "CM 21601",
+          "title": "Electrical Construction",
+          "credits": 2.0
+        },
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ACCT 21200",
+              "title": "Business Accounting",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "PHYS 17200",
+          "title": "Modern Mechanics (UCC: SCI)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "PHYS 22000",
+              "title": "General Physics (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "16-21 Credits",
+      "items": [
+        {
+          "code": "CM 21500",
+          "title": "Mechanical Construction",
+          "credits": 3.0
+        },
+        {
+          "code": "CM 27000",
+          "title": "Statics",
+          "credits": 3.0
+        },
+        {
+          "code": "CM 31000",
+          "title": "Equipment And Field Operations",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CM 30002",
+          "title": "Estimating And Scheduling",
+          "credits": 4.0
+        },
+        {
+          "code": "CM 36500",
+          "title": "BIM For Project Managers And Field Supervision",
+          "credits": 2.0
+        },
+        {
+          "code": "CM 38000",
+          "title": "Soils And Foundations",
+          "credits": 3.0
+        },
+        {
+          "label": "CM Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "CM 36400",
+          "title": "Jobsite Management",
+          "credits": 3.0
+        },
+        {
+          "code": "CM 45701",
+          "title": "Construction Safety",
+          "credits": 3.0
+        },
+        {
+          "code": "CM 47500",
+          "title": "Construction Project Costs/Controls",
+          "credits": 2.0
+        },
+        {
+          "code": "STRT 25400",
+          "title": "Legal Foundations Of Business I",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "STRT 45500",
+              "title": "Legal Background For Business I",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "CM Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "CM 30101",
+          "title": "Introduction To Construction Company Financial Management",
+          "credits": 2.0
+        },
+        {
+          "code": "CM 40000",
+          "title": "Construction Capstone",
+          "credits": 6.0
+        },
+        {
+          "label": "Advanced Communication/English Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "12-15 Credits",
+      "items": [
+        {
+          "code": "CM 43300",
+          "title": "Risk Management & Legal Issues In Design And Construction Integration",
+          "credits": 2.0
+        },
+        {
+          "code": "CM 45001",
+          "title": "Project Execution Lab",
+          "credits": 3.0
+        },
+        {
+          "label": "Global Selective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Management Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Optional Concentration Course or Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 21700",
+    "CM 10000",
+    "CM 15000",
+    "CM 16000",
+    "CM 16400",
+    "CM 20002",
+    "CM 21500",
+    "CM 21601",
+    "CM 26200",
+    "CM 27000",
+    "CM 30002",
+    "CM 30101",
+    "CM 31000",
+    "CM 36400",
+    "CM 36500",
+    "CM 38000",
+    "CM 40000",
+    "CM 43300",
+    "CM 45001",
+    "CM 45701",
+    "CM 47500",
+    "COM 11400",
+    "COM 21700",
+    "ECON 21000",
+    "ECON 25100",
+    "ECON 25200",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGR 13100",
+    "ENGR 13200",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "MA 16100",
+    "MA 16500",
+    "PHYS 17200",
+    "PHYS 22000",
+    "SCLA 10100",
+    "SCLA 10200",
+    "STRT 25400",
+    "STRT 45500",
+    "TECH 12000"
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "id": "aeronautical-and-astronautical-engineering-bsaae",
+  "poid": "35064",
+  "name": "Aeronautical and Astronautical Engineering, BSAAE",
+  "degree": "BSAAE",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 130,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35064",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.930194+00:00",
+  "course_credits": {
+    "AAE 20000": 0.0,
+    "AAE 20300": 3.0,
+    "AAE 20400": 3.0,
+    "AAE 20401": 1.0,
+    "AAE 25100": 3.0,
+    "AAE 30000": 0.0,
+    "AAE 30100": 3.0,
+    "AAE 33300": 3.0,
+    "AAE 33301": 1.0,
+    "AAE 33400": 3.0,
+    "AAE 34000": 3.0,
+    "AAE 35200": 3.0,
+    "AAE 36400": 3.0,
+    "AAE 36401": 1.0,
+    "AAE 40000": 1.0,
+    "AAE 33401": 1.0,
+    "AAE 35201": 1.0,
+    "AAE 33800": 3.0,
+    "AAE 33900": 3.0,
+    "AAE 42100": 3.0,
+    "AAE 44000": 3.0,
+    "AAE 45000": 3.0,
+    "AAE 45100": 3.0,
+    "ENGR 13100": 2.0,
+    "ENGR 13200": 2.0,
+    "EPCS 11100": 1.0,
+    "EPCS 12100": 1.0,
+    "ENGR 13300": 2.0,
+    "VIP 17911": 1.0,
+    "VIP 17912": 1.0,
+    "ENGR 16100": 4.0,
+    "ENGR 16200": 4.0,
+    "ENGR 13000": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11530": 1.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "PHYS 17200": 4.0,
+    "CS 15900": 3.0,
+    "CS 17700": 4.0,
+    "CS 18000": 4.0,
+    "MA 26100": 4.0,
+    "MA 26500": 3.0,
+    "MA 26600": 3.0,
+    "MA 30300": 3.0,
+    "ME 20000": 3.0,
+    "MFET 16300": 2.0,
+    "PHYS 24100": 3.0,
+    "PHYS 27200": 4.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Aeronautical and Astronautical Major Requirements",
+      "credit_target": 62.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Aeronautical and Astronautical Engineering Major Courses",
+          "credit_target": 41.0,
+          "kind": "all_of",
+          "courses": [
+            "AAE 20000",
+            "AAE 20300",
+            "AAE 20400",
+            "AAE 20401",
+            "AAE 25100",
+            "AAE 30000",
+            "AAE 30100",
+            "AAE 33300",
+            "AAE 33301",
+            "AAE 33400",
+            "AAE 34000",
+            "AAE 35200",
+            "AAE 36400",
+            "AAE 36401",
+            "AAE 40000"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "AAE 33401 / AAE 35201",
+              "courses": [
+                "AAE 33401",
+                "AAE 35201"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AAE 33800 / AAE 33900",
+              "courses": [
+                "AAE 33800",
+                "AAE 33900"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AAE 42100 / AAE 44000",
+              "courses": [
+                "AAE 42100",
+                "AAE 44000"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AAE 45000 / AAE 45100",
+              "courses": [
+                "AAE 45000",
+                "AAE 45100"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aeronautical and Astronautical Engineering Selectives",
+          "credit_target": 21.0,
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Program Requirements",
+      "credit_target": [
+        68.0,
+        73.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Other Program Requirements",
+          "credit_target": [
+            44.0,
+            48.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ENGR 13100",
+            "ENGR 13200",
+            "EPCS 11100",
+            "EPCS 12100",
+            "ENGR 13300",
+            "VIP 17911",
+            "VIP 17912",
+            "ENGR 16100",
+            "ENGR 16200",
+            "ENGR 13000",
+            "CHM 11510",
+            {
+              "kind": "one_of",
+              "name": "CHM 11520 / CHM 11530",
+              "courses": [
+                "CHM 11520",
+                "CHM 11530"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16100 / MA 16500",
+              "courses": [
+                "MA 16100",
+                "MA 16500"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "MA 16200 / MA 16600",
+              "courses": [
+                "MA 16200",
+                "MA 16600"
+              ]
+            },
+            "PHYS 17200",
+            "CS 15900",
+            "CS 17700",
+            "CS 18000",
+            "MA 26100",
+            "MA 26500",
+            "MA 26600",
+            "MA 30300",
+            "ME 20000",
+            "MFET 16300",
+            {
+              "kind": "one_of",
+              "name": "PHYS 24100 / PHYS 27200",
+              "courses": [
+                "PHYS 24100",
+                "PHYS 27200"
+              ]
+            }
+          ],
+          "choose_credits": 44.0
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering I",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "CHM 11530",
+              "title": "General Chemistry I - Virtual Laboratory (UCC: SCI)",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-20 Credits",
+      "items": [
+        {
+          "label": "Intro to Engineering II",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Written Communication (UCC: WC) or Oral Communication (UCC:OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Physics I",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "code": "CS 15900",
+          "title": "C Programming",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AAE 20000",
+          "title": "Undergraduate Sophomore Seminar",
+          "credits": 0.0
+        },
+        {
+          "code": "AAE 20300",
+          "title": "Aeromechanics I",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "MA 26500",
+          "title": "Linear Algebra (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "MFET 16300",
+          "title": "Foundations In Geometric Modeling And Data Management",
+          "credits": 2.0
+        },
+        {
+          "label": "General Education I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "19-20 Credits",
+      "items": [
+        {
+          "code": "AAE 20400",
+          "title": "Aeromechanics II",
+          "credits": 3.0
+        },
+        {
+          "code": "AAE 20401",
+          "title": "Aeromechanics II Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "AAE 25100",
+          "title": "Introduction To Aerospace Design",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 26600",
+          "title": "Ordinary Differential Equations (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "ME 20000",
+          "title": "Thermodynamics I",
+          "credits": 3.0
+        },
+        {
+          "label": "General Education II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "PHYS 24100",
+          "title": "Electricity And Optics (UCC: SCI)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "PHYS 27200",
+              "title": "Electric And Magnetic Interactions (UCC: SCI)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AAE 30000",
+          "title": "Undergraduate Junior Seminar",
+          "credits": 0.0
+        },
+        {
+          "code": "AAE 30100",
+          "title": "Signal Analysis For Aerospace Engineering",
+          "credits": 3.0
+        },
+        {
+          "code": "AAE 33300",
+          "title": "Fluid Mechanics",
+          "credits": 3.0
+        },
+        {
+          "code": "AAE 33301",
+          "title": "Fluid Mechanics Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "AAE 35200",
+          "title": "Structural Analysis I",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 30300",
+          "title": "Differential Equations And Partial Differential Equations For Engineering And The Sciences",
+          "credits": 3.0
+        },
+        {
+          "label": "General Education III",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AAE 33400",
+          "title": "Aerodynamics",
+          "credits": 3.0
+        },
+        {
+          "code": "AAE 34000",
+          "title": "Dynamics And Vibrations",
+          "credits": 3.0
+        },
+        {
+          "code": "AAE 36400",
+          "title": "Control System Analysis",
+          "credits": 3.0
+        },
+        {
+          "code": "AAE 33401",
+          "title": "Aerodynamics Laboratory",
+          "credits": 1.0,
+          "alternatives": [
+            {
+              "code": "AAE 35201",
+              "title": "Structural Analysis I Laboratory",
+              "credits": 1.0
+            }
+          ]
+        },
+        {
+          "code": "AAE 33800",
+          "title": "Thermal Sciences",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AAE 33900",
+              "title": "Aerospace Propulsion",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "General Education IV",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "17 Credits",
+      "items": [
+        {
+          "code": "AAE 36401",
+          "title": "Control Systems Laboratory",
+          "credits": 1.0
+        },
+        {
+          "code": "AAE 40000",
+          "title": "Undergraduate Senior Seminar",
+          "credits": 1.0
+        },
+        {
+          "label": "AAE Engineering Specialization",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AAE Selectives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AAE Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AAE Technical Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education V",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "AAE 42100",
+          "title": "Flight Dynamics And Control",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AAE 44000",
+              "title": "Spacecraft Attitude Dynamics",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "AAE 45000",
+          "title": "Spacecraft Design",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "AAE 45100",
+              "title": "Aircraft Design",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "AAE Engr Specialization Selectives",
+          "credits": 6.0,
+          "slot": true
+        },
+        {
+          "label": "AAE Selectives",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Education VI",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AAE 20000",
+    "AAE 20300",
+    "AAE 20400",
+    "AAE 20401",
+    "AAE 25100",
+    "AAE 30000",
+    "AAE 30100",
+    "AAE 33300",
+    "AAE 33301",
+    "AAE 33400",
+    "AAE 33401",
+    "AAE 33800",
+    "AAE 33900",
+    "AAE 34000",
+    "AAE 35200",
+    "AAE 35201",
+    "AAE 36400",
+    "AAE 36401",
+    "AAE 40000",
+    "AAE 42100",
+    "AAE 44000",
+    "AAE 45000",
+    "AAE 45100",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11530",
+    "CS 15900",
+    "CS 17700",
+    "CS 18000",
+    "ENGR 13000",
+    "ENGR 13100",
+    "ENGR 13200",
+    "ENGR 13300",
+    "ENGR 16100",
+    "ENGR 16200",
+    "EPCS 11100",
+    "EPCS 12100",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "MA 26500",
+    "MA 26600",
+    "MA 30300",
+    "ME 20000",
+    "MFET 16300",
+    "PHYS 17200",
+    "PHYS 24100",
+    "PHYS 27200",
+    "VIP 17911",
+    "VIP 17912"
+  ]
+}

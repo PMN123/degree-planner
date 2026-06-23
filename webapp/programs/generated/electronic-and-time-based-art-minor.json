@@ -1,0 +1,61 @@
+{
+  "id": "electronic-and-time-based-art-minor",
+  "poid": "34897",
+  "name": "Electronic and Time-Based Art Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34897",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.949732+00:00",
+  "course_credits": {
+    "AD 23300": 3.0,
+    "AD 30400": 3.0,
+    "AD 33400": 3.0,
+    "AD 32600": 3.0,
+    "AD 41700": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Introduction to ETB",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "AD 23300",
+        "AD 30400"
+      ]
+    },
+    {
+      "name": "B. ETB Culture and Theory",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "AD 33400"
+      ]
+    },
+    {
+      "name": "C. ETB Selectives- Choose Two",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "AD 32600",
+        "AD 41700"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AD 23300",
+    "AD 30400",
+    "AD 32600",
+    "AD 33400",
+    "AD 41700",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

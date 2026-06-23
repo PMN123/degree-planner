@@ -123,6 +123,65 @@ class Catalog:
                 lookup[legacy.normalize_code(k)] = float(v)
         return lookup
 
+    # -- dependency graph ---------------------------------------------------
+    def dependency_edges(self, completed: list[dict], semesters: list[dict]) -> list[dict[str, Any]]:
+        """Prereq / coreq edges between courses that are present in the plan.
+
+        ``satisfied`` is by term order: a prereq must sit in an *earlier* term, a coreq in
+        the same-or-earlier term. Completed courses count as term -1 (before everything).
+        The frontend draws these as the dotted (prereq) / dashed (coreq) connector lines.
+        """
+        term_index = {sem.get("term", ""): i for i, sem in enumerate(semesters)}
+        code_term: dict[str, int] = {}
+        for row in completed:
+            code_term[legacy.normalize_code(row["code"])] = -1
+        for sem in semesters:
+            ti = term_index.get(sem.get("term", ""), 0)
+            for row in sem.get("courses", []):
+                code = row.get("code")
+                if code and not str(code).startswith("PLACEHOLDER"):
+                    code_term.setdefault(legacy.normalize_code(code), ti)
+        present = set(code_term)
+
+        edges: list[dict[str, Any]] = []
+        seen: set[tuple] = set()
+        for sem in semesters:
+            ti = term_index.get(sem.get("term", ""), 0)
+            for row in sem.get("courses", []):
+                code = row.get("code")
+                if not code:
+                    continue
+                code = legacy.normalize_code(code)
+                rec = self.get(code)
+                if not rec:
+                    continue
+                for kind, field, ok in (
+                    ("prereq", "prerequisite_courses", lambda a, b: a < b),
+                    ("coreq", "corequisite_courses", lambda a, b: a <= b),
+                ):
+                    for dep in rec.get(field, []) or []:
+                        dep = legacy.normalize_code(dep)
+                        if dep not in present or dep == code:
+                            continue
+                        key = (dep, code, kind)
+                        if key in seen:
+                            continue
+                        seen.add(key)
+                        edges.append({"from": dep, "to": code, "type": kind, "satisfied": ok(code_term[dep], ti)})
+        return edges
+
+    def ensure_many(self, codes: list[str]) -> dict[str, Any]:
+        """Fetch any of `codes` not already cached (used to pull a program's prereq data)."""
+        added, failed, cached = [], [], 0
+        for code in codes:
+            code = legacy.normalize_code(code)
+            if self.get(code):
+                cached += 1
+                continue
+            result = self.ensure_course(code)
+            (added if result.get("ok") else failed).append(code)
+        return {"added": added, "failed": failed, "already_cached": cached}
+
     # -- on-demand scraping -------------------------------------------------
     def ensure_course(self, code: str, term: str | None = None) -> dict[str, Any]:
         """Fetch one course from the live catalog if we don't already have it."""
@@ -172,6 +231,8 @@ class Catalog:
 def _course_instances(rows: list[dict[str, Any]], term: str, source: str) -> list[legacy.CourseInstance]:
     out = []
     for row in rows:
+        if not row.get("code"):  # unfilled selective slots carry no course code
+            continue
         out.append(
             legacy.CourseInstance(
                 code=legacy.normalize_code(row["code"]),

@@ -1,0 +1,76 @@
+{
+  "id": "radiological-health-sciences-minor",
+  "poid": "35933",
+  "name": "Radiological Health Sciences Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35933",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.721338+00:00",
+  "course_credits": {
+    "HSCI 31200": 3.0,
+    "HSCI 31300": 2.0,
+    "HSCI 51400": 2.0,
+    "HSCI 52600": 3.0,
+    "HSCI 54000": 3.0,
+    "HSCI 53400": 3.0,
+    "HSCI 57000": 3.0,
+    "HSCI 57200": 3.0,
+    "HSCI 57400": 2.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Fundamental Required Courses",
+      "credit_target": 5.0,
+      "kind": "all_of",
+      "courses": [
+        "HSCI 31200",
+        "HSCI 31300"
+      ]
+    },
+    {
+      "name": "Advanced Required Courses",
+      "credit_target": 8.0,
+      "kind": "all_of",
+      "courses": [
+        "HSCI 51400",
+        "HSCI 52600",
+        "HSCI 54000"
+      ]
+    },
+    {
+      "name": "Selective:",
+      "credit_target": [
+        2.0,
+        3.0
+      ],
+      "kind": "choose",
+      "options": [
+        "HSCI 53400",
+        "HSCI 57000",
+        "HSCI 57200",
+        "HSCI 57400"
+      ],
+      "choose_credits": 2.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "HSCI 31200",
+    "HSCI 31300",
+    "HSCI 51400",
+    "HSCI 52600",
+    "HSCI 53400",
+    "HSCI 54000",
+    "HSCI 57000",
+    "HSCI 57200",
+    "HSCI 57400",
+    "IN 47907"
+  ]
+}

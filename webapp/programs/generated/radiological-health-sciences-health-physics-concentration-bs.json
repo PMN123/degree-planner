@@ -1,0 +1,417 @@
+{
+  "id": "radiological-health-sciences-health-physics-concentration-bs",
+  "poid": "34790",
+  "name": "Radiological Health Sciences: Health Physics Concentration, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34790",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.664679+00:00",
+  "course_credits": {
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "BIOL 20300": 4.0,
+    "BIOL 20400": 4.0,
+    "CHM 11510": 3.0,
+    "CHM 11520": 1.0,
+    "CHM 11610": 3.0,
+    "CHM 11620": 1.0,
+    "HSCI 10100": 2.0,
+    "HSCI 20100": 3.0,
+    "HSCI 20200": 3.0,
+    "HSCI 31200": 3.0,
+    "HSCI 31300": 2.0,
+    "HSCI 51400": 2.0,
+    "HSCI 54000": 3.0,
+    "STAT 30100": 3.0,
+    "HSCI 48500": 1.0,
+    "HSCI 52600": 3.0,
+    "HSCI 53400": 3.0,
+    "HSCI 57400": 2.0,
+    "MA 26100": 4.0,
+    "NUCL 20000": 3.0,
+    "NUCL 20500": 2.0,
+    "NUCL 30500": 2.0,
+    "PHYS 17200": 4.0,
+    "PHYS 24100": 3.0,
+    "PHYS 34000": 2.0,
+    "PHYS 34202": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "MA 16200": 5.0,
+    "MA 16600": 4.0,
+    "COM 11400": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Health Physics Concentration",
+      "credit_target": [
+        51.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "HSCI 48500",
+        "HSCI 52600",
+        "HSCI 53400",
+        "HSCI 57400",
+        "MA 26100",
+        "NUCL 20000",
+        "NUCL 20500",
+        "NUCL 30500",
+        "PHYS 17200",
+        "PHYS 24100",
+        "PHYS 34000",
+        "PHYS 34202"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "MA 16100 / MA 16500",
+          "courses": [
+            "MA 16100",
+            "MA 16500"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "MA 16200 / MA 16600",
+          "courses": [
+            "MA 16200",
+            "MA 16600"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "17-18 Credits",
+      "items": [
+        {
+          "code": "BIOL 11000",
+          "title": "Fundamentals Of Biology I (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11510",
+          "title": "General Chemistry I",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11520",
+          "title": "General Chemistry I - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "HSCI 10100",
+          "title": "Introduction To The Health Sciences Professions",
+          "credits": 2.0
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16500",
+              "title": "Analytic Geometry And Calculus I (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "BIOL 11100",
+          "title": "Fundamentals Of Biology II (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "CHM 11610",
+          "title": "General Chemistry II",
+          "credits": 3.0
+        },
+        {
+          "code": "CHM 11620",
+          "title": "General Chemistry II - Laboratory (UCC: SCI)",
+          "credits": 1.0
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0,
+          "alternatives": [
+            {
+              "code": "ENGL 10800",
+              "title": "First Year Composition (UCC: IL/WC)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "MA 16200",
+          "title": "Plane Analytic Geometry And Calculus II (UCC: QR)",
+          "credits": 5.0,
+          "alternatives": [
+            {
+              "code": "MA 16600",
+              "title": "Analytic Geometry And Calculus II (UCC: QR)",
+              "credits": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "BIOL 20300",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "HSCI 20200",
+          "title": "Essentials Of Environmental, Occupational, And Radiological Health Sciences (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 26100",
+          "title": "Multivariate Calculus (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "code": "PHYS 17200",
+          "title": "Modern Mechanics (UCC: SCI)",
+          "credits": 4.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "14 Credits",
+      "items": [
+        {
+          "code": "BIOL 20400",
+          "title": "Human Anatomy And Physiology (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "HSCI 20100",
+          "title": "Principles Of Public Health Science (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 20000",
+          "title": "Introduction to Nuclear Engineering",
+          "credits": 3.0
+        },
+        {
+          "code": "NUCL 20500",
+          "title": "Nuclear Engineering Undergraduate Laboratory I",
+          "credits": 2.0
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "HSCI 31200",
+          "title": "Radiation Science Fundamentals",
+          "credits": 3.0
+        },
+        {
+          "code": "HSCI 31300",
+          "title": "Principles Of Radiation Detection And Measurement",
+          "credits": 2.0
+        },
+        {
+          "code": "NUCL 30500",
+          "title": "Nuclear Engineering Undergraduate Laboratory II",
+          "credits": 2.0
+        },
+        {
+          "code": "PHYS 24100",
+          "title": "Electricity And Optics (UCC: SCI)",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "HSCI Humanities, Behavioral/Social Sciences Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "HSCI 51400",
+          "title": "Radiation Instrumentation Laboratory",
+          "credits": 2.0
+        },
+        {
+          "code": "HSCI 54000",
+          "title": "Radiation Biology",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 34000",
+          "title": "Quantum Science Laboratory",
+          "credits": 2.0
+        },
+        {
+          "code": "PHYS 34202",
+          "title": "Introduction To Quantum Science",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "English Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "14-15 Credits",
+      "items": [
+        {
+          "code": "HSCI 52600",
+          "title": "Principles Of Health Physics And Dosimetry",
+          "credits": 3.0
+        },
+        {
+          "code": "HSCI 57400",
+          "title": "Medical Health Physics",
+          "credits": 2.0
+        },
+        {
+          "code": "HSCI 48500",
+          "title": "Health Physics Internship",
+          "credits": 1.0
+        },
+        {
+          "label": "MA/CS Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Health Physics Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "code": "HSCI 53400",
+          "title": "Applied Health Physics",
+          "credits": 3.0
+        },
+        {
+          "label": "MA/CS Science Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "General Science or RADH Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "BIOL 11000",
+    "BIOL 11100",
+    "BIOL 20300",
+    "BIOL 20400",
+    "CHM 11510",
+    "CHM 11520",
+    "CHM 11610",
+    "CHM 11620",
+    "COM 11400",
+    "ENGL 10600",
+    "ENGL 10800",
+    "HEA 01348",
+    "HELP 02026",
+    "HSCI 10100",
+    "HSCI 20100",
+    "HSCI 20200",
+    "HSCI 31200",
+    "HSCI 31300",
+    "HSCI 48500",
+    "HSCI 51400",
+    "HSCI 52600",
+    "HSCI 53400",
+    "HSCI 54000",
+    "HSCI 57400",
+    "IN 47907",
+    "MA 16100",
+    "MA 16200",
+    "MA 16500",
+    "MA 16600",
+    "MA 26100",
+    "NUCL 20000",
+    "NUCL 20500",
+    "NUCL 30500",
+    "PHIL 11100",
+    "PHIL 29000",
+    "PHYS 17200",
+    "PHYS 24100",
+    "PHYS 34000",
+    "PHYS 34202",
+    "STAT 30100"
+  ]
+}

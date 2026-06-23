@@ -1,0 +1,647 @@
+{
+  "id": "organizational-behavior-and-human-resource-management-bs",
+  "poid": "37202",
+  "name": "Organizational Behavior & Human Resource Management, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=37202",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.641074+00:00",
+  "course_credits": {
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "DSB 18700": 2.0,
+    "ACCT 20000": 3.0,
+    "ACCT 20100": 3.0,
+    "STRT 25400": 3.0,
+    "DSB 25500": 1.0,
+    "DSB 29500": 1.0,
+    "QM 30500": 3.0,
+    "QM 30600": 3.0,
+    "FIN 31000": 3.0,
+    "MKTG 32400": 3.0,
+    "MIS 38200": 3.0,
+    "SCOM 36100": 3.0,
+    "OBHR 44428": 3.0,
+    "OBHR 33000": 3.0,
+    "FIN 24500": 3.0,
+    "MKTG 22300": 3.0,
+    "DSB 23500": 3.0,
+    "CS 17600": 3.0,
+    "OBHR 33500": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "OBHR 44362": 3.0,
+    "OBHR 44430": 3.0,
+    "STRT 33100": 3.0,
+    "ECON 38500": 3.0,
+    "ECON 32500": 3.0,
+    "ECON 36100": 3.0,
+    "ECON 36200": 3.0,
+    "ECON 45100": 3.0,
+    "ECON 46100": 3.0,
+    "ECON 46600": 3.0,
+    "ECON 47100": 3.0,
+    "ECON 48500": 3.0,
+    "OBHR 42930": 3.0,
+    "OBHR 55360": 2.0,
+    "OBHR 44429": 3.0,
+    "OBHR 44431": 3.0,
+    "OBHR 44434": 3.0,
+    "OBHR 44433": 3.0,
+    "OBHR 44690": 3.0,
+    "OBHR 49700": 3.0,
+    "PSY 27200": 3.0,
+    "MA 16010": 3.0,
+    "MA 16100": 5.0,
+    "MA 16500": 4.0,
+    "STAT 30301": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 35500": 3.0,
+    "PSY 12000": 3.0,
+    "SOC 10000": 3.0,
+    "SCLA 10100": 3.0,
+    "ENGL 10600": 4.0,
+    "ENGL 10800": 3.0,
+    "HONR 19903": 3.0,
+    "SCLA 10200": 3.0,
+    "COM 11400": 3.0,
+    "COM 21700": 3.0,
+    "EDPS 31500": 3.0,
+    "STRT 35200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Department/Program Major Courses",
+      "credit_target": 85.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 61.0,
+          "kind": "all_of",
+          "courses": [
+            "ECON 25100",
+            "ECON 25200",
+            "DSB 18700",
+            "ACCT 20000",
+            "ACCT 20100",
+            "STRT 25400",
+            "DSB 25500",
+            "DSB 29500",
+            "QM 30500",
+            "QM 30600",
+            "FIN 31000",
+            "MKTG 32400",
+            "MIS 38200",
+            "SCOM 36100",
+            "OBHR 44428",
+            "OBHR 33000",
+            "OBHR 44362",
+            "OBHR 44430",
+            "STRT 33100"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "FIN 24500 / MKTG 22300 / DSB 23500 / CS 17600",
+              "courses": [
+                "FIN 24500",
+                "MKTG 22300",
+                "DSB 23500",
+                "CS 17600"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "OBHR 33500 / ENGL 42000 / ENGL 42100",
+              "courses": [
+                "OBHR 33500",
+                "ENGL 42000",
+                "ENGL 42100"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Economics Selective",
+          "credit_target": 3.0,
+          "kind": "choose",
+          "options": [
+            "ECON 38500",
+            "ECON 32500",
+            "ECON 36100",
+            "ECON 36200",
+            "ECON 45100",
+            "ECON 46100",
+            "ECON 46600",
+            "ECON 47100",
+            "ECON 48500"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Major Selectives",
+          "credit_target": 18.0,
+          "kind": "choose",
+          "options": [
+            "ECON 48500",
+            "OBHR 42930",
+            "OBHR 55360",
+            "OBHR 44429",
+            "OBHR 44431",
+            "OBHR 44434",
+            "OBHR 44433",
+            "OBHR 44690",
+            "OBHR 49700",
+            "PSY 27200"
+          ],
+          "choose_credits": 18.0
+        },
+        {
+          "name": "Cultural Competencies I Selectives",
+          "credit_target": 3.0,
+          "kind": "credits",
+          "credits": 3.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental Courses",
+      "credit_target": [
+        23.0,
+        35.0
+      ],
+      "kind": "choose",
+      "options": [
+        "MA 16010",
+        "MA 16100",
+        "MA 16500",
+        "STAT 30301",
+        "STAT 35000",
+        "STAT 35500",
+        "PSY 12000",
+        "SOC 10000",
+        "SCLA 10100",
+        "ENGL 10600",
+        "ENGL 10800",
+        "HONR 19903",
+        "SCLA 10200",
+        "COM 11400",
+        "COM 21700",
+        "EDPS 31500"
+      ],
+      "choose_credits": 23.0
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "14-20 Credits",
+      "items": [
+        {
+          "label": "Calculus Selective \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16100",
+          "title": "Plane Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 5.0
+        },
+        {
+          "code": "MA 16500",
+          "title": "Analytic Geometry And Calculus I (UCC: QR)",
+          "credits": 4.0
+        },
+        {
+          "label": "Written Communication Selective \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "ENGL 10600",
+          "title": "First Year Composition With Conferences (UCC: IL/WC)",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL 10800",
+          "title": "First Year Composition (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "code": "SCLA 10100",
+          "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "code": "HONR 19903",
+          "title": "Interdisciplinary Approaches In Writing (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "SOC 10000",
+          "title": "Introductory Sociology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #1 Selective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "ACCT 20000",
+          "title": "Introductory Accounting",
+          "credits": 3.0
+        },
+        {
+          "code": "DSB 18700",
+          "title": "Intro To AI For Business (UCC:AI)",
+          "credits": 2.0
+        },
+        {
+          "code": "ECON 25100",
+          "title": "Microeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "DSB 23500",
+          "title": "Data Tools For Business",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CS 17600",
+              "title": "Data Engineering In Python",
+              "credits": 3.0
+            },
+            {
+              "code": "FIN 24500",
+              "title": "Introduction To Finance With Excel",
+              "credits": 3.0
+            },
+            {
+              "code": "MKTG 22300",
+              "title": "Marketing Excel Fundamentals And Data Analytics",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Oral Communication Selective \u2666",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "SCLA 10200",
+          "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "COM 11400",
+          "title": "Fundamentals Of Speech Communication (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "COM 21700",
+          "title": "Science Writing And Presentation (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "code": "EDPS 31500",
+          "title": "Collaborative Leadership: Interpersonal Skills (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science #2 Selective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-18 Credits",
+      "items": [
+        {
+          "code": "DSB 25500",
+          "title": "Foundations Of Business Ethics",
+          "credits": 1.0
+        },
+        {
+          "code": "DSB 29500",
+          "title": "Business Professional Development & Career Strategies",
+          "credits": 1.0
+        },
+        {
+          "code": "OBHR 33000",
+          "title": "Introduction To Organizational Behavior",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 25400",
+          "title": "Legal Foundations Of Business I",
+          "credits": 3.0
+        },
+        {
+          "label": "Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "code": "STAT 30301",
+          "title": "Probability And Statistics For Business",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 35000",
+          "title": "Introduction To Statistics",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 35500",
+          "title": "Statistics For Data Science",
+          "credits": 3.0
+        },
+        {
+          "label": "Science, Technology & Society Selective",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "ACCT 20100",
+          "title": "Management Accounting I",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON 25200",
+          "title": "Macroeconomics (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "code": "QM 30500",
+          "title": "Business Statistics",
+          "credits": 3.0
+        },
+        {
+          "code": "OBHR 44428",
+          "title": "Human Resources Management",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 35200",
+          "title": "Strategic Management",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "FIN 31000",
+          "title": "Financial Management",
+          "credits": 3.0
+        },
+        {
+          "code": "MIS 38200",
+          "title": "Management Information Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "MKTG 32400",
+          "title": "Marketing Management",
+          "credits": 3.0
+        },
+        {
+          "code": "OBHR 44430",
+          "title": "Staffing: Talent Acquisition",
+          "credits": 3.0
+        },
+        {
+          "label": "Cultural Competency I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "OBHR 44362",
+          "title": "Leadership In A Changing World",
+          "credits": 3.0
+        },
+        {
+          "code": "QM 30600",
+          "title": "Management Science",
+          "credits": 3.0
+        },
+        {
+          "code": "OBHR 33500",
+          "title": "Strategic Business Writing (UCC: WC)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "ENGL 42000",
+              "title": "Business Writing",
+              "credits": 3.0
+            },
+            {
+              "code": "ENGL 42100",
+              "title": "Technical Writing",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Major Selective I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "SCOM 36100",
+          "title": "Operations Management",
+          "credits": 3.0
+        },
+        {
+          "code": "STRT 33100",
+          "title": "Development And Impact of Equal Employment Law",
+          "credits": 3.0
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective IV",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "label": "Major Selective V",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Major Selective VI",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 20100",
+    "COM 11400",
+    "COM 21700",
+    "CS 17600",
+    "DSB 18700",
+    "DSB 23500",
+    "DSB 25500",
+    "DSB 29500",
+    "ECON 25100",
+    "ECON 25200",
+    "ECON 32500",
+    "ECON 36100",
+    "ECON 36200",
+    "ECON 38500",
+    "ECON 45100",
+    "ECON 46100",
+    "ECON 46600",
+    "ECON 47100",
+    "ECON 48500",
+    "EDPS 31500",
+    "ENGL 10600",
+    "ENGL 10800",
+    "ENGL 42000",
+    "ENGL 42100",
+    "FIN 24500",
+    "FIN 31000",
+    "HEA 01348",
+    "HELP 02026",
+    "HONR 19903",
+    "IN 47907",
+    "MA 16010",
+    "MA 16100",
+    "MA 16500",
+    "MGMT 00352",
+    "MGMT 20000",
+    "MGMT 30500",
+    "MGMT 31000",
+    "MGMT 32400",
+    "MGMT 35000",
+    "MGMT 36100",
+    "MGMT 38200",
+    "MIS 38200",
+    "MKTG 22300",
+    "MKTG 32400",
+    "OBHR 33000",
+    "OBHR 33500",
+    "OBHR 42930",
+    "OBHR 44362",
+    "OBHR 44428",
+    "OBHR 44429",
+    "OBHR 44430",
+    "OBHR 44431",
+    "OBHR 44433",
+    "OBHR 44434",
+    "OBHR 44690",
+    "OBHR 49700",
+    "OBHR 55360",
+    "PSY 12000",
+    "PSY 27200",
+    "QM 30500",
+    "QM 30600",
+    "SCLA 10100",
+    "SCLA 10200",
+    "SCOM 36100",
+    "SOC 10000",
+    "STAT 30301",
+    "STAT 35000",
+    "STAT 35500",
+    "STRT 25400",
+    "STRT 33100",
+    "STRT 35200"
+  ]
+}

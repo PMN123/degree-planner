@@ -1,0 +1,51 @@
+{
+  "id": "aerospace-studies-minor",
+  "poid": "34823",
+  "name": "Aerospace Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 14,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34823",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.756283+00:00",
+  "course_credits": {
+    "AFT 23000": 1.0,
+    "AFT 24000": 1.0,
+    "AFT 35100": 3.0,
+    "AFT 36100": 3.0,
+    "AFT 47100": 3.0,
+    "AFT 48100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 14.0,
+      "kind": "all_of",
+      "courses": [
+        "AFT 23000",
+        "AFT 24000",
+        "AFT 35100",
+        "AFT 36100",
+        "AFT 47100",
+        "AFT 48100"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AFT 23000",
+    "AFT 24000",
+    "AFT 35100",
+    "AFT 36100",
+    "AFT 47100",
+    "AFT 48100",
+    "HELP 02026",
+    "IN 47907",
+    "SFT 30000",
+    "SFT 40000"
+  ]
+}

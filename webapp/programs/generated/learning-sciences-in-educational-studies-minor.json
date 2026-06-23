@@ -1,0 +1,90 @@
+{
+  "id": "learning-sciences-in-educational-studies-minor",
+  "poid": "35087",
+  "name": "Learning Sciences in Educational Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35087",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.877506+00:00",
+  "course_credits": {
+    "EDPS 10101": 3.0,
+    "EDPS 23500": 2.0,
+    "EDPS 22200": 1.0,
+    "EDPS 26500": 3.0,
+    "EDPS 30101": 3.0,
+    "EDPS 32700": 1.0,
+    "EDPS 49000": 1.0,
+    "EDPS 49100": 1.0,
+    "EDPS 53300": 3.0,
+    "EDPS 53400": 3.0,
+    "EDST 20010": 1.0,
+    "EDPS 24001": 2.0,
+    "EDPS 54000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": [
+        5.0,
+        6.0
+      ],
+      "kind": "all_of",
+      "courses": [
+        "EDPS 10101",
+        "EDPS 23500"
+      ]
+    },
+    {
+      "name": "Selectives",
+      "credit_target": [
+        9.0,
+        10.0
+      ],
+      "kind": "choose",
+      "options": [
+        "EDPS 22200",
+        "EDPS 26500",
+        "EDPS 30101",
+        "EDPS 32700",
+        "EDPS 49000",
+        "EDPS 49100",
+        "EDPS 53300",
+        "EDPS 53400",
+        "EDST 20010",
+        {
+          "kind": "one_of",
+          "name": "EDPS 24001 / EDPS 54000",
+          "courses": [
+            "EDPS 24001",
+            "EDPS 54000"
+          ]
+        }
+      ],
+      "choose_credits": 9.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "EDPS 10101",
+    "EDPS 22200",
+    "EDPS 23500",
+    "EDPS 24001",
+    "EDPS 26500",
+    "EDPS 30101",
+    "EDPS 32700",
+    "EDPS 49000",
+    "EDPS 49100",
+    "EDPS 53300",
+    "EDPS 53400",
+    "EDPS 54000",
+    "EDST 20010",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

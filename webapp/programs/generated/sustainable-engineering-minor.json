@@ -1,0 +1,174 @@
+{
+  "id": "sustainable-engineering-minor",
+  "poid": "34769",
+  "name": "Sustainable Engineering Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34769",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.483396+00:00",
+  "course_credits": {
+    "AGEC 40600": 3.0,
+    "FNR 40600": 3.0,
+    "CCE 35500": 3.0,
+    "EEE 35500": 3.0,
+    "EEE 53000": 3.0,
+    "POL 32700": 3.0,
+    "PHIL 29000": 3.0,
+    "POL 22300": 3.0,
+    "POL 32300": 3.0,
+    "POL 42300": 3.0,
+    "POL 52300": 3.0,
+    "AGEC 52500": 3.0,
+    "AGEC 52800": 3.0,
+    "CCE 55700": 3.0,
+    "EAPS 37500": 3.0,
+    "EEE 30000": 3.0,
+    "EEE 38000": 3.0,
+    "NUCL 47000": 3.0,
+    "NUCL 56300": 3.0,
+    "ME 44000": 3.0,
+    "AD 39700": 3.0,
+    "CM 51000": 3.0,
+    "ME 55300": 3.0,
+    "ABE 58000": 3.0,
+    "CHE 55800": 3.0,
+    "ECE 50616": 3.0,
+    "ME 51400": 3.0,
+    "ME 52900": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 12.0,
+      "kind": "all_of",
+      "courses": [
+        "EEE 53000",
+        "POL 32700"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "AGEC 40600 / FNR 40600",
+          "courses": [
+            "AGEC 40600",
+            "FNR 40600"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "CCE 35500 / EEE 35500",
+          "courses": [
+            "CCE 35500",
+            "EEE 35500"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Public Policy",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "PHIL 29000",
+        "POL 22300",
+        "POL 32300",
+        "POL 42300",
+        "POL 52300"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Technical Courses",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Agriculture/Environmental Sustainability",
+          "kind": "all_of",
+          "courses": [
+            "AGEC 52500",
+            "AGEC 52800",
+            "CCE 55700",
+            "EAPS 37500",
+            "EEE 30000",
+            "EEE 38000"
+          ]
+        },
+        {
+          "name": "Energy Conversion and Storage",
+          "kind": "all_of",
+          "courses": [
+            "NUCL 47000",
+            "NUCL 56300"
+          ]
+        },
+        {
+          "name": "Energy Utilization and Equipment",
+          "kind": "all_of",
+          "courses": [
+            "ME 44000"
+          ]
+        },
+        {
+          "name": "Sustainable Design and Construction",
+          "kind": "all_of",
+          "courses": [
+            "AD 39700",
+            "CM 51000",
+            "ME 55300"
+          ]
+        },
+        {
+          "name": "Sustainable Energy Options",
+          "kind": "choose",
+          "options": [
+            "ABE 58000",
+            "CHE 55800",
+            "ECE 50616",
+            "ME 51400",
+            "ME 52900"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ABE 58000",
+    "AD 39700",
+    "AGEC 40600",
+    "AGEC 52500",
+    "AGEC 52800",
+    "CCE 35500",
+    "CCE 55700",
+    "CHE 55800",
+    "CM 51000",
+    "EAPS 37500",
+    "ECE 50616",
+    "EEE 30000",
+    "EEE 35500",
+    "EEE 38000",
+    "EEE 53000",
+    "FNR 40600",
+    "HELP 02026",
+    "IN 47907",
+    "ME 44000",
+    "ME 51400",
+    "ME 52900",
+    "ME 55300",
+    "NUCL 47000",
+    "NUCL 56300",
+    "PHIL 29000",
+    "POL 22300",
+    "POL 32300",
+    "POL 32700",
+    "POL 42300",
+    "POL 52300"
+  ]
+}

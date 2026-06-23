@@ -1,0 +1,387 @@
+{
+  "id": "animation-and-visual-effects-bs",
+  "poid": "35720",
+  "name": "Animation And Visual Effects, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35720",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.088086+00:00",
+  "course_credits": {
+    "CGT 11200": 3.0,
+    "CGT 11505": 3.0,
+    "CGT 11600": 3.0,
+    "CGT 11800": 3.0,
+    "CGT 12300": 3.0,
+    "CGT 14700": 3.0,
+    "CGT 24100": 3.0,
+    "CGT 24600": 3.0,
+    "CGT 41101": 2.0,
+    "CGT 41201": 2.0,
+    "CGT 44200": 3.0,
+    "CGT 44201": 3.0,
+    "TECH 12000": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "SCLA 10100": 3.0,
+    "SCLA 10200": 3.0,
+    "PHYS 22000": 4.0,
+    "ENGL 20500": 3.0,
+    "ENGL 30400": 3.0,
+    "ENGL 41900": 3.0,
+    "ENGL 42000": 3.0,
+    "ENGL 42100": 3.0,
+    "IET 31600": 3.0,
+    "PSY 20100": 3.0,
+    "STAT 22500": 3.0,
+    "STAT 30100": 3.0,
+    "STAT 35000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 52.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 37.0,
+          "kind": "all_of",
+          "courses": [
+            "CGT 11200",
+            "CGT 11505",
+            "CGT 11600",
+            "CGT 11800",
+            "CGT 12300",
+            "CGT 14700",
+            "CGT 24100",
+            "CGT 24600",
+            "CGT 41101",
+            "CGT 41201",
+            "CGT 44200",
+            "CGT 44201",
+            "TECH 12000"
+          ]
+        },
+        {
+          "name": "CGT Entertainment Selectives",
+          "credit_target": 15.0,
+          "kind": "credits",
+          "credits": 15.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        10.0,
+        17.0
+      ],
+      "kind": "credits",
+      "credits": 10.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16-18 Credits",
+      "items": [
+        {
+          "code": "CGT 11200",
+          "title": "Sketching For Visualization And Communication",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 11600",
+          "title": "Geometric Modeling For Visualization And Communication",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 11800",
+          "title": "Fundamentals Of Imaging Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 12300",
+          "title": "Animation Foundations I",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 11505",
+          "title": "Scripting And Computational Thinking",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 14700",
+          "title": "Visual Effects Introduction",
+          "credits": 3.0
+        },
+        {
+          "code": "CGT 24100",
+          "title": "Introduction To Computer Animation",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 24600",
+          "title": "Compositing I",
+          "credits": 3.0
+        },
+        {
+          "code": "SCLA 10100",
+          "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+          "credits": 3.0
+        },
+        {
+          "label": "CGT Entertainment Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Entertainment Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "SCLA 10200",
+          "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+          "credits": 3.0
+        },
+        {
+          "label": "CGT Entertainment Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "CGT 44200",
+          "title": "Production For Computer Animation",
+          "credits": 3.0
+        },
+        {
+          "label": "CGT Entertainment Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Entertainment Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Technical Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Statistics Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "13-17 Credits",
+      "items": [
+        {
+          "code": "CGT 44200",
+          "title": "Production For Computer Animation",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CGT Global Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "CGT 41101",
+          "title": "Contemporary Problems In Applied Computer Graphics I",
+          "credits": 2.0
+        },
+        {
+          "label": "Technical Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "CGT 41201",
+          "title": "Contemporary Problems In Applied Computer Graphics II",
+          "credits": 2.0
+        },
+        {
+          "label": "Technical Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "Humanities Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Advanced English Selective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "CGT 11200",
+    "CGT 11505",
+    "CGT 11600",
+    "CGT 11800",
+    "CGT 12300",
+    "CGT 14700",
+    "CGT 20500",
+    "CGT 24100",
+    "CGT 24600",
+    "CGT 41101",
+    "CGT 41201",
+    "CGT 44200",
+    "CGT 44201",
+    "ENGL 20500",
+    "ENGL 30400",
+    "ENGL 41900",
+    "ENGL 42000",
+    "ENGL 42100",
+    "HEA 01348",
+    "HELP 02026",
+    "IET 31600",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "PHYS 22000",
+    "PSY 20100",
+    "SCLA 10100",
+    "SCLA 10200",
+    "STAT 22500",
+    "STAT 30100",
+    "STAT 35000",
+    "TECH 12000"
+  ]
+}

@@ -1,12 +1,25 @@
 # Boiler Degree Planner
 
-A **code-backed Purdue graduation planner**. Pick any combination of majors and
-minors, drag your courses into semesters, and get a live audit: degree
-requirement coverage, prerequisite checks (parsed from the real catalog),
-semester loads, credit totals, and cross-degree course overlap.
+A **code-backed Purdue graduation planner**. Search **any** Purdue major and
+minor (separately), and the app **auto-builds a recommended 4-year schedule** from
+Purdue's official sample plan — required "core" courses placed for you, selectives
+left as **fillable slots that only accept the courses actually approved for that
+requirement**, and concentrations (like CS's *Algorithmic Foundations*) surfaced as
+a **"pick a track" card** that expands into that track's constrained slots. The plan
+**auto-arranges itself into prerequisite order on generation** — no manual fixing.
+Then **drag courses between terms** and it **screams the instant a move breaks
+something**: dotted lines connect prerequisites and corequisites, a backward edge
+turns red, the course flags its missing prereq, and a one-click **Fix** (or **⚖
+Auto-arrange** for the whole board) moves it to the earliest legal term. Live on the
+side: requirement coverage, term loads, credit totals, and cross-degree overlap.
 
-It runs on the **Python standard library only** — no Flask, no npm, no build
-step. `python webapp/server.py` and open your browser.
+Coverage spans the **whole catalog** — a scraped index of **~960 programs** with
+**~445 undergraduate majors/minors** parsed into editable requirement files.
+
+The JSON API runs on the **Python standard library only** (`python webapp/server.py`)
+and serves a prebuilt React bundle, so end users still launch it with one command.
+The richer UI is a **React + TypeScript + Vite** app (`webapp/frontend/`) — rebuild
+it with `npm` only when you change the frontend.
 
 ![Boiler Degree Planner — dark theme](docs/screenshot-dark.png)
 
@@ -24,6 +37,13 @@ Most planners are spreadsheets. This one actually *understands* the rules:
   tree of requirements (`all_of`, `one_of`, `choose N`, credit buckets, and
   selectable concentration tracks). Adding a new major is one JSON file — **no
   code changes**. A generic engine evaluates them all.
+- **Selectives that stay honest.** A "choose 3" requirement gives you three slots,
+  each restricted to the official approved list — you can't accidentally fill a
+  concentration spot with an unrelated course. Concentrations are pick-a-track cards
+  that expand into the right constrained slots.
+- **Self-arranging plans.** Generated plans run an auto-fix pass that pushes every
+  course behind its prerequisites, so the starting schedule is already legal — no
+  hunting for the courses that "can't actually go there."
 - **Real prerequisite logic.** Prereqs are parsed from scraped Purdue catalog
   text with full `AND`/`OR`/parentheses, Banner rule blocks, and
   concurrent-enrollment handling — then checked term-by-term against your plan.
@@ -44,31 +64,63 @@ Most planners are spreadsheets. This one actually *understands* the rules:
 git clone https://github.com/PMN123/degree-planner.git
 cd degree-planner
 
-# The web app itself needs nothing beyond Python 3.10+.
-# (requests + beautifulsoup4 are only needed for live/on-demand scraping.)
+# The server needs nothing beyond Python 3.10+ and serves the prebuilt React
+# bundle in webapp/static/dist. (requests + beautifulsoup4 enable scraping.)
 pip install -r requirements.txt        # optional, enables scraping
-
 python webapp/server.py                # -> http://127.0.0.1:8000
 ```
 
-Then open <http://127.0.0.1:8000>. Click **Load example** for an instant CS +
-Math demo, pick your own degrees from the pills, and start adding courses. Your
-plan auto-saves to the browser (`localStorage`) — nothing is sent anywhere.
+Open <http://127.0.0.1:8000>, search a major and a minor, set your start term and
+any completed credit, and hit **Generate my 4-year plan**. Drag cards between terms,
+fill the dashed selective/elective slots, and watch the audit react live. Your plan
+auto-saves to the browser (`localStorage`) — nothing is sent anywhere.
+
+### Developing the frontend
+
+The UI lives in [`webapp/frontend/`](webapp/frontend/) (React + TS + Vite). Rebuild
+the served bundle after changing it:
+
+```bash
+cd webapp/frontend
+npm install
+npm run build          # -> ../static/dist (what python server.py serves)
+# or: npm run dev      # hot-reload at :5173, proxies /api to python server on :8000
+```
+
+### Scraping programs (any major/minor)
+
+[`scrape_programs.py`](scrape_programs.py) builds `programs_index.json` (the
+searchable list) and best-effort requirement files in `webapp/programs/generated/`.
+`catalog.purdue.edu` is behind AWS WAF, so a tiny headless-Chrome helper
+([`scrape/waf_fetch.mjs`](scrape/waf_fetch.mjs), Playwright) mints the challenge
+token once; the Python scraper reuses it.
+
+```bash
+cd scrape && npm install && cd ..        # one-time: Playwright (uses system Chrome)
+python scrape_programs.py                                  # index only (~960 programs)
+python scrape_programs.py --requirements --types major,minor   # + requirement trees
+```
 
 Useful URLs:
 
-- `http://127.0.0.1:8000/?demo=1` — open with the example plan loaded
 - `http://127.0.0.1:8000/?theme=light` — force light mode
-- `http://127.0.0.1:8000/?demo=1&open=computer-science-bs` — open the CS requirement breakdown
 
 ---
 
-## Adding a program (any major)
+## Adding / fixing a program (any major)
 
-Drop a JSON file in [`webapp/programs/`](webapp/programs/). The server picks it up
-on restart. Shared building blocks (calculus sequence, university core) live in
-[`webapp/programs/_shared.json`](webapp/programs/_shared.json) and are pulled in
-with `{ "$include": "name" }`.
+Programs load from three layers, merged by slug (later wins):
+
+1. `programs_index.json` — the scraped searchable list (lightweight).
+2. [`webapp/programs/generated/`](webapp/programs/generated/) — best-effort scraped
+   requirement trees, flagged `"verified": false` (shown as **draft** in the UI).
+3. [`webapp/programs/verified/`](webapp/programs/verified/) — hand-checked files that
+   **override** the generated draft for the same slug.
+
+To correct a program, copy its `generated/<slug>.json` to `verified/<slug>.json`, fix
+it, and restart the server. Shared building blocks (calculus, university core) live in
+[`webapp/programs/_shared.json`](webapp/programs/_shared.json), pulled in with
+`{ "$include": "name" }`.
 
 ```jsonc
 {

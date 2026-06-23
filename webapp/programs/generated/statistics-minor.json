@@ -1,0 +1,213 @@
+{
+  "id": "statistics-minor",
+  "poid": "34869",
+  "name": "Statistics Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34869",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:32.358543+00:00",
+  "course_credits": {
+    "IE 33000": 3.0,
+    "QM 30500": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 35500": 3.0,
+    "STAT 50300": 3.0,
+    "STAT 51100": 3.0,
+    "STAT 22500": 3.0,
+    "STAT 31100": 3.0,
+    "STAT 41600": 3.0,
+    "MA 41600": 3.0,
+    "IE 23000": 3.0,
+    "STAT 51200": 3.0,
+    "IE 33600": 3.0,
+    "STAT 41700": 3.0,
+    "STAT 51400": 3.0,
+    "STAT 51300": 3.0,
+    "IE 53000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Area 1",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "IE 33000",
+        "QM 30500",
+        "STAT 35000",
+        "STAT 35500",
+        "STAT 50300",
+        "STAT 51100"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Area 2",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "STAT 22500",
+        "STAT 31100",
+        "STAT 41600",
+        "MA 41600",
+        "IE 23000"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Area 3",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "STAT 51200"
+      ]
+    },
+    {
+      "name": "Area 4",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "IE 33600",
+        "STAT 41700",
+        "STAT 51400",
+        {
+          "kind": "one_of",
+          "name": "STAT 51300 / IE 53000",
+          "courses": [
+            "STAT 51300",
+            "IE 53000"
+          ]
+        }
+      ],
+      "choose_credits": 6.0
+    },
+    {
+      "name": "Due to Minor Requirements and Pre-requisites, Below are the Suggested Pathways for Specific Majors",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Daniels School of Business Majors",
+          "kind": "all_of",
+          "courses": [
+            "QM 30500",
+            "STAT 51200",
+            "STAT 51300",
+            "STAT 51400"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "STAT 31100 / STAT 22500",
+              "courses": [
+                "STAT 31100",
+                "STAT 22500"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Industrial Engineering Majors",
+          "kind": "all_of",
+          "courses": [
+            "IE 33000",
+            "IE 23000",
+            "STAT 51200",
+            "STAT 51400"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "STAT 51300 / IE 53000",
+              "courses": [
+                "STAT 51300",
+                "IE 53000"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pharmacy, Nursing, Biology, Agriculture Majors (Majors that utilize STAT 50300)",
+          "kind": "all_of",
+          "courses": [
+            "STAT 50300",
+            "STAT 51200",
+            "STAT 51300",
+            "STAT 51400"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "STAT 22500 / STAT 31100",
+              "courses": [
+                "STAT 22500",
+                "STAT 31100"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Majors that require MA 26100 (Calculus III)",
+          "kind": "all_of",
+          "courses": [
+            "STAT 35000",
+            "STAT 41600",
+            "STAT 51200",
+            "STAT 41700",
+            "STAT 51400"
+          ]
+        },
+        {
+          "name": "Majors that do not require MA 26100 (Calculus III)",
+          "kind": "all_of",
+          "courses": [
+            "STAT 22500",
+            "STAT 51200",
+            "STAT 51300",
+            "STAT 51400"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "STAT 35000 / STAT 51100",
+              "courses": [
+                "STAT 35000",
+                "STAT 51100"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IE 23000",
+    "IE 33000",
+    "IE 33600",
+    "IE 53000",
+    "IN 47907",
+    "MA 26100",
+    "MA 41600",
+    "PSY 20100",
+    "QM 30500",
+    "SOC 38200",
+    "STAT 22500",
+    "STAT 31100",
+    "STAT 35000",
+    "STAT 35500",
+    "STAT 41600",
+    "STAT 41700",
+    "STAT 50100",
+    "STAT 50300",
+    "STAT 51100",
+    "STAT 51200",
+    "STAT 51300",
+    "STAT 51400"
+  ]
+}

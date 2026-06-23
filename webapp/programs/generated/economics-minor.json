@@ -1,0 +1,119 @@
+{
+  "id": "economics-minor",
+  "poid": "34792",
+  "name": "Economics Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34792",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.506542+00:00",
+  "course_credits": {
+    "ECON 25100": 3.0,
+    "ECON 25200": 3.0,
+    "ECON 34000": 3.0,
+    "ECON 35200": 3.0,
+    "ECON 32500": 3.0,
+    "ECON 36000": 3.0,
+    "ECON 36100": 3.0,
+    "ECON 36200": 3.0,
+    "ECON 36500": 3.0,
+    "ECON 36700": 3.0,
+    "ECON 37000": 3.0,
+    "ECON 37600": 3.0,
+    "ECON 38000": 3.0,
+    "ECON 38500": 3.0,
+    "ECON 39000": 1.0,
+    "ECON 43200": 3.0,
+    "ECON 45100": 3.0,
+    "ECON 46100": 3.0,
+    "ECON 46600": 3.0,
+    "ECON 47100": 3.0,
+    "ECON 48500": 3.0,
+    "ECON 49900": 3.0,
+    "ECON 32200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 6.0,
+      "kind": "all_of",
+      "courses": [
+        "ECON 25100",
+        "ECON 25200"
+      ]
+    },
+    {
+      "name": "Intermediate Theory Course",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "ECON 34000",
+        "ECON 35200"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "Economics Selectives",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "ECON 32500",
+        "ECON 34000",
+        "ECON 35200",
+        "ECON 36000",
+        "ECON 36100",
+        "ECON 36200",
+        "ECON 36500",
+        "ECON 36700",
+        "ECON 37000",
+        "ECON 37600",
+        "ECON 38000",
+        "ECON 38500",
+        "ECON 39000",
+        "ECON 43200",
+        "ECON 45100",
+        "ECON 46100",
+        "ECON 46600",
+        "ECON 47100",
+        "ECON 48500",
+        "ECON 49900",
+        "ECON 32200"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ECON 25100",
+    "ECON 25200",
+    "ECON 2XXXX",
+    "ECON 32200",
+    "ECON 32500",
+    "ECON 34000",
+    "ECON 35200",
+    "ECON 36000",
+    "ECON 36100",
+    "ECON 36200",
+    "ECON 36500",
+    "ECON 36700",
+    "ECON 37000",
+    "ECON 37600",
+    "ECON 38000",
+    "ECON 38500",
+    "ECON 39000",
+    "ECON 43200",
+    "ECON 45100",
+    "ECON 46100",
+    "ECON 46600",
+    "ECON 47100",
+    "ECON 48500",
+    "ECON 49900",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

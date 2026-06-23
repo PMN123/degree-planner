@@ -1,0 +1,46 @@
+{
+  "id": "event-and-meeting-management-minor",
+  "poid": "35910",
+  "name": "Event and Meeting Management Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35910",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.809426+00:00",
+  "course_credits": {
+    "HTM 16200": 3.0,
+    "HTM 17300": 3.0,
+    "HTM 26200": 3.0,
+    "HTM 36200": 3.0,
+    "HTM 46200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 15.0,
+      "kind": "all_of",
+      "courses": [
+        "HTM 16200",
+        "HTM 17300",
+        "HTM 26200",
+        "HTM 36200",
+        "HTM 46200"
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "HTM 16200",
+    "HTM 17300",
+    "HTM 26200",
+    "HTM 36200",
+    "HTM 46200",
+    "IN 47907"
+  ]
+}

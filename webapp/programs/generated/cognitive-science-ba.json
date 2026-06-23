@@ -1,0 +1,604 @@
+{
+  "id": "cognitive-science-ba",
+  "poid": "36753",
+  "name": "Cognitive Science, BA",
+  "degree": "BA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=36753",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.352058+00:00",
+  "course_credits": {
+    "PHIL 15000": 3.0,
+    "CS 18200": 3.0,
+    "SLHS 22700": 3.0,
+    "LING 20100": 3.0,
+    "PHIL 22100": 3.0,
+    "PHIL 25501": 3.0,
+    "PHIL 35501": 3.0,
+    "PHIL 45501": 3.0,
+    "PSY 12000": 3.0,
+    "ANSC 30300": 3.0,
+    "BIOL 11000": 4.0,
+    "BIOL 11100": 4.0,
+    "EDCI 22200": 3.0,
+    "EDPS 23500": 2.0,
+    "ENTM 21000": 3.0,
+    "HIST 30701": 3.0,
+    "OBHR 33000": 3.0,
+    "SOC 34000": 3.0,
+    "PHIL 25601": 3.0,
+    "PHIL 35000": 3.0,
+    "PHIL 43200": 3.0,
+    "PHIL 46500": 3.0,
+    "PHIL 11100": 3.0,
+    "PHIL 11400": 3.0,
+    "PHIL 20700": 3.0,
+    "PHIL 20800": 3.0,
+    "PHIL 24000": 3.0,
+    "PHIL 25701": 3.0,
+    "PHIL 27000": 3.0,
+    "PHIL 28000": 3.0,
+    "PHIL 29000": 3.0,
+    "PHIL 40300": 3.0,
+    "PHIL 41100": 3.0,
+    "PHIL 42400": 3.0,
+    "BIOL 20300": 4.0,
+    "BIOL 20400": 4.0,
+    "BIOL 23100": 3.0,
+    "BIOL 32800": 4.0,
+    "BIOL 43600": 3.0,
+    "BIOL 53800": 3.0,
+    "BIOL 56200": 3.0,
+    "BIOL 58705": 3.0,
+    "BIOL 59200": 3.0,
+    "CS 18000": 4.0,
+    "CS 24000": 3.0,
+    "CS 24300": 3.0,
+    "CS 25100": 3.0,
+    "CS 45800": 3.0,
+    "CS 47100": 3.0,
+    "CS 47500": 3.0,
+    "ECON 25100": 3.0,
+    "ECON 26000": 3.0,
+    "ECON 30100": 3.0,
+    "ECON 34000": 3.0,
+    "ECON 37200": 3.0,
+    "ECON 45100": 3.0,
+    "ECON 47100": 3.0,
+    "LING 31100": 3.0,
+    "LING 31500": 3.0,
+    "LING 32100": 3.0,
+    "LING 56300": 3.0,
+    "PSY 20000": 3.0,
+    "PSY 22200": 3.0,
+    "PSY 23500": 3.0,
+    "PSY 24000": 3.0,
+    "PSY 27200": 3.0,
+    "PSY 30500": 3.0,
+    "PSY 30600": 3.0,
+    "PSY 31000": 3.0,
+    "PSY 31100": 3.0,
+    "PSY 35000": 3.0,
+    "PSY 40300": 3.0,
+    "STAT 11300": 3.0,
+    "STAT 22500": 3.0,
+    "STAT 31100": 3.0,
+    "STAT 41600": 3.0,
+    "STAT 35000": 3.0,
+    "STAT 35500": 3.0,
+    "STAT 41700": 3.0,
+    "STAT 51100": 3.0,
+    "STAT 51200": 3.0,
+    "PHIL 41500": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Liberal Arts Curriculum",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Area A: Foundations in Cognitive Science",
+          "credit_target": 21.0,
+          "kind": "all_of",
+          "courses": [
+            "PHIL 22100",
+            "PHIL 25501",
+            "PHIL 35501",
+            "PHIL 45501",
+            "PSY 12000"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "PHIL 15000 / CS 18200",
+              "courses": [
+                "PHIL 15000",
+                "CS 18200"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "SLHS 22700 / LING 20100",
+              "courses": [
+                "SLHS 22700",
+                "LING 20100"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Area B: Breadth Requirement",
+          "credit_target": [
+            3.0,
+            4.0
+          ],
+          "kind": "choose",
+          "options": [
+            "ANSC 30300",
+            "BIOL 11000",
+            "BIOL 11100",
+            "EDCI 22200",
+            "EDPS 23500",
+            "ENTM 21000",
+            "HIST 30701",
+            "OBHR 33000",
+            "SOC 34000"
+          ],
+          "choose_credits": 3.0
+        },
+        {
+          "name": "Area C: Foundations in Philosophy",
+          "credit_target": 6.0,
+          "kind": "choose",
+          "options": [
+            {
+              "kind": "one_of",
+              "name": "PHIL 25601 / PHIL 35000 / PHIL 43200 / PHIL 46500",
+              "courses": [
+                "PHIL 25601",
+                "PHIL 35000",
+                "PHIL 43200",
+                "PHIL 46500"
+              ]
+            },
+            "PHIL 11100",
+            "PHIL 11400",
+            "PHIL 20700",
+            "PHIL 20800",
+            "PHIL 24000",
+            "PHIL 25701",
+            "PHIL 27000",
+            "PHIL 28000",
+            "PHIL 29000",
+            "PHIL 40300",
+            "PHIL 41100",
+            "PHIL 42400"
+          ],
+          "choose_credits": 6.0
+        },
+        {
+          "name": "Area D: Required Focus",
+          "credit_target": 12.0,
+          "kind": "all_of",
+          "courses": [
+            "BIOL 20300",
+            "BIOL 20400",
+            "BIOL 23100",
+            "BIOL 32800",
+            "BIOL 43600",
+            "BIOL 53800",
+            "BIOL 56200",
+            "BIOL 58705",
+            "BIOL 59200",
+            "CS 18000",
+            "CS 18200",
+            "CS 24000",
+            "CS 24300",
+            "CS 25100",
+            "CS 45800",
+            "CS 47100",
+            "CS 47500",
+            "ECON 25100",
+            "ECON 26000",
+            "ECON 30100",
+            "ECON 34000",
+            "ECON 37200",
+            "ECON 45100",
+            "ECON 47100",
+            "LING 20100",
+            "LING 31100",
+            "LING 31500",
+            "LING 32100",
+            "LING 56300",
+            "PSY 20000",
+            "PSY 22200",
+            "PSY 23500",
+            "PSY 24000",
+            "PSY 27200",
+            "PSY 30500",
+            "PSY 30600",
+            "PSY 31000",
+            "PSY 31100",
+            "PSY 35000",
+            "PSY 40300",
+            "STAT 11300",
+            "STAT 22500",
+            "STAT 31100",
+            "STAT 41600",
+            "STAT 35000",
+            "STAT 35500",
+            "STAT 41700",
+            "STAT 51100",
+            "STAT 51200"
+          ]
+        },
+        {
+          "name": "Area E: Research Requirement",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "PHIL 41500"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "LING 20100",
+          "title": "Introduction To Linguistics (UCC: BSS)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "SLHS 22700",
+              "title": "Elements Of Linguistics (UCC: BSS)",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "PHIL 25501",
+          "title": "Introduction To Cognitive Science: Minds, Brains, And Machines",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "PHIL 15000",
+          "title": "Principles Of Logic (UCC: QR)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "CS 18200",
+              "title": "Foundations Of Computer Science",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "PSY 12000",
+          "title": "Elementary Psychology (UCC: BSS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "PHIL 22100",
+          "title": "Introduction To Philosophy Of Science (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Area B Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area D Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Selective #1",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "PHIL 35501",
+          "title": "Major Questions In Cognitive Science",
+          "credits": 3.0
+        },
+        {
+          "label": "Area C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area D Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV (CLA Core III; CLA Core I: 6 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "PHIL 45501",
+          "title": "Studies In Cognitive Science",
+          "credits": 3.0
+        },
+        {
+          "label": "Area C Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Area D: Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 5 of 6)",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "PHIL 41500",
+          "title": "Philosophy Practicum",
+          "credits": 1.0
+        },
+        {
+          "label": "Area D Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 6 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science Selective #2",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": []
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": []
+    }
+  ],
+  "referenced_courses": [
+    "ANSC 30300",
+    "BIOL 11000",
+    "BIOL 11100",
+    "BIOL 20300",
+    "BIOL 20400",
+    "BIOL 23100",
+    "BIOL 32800",
+    "BIOL 43600",
+    "BIOL 53800",
+    "BIOL 56200",
+    "BIOL 58705",
+    "BIOL 59200",
+    "CS 18000",
+    "CS 18200",
+    "CS 24000",
+    "CS 24300",
+    "CS 25100",
+    "CS 45800",
+    "CS 47100",
+    "CS 47500",
+    "ECON 25100",
+    "ECON 26000",
+    "ECON 30100",
+    "ECON 34000",
+    "ECON 37200",
+    "ECON 45100",
+    "ECON 47100",
+    "EDCI 22200",
+    "EDPS 23500",
+    "ENTM 21000",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 30701",
+    "IN 47907",
+    "LING 20100",
+    "LING 31100",
+    "LING 31500",
+    "LING 32100",
+    "LING 56300",
+    "OBHR 33000",
+    "PHIL 11100",
+    "PHIL 11400",
+    "PHIL 15000",
+    "PHIL 20700",
+    "PHIL 20800",
+    "PHIL 22100",
+    "PHIL 24000",
+    "PHIL 25501",
+    "PHIL 25601",
+    "PHIL 25701",
+    "PHIL 27000",
+    "PHIL 28000",
+    "PHIL 29000",
+    "PHIL 35000",
+    "PHIL 35501",
+    "PHIL 40300",
+    "PHIL 41100",
+    "PHIL 41500",
+    "PHIL 42400",
+    "PHIL 43200",
+    "PHIL 45501",
+    "PHIL 46500",
+    "PSY 12000",
+    "PSY 20000",
+    "PSY 22200",
+    "PSY 23500",
+    "PSY 24000",
+    "PSY 27200",
+    "PSY 30500",
+    "PSY 30600",
+    "PSY 31000",
+    "PSY 31100",
+    "PSY 35000",
+    "PSY 40300",
+    "SLHS 22700",
+    "SOC 34000",
+    "STAT 11300",
+    "STAT 22500",
+    "STAT 31100",
+    "STAT 35000",
+    "STAT 35500",
+    "STAT 41600",
+    "STAT 41700",
+    "STAT 51100",
+    "STAT 51200"
+  ]
+}

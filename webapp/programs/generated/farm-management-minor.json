@@ -1,0 +1,143 @@
+{
+  "id": "farm-management-minor",
+  "poid": "34701",
+  "name": "Farm Management Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34701",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.412165+00:00",
+  "course_credits": {
+    "AGEC 31000": 3.0,
+    "AGEC 41100": 4.0,
+    "ACCT 20000": 3.0,
+    "ACCT 21200": 3.0,
+    "AGEC 20300": 3.0,
+    "AGEC 20400": 3.0,
+    "ECON 25100": 3.0,
+    "AGEC 22000": 3.0,
+    "AGEC 30500": 3.0,
+    "AGEC 32100": 3.0,
+    "AGEC 33100": 3.0,
+    "AGEC 35200": 3.0,
+    "AGEC 41000": 3.0,
+    "AGEC 41200": 1.0,
+    "AGEC 42100": 3.0,
+    "AGEC 42400": 3.0,
+    "AGEC 42500": 3.0,
+    "AGEC 45600": 3.0,
+    "AGEC 45000": 3.0,
+    "AGEC 52400": 3.0,
+    "AGEC 45500": 3.0,
+    "STRT 45500": 3.0,
+    "OBHR 44301": 3.0,
+    "OBHR 44362": 3.0,
+    "TLI 11200": 3.0,
+    "TLI 15200": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 13.0,
+      "kind": "all_of",
+      "courses": [
+        "AGEC 31000",
+        "AGEC 41100"
+      ],
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "ACCT 20000 / ACCT 21200",
+          "courses": [
+            "ACCT 20000",
+            "ACCT 21200"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "AGEC 20300 / AGEC 20400 / ECON 25100",
+          "courses": [
+            "AGEC 20300",
+            "AGEC 20400",
+            "ECON 25100"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Selective Courses",
+      "credit_target": 5.0,
+      "kind": "choose",
+      "options": [
+        "AGEC 22000",
+        "AGEC 30500",
+        "AGEC 32100",
+        "AGEC 33100",
+        "AGEC 35200",
+        "AGEC 41000",
+        "AGEC 41200",
+        "AGEC 42100",
+        "AGEC 42400",
+        "AGEC 42500",
+        "AGEC 45600",
+        "AGEC 45000",
+        "AGEC 52400",
+        {
+          "kind": "one_of",
+          "name": "AGEC 45500 / STRT 45500",
+          "courses": [
+            "AGEC 45500",
+            "STRT 45500"
+          ]
+        },
+        {
+          "kind": "one_of",
+          "name": "OBHR 44301 / OBHR 44362 / TLI 11200 / TLI 15200",
+          "courses": [
+            "OBHR 44301",
+            "OBHR 44362",
+            "TLI 11200",
+            "TLI 15200"
+          ]
+        }
+      ],
+      "choose_credits": 5.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ACCT 20000",
+    "ACCT 21200",
+    "AGEC 20300",
+    "AGEC 20400",
+    "AGEC 22000",
+    "AGEC 30500",
+    "AGEC 31000",
+    "AGEC 32100",
+    "AGEC 33100",
+    "AGEC 35200",
+    "AGEC 41000",
+    "AGEC 41100",
+    "AGEC 41200",
+    "AGEC 42100",
+    "AGEC 42400",
+    "AGEC 42500",
+    "AGEC 45000",
+    "AGEC 45500",
+    "AGEC 45600",
+    "AGEC 52400",
+    "ECON 25100",
+    "HELP 02026",
+    "IN 47907",
+    "OBHR 44301",
+    "OBHR 44362",
+    "STRT 45500",
+    "TLI 11200",
+    "TLI 15200"
+  ]
+}

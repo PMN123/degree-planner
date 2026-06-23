@@ -1,0 +1,483 @@
+{
+  "id": "german-ba-language-and-culture-track",
+  "poid": "34889",
+  "name": "German, BA (Language & Culture Track)",
+  "degree": "BA (Language & Culture Track)",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34889",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.983413+00:00",
+  "course_credits": {
+    "GER 10100": 3.0,
+    "GER 10200": 3.0,
+    "GER 20100": 3.0,
+    "GER 20200": 3.0,
+    "GER 20500": 4.0,
+    "GER 22300": 3.0,
+    "GER 22400": 3.0,
+    "GER 30100": 3.0,
+    "GER 30200": 3.0,
+    "GER 32300": 3.0,
+    "GER 24100": 3.0,
+    "GER 40100": 3.0,
+    "GER 40200": 3.0,
+    "GER 34100": 3.0,
+    "GER 34200": 3.0,
+    "GER 56100": 3.0,
+    "GER 56200": 3.0,
+    "GER 56300": 3.0,
+    "GER 48000": 3.0,
+    "GER 58100": 3.0,
+    "GER 33000": 3.0,
+    "GER 42400": 3.0,
+    "GER 49800": 3.0,
+    "GER 52400": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Pre-requisite Language Courses",
+      "kind": "all_of",
+      "courses": [
+        "GER 10100",
+        "GER 10200",
+        "GER 20100",
+        "GER 20200",
+        "GER 20500",
+        "GER 22300",
+        "GER 22400"
+      ]
+    },
+    {
+      "name": "German Major",
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. German Language",
+          "credit_target": 6.0,
+          "kind": "all_of",
+          "courses": [
+            "GER 30100"
+          ],
+          "children": [
+            {
+              "kind": "one_of",
+              "name": "GER 30200 / GER 32300",
+              "courses": [
+                "GER 30200",
+                "GER 32300"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B. German Literature",
+          "credit_target": 3.0,
+          "kind": "all_of",
+          "courses": [
+            "GER 24100"
+          ]
+        },
+        {
+          "name": "Language & Culture Track",
+          "kind": "all_of",
+          "courses": [
+            "GER 40100",
+            "GER 40200",
+            "GER 34100",
+            "GER 34200",
+            "GER 56100",
+            "GER 56200",
+            "GER 56300",
+            "GER 48000",
+            "GER 58100",
+            "GER 32300",
+            "GER 33000",
+            "GER 42400",
+            "GER 48000",
+            "GER 49800",
+            "GER 52400",
+            "GER 56100",
+            "GER 56200",
+            "GER 56300",
+            "GER 58100"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core",
+      "credit_target": [
+        35.0,
+        76.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Core I: Disciplinary Diversity",
+          "credit_target": [
+            6.0,
+            18.0
+          ],
+          "kind": "credits",
+          "credits": 6.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core II: Social Diversity",
+          "credit_target": [
+            1.0,
+            3.0
+          ],
+          "kind": "credits",
+          "credits": 1.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            21.0,
+            36.0
+          ],
+          "kind": "credits",
+          "credits": 21.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        11.0,
+        52.0
+      ],
+      "kind": "credits",
+      "credits": 11.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "GER 10100",
+          "title": "German Level I (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (CLA Core I: 1 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Quantitative Reasoning",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Behavioral/Social Sciences (CLA Core I: 2 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "GER 10200",
+          "title": "German Level II (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (CLA Core I: 3 of 6)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 4 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "GER 20100",
+          "title": "German Level III (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Science",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core II: Social Diversity",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "CLA Core I: 5 of 6",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "GER 20200",
+          "title": "German Level IV (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Area G: German Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science, Technology, and Society",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "GER 30100",
+          "title": "German Level V (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Information Literacy",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "GER 24100",
+          "title": "Introduction To The Study Of German Literature",
+          "credits": 3.0
+        },
+        {
+          "code": "GER 30200",
+          "title": "German Level VI (UCC: HUM)",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "GER 32300",
+              "title": "German Level VI: Science And Engineering",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "GER 40100",
+          "title": "German Level VII (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "GER 34100",
+          "title": "German Literature I: From The Middle Ages To The 18th Century",
+          "credits": 3.0
+        },
+        {
+          "label": "Area G: German Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "GER 40200",
+          "title": "German Level VIII (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "GER 34200",
+          "title": "German Literature II: From The 18th Century To The 21st Century",
+          "credits": 3.0
+        },
+        {
+          "code": "GER 48000",
+          "title": "German Civilization",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "GER 58100",
+              "title": "German Culture",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "code": "GER 56100",
+          "title": "The Structure Of German I: Phonology And Derivational Morphology",
+          "credits": 3.0,
+          "alternatives": [
+            {
+              "code": "GER 56200",
+              "title": "The Structure Of German II: Inflectional Morphology And Syntax",
+              "credits": 3.0
+            },
+            {
+              "code": "GER 56300",
+              "title": "History Of The German Language",
+              "credits": 3.0
+            }
+          ]
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "GER 10100",
+    "GER 10200",
+    "GER 20100",
+    "GER 20200",
+    "GER 20500",
+    "GER 22300",
+    "GER 22400",
+    "GER 24100",
+    "GER 30100",
+    "GER 30200",
+    "GER 32300",
+    "GER 33000",
+    "GER 34100",
+    "GER 34200",
+    "GER 40100",
+    "GER 40200",
+    "GER 42400",
+    "GER 48000",
+    "GER 49800",
+    "GER 52400",
+    "GER 56100",
+    "GER 56200",
+    "GER 56300",
+    "GER 58100",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

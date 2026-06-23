@@ -1,0 +1,366 @@
+{
+  "id": "unmanned-aerial-systems-bs",
+  "poid": "35071",
+  "name": "Unmanned Aerial Systems, BS",
+  "degree": "BS",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 120,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35071",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.370237+00:00",
+  "course_credits": {
+    "AT 10000": 1.0,
+    "AT 10200": 3.0,
+    "AT 10300": 3.0,
+    "AT 10600": 3.0,
+    "AT 10901": 3.0,
+    "AT 11901": 3.0,
+    "AT 20200": 3.0,
+    "AT 20300": 3.0,
+    "AT 20900": 3.0,
+    "AT 21900": 3.0,
+    "AT 26502": 3.0,
+    "AT 30901": 3.0,
+    "AT 31900": 3.0,
+    "AT 33502": 3.0,
+    "AT 40900": 3.0,
+    "AT 41901": 3.0,
+    "PHYS 22000": 4.0,
+    "SCLA 10100": 3.0,
+    "SCLA 10200": 3.0,
+    "TECH 12000": 3.0,
+    "MA 15800": 3.0,
+    "MA 16010": 3.0,
+    "STAT 30100": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 64.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "Required Major Courses",
+          "credit_target": 64.0,
+          "kind": "all_of",
+          "courses": [
+            "AT 10000",
+            "AT 10200",
+            "AT 10300",
+            "AT 10600",
+            "AT 10901",
+            "AT 11901",
+            "AT 20200",
+            "AT 20300",
+            "AT 20900",
+            "AT 21900",
+            "AT 26502",
+            "AT 30901",
+            "AT 31900",
+            "AT 33502",
+            "AT 40900",
+            "AT 41901"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "credit_target": [
+        13.0,
+        20.0
+      ],
+      "kind": "credits",
+      "credits": 13.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AT 10000",
+          "title": "Introduction To Aviation Technology",
+          "credits": 1.0
+        },
+        {
+          "code": "AT 10600",
+          "title": "Basic Aircraft Science",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 10901",
+          "title": "Introduction To Uncrewed Aircraft System Operations",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 15800",
+          "title": "Precalculus - Functions And Trigonometry (UCC: QR)",
+          "credits": 3.0
+        },
+        {
+          "code": "TECH 12000",
+          "title": "Design Thinking In Technology (UCC: IL/STS)",
+          "credits": 3.0
+        },
+        {
+          "code": "SCLA 10100",
+          "title": "Transformative Texts, Critical Thinking And Communication I: Antiquity To Modernity (UCC: IL/WC)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 10200",
+          "title": "Aviation Business",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 10300",
+          "title": "Aerospace Vehicle Propulsion And Tracking Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 11901",
+          "title": "Uncrewed Aerial Systems: Safety And Risk Management",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 26502",
+          "title": "Aircraft Electrical Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "MA 16010",
+          "title": "Applied Calculus I (UCC: QR)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16 Credits",
+      "items": [
+        {
+          "code": "AT 20200",
+          "title": "Aerospace Vehicle Systems Design, Analysis And Operations",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 20900",
+          "title": "Autonomous Aircraft Technology And Maintenance I",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 33502",
+          "title": "Avionics Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "PHYS 22000",
+          "title": "General Physics (UCC: SCI)",
+          "credits": 4.0
+        },
+        {
+          "code": "SCLA 10200",
+          "title": "Transformative Texts, Critical Thinking And Communication II: Modern World (UCC: OC)",
+          "credits": 3.0
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 20300",
+          "title": "Aviation Operations Management",
+          "credits": 3.0
+        },
+        {
+          "code": "AT 21900",
+          "title": "Autonomous Aircraft Technology And Maintenance II",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT 30100",
+          "title": "Elementary Statistical Methods (UCC: IL)",
+          "credits": 3.0
+        },
+        {
+          "label": "Global Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AT 30901",
+          "title": "Introduction To UAS Sensor Technology",
+          "credits": 3.0
+        },
+        {
+          "label": "UAS Related Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "UAS Related Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Humanities (UCC: HUM)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 31900",
+          "title": "Uncrewed Aircraft Systems: Applications, Data, And Documentation",
+          "credits": 3.0
+        },
+        {
+          "label": "UAS Related Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "UAS Related Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "15 Credits",
+      "items": [
+        {
+          "code": "AT 40900",
+          "title": "Advanced Air Mobility: Management And Operations",
+          "credits": 3.0
+        },
+        {
+          "label": "UAS Related Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Economics Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 6.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "13-19 Credits",
+      "items": [
+        {
+          "code": "AT 41901",
+          "title": "Advanced Air Mobility Capstone",
+          "credits": 3.0
+        },
+        {
+          "label": "UAS Related Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AT 10000",
+    "AT 10200",
+    "AT 10300",
+    "AT 10600",
+    "AT 10901",
+    "AT 11901",
+    "AT 20200",
+    "AT 20300",
+    "AT 20900",
+    "AT 21900",
+    "AT 26502",
+    "AT 30901",
+    "AT 31900",
+    "AT 33502",
+    "AT 40900",
+    "AT 41901",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MA 15800",
+    "MA 16010",
+    "PHYS 22000",
+    "SCLA 10100",
+    "SCLA 10200",
+    "STAT 30100",
+    "TECH 12000"
+  ]
+}

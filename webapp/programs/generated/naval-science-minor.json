@@ -1,0 +1,69 @@
+{
+  "id": "naval-science-minor",
+  "poid": "34827",
+  "name": "Naval Science Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34827",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:30.797123+00:00",
+  "course_credits": {
+    "NS 11000": 3.0,
+    "NS 21300": 3.0,
+    "NS 21400": 3.0,
+    "NS 41300": 3.0,
+    "NS 21200": 3.0,
+    "NS 31000": 3.0,
+    "NS 31100": 3.0,
+    "NS 33000": 3.0,
+    "NS 35000": 3.0,
+    "NS 44000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 12.0,
+      "kind": "all_of",
+      "courses": [
+        "NS 11000",
+        "NS 21300",
+        "NS 21400",
+        "NS 41300"
+      ]
+    },
+    {
+      "name": "Naval Science Selectives",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "NS 21200",
+        "NS 31000",
+        "NS 31100",
+        "NS 33000",
+        "NS 35000",
+        "NS 44000"
+      ],
+      "choose_credits": 3.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "IN 47907",
+    "NS 11000",
+    "NS 21200",
+    "NS 21300",
+    "NS 21400",
+    "NS 31000",
+    "NS 31100",
+    "NS 33000",
+    "NS 35000",
+    "NS 41300",
+    "NS 44000"
+  ]
+}

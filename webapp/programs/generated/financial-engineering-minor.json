@@ -1,0 +1,66 @@
+{
+  "id": "financial-engineering-minor",
+  "poid": "37139",
+  "name": "Financial Engineering Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=37139",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.559255+00:00",
+  "course_credits": {
+    "FIN 41000": 3.0,
+    "FIN 41100": 3.0,
+    "FIN 41650": 3.0,
+    "FIN 43800": 3.0,
+    "FIN 41150": 3.0,
+    "FIN 41220": 3.0,
+    "FIN 41250": 3.0,
+    "FIN 41310": 3.0,
+    "FIN 43900": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 9.0,
+      "kind": "all_of",
+      "courses": [
+        "FIN 41000",
+        "FIN 41100",
+        "FIN 41650",
+        "FIN 43800"
+      ]
+    },
+    {
+      "name": "Additional Courses- Choose Two",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        "FIN 41150",
+        "FIN 41220",
+        "FIN 41250",
+        "FIN 41310",
+        "FIN 43900"
+      ],
+      "choose_credits": 6.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "FIN 41000",
+    "FIN 41100",
+    "FIN 41150",
+    "FIN 41220",
+    "FIN 41250",
+    "FIN 41310",
+    "FIN 41650",
+    "FIN 43800",
+    "FIN 43900",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

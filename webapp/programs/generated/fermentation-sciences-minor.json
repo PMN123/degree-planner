@@ -1,0 +1,119 @@
+{
+  "id": "fermentation-sciences-minor",
+  "poid": "35268",
+  "name": "Fermentation Sciences Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 18,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35268",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:25.919690+00:00",
+  "course_credits": {
+    "FS 16300": 3.0,
+    "BCHM 30700": 3.0,
+    "BCHM 46200": 3.0,
+    "BCHM 56100": 3.0,
+    "BIOL 22100": 4.0,
+    "BIOL 43800": 3.0,
+    "ABE 22600": 2.0,
+    "ABE 30400": 3.0,
+    "ABE 32700": 2.0,
+    "ABE 58000": 3.0,
+    "ABE 59100": 0.0,
+    "ANTH 25600": 3.0,
+    "FS 37200": 3.0,
+    "FS 37300": 1.0,
+    "FS 38100": 1.0,
+    "FS 38300": 1.0,
+    "FS 40100": 2.0,
+    "FS 40200": 1.0,
+    "FS 47000": 3.0,
+    "FS 49100": 1.0,
+    "FS 59100": 1.0,
+    "GER 28000": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Required Courses",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "FS 16300"
+      ]
+    },
+    {
+      "name": "Minor Selectives - Choose Two",
+      "credit_target": 6.0,
+      "kind": "choose",
+      "options": [
+        {
+          "kind": "one_of",
+          "name": "BCHM 30700 / BCHM 46200 / BCHM 56100 / BIOL 22100 / BIOL 43800",
+          "courses": [
+            "BCHM 30700",
+            "BCHM 46200",
+            "BCHM 56100",
+            "BIOL 22100",
+            "BIOL 43800"
+          ]
+        }
+      ],
+      "choose_credits": 6.0
+    },
+    {
+      "name": "Additional Courses",
+      "credit_target": 9.0,
+      "kind": "choose",
+      "options": [
+        "ABE 22600",
+        "ABE 30400",
+        "ABE 32700",
+        "ABE 58000",
+        "ABE 59100",
+        "ANTH 25600",
+        "FS 37200",
+        "FS 37300",
+        "FS 38100",
+        "FS 38300",
+        "FS 40100",
+        "FS 40200",
+        "FS 47000",
+        "FS 49100",
+        "FS 59100",
+        "GER 28000"
+      ],
+      "choose_credits": 9.0
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ABE 22600",
+    "ABE 30400",
+    "ABE 32700",
+    "ABE 58000",
+    "ABE 59100",
+    "ANTH 25600",
+    "BCHM 30700",
+    "BCHM 46200",
+    "BCHM 56100",
+    "BIOL 22100",
+    "BIOL 43800",
+    "FS 16300",
+    "FS 37200",
+    "FS 37300",
+    "FS 38100",
+    "FS 38300",
+    "FS 40100",
+    "FS 40200",
+    "FS 47000",
+    "FS 49100",
+    "FS 59100",
+    "GER 28000",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

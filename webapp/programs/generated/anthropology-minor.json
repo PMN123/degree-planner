@@ -1,0 +1,58 @@
+{
+  "id": "anthropology-minor",
+  "poid": "34835",
+  "name": "Anthropology Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 15,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34835",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:28.184266+00:00",
+  "course_credits": {
+    "ANTH 20100": 3.0,
+    "ANTH 20400": 3.0,
+    "ANTH 20500": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Required Course",
+      "credit_target": 3.0,
+      "kind": "all_of",
+      "courses": [
+        "ANTH 20100",
+        "ANTH 20400",
+        "ANTH 20500"
+      ]
+    },
+    {
+      "name": "B. Additional Anthropology Courses",
+      "credit_target": 6.0,
+      "kind": "credits",
+      "credits": 6.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    },
+    {
+      "name": "C. Additional Anthropology Courses 30000 level or higher",
+      "credit_target": 6.0,
+      "kind": "credits",
+      "credits": 6.0,
+      "placeholder": true,
+      "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "ANTH 10000",
+    "ANTH 20100",
+    "ANTH 20400",
+    "ANTH 20500",
+    "ANTH 30000",
+    "HELP 02026",
+    "IN 47907"
+  ]
+}

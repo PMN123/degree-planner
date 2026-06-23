@@ -1,0 +1,610 @@
+{
+  "id": "visual-communication-design-bfa",
+  "poid": "34918",
+  "name": "Visual Communication Design, BFA",
+  "degree": "BFA",
+  "type": "major",
+  "catalog_year": "catoid-19",
+  "total_credits": 126,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=34918",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:29.899873+00:00",
+  "course_credits": {
+    "AD 10500": 3.0,
+    "AD 10600": 3.0,
+    "AD 11300": 3.0,
+    "AD 39500": 3.0,
+    "AD 20500": 3.0,
+    "AD 20600": 3.0,
+    "AD 22800": 3.0,
+    "AD 22900": 3.0,
+    "AD 22901": 0.0,
+    "AD 31800": 3.0,
+    "AD 31900": 3.0,
+    "AD 33200": 3.0,
+    "AD 36600": 3.0,
+    "AD 43100": 3.0,
+    "AD 43200": 3.0,
+    "AD 52000": 3.0,
+    "AD 43400": 2.0,
+    "AD 22600": 3.0,
+    "AD 22700": 3.0,
+    "AD 23300": 3.0,
+    "AD 23400": 1.0,
+    "AD 26700": 3.0,
+    "AD 30400": 3.0,
+    "AD 38300": 3.0,
+    "AD 11400": 3.0,
+    "AD 11700": 3.0,
+    "AD 11900": 3.0,
+    "AD 20000": 3.0,
+    "AD 21300": 3.0,
+    "AD 22000": 3.0,
+    "AD 23600": 3.0,
+    "AD 24200": 3.0,
+    "AD 26200": 3.0,
+    "AD 27000": 3.0,
+    "AD 27500": 3.0,
+    "AD 32600": 3.0,
+    "AD 33100": 3.0,
+    "AD 33400": 3.0,
+    "AD 34200": 3.0,
+    "AD 36101": 3.0,
+    "AD 36200": 3.0,
+    "AD 36300": 3.0,
+    "AD 36500": 3.0,
+    "AD 36800": 3.0,
+    "AD 37000": 3.0,
+    "AD 38400": 3.0,
+    "AD 40000": 3.0,
+    "AD 41700": 3.0,
+    "AD 44200": 3.0,
+    "AD 46200": 3.0,
+    "AD 47000": 3.0,
+    "AD 47800": 1.0,
+    "AD 51200": 3.0,
+    "AD 52200": 3.0,
+    "AD 54200": 3.0,
+    "CGT 11600": 3.0,
+    "COM 10200": 3.0,
+    "COM 25600": 3.0,
+    "COM 26100": 3.0,
+    "COM 31800": 3.0,
+    "COM 33600": 3.0,
+    "COM 47800": 3.0,
+    "ENTR 31000": 3.0,
+    "ENTR 31500": 3.0,
+    "MFET 16300": 2.0,
+    "MKTG 32300": 3.0,
+    "MKTG 42300": 3.0,
+    "AD 14600": 3.0,
+    "AD 24600": 3.0,
+    "AD 26500": 3.0,
+    "AD 26600": 3.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "Departmental/Program Major Courses",
+      "credit_target": 78.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "A. Art & Design Core",
+          "credit_target": 12.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 10500",
+            "AD 10600",
+            "AD 11300",
+            "AD 39500"
+          ]
+        },
+        {
+          "name": "B. Visual Communication Design Core",
+          "credit_target": 35.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 20500",
+            "AD 20600",
+            "AD 22800",
+            "AD 22900",
+            "AD 22901",
+            "AD 31800",
+            "AD 31900",
+            "AD 33200",
+            "AD 36600",
+            "AD 43100",
+            "AD 43200",
+            "AD 52000",
+            "AD 43400"
+          ]
+        },
+        {
+          "name": "C. Visual Communication Design Supportive Requirement",
+          "credit_target": 19.0,
+          "kind": "all_of",
+          "courses": [
+            "AD 22600",
+            "AD 22700",
+            "AD 23300",
+            "AD 23400",
+            "AD 26700",
+            "AD 30400",
+            "AD 38300"
+          ]
+        },
+        {
+          "name": "D. Visual Communication Design Selectives",
+          "credit_target": 12.0,
+          "kind": "choose",
+          "options": [
+            "AD 11400",
+            "AD 11700",
+            "AD 11900",
+            "AD 20000",
+            "AD 21300",
+            "AD 22000",
+            "AD 23600",
+            "AD 24200",
+            "AD 26200",
+            "AD 27000",
+            "AD 27500",
+            "AD 32600",
+            "AD 33100",
+            "AD 33400",
+            "AD 34200",
+            "AD 36101",
+            "AD 36200",
+            "AD 36300",
+            "AD 36500",
+            "AD 36800",
+            "AD 37000",
+            "AD 38400",
+            "AD 40000",
+            "AD 41700",
+            "AD 44200",
+            "AD 46200",
+            "AD 47000",
+            "AD 47800",
+            "AD 51200",
+            "AD 52200",
+            "AD 54200",
+            "CGT 11600",
+            "COM 10200",
+            "COM 25600",
+            "COM 26100",
+            "COM 31800",
+            "COM 33600",
+            "COM 47800",
+            "ENTR 31000",
+            "ENTR 31500",
+            "MFET 16300",
+            "MKTG 32300",
+            "MKTG 42300",
+            {
+              "kind": "one_of",
+              "name": "AD 14600 / AD 24600",
+              "courses": [
+                "AD 14600",
+                "AD 24600"
+              ]
+            },
+            {
+              "kind": "one_of",
+              "name": "AD 26500 / AD 26600",
+              "courses": [
+                "AD 26500",
+                "AD 26600"
+              ]
+            }
+          ],
+          "choose_credits": 12.0
+        },
+        {
+          "name": "E. Other Program Requirements (Required, No Credit)",
+          "kind": "all_of",
+          "children": [
+            {
+              "name": "Sophomore Portfolio Review",
+              "kind": "all_of",
+              "courses": [
+                "AD 22901"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Departmental - Liberal Arts Core For BFA, Professional, & Education",
+      "credit_target": [
+        28.0,
+        55.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "LA Core III: Linguistic Diversity",
+          "credit_target": [
+            8.0,
+            16.0
+          ],
+          "kind": "credits",
+          "credits": 8.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        },
+        {
+          "name": "Foundational Requirements",
+          "credit_target": [
+            20.0,
+            39.0
+          ],
+          "kind": "credits",
+          "credits": 20.0,
+          "placeholder": true,
+          "note": "Auto-extracted placeholder \u2014 fill with approved courses; verify with advising."
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    {
+      "term": "Fall 1st Year",
+      "credit_hint": "15-17 Credits",
+      "items": [
+        {
+          "code": "AD 10500",
+          "title": "Design I",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 11300",
+          "title": "Basic Drawing (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 22600",
+          "title": "History Of Art To 1400 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Written Communication (UCC: WC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level I",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 1st Year",
+      "credit_hint": "15-16 Credits",
+      "items": [
+        {
+          "code": "AD 10600",
+          "title": "Design II",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 22700",
+          "title": "History Of Art Since 1400 (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 26700",
+          "title": "Digital Imaging",
+          "credits": 3.0
+        },
+        {
+          "label": "Oral Communication (UCC: OC)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level II",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 2nd Year",
+      "credit_hint": "16-19 Credits",
+      "items": [
+        {
+          "code": "AD 20500",
+          "title": "Design III",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 22800",
+          "title": "Visual Communication Design Computing I",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 23400",
+          "title": "Art And Design Internship Preparation",
+          "credits": 1.0
+        },
+        {
+          "code": "AD 39500",
+          "title": "History Of Design (UCC: STS)",
+          "credits": 3.0
+        },
+        {
+          "label": "Quantitative Reasoning (UCC: QR)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level III",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 2nd Year",
+      "credit_hint": "13-18 Credits",
+      "items": [
+        {
+          "code": "AD 20600",
+          "title": "Studio In Visual Communication Design",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 22900",
+          "title": "Visual Communication Design Computing II",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 22901",
+          "title": "Visual Communication Design Sophomore Review",
+          "credits": 0.0
+        },
+        {
+          "label": "Major Requirement D: Visual Communication Design Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "World Language Level IV",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #1 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 3rd Year",
+      "credit_hint": "16-21 Credits",
+      "items": [
+        {
+          "code": "AD 31800",
+          "title": "Fundamentals Of Interactive Multimedia Design",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 33200",
+          "title": "Visual Communication Design I",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 38300",
+          "title": "Modern Art (UCC: HUM)",
+          "credits": 3.0
+        },
+        {
+          "label": "Human Cultures: Behavioral/Social Sciences (UCC: BSS)",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Science #2 (UCC: SCI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 3rd Year",
+      "credit_hint": "15-20 Credits",
+      "items": [
+        {
+          "code": "AD 31900",
+          "title": "Web Design For Visual Communication",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 36600",
+          "title": "Visual Communication Design II",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Requirement D: Visual Communication Design Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Information Literacy (UCC: IL)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "AI Working Competency (UCC: AI)",
+          "credits": 1.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Fall 4th Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "AD 23300",
+          "title": "Electronic Media Studio",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 43100",
+          "title": "Visual Communication Design III",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 43400",
+          "title": "Professional Practice For Visual Communication Designers",
+          "credits": 2.0
+        },
+        {
+          "label": "Major Requirement D: Visual Communication Design Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 3.0,
+          "slot": true
+        }
+      ]
+    },
+    {
+      "term": "Spring 4th Year",
+      "credit_hint": "18 Credits",
+      "items": [
+        {
+          "code": "AD 30400",
+          "title": "Video Art",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 43200",
+          "title": "Visual Communication Design IV",
+          "credits": 3.0
+        },
+        {
+          "code": "AD 52000",
+          "title": "Student Visual Design Service",
+          "credits": 3.0
+        },
+        {
+          "label": "Major Requirement D: Visual Communication Design Selective",
+          "credits": 3.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 4.0,
+          "slot": true
+        },
+        {
+          "label": "Elective",
+          "credits": 2.0,
+          "slot": true
+        }
+      ]
+    }
+  ],
+  "referenced_courses": [
+    "AD 10500",
+    "AD 10600",
+    "AD 11300",
+    "AD 11400",
+    "AD 11700",
+    "AD 11900",
+    "AD 14600",
+    "AD 20000",
+    "AD 20500",
+    "AD 20600",
+    "AD 21300",
+    "AD 22000",
+    "AD 22600",
+    "AD 22700",
+    "AD 22800",
+    "AD 22900",
+    "AD 22901",
+    "AD 23300",
+    "AD 23400",
+    "AD 23600",
+    "AD 24200",
+    "AD 24600",
+    "AD 26200",
+    "AD 26500",
+    "AD 26600",
+    "AD 26700",
+    "AD 27000",
+    "AD 27500",
+    "AD 30400",
+    "AD 31800",
+    "AD 31900",
+    "AD 32600",
+    "AD 33100",
+    "AD 33200",
+    "AD 33400",
+    "AD 34200",
+    "AD 36101",
+    "AD 36200",
+    "AD 36300",
+    "AD 36500",
+    "AD 36600",
+    "AD 36800",
+    "AD 37000",
+    "AD 38300",
+    "AD 38400",
+    "AD 39500",
+    "AD 40000",
+    "AD 41700",
+    "AD 43100",
+    "AD 43200",
+    "AD 43400",
+    "AD 44200",
+    "AD 46200",
+    "AD 47000",
+    "AD 47800",
+    "AD 51200",
+    "AD 52000",
+    "AD 52200",
+    "AD 54200",
+    "CGT 11600",
+    "COM 10200",
+    "COM 25600",
+    "COM 26100",
+    "COM 31800",
+    "COM 33600",
+    "COM 47800",
+    "ENTR 31000",
+    "ENTR 31500",
+    "HEA 01348",
+    "HELP 02026",
+    "IN 47907",
+    "MFET 16300",
+    "MKTG 32300",
+    "MKTG 42300"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "occupational-and-environmental-health-and-safety-minor",
+  "poid": "35352",
+  "name": "Occupational and Environmental Health and Safety Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": null,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35352",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:27.711329+00:00",
+  "course_credits": {
+    "HSCI 34500": 3.0,
+    "HSCI 22500": 3.0,
+    "HSCI 34600": 4.0,
+    "HSCI 54600": 4.0,
+    "HSCI 34800": 3.0,
+    "HSCI 54800": 3.0,
+    "HSCI 35300": 3.0,
+    "HSCI 55300": 3.0,
+    "HSCI 44400": 3.0,
+    "HSCI 54400": 2.0,
+    "HSCI 44700": 2.0,
+    "HSCI 54700": 3.0,
+    "HSCI 58000": 2.0,
+    "HSCI 58001": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "HELP 02026",
+    "HSCI 22500",
+    "HSCI 34500",
+    "HSCI 34600",
+    "HSCI 34800",
+    "HSCI 35300",
+    "HSCI 44400",
+    "HSCI 44700",
+    "HSCI 54400",
+    "HSCI 54600",
+    "HSCI 54700",
+    "HSCI 54800",
+    "HSCI 55300",
+    "HSCI 58000",
+    "HSCI 58001",
+    "IN 47907"
+  ]
+}

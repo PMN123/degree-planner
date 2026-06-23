@@ -1,0 +1,126 @@
+{
+  "id": "global-studies-minor",
+  "poid": "35907",
+  "name": "Global Studies Minor",
+  "degree": "Minor",
+  "type": "minor",
+  "catalog_year": "catoid-19",
+  "total_credits": 11,
+  "source_url": "https://catalog.purdue.edu/preview_program.php?catoid=19&poid=35907",
+  "verified": false,
+  "generated_at": "2026-06-22T22:14:26.801115+00:00",
+  "course_credits": {
+    "EDCI 28550": 3.0,
+    "EDCI 58500": 3.0,
+    "AGEC 25000": 3.0,
+    "AGR 20100": 3.0,
+    "ANTH 20500": 3.0,
+    "EDCI 35002": 3.0,
+    "HIST 10500": 3.0,
+    "POL 23500": 3.0,
+    "EDCI 37001": 2.0,
+    "EDCI 52600": 3.0,
+    "EDCI 32650": 3.0,
+    "EDCI 35001": 2.0,
+    "EDCI 35004": 3.0,
+    "EDCI 45200": 1.0,
+    "EDPS 45200": 1.0
+  },
+  "notes": [
+    "Auto-generated from the Purdue catalog and NOT verified. Requirement structure is a best-effort parse \u2014 confirm against myPurduePlan / advising before relying on it."
+  ],
+  "requirements": [
+    {
+      "name": "A. Diversity, Equity, and Social Justice in Education",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "EDCI 28550",
+        "EDCI 58500"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "B. Multidisciplinary Course",
+      "credit_target": 3.0,
+      "kind": "choose",
+      "options": [
+        "AGEC 25000",
+        "AGR 20100",
+        "ANTH 20500",
+        "EDCI 35002",
+        "HIST 10500",
+        "POL 23500"
+      ],
+      "choose_credits": 3.0
+    },
+    {
+      "name": "C. International/Globalization Emphasis",
+      "credit_target": [
+        4.0,
+        7.0
+      ],
+      "kind": "all_of",
+      "children": [
+        {
+          "name": "2. Additional Courses",
+          "credit_target": [
+            4.0,
+            7.0
+          ],
+          "kind": "choose",
+          "options": [
+            "EDCI 37001",
+            {
+              "kind": "one_of",
+              "name": "EDCI 52600 / EDCI 32650",
+              "courses": [
+                "EDCI 52600",
+                "EDCI 32650"
+              ]
+            },
+            "EDCI 35001",
+            "EDCI 35004"
+          ],
+          "choose_credits": 4.0
+        }
+      ]
+    },
+    {
+      "name": "D. Global Studies Seminar",
+      "credit_target": 1.0,
+      "kind": "all_of",
+      "children": [
+        {
+          "kind": "one_of",
+          "name": "EDCI 45200 / EDPS 45200",
+          "courses": [
+            "EDCI 45200",
+            "EDPS 45200"
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_sequence": [],
+  "referenced_courses": [
+    "AGEC 25000",
+    "AGR 20100",
+    "ANTH 20500",
+    "EDCI 28550",
+    "EDCI 32650",
+    "EDCI 35001",
+    "EDCI 35002",
+    "EDCI 35004",
+    "EDCI 37001",
+    "EDCI 45200",
+    "EDCI 52600",
+    "EDCI 58500",
+    "EDPS 45200",
+    "HEA 01348",
+    "HELP 02026",
+    "HIST 10500",
+    "IN 47907",
+    "POL 23500"
+  ]
+}
