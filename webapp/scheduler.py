@@ -54,6 +54,12 @@ def parse_term(term: str) -> tuple[str, int]:
     return (m.group(1).capitalize(), int(m.group(2)))
 
 
+def term_key(term: str) -> tuple[int, int]:
+    """Sortable calendar position for a named semester."""
+    season, year = parse_term(term)
+    return year, {"Spring": 0, "Summer": 1, "Fall": 2}[season]
+
+
 def term_sequence(start: str, count: int, use_summers: bool = False) -> list[str]:
     season, year = parse_term(start)
     out: list[str] = []
@@ -363,7 +369,16 @@ def scaffold(
         notes.append(f"Trimmed ~{round(trimmed)} cr of open elective slots already covered by your transfer/AP credit.")
 
     _tag_shared(semesters, programs)
-    return {"semesters": semesters, "source": source, "notes": notes, "programs": program_ids}
+    target = constraints.get("target_term") or ""
+    last_term = semesters[-1]["term"] if semesters else start
+    target_on_track = not target or term_key(last_term) <= term_key(target)
+    if target and not target_on_track:
+        notes.append(
+            f"At {max_credits:g} credits per term this draft reaches {last_term}, after the {target} target. "
+            "Nothing was removed; raise the pace, add summers, or move courses manually to compare tradeoffs."
+        )
+    return {"semesters": semesters, "source": source, "notes": notes, "programs": program_ids,
+            "target": {"term": target, "last_term": last_term, "on_track": target_on_track}}
 
 
 def _trim_open_slots_for_completed(semesters, programs, completed, completed_set, cc) -> float:

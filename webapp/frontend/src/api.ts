@@ -34,7 +34,7 @@ export const api = {
     ).then((r) => r.results),
 
   scaffold: (programs: string[], completed: Course[], constraints: unknown) =>
-    jpost<{ semesters: Semester[]; source: string; notes: string[] }>("/api/plan/scaffold", {
+    jpost<{ semesters: Semester[]; source: string; notes: string[]; target?: { term: string; last_term: string; on_track: boolean } }>("/api/plan/scaffold", {
       programs,
       completed,
       constraints,

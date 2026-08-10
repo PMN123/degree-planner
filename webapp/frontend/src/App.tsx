@@ -3,6 +3,7 @@ import { useStore } from "./store";
 import { Wizard } from "./components/Wizard";
 import { Board } from "./components/Board";
 import { Toast } from "./components/Toast";
+import { PlanSwitcher } from "./components/PlanSwitcher";
 
 export function App() {
   const ready = useStore((s) => s.ready);
@@ -25,6 +26,7 @@ export function App() {
           </div>
         </div>
         <div className="topbar-actions">
+          <PlanSwitcher />
           {step === "board" && <BoardActions />}
           <button className="icon-btn" onClick={toggleTheme} aria-label="Toggle theme">{theme === "dark" ? "◑" : "◐"}</button>
         </div>
