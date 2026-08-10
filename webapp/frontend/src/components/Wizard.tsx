@@ -84,6 +84,10 @@ export function Wizard() {
             <input value={constraints.start_term} onChange={(e) => setConstraint("start_term", e.target.value)} placeholder="Fall 2026" />
           </label>
           <label className="field">
+            <span>Graduation target</span>
+            <input value={constraints.target_term || ""} onChange={(e) => setConstraint("target_term", e.target.value)} placeholder="Spring 2029" />
+          </label>
+          <label className="field">
             <span>Max credits / term</span>
             <input type="number" min={3} max={24} value={constraints.max_credits} onChange={(e) => setConstraint("max_credits", Number(e.target.value))} />
           </label>

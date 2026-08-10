@@ -27,6 +27,14 @@ button { font-family: inherit; cursor: pointer; }
 .brand-text h1 { font-size: 18px; }
 .tagline { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
 .topbar-actions { display: flex; align-items: center; gap: 10px; }
+.plan-switcher { display: flex; align-items: center; gap: 8px; max-width: 620px; }
+.plan-tabs { display: flex; align-items: center; gap: 4px; }
+.plan-tab, .workspace-setup { white-space: nowrap; background: var(--card); border: 1px solid var(--line); color: var(--muted); border-radius: 8px; padding: 6px 9px; font-size: 11px; }
+.plan-tab:hover, .workspace-setup:hover { border-color: var(--accent); color: var(--text); }
+.plan-tab.active { background: rgba(201,162,39,.15); border-color: var(--accent); color: var(--accent2); font-weight: 600; }
+.plan-name { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--faint); white-space: nowrap; }
+.plan-name input { width: 100px; padding: 5px 7px; border-radius: 7px; border: 1px solid var(--line); background: var(--card2); color: var(--text); font: inherit; }
+.plan-name em { color: var(--accent2); font-style: normal; }
 .icon-btn, .ghost-btn { background: var(--card); border: 1px solid var(--line); color: var(--text); border-radius: 9px; padding: 7px 12px; font-size: 13px; }
 .icon-btn { width: 36px; height: 34px; }
 .ghost-btn:hover, .icon-btn:hover { border-color: var(--accent); }
@@ -84,6 +92,15 @@ button { font-family: inherit; cursor: pointer; }
 .board-layout { display: grid; grid-template-columns: 1fr 320px; gap: 16px; padding: 14px 18px; flex: 1; min-height: 0; }
 .board-main { display: flex; flex-direction: column; min-width: 0; }
 .board-controls { display: flex; align-items: center; gap: 16px; margin-bottom: 10px; flex-wrap: wrap; }
+.target-pill { border: 1px solid var(--line); border-radius: 999px; padding: 5px 9px; font-size: 11px; font-weight: 600; }
+.target-pill.ok { border-color: rgba(63,178,127,.5); color: var(--ok); background: rgba(63,178,127,.1); }
+.target-pill.late { border-color: rgba(229,96,77,.55); color: var(--bad); background: rgba(229,96,77,.1); }
+.track-addon { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
+.track-addon-label { color: var(--muted); font-size: 11px; }
+.track-chip, .track-add-btn { border-radius: 999px; padding: 4px 8px; font-size: 11px; }
+.track-chip { color: var(--cat-b); border: 1px solid rgba(91,141,239,.45); background: rgba(91,141,239,.1); }
+.track-add-btn { color: var(--muted); border: 1px dashed var(--line); background: transparent; }
+.track-add-btn:hover { color: var(--text); border-color: var(--cat-b); }
 .legend { display: flex; gap: 12px; font-size: 12px; color: var(--muted); margin-left: auto; }
 .lg::before { content: ""; }
 .lg.prereq { color: var(--accent2); } .lg.coreq { color: var(--cat-b); } .lg.violated { color: var(--bad); }

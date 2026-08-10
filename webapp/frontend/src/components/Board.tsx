@@ -4,6 +4,7 @@ import { useStore } from "../store";
 import { TermColumn } from "./TermColumn";
 import { DependencyLines } from "./DependencyLines";
 import { SummaryRail } from "./SummaryRail";
+import { TrackAddOn } from "./TrackAddOn";
 
 export function Board() {
   const semesters = useStore((s) => s.semesters);
@@ -11,6 +12,7 @@ export function Board() {
   const addSemester = useStore((s) => s.addSemester);
   const audit = useStore((s) => s.audit);
   const strict = useStore((s) => s.strict);
+  const targetTerm = useStore((s) => s.constraints.target_term);
   const autoFix = useStore((s) => s.autoFix);
   const setToast = useStore((s) => s.setToast);
   const boardRef = useRef<HTMLDivElement>(null);
@@ -20,6 +22,13 @@ export function Board() {
   const sensors = useSensors(useSensor(PointerSensor, { activationConstraint: { distance: 5 } }));
 
   const activeCourse = semesters.flatMap((s) => s.courses).find((c) => c.uid === activeId);
+  const populatedTerms = semesters.filter((s) => s.courses.length);
+  const latestTerm = populatedTerms.length ? populatedTerms[populatedTerms.length - 1].term : undefined;
+  const termKey = (term: string) => {
+    const m = term.match(/(Spring|Summer|Fall)\s+(\d{4})/i);
+    return m ? (+m[2] * 3) + ({ spring: 0, summer: 1, fall: 2 } as Record<string, number>)[m[1].toLowerCase()] : 0;
+  };
+  const targetOnTrack = !targetTerm || !latestTerm || termKey(latestTerm) <= termKey(targetTerm);
 
   const wouldViolate = (uid: string, targetTerm: string): boolean => {
     if (!audit) return false;
@@ -36,16 +45,22 @@ export function Board() {
   const onDragStart = (e: DragStartEvent) => setActiveId(String(e.active.id));
   const onDragEnd = (e: DragEndEvent) => {
     setActiveId(null);
-    const overTerm = e.over?.id ? String(e.over.id) : null;
+    const overId = e.over?.id ? String(e.over.id) : null;
     const uid = String(e.active.id);
+    if (!overId) return;
+    const overCourse = semesters.flatMap((s) => s.courses).find((c) => c.uid === overId);
+    const overTerm = overCourse
+      ? semesters.find((s) => s.courses.some((c) => c.uid === overId))?.term
+      : overId.startsWith("term:") ? overId.slice(5) : null;
     if (!overTerm) return;
     const from = semesters.find((s) => s.courses.some((c) => c.uid === uid))?.term;
-    if (from === overTerm) return;
     if (strict && wouldViolate(uid, overTerm)) {
       setToast("Strict mode: that move puts a course before its prerequisite — snapped back.");
       return;
     }
-    moveCourse(uid, overTerm, 99);
+    const target = semesters.find((s) => s.term === overTerm);
+    const toIndex = overCourse && target ? target.courses.findIndex((c) => c.uid === overId) : (target?.courses.length || 0);
+    moveCourse(uid, overTerm, toIndex);
   };
 
   return (
@@ -53,6 +68,10 @@ export function Board() {
       <main className="board-layout">
         <div className="board-main">
           <div className="board-controls">
+            {targetTerm && <div className={`target-pill${targetOnTrack ? " ok" : " late"}`}>
+              Target {targetTerm} · {targetOnTrack ? "within horizon" : `currently ends ${latestTerm}`}
+            </div>}
+            <TrackAddOn />
             <label className="line-toggle">
               <input type="checkbox" checked={showAll} onChange={(e) => setShowAll(e.target.checked)} /> Show all dependency lines
             </label>

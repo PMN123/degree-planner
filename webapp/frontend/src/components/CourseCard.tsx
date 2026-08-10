@@ -1,4 +1,4 @@
-import { useDraggable } from "@dnd-kit/core";
+import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { useMemo, useState } from "react";
 import { useStore } from "../store";
@@ -24,7 +24,7 @@ export function CourseCard({ course, term }: { course: Course; term: string }) {
   const programOrder = useMemo(() => [...majors, ...minors], [majors, minors]);
   const [chooser, setChooser] = useState(false);
 
-  const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({ id: course.uid });
+  const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({ id: course.uid });
 
   const badCheck = audit?.prerequisites.checks.find((c) => c.code === course.code && c.term === term && !c.ok);
   const violatedEdge = audit?.edges.some((e) => e.to === course.code && !e.satisfied);
@@ -32,6 +32,7 @@ export function CourseCard({ course, term }: { course: Course; term: string }) {
 
   const style: React.CSSProperties = {
     transform: CSS.Translate.toString(transform),
+    transition,
     opacity: isDragging ? 0.4 : undefined,
   };
 

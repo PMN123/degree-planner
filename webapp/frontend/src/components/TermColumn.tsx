@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useDroppable } from "@dnd-kit/core";
+import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
 import { useStore } from "../store";
 import type { Semester } from "../types";
 import { CourseCard } from "./CourseCard";
@@ -13,7 +14,7 @@ function loadClass(credits: number, isSummer: boolean): string {
 }
 
 export function TermColumn({ sem }: { sem: Semester }) {
-  const { setNodeRef, isOver } = useDroppable({ id: sem.term });
+  const { setNodeRef, isOver } = useDroppable({ id: `term:${sem.term}` });
   const removeSemester = useStore((s) => s.removeSemester);
   const addCourseToTerm = useStore((s) => s.addCourseToTerm);
   const max = useStore((s) => s.constraints.max_credits);
@@ -35,9 +36,11 @@ export function TermColumn({ sem }: { sem: Semester }) {
       </div>
       <div className={`load-meter ${cls}`}><span style={{ width: `${pct}%` }} /></div>
       <div className="term-body">
-        {sem.courses.map((c) => (
-          <CourseCard key={c.uid} course={c} term={sem.term} />
-        ))}
+        <SortableContext items={sem.courses.map((c) => c.uid)} strategy={verticalListSortingStrategy}>
+          {sem.courses.map((c) => (
+            <CourseCard key={c.uid} course={c} term={sem.term} />
+          ))}
+        </SortableContext>
         {!sem.courses.length && <div className="term-empty">drop here</div>}
         {adding ? (
           <div className="term-add" onPointerDown={(e) => e.stopPropagation()}>

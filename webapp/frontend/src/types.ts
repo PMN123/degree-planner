@@ -90,3 +90,17 @@ export interface Constraints {
   max_credits: number;
   use_summers: boolean;
 }
+
+/** A complete, device-local planning workspace. Nothing in this shape is sent to a server. */
+export interface SavedPlan {
+  id: string;
+  name: string;
+  majors: string[];
+  minors: string[];
+  completed: Course[];
+  constraints: Constraints;
+  semesters: Semester[];
+  step: "wizard" | "board";
+  availableTracks?: TrackOption[];
+  pickedTracks?: string[];
+}

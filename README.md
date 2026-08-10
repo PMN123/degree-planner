@@ -13,6 +13,14 @@ turns red, the course flags its missing prereq, and a one-click **Fix** (or **�
 Auto-arrange** for the whole board) moves it to the earliest legal term. Live on the
 side: requirement coverage, term loads, credit totals, and cross-degree overlap.
 
+For comparing timelines, the planner can create three browser-local target workspaces
+(Spring 2028, Fall 2028, and Spring 2029) for **CS + Mathematics + Statistics
+(Mathematics Emphasis) + Finance minor**. Each workspace keeps its own cards, selected
+programs, completed credit, and graduation target; no plan data is uploaded. Choose a
+CS concentration normally, then optionally add a second CS focus such as Machine
+Intelligence—the board adds only the missing track coursework while keeping the official
+single-concentration degree audit separate.
+
 Coverage spans the **whole catalog** — a scraped index of **~960 programs** with
 **~445 undergraduate majors/minors** parsed into editable requirement files.
 
